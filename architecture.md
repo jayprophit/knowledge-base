@@ -27,6 +27,7 @@ This document outlines the physical architecture of the knowledge base repositor
     /schemas/         # JSON schemas for knowledge structures
     /api/             # API documentation and examples
     /vectorization/   # Vectorization protocols and embeddings
+    /config/          # MCP server configuration for cross-platform setup
   /backups/           # Backup storage for files
   /logs/              # Log files from automated processes
   README.md           # Repository overview
@@ -64,6 +65,8 @@ This document outlines the physical architecture of the knowledge base repositor
   - `anthropic/constitutional_principles.md` → All content files
 - **MCP Integration to API**: MCP integration guides API implementation
   - `mcp/integration_guide.md` → `mcp/api/*`
+- **MCP Config to Deployments**: MCP configuration for different platforms
+  - `mcp/config/mcp_config.json` → Cross-platform deployments
 
 ## File Types and Conventions
 
@@ -101,6 +104,7 @@ This document outlines the physical architecture of the knowledge base repositor
 - **Format**: YAML (.yml) or JSON (.json)
 - **Naming**: config_name.yml/json
 - **Purpose**: Store configuration settings
+- **MCP Config**: `mcp_config.json` contains server configuration for cross-platform setup
 
 ### Script Files
 - **Format**: Python (.py)
@@ -164,10 +168,17 @@ When adding new files to the knowledge base, follow these location guidelines:
 - **Location**: `/scripts/update_readme.py`
 - **Usage**: `python scripts/update_readme.py`
 
+### auto_update_docs.py
+- **Purpose**: Combined script to update both README.md and changelog.md
+- **Location**: `/scripts/auto_update_docs.py`
+- **Usage**: `python scripts/auto_update_docs.py [--commit] [--push]`
+
 ## References
 - [System Design](system_design.md) - Conceptual system design
 - [Plan](plan.md) - Current knowledge base plan
 - [Changelog](changelog.md) - Record of changes to knowledge base
 - [MCP Integration Guide](mcp/integration_guide.md) - MCP compatibility guidelines
+- [MCP Configuration](mcp/config/README.md) - MCP server configuration guide
 - [Anthropic Processing Pipeline](anthropic/processing_pipeline.md) - Anthropic data processing methodology
 - [Automation Guide](automation/step_by_step_guide.md) - Step-by-step automation procedures
+- [Rollback Procedures](rollback.md) - Recovery and rollback process

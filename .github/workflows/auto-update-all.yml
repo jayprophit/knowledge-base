@@ -1,0 +1,70 @@
+name: Auto Update Knowledge Base
+
+on:
+  # Run every day at midnight
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # Run when changes are pushed to main branch
+  push:
+    branches:
+      - main
+      - master
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-knowledge-base:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for proper changelog updates
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      
+      - name: Configure git
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+      
+      - name: Sync brain plan with knowledge base plan
+        env:
+          BRAIN_PLAN_PATH: ${{ secrets.BRAIN_PLAN_PATH }}  # Configure this in repository secrets
+        run: |
+          python scripts/sync_brain_plan.py --brain-plan "${BRAIN_PLAN_PATH}" --kb-plan "plan.md"
+      
+      - name: Update README and changelog
+        run: |
+          python scripts/auto_update_docs.py
+      
+      - name: Check for broken links
+        run: |
+          # Install markdown-link-check if available
+          npm install -g markdown-link-check || echo "markdown-link-check not installed, skipping link check"
+          # Check for broken links in markdown files if tool is installed
+          if command -v markdown-link-check &> /dev/null; then
+            find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -exec markdown-link-check {} \; || echo "Some links may be broken, please check logs"
+          fi
+      
+      - name: Commit changes if any
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            git add .
+            git commit -m "Auto-update knowledge base ($(date '+%Y-%m-%d'))"
+            git push
+            echo "Knowledge base updated successfully"
+          else
+            echo "No changes to commit"
+          fi
