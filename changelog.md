@@ -22,6 +22,8 @@
 - Tutorial and documentation for multi-modal recognition system
 - Jupyter notebook fix utility for resolving malformed notebooks
 - `memories.md` file for tracking changes and maintaining continuity across chat sessions
+- Comprehensive documentation for multi-category object recognition in docs/ai/vision
+- Detailed implementation guide for multi-modal audio recognition in docs/ai/audio
 
 ### Changed
 - Enhanced README.md with linking and reference guidelines
