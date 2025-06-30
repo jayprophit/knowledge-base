@@ -1,0 +1,50 @@
+# Changelog
+
+## [Unreleased]
+
+### Added
+- Initial knowledge base structure setup
+- Documentation for Data Acquisition step in ML workflow
+- Documentation for Preprocessing step in ML workflow
+- Documentation for Splitting the Data step in ML workflow
+- Documentation for Build + Train Model step in ML workflow
+- Documentation for Evaluate Performance step in ML workflow
+- Documentation for Hyperparameter Tuning step in ML workflow
+- Documentation for Deployment step in ML workflow
+- Documentation for Microsoft BITNET B1.58 2B4T model
+- Cross-linking plan between brain and repository
+- Setup links and references structure in README.md
+
+### Changed
+- Enhanced README.md with linking and reference guidelines
+- Updated plan.md to match brain/plan.md for cross-session continuity
+
+### Planned
+- Add more cross-references between related documentation
+- Implement automated updating system
+- Create virtual quantum computer documentation
+- Set up rollback system for version control
+- Complete system design and architecture documentation
+
+## [0.1.0] - 2025-06-30
+
+### Added
+- Initial repository setup
+- Basic documentation structure
+- First documentation drafts
+
+---
+
+## Changelog Format
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+Types of changes:
+- `Added` for new features or content
+- `Changed` for changes in existing functionality or content
+- `Deprecated` for soon-to-be removed features or content
+- `Removed` for now removed features or content
+- `Fixed` for any bug fixes
+- `Security` in case of vulnerabilities
+- `Planned` for upcoming changes and features
