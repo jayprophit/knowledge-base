@@ -21,6 +21,7 @@
 - Testing and validation suite for multi-modal recognition
 - Tutorial and documentation for multi-modal recognition system
 - Jupyter notebook fix utility for resolving malformed notebooks
+- `memories.md` file for tracking changes and maintaining continuity across chat sessions
 
 ### Changed
 - Enhanced README.md with linking and reference guidelines

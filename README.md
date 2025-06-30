@@ -16,7 +16,9 @@ knowledge-base/
 │   └── multimodal/    # Unified multi-modal recognition
 ├── tests/             # Test suites and validation
 ├── tutorials/         # Hands-on examples and guides
-└── scripts/           # Utility scripts for maintenance
+├── scripts/           # Utility scripts for maintenance
+├── memories.md        # Session tracking and memory persistence
+└── [Other .md files]  # Main documentation and configuration files
 ```
 
 ## Featured Components
