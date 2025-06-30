@@ -73,7 +73,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import (accuracy_score, precision_score, recall_score, 
                              f1_score, roc_auc_score, confusion_matrix, 
-                             classification_report, roc_curve, precision_recall_curve)
+                             classification_report, roc_curve,
+                             precision_recall_curve)
 from sklearn.calibration import calibration_curve
 import seaborn as sns
 
@@ -88,28 +89,31 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     
     # Get predictions and probabilities
     y_pred_proba = model.predict_proba(X)
-    y_pred = (y_pred_proba[:, 1] > threshold).astype(int) if y_pred_proba.shape[1] == 2 else np.argmax(y_pred_proba, axis=1)
     
-    # Basic metrics
+    if y_pred_proba.shape[1] == 2:  # Binary classification
+        y_pred = (y_pred_proba[:, 1] >= threshold).astype(int)
+    else:  # Multiclass classification
+        y_pred = np.argmax(y_pred_proba, axis=1)
+    
+    # Calculate metrics
     accuracy = accuracy_score(y_true, y_pred)
     
-    # For multi-class, use 'macro' or 'weighted' average
-    average = 'binary' if len(np.unique(y_true)) == 2 else 'weighted'
-    precision = precision_score(y_true, y_pred, average=average, zero_division=0)
-    recall = recall_score(y_true, y_pred, average=average, zero_division=0)
-    f1 = f1_score(y_true, y_pred, average=average, zero_division=0)
+    # For binary classification or averaging in multiclass
+    precision = precision_score(y_true, y_pred, average='weighted')
+    recall = recall_score(y_true, y_pred, average='weighted')
+    f1 = f1_score(y_true, y_pred, average='weighted')
     
-    # AUC-ROC (binary or one-vs-rest for multi-class)
+    # ROC AUC - special handling for multiclass
     try:
-        if y_pred_proba.shape[1] == 2:  # Binary classification
+        if y_pred_proba.shape[1] == 2:  # Binary
             auc_roc = roc_auc_score(y_true, y_pred_proba[:, 1])
-        else:  # Multi-class
+        else:  # Multiclass
             auc_roc = roc_auc_score(y_true, y_pred_proba, multi_class='ovr')
-    except Exception as e:
+    except:
         auc_roc = None
-        print(f"Could not calculate AUC-ROC: {e}")
     
-    # Print metrics
+    # Print basic metrics
+    print("Model Performance Metrics:")
     print(f"Accuracy: {accuracy:.4f}")
     print(f"Precision: {precision:.4f}")
     print(f"Recall: {recall:.4f}")
@@ -125,7 +129,7 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     cm = confusion_matrix(y_true, y_pred)
     plt.figure(figsize=(10, 8))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                xticklabels=class_names if class_names else "auto",
+                xticklabels=class_names if class_names else "auto", 
                 yticklabels=class_names if class_names else "auto")
     plt.xlabel('Predicted')
     plt.ylabel('True')

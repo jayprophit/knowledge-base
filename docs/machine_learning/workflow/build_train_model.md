@@ -205,4 +205,4 @@ for epoch in range(num_epochs):
 - [TensorFlow Documentation](https://www.tensorflow.org/api_docs) - External resource
 - [PyTorch Tutorials](https://pytorch.org/tutorials/) - External resource
 - [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html) - External resource
-- [Microsoft BITNET B1.58 2B4T](bitnet_b158_2b4t.md) - Example of an advanced model architecture
+- [Microsoft BITNET B1.58 2B4T](../../ai/models/bitnet_b158_2b4t.md) - Example of an advanced model architecture

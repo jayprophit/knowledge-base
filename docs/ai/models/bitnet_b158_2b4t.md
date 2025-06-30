@@ -15,7 +15,7 @@ BITNET B1.58 2B4T is a highly efficient Large Language Model (LLM) designed to r
   - Demo: Apple M-series chip achieves 5–7 tokens/sec.
 - **No Embedding Table:** Reduces memory footprint to 0.4GB.
 - **Sub-layer Normalization:** Ensures model stability with simple squared ReLU activations.
-- **Tokenizer:** Uses Llama 3’s tokenizer for compatibility and efficiency.
+- **Tokenizer:** Uses Llama 3's tokenizer for compatibility and efficiency.
 
 ## Performance Benchmarks
 - **Macro Score (17 benchmarks):** 54.19% (float-based reference)
@@ -25,9 +25,9 @@ BITNET B1.58 2B4T is a highly efficient Large Language Model (LLM) designed to r
   - ARC Easy: 74.79%
 - **Math:**
   - GSM8K: 58.38%
-  - Beating other 2B models and quantized models (e.g., Quan’s: 56.79%)
+  - Beating other 2B models and quantized models (e.g., Quan's: 56.79%)
 - **Memory Footprint:**
-  - Quantized: 0.7GB (double BITNET’s footprint)
+  - Quantized: 0.7GB (double BITNET's footprint)
   - Outperforms 4-bit post-training models (e.g., GPTQ, AWQ)
 
 ## Model Analogy
@@ -66,6 +66,11 @@ This shrinks the model from gigabytes to the size of a small mobile game downloa
 ## References
 - [BITNET on Hugging Face](https://huggingface.co/)
 - [Benchmarks: MMLU, GSM8K, ARC-CHALLENGE, HELLASWAG, PI TRUTHFLUQA, etc.]
+
+## Related Documents
+- [Build & Train Model](../../machine_learning/workflow/build_train_model.md) - General model building concepts
+- [Model Deployment](../../machine_learning/workflow/deployment.md) - Deploying efficient models
+- [Performance Evaluation](../../machine_learning/workflow/evaluate_performance.md) - Benchmarking and evaluation techniques
 
 ---
 

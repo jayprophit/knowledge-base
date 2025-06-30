@@ -70,6 +70,7 @@ Hyperparameter tuning is the process of optimizing a model's hyperparameters to 
 ```python
 # Example: Various hyperparameter tuning approaches
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, cross_val_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
@@ -87,12 +88,12 @@ param_grid = {
     'n_estimators': [50, 100, 200],
     'max_depth': [None, 10, 20, 30],
     'min_samples_split': [2, 5, 10],
-    'min_samples_leaf': [1, 2, 4]
+    'min_samples_leaf': [1, 2, 4],
+    'bootstrap': [True, False]
 }
 
-rf = RandomForestClassifier(random_state=42)
 grid_search = GridSearchCV(
-    estimator=rf,
+    RandomForestClassifier(random_state=42),
     param_grid=param_grid,
     cv=5,
     scoring='f1',
@@ -101,23 +102,24 @@ grid_search = GridSearchCV(
 )
 
 grid_search.fit(X_train, y_train)
+
 print(f"Best parameters: {grid_search.best_params_}")
 print(f"Best cross-validation score: {grid_search.best_score_:.4f}")
 print(f"Validation score: {grid_search.score(X_val, y_val):.4f}")
 
 # 2. Random Search with Scikit-learn
-param_dist = {
+param_distributions = {
     'n_estimators': randint(50, 500),
     'max_depth': randint(10, 50),
     'min_samples_split': randint(2, 20),
     'min_samples_leaf': randint(1, 10),
-    'max_features': ['auto', 'sqrt', 'log2']
+    'bootstrap': [True, False]
 }
 
 random_search = RandomizedSearchCV(
-    estimator=rf,
-    param_distributions=param_dist,
-    n_iter=100,  # Number of parameter settings sampled
+    RandomForestClassifier(random_state=42),
+    param_distributions=param_distributions,
+    n_iter=100,
     cv=5,
     scoring='f1',
     n_jobs=-1,
@@ -126,6 +128,7 @@ random_search = RandomizedSearchCV(
 )
 
 random_search.fit(X_train, y_train)
+
 print(f"Best parameters: {random_search.best_params_}")
 print(f"Best cross-validation score: {random_search.best_score_:.4f}")
 print(f"Validation score: {random_search.score(X_val, y_val):.4f}")
@@ -137,15 +140,15 @@ def objective(trial):
     max_depth = trial.suggest_int('max_depth', 10, 50)
     min_samples_split = trial.suggest_int('min_samples_split', 2, 20)
     min_samples_leaf = trial.suggest_int('min_samples_leaf', 1, 10)
-    max_features = trial.suggest_categorical('max_features', ['auto', 'sqrt', 'log2'])
+    bootstrap = trial.suggest_categorical('bootstrap', [True, False])
     
-    # Create and train the model
+    # Create and evaluate model
     rf = RandomForestClassifier(
         n_estimators=n_estimators,
         max_depth=max_depth,
         min_samples_split=min_samples_split,
         min_samples_leaf=min_samples_leaf,
-        max_features=max_features,
+        bootstrap=bootstrap,
         random_state=42
     )
     
