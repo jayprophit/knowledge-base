@@ -41,13 +41,45 @@ pip install -r requirements.txt
 
 Explore our comprehensive guides:
 
+### AI & Machine Learning
+- [Emotional Intelligence System](docs/ai/emotional_intelligence/ARCHITECTURE.md) - Core architecture for AI emotional intelligence
+- [Emotion Regulation](docs/ai/emotional_intelligence/EMOTION_REGULATION.md) - Managing and regulating emotional states
+- [Empathy & Social Awareness](docs/ai/emotional_intelligence/EMPATHY_AND_SOCIAL_AWARENESS.md) - Understanding and responding to others' emotions
+- [Self-Awareness](docs/ai/emotional_intelligence/SELF_AWARENESS.md) - Introspection and self-modeling capabilities
+- [Memory System](docs/ai/emotional_intelligence/MEMORY_SYSTEM.md) - Emotional and experiential memory
+
+### Multimodal Processing
 - [Multimodal Integration Guide](docs/ai/guides/multimodal_integration.md) - Combine vision, audio, and language processing
 - [Multilingual Understanding](docs/ai/guides/multilingual_understanding.md) - Implement translation and cross-lingual capabilities
-- [Advanced Security](docs/security/advanced_analysis.md) - Secure your AI systems and data
 - [Vision Processing](docs/ai/vision/multi_category_object_recognition.md) - Object and scene understanding
 - [Audio Processing](docs/ai/audio/multi_modal_audio_recognition.md) - Speech and sound analysis
 
+### Security & Advanced Topics
+- [Advanced Security](docs/security/advanced_analysis.md) - Secure your AI systems and data
+
 ### Quick Examples
+
+#### Emotional State Analysis
+```python
+from emotional_intelligence.emotion_recognition import EmotionRecognizer
+
+recognizer = EmotionRecognizer()
+analysis = recognizer.analyze("I'm really excited about this project!")
+print(f"Detected emotion: {analysis['primary_emotion']['label']}")
+print(f"Confidence: {analysis['primary_emotion']['confidence']:.2f}")
+```
+
+#### Empathic Response Generation
+```python
+from emotional_intelligence.empathy import EmpathicResponseGenerator
+
+generator = EmpathicResponseGenerator()
+response = generator.generate_response(
+    "I'm feeling really stressed about this deadline.",
+    context={'conversation_history': [...]}
+)
+print(response['content'])
+```
 
 #### Multilingual Translation
 ```python
