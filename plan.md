@@ -1,5 +1,7 @@
 # Knowledge Base Documentation Plan
 
+> **Note:** In this context, "brain/plan" refers to any chat, program, platform, or software that uses its own plan internally. This ensures there is no confusion, and any system can adopt this plan structure for its own internal workflow.
+
 ## Notes
 - User wants to build a knowledge base with interconnected documentation for ML workflow steps.
 - Each workflow step should have individual documentation for reuse in other areas.
@@ -120,6 +122,16 @@
 - New note: Robotics documentation structure created (docs/robotics/README.md) to organize advanced robotic system documentation (architecture, perception, movement, AI, safety, integration, development, specs, API, troubleshooting, FAQ).
 - New note: Robotic system architecture documentation added (docs/robotics/architecture.md) detailing system overview, modules, data flow, integration, safety, and future upgrades.
 - New note: Vision systems documentation for robotics (docs/robotics/perception/vision_systems.md) created, covering multi-spectral imaging, depth sensing, object recognition, visual processing pipeline, performance, calibration, and integration.
+- New note: Deployment documentation created for cross-platform/containerized/devops workflows (docs/deployment/README.md, containerization/README.md, platforms/README.md, iac/README.md, mlops/README.md, etc.), covering .env, Docker, Kubernetes, devcontainers, Terraform, CI/CD, and platform-specific deployment for Microsoft, Apple, Linux, Google, etc.
+- New note: Continue expanding robotics documentation to cover movement, AI, implementation examples, and integration guides for specific use cases.
+- New note: Perform deep analysis scan of the knowledge_base for undocumented data/components, generate and integrate missing documentation, and ensure all links, references, and main directory files are updated as required by the latest instructions
+- New note: Begin integration of advanced robotics system enhancements (UI/UX, energy management, networking/security, localization/navigation, modularity, learning/adaptation, swarm robotics, ethics/compliance, disaster recovery, testing/validation, etc.) and document all missing or expanded aspects as detailed in the latest user request. Ensure all documentation is cross-linked and referenced.
+- New note: Run a deep analysis scan of the knowledge_base for undocumented data/components
+- New note: Add and integrate documentation for all missing or undocumented data/components (including advanced robotics system enhancements and all aspects from the latest user request)
+- New note: Ensure new documentation is cross-linked, referenced, and all main directory files are updated
+- New note: Robotics learning/adaptation and perception/computer vision documentation (with deep learning code and system architecture) is being created and integrated in docs/robotics/advanced_system/learning/README.md and docs/robotics/advanced_system/perception/README.md.
+- New note: Robotics perception and depth estimation documentation files (docs/robotics/advanced_system/perception/README.md and depth_estimation.md) have been created and are now fully populated with system architecture, deep learning code, sensor fusion, and implementation examples.
+- New note: Begin and integrate documentation for advanced robotics control systems, localization/navigation, human-robot interaction, swarm robotics, and testing/validation frameworks as requested. Ensure all perception/vision/depth modules (MiDaS/DPT, OpenCV SGBM, Open3D, quantization, obstacle detection) are included, cross-linked, and referenced in the robotics documentation suite.
 
 ## Task List
 - [x] Draft documentation for Data Acquisition

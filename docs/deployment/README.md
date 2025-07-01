@@ -70,7 +70,17 @@ API_KEY=your_api_key_here
 JWT_SECRET=your_jwt_secret_here
 ```
 
-## Deployment Options
+## Deployment
+
+## Overview
+Deployment for the robotics knowledge base leverages containerization, environment management, and automated workflows for reproducibility and scalability. See the following resources for details:
+
+- [DevOps](../devops/README.md)
+- [MLOps](../mlops/README.md)
+- [AIOps](../aiops/README.md)
+- [Dockerfile](../../Dockerfile)
+- [DevContainer](../../.devcontainer/devcontainer.json)
+- [.env Example](../../.env)
 
 ### Local Development
 
