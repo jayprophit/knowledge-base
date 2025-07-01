@@ -1,7 +1,23 @@
 # Rollback Procedures
 
 ## Overview
-This document outlines procedures for rolling back changes to the knowledge base when necessary. These procedures are designed to maintain data integrity and provide a reliable mechanism for reverting to previous stable states.
+This document outlines procedures for rolling back changes to the knowledge base when necessary. These procedures are designed to maintain data integrity and provide a reliable mechanism for reverting to previous stable states. Special attention is given to robotics, MLOps, and emotional intelligence components.
+
+## Pre-Rollback Checklist
+
+1. **Identify Impact**
+   - Determine which components are affected (documentation, code, models, configurations)
+   - Check dependent systems and services
+   - Verify backup availability
+
+2. **Communication Plan**
+   - Notify stakeholders about the planned rollback
+   - Schedule maintenance window if needed
+   - Document rollback reason and expected duration
+
+3. **Backup Current State**
+   - Create a backup tag: `git tag backup-pre-rollback-$(date +%Y%m%d%H%M%S)`
+   - Push tag: `git push origin <tag_name>`
 
 ## Standard Rollback Procedures
 
@@ -39,7 +55,71 @@ If specific content versions are maintained in the documentation:
 4. Update references and metadata as needed
 5. Document the rollback in the changelog
 
-### 3. Emergency Rollback
+### 3. Component-Specific Rollback Procedures
+
+### 1. Robotics Components
+
+#### Rollback Robot Firmware
+```bash
+# Check available firmware versions
+robot-cli firmware list
+
+# Rollback to previous version
+robot-cli firmware rollback <version>
+
+# Verify robot status
+robot-cli status
+```
+
+#### Revert Robot Configuration
+```bash
+# List configuration history
+robot-cli config history
+
+# Revert to previous configuration
+robot-cli config rollback <version>
+```
+
+### 2. MLOps Pipeline
+
+#### Model Rollback
+```python
+# Using MLflow for model versioning
+import mlflow
+
+# List available model versions
+client = mlflow.tracking.MlflowClient()
+model_versions = client.search_model_versions(f"name='model_name'")
+
+# Transition model stage
+client.transition_model_version_stage(
+    name="model_name",
+    version=previous_version,
+    stage="Production"
+)
+```
+
+#### Kubernetes Deployment Rollback
+```bash
+# List deployment history
+kubectl rollout history deployment/ml-service
+
+# Rollback to previous version
+kubectl rollout undo deployment/ml-service
+```
+
+### 3. Emotional Intelligence Module
+
+#### Emotion Model Rollback
+```python
+# Revert to previous emotion model version
+from emotion_models import EmotionModel
+
+model = EmotionModel.load_version(version='previous_stable')
+model.deploy()
+```
+
+### 4. Emergency Rollback
 
 In case of critical failures or data corruption:
 

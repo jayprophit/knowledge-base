@@ -12,6 +12,9 @@ This document outlines the system design and architecture of the knowledge base 
 - **Metadata Tagging**: Consistent metadata for improved searchability and categorization.
 - **Machine-Readable Design**: Structured format with explicit IDs and semantic relationships.
 - **Constitutional Metadata**: Alignment scores based on helpfulness, harmlessness, honesty, neutrality, and accessibility principles.
+- **Robotics Integration**: Documentation for robotic systems, including movement, perception, and control.
+- **MLOps Pipeline**: End-to-end machine learning operations documentation.
+- **Emotional Intelligence**: Frameworks for emotional modeling and empathy in AI systems.
 
 ### 2. File Management
 - **Standardized Templates**: Common format for all documentation to ensure consistency.
@@ -26,8 +29,24 @@ This document outlines the system design and architecture of the knowledge base 
 - **Scheduled Reviews**: Regular assessment of content accuracy and relevance.
 - **Brain Plan Synchronization**: Automatic synchronization between external brain plan and knowledge base plan.
 - **Constitutional Review**: Assessment of content against Anthropic's constitutional principles.
+- **Main Directory Updates**: Mandatory updates to all main directory files (architecture.md, changelog.md, memories.md, method.md, plan.md, README.md, rollback.md, system_design.md) for any change to the knowledge base.
+- **Cross-Reference Validation**: Automated checking of internal links and references.
 
-### 4. Integration Features
+### 4. System Components
+
+#### 4.1 Core AI Modules
+- **Multi-Modal Recognition**: Audio, visual, and sensor data processing
+- **Emotional Intelligence**: Emotion modeling, empathy, and social awareness
+- **Robotics Control**: Locomotion, manipulation, and sensor fusion
+- **Quantum Computing**: Quantum algorithms and hybrid quantum-classical systems
+
+#### 4.2 Infrastructure
+- **MLOps Pipeline**: Model training, deployment, and monitoring
+- **Containerization**: Docker and Kubernetes for scalable deployment
+- **CI/CD**: Automated testing and deployment workflows
+- **Monitoring**: System health, model performance, and data quality
+
+### 5. Integration Features
 - **API Documentation**: For integrating with external systems.
 - **Import/Export Capabilities**: For sharing knowledge with other platforms.
 - **WebHooks**: For triggering automated actions on content updates.
