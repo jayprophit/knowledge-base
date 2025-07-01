@@ -228,6 +228,28 @@ After every major process or update, the following main files are reviewed and u
 - [TODO.md](TODO.md)
 - [checklist.md](checklist.md)
 
-All main files are cross-linked and must reflect the latest state of the knowledge base. See [plan.md](plan.md) and [changelog.md](changelog.md) for details on update automation.
+## Main Files Policy (Critical Requirement)
+
+The following files are the main, critical files for the knowledge base and robotics system:
+
+- [README.md](README.md)
+- [architecture.md](architecture.md)
+- [changelog.md](changelog.md)
+- [memories.md](memories.md)
+- [method.md](method.md)
+- [plan.md](plan.md)
+- [rollback.md](rollback.md)
+- [system_design.md](system_design.md)
+- [FIXME.md](FIXME.md)
+- [TODO.md](TODO.md)
+- [checklist.md](checklist.md)
+- [notes.md](notes.md)
+- [current_goal.md](current_goal.md)
+- [task_list.md](task_list.md)
+
+**Requirement:** Any change made to one of these files must be implemented in all others, both before and after any process. All files must be cross-linked and referenced. All data and code must be validated for correct formatting and correctness. `changelog.md`, `memories.md`, and `rollback.md` must include the date and time of any data input or amendments to track changes, updates, and support rollback if needed (like version control).
+
+See [plan.md](plan.md), [changelog.md](changelog.md), and [rollback.md](rollback.md) for details on update automation, tracking, and recovery.
+
 
 Maintained for MCP, A2A, and related AI systems and applications.

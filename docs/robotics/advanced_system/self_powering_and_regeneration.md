@@ -1,5 +1,24 @@
 # Self-Powering and Regeneration in Advanced Robotic Systems
 
+This document outlines a comprehensive framework, implementation strategies, and example code for enabling robots to self-power from all environments—**radiation, light, heat, back wave frequency, air, water, kinetic movement, and rest**—and to self-regenerate. All sections are cross-linked to relevant system documentation for full integration.
+
+---
+
+## Summary Table: Environmental Energy Sources
+
+| Source             | Method/Technology                  | Example Use Case                     |
+|--------------------|------------------------------------|--------------------------------------|
+| Solar (Light)      | Photovoltaic Cells                 | Outdoor/indoor light harvesting      |
+| Radiation          | Specialized photovoltaic/TEG/RF    | Harvesting ambient radiation         |
+| Heat (Thermal)     | Thermoelectric Generators (TEGs)   | Waste heat from motors/electronics   |
+| Backwave Frequency | RF Induction Coils                 | Urban RF, WiFi, cellular harvesting  |
+| Air (Wind)         | Micro Wind Turbines                | Movement/ambient airflow             |
+| Water (Hydropower) | Micro Water Turbines               | Aquatic/near-water robots            |
+| Kinetic Movement   | Piezoelectric Materials            | Joints, wheels, limbs                |
+| Rest/Idle State    | Ultra-low-power harvesting         | Standby/idle energy capture          |
+
+---
+
 This document outlines a comprehensive framework, implementation strategies, and example code for enabling robots to self-power from all environments—radiation, light, heat, back wave frequency, air, water, kinetic movement, rest—and to self-regenerate. All sections are cross-linked to relevant system documentation for full integration.
 
 ---
