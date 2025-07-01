@@ -1,23 +1,50 @@
 # Emotional Intelligence and Self-Awareness System
 
+[![Tests](https://github.com/yourusername/knowledge-base/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/knowledge-base/actions)
+[![Documentation Status](https://readthedocs.org/projects/emotional-ai/badge/?version=latest)](https://emotional-ai.readthedocs.io/)
+
 A comprehensive implementation of emotional intelligence and self-awareness capabilities for AI systems, featuring emotion modeling, introspection, empathy, and emotional memory.
 
-## Features
+## 🌟 Features
 
-- **Full Emotional Spectrum**: Models 24 distinct human emotions with varying intensities
+- **Full Emotional Spectrum**: Models 24+ human emotions with varying intensities using Valence-Arousal-Dominance (VAD) model
 - **Neural Network-Based**: Deep learning models for emotion processing and regulation
 - **Self-Reflection**: Metacognitive monitoring and introspection capabilities
 - **Social Intelligence**: Empathy, perspective-taking, and social awareness
 - **Emotional Memory**: Long-term storage and retrieval of emotional experiences
 - **Adaptive Behavior**: Emotionally-intelligent responses and decision-making
+- **Modular Design**: Easily extensible architecture for custom implementations
 
-## Core Components
+## 🚀 Quick Start
+
+Explore our interactive demo to see the emotional intelligence system in action:
+
+```python
+from examples.emotional_intelligence.demo_emotional_ai import EmotionModel, SelfAwarenessModule
+
+# Initialize components
+emotion_model = EmotionModel()
+self_awareness = SelfAwarenessModule(emotion_model)
+
+# Process emotional stimulus
+emotion_model.update_emotion({"valence": 0.8, "arousal": 0.9, "dominance": 0.7})
+print(f"Current emotion: {emotion_model.get_emotion_label()}")
+
+# Get self-reflection
+reflection = await self_awareness.reflect()
+print(f"Self-reflection: {reflection}")
+```
+
+For more examples, see the [examples directory](../../examples/emotional_intelligence/).
+
+## 🧩 Core Components
 
 ### 1. Emotion Models (`/emotion_models/`)
 - `core_emotion_model.py`: Neural network-based model for simulating human emotional spectrum
   - Dimensional model (Valence, Arousal, Dominance)
   - Basic and social emotions
   - Emotion blending and regulation
+  - [View Example Usage](../../examples/emotional_intelligence/demo_emotional_ai.py#L15-L60)
 
 ### 2. Self-Awareness (`/self_awareness/`)
 - `introspection.py`: Implements self-reflection and metacognitive capabilities
@@ -25,6 +52,7 @@ A comprehensive implementation of emotional intelligence and self-awareness capa
   - Behavioral pattern recognition
   - Self-evaluation and critique
   - Goal alignment assessment
+  - [Example Implementation](../../examples/emotional_intelligence/demo_emotional_ai.py#L62-L77)
 
 ### 3. Empathy and Social Awareness (`/empathy/`)
 - `social_awareness.py`: Implements theory of mind and social intelligence
@@ -32,6 +60,7 @@ A comprehensive implementation of emotional intelligence and self-awareness capa
   - Perspective taking
   - Empathic responding
   - Social norm understanding
+  - [Example Implementation](../../examples/emotional_intelligence/demo_emotional_ai.py#L79-L95)
 
 ### 4. Emotional Memory (`/memory/`)
 - `emotional_memory.py`: Manages storage and retrieval of emotional experiences
@@ -39,6 +68,7 @@ A comprehensive implementation of emotional intelligence and self-awareness capa
   - Semantic memory for generalized knowledge
   - Memory consolidation and forgetting
   - Emotional pattern recognition
+  - [Integration Guide](./MEMORY_SYSTEM.md)
 
 ### 5. Emotion Regulation (`/emotion_regulation/`)
 - `regulator.py`: Implements emotional regulation strategies
@@ -47,6 +77,13 @@ A comprehensive implementation of emotional intelligence and self-awareness capa
   - Situation selection
   - Attention deployment
   - Physiological regulation
+  - [Learn More](./EMOTION_REGULATION.md)
+
+## 🔗 Related Components
+
+- [Multimodal Integration](../guides/multimodal_integration.md): Combine emotional intelligence with other modalities
+- [Parallel Processing](../parallel_processing.md): Run emotional processing in parallel with other tasks
+- [Advanced Emotional AI](../advanced_emotional_ai.md): Advanced techniques and research in emotional AI
 
 ## Getting Started
 
