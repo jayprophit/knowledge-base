@@ -17,7 +17,16 @@ A comprehensive implementation of emotional intelligence and self-awareness capa
 
 ## 🚀 Quick Start
 
-Explore our interactive demo to see the emotional intelligence system in action:
+Explore our interactive demo to see the Emotional Intelligence System in action:
+
+**[Python Implementation →](PYTHON_IMPLEMENTATION.md)**  
+**[Architecture →](ARCHITECTURE.md)**  
+**[Self-Awareness →](SELF_AWARENESS.md)**  
+**[Emotion Regulation →](EMOTION_REGULATION.md)**  
+**[Empathy & Social Awareness →](EMPATHY_AND_SOCIAL_AWARENESS.md)**  
+**[Memory System →](MEMORY_SYSTEM.md)**
+
+**[Source Code (emotional_intelligence.py) →](../../../src/ai/emotional_intelligence.py)**
 
 ```python
 from examples.emotional_intelligence.demo_emotional_ai import EmotionModel, SelfAwarenessModule

@@ -1,5 +1,9 @@
 # Virtual Brain Simulation System - Architecture Overview
 
+**[Python Implementation →](03_python_implementation.md)**  
+**[Cognitive Functions →](02_cognitive_functions.md)**  
+**[Source Code (virtual_brain.py) →](../../../src/ai/virtual_brain.py)**
+
 ## 1. System Architecture
 
 ### 1.1 High-Level Components
