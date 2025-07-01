@@ -43,6 +43,7 @@ This document outlines the system design and architecture of the knowledge base 
 ```
 knowledge-base/
 ├── README.md                 # Project overview and usage guide
+├── method.md                 # Development methodology and approach
 ├── plan.md                   # Project roadmap and task tracking
 ├── changelog.md              # Record of all changes
 ├── system_design.md          # This document

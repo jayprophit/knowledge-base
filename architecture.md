@@ -31,6 +31,7 @@ This document outlines the physical architecture of the knowledge base repositor
   /backups/           # Backup storage for files
   /logs/              # Log files from automated processes
   README.md           # Repository overview
+  method.md           # Development methodology and approach
   plan.md             # Knowledge base plan
   changelog.md        # Record of changes
   system_design.md    # System design documentation

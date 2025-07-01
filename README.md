@@ -41,6 +41,8 @@ pip install -r requirements.txt
 
 Explore our comprehensive guides:
 
+- [Project Methodology](method.md) - Our development approach and principles
+
 ### AI & Machine Learning
 - [Emotional Intelligence System](docs/ai/emotional_intelligence/ARCHITECTURE.md) - Core architecture for AI emotional intelligence
 - [Emotion Regulation](docs/ai/emotional_intelligence/EMOTION_REGULATION.md) - Managing and regulating emotional states

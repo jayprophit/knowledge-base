@@ -1,0 +1,62 @@
+name: Documentation Checks
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**/*.md'
+      - '**/*.py'
+      - 'scripts/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**/*.md'
+      - '**/*.py'
+      - 'scripts/**'
+
+jobs:
+  check-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install markdown-link-check
+        pip install mkdocs
+    
+    - name: Check Markdown links
+      run: |
+        # Find all markdown files and check their links
+        find . -name "*.md" -type f -not -path "./venv/*" -not -path "./.git/*" | \
+          xargs -I {} markdown-link-check -c .github/markdown-link-check-config.json {}
+    
+    - name: Check documentation cross-links
+      run: |
+        python scripts/update_main_links.py --check
+    
+    - name: Build documentation
+      run: |
+        mkdocs build --strict
+    
+    - name: Check for broken links in built docs
+      run: |
+        # This requires the site to be built first
+        cd site
+        find . -name "*.html" -type f | xargs -I {} grep -o 'href="[^"]*"' {} | \
+          grep -v '^#' | grep -v '^mailto:' | grep -v '^http' | \
+          while read -r link; do
+            target=$(echo "$link" | sed 's/href="\([^"]*\)"/\1/')
+            if [ ! -f "./$target" ] && [ ! -d "./$target" ]; then
+              echo "::error file=site/index.html::Broken link: $link"
+              exit 1
+            fi
+          done
