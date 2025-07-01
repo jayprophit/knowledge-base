@@ -7,12 +7,15 @@ on:
       - '**/*.md'
       - '**/*.py'
       - 'scripts/**'
+      - '.github/workflows/**'
   pull_request:
     branches: [ main ]
     paths:
       - '**/*.md'
       - '**/*.py'
       - 'scripts/**'
+      - '.github/workflows/**'
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
   check-docs:
@@ -39,9 +42,9 @@ jobs:
         find . -name "*.md" -type f -not -path "./venv/*" -not -path "./.git/*" | \
           xargs -I {} markdown-link-check -c .github/markdown-link-check-config.json {}
     
-    - name: Check documentation cross-links
+    - name: Run documentation verification
       run: |
-        python scripts/update_main_links.py --check
+        python scripts/verify_docs.py
     
     - name: Build documentation
       run: |
