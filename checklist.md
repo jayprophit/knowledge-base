@@ -1,5 +1,20 @@
 # Checklist
 
+> **IMPORTANT:** The following main files are critical and must be kept in sync. Any change to one must be reflected in all others, both before and after any process. All must be cross-linked and referenced:
+> - [README.md](README.md)
+> - [architecture.md](architecture.md)
+> - [changelog.md](changelog.md)
+> - [memories.md](memories.md)
+> - [method.md](method.md)
+> - [plan.md](plan.md)
+> - [rollback.md](rollback.md)
+> - [system_design.md](system_design.md)
+> - [FIXME.md](FIXME.md)
+> - [TODO.md](TODO.md)
+> - [checklist.md](checklist.md)
+>
+> **Validation:** All data and code must be validated for correct formatting and correctness at every step.
+
 This file provides a structured checklist of completed and incomplete items for the knowledge base. For more details, see [TODO.md](TODO.md), [plan.md](plan.md), [changelog.md](changelog.md).
 
 ## Incomplete

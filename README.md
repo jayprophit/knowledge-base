@@ -1,5 +1,20 @@
 # Advanced AI Knowledge Base
 
+> **IMPORTANT:** The following main files are critical and must be kept in sync. Any change to one must be reflected in all others, both before and after any process. All must be cross-linked and referenced:
+> - [README.md](README.md)
+> - [architecture.md](architecture.md)
+> - [changelog.md](changelog.md)
+> - [memories.md](memories.md)
+> - [method.md](method.md)
+> - [plan.md](plan.md)
+> - [rollback.md](rollback.md)
+> - [system_design.md](system_design.md)
+> - [FIXME.md](FIXME.md)
+> - [TODO.md](TODO.md)
+> - [checklist.md](checklist.md)
+>
+> **Validation:** All data and code must be validated for correct formatting and correctness at every step.
+
 This repository serves as a comprehensive knowledge base for advanced AI systems, machine learning workflows, quantum computing, multi-modal recognition, and robotics. It contains documentation, code examples, implementation guides, and cross-referenced resources for various components and technologies.
 
 ## Project Structure

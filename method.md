@@ -1,5 +1,20 @@
 # Project Methodology
 
+> **IMPORTANT:** The following main files are critical and must be kept in sync. Any change to one must be reflected in all others, both before and after any process. All must be cross-linked and referenced:
+> - [README.md](README.md)
+> - [architecture.md](architecture.md)
+> - [changelog.md](changelog.md)
+> - [memories.md](memories.md)
+> - [method.md](method.md)
+> - [plan.md](plan.md)
+> - [rollback.md](rollback.md)
+> - [system_design.md](system_design.md)
+> - [FIXME.md](FIXME.md)
+> - [TODO.md](TODO.md)
+> - [checklist.md](checklist.md)
+>
+> **Validation:** All data and code must be validated for correct formatting and correctness at every step.
+
 This document outlines the methodology and approach used throughout the development of this knowledge base and AI system. It serves as a guide to understanding how different components interact and how the system evolves over time.
 
 ## Core Principles
