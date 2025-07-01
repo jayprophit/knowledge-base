@@ -107,6 +107,9 @@ Explore our comprehensive guides:
 
 ### Security & Advanced Topics
 - [Advanced Security](docs/security/advanced_analysis.md) - Secure your AI systems and data
+- [Advanced Robotics System](docs/robotics/advanced_system/README.md)
+- [Speculative Abilities](docs/robotics/advanced_system/speculative_abilities.md)  
+  *Conceptual framework for supersonic/hypersonic movement, consciousness, telepathy, teleportation, and telekinesis in robotics*
 
 ### Quick Examples
 
