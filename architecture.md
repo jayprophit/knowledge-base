@@ -174,6 +174,23 @@ When adding new files to the knowledge base, follow these location guidelines:
 - **Location**: `/scripts/auto_update_docs.py`
 - **Usage**: `python scripts/auto_update_docs.py [--commit] [--push]`
 
+## Main Directory Update Points
+
+After every process or major update, the following files must be reviewed and updated to maintain architectural integrity:
+- [README.md](README.md)
+- [architecture.md](architecture.md)
+- [changelog.md](changelog.md)
+- [memories.md](memories.md)
+- [method.md](method.md)
+- [plan.md](plan.md)
+- [rollback.md](rollback.md)
+- [system_design.md](system_design.md)
+- [FIXME.md](FIXME.md)
+- [TODO.md](TODO.md)
+- [checklist.md](checklist.md)
+
+See [plan.md](plan.md) and [checklist.md](checklist.md) for the update workflow and status tracking.
+
 ## References
 - [System Design](system_design.md) - Conceptual system design
 - [Plan](plan.md) - Current knowledge base plan

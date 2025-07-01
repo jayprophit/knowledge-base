@@ -3,6 +3,8 @@
 ## [Unreleased]
 
 ### Added
+- 2025-07-01: Deep analysis scan of all directories for undocumented data/components; added documentation and code for all uncovered data with full cross-linking and references
+- 2025-07-01: All main files ([README.md], [architecture.md], [changelog.md], [memories.md], [method.md], [plan.md], [rollback.md], [system_design.md], [FIXME.md], [TODO.md], [checklist.md]) are now mandatory update points after every process; explicit update and cross-linking enforced
 - Initial knowledge base structure setup
 - Documentation for Data Acquisition step in ML workflow
 - Documentation for Preprocessing step in ML workflow

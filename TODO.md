@@ -1,1 +1,19 @@
-list of data of what to do next
+# TODO List
+
+This file tracks all next actions and outstanding tasks for the knowledge base. For full context, see also: [checklist.md](checklist.md), [plan.md](plan.md), [changelog.md](changelog.md).
+
+## Immediate Next Actions
+- [ ] Run a deep analysis scan for undocumented data/components (see plan.md)
+- [ ] Add documentation/code for any uncovered data, ensuring cross-links and references
+- [ ] Verify there are no empty directories, duplicate files, or folders
+- [ ] Merge/clean data as needed, fix all errors
+- [ ] Run repo-wide verification for gaps, broken links, or orphaned files (see scripts/verify_docs.py)
+- [ ] Update all main files ([README.md](README.md), [architecture.md](architecture.md), [changelog.md](changelog.md), [memories.md](memories.md), [method.md](method.md), [plan.md](plan.md), [rollback.md](rollback.md), [system_design.md](system_design.md), [FIXME.md](FIXME.md), [checklist.md](checklist.md)) after each process
+
+## Ongoing
+- [ ] Keep all documentation and code in sync with plan.md and changelog.md
+- [ ] Ensure every process/feature is reflected in all main files
+- [ ] Maintain and update cross-references between all main and sub-files
+
+---
+*Last updated: 2025-07-01*

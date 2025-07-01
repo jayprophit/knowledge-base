@@ -163,6 +163,23 @@ In case of critical failures or data corruption:
 ### Future Implementation
 Automated rollback scripts will be developed to simplify the rollback process for common scenarios. These scripts will be stored in the `scripts/` directory and documented here when available.
 
+## Main Directory Update Points
+
+After every rollback or major process, the following files must be reviewed and updated to maintain traceability:
+- [README.md](README.md)
+- [architecture.md](architecture.md)
+- [changelog.md](changelog.md)
+- [memories.md](memories.md)
+- [method.md](method.md)
+- [plan.md](plan.md)
+- [rollback.md](rollback.md)
+- [system_design.md](system_design.md)
+- [FIXME.md](FIXME.md)
+- [TODO.md](TODO.md)
+- [checklist.md](checklist.md)
+
+Rollback procedures must always include updating these files. See [plan.md](plan.md) and [checklist.md](checklist.md) for the update workflow and status tracking.
+
 ## References
 - [System Design](system_design.md) - Overall system architecture
 - [Changelog](changelog.md) - For recording rollback actions

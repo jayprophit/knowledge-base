@@ -1,5 +1,22 @@
 # Knowledge Base Documentation Plan
 
+## Main Directory Update Points
+
+After every process or major update, the following files must be reviewed and updated as a set to ensure consistency and traceability:
+- [README.md](README.md)
+- [architecture.md](architecture.md)
+- [changelog.md](changelog.md)
+- [memories.md](memories.md)
+- [method.md](method.md)
+- [plan.md](plan.md)
+- [rollback.md](rollback.md)
+- [system_design.md](system_design.md)
+- [FIXME.md](FIXME.md)
+- [TODO.md](TODO.md)
+- [checklist.md](checklist.md)
+
+See [checklist.md](checklist.md) for the update status and workflow.
+
 > **Note:** In this context, "brain/plan" refers to any chat, program, platform, or software that uses its own plan internally. This ensures there is no confusion, and any system can adopt this plan structure for its own internal workflow.
 
 ## Notes

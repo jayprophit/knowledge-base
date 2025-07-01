@@ -154,6 +154,23 @@ knowledge-base/
 - Real-time synchronization with external knowledge systems
 - Semantic reasoning across knowledge units
 
+## Main Directory Update Points
+
+After every process or major update, the following files must be reviewed and updated as a set to ensure system consistency:
+- [README.md](README.md)
+- [architecture.md](architecture.md)
+- [changelog.md](changelog.md)
+- [memories.md](memories.md)
+- [method.md](method.md)
+- [plan.md](plan.md)
+- [rollback.md](rollback.md)
+- [system_design.md](system_design.md)
+- [FIXME.md](FIXME.md)
+- [TODO.md](TODO.md)
+- [checklist.md](checklist.md)
+
+System design requires these updates for consistency. See [plan.md](plan.md) and [checklist.md](checklist.md) for the update workflow and status tracking.
+
 ## References
 - [README.md](README.md) - For general project information
 - [Changelog](changelog.md) - For tracking historical changes

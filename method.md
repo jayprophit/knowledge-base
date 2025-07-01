@@ -119,4 +119,22 @@ For questions or issues, please refer to:
 - [Issue Tracker](https://github.com/your-repo/issues)
 
 ---
-*Last Updated: 2025-06-30*
+
+## Main Directory Update Points
+
+After every process or major update, the following files must be reviewed and updated as a set to ensure consistency and traceability:
+- [README.md](README.md)
+- [architecture.md](architecture.md)
+- [changelog.md](changelog.md)
+- [memories.md](memories.md)
+- [method.md](method.md)
+- [plan.md](plan.md)
+- [rollback.md](rollback.md)
+- [system_design.md](system_design.md)
+- [FIXME.md](FIXME.md)
+- [TODO.md](TODO.md)
+- [checklist.md](checklist.md)
+
+See [plan.md](plan.md) and [checklist.md](checklist.md) for the update workflow and status tracking.
+
+*Last Updated: 2025-07-01*
