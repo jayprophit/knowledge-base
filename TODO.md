@@ -39,14 +39,17 @@
 This file tracks all next actions and outstanding tasks for the knowledge base. For full context, see also: [checklist.md](checklist.md), [plan.md](plan.md), [changelog.md](changelog.md).
 
 ## Immediate Next Actions
-- [ ] Run a deep analysis scan for undocumented data/components (see plan.md)
-- [ ] Add documentation/code for any uncovered data, ensuring cross-links and references
-- [ ] Verify there are no empty directories, duplicate files, or folders
-- [ ] Merge/clean data as needed, fix all errors
-- [ ] Run repo-wide verification for gaps, broken links, or orphaned files (see scripts/verify_docs.py)
-- [ ] Update all main files ([README.md](README.md), [architecture.md](architecture.md), [changelog.md](changelog.md), [memories.md](memories.md), [method.md](method.md), [plan.md](plan.md), [rollback.md](rollback.md), [system_design.md](system_design.md), [FIXME.md](FIXME.md), [checklist.md](checklist.md)) after each process
+- [x] Run a deep analysis scan for undocumented data/components (see plan.md)
+- [x] Add documentation/code for any uncovered data, ensuring cross-links and references
+- [x] Verify there are no empty directories, duplicate files, or folders
+- [x] Add and cross-link documentation/code for quantum drive theory, quantum thought, and quantum mechanics (see advanced_system/quantum_drive_and_thought.md)
+- [x] Add and cross-link documentation/code for nanotechnology integration (see advanced_system/nanotechnology_integration.md)
+- [x] Add and cross-link documentation/code for holographic projection and interaction (see advanced_system/holographic_projection_and_interaction.md)
+- [x] Add and cross-link documentation/code for time crystal integration (see advanced_system/time_crystal_integration.md)
+- [x] Update all main files ([README.md](README.md), [architecture.md](architecture.md), [changelog.md](changelog.md), [memories.md](memories.md), [method.md](method.md), [plan.md](plan.md), [rollback.md](rollback.md), [system_design.md](system_design.md), [FIXME.md](FIXME.md), [checklist.md](checklist.md)) after each process
 
 ## Ongoing
+- [ ] Ongoing repo-wide verification/cleanup for gaps, broken links, orphaned files, deduplication, and documentation/code coverage for all advanced robotics features (quantum, nano, holographic, time crystal, etc.)
 - [ ] Keep all documentation and code in sync with plan.md and changelog.md
 - [ ] Ensure every process/feature is reflected in all main files
 - [ ] Maintain and update cross-references between all main and sub-files
