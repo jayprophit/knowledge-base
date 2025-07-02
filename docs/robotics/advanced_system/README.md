@@ -25,6 +25,15 @@ See [Nanotechnology Integration](./nanotechnology_integration.md) for documentat
 ### New: Quantum Drive, Thought, and Mechanics
 See [Quantum Drive, Thought, and Mechanics](./quantum_drive_and_thought.md) for documentation, code, and integration of quantum drive theory, quantum-inspired cognition, and quantum mechanics in advanced robotics.
 
+### New: Blockchain Integration
+See [Blockchain Integration](./blockchain_integration.md) for documentation, code, and advanced improvements in blockchain technology, consensus, smart contracts, and decentralized applications for advanced robotics.
+
+### New: AI/ML Integration
+See [AI/ML Integration](./ai_ml_integration.md) for comprehensive documentation, code, and advanced improvements in artificial intelligence and machine learning technologies for advanced robotics.
+
+### New: Sanskrit-Style Reorganization
+See [Sanskrit-Style Reorganization](./sanskrit_style_reorganization.md) for a hierarchical, modular, commentary-rich restructuring of Quantum Nexus, integrating universal improvements and ancient-modern-future knowledge systems.
+
 ### New: Self-Powering and Regeneration
 See [Self-Powering and Regeneration](./self_powering_and_regeneration.md) for a framework, implementation strategies, and code on harvesting energy from radiation, light, heat, RF, air, water, kinetic movement, rest, and self-regeneration in advanced robotics.
 
@@ -41,7 +50,10 @@ See [Connectivity and Communication](./connectivity_and_communication.md) for a 
 - [Time Crystal Integration](./time_crystal_integration.md)
 - [Holographic Projection and Interaction](./holographic_projection_and_interaction.md)
 - [Nanotechnology Integration](./nanotechnology_integration.md)
-- [Quantum Drive, Thought, and Mechanics](./quantum_drive_and_thought.md) <!-- New -->
+- [Quantum Drive, Thought, and Mechanics](./quantum_drive_and_thought.md)
+- [Blockchain Integration](./blockchain_integration.md)
+- [AI/ML Integration](./ai_ml_integration.md)
+- [Sanskrit-Style Reorganization](./sanskrit_style_reorganization.md) <!-- New -->
 - [DevOps](../../devops/README.md)
 - [MLOps](../../mlops/README.md)
 - [AIOps](../../aiops/README.md)

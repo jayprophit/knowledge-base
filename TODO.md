@@ -41,18 +41,18 @@ This file tracks all next actions and outstanding tasks for the knowledge base. 
 ## Immediate Next Actions
 - [x] Run a deep analysis scan for undocumented data/components (see plan.md)
 - [x] Add documentation/code for any uncovered data, ensuring cross-links and references
+- [x] Add and cross-link documentation/code for AI/ML integration (see advanced_system/ai_ml_integration.md)
+- [x] Add and cross-link documentation/code for blockchain integration (see advanced_system/blockchain_integration.md)
+- [x] Add and cross-link documentation/code for sanskrit-style reorganization and universal improvements (see advanced_system/sanskrit_style_reorganization.md)
 - [x] Verify there are no empty directories, duplicate files, or folders
-- [x] Add and cross-link documentation/code for quantum drive theory, quantum thought, and quantum mechanics (see advanced_system/quantum_drive_and_thought.md)
-- [x] Add and cross-link documentation/code for nanotechnology integration (see advanced_system/nanotechnology_integration.md)
-- [x] Add and cross-link documentation/code for holographic projection and interaction (see advanced_system/holographic_projection_and_interaction.md)
-- [x] Add and cross-link documentation/code for time crystal integration (see advanced_system/time_crystal_integration.md)
 - [x] Update all main files ([README.md](README.md), [architecture.md](architecture.md), [changelog.md](changelog.md), [memories.md](memories.md), [method.md](method.md), [plan.md](plan.md), [rollback.md](rollback.md), [system_design.md](system_design.md), [FIXME.md](FIXME.md), [checklist.md](checklist.md)) after each process
+- [ ] Ongoing: Repo-wide verification/cleanup for gaps, broken links, orphaned files, deduplication, and documentation/code coverage for all advanced robotics features (quantum, nano, holographic, time crystal, AI/ML, blockchain, sanskrit-style, etc.)
 
 ## Ongoing
 - [ ] Ongoing repo-wide verification/cleanup for gaps, broken links, orphaned files, deduplication, and documentation/code coverage for all advanced robotics features (quantum, nano, holographic, time crystal, etc.)
 - [ ] Keep all documentation and code in sync with plan.md and changelog.md
 - [ ] Ensure every process/feature is reflected in all main files
-- [ ] Maintain and update cross-references between all main and sub-files
+- [ ] Explicit cross-linking between all main and sub-files
 
 ---
 *Last updated: 2025-07-01*
