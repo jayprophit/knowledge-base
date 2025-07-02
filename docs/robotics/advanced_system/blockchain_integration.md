@@ -11,11 +11,11 @@ tags:
   - security
 ---
 
-# Blockchain Integration and Advanced Improvements in Quantum Nexus
+# Blockchain Integration and Advanced Improvements in Knowledge_base
 
 ## Overview
 
-Integrating **blockchain principles**, **theories**, **practices**, and existing **patents** into the Quantum Nexus system enables secure, decentralized, and immutable operations. This document covers blockchain foundations, implementation, advanced improvements, and integration with Quantum Nexus.
+Integrating **blockchain principles**, **theories**, **practices**, and existing **patents** into the Knowledge_base system enables secure, decentralized, and immutable operations. This document covers blockchain foundations, implementation, advanced improvements, and integration with Knowledge_base.
 
 ## 1. Blockchain Principles
 
@@ -122,10 +122,10 @@ contract = SmartContract()
 contract.execute(condition=True)
 ```
 
-## 5. Integration with Quantum Nexus
+## 5. Integration with Knowledge_base
 
 ```python
-class QuantumNexus:
+class KnowledgeBase:
     def __init__(self):
         self.blockchain = BlockchainWithPoW()
     def add_transaction(self, sender, recipient, amount):
@@ -135,10 +135,10 @@ class QuantumNexus:
         pow_nonce = self.blockchain.proof_of_work(previous_hash=self.blockchain.last_block.hash, nonce=nonce)
         return self.blockchain.create_block(previous_hash=self.blockchain.last_block.hash, nonce=pow_nonce)
 # Usage
-nexus = QuantumNexus()
+nexus = KnowledgeBase()
 nexus.add_transaction("Alice", "Bob", 50)
 new_block = nexus.create_new_block()
-print(f"New Block in Quantum Nexus Created: {new_block.__dict__}")
+print(f"New Block in Knowledge_base Created: {new_block.__dict__}")
 ```
 
 ## 6. Advanced Improvements
