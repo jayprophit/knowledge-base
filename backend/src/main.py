@@ -1,9 +1,13 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import os
 import json
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
+
+# Import web search module
+from web_search import search_web, extract_web_content
+import logging
 
 app = FastAPI(title="Knowledge Base Assistant API")
 
@@ -56,24 +60,116 @@ def get_file_content(path: str = Query(..., description="Absolute or relative fi
         content = f.read()
     return {"content": content}
 
-# Example: Search for a keyword in the knowledge base (simple version)
+# Enhanced search for the knowledge base with improved error handling and logging
+import logging
+import traceback
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 @app.get("/search")
 def search_knowledge_base(q: str):
-    base_path = Path(__file__).parent.parent.parent / "src"
-    results = []
-    for dirpath, _, filenames in os.walk(base_path):
-        for fname in filenames:
-            if fname.startswith(".") or fname.endswith(".pyc"):
+    """Search the knowledge base for the given query with enhanced error handling.
+    
+    This function will try multiple search paths if the primary one fails.
+    It also implements improved error reporting and returns diagnostic info.
+    """
+    if not q or len(q.strip()) == 0:
+        return {"results": [], "message": "Empty query"}
+    
+    try:
+        # Try multiple possible knowledge base paths
+        paths_to_try = [
+            Path(__file__).parent.parent.parent / "src",           # Standard path
+            Path(__file__).parent.parent.parent,                  # Root path
+            Path(__file__).parent.parent.parent / "knowledge_base", # Alt. structure
+            Path.cwd() / "knowledge_base",                        # Current working dir
+        ]
+        
+        results = []
+        searched_paths = []
+        files_checked = 0
+        
+        # Log the search attempt
+        logger.info(f"Searching for: '{q}' in knowledge base")
+        
+        # Try each path until we find something
+        for base_path in paths_to_try:
+            if not base_path.exists() or not base_path.is_dir():
+                logger.info(f"Path does not exist or is not a directory: {base_path}")
                 continue
-            fpath = Path(dirpath) / fname
-            try:
-                with open(fpath, "r", encoding="utf-8", errors="ignore") as f:
-                    text = f.read()
-                    if q.lower() in text.lower():
-                        results.append({"file": str(fpath), "snippet": text[:200]})
-            except Exception:
-                continue
-    return {"results": results[:20]}  # limit to 20 results for demo
+                
+            searched_paths.append(str(base_path))
+            logger.info(f"Searching in path: {base_path}")
+            
+            # Look for both exact and partial matches
+            for dirpath, _, filenames in os.walk(base_path):
+                for fname in filenames:
+                    # Skip hidden files, binaries, etc.
+                    if (fname.startswith(".") or fname.endswith((".pyc", ".jpg", ".png", ".gif")))\
+                       or "__pycache__" in dirpath:
+                        continue
+                    
+                    fpath = Path(dirpath) / fname
+                    files_checked += 1
+                    
+                    # Skip large files
+                    try:
+                        if fpath.stat().st_size > 500_000:  # 500KB max
+                            continue
+                    except Exception:
+                        continue
+                        
+                    # Read and search content
+                    try:
+                        with open(fpath, "r", encoding="utf-8", errors="ignore") as f:
+                            text = f.read()
+                            # Look for case-insensitive matches
+                            if q.lower() in text.lower():
+                                # Find the context where the match occurs
+                                pos = text.lower().find(q.lower())
+                                start = max(0, pos - 50)
+                                end = min(len(text), pos + len(q) + 50)
+                                snippet = f"...{text[start:end]}..."
+                                
+                                results.append({
+                                    "file": str(fpath),
+                                    "snippet": snippet,
+                                    "title": fname
+                                })
+                                
+                                # For debugging - log matches
+                                logger.info(f"Match found in: {fpath}")
+                    except Exception as e:
+                        logger.debug(f"Error reading {fpath}: {e}")
+                        continue
+            
+            # If we found results in this path, stop searching other paths
+            if results:
+                break
+                
+        # Return results with diagnostic info
+        return {
+            "results": results[:30],  # increased limit to 30 results
+            "query": q,
+            "diagnostic": {
+                "paths_searched": searched_paths,
+                "files_checked": files_checked,
+                "total_results": len(results)
+            }
+        }
+    except Exception as e:
+        # Log the full error with traceback
+        error_details = traceback.format_exc()
+        logger.error(f"Search error: {e}\n{error_details}")
+        
+        # Return a detailed error for debugging
+        return {
+            "error": "Failed to search knowledge base",
+            "details": str(e),
+            "query": q
+        }
 
 # Code generation endpoint
 from pydantic import BaseModel
@@ -104,6 +200,52 @@ def analyze_multimodal(file: UploadFile = File(...), type: str = "image"):
     else:
         return {"result": "Unsupported type"}
 
+# Web search endpoints
+@app.get("/web-search")
+def web_search_endpoint(query: str, num_results: int = 5):
+    """
+    Search the web using Tor for privacy (if enabled)
+    
+    Args:
+        query: Search query
+        num_results: Number of results to return (default: 5)
+        
+    Returns:
+        List of search results
+    """
+    if not query or len(query.strip()) == 0:
+        raise HTTPException(status_code=400, detail="Query parameter is required")
+        
+    try:
+        results = search_web(query, num_results)
+        return {"results": results, "query": query}
+    except Exception as e:
+        logging.error(f"Web search error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
+
+@app.get("/extract-content")
+def extract_content_endpoint(url: str):
+    """
+    Extract and parse content from a web page
+    
+    Args:
+        url: URL to extract content from
+        
+    Returns:
+        Parsed content including title, text, and metadata
+    """
+    if not url or len(url.strip()) == 0:
+        raise HTTPException(status_code=400, detail="URL parameter is required")
+        
+    try:
+        content = extract_web_content(url)
+        if not content:
+            raise HTTPException(status_code=404, detail="Failed to extract content from URL")
+        return content
+    except Exception as e:
+        logging.error(f"Content extraction error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Extraction failed: {str(e)}")
+
 @app.get("/")
 def root():
-    return {"status": "Knowledge Base Assistant API is running"}
+    return {"status": "Knowledge Base Assistant API is running", "features": ["knowledge base", "search", "code generation", "multimodal", "web search"]}

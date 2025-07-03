@@ -1,5 +1,26 @@
-// Simple API utility for the Knowledge Base Assistant
-const API_BASE = 'http://localhost:8000';
+// API utility for the Knowledge Base Assistant with environment-aware configuration
+
+// Determine the API base URL based on environment
+const getApiBaseUrl = () => {
+  // Check if we're in production (deployed site)
+  if (process.env.NODE_ENV === 'production') {
+    // In production, use relative URLs which will be proxied by Netlify
+    // This assumes proper Netlify redirect setup in netlify.toml
+    return '/api';
+  } else if (process.env.REACT_APP_API_URL) {
+    // Use environment variable if specified
+    return process.env.REACT_APP_API_URL;
+  } else {
+    // Default to localhost for development
+    return 'http://localhost:8000';
+  }
+};
+
+const API_BASE = getApiBaseUrl();
+
+// For debugging
+console.log(`Using API endpoint: ${API_BASE}`);
+
 
 export async function fetchCategories() {
   const res = await fetch(`${API_BASE}/categories`);
