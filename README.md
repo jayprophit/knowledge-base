@@ -244,8 +244,8 @@ The following files are the main, critical files for the knowledge base and robo
 - [TODO.md](TODO.md)
 - [checklist.md](checklist.md)
 - [notes.md](notes.md)
-- [current_goal.md](current_goal.md)
-- [task_list.md](task_list.md)
+- [current_goal.md](current_goal.md): **Tracks the active, repo-wide objective and current focus.**
+- [task_list.md](task_list.md): **Lists all actionable tasks and their completion status.**
 
 **Requirement:** Any change made to one of these files must be implemented in all others, both before and after any process. All files must be cross-linked and referenced. All data and code must be validated for correct formatting and correctness. `changelog.md`, `memories.md`, and `rollback.md` must include the date and time of any data input or amendments to track changes, updates, and support rollback if needed (like version control).
 
