@@ -178,6 +178,49 @@ class BatchProcessor:
 4. **Testing**: Implement unit and integration tests for all components
 5. **Documentation**: Document all public APIs and integration points
 
+---
+
+## 5A. Advanced Usage Scenarios (Enhanced)
+
+### Synchronized Audio-Visual Recognition
+- Use the [MultiModalRecognitionSystem](../../../src/multimodal/recognition_api.py) to process video files with both audio and visual streams.
+- Example: Run `process_video()` to extract and analyze both modalities, then combine results for context-aware scene understanding.
+- See [Unified Multi-Modal Recognition Guide](../../machine_learning/multimodal/unified_recognition_guide.md#usage-examples) for code and workflow.
+
+### Batch and Real-Time Processing
+- For batch processing, see the `BatchProcessor` example in this guide and the [Vision Module README](../../../src/vision/README.md#batch-processing).
+- Real-time: Use `process_live_feed()` in the multimodal API for synchronized camera and microphone analysis.
+- For high-throughput systems, combine frame interval tuning and GPU acceleration (see [Performance Tips](../../../src/vision/README.md#performance-tips)).
+
+### Security and Ethics Integration
+- Integrate security checks (e.g., anomaly detection) at both vision and multimodal levels.
+- Reference: [Security Analysis](../../security/advanced_analysis.md) and [Security Integration](#security-integration) in this guide.
+- Ensure compliance with ethical guidelines for data handling and model bias.
+
+---
+
+## 5B. Troubleshooting and Deployment Best Practices (Enhanced)
+
+- For troubleshooting multimodal deployments, see the [Troubleshooting](../../machine_learning/multimodal/unified_recognition_guide.md#troubleshooting) section of the unified guide.
+- For model, dependency, and CUDA issues, see "Model Loading Issues" and "Performance Problems" in the [Vision Module README](../../../src/vision/README.md#troubleshooting).
+- For large-scale or production deployments:
+  - Use containerization (see Dockerfile example in this guide)
+  - Implement health checks, logging, and monitoring endpoints
+  - Regularly update dependencies and models
+  - Maintain backups of configuration and models
+
+---
+
+## 5C. Cross-References (Enhanced)
+
+- [Unified Multi-Modal Recognition Guide](../../machine_learning/multimodal/unified_recognition_guide.md)
+- [Vision Module README](../../../src/vision/README.md)
+- [Multi-Modal Recognition System README](../../../src/multimodal/README.md)
+- [Audio Recognition System](../../audio/README.md)
+- [Security Analysis](../../security/advanced_analysis.md)
+
+For more real-world workflow examples, see the [Multi-Modal Recognition Tutorial](../../../tutorials/multimodal_recognition_tutorial.py) and [Multi-Modal Testing Suite](../../../tests/test_multimodal_recognition.py).
+
 ## 6. Cross-References
 
 - [Multilingual Understanding](./multilingual_understanding.md)

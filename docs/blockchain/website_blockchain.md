@@ -13,13 +13,15 @@ This document describes the architecture and usage of the Website-as-Blockchain 
 - **Inter-Website Communication:** Links and references between websites can be tracked and verified via blockchain.
 - **Reward System:** Users earn coins/tokens for interactions (comments, likes, shares, uploads, buys, sells, transfers, etc.).
 - **Consensus Models:** Supports Proof of Stake (PoS), Delegated Proof of Stake (DPoS), and Delegated Proof of Ownership (DPoF).
+- **Miner Rewards:** Miners are rewarded for validating blocks and processing transactions, receiving both a fixed mining reward and a share of transaction fees.
 
-## Reward System & Consensus
+## Reward System, Consensus, and Miner Rewards
 
 - **Interactions:** Each user action (like, comment, share, upload, transaction) creates a block and may earn rewards.
 - **PoS:** Users can stake coins to validate interactions and earn additional rewards.
 - **DPoS:** Users elect delegates who validate blocks; both delegates and voters earn rewards.
 - **DPoF:** Content creators earn extra rewards when their content is interacted with.
+- **Miner Rewards:** Miners are credited for mining (validating) blocks. Each mined block gives the miner a fixed mining reward plus a percentage of the transaction/interactions as a transaction fee. Miner balances are tracked and can be queried.
 
 ### Example Reward Table
 
@@ -39,14 +41,19 @@ See [`src/blockchain/website_blockchain.py`](../../src/blockchain/website_blockc
 
 - Block and WebsiteBlockchain classes
 - Methods for adding interactions, managing delegates, voting, and calculating rewards
-- Example usage demonstrating user interactions, staking, delegate voting, and reward balances
+- Miner reward logic and transaction fee distribution
+- Example usage demonstrating user interactions, staking, delegate voting, miner rewards, and reward balances
 
 ```python
-# Example: Adding an interaction with staking and delegate voting
+# Example: Adding an interaction with staking, delegate voting, and miner rewards
 website = WebsiteBlockchain("example.com")
-website.add_webpage_block("Blog", "<html>...</html>", "share", "user_1", stake=50)
+website.add_webpage_block("Blog", "<html>...</html>", "share", "user_1", "miner_1", stake=50)
 website.add_delegate("user_3")
 website.vote_delegate("user_1", "user_3")
+
+# Check balances
+print(website.get_user_balance("user_1"))
+print(website.get_miner_balance("miner_1"))
 ```
 
 ## API Example

@@ -23,7 +23,12 @@
 - Comprehensive multi-modal recognition system implementation
   - Audio recognition modules (speech, voice, music, sound classification)
   - Vision recognition modules (object detection, face recognition)
-  - Unified API for integrated audio-visual processing
+- 3D blockchain core and API
+- Website-as-blockchain system (page as block, user rewards, PoS/DPoS/DPoF consensus)
+- Referral system smart contract
+- Decentralized storage integration (IPFS)
+- Miner rewards and transaction fees for website blockchain (code and docs)
+- Documentation for all new blockchain features
 - Deep analysis scan of knowledge base documentation
 - Added documentation for AI emotional intelligence modules
 - Updated robotics movement system documentation

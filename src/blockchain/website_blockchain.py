@@ -11,18 +11,19 @@ from typing import List, Dict, Any
 
 class Block:
     def __init__(self, page_name: str, content: str, previous_hash: str, page_metadata: Dict[str, Any],
-                 interaction_type: str, user_address: str, stake: float = 0.0):
+                 interaction_type: str, user_address: str, miner_address: str, stake: float = 0.0):
         self.page_name = page_name
         self.timestamp = time.time()
         self.content = content  # HTML/CSS/JS or IPFS hash
         self.page_metadata = page_metadata
         self.previous_hash = previous_hash
         self.nonce = 0
-        self.hash = self.calculate_hash()
         self.interaction_type = interaction_type  # e.g., like, comment, share, upload, buy, sell, etc.
         self.user_address = user_address  # Address of the user making the interaction
+        self.miner_address = miner_address  # Address of the miner who mines the block
         self.stake = stake  # Coins staked (PoS, DPoS)
         self.rewards = 0  # Rewards for the interaction
+        self.hash = self.calculate_hash()
     def calculate_hash(self) -> str:
         block_string = json.dumps({
             'page_name': self.page_name,
@@ -33,6 +34,7 @@ class Block:
             'nonce': self.nonce,
             'interaction_type': self.interaction_type,
             'user_address': self.user_address,
+            'miner_address': self.miner_address,
             'stake': self.stake
         }, sort_keys=True).encode()
         return hashlib.sha256(block_string).hexdigest()
@@ -42,17 +44,20 @@ class Block:
             self.hash = self.calculate_hash()
 
 class WebsiteBlockchain:
-    def __init__(self, website_name: str, difficulty: int = 4):
+    def __init__(self, website_name: str, difficulty: int = 4, miner_reward: float = 50, transaction_fee: float = 0.01):
         self.website_name = website_name
         self.chain: List[Block] = [self.create_home_page_block()]
         self.difficulty = difficulty
+        self.miner_reward = miner_reward  # Reward for miners for mining a block
+        self.transaction_fee = transaction_fee  # Fee for each interaction/transaction (as a fraction of reward)
         self.users = defaultdict(float)  # User balances (rewards)
+        self.miners = defaultdict(float)  # Miner balances (mining rewards)
         self.delegates = []  # DPoS delegates
         self.stakes = defaultdict(float)  # User stakes for PoS
         self.votes = defaultdict(list)  # Users voting for DPoS delegates
     def create_home_page_block(self) -> Block:
         # Genesis block for the website, representing the homepage
-        return Block("Homepage", "<html><body>Welcome to the homepage</body></html>", "0", {}, "view", "system")
+        return Block("Homepage", "<html><body>Welcome to the homepage</body></html>", "0", {}, "view", "system", "system")
     def get_latest_block(self) -> Block:
         return self.chain[-1]
     def add_delegate(self, user_address: str):
@@ -63,11 +68,11 @@ class WebsiteBlockchain:
         """Allow a user to vote for a delegate."""
         if delegate in self.delegates and voter not in self.votes[delegate]:
             self.votes[delegate].append(voter)
-    def add_webpage_block(self, page_name: str, content: str, interaction_type: str, user_address: str,
+    def add_webpage_block(self, page_name: str, content: str, interaction_type: str, user_address: str, miner_address: str,
                           metadata: Dict[str, Any] = {}, stake: float = 0.0):
         """Add a new block representing an interaction on the webpage."""
         latest_block = self.get_latest_block()
-        new_block = Block(page_name, content, latest_block.hash, metadata, interaction_type, user_address, stake)
+        new_block = Block(page_name, content, latest_block.hash, metadata, interaction_type, user_address, miner_address, stake)
         new_block.mine_block(self.difficulty)
         self.chain.append(new_block)
         self.calculate_rewards(new_block)
@@ -121,6 +126,9 @@ class WebsiteBlockchain:
     def get_user_balance(self, user_address: str) -> float:
         """Return the current balance for a user."""
         return self.users[user_address]
+    def get_miner_balance(self, miner_address: str) -> float:
+        """Return the current balance for a miner."""
+        return self.miners[miner_address]
     def get_delegate_votes(self, delegate_address: str) -> int:
         """Return the number of votes for a delegate."""
         return len(self.votes[delegate_address])
@@ -129,13 +137,13 @@ class WebsiteBlockchain:
 if __name__ == "__main__":
     # Initialize website blockchain
     website = WebsiteBlockchain("example.com")
-    # Add users and interactions
-    website.add_webpage_block("About Us", "<html><body>About Us Page</body></html>", "like", "user_1")
-    website.add_webpage_block("Contact", "<html><body>Contact Us Page</body></html>", "comment", "user_2")
-    website.add_webpage_block("Blog", "<html><body>New Blog Post</body></html>", "share", "user_1", stake=50)
-    website.add_webpage_block("Gallery", "<html><body>Image Gallery</body></html>", "image", "user_3")
+    # Add users and miners interactions
+    website.add_webpage_block("About Us", "<html><body>About Us Page</body></html>", "like", "user_1", "miner_1")
+    website.add_webpage_block("Contact", "<html><body>Contact Us Page</body></html>", "comment", "user_2", "miner_1")
+    website.add_webpage_block("Blog", "<html><body>New Blog Post</body></html>", "share", "user_1", "miner_2", stake=50)
+    website.add_webpage_block("Gallery", "<html><body>Image Gallery</body></html>", "image", "user_3", "miner_2")
     # Proof of Stake interactions
-    website.add_webpage_block("Market", "<html><body>Buy Now</body></html>", "transaction", "user_4", stake=100)
+    website.add_webpage_block("Market", "<html><body>Buy Now</body></html>", "transaction", "user_4", "miner_3", stake=100)
     # Add a delegate and vote for them in the DPoS system
     website.add_delegate("user_3")
     website.vote_delegate("user_1", "user_3")
@@ -145,5 +153,9 @@ if __name__ == "__main__":
     print(f"User 2 balance: {website.get_user_balance('user_2')}")
     print(f"User 3 balance (Delegate): {website.get_user_balance('user_3')}")
     print(f"User 4 balance: {website.get_user_balance('user_4')}")
+    # Check miner balances (rewards from mining)
+    print(f"Miner 1 balance: {website.get_miner_balance('miner_1')}")
+    print(f"Miner 2 balance: {website.get_miner_balance('miner_2')}")
+    print(f"Miner 3 balance: {website.get_miner_balance('miner_3')}")
     # Check votes for delegate
     print(f"Votes for User 3 (Delegate): {website.get_delegate_votes('user_3')}")
