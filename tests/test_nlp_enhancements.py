@@ -28,7 +28,7 @@ class TestNLPEnhancer(unittest.TestCase):
         """
     
     def test_process_text_basic(self):
-        ""Test basic text processing."""
+        """Test basic text processing."""
         result = self.nlp.process_text("Hello, world!")
         self.assertIn("tokens", result)
         self.assertIn("sentences", result)
@@ -42,7 +42,7 @@ class TestNLPEnhancer(unittest.TestCase):
         self.assertEqual(len(result["sentences"]), 1)
     
     def test_analyze_sentiment(self):
-        ""Test sentiment analysis."""
+        """Test sentiment analysis."""
         # Test positive sentiment
         pos_result = self.nlp.analyze_sentiment("I love this amazing product!")
         self.assertEqual(pos_result["label"], Sentiment.POSITIVE.value)
@@ -57,7 +57,7 @@ class TestNLPEnhancer(unittest.TestCase):
         self.assertEqual(neutral_result["label"], Sentiment.NEUTRAL.value)
     
     def test_detect_language(self):
-        ""Test language detection."""
+        """Test language detection."""
         # Test English
         self.assertEqual(
             self.nlp.detect_language("This is an English sentence."),
@@ -83,7 +83,7 @@ class TestNLPEnhancer(unittest.TestCase):
         )
     
     def test_entity_recognition(self):
-        ""Test named entity recognition."""
+        """Test named entity recognition."""
         result = self.nlp.process_text("Apple is looking at buying U.K. startup for $1 billion.")
         
         # Should find at least one entity
@@ -96,7 +96,7 @@ class TestNLPEnhancer(unittest.TestCase):
         self.assertIn("$1 billion", entity_texts)
     
     def test_fallback_behavior(self):
-        ""Test fallback behavior when spaCy is not available."""
+        """Test fallback behavior when spaCy is not available."""
         # Save the original nlp attribute
         original_nlp = self.nlp.nlp
         
@@ -118,7 +118,7 @@ class TestNLPEnhancer(unittest.TestCase):
             self.nlp.nlp = original_nlp
     
     def test_empty_input(self):
-        ""Test handling of empty input."""
+        """Test handling of empty input."""
         result = self.nlp.process_text("")
         self.assertIn("error", result)
         
