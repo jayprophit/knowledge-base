@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
-import { fetchCategories, fetchCategoryFiles, fetchFileContent, searchKnowledgeBase } from './api.js';
+import { fetchCategories, fetchCategoryFiles, fetchFileContent, searchKnowledgeBase, generateCode, analyzeMultimodal } from './api.js';
+import CodeGenPanel from './CodeGenPanel';
+import MultimodalPanel from './MultimodalPanel';
 
 // Category icon map for UI
 const categoryIcons = {
@@ -39,6 +41,7 @@ function App() {
       model: 'gpt-4',
     }
   });
+  const [activeTab, setActiveTab] = useState('chat'); // chat | code | multimodal
   const [categories, setCategories] = useState([]);
   const [categoryFiles, setCategoryFiles] = useState([]);
   const [fileContent, setFileContent] = useState(null);
@@ -233,6 +236,12 @@ What would you like to explore today?
         </div>
       </header>
 
+      <div className="tab-bar">
+        <button className={activeTab === 'chat' ? 'tab active' : 'tab'} onClick={() => setActiveTab('chat')}>Chat</button>
+        <button className={activeTab === 'code' ? 'tab active' : 'tab'} onClick={() => setActiveTab('code')}>Code Generation</button>
+        <button className={activeTab === 'multimodal' ? 'tab active' : 'tab'} onClick={() => setActiveTab('multimodal')}>Multimodal</button>
+      </div>
+
       <div className="app-container">
         {isSidebarOpen && (
           <aside className="sidebar">
@@ -313,38 +322,48 @@ What would you like to explore today?
         )}
 
         <main className="chat-container">
-          <div className="messages">
-            {messages.map(renderMessage)}
-            {isThinking && (
-              <div className="thinking-indicator">
-                <div className="dot"></div>
-                <div className="dot"></div>
-                <div className="dot"></div>
+          {activeTab === 'chat' && (
+            <>
+              <div className="messages">
+                {messages.map(renderMessage)}
+                {isThinking && (
+                  <div className="thinking-indicator">
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                  </div>
+                )}
+                <div ref={messagesEndRef} />
               </div>
-            )}
-            <div ref={messagesEndRef} />
-          </div>
 
-          <form className="input-form" onSubmit={handleSubmit}>
-            <button 
-              type="button" 
-              className={`voice-button ${isRecording ? 'recording' : ''}`}
-              onClick={toggleRecording}
-              title="Voice input"
-            >
-              🎤
-            </button>
-            <input
-              type="text"
-              value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Ask me anything about the knowledge base..."
-              className="message-input"
-            />
-            <button type="submit" className="send-button" disabled={!inputValue.trim()}>
-              Send
-            </button>
-          </form>
+              <form className="input-form" onSubmit={handleSubmit}>
+                <button 
+                  type="button" 
+                  className={`voice-button ${isRecording ? 'recording' : ''}`}
+                  onClick={toggleRecording}
+                  title="Voice input"
+                >
+                  🎤
+                </button>
+                <input
+                  type="text"
+                  value={inputValue}
+                  onChange={(e) => setInputValue(e.target.value)}
+                  placeholder="Ask me anything about the knowledge base..."
+                  className="message-input"
+                />
+                <button type="submit" className="send-button" disabled={!inputValue.trim()}>
+                  Send
+                </button>
+              </form>
+            </>
+          )}
+          {activeTab === 'code' && (
+            <CodeGenPanel onGenerate={generateCode} />
+          )}
+          {activeTab === 'multimodal' && (
+            <MultimodalPanel onAnalyze={analyzeMultimodal} />
+          )}
         </main>
       </div>
     </div>

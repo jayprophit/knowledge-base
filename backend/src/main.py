@@ -75,6 +75,35 @@ def search_knowledge_base(q: str):
                 continue
     return {"results": results[:20]}  # limit to 20 results for demo
 
+# Code generation endpoint
+from pydantic import BaseModel
+class CodeGenRequest(BaseModel):
+    prompt: str
+    language: str = "python"
+    max_tokens: int = 256
+
+@app.post("/generate_code")
+def generate_code(req: CodeGenRequest):
+    # TODO: Replace with real LLM integration (OpenAI, local, etc.)
+    # For now, return a dummy code snippet
+    if not os.environ.get("OPENAI_API_KEY"):
+        return {"code": f"# Example {req.language} code for: {req.prompt}\ndef example():\n    pass\n"}
+    # If OpenAI key is set, call OpenAI API (pseudo-code)
+    # ...
+    return {"code": f"# [LLM] {req.language} code for: {req.prompt}\ndef example():\n    pass\n"}
+
+from fastapi import File, UploadFile
+@app.post("/analyze_multimodal")
+def analyze_multimodal(file: UploadFile = File(...), type: str = "image"):
+    # TODO: Integrate with real multimodal recognition API
+    # For now, return dummy response
+    if type == "image":
+        return {"result": "Detected objects: cat, laptop"}
+    elif type == "audio":
+        return {"result": "Recognized speech: 'Hello world'"}
+    else:
+        return {"result": "Unsupported type"}
+
 @app.get("/")
 def root():
     return {"status": "Knowledge Base Assistant API is running"}

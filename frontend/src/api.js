@@ -24,3 +24,22 @@ export async function searchKnowledgeBase(query) {
   if (!res.ok) throw new Error('Failed to search knowledge base');
   return res.json();
 }
+
+export async function generateCode({ prompt, language }) {
+  const res = await fetch(`${API_BASE}/generate_code`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt, language })
+  });
+  if (!res.ok) throw new Error('Failed to generate code');
+  return res.json();
+}
+
+export async function analyzeMultimodal(formData) {
+  const res = await fetch(`${API_BASE}/analyze_multimodal`, {
+    method: 'POST',
+    body: formData
+  });
+  if (!res.ok) throw new Error('Failed to analyze file');
+  return res.json();
+}
