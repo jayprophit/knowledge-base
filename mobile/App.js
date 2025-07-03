@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import * as DocumentPicker from 'expo-document-picker';
 import * as FileSystem from 'expo-file-system';
+import MultimodalCapture from './MultimodalCapture';
 
 // API Base URL - change for production
 const API_BASE = "http://192.168.1.100:8000"; // Update with your dev machine IP or production URL
@@ -79,7 +80,8 @@ export default function App() {
   const [inputText, setInputText] = useState('');
   const [categories, setCategories] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [activeTab, setActiveTab] = useState('chat'); // 'chat', 'code', 'categories'
+  const [activeTab, setActiveTab] = useState('chat'); // 'chat', 'code', 'categories', 'multimodal'
+  const [multimodalResult, setMultimodalResult] = useState(null);
 
   // Fetch categories on component mount
   useEffect(() => {
@@ -142,86 +144,109 @@ export default function App() {
   };
 
   // Render functions for different tabs
-  const renderChatTab = () => (
-    <>
-      <FlatList
-        data={messages}
-        keyExtractor={item => item.id.toString()}
-        renderItem={({ item }) => (
-          <Message message={item} isUser={item.role === 'user'} />
-        )}
-        style={styles.messageList}
-      />
-      
-      <View style={styles.inputContainer}>
+  function renderChatTab() {
+    return (
+      <>
+        <FlatList
+          data={messages}
+          keyExtractor={item => item.id.toString()}
+          renderItem={({ item }) => (
+            <Message message={item} isUser={item.role === 'user'} />
+          )}
+          style={styles.messageList}
+        />
+        
+        <View style={styles.inputContainer}>
+          <TextInput
+            style={styles.input}
+            value={inputText}
+            onChangeText={setInputText}
+            placeholder="Ask me anything..."
+            multiline
+          />
+          <TouchableOpacity 
+            style={[styles.sendButton, !inputText.trim() && styles.disabledButton]} 
+            onPress={handleSend}
+            disabled={!inputText.trim() || isLoading}
+          >
+            <Text style={styles.sendButtonText}>Send</Text>
+          </TouchableOpacity>
+        </View>
+      </>
+    );
+  };
+  
+  function renderCodeTab() {
+    return (
+      <ScrollView style={styles.codeTabContainer}>
+        <Text style={styles.sectionTitle}>AI Code Generation</Text>
+        
         <TextInput
-          style={styles.input}
-          value={inputText}
-          onChangeText={setInputText}
-          placeholder="Ask me anything..."
+          style={styles.codeInput}
+          value={codePrompt}
+          onChangeText={setCodePrompt}
+          placeholder="Describe what code you want to generate..."
           multiline
         />
-        <TouchableOpacity 
-          style={[styles.sendButton, !inputText.trim() && styles.disabledButton]} 
-          onPress={handleSend}
-          disabled={!inputText.trim() || isLoading}
-        >
-          <Text style={styles.sendButtonText}>Send</Text>
-        </TouchableOpacity>
-      </View>
-    </>
-  );
-  
-  const renderCodeTab = () => (
-    <ScrollView style={styles.codeTabContainer}>
-      <Text style={styles.sectionTitle}>AI Code Generation</Text>
-      
-      <TextInput
-        style={styles.codeInput}
-        value={codePrompt}
-        onChangeText={setCodePrompt}
-        placeholder="Describe what code you want to generate..."
-        multiline
-      />
-      
-      <View style={styles.codeOptionsRow}>
-        <View style={styles.pickerContainer}>
-          <Text>Language:</Text>
-          {/* In a real app, use a proper dropdown/picker component */}
-          <TouchableOpacity style={styles.pickerButton}>
-            <Text>{codeLanguage}</Text>
+        
+        <View style={styles.codeOptionsRow}>
+          <View style={styles.pickerContainer}>
+            <Text>Language:</Text>
+            {/* In a real app, use a proper dropdown/picker component */}
+            <TouchableOpacity style={styles.pickerButton}>
+              <Text>{codeLanguage}</Text>
+            </TouchableOpacity>
+          </View>
+          
+          <TouchableOpacity 
+            style={[styles.generateButton, (!codePrompt.trim() || isLoading) && styles.disabledButton]} 
+            onPress={handleGenerateCode}
+            disabled={!codePrompt.trim() || isLoading}
+          >
+            <Text style={styles.buttonText}>Generate</Text>
           </TouchableOpacity>
         </View>
         
-        <TouchableOpacity 
-          style={[styles.generateButton, (!codePrompt.trim() || isLoading) && styles.disabledButton]} 
-          onPress={handleGenerateCode}
-          disabled={!codePrompt.trim() || isLoading}
-        >
-          <Text style={styles.buttonText}>Generate</Text>
-        </TouchableOpacity>
-      </View>
-      
-      {generatedCode && (
-        <View style={styles.codeResultContainer}>
-          <Text style={styles.codeResultText}>{generatedCode}</Text>
-        </View>
-      )}
-    </ScrollView>
-  );
+        {generatedCode && (
+          <View style={styles.codeResultContainer}>
+            <Text style={styles.codeResultText}>{generatedCode}</Text>
+          </View>
+        )}
+      </ScrollView>
+    );
+  };
   
-  const renderCategoriesTab = () => (
-    <ScrollView style={styles.categoriesTabContainer}>
-      <Text style={styles.sectionTitle}>Knowledge Categories</Text>
-      
-      {categories.map(category => (
-        <TouchableOpacity key={category.id} style={styles.categoryItem}>
-          <Text style={styles.categoryIcon}>{category.icon || '📁'}</Text>
-          <Text style={styles.categoryName}>{category.name}</Text>
-        </TouchableOpacity>
-      ))}
-    </ScrollView>
-  );
+  function renderCategoriesTab() {
+    return (
+      <View style={styles.categoriesTabContainer}>
+        <Text style={styles.sectionTitle}>Knowledge Base Categories</Text>
+        <FlatList
+          data={categories}
+          keyExtractor={(item) => item}
+          renderItem={({ item }) => (
+            <View style={styles.categoryItem}>
+              <Text style={styles.categoryIcon}>📚</Text>
+              <Text style={styles.categoryName}>{item}</Text>
+            </View>
+          )}
+        />
+      </View>
+    );
+  }
+
+  function renderMultimodalTab() {
+    return (
+      <View style={{ flex: 1 }}>
+        <MultimodalCapture onResult={setMultimodalResult} />
+        {multimodalResult && (
+          <View style={{ padding: 16 }}>
+            <Text style={{ fontWeight: 'bold', color: '#1a73e8', marginBottom: 4 }}>Latest Analysis Result:</Text>
+            <Text style={{ color: '#333', fontSize: 14 }}>{JSON.stringify(multimodalResult, null, 2)}</Text>
+          </View>
+        )}
+      </View>
+    );
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -230,25 +255,29 @@ export default function App() {
       </View>
       
       <View style={styles.tabBar}>
-        <TouchableOpacity 
-          style={[styles.tab, activeTab === 'chat' && styles.activeTab]} 
+        <TouchableOpacity
+          style={[styles.tab, activeTab === 'chat' && styles.activeTab]}
           onPress={() => setActiveTab('chat')}
         >
           <Text style={[styles.tabText, activeTab === 'chat' && styles.activeTabText]}>Chat</Text>
         </TouchableOpacity>
-        
-        <TouchableOpacity 
-          style={[styles.tab, activeTab === 'code' && styles.activeTab]} 
+        <TouchableOpacity
+          style={[styles.tab, activeTab === 'code' && styles.activeTab]}
           onPress={() => setActiveTab('code')}
         >
           <Text style={[styles.tabText, activeTab === 'code' && styles.activeTabText]}>Code</Text>
         </TouchableOpacity>
-        
-        <TouchableOpacity 
-          style={[styles.tab, activeTab === 'categories' && styles.activeTab]} 
+        <TouchableOpacity
+          style={[styles.tab, activeTab === 'categories' && styles.activeTab]}
           onPress={() => setActiveTab('categories')}
         >
           <Text style={[styles.tabText, activeTab === 'categories' && styles.activeTabText]}>Categories</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.tab, activeTab === 'multimodal' && styles.activeTab]}
+          onPress={() => setActiveTab('multimodal')}
+        >
+          <Text style={[styles.tabText, activeTab === 'multimodal' && styles.activeTabText]}>Multimodal</Text>
         </TouchableOpacity>
       </View>
       
@@ -262,6 +291,7 @@ export default function App() {
         {activeTab === 'chat' && renderChatTab()}
         {activeTab === 'code' && renderCodeTab()}
         {activeTab === 'categories' && renderCategoriesTab()}
+        {activeTab === 'multimodal' && renderMultimodalTab()}
       </View>
     </SafeAreaView>
   );
