@@ -65,10 +65,28 @@ def get_file_content(path: str = Query(..., description="Absolute or relative fi
 # Enhanced search for the knowledge base with improved error handling and logging
 import logging
 import traceback
+from backend.src.monitoring.prometheus_metrics import setup_metrics
+from backend.src.monitoring.sentry_integration import init_sentry
+from sentry_sdk.integrations.asgi import SentryAsgiMiddleware
+from backend.src.agents.codegen_agent import CodeGenAgent
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+# --- Monitoring and Analytics Integration ---
+# Initialize Prometheus metrics and Sentry error tracking at app startup
+SENTRY_DSN = os.environ.get('SENTRY_DSN')
+if SENTRY_DSN:
+    init_sentry(SENTRY_DSN)
+    app.add_middleware(SentryAsgiMiddleware)
+setup_metrics(app)
+
+# --- End Monitoring Setup ---
+
+# --- Agent Registration ---
+codegen_agent = CodeGenAgent()
+# --- End Agent Registration ---
 
 @app.get("/search")
 def search_knowledge_base(q: str):
@@ -182,13 +200,14 @@ class CodeGenRequest(BaseModel):
 
 @app.post("/generate_code")
 def generate_code(req: CodeGenRequest):
-    # TODO: Replace with real LLM integration (OpenAI, local, etc.)
-    # For now, return a dummy code snippet
-    if not os.environ.get("OPENAI_API_KEY"):
-        return {"code": f"# Example {req.language} code for: {req.prompt}\ndef example():\n    pass\n"}
-    # If OpenAI key is set, call OpenAI API (pseudo-code)
-    # ...
-    return {"code": f"# [LLM] {req.language} code for: {req.prompt}\ndef example():\n    pass\n"}
+    # Use the registered CodeGenAgent for code generation
+    try:
+        result = codegen_agent.generate_code(req.prompt, req.language)
+        return result
+    except Exception as e:
+        logger.error(f"Code generation error: {e}")
+        raise HTTPException(status_code=500, detail=f"Code generation failed: {str(e)}")
+
 
 from fastapi import File, UploadFile
 @app.post("/analyze_multimodal")
