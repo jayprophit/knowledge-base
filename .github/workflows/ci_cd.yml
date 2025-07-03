@@ -1,0 +1,53 @@
+# CI/CD and Alerts Workflow for Knowledge Base Assistant
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run backend tests
+        run: |
+          pytest backend/tests
+      - name: Run frontend tests
+        run: |
+          cd frontend && npm install && npm test
+      - name: Lint backend
+        run: |
+          flake8 backend/src
+      - name: Lint frontend
+        run: |
+          cd frontend && npm run lint
+      - name: Build frontend
+        run: |
+          cd frontend && npm run build
+      - name: Deploy (on main)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          echo "Deploy step here (Netlify, Docker, etc.)"
+      - name: Notify on failure
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.example.com
+          server_port: 465
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASS }}
+          subject: "CI/CD Failure for ${{ github.repository }}"
+          to: devops@example.com
+          body: "Build or test failed. Please check the logs."
