@@ -1,15 +1,17 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
-// Mock data for demonstration purposes
-const knowledgeBaseCategories = [
-  { id: 'ai', name: 'Artificial Intelligence', icon: '🧠' },
-  { id: 'robotics', name: 'Robotics', icon: '🤖' },
-  { id: 'blockchain', name: 'Blockchain', icon: '🔗' },
-  { id: 'multimodal', name: 'Multimodal', icon: '📊' },
-  { id: 'vision', name: 'Computer Vision', icon: '👁️' },
-  { id: 'quantum', name: 'Quantum Computing', icon: '⚛️' },
-];
+import { fetchCategories, fetchCategoryFiles, fetchFileContent, searchKnowledgeBase } from './api.js';
+
+// Category icon map for UI
+const categoryIcons = {
+  ai: '🧠',
+  robotics: '🤖',
+  blockchain: '🔗',
+  multimodal: '📊',
+  vision: '👁️',
+  quantum: '⚛️',
+};
 
 // Mock conversation history
 const initialMessages = [
@@ -37,16 +39,40 @@ function App() {
       model: 'gpt-4',
     }
   });
+  const [categories, setCategories] = useState([]);
+  const [categoryFiles, setCategoryFiles] = useState([]);
+  const [fileContent, setFileContent] = useState(null);
+  const [isLoadingFiles, setIsLoadingFiles] = useState(false);
 
   const messagesEndRef = useRef(null);
+
+  // Fetch categories on mount
+  useEffect(() => {
+    fetchCategories().then(res => {
+      setCategories(res.categories.map(cat => ({ ...cat, icon: categoryIcons[cat.id] || '📁' })));
+    });
+  }, []);
 
   // Auto-scroll to bottom of messages
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
+  // Fetch files when category changes
+  useEffect(() => {
+    if (selectedCategory) {
+      setIsLoadingFiles(true);
+      fetchCategoryFiles(selectedCategory).then(res => {
+        setCategoryFiles(res.files || []);
+        setIsLoadingFiles(false);
+      });
+    } else {
+      setCategoryFiles([]);
+    }
+  }, [selectedCategory]);
+
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!inputValue.trim()) return;
 
@@ -61,17 +87,33 @@ function App() {
     setInputValue('');
     setIsThinking(true);
 
-    // Simulate assistant response after a delay
-    setTimeout(() => {
+    // Query backend for search
+    try {
+      const res = await searchKnowledgeBase(inputValue);
+      let content;
+      if (res.results && res.results.length > 0) {
+        content = `<h2>Knowledge Base Results</h2>` + res.results.map(r =>
+          `<div><strong>${r.file}</strong><br><code>${(r.snippet || '').replace(/</g, '&lt;')}</code></div>`
+        ).join('<hr>');
+      } else {
+        content = "No results found in the knowledge base.";
+      }
       const assistantMessage = {
         id: messages.length + 2,
         role: 'assistant',
-        content: generateMockResponse(inputValue),
+        content,
         timestamp: new Date().toISOString()
       };
       setMessages(prevMessages => [...prevMessages, assistantMessage]);
-      setIsThinking(false);
-    }, 1500);
+    } catch (err) {
+      setMessages(prevMessages => [...prevMessages, {
+        id: messages.length + 2,
+        role: 'assistant',
+        content: 'Sorry, there was an error searching the knowledge base.',
+        timestamp: new Date().toISOString()
+      }]);
+    }
+    setIsThinking(false);
   };
 
   // Generate a mock response based on user input
@@ -197,7 +239,7 @@ What would you like to explore today?
             <div className="sidebar-section">
               <h2>Knowledge Categories</h2>
               <ul className="category-list">
-                {knowledgeBaseCategories.map((category) => (
+                {categories.map((category) => (
                   <li 
                     key={category.id} 
                     className={`category-item ${selectedCategory === category.id ? 'selected' : ''}`}
@@ -211,12 +253,28 @@ What would you like to explore today?
             </div>
             
             <div className="sidebar-section">
-              <h2>Recent Searches</h2>
-              <ul className="recent-searches">
-                <li>Multimodal AI integration</li>
-                <li>Robot navigation systems</li>
-                <li>Quantum computing basics</li>
-              </ul>
+              <h2>Files</h2>
+              {isLoadingFiles ? (
+                <div>Loading files...</div>
+              ) : (
+                <ul className="recent-searches">
+                  {categoryFiles.map(f => (
+                    <li key={f.path || f.name} onClick={async () => {
+                      if (!f.is_dir) {
+                        const res = await fetchFileContent(f.path);
+                        setFileContent(res.content || 'No content');
+                      }
+                    }} style={{cursor: f.is_dir ? 'default' : 'pointer', fontWeight: f.is_dir ? 'bold' : 'normal'}}>
+                      {f.name}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {fileContent && (
+                <div style={{marginTop: '1rem', padding: '0.5rem', background: '#f5f5f5', borderRadius: 6, maxHeight: 200, overflow: 'auto'}}>
+                  <pre style={{whiteSpace: 'pre-wrap'}}>{fileContent}</pre>
+                </div>
+              )}
             </div>
 
             <div className="sidebar-section">
