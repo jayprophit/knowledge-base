@@ -17,8 +17,11 @@
 >
 > **Validation:** All data and code must be validated for correct formatting and correctness at every step.
 
-## Overview
-This document outlines the physical architecture of the knowledge base repository, detailing the structure of folders and files, their relationships, and governance rules. This serves as a concrete map of the repository organization, complementing the conceptual system design.
+## Unified AI Assistant: Production Architecture
+
+## System Overview
+
+The Unified AI Assistant is a world-class, production-ready cross-platform system integrating advanced AI capabilities, knowledge retrieval, multimodal interaction, and secure networking. The system operates across web, mobile, desktop, and IoT devices with a unified codebase and synchronized user experience.
 
 ## Directory Structure
 

@@ -7,6 +7,8 @@ from typing import List, Optional, Dict, Any
 
 # Import web search module
 from web_search import search_web, extract_web_content
+from web_automation import WebAutomation
+from networking import connect_vpn, set_dns, start_voip_client, get_network_status
 import logging
 
 app = FastAPI(title="Knowledge Base Assistant API")
@@ -246,6 +248,113 @@ def extract_content_endpoint(url: str):
         logging.error(f"Content extraction error: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Extraction failed: {str(e)}")
 
+@app.post("/automate")
+def automate_endpoint(payload: dict):
+    """
+    Run web automation tasks (agent-driven). Accepts JSON with:
+    - url: Target URL
+    - actions: List of actions (goto, fill_form, click, screenshot, run_script)
+    - selectors: Dict of selectors/values for form filling/clicking
+    - script: Optional JS to run
+    - headless: Whether to run headless (default True)
+    - use_playwright: Whether to prefer Playwright (default True)
+    Returns: automation results (success, screenshot path, HTML, errors)
+    """
+    import tempfile
+    import base64
+    try:
+        url = payload.get('url')
+        actions = payload.get('actions', [])
+        selectors = payload.get('selectors', {})
+        script = payload.get('script')
+        headless = payload.get('headless', True)
+        use_playwright = payload.get('use_playwright', True)
+        screenshot_b64 = None
+        html = None
+        logs = []
+        errors = []
+        with WebAutomation(headless=headless, use_playwright=use_playwright) as bot:
+            for action in actions:
+                if action == 'goto':
+                    bot.goto(url)
+                    logs.append(f"Navigated to {url}")
+                elif action == 'fill_form':
+                    bot.fill_form(selectors)
+                    logs.append(f"Filled form fields {selectors}")
+                elif action == 'click':
+                    for sel in selectors:
+                        bot.click(sel)
+                        logs.append(f"Clicked {sel}")
+                elif action == 'screenshot':
+                    with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as tmpf:
+                        bot.screenshot(tmpf.name)
+                        tmpf.seek(0)
+                        screenshot_b64 = base64.b64encode(tmpf.read()).decode()
+                        logs.append(f"Screenshot captured")
+                elif action == 'run_script' and script:
+                    result = bot.run_script(script)
+                    logs.append(f"Script run, result: {result}")
+                elif action == 'get_content':
+                    html = bot.get_content()
+                    logs.append("HTML content captured")
+                else:
+                    logs.append(f"Unknown action: {action}")
+        return {
+            "success": True,
+            "logs": logs,
+            "screenshot_b64": screenshot_b64,
+            "html": html,
+            "errors": errors
+        }
+    except Exception as e:
+        logging.error(f"Automation error: {e}")
+        return {"success": False, "error": str(e)}
+
+@app.post("/vpn/connect")
+def vpn_connect(payload: dict):
+    """Connect to a VPN using OpenVPN or WireGuard. Payload: {config_path, vpn_type}"""
+    try:
+        config_path = payload.get('config_path')
+        vpn_type = payload.get('vpn_type', 'openvpn')
+        result = connect_vpn(config_path, vpn_type)
+        return {"success": result}
+    except Exception as e:
+        logging.error(f"VPN connect error: {e}")
+        return {"success": False, "error": str(e)}
+
+@app.post("/dns/set")
+def dns_set(payload: dict):
+    """Set DNS servers. Payload: {nameservers: list, method: system|doh|dot}"""
+    try:
+        nameservers = payload.get('nameservers', [])
+        method = payload.get('method', 'system')
+        result = set_dns(nameservers, method)
+        return {"success": result}
+    except Exception as e:
+        logging.error(f"DNS set error: {e}")
+        return {"success": False, "error": str(e)}
+
+@app.post("/voip/start")
+def voip_start(payload: dict):
+    """Start a VOIP client. Payload: {sip_account: dict}"""
+    try:
+        sip_account = payload.get('sip_account', {})
+        result = start_voip_client(sip_account)
+        return {"success": result}
+    except Exception as e:
+        logging.error(f"VOIP start error: {e}")
+        return {"success": False, "error": str(e)}
+
+@app.get("/network/status")
+def network_status():
+    """Get basic network status and diagnostics."""
+    try:
+        status = get_network_status()
+        return status
+    except Exception as e:
+        logging.error(f"Network status error: {e}")
+        return {"error": str(e)}
+
 @app.get("/")
 def root():
-    return {"status": "Knowledge Base Assistant API is running", "features": ["knowledge base", "search", "code generation", "multimodal", "web search"]}
+    return {"status": "Knowledge Base Assistant API is running", "features": ["knowledge base", "search", "code generation", "multimodal", "web search", "web automation", "vpn", "dns", "voip"]}
