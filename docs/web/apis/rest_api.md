@@ -85,7 +85,7 @@ A client cannot ordinarily tell whether it is connected directly to the end serv
 - Token-based (JWT, OAuth2)
 - API keys
 - HTTP Basic Auth
-- See [../security/authentication.md](../security/authentication.md)
+- See [../security/authentication.md](temp_reorg/docs/web/security/authentication.md)
 
 ## Error Handling
 Return structured error objects:
@@ -166,8 +166,8 @@ app.listen(3000);
 
 ## Related Topics
 - [GraphQL](graphql.md)
-- [API Gateways](api_gateway.md)
-- [Authentication](../security/authentication.md)
+- [API Gateways](temp_reorg/docs/web/system_design/api_gateway.md)
+- [Authentication](temp_reorg/docs/web/security/authentication.md)
 - [HTTP](../networking/http.md)
 - [Rate Limiting](../system_design/rate_limiting.md)
 

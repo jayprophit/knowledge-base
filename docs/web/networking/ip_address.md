@@ -51,7 +51,7 @@ print(socket.gethostbyname(socket.gethostname()))
 
 ## Related Topics
 - [DNS](dns.md)
-- [Proxy](proxy.md)
+- [Proxy](temp_reorg/docs/web/system_design/proxy.md)
 - [HTTP](http.md)
 
 ## References

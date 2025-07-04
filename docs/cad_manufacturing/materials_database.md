@@ -386,8 +386,8 @@ fc_material = FreeCADMaterial(steel)
 
 ## Next Steps
 - [Physics Simulation](physics_simulation.md)
-- [FEA Analysis](fea_analysis.md)
-- [Manufacturing Export](../manufacturing/3d_printing_export.md)
+- [FEA Analysis](temp_reorg/docs/cad_manufacturing/fea_analysis.md)
+- [Manufacturing Export](temp_reorg/docs/manufacturing/3d_printing_export.md)
 
 ---
 *Last updated: June 30, 2025*

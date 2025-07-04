@@ -265,7 +265,7 @@ This audio recognition system can be integrated with the [visual recognition sys
 
 - [Machine Learning Audio Recognition Guide](../../machine_learning/audio_recognition/audio_recognition_guide.md) - For more detailed implementation guidance
 - [Vision Recognition System](../vision/multi_category_object_recognition.md) - For integration with visual recognition
-- [API Documentation](../../api/audio_recognition_api.md) - For API usage and integration
+- [API Documentation](temp_reorg/docs/api/audio_recognition_api.md) - For API usage and integration
 
 ## References and Resources
 

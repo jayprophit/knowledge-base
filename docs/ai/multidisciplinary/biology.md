@@ -23,8 +23,8 @@ from multidisciplinary_ai.biology import BiologyModule
 ```
 
 ## References
-- [src/multidisciplinary_ai/biology.py](../../../../src/multidisciplinary_ai/biology.py)
-- [Biological AI Guide](../ai/guides/quantum_circuit_optimization.md)
+- [src/multidisciplinary_ai/biology.py](temp_reorg/docs/src/multidisciplinary_ai/biology.py)
+- [Biological AI Guide](temp_reorg/docs/ai/guides/quantum_circuit_optimization.md)
 
 ---
 **Back to [Multidisciplinary AI](./README.md)**

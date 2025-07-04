@@ -149,7 +149,7 @@ robot.move_object("Ball", [0.0, 0.0, 10.0])
 
 ## 8. Cross-links
 - [System Architecture](./architecture.md)
-- [AI System Enhancements](../ai_system_enhancements.md)
+- [AI System Enhancements](temp_reorg/docs/robotics/ai_system_enhancements.md)
 - [Learning & Adaptation](./learning/README.md)
 - [Control Systems](./control/README.md)
 - [Security](./security/README.md)

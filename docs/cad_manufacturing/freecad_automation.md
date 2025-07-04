@@ -245,7 +245,7 @@ bracket_object.Shape = bracket
 ## Next Steps
 - [Material Properties](materials_database.md)
 - [Physics Simulation](physics_simulation.md)
-- [FEA Analysis](fea_analysis.md)
+- [FEA Analysis](temp_reorg/docs/cad_manufacturing/fea_analysis.md)
 
 ---
 *Last updated: June 30, 2025*

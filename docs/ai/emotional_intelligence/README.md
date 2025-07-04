@@ -62,7 +62,7 @@ For more examples, see the [examples directory](../../examples/emotional_intelli
   - Dimensional model (Valence, Arousal, Dominance)
   - Basic and social emotions
   - Emotion blending and regulation
-  - [View Example Usage](../../examples/emotional_intelligence/demo_emotional_ai.py#L15-L60)
+  - [View Example Usage](temp_reorg/src/ai/demo_emotional_ai.py)
 
 ### 2. Self-Awareness (`/self_awareness/`)
 - `introspection.py`: Implements self-reflection and metacognitive capabilities
@@ -70,7 +70,7 @@ For more examples, see the [examples directory](../../examples/emotional_intelli
   - Behavioral pattern recognition
   - Self-evaluation and critique
   - Goal alignment assessment
-  - [Example Implementation](../../examples/emotional_intelligence/demo_emotional_ai.py#L62-L77)
+  - [Example Implementation](temp_reorg/src/ai/demo_emotional_ai.py)
 
 ### 3. Empathy and Social Awareness (`/empathy/`)
 - `social_awareness.py`: Implements theory of mind and social intelligence
@@ -78,7 +78,7 @@ For more examples, see the [examples directory](../../examples/emotional_intelli
   - Perspective taking
   - Empathic responding
   - Social norm understanding
-  - [Example Implementation](../../examples/emotional_intelligence/demo_emotional_ai.py#L79-L95)
+  - [Example Implementation](temp_reorg/src/ai/demo_emotional_ai.py)
 
 ### 4. Emotional Memory (`/memory/`)
 - `emotional_memory.py`: Manages storage and retrieval of emotional experiences

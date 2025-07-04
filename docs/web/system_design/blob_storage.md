@@ -68,7 +68,7 @@ with open('myfile.txt', 'rb') as data:
 
 ## Related Topics
 - [Database Systems](../databases/database_overview.md)
-- [Security](../security/security.md)
+- [Security](temp_reorg/docs/web/security/security.md)
 
 ## References
 - [AWS S3 Documentation](https://docs.aws.amazon.com/s3/index.html)

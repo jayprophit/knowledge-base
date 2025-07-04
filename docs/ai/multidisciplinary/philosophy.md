@@ -26,7 +26,7 @@ print(result)
 ```
 
 ## References
-- [src/multidisciplinary_ai/philosophy.py](../../../../src/multidisciplinary_ai/philosophy.py)
+- [src/multidisciplinary_ai/philosophy.py](temp_reorg/docs/src/multidisciplinary_ai/philosophy.py)
 - [Ethics & AI Guide](../emotional_intelligence/EMPATHY_AND_SOCIAL_AWARENESS.md)
 
 ---

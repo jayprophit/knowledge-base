@@ -63,4 +63,4 @@ def recognize_voice_command():
 ## Cross-links
 - [Perception](./perception/README.md)
 - [Control](./control/README.md)
-- [Testing & Validation](./testing/README.md)
+- [Testing & Validation](testing/README.md)

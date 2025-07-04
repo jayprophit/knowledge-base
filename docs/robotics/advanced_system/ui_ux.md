@@ -243,6 +243,6 @@ if __name__ == '__main__':
 7. **Progressive Disclosure**: Show only necessary information based on context
 
 ## Cross-links
-- [Human-Robot Interaction](../human_robot_interaction.md)
+- [Human-Robot Interaction](temp_reorg/docs/robotics/advanced_system/human_robot_interaction.md)
 - [Control Systems](../control/README.md)
-- [Testing & Validation](../testing.md)
+- [Testing & Validation](temp_reorg/docs/robotics/advanced_system/testing.md)

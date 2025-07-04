@@ -51,7 +51,7 @@ print(socket.gethostbyname('example.com'))
 
 ## Related Topics
 - [IP Address](ip_address.md)
-- [Proxy](proxy.md)
+- [Proxy](temp_reorg/docs/web/system_design/proxy.md)
 - [HTTP](http.md)
 
 ## References

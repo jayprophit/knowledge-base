@@ -17,24 +17,24 @@ This directory contains comprehensive documentation for deploying applications a
    - Docker
    - Kubernetes
    - Dev Containers
-2. [Platform-Specific Deployment](./platforms/README.md)
+2. [Platform-Specific Deployment](platforms/README.md)
    - Microsoft Windows
    - macOS
    - Linux
    - Cloud Platforms
-3. [CI/CD Pipelines](./ci_cd/README.md)
+3. [CI/CD Pipelines](ci_cd/README.md)
    - GitHub Actions
    - GitLab CI
    - Jenkins
-4. [Infrastructure as Code](./iac/README.md)
+4. [Infrastructure as Code](iac/README.md)
    - Terraform
    - Ansible
    - Pulumi
-5. [AI/ML Ops](./mlops/README.md)
+5. [AI/ML Ops](mlops/README.md)
    - Model Serving
    - Monitoring
    - Scaling
-6. [Security](./security/README.md)
+6. [Security](security/README.md)
    - Secrets Management
    - Network Policies
    - Compliance
@@ -51,7 +51,7 @@ This directory contains comprehensive documentation for deploying applications a
 ### Quick Start
 
 1. Clone the repository
-2. Set up environment variables (see [Environment Configuration](./environment.md))
+2. Set up environment variables (see [Environment Configuration](temp_reorg/docs/deployment/environment.md))
 3. Build and deploy using the provided scripts
 
 ## Environment Configuration
@@ -130,7 +130,7 @@ terraform apply
 
 ## Troubleshooting
 
-See [Troubleshooting Guide](./troubleshooting.md) for common issues and solutions.
+See [Troubleshooting Guide](temp_reorg/docs/robotics/troubleshooting.md) for common issues and solutions.
 
 ## Contributing
 

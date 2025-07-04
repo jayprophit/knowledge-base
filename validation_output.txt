@@ -1,0 +1,1 @@
+Results written to C:\Users\jpowe\CascadeProjects\github\knowledge-base\validation_results.log

@@ -63,7 +63,7 @@ httpd.serve_forever()
 
 ## Related Topics
 - [DNS](dns.md)
-- [Proxy](proxy.md)
+- [Proxy](temp_reorg/docs/web/system_design/proxy.md)
 - [Load Balancer](../system_design/load_balancer.md)
 
 ## References

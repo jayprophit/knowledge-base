@@ -239,7 +239,7 @@ analyze_performance_by_feature(model, X_test, y_test,
 ## References
 - [Build + Train Model](build_train_model.md) - Previous step in ML workflow
 - [Hyperparameter Tuning](hyperparameter_tuning.md) - Next step for optimizing models
-- [Deployment](deployment.md) - Following step if model performance is satisfactory
+- [Deployment](temp_reorg/docs/machine_learning/workflow/deployment.md) - Following step if model performance is satisfactory
 - [Scikit-learn Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html) - External resource
 - [Google's Model Evaluation Guidelines](https://developers.google.com/machine-learning/crash-course/classification/model-evaluation) - External resource
 - [Yellowbrick Visualization](https://www.scikit-yb.org/en/latest/) - External resource for model visualization

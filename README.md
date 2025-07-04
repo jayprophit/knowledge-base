@@ -171,10 +171,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Machine Learning Workflows
 
 Complete documentation for all stages of the ML workflow:
-- [Data Acquisition](docs/machine_learning/data_acquisition.md)
-- [Preprocessing](docs/machine_learning/preprocessing.md)
-- [Model Building & Training](docs/machine_learning/build_train_model.md)
-- [Evaluation & Deployment](docs/machine_learning/evaluate_performance.md)
+- [Data Acquisition](temp_reorg/docs/machine_learning/workflow/data_acquisition.md)
+- [Preprocessing](temp_reorg/docs/machine_learning/workflow/preprocessing.md)
+- [Model Building & Training](temp_reorg/docs/machine_learning/workflow/build_train_model.md)
+- [Evaluation & Deployment](temp_reorg/docs/machine_learning/workflow/evaluate_performance.md)
 
 ### Quantum Computing Resources
 
@@ -190,7 +190,7 @@ This knowledge base is designed for maximum connectivity and discoverability. Al
 - **Cite external resources** (papers, official docs, repositories, standards, etc.) to provide deeper context and learning paths.
 
 ### How to Link
-- Use standard Markdown links for internal references: `[Data Acquisition](docs/machine_learning/data_acquisition.md)`
+- Use standard Markdown links for internal references: `[Data Acquisition](temp_reorg/docs/machine_learning/workflow/data_acquisition.md)`
 - For external references: `[Qiskit Documentation](https://qiskit.org/documentation/)`
 - At the end of each document, include a **References** section with all relevant links.
 

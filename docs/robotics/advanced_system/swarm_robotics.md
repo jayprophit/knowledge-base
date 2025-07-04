@@ -56,4 +56,4 @@ def update_swarm(robots, goal):
 ## Cross-links
 - [Navigation](./navigation/README.md)
 - [Control](./control/README.md)
-- [Testing & Validation](./testing/README.md)
+- [Testing & Validation](testing/README.md)

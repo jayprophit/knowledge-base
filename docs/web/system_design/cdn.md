@@ -54,8 +54,8 @@ A Content Delivery Network (CDN) is a distributed network of servers that delive
 
 ## Related Topics
 - [Caching](cache.md)
-- [Performance Optimization](../performance/denormalization.md)
-- [Security](../security/security.md)
+- [Performance Optimization](temp_reorg/docs/web/system_design/denormalization.md)
+- [Security](temp_reorg/docs/web/security/security.md)
 
 ## References
 - [Cloudflare CDN Documentation](https://developers.cloudflare.com/cdn/)

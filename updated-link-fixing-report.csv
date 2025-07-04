@@ -1,0 +1,172 @@
+source_file,line_number,broken_link,link_type,link_text,relative_path,new_link,status,reason
+.\method.md,0,/docs/troubleshooting.md,markdown,Troubleshooting Guide,method.md,temp_reorg/docs/robotics/troubleshooting.md,fixed,
+.\method.md,0,/docs/faq.md,markdown,FAQs,method.md,temp_reorg/docs/robotics/faq.md,fixed,
+.\README.md,0,docs/machine_learning/data_acquisition.md,markdown,Data Acquisition,README.md,temp_reorg/docs/machine_learning/workflow/data_acquisition.md,fixed,
+.\README.md,0,docs/machine_learning/preprocessing.md,markdown,Preprocessing,README.md,temp_reorg/docs/machine_learning/workflow/preprocessing.md,fixed,
+.\README.md,0,docs/machine_learning/build_train_model.md,markdown,Model Building & Training,README.md,temp_reorg/docs/machine_learning/workflow/build_train_model.md,fixed,
+.\README.md,0,docs/machine_learning/evaluate_performance.md,markdown,Evaluation & Deployment,README.md,temp_reorg/docs/machine_learning/workflow/evaluate_performance.md,fixed,
+.\docs\ai\README.md,0,./guides/performance_tuning.md,markdown,Performance Tuning Guide,docs\ai\README.md,temp_reorg/docs/ai/guides/performance_tuning.md,fixed,
+.\docs\ai\README.md,0,./security/deployment.md,markdown,Secure Deployment,docs\ai\README.md,temp_reorg/docs/machine_learning/workflow/deployment.md,fixed,
+.\docs\ai\README.md,0,./security/access_control.md,markdown,Access Control,docs\ai\README.md,temp_reorg/docs/robotics/access_control.md,fixed,
+.\docs\ai\audio\multi_modal_audio_recognition.md,0,../../api/audio_recognition_api.md,markdown,API Documentation,docs\ai\audio\multi_modal_audio_recognition.md,temp_reorg/docs/api/audio_recognition_api.md,fixed,
+.\docs\ai\emotional_intelligence\README.md,0,../../examples/emotional_intelligence/demo_emotional_ai.py#L15-L60,relative,View Example Usage,docs\ai\emotional_intelligence\README.md,temp_reorg/src/ai/demo_emotional_ai.py,fixed,
+.\docs\ai\emotional_intelligence\README.md,0,../../examples/emotional_intelligence/demo_emotional_ai.py#L62-L77,relative,Example Implementation,docs\ai\emotional_intelligence\README.md,temp_reorg/src/ai/demo_emotional_ai.py,fixed,
+.\docs\ai\emotional_intelligence\README.md,0,../../examples/emotional_intelligence/demo_emotional_ai.py#L79-L95,relative,Example Implementation,docs\ai\emotional_intelligence\README.md,temp_reorg/src/ai/demo_emotional_ai.py,fixed,
+.\docs\ai\models\bitnet_b158_2b4t.md,0,../../machine_learning/workflow/deployment.md,markdown,Model Deployment,docs\ai\models\bitnet_b158_2b4t.md,temp_reorg/docs/machine_learning/workflow/deployment.md,fixed,
+.\docs\ai\multidisciplinary\biology.md,0,../../../../src/multidisciplinary_ai/biology.py,code,src/multidisciplinary_ai/biology.py,docs\ai\multidisciplinary\biology.md,temp_reorg/docs/src/multidisciplinary_ai/biology.py,fixed,
+.\docs\ai\multidisciplinary\biology.md,0,../ai/guides/quantum_circuit_optimization.md,markdown,Biological AI Guide,docs\ai\multidisciplinary\biology.md,temp_reorg/docs/ai/guides/quantum_circuit_optimization.md,fixed,
+.\docs\ai\multidisciplinary\cosmology.md,0,../../../../src/multidisciplinary_ai/cosmology.py,code,src/multidisciplinary_ai/cosmology.py,docs\ai\multidisciplinary\cosmology.md,temp_reorg/docs/src/multidisciplinary_ai/cosmology.py,fixed,
+.\docs\ai\multidisciplinary\cosmology.md,0,../../../../src/multidisciplinary_ai/cosmology/cosmology_model.py,code,Cosmology Model,docs\ai\multidisciplinary\cosmology.md,temp_reorg/docs/src/multidisciplinary_ai/cosmology/cosmology_model.py,fixed,
+.\docs\ai\multidisciplinary\philosophy.md,0,../../../../src/multidisciplinary_ai/philosophy.py,code,src/multidisciplinary_ai/philosophy.py,docs\ai\multidisciplinary\philosophy.md,temp_reorg/docs/src/multidisciplinary_ai/philosophy.py,fixed,
+.\docs\ai\multidisciplinary\psychology.md,0,../../../../src/multidisciplinary_ai/psychology.py,code,src/multidisciplinary_ai/psychology.py,docs\ai\multidisciplinary\psychology.md,temp_reorg/docs/src/multidisciplinary_ai/psychology.py,fixed,
+.\docs\ai\multidisciplinary\README.md,0,./psychology/README.md,markdown,Psychology Module,docs\ai\multidisciplinary\README.md,psychology/README.md,fixed,
+.\docs\ai\multidisciplinary\README.md,0,./philosophy/README.md,markdown,Philosophy Module,docs\ai\multidisciplinary\README.md,philosophy/README.md,fixed,
+.\docs\ai\multidisciplinary\README.md,0,./sociology/README.md,markdown,Sociology Module,docs\ai\multidisciplinary\README.md,sociology/README.md,fixed,
+.\docs\ai\multidisciplinary\README.md,0,./biology/README.md,markdown,Biology Module,docs\ai\multidisciplinary\README.md,biology/README.md,fixed,
+.\docs\ai\multidisciplinary\README.md,0,./cosmology/README.md,markdown,Cosmology Module,docs\ai\multidisciplinary\README.md,cosmology/README.md,fixed,
+.\docs\ai\multidisciplinary\README.md,0,../../CONTRIBUTING.md,markdown,contributing guidelines,docs\ai\multidisciplinary\README.md,docs/CONTRIBUTING.md,fixed,
+.\docs\ai\multidisciplinary\sociology.md,0,../../../../src/multidisciplinary_ai/sociology.py,code,src/multidisciplinary_ai/sociology.py,docs\ai\multidisciplinary\sociology.md,temp_reorg/docs/src/multidisciplinary_ai/sociology.py,fixed,
+.\docs\ai\multidisciplinary\sociology.md,0,../ai/guides/multimodal_integration.md,markdown,Social AI Guide,docs\ai\multidisciplinary\sociology.md,temp_reorg/docs/guides/multimodal_integration.md,fixed,
+.\docs\ai\vision\multi_category_object_recognition.md,0,../../audio/audio_recognition.md,markdown,Audio Recognition System,docs\ai\vision\multi_category_object_recognition.md,temp_reorg/docs/audio/audio_recognition.md,fixed,
+.\docs\ai\vision\multi_category_object_recognition.md,0,../../../iot/sensors.md,markdown,IoT devices,docs\ai\vision\multi_category_object_recognition.md,temp_reorg/docs/iot/sensors.md,fixed,
+.\docs\ai\vision\multi_category_object_recognition.md,0,../../../mobile/vision_apps.md,markdown,Mobile applications,docs\ai\vision\multi_category_object_recognition.md,temp_reorg/docs/ai/vision_apps.md,fixed,
+.\docs\cad_manufacturing\freecad_automation.md,0,fea_analysis.md,markdown,FEA Analysis,docs\cad_manufacturing\freecad_automation.md,temp_reorg/docs/cad_manufacturing/fea_analysis.md,fixed,
+.\docs\cad_manufacturing\materials_database.md,0,fea_analysis.md,markdown,FEA Analysis,docs\cad_manufacturing\materials_database.md,temp_reorg/docs/cad_manufacturing/fea_analysis.md,fixed,
+.\docs\cad_manufacturing\materials_database.md,0,../manufacturing/3d_printing_export.md,markdown,Manufacturing Export,docs\cad_manufacturing\materials_database.md,temp_reorg/docs/manufacturing/3d_printing_export.md,fixed,
+.\docs\cad_manufacturing\physics_simulation.md,0,fea_analysis.md,markdown,FEA Analysis,docs\cad_manufacturing\physics_simulation.md,temp_reorg/docs/cad_manufacturing/fea_analysis.md,fixed,
+.\docs\cad_manufacturing\physics_simulation.md,0,../manufacturing/3d_printing_export.md,markdown,Manufacturing Integration,docs\cad_manufacturing\physics_simulation.md,temp_reorg/docs/manufacturing/3d_printing_export.md,fixed,
+.\docs\cad_manufacturing\README.md,0,openscad_automation.md,markdown,OpenSCAD Parametric Design,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/openscad_automation.md,fixed,
+.\docs\cad_manufacturing\README.md,0,3d_model_generation.md,markdown,3D Model Generation,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/3d_model_generation.md,fixed,
+.\docs\cad_manufacturing\README.md,0,fea_analysis.md,markdown,Finite Element Analysis (FEA),docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/fea_analysis.md,fixed,
+.\docs\cad_manufacturing\README.md,0,genetic_algorithm_optimization.md,markdown,Genetic Algorithm Optimization,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/genetic_algorithm_optimization.md,fixed,
+.\docs\cad_manufacturing\README.md,0,neural_network_predictions.md,markdown,Neural Network Predictions,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/neural_network_predictions.md,fixed,
+.\docs\cad_manufacturing\README.md,0,gan_design_generation.md,markdown,GAN-based Design Generation,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/gan_design_generation.md,fixed,
+.\docs\cad_manufacturing\README.md,0,3d_printing_export.md,markdown,3D Printing (STL Export),docs\cad_manufacturing\README.md,temp_reorg/docs/manufacturing/3d_printing_export.md,fixed,
+.\docs\cad_manufacturing\README.md,0,cnc_machining_export.md,markdown,CNC Machining (GCode),docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/cnc_machining_export.md,fixed,
+.\docs\cad_manufacturing\README.md,0,iot_manufacturing.md,markdown,IoT & Smart Device Control,docs\cad_manufacturing\README.md,temp_reorg/docs/iot/iot_manufacturing.md,fixed,
+.\docs\cad_manufacturing\README.md,0,advanced_physics.md,markdown,Relativity & High-D Simulations,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/advanced_physics.md,fixed,
+.\docs\cad_manufacturing\README.md,0,multi_material_design.md,markdown,Multi-Material Design,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/multi_material_design.md,fixed,
+.\docs\cad_manufacturing\README.md,0,generative_design.md,markdown,Generative Design,docs\cad_manufacturing\README.md,temp_reorg/docs/cad_manufacturing/generative_design.md,fixed,
+.\docs\concepts\knowledge_base_naming_and_identity.md,0,../system_design.md,markdown,System Design Overview,docs\concepts\knowledge_base_naming_and_identity.md,temp_reorg/docs/robotics/system_design.md,fixed,
+.\docs\deployment\README.md,0,./platforms/README.md,markdown,Platform-Specific Deployment,docs\deployment\README.md,platforms/README.md,fixed,
+.\docs\deployment\README.md,0,./ci_cd/README.md,markdown,CI/CD Pipelines,docs\deployment\README.md,ci_cd/README.md,fixed,
+.\docs\deployment\README.md,0,./iac/README.md,markdown,Infrastructure as Code,docs\deployment\README.md,iac/README.md,fixed,
+.\docs\deployment\README.md,0,./mlops/README.md,markdown,AI/ML Ops,docs\deployment\README.md,mlops/README.md,fixed,
+.\docs\deployment\README.md,0,./security/README.md,markdown,Security,docs\deployment\README.md,security/README.md,fixed,
+.\docs\deployment\README.md,0,./environment.md,markdown,Environment Configuration,docs\deployment\README.md,temp_reorg/docs/deployment/environment.md,fixed,
+.\docs\deployment\README.md,0,./troubleshooting.md,markdown,Troubleshooting Guide,docs\deployment\README.md,temp_reorg/docs/robotics/troubleshooting.md,fixed,
+.\docs\machine_learning\multimodal\unified_recognition_guide.md,0,../vision_recognition/vision_recognition_guide.md,markdown,Vision Recognition Guide,docs\machine_learning\multimodal\unified_recognition_guide.md,temp_reorg/docs/machine_learning/vision_recognition/vision_recognition_guide.md,fixed,
+.\docs\machine_learning\multimodal\unified_recognition_guide.md,0,../training/training_guide.md,markdown,Custom Model Training,docs\machine_learning\multimodal\unified_recognition_guide.md,temp_reorg/docs/machine_learning/training/training_guide.md,fixed,
+.\docs\machine_learning\workflow\evaluate_performance.md,0,deployment.md,markdown,Deployment,docs\machine_learning\workflow\evaluate_performance.md,temp_reorg/docs/machine_learning/workflow/deployment.md,fixed,
+.\docs\machine_learning\workflow\hyperparameter_tuning.md,0,deployment.md,markdown,Deployment,docs\machine_learning\workflow\hyperparameter_tuning.md,temp_reorg/docs/machine_learning/workflow/deployment.md,fixed,
+.\docs\robotics\README.md,0,safety_ethics.md,markdown,Safety and Ethics,docs\robotics\README.md,temp_reorg/docs/robotics/safety_ethics.md,fixed,
+.\docs\robotics\README.md,0,integration.md,markdown,Integration and APIs,docs\robotics\README.md,temp_reorg/docs/robotics/integration.md,fixed,
+.\docs\robotics\README.md,0,development.md,markdown,Development and Testing,docs\robotics\README.md,temp_reorg/docs/robotics/development.md,fixed,
+.\docs\robotics\README.md,0,development.md,markdown,development guide,docs\robotics\README.md,temp_reorg/docs/robotics/development.md,fixed,
+.\docs\robotics\README.md,0,troubleshooting.md,markdown,Troubleshooting Guide,docs\robotics\README.md,temp_reorg/docs/robotics/troubleshooting.md,fixed,
+.\docs\robotics\README.md,0,faq.md,markdown,FAQ,docs\robotics\README.md,temp_reorg/docs/robotics/faq.md,fixed,
+.\docs\robotics\advanced_system\advanced_abilities.md,0,../ai_system_enhancements.md,markdown,AI System Enhancements,docs\robotics\advanced_system\advanced_abilities.md,temp_reorg/docs/robotics/ai_system_enhancements.md,fixed,
+.\docs\robotics\advanced_system\architecture.md,0,../development.md,markdown,development environment,docs\robotics\advanced_system\architecture.md,temp_reorg/docs/robotics/development.md,fixed,
+.\docs\robotics\advanced_system\cad_and_manufacturing.md,0,../ai_system_enhancements.md,markdown,AI System Enhancements,docs\robotics\advanced_system\cad_and_manufacturing.md,temp_reorg/docs/robotics/ai_system_enhancements.md,fixed,
+.\docs\robotics\advanced_system\human_robot_interaction.md,0,./testing/README.md,markdown,Testing & Validation,docs\robotics\advanced_system\human_robot_interaction.md,testing/README.md,fixed,
+.\docs\robotics\advanced_system\multisensory_robotics.md,0,../../hardware/sensors.md,markdown,Sensor Integration,docs\robotics\advanced_system\multisensory_robotics.md,temp_reorg/docs/iot/sensors.md,fixed,
+.\docs\robotics\advanced_system\multisensory_robotics.md,0,../../ai/guides/robotics_ai_algorithms.md,markdown,AI Algorithms,docs\robotics\advanced_system\multisensory_robotics.md,temp_reorg/docs/ai/guides/robotics_ai_algorithms.md,fixed,
+.\docs\robotics\advanced_system\multisensory_robotics.md,0,../../ai/guides/robotics_movement.md,markdown,Movement Algorithms,docs\robotics\advanced_system\multisensory_robotics.md,temp_reorg/docs/ai/guides/robotics_movement.md,fixed,
+.\docs\robotics\advanced_system\multisensory_robotics.md,0,../../ai/audio/README.md,markdown,Speech & Audio,docs\robotics\advanced_system\multisensory_robotics.md,docs/ai/audio/README.md,fixed,
+.\docs\robotics\advanced_system\sanskrit_style_reorganization.md,0,./advanced_system.md,markdown,Advanced System Documentation,docs\robotics\advanced_system\sanskrit_style_reorganization.md,temp_reorg/docs/robotics/advanced_system/advanced_system.md,fixed,
+.\docs\robotics\advanced_system\self_powering_and_regeneration.md,0,../ai_system_enhancements.md,markdown,AI System Enhancements,docs\robotics\advanced_system\self_powering_and_regeneration.md,temp_reorg/docs/robotics/ai_system_enhancements.md,fixed,
+.\docs\robotics\advanced_system\speculative_abilities.md,0,../../../../ai/multidisciplinary/philosophy.md,markdown,Ethics & Social Impact,docs\robotics\advanced_system\speculative_abilities.md,temp_reorg/docs/ai/multidisciplinary/philosophy.md,fixed,
+.\docs\robotics\advanced_system\speculative_abilities.md,0,./testing/README.md,markdown,Testing & Validation,docs\robotics\advanced_system\speculative_abilities.md,testing/README.md,fixed,
+.\docs\robotics\advanced_system\swarm_robotics.md,0,./testing/README.md,markdown,Testing & Validation,docs\robotics\advanced_system\swarm_robotics.md,testing/README.md,fixed,
+.\docs\robotics\advanced_system\theoretical_abilities.md,0,../ai_system_enhancements.md,markdown,AI System Enhancements,docs\robotics\advanced_system\theoretical_abilities.md,temp_reorg/docs/robotics/ai_system_enhancements.md,fixed,
+.\docs\robotics\advanced_system\ui_ux.md,0,../human_robot_interaction.md,markdown,Human-Robot Interaction,docs\robotics\advanced_system\ui_ux.md,temp_reorg/docs/robotics/advanced_system/human_robot_interaction.md,fixed,
+.\docs\robotics\advanced_system\ui_ux.md,0,../testing.md,markdown,Testing & Validation,docs\robotics\advanced_system\ui_ux.md,temp_reorg/docs/robotics/advanced_system/testing.md,fixed,
+.\docs\web\apis\rest_api.md,0,../security/authentication.md,markdown,../security/authentication.md,docs\web\apis\rest_api.md,temp_reorg/docs/web/security/authentication.md,fixed,
+.\docs\web\apis\rest_api.md,0,api_gateway.md,markdown,API Gateways,docs\web\apis\rest_api.md,temp_reorg/docs/web/system_design/api_gateway.md,fixed,
+.\docs\web\apis\rest_api.md,0,../security/authentication.md,markdown,Authentication,docs\web\apis\rest_api.md,temp_reorg/docs/web/security/authentication.md,fixed,
+.\docs\web\databases\database_overview.md,0,../performance/denormalization.md,markdown,../performance/denormalization.md,docs\web\databases\database_overview.md,temp_reorg/docs/web/system_design/denormalization.md,fixed,
+.\docs\web\networking\dns.md,0,proxy.md,markdown,Proxy,docs\web\networking\dns.md,temp_reorg/docs/web/system_design/proxy.md,fixed,
+.\docs\web\networking\http.md,0,proxy.md,markdown,Proxy,docs\web\networking\http.md,temp_reorg/docs/web/system_design/proxy.md,fixed,
+.\docs\web\networking\ip_address.md,0,proxy.md,markdown,Proxy,docs\web\networking\ip_address.md,temp_reorg/docs/web/system_design/proxy.md,fixed,
+.\docs\web\system_design\blob_storage.md,0,../security/security.md,markdown,Security,docs\web\system_design\blob_storage.md,temp_reorg/docs/web/security/security.md,fixed,
+.\docs\web\system_design\cache.md,0,../performance/denormalization.md,markdown,Performance Optimization,docs\web\system_design\cache.md,temp_reorg/docs/web/system_design/denormalization.md,fixed,
+.\docs\web\system_design\cache.md,0,../security/security.md,markdown,Security,docs\web\system_design\cache.md,temp_reorg/docs/web/security/security.md,fixed,
+.\docs\web\system_design\cdn.md,0,../performance/denormalization.md,markdown,Performance Optimization,docs\web\system_design\cdn.md,temp_reorg/docs/web/system_design/denormalization.md,fixed,
+.\docs\web\system_design\cdn.md,0,../security/security.md,markdown,Security,docs\web\system_design\cdn.md,temp_reorg/docs/web/security/security.md,fixed,
+.\docs\web\system_design\rate_limiting.md,0,../security/security.md,markdown,Security,docs\web\system_design\rate_limiting.md,temp_reorg/docs/web/security/security.md,fixed,
+.\meta\linking_standards.md,0,../docs/workflow/preprocessing.md,markdown,Data Preprocessing,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/preprocessing.md,fixed,
+.\meta\linking_standards.md,0,../docs/workflow/hyperparameter_tuning.md#optimization-techniques,markdown,hyperparameter optimization techniques,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/hyperparameter_tuning.md,fixed,
+.\meta\linking_standards.md,0,../docs/workflow/evaluate_performance.md,markdown,Model Evaluation,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/evaluate_performance.md,fixed,
+.\meta\linking_standards.md,0,../docs/workflow/deployment.md,markdown,Deployment Strategies,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/deployment.md,fixed,
+.\meta\linking_standards.md,0,preprocessing.md,markdown,Data Preprocessing,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/preprocessing.md,fixed,
+.\meta\linking_standards.md,0,evaluate_performance.md,markdown,Model Evaluation,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/evaluate_performance.md,fixed,
+.\meta\linking_standards.md,0,hyperparameter_tuning.md,markdown,Hyperparameter Tuning,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/hyperparameter_tuning.md,fixed,
+.\meta\linking_standards.md,0,preprocessing.md,markdown,preprocessed data,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/preprocessing.md,fixed,
+.\meta\linking_standards.md,0,evaluate_performance.md,markdown,model evaluation,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/evaluate_performance.md,fixed,
+.\meta\linking_standards.md,0,hyperparameter_tuning.md,markdown,tune hyperparameters,meta\linking_standards.md,../temp_reorg/docs/machine_learning/workflow/hyperparameter_tuning.md,fixed,
+.\method.md,0,/tutorials,absolute,Tutorials,method.md,,,Target not found
+.\method.md,0,/src,absolute,Source Code,method.md,,,Target not found
+.\method.md,0,/tests,absolute,Tests,method.md,,,Target not found
+.\README.md,0,docs/machine_learning/data_acquisition.md,markdown,Data Acquisition,README.md,,,No changes made
+.\SECURITY.md,0,mailto:security@example.com,mailto,security@example.com,SECURITY.md,,,Target not found
+.\SECURITY.md,0,mailto:security@example.com,mailto,security@example.com,SECURITY.md,,,Target not found
+.\SUPPORT.md,0,mailto:support@example.com,mailto,support@example.com,SUPPORT.md,,,Target not found
+.\docs\ai\README.md,0,./tools/benchmarking/,relative,Benchmarking Tools,docs\ai\README.md,,,Target not found
+.\docs\ai\README.md,0,../CONTRIBUTING.md,markdown,Contribution Guidelines,docs\ai\README.md,,,No changes made
+.\docs\ai\README.md,0,../LICENSE,relative,LICENSE,docs\ai\README.md,,,Target not found
+.\docs\ai\README.md,0,mailto:support@quantum-ai.org,mailto,support@quantum-ai.org,docs\ai\README.md,,,Target not found
+.\docs\ai\system_improvement_strategies.md,0,../README.md,markdown,AI Knowledge Base,docs\ai\system_improvement_strategies.md,,,No changes made
+.\docs\ai\audio\audio_module_architecture.md,0,LICENSE,relative,LICENSE,docs\ai\audio\audio_module_architecture.md,,,Target not found
+.\docs\ai\emotional_intelligence\README.md,0,../../examples/emotional_intelligence/,relative,examples directory,docs\ai\emotional_intelligence\README.md,,,Target not found
+.\docs\ai\emotional_intelligence\README.md,0,CONTRIBUTING.md,markdown,Contributing Guidelines,docs\ai\emotional_intelligence\README.md,,,No changes made
+.\docs\ai\emotional_intelligence\README.md,0,LICENSE,relative,LICENSE,docs\ai\emotional_intelligence\README.md,,,Target not found
+.\docs\ai\multidisciplinary\README.md,0,../../examples/multidisciplinary/,relative,examples,docs\ai\multidisciplinary\README.md,,,Target not found
+.\docs\app\README.md,0,../README.md,markdown,Knowledge Base Documentation,docs\app\README.md,,,No changes made
+.\docs\concepts\README.md,0,../README.md,markdown,Knowledge Base Documentation,docs\concepts\README.md,,,No changes made
+.\docs\deployment\README.md,0,../CONTRIBUTING.md,markdown,CONTRIBUTING.md,docs\deployment\README.md,,,No changes made
+.\docs\deployment\README.md,0,../LICENSE,relative,LICENSE,docs\deployment\README.md,,,Target not found
+.\docs\desktop\README.md,0,../README.md,markdown,Knowledge Base Documentation,docs\desktop\README.md,,,No changes made
+.\docs\robotics\README.md,0,perception/README.md,markdown,Perception Systems,docs\robotics\README.md,,,No changes made
+.\docs\robotics\README.md,0,movement/README.md,markdown,Movement and Mobility,docs\robotics\README.md,,,No changes made
+.\docs\robotics\README.md,0,ai/README.md,markdown,AI and Machine Learning,docs\robotics\README.md,,,No changes made
+.\docs\robotics\README.md,0,specs/,relative,Component Specifications,docs\robotics\README.md,,,Target not found
+.\docs\robotics\README.md,0,api/,relative,API Reference,docs\robotics\README.md,,,Target not found
+.\docs\robotics\README.md,0,CONTRIBUTING.md,markdown,contribution guidelines,docs\robotics\README.md,,,No changes made
+.\docs\robotics\advanced_system\architecture.md,0,../examples/README.md,markdown,sample applications,docs\robotics\advanced_system\architecture.md,,,No changes made
+.\docs\robotics\advanced_system\README.md,0,networking/README.md,markdown,Networking & Security,docs\robotics\advanced_system\README.md,,,No changes made
+.\docs\robotics\advanced_system\README.md,0,ai/README.md,markdown,AI & Machine Learning,docs\robotics\advanced_system\README.md,,,No changes made
+.\docs\robotics\advanced_system\README.md,0,safety_ethics/README.md,markdown,Safety & Ethics,docs\robotics\advanced_system\README.md,,,No changes made
+.\docs\robotics\advanced_system\README.md,0,deployment/README.md,markdown,Deployment & Maintenance,docs\robotics\advanced_system\README.md,,,No changes made
+.\docs\robotics\advanced_system\README.md,0,deployment/README.md,markdown,deployment guide,docs\robotics\advanced_system\README.md,,,No changes made
+.\docs\robotics\advanced_system\README.md,0,TROUBLESHOOTING.md,markdown,troubleshooting,docs\robotics\advanced_system\README.md,,,No changes made
+.\docs\robotics\advanced_system\ui_ux.md,0,../control/README.md,markdown,Control Systems,docs\robotics\advanced_system\ui_ux.md,,,No changes made
+.\docs\robotics\advanced_system\control\README.md,0,../testing/README.md,markdown,Testing & Validation,docs\robotics\advanced_system\control\README.md,,,No changes made
+.\examples\emotional_intelligence\README.md,0,../docs/ai/emotional_intelligence/ARCHITECTURE.md,markdown,Emotional Intelligence Architecture,examples\emotional_intelligence\README.md,,,Target not found
+.\examples\emotional_intelligence\README.md,0,../docs/ai/emotional_intelligence/EMOTION_REGULATION.md,markdown,Emotion Regulation,examples\emotional_intelligence\README.md,,,Target not found
+.\examples\emotional_intelligence\README.md,0,../docs/ai/emotional_intelligence/EMPATHY_AND_SOCIAL_AWARENESS.md,markdown,Empathy and Social Awareness,examples\emotional_intelligence\README.md,,,Target not found
+.\maintenance\scheduled_reviews.md,0,../templates/review_template.md,markdown,Content Review Form,maintenance\scheduled_reviews.md,,,Target not found
+.\maintenance\scheduled_reviews.md,0,../anthropic/templates/constitutional_assessment_template.md,markdown,Constitutional Assessment Matrix,maintenance\scheduled_reviews.md,,,Target not found
+.\maintenance\scheduled_reviews.md,0,../templates/technical_review_template.md,markdown,Technical Accuracy Checklist,maintenance\scheduled_reviews.md,,,Target not found
+.\mcp\integration_guide.md,0,../scripts/vector_db_setup.md,markdown,Vector Database Setup,mcp\integration_guide.md,,,Target not found
+.\mcp\integration_guide.md,0,api/knowledge_api.md,markdown,Knowledge API Documentation,mcp\integration_guide.md,,,Target not found
+.\mcp\config\README.md,0,../api/README.md,markdown,API Documentation,mcp\config\README.md,,,Target not found
+.\mcp\config\README.md,0,../vectorization/README.md,markdown,Vectorization Protocols,mcp\config\README.md,,,Target not found
+.\meta\linking_standards.md,0,../docs/concepts/transfer_learning.md,markdown,transfer learning,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,../other_directory/document.md,markdown,Document,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,/path/from/root/other_directory/document.md,markdown,Document,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,path/to/document.md,markdown,Document Name,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,model_selection.md,markdown,model selection criteria,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,../concepts/transfer_learning.md,markdown,transfer learning,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,../concepts/regularization.md#early-stopping,markdown,early stopping,meta\linking_standards.md,,,Target not found
+.\meta\linking_standards.md,0,preprocessing.md,markdown,Data Preprocessing,meta\linking_standards.md,,,No changes made
+.\meta\linking_standards.md,0,evaluate_performance.md,markdown,Model Evaluation,meta\linking_standards.md,,,No changes made
+.\meta\linking_standards.md,0,hyperparameter_tuning.md,markdown,Hyperparameter Tuning,meta\linking_standards.md,,,No changes made
+.\process\contribution_guide.md,0,URL,relative,Link Text,process\contribution_guide.md,,,Target not found
+.\src\audio\README.md,0,LICENSE,relative,LICENSE,src\audio\README.md,,,Target not found
+.\templates\document_template.md,0,path/to/document.md,markdown,Internal Reference 1,templates\document_template.md,,,Target not found
+.\templates\document_template.md,0,path/to/document.md,markdown,Internal Reference 2,templates\document_template.md,,,Target not found
+.\templates\model_template.md,0,path/to/related_model.md,markdown,Related Model,templates\model_template.md,,,Target not found
+.\templates\workflow_template.md,0,previous_step.md,markdown,Previous Step,templates\workflow_template.md,,,Target not found
+.\templates\workflow_template.md,0,next_step.md,markdown,Next Step,templates\workflow_template.md,,,Target not found
+.\templates\workflow_template.md,0,path/to/document.md,markdown,Related Internal Document,templates\workflow_template.md,,,Target not found
+.\templates\workflow_template.md,0,path/to/concept.md,markdown,ML Concept,templates\workflow_template.md,,,Target not found

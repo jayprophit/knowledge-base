@@ -396,9 +396,9 @@ class MultiPhysicsSimulation:
 ```
 
 ## Next Steps
-- [FEA Analysis](fea_analysis.md)
+- [FEA Analysis](temp_reorg/docs/cad_manufacturing/fea_analysis.md)
 - [Material Properties](materials_database.md)
-- [Manufacturing Integration](../manufacturing/3d_printing_export.md)
+- [Manufacturing Integration](temp_reorg/docs/manufacturing/3d_printing_export.md)
 
 ---
 *Last updated: June 30, 2025*

@@ -97,11 +97,11 @@ print(results)
 
 ## Documentation
 
-- [Psychology Module](./psychology/README.md)
-- [Philosophy Module](./philosophy/README.md)
-- [Sociology Module](./sociology/README.md)
-- [Biology Module](./biology/README.md)
-- [Cosmology Module](./cosmology/README.md)
+- [Psychology Module](psychology/README.md)
+- [Philosophy Module](philosophy/README.md)
+- [Sociology Module](sociology/README.md)
+- [Biology Module](biology/README.md)
+- [Cosmology Module](cosmology/README.md)
 - [Integration Guide](./integration.md)
 
 ## Examples
@@ -110,7 +110,7 @@ See the [examples](../../examples/multidisciplinary/) directory for practical im
 
 ## Contributing
 
-Contributions are welcome! Please see our [contributing guidelines](../../CONTRIBUTING.md) for details.
+Contributions are welcome! Please see our [contributing guidelines](docs/CONTRIBUTING.md) for details.
 
 ## License
 

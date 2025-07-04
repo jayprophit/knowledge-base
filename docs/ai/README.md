@@ -92,12 +92,12 @@ optimized_qc = optimizer.optimize(qc)
 ## Advanced Topics
 
 ### Performance Optimization
-- [Performance Tuning Guide](./guides/performance_tuning.md)
+- [Performance Tuning Guide](temp_reorg/docs/ai/guides/performance_tuning.md)
 - [Benchmarking Tools](./tools/benchmarking/)
 
 ### Security
-- [Secure Deployment](./security/deployment.md)
-- [Access Control](./security/access_control.md)
+- [Secure Deployment](temp_reorg/docs/machine_learning/workflow/deployment.md)
+- [Access Control](temp_reorg/docs/robotics/access_control.md)
 
 ## Contributing
 

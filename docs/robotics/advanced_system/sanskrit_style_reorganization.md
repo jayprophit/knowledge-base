@@ -316,7 +316,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 # 
 # ### Example Reference
 # 
-# > See [Advanced System Documentation](./advanced_system.md) for the advanced system module.
+# > See [Advanced System Documentation](temp_reorg/docs/robotics/advanced_system/advanced_system.md) for the advanced system module.
 # 
 # ---
 # - **Conversion and Synchronization**: Enables seamless mapping between systems for historical and future analysis

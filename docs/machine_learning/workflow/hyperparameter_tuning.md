@@ -288,7 +288,7 @@ plt.show()
 ## References
 - [Build + Train Model](build_train_model.md) - Related step in ML workflow
 - [Evaluate Performance](evaluate_performance.md) - Previous step before tuning
-- [Deployment](deployment.md) - Next step after successful tuning
+- [Deployment](temp_reorg/docs/machine_learning/workflow/deployment.md) - Next step after successful tuning
 - [Scikit-learn Hyperparameter Tuning](https://scikit-learn.org/stable/modules/grid_search.html) - External resource
 - [Optuna Documentation](https://optuna.readthedocs.io/) - External resource
 - [Ray Tune Documentation](https://docs.ray.io/en/latest/tune/index.html) - External resource

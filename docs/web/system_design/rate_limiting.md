@@ -78,7 +78,7 @@ def resource():
 
 ## Related Topics
 - [REST API Design](../apis/rest_api.md)
-- [Security](../security/security.md)
+- [Security](temp_reorg/docs/web/security/security.md)
 
 ## References
 - [OWASP Rate Limiting](https://owasp.org/www-community/attacks/Rate_limiting)

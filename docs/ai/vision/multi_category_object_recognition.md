@@ -182,9 +182,9 @@ An autoencoder is used for anomaly detection to identify unknown or unusual obje
 
 This multi-category object recognition system can be integrated with:
 
-- [Audio Recognition System](../../audio/audio_recognition.md) for multi-modal sensing
-- [IoT devices](../../../iot/sensors.md) for smart environment applications
-- [Mobile applications](../../../mobile/vision_apps.md) for on-device object recognition
+- [Audio Recognition System](temp_reorg/docs/audio/audio_recognition.md) for multi-modal sensing
+- [IoT devices](temp_reorg/docs/iot/sensors.md) for smart environment applications
+- [Mobile applications](temp_reorg/docs/ai/vision_apps.md) for on-device object recognition
 
 ## References and Resources
 

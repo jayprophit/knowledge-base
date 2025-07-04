@@ -135,6 +135,6 @@ class EnergyHarvester:
 - [Energy Management](./energy_management.md)
 - [System Architecture](./architecture.md)
 - [Hardware](./hardware/README.md)
-- [AI System Enhancements](../ai_system_enhancements.md)
+- [AI System Enhancements](temp_reorg/docs/robotics/ai_system_enhancements.md)
 - [Testing & Validation](./testing.md)
 - [Ethics & Compliance](./ethics_and_compliance.md)

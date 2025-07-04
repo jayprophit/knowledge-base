@@ -192,5 +192,5 @@ volumes:
 - [Redis Documentation](https://redis.io/documentation)
 - [CAP Theorem](https://www.ibm.com/cloud/learn/cap-theorem)
 - [../system_design/cache.md](../system_design/cache.md)
-- [../performance/denormalization.md](../performance/denormalization.md)
+- [../performance/denormalization.md](temp_reorg/docs/web/system_design/denormalization.md)
 - [../system_design/vertical_partitioning.md](../system_design/vertical_partitioning.md)

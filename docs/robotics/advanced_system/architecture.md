@@ -136,7 +136,7 @@ graph TD
 ## Next Steps
 
 1. Review [hardware requirements](hardware/README.md)
-2. Set up [development environment](../development.md)
+2. Set up [development environment](temp_reorg/docs/robotics/development.md)
 3. Deploy [sample applications](../examples/README.md)
 
 ---

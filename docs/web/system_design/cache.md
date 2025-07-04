@@ -106,8 +106,8 @@ print(client.get('foo'))
 
 ## Related Topics
 - [Database Systems](../databases/database_overview.md)
-- [Performance Optimization](../performance/denormalization.md)
-- [Security](../security/security.md)
+- [Performance Optimization](temp_reorg/docs/web/system_design/denormalization.md)
+- [Security](temp_reorg/docs/web/security/security.md)
 
 ## References
 - [Redis Documentation](https://redis.io/documentation)

@@ -147,8 +147,8 @@ Our approach to AI integration is built on several key principles that guide dev
 ## Getting Help
 
 For questions or issues, please refer to:
-- [Troubleshooting Guide](/docs/troubleshooting.md)
-- [FAQs](/docs/faq.md)
+- [Troubleshooting Guide](temp_reorg/docs/robotics/troubleshooting.md)
+- [FAQs](temp_reorg/docs/robotics/faq.md)
 - [Issue Tracker](https://github.com/your-repo/issues)
 
 ---
