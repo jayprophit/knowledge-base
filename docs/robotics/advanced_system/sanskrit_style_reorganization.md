@@ -40,7 +40,7 @@ import shap
 # Commentary:
 # This section imports essential libraries required for machine learning,
 # natural language processing, computer vision, and real-time data streaming.
-```
+```python
 
 ---
 
@@ -62,7 +62,7 @@ class EnsembleLearning:
 # Commentary:
 # This module combines multiple classifiers into an ensemble model.
 # By voting, it enhances the accuracy of predictions.''
-```
+```python
 
 ### Shloka 2.2: Sentiment Analysis
 
@@ -101,7 +101,7 @@ class EnsembleLearning:
             print(f"Received message: {message.value}")
 # Commentary:
 # This module processes real-time data streams from Kafka topics.
-# It ensures the system reacts promptly to incoming data."ta.
+# It ensures the system reacts promptly to incoming data."ta."
 ```text
 
 ## Adhyaya 4: Yoga (Integration of Modalities)
@@ -196,7 +196,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 
 ```text
     def __init__(self):
-        self.sources = ["Ancient texts", "Modern research", "Future p# NOTE: The following code had syntax errors and was commented out
+        self.sources = ["Ancient texts", "Modern research", "Future p# NOTE: The following code had syntax errors and was commented out"
 # 
 # ---
 # 
@@ -283,7 +283,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 #             self.replication_capacity -= 1
 #             return f"Replicated instance deployed at {location}."
 #         return "Replication capacity reached. Upgrade required."
-# # Commentary: Scalable deployment and redundancy across locations."cations.ncy.
+# # Commentary: Scalable deployment and redundancy across locations."cations.ncy."
 - **Distributed Replication**: Replicas across nodes for persistence.
 
 ``class SelfReplication:
@@ -348,7 +348,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 # #         from datetime import datetime
 # #         date_obj = datetime.strptime(gregorian_date, "%Y-%m-%d")
 # #         return date_obj.timetuple().tm_yday
-# # # Commentary: Enables side-by-side comparison of ancient and modern chronological systems."l systems.an_date, year):
+# # # Commentary: Enables side-by-side comparison of ancient and modern chronological systems."l systems.an_date, year):"
 #         day_of_year = self.gregorian_to_day_of_year(gregorian_date)
 #         ancient_time = self.ancient_system.convert_to_ancient_time(day_of_year, year)
 #         return {
@@ -359,7 +359,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 #         from datetime import datetime
 #         date_obj = datetime.strptime(gregorian_date, "%Y-%m-%d")
 #         return date_obj.timetuple().tm_yday
-# # Commentary: Enables side-by-side comparison of ancient and modern chronological systems."l systems.side-by-side compar# NOTE: The following code had syntax errors and was commented out
+# # Commentary: Enables side-by-side comparison of ancient and modern chronological systems."l systems.side-by-side compar# NOTE: The following code had syntax errors and was commented out"
 # 
 # - **Leap Year Handling**: Day of Balance at year end for synchronization
 # - **UI/UX**: Dual display, conversion tool, and historical mapping for research and tracking
@@ -396,7 +396,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 #             print(f"Repairing {component} using nanobots.")
 #         else:
 #             print("Insufficient nanobot units for repair.")
-# # Commentary: Enables autonomous detection and repair." and repair.
+# # Commentary: Enables autonomous detection and repair." and repair."
 # ``class QuantumDrive:
 #     def __init__(self):
 #         self.state = "Idle"
@@ -413,8 +413,8 @@ May this system continue to evol# NOTE: The following code had syntax errors and
     def deactivate(self):
         self.state = "Idle"
         print("Quantum Drive disengaged.")
-# Commentary: Instantaneous travel and data transfer via quantum principles."m principles.
-```
+# Commentary: Instantaneous travel and data transfer via quantum principles."m principles."
+```python
 
 ---
 

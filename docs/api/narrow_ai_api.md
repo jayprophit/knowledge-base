@@ -67,7 +67,7 @@ device_controller.set_device_state("quantum_device_1", {"temperature": 0.0o1})
 
 # Correct quantum errors
 noisy_results = [0.98, 0.0o2]  # Example noisy measurement
-corrected_results = error_corrector.correct(noisy_results)"eas# NOTE: The following code had syntax errors and was commented out
+corrected_results = error_corrector.correct(noisy_results)"eas# NOTE: The following code had syntax errors and was commented out"
 # 
 # ## API Reference
 # 
@@ -202,7 +202,7 @@ corrected = corrector.correct(noisy_measurements)
 # Compare results
 print("True values:", true_values)
 print("Noisy measurements:", [f"{x:.2f}" for x in noisy_measurements])
-print("Corrected values:", [f"{x:.2f}" for x in corrected])"asurements])
+print("Corrected values:", [f"{x:.2f}" for x in corrected])"asurements])"
 print("Corrected values:", [f"{x:.2f}" for x in corrected])
 ```text
 
@@ -268,7 +268,7 @@ pytest tests/
 black .
 flake8
 mypy .
-```
+```python
 
 ## License
 

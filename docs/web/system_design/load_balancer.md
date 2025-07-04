@@ -89,7 +89,7 @@ class RoundRobinLoadBalancer:
         server = self.servers[self.current_index]
         self.current_index = (self.current_index + 1) % len(self.servers)
         return server
-```
+```python
 
 ### 2. Least Connections
 Directs traffic to the server with the fewest active connections.
@@ -106,7 +106,7 @@ class LeastConnectionsLoadBalancer:
 
     def release_connection(self, server):
         self.servers[server] -= 1
-```
+```python
 
 ### 3. Weighted Round Robin
 Similar to round robin but with predefined weights for different servers.
@@ -124,7 +124,7 @@ class WeightedRoundRobinLoadBalancer:
         server = self.servers[self.current_index]
         self.current_index = (self.current_index + 1) % len(self.servers)
         return server
-```
+```python
 
 ### 4. IP Hash
 Uses client IP address to determine which server receives the request, ensuring session persistence.
@@ -139,7 +139,7 @@ class IPHashLoadBalancer:
         hash_value = sum(int(octet) for octet in ip_address.split('.'))
         server_index = hash_value % len(self.servers)
         return self.servers[server_index]
-```
+```python
 
 ## Implementation Example: NGINX Load Balancer
 
@@ -169,7 +169,7 @@ http {
         }
     }
 }
-```
+```python
 
 ## Docker Implementation Example
 
@@ -205,7 +205,7 @@ services:
     image: nginx:alpine
     volumes:
       - ./web3:/usr/share/nginx/html
-```
+```python
 
 ### HAProxy Configuration (haproxy.cfg)
 ```text
@@ -283,7 +283,7 @@ class HealthChecker(Thread):
     
     def get_healthy_servers(self):
         return [server for server, healthy in self.healthy_servers.items() if healthy]
-```
+```python
 
 ## Session Persistence
 

@@ -48,7 +48,7 @@ This project provides a complete, production-ready virtual assistant system with
 # ??? docker-compose.yml
 # ??? .env.example
 # ??? README.md
-```
+```python
 
 ---
 
@@ -91,7 +91,7 @@ This project provides a complete, production-ready virtual assistant system with
 # # 
 # # ENV PYTHONUNBUFFERED=1
 # # 
-# # CMD ["uvicorn", "src.main:app", "--host", "0.0.# NOTE: The following code had syntax errors and was commented out
+# # CMD ["uvicorn", "src.main:app", "--host", "0.0.# NOTE: The following code had syntax errors and was commented out"
 # # FROM node:18-alpine
 # # 
 # # WORKDIR /app
@@ -256,7 +256,7 @@ This project provides a complete, production-ready virtual assistant system with
 # 
 #     @staticmethod
 #     def _load_custom_agent(config: AgentConfiguration):
-#         raise NotImplementedError("Custom agent loading not implemented")"'
+#         raise NotImplementedError("Custom agent loading not implemented")"'"
 ```text
 
 ## 10. Example Voice Service (backend/src/services/voice_service.py)
@@ -332,7 +332,7 @@ class MultiLanguageVoiceService:
 
     @classmethod
     def get_supported_languages(cls) -> Dict[str, str]:
-        return cls.SUPPORTED_LANGUAGES"'ES
+        return cls.SUPPORTED_LANGUAGES"'ES"
 ```text
 
 ## 11. Example CI/CD Workflow (.github/workflows/ci-cd.yml)
@@ -476,7 +476,7 @@ const VirtualAssistantApp = () => {
 };
 
 export default VirtualAssistantApp;
-```
+```python
 
 ---
 

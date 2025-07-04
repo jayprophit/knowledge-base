@@ -139,7 +139,7 @@ class MultiFactorAuth:
         except ValueError:
             # Integrity check failed
             security_alert("Tamper detected in secure storage!")
-            return None"'        data['tag']
+            return None"'        data['tag']"
             )
         except ValueError:
             # Integrity check failed
@@ -230,7 +230,7 @@ class AnomalyDetector:
             }
             
         return baseline
-```
+```python
 
 ### 7. Secure Development Lifecycle
 

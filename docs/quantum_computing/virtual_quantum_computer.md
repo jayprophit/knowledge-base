@@ -252,12 +252,12 @@ client.on_message # NOTE: The following code had syntax errors and was commented
 # #    ```bash
 # # # NOTE: The following code had issues and was commented out
 # # #    pip install qiskit tensorflow paho-mqtt
-# # #    ```
+# # #    ```python
 # # # 
 # # # 2. **Run Quantum Simulation**:
 # # #    ```bash
 # # #    python virtual_quantum_computer.py
-# # #    ```
+# # #    ```python
 # # # 
 # # # 3. **Connect to Smart Devices**:
 # # #    Configure MQTT broker and topics in configuration file
@@ -265,7 +265,7 @@ client.on_message # NOTE: The following code had syntax errors and was commented
 # # # 4. **Train AI Model**:
 # # #    ```bash
 # # #    python train_vqc_ai.py
-# # #    ```
+# # #    ```python
 # # # 
 # # # ## Future Directions {#section-future}
 # # # 
@@ -335,4 +335,4 @@ client.on_message # NOTE: The following code had syntax errors and was commented
   "use_cases": ["quantum algorithm testing", "iot control", "ai parameter optimization"],
   "audience": ["developers", "researchers", "students"]
 }
-```
+```python

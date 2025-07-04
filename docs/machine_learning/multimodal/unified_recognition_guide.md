@@ -55,7 +55,7 @@ The unified multi-modal recognition system follows a layered architecture:
 # ?Speech? ?Voice?     ?Sound? ?YOLO ?   ?Face ?     ?Scene?
 # ?Recog.? ?Analys?    ?Class? ?Detect?  ?Detect?    ?Class?
 # ??????? ???????     ??????? ???????   ???????     ???????
-```
+```python
 
 The system integrates the following components:
 
@@ -160,8 +160,8 @@ if results['audio_analysis']:
 # ### Process Image and Audio Together
 # :
     print("Scene description:", ", ".join(results['context']['scene_description']))
-    print("Audio context:", ", ".join(results['context']['audio_context']))"'
-```
+    print("Audio context:", ", ".join(results['context']['audio_context']))"'"
+```python
 
 ### Process Image and Audio Together
 
@@ -185,8 +185,8 @@ if result.speech_recognition:
 if result.context:
     print("Combined context:")
     print("Scene:", ", ".join(result.context['scene_description']))
-    print("Audio:", ", ".join(result.context['audio_context']))"'))
-```
+    print("Audio:", ", ".join(result.context['audio_context']))"'))"
+```python
 
 ### Real-time Camera and Microphone Processing
 
@@ -205,24 +205,24 @@ if live_result.speech_recognition:
 # 
 # For optimal performance when using the multi-modal recognition syste# NOTE: The following code had issues and was commented out
 # #    results = system.process_video(video_path, frame_interval=30)  # Process every 30th frame
-# #    ```
+# #    ```python
 # # 
 # # 2. **Use Confidence Thresholds**: Filter low-confidence detections
 # #    ```python
 # #    results = system.process_video(video_path, confidence_threshold=0.7)  # Only keep confident detections
-# #    ```
+# #    ```python
 # # 
 # # 3. **GPU Acceleration**: Ensure TensorFlow and PyTorch are using GPU when available
 # #    ```python
 # #    system = MultiModalRecognitionSystem(device="cuda")  # Force GPU usage
-# #    ```
+# #    ```python
 # # 
 # # 4. **Limit Audio Duration**: For long videos, limit audio processing duration
 # #    ```python
 # #    # Extract only first 60 seconds of audio
 # #    import os
 # #    os.system(f'ffmpeg -i "{video_path}" -t 60 -q:a 0 -map a "{audio_path}" -y')
-# #    ```
+# #    ```python
 # # 
 # # ## Extension and Customization
 # # 
@@ -254,7 +254,7 @@ from src.multimodal.recognition_api import MultiModalRecognitionSystem
 # Initialize system with custom detector
 system = MultiModalRecognitionSystem()
 system.vision_system = custom_detector
-```
+```python
 
 ### Add Custom Audio Processors
 
@@ -317,7 +317,7 @@ logging.basicConfig(
 
 # Initialize system with verbose logging
 system = MultiModalRecognitionSystem()'stem()
-```
+```python
 
 ## Resources
 

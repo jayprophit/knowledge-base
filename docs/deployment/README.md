@@ -113,7 +113,7 @@ kubectl apply -f k8s/
 cd terraform/
 terraform init
 terraform apply
-```
+```python
 
 ## Monitoring and Logging
 

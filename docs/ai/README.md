@@ -54,7 +54,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-```
+```python
 
 ### Running Examples
 ```text
@@ -87,7 +87,7 @@ qc.cx(0, 1)
 
 optimizer = CircuitOptimizer()
 optimized_qc = optimizer.optimize(qc)
-```
+```python
 
 ## Advanced Topics
 

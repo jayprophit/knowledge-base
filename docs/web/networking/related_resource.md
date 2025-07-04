@@ -1,14 +1,11 @@
 ---
-title: "Related Resource"
-date: "2023-07-04"
-description: "Placeholder for Related Resource"
-tags: ["placeholder", "auto-generated"]
-categories: ["documentation"]
-author: "Knowledge Base Team"
-created_at: "2025-07-04"
-updated_at: "2025-07-04"
-version: "1.0.0"
-------
+author: Knowledge Base Team
+created_at: 2025-07-04
+updated_at: 2025-07-04
+version: 1.0
+---
+
+---
 
 # Related Resource
 

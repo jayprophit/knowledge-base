@@ -34,7 +34,7 @@ The implementation uses a combination of computer vision and deep learning techn
 
 ```bash
 pip install tensorflow keras opencv-python torch torchvision matplotlib
-```
+```python
 
 ### 2. Object Detection Using YOLOv5
 
@@ -86,7 +86,7 @@ def classify_item(img_path):
     # Decode the predictions into labels
     decoded_predictions = tf.keras.applications.mobilenet_v2.decode_predictions(predictions, top=3)[0]
     for i, (imagenet_id, label, score) in enumerate(decoded_predictions):
-        print(f"{label}: {score*100:.2f}%")"')
+        print(f"{label}: {score*100:.2f}%")"')"
 ```text
 # 
 # MobileNetV2 is optimized for mobile and edge device applications while maintaining good accuracy. It's pre-trained on the ImageNet dataset with 1000 classes including various objects, animals, and scenes.
@@ -166,7 +166,7 @@ if error > threshold:
     print("Unknown object detected!")
 else:
     print("Known object.")
-```
+```python
 
 An autoencoder is used for anomaly detection to identify unknown or unusual objects. The model is trained to reconstruct known objects, and when it encounters an unknown object, the reconstruction error will be high.
 

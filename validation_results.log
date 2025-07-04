@@ -1,246 +1,183 @@
 
 === Documentation Validation Results ===
 
-ERROR: Found 226 errors:
-  - Missing required field 'author' in F:\github\knowledge-base\docs\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 2: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 3: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 4: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\README.md, code block 2: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 1: invalid decimal literal
-  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 3: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\api\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\api\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\api\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\api\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\audio\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\audio\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\audio\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\audio\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\cad_manufacturing\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\cad_manufacturing\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\cad_manufacturing\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\cad_manufacturing\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\deployment\README.md, code block 1: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\deployment\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\deployment\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\deployment\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\deployment\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\examples\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\examples\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\examples\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\examples\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\guides\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\guides\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\guides\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\guides\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\hardware\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\hardware\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\hardware\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\hardware\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\libraries\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\libraries\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\libraries\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\libraries\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\manufacturing\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\manufacturing\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\manufacturing\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\manufacturing\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\mobile\README.md, code block 2: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 1: unterminated string literal (detected at line 16)
-  - Missing required field 'author' in F:\github\knowledge-base\docs\robotics\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\robotics\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\web\apis\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\web\apis\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\web\apis\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\web\apis\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\web\apis\rest_api.md, code block 1: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 1: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\web\networking\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\web\networking\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\web\networking\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\web\networking\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\web\performance\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\web\performance\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\web\performance\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\web\performance\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 1: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 2: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 8: unmatched ')'
-  - Missing required field 'author' in F:\github\knowledge-base\docs\web\security\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\web\security\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\web\security\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\web\security\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 7: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\web\php\contributing\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\web\php\contributing\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\web\php\contributing\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\web\php\contributing\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\web\php\references\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\web\php\references\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\web\php\references\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\web\php\references\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 3: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 5: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 6: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 7: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\learning\README.md, code block 9: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\navigation\README.md, code block 7: invalid decimal literal
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: unterminated string literal (detected at line 57)
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: invalid decimal literal
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 2: unterminated string literal (detected at line 43)
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 1: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 2: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 3: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 1: invalid decimal literal
-  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 7: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\contributing\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\contributing\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\contributing\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\contributing\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\examples\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\examples\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\examples\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\examples\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\native\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\native\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\native\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\native\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\performance\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\performance\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\performance\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\performance\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\references\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\references\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\references\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\references\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\security\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\security\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\security\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\security\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: unterminated string literal (detected at line 33)
-  - Missing required field 'author' in F:\github\knowledge-base\docs\machine_learning\training\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\machine_learning\training\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\machine_learning\training\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\machine_learning\training\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\contributing\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\contributing\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\contributing\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\contributing\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\device_management\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\device_management\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\device_management\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\device_management\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\edge_computing\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\edge_computing\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\edge_computing\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\edge_computing\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\protocols\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\protocols\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\protocols\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\protocols\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\references\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\references\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\references\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\references\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\security\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\security\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\security\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\security\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\iot\sensors\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\iot\sensors\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\iot\sensors\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\iot\sensors\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\advanced_components\privacy_preservation.md, code block 1: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 3: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 4: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 5: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 6: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 7: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 8: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 9: invalid syntax
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_architecture.md, code block 1: invalid decimal literal
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_examples.md, code block 9: unterminated string literal (detected at line 4)
-  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 2: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\ai\audio\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\ai\audio\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\ai\audio\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\ai\audio\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\ai\emotional_intelligence\EMOTION_REGULATION.md, code block 4: invalid syntax
-  - Missing required field 'author' in F:\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\ai\guides\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\ai\guides\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\ai\guides\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\ai\guides\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\ai\security\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\ai\security\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\ai\security\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\ai\security\related_resource.md
-  - Missing required field 'author' in F:\github\knowledge-base\docs\ai\tools\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\ai\tools\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\ai\tools\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\ai\tools\related_resource.md
-  - Syntax error in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md, code block 2: invalid syntax. Perhaps you forgot a comma?
-  - Missing required field 'author' in F:\github\knowledge-base\docs\ai\ai\guides\related_resource.md
-  - Missing required field 'created_at' in F:\github\knowledge-base\docs\ai\ai\guides\related_resource.md
-  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\ai\ai\guides\related_resource.md
-  - Missing required field 'version' in F:\github\knowledge-base\docs\ai\ai\guides\related_resource.md
+ERROR: Found 163 errors:
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 1: invalid syntax
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\audio\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\audio\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\audio\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\guides\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\guides\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\guides\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\hardware\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\hardware\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\hardware\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\README.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\README.md, code block 2: invalid syntax
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 1: unterminated string literal (detected at line 16)
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\performance\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\performance\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\performance\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\security\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\security\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\security\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\contributing\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\contributing\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\contributing\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\references\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\references\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\references\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: unindent does not match any outer indentation level
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 2: expected ':'
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 1: invalid syntax
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\contributing\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\contributing\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\contributing\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\cross-platform\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\examples\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\examples\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\examples\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\native\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\native\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\native\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\performance\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\performance\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\performance\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\references\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\references\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\references\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\security\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\security\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\security\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\ui-ux\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: invalid syntax
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\training\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\training\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\training\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\contributing\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\contributing\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\contributing\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\device_management\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\device_management\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\device_management\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\edge_computing\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\edge_computing\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\edge_computing\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\protocols\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\protocols\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\protocols\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\references\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\references\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\references\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\security\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\security\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\security\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_examples.md, code block 9: unterminated string literal (detected at line 4)
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\security\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\security\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\security\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md: 1.0
+  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md
+  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md
+  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md: 1.0
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai_agents.md: ../unified-ai-system/README.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\non_coder_setup.md: ../unified-ai-system/README.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\virtual_assistant_book.md: ../unified-ai-system/README.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/improvements_module.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/emotional_intelligence.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: ../../../../ai/multidisciplinary/philosophy.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tutorials/multimodal_recognition_tutorial.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tests/test_multimodal_recognition.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\biology.md: ../../../../src/multidisciplinary_ai/biology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology/cosmology_model.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\philosophy.md: ../../../../src/multidisciplinary_ai/philosophy.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\psychology.md: ../../../../src/multidisciplinary_ai/psychology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: ../../../../src/multidisciplinary_ai/sociology.py (target not found)
 
-WARNING: Found 391 warnings:
-  - Non-standard tag 'placeholder' in F:\github\knowledge-base\docs\related_resource.md
-  - Non-standard tag 'auto-generated' in F:\github\knowledge-base\docs\related_resource.md
-  - Non-standard tag 'neuromorphic_computing' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
-  - Non-standard tag 'ai_acceleration' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
-  - Non-standard tag 'brain_inspired_computing' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
-  - Non-standard tag 'spiking_neural_networks' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
-  - Non-standard tag 'hardware_acceleration' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
-  - Non-standard tag 'narrow_ai' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
-  - Non-standard tag 'machine_learning' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
-  - Non-standard tag 'optimization' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
-  ... and 381 more warnings
+WARNING: Found 301 warnings:
+  - Non-standard tag 'neuromorphic_computing' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'ai_acceleration' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'brain_inspired_computing' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'spiking_neural_networks' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'hardware_acceleration' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'narrow_ai' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'machine_learning' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'optimization' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'frequency_therapy' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Non-standard tag 'wearable_devices' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  ... and 291 more warnings
 
 === Validation Complete ===
 

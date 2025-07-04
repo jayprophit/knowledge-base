@@ -311,7 +311,7 @@ context = {
 result = regulator.regulate_emotion(emotion, context)
 pri# NOTE: The following code had issues and was commented out
 # 
-# ### Strategy-Specific Regulationregulated_emotion']['dominant_emotion']}")
+# ### Strategy-Specific Regulationregulated_emotion']['dominant_emotion']}")"
 print(f"Strategy used: {result['strategy_used']}")
 print(f"Effectiveness: {result['effectiveness']:.2f}")
 ```text
@@ -326,7 +326,7 @@ result = regulator.regulate_emotion(
 # Check side effects
 if result['side_effects']:
     print(f"Side effects: {', '.join(result['side_effects'])}")
-```
+```python
 
 ## Best Practices
 
