@@ -222,14 +222,14 @@ class DocValidator:
         print("\n=== Documentation Validation Results ===\n")
         
         if self.errors:
-            print(f"❌ Found {len(self.errors)} errors:")
+            print(f"ERROR: Found {len(self.errors)} errors:")
             for error in self.errors:
                 print(f"  - {error}")
         else:
-            print("✅ No errors found!")
+            print("OK: No errors found!")
         
         if self.warnings:
-            print(f"\n⚠️  Found {len(self.warnings)} warnings:")
+            print(f"\nWARNING: Found {len(self.warnings)} warnings:")
             for warning in self.warnings[:10]:  # Show first 10 warnings
                 print(f"  - {warning}")
             if len(self.warnings) > 10:
@@ -244,10 +244,10 @@ def main():
     success = validator.validate_all()
     
     if not success:
-        print("\n❌ Documentation validation failed!")
+        print("\nERROR: Documentation validation failed!")
         return 1
     
-    print("\n✅ All documentation is valid!")
+    print("\nOK: All documentation is valid!")
     return 0
 
 

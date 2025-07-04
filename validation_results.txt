@@ -1,0 +1,20 @@
+
+=== Documentation Validation Results ===
+
+ERROR: Found 506 errors:
+Traceback (most recent call last):
+  File "F:\github\knowledge-base\scripts\validate_docs.py", line 256, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "F:\github\knowledge-base\scripts\validate_docs.py", line 244, in main
+    success = validator.validate_all()
+  File "F:\github\knowledge-base\scripts\validate_docs.py", line 56, in validate_all
+    self._report_validation_results()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "F:\github\knowledge-base\scripts\validate_docs.py", line 227, in _report_validation_results
+    print(f"  - {error}")
+    ~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u250c' in position 113: character maps to <undefined>
