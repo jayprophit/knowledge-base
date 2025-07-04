@@ -1,7 +1,11 @@
 ---
-id: bio-mimicry
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Bio Mimicry for robotics/advanced_system
+id: bio-mimicry
+title: Bio Mimicry
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Bio-Mimicry in Advanced Robotics

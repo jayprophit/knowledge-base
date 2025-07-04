@@ -100,7 +100,7 @@ class QuantumInspiredSNN:
     def _create_quantum_circuit(self):
         # Create parameterized quantum circuit
         qc = QuantumCircuit(self.num_qubits)
-        params = [Parameter(f'θ_{i}') for i in range(self.num_qubits * 2)]
+        params = [Parameter(f'?_{i}') for i in range(self.num_qubits * 2)]
         
         # Add parameterized gates
         for i in range(self.num_qubits):

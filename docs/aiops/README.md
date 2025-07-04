@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for aiops/README.md
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # AIOps for Robotics Knowledge Base
 
 AIOps automates IT operations using AI/ML for monitoring, event correlation, anomaly detection, and remediation.

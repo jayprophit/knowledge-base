@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Disaster Recovery And Backup for robotics/advanced_system
+title: Disaster Recovery And Backup
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Disaster Recovery and Backup for Robotics Systems
 
 This document provides guidelines and implementation strategies for disaster recovery and backup in advanced robotics.

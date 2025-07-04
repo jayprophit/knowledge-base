@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Multilingual Understanding for ai/guides
+title: Multilingual Understanding
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Multilingual Understanding and Generation
 
 This guide covers the implementation of advanced multilingual capabilities, including speech synthesis, translation, and cross-modal understanding.
@@ -17,7 +26,7 @@ def speak_text(text, language='en'):
 
 # Example usage
 speak_text("Hello, how are you?", 'en')
-speak_text("Bonjour, comment ça va?", 'fr')
+speak_text("Bonjour, comment ?a va?", 'fr')
 ```
 
 ### Neural TTS with Transformers

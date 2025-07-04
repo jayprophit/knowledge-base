@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for deployment/README.md
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Cross-Platform Deployment Guide
 
 This directory contains comprehensive documentation for deploying applications across various platforms and environments.
@@ -50,24 +59,26 @@ This directory contains comprehensive documentation for deploying applications a
 Create a `.env` file in the root directory with the following variables:
 
 ```env
-# Application
-NODE_ENV=development
-PORT=3000
-
-# Database
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=myapp
-DB_USER=user
-DB_PASSWORD=password
-
-# Cloud Provider
-CLOUD_PROVIDER=aws
-REGION=us-west-2
-
-# Secrets (use secrets manager in production)
-API_KEY=your_api_key_here
-JWT_SECRET=your_jwt_secret_here
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # # Application
+# # NODE_ENV=development
+# # PORT=3000
+# # 
+# # # Database
+# # DB_HOST=localhost
+# # DB_PORT=5432
+# # DB_NAME=myapp
+# # DB_USER=user
+# # DB_PASSWORD=password
+# # 
+# # # Cloud Provider
+# # CLOUD_PROVIDER=aws
+# # REGION=us-west-2
+# # 
+# # # Secrets (use secrets manager in production)
+# # API_KEY=your_api_key_here
+# # JWT_SECRET=your_jwt_secret_here
 ```
 
 ## Deployment

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/advanced_system
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # User Interface & Experience
 
 This document outlines the design principles, components, and implementation guidelines for the advanced robotic system's user interfaces.
@@ -15,23 +24,25 @@ This document outlines the design principles, components, and implementation gui
 
 #### 2.1 Color Palette
 ```scss
-// Primary Colors
-$primary: #2563eb;      // Main brand color
-$primary-dark: #1d4ed8; // Darker shade
-$primary-light: #3b82f6; // Lighter shade
-
-// Status Colors
-$success: #10b981;     // Green
-$warning: #f59e0b;     // Yellow
-$error: #ef4444;       // Red
-$info: #3b82f6;        // Blue
-
-// Grayscale
-$gray-900: #111827;    // Almost black
-$gray-700: #374151;    // Dark gray
-$gray-500: #6b7280;    // Medium gray
-$gray-300: #d1d5db;    // Light gray
-$gray-100: #f3f4f6;    // Off-white
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # // Primary Colors
+# # $primary: #2563eb;      // Main brand color
+# # $primary-dark: #1d4ed8; // Darker shade
+# # $primary-light: #3b82f6; // Lighter shade
+# # 
+# # // Status Colors
+# # $success: #10b981;     // Green
+# # $warning: #f59e0b;     // Yellow
+# # $error: #ef4444;       // Red
+# # $info: #3b82f6;        // Blue
+# # 
+# # // Grayscale
+# # $gray-900: #111827;    // Almost black
+# # $gray-700: #374151;    // Dark gray
+# # $gray-500: #6b7280;    // Medium gray
+# # $gray-300: #d1d5db;    // Light gray
+# # $gray-100: #f3f4f6;    // Off-white
 ```
 
 #### 2.2 Typography
@@ -271,17 +282,7 @@ function LoginScreen() {
       
       <TouchableOpacity className="mt-4">
         <Text className="text-blue-500 text-center">Forgot password?</Text>
-      </TouchableOpacity>
-    </View>
-  );
-}
-```
-
-## Voice Interface
-
-### 1. Voice Command System
-```python
-class VoiceCommandSystem:
+      <class VoiceCommandSystem:
     def __init__(self):
         self.recognizer = sr.Recognizer()
         self.commands = {
@@ -333,6 +334,8 @@ class VoiceCommandSystem:
     
     def handle_emergency_stop(self, _):
         print("EMERGENCY STOP ACTIVATED")
+        emergency_stop()"ef handle_emergency_stop(self, _):
+        print("EMERGENCY STOP ACTIVATED")
         emergency_stop()
 ```
 
@@ -340,54 +343,50 @@ class VoiceCommandSystem:
 
 ### 1. Screen Reader Support
 - All interactive elements have proper ARIA labels
-- Semantic HTML structure
-- Keyboard navigation support
-- High contrast mode
-
-### 2. Internationalization
-```json
-// en.json
-{
-  "dashboard": {
-    "title": "Dashboard",
-    "battery": "Battery",
-    "connection": "Connection",
-    "system": "System",
-    "tasks": "Active Tasks"
-  },
-  "navigation": {
-    "manual": "Manual Control",
-    "waypoints": "Waypoints",
-    "autonomous": "Autonomous"
-  }
-}
-
-// es.json
-{
-  "dashboard": {
-    "title": "Panel de Control",
-    "battery": "Batería",
-    "connection": "Conexión",
-    "system": "Sistema",
-    "tasks": "Tareas Activas"
-  },
-  "navigation": {
-    "manual": "Control Manual",
-    "waypoints": "Puntos de Ruta",
-    "autonomous": "Autónomo"
-  }
-}
-```
-
-## Performance Optimization
-
-### 1. Code Splitting
-```jsx
-// Lazy load heavy components
-const HeavyComponent = React.lazy(() => import('./HeavyComponent'));
-
-function App() {
-  return (
+- Semantic # NOTE: The following code had syntax errors and was commented out
+# // en.json
+# {
+#   "dashboard": {
+#     "title": "Dashboard",
+#     "battery": "Battery",
+#     "connection": "Connection",
+#     "system": "System",
+#     "tasks": "Active Tasks"
+#   },
+#   "navigation": {
+#     "manual": "Manual Control",
+#     "waypoints": "Waypoints",
+#     "autonomous": "Autonomous"
+#   }
+# }
+# 
+# // es.json
+# {
+#   "dashboard": {
+#     "title": "Panel de Control",
+#     "battery": "Bater?a",
+#     "connection": "Conexi?n",
+#     "system": "Sistema",
+#     "tasks": "Tareas Activas"
+#   },
+#   "navigation": {
+#     "manual": "Control Manual",
+#     "waypoints": "Puntos de Rut# NOTE: The following code had syntax errors and was commented out
+# # // Lazy load heavy components
+# # const HeavyComponent = React.lazy(() => import('./HeavyComponent'));
+# # 
+# # function App() {
+# #   return (
+# #     <Suspense fallback={<div>Loading...</div>}>
+# #       <HeavyComponent />
+# #     </Suspense>
+# #   );
+# # }turn (
+#     <Suspense fallback={<div>Loading...</div>}>
+#       <HeavyComponent />
+#     </Suspense>
+#   );
+# }}turn (
     <Suspense fallback={<div>Loading...</div>}>
       <HeavyComponent />
     </Suspense>
@@ -405,24 +404,19 @@ function App() {
 ### 1. Unit Tests
 ```javascript
 describe('Navigation', () => {
-  it('should navigate to waypoint', () => {
-    const robot = new Robot();
-    const waypoint = { x: 10, y: 20 };
-    
-    robot.navigateTo(waypoint);
-    
-    expect(robot.currentTarget).toEqual(waypoint);
-    expect(robot.isNavigating).toBe(true);
-  });
-});
-```
-
-### 2. E2E Testing
-```javascript
-describe('Mobile App', () => {
-  it('should allow teleoperation', async () => {
-    await device.launchApp();
-    await element(by.id('login-button')).tap();
+  it('should navigate to waypoint', () => # NOTE: The following code had syntax errors and was commented out
+# describe('Mobile App', () => {
+#   it('should allow teleoperation', async () => {
+#     await device.launchApp();
+#     await element(by.id('login-button')).tap();
+#     await element(by.id('teleop-tab')).tap();
+#     
+#     const joystick = element(by.id('joystick'));
+#     await joystick.swipe('right', 'fast', 0.5);
+#     
+#     await expect(element(by.text('Moving right'))).toBeVisible();
+#   });
+# });.id('login-button')).tap();
     await element(by.id('teleop-tab')).tap();
     
     const joystick = element(by.id('joystick'));

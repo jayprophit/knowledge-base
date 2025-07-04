@@ -120,11 +120,13 @@ Vertical scaling (scaling up) involves increasing resources on a single server.
 
 **Implementation:**
 ```
-# Example: Vertical scaling in a cloud environment (AWS CLI)
-aws rds modify-db-instance \
-    --db-instance-identifier mydbinstance \
-    --db-instance-class db.m5.4xlarge \
-    --apply-immediately
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # # Example: Vertical scaling in a cloud environment (AWS CLI)
+# # aws rds modify-db-instance \
+# #     --db-instance-identifier mydbinstance \
+# #     --db-instance-class db.m5.4xlarge \
+# #     --apply-immediately
 ```
 
 ### Replication
@@ -134,117 +136,117 @@ Replication creates and maintains copies of data across multiple database instan
 **Types:**
 - **Master-Slave Replication**: Writes go to master, reads can be distributed
 - **Master-Master Replication**: Writes can go to multiple masters
-- **Cascading Replication**: Multi-tier replication hierarchy
-
-**PostgreSQL Replication Example:**
-```sql
--- On primary server
-ALTER SYSTEM SET wal_level = replica;
-ALTER SYSTEM SET max_wal_senders = 10;
-ALTER SYSTEM SET max_replication_slots = 10;
-
--- Create replication user
-CREATE ROLE replicator WITH REPLICATION LOGIN PASSWORD 'strongpassword';
-
--- On replica server
--- In postgresql.conf
-primary_conninfo = 'host=primary.example.com port=5432 user=replicator password=strongpassword'
-```
-
-**MySQL Replication Example:**
-```sql
--- On master server (my.cnf)
-[mysqld]
-server-id = 1
-log_bin = mysql-bin
-binlog_format = ROW
-
--- On slave server (my.cnf)
-[mysqld]
-server-id = 2
-relay-log = slave-relay-bin
-log_bin = mysql-bin
-
--- On slave server (SQL commands)
-CHANGE MASTER TO
-  MASTER_HOST='master.example.com',
+- **Cascading Replication**: # NOTE: The following code had syntax errors and was commented out
+# -- On primary server
+# ALTER SYSTEM SET wal_level = replica;
+# ALTER SYSTEM SET max_wal_senders = 10;
+# ALTER SYSTEM SET max_replication_slots = 10;
+# 
+# -- Create replication user
+# CREATE ROLE replicator WITH REPLICATION LOGIN PASSWORD 'strongpassword';
+# 
+# -- On replica server
+# -- In postgresql.conf
+# primary_conninfo = 'host=primary.example.com port=# NOTE: The following code had syntax errors and was commented out
+# -- On master server (my.cnf)
+# [mysqld]
+# server-id = 1
+# log_bin = mysql-bin
+# binlog_format = ROW
+# 
+# -- On slave server (my.cnf)
+# [mysqld]
+# server-id = 2
+# relay-log = slave-relay-bin
+# log_bin = mysql-bin
+# 
+# -- On slave server (SQL commands)
+# CHANGE MASTER TO
+#   MASTER_HOST='master.example.com',
+#   MASTER_USER='replicator',
+#   MASTER_PASSWORD='strongpassword',
+#   MASTER_LOG_FILE='mysql-bin.000001',
+#   MASTER_LOG_POS=0;
+# 
+# START SLAVE;TER_HOST='master.example.com',
   MASTER_USER='replicator',
-  MASTER_PASSWORD='strongpassword',
-  MASTER_LOG_FILE='mysql-bin.000001',
-  MASTER_LOG_POS=0;
-
-START SLAVE;
-```
-
-### Sharding
-
-Sharding distributes data across multiple database instances based on a shard key.
-
-**Sharding Strategies:**
-- **Range-Based**: Distributes data based on value ranges
-- **Hash-Based**: Uses a hash function to distribute data evenly
-- **Directory-Based**: Uses a lookup service to map data to shards
-- **Entity-Based**: Different entities on different shards
-
-**MongoDB Sharding Example:**
-```javascript
-// Configure shard servers
-sh.addShard("shard01/shard01server01:27017,shard01server02:27017,shard01server03:27017")
-sh.addShard("shard02/shard02server01:27017,shard02server02:27017,shard02server03:27017")
-
-// Enable sharding for a database
-sh.enableSharding("mydatabase")
-
-// Shard a collection using a key
-sh.shardCollection("mydatabase.users", { "user_id": 1 })
-```
-
-**PostgreSQL Sharding with Citus Example:**
-```sql
--- Create distributed table
-SELECT create_distributed_table('users', 'user_id');
-
--- Insert data (automatically sharded)
-INSERT INTO users (user_id, name, email) VALUES (1, 'John', 'john@example.com');
-```
-
-### Vertical Partitioning
-
-Vertical partitioning splits tables by columns rather than rows.
-
-**Implementation Example:**
-```sql
--- Original wide table
-CREATE TABLE user_profiles (
-  user_id INT PRIMARY KEY,
-  username VARCHAR(50),
-  email VARCHAR(100),
-  password_hash VARCHAR(256),
-  biography TEXT,
-  profile_image BYTEA,
-  preferences JSON,
-  last_login TIMESTAMP
-);
-
--- Vertically partitioned tables
-CREATE TABLE user_core (
-  user_id INT PRIMARY KEY,
-  username VARCHAR(50),
-  email VARCHAR(100),
-  password_hash VARCHAR(256)
-);
-
-CREATE TABLE user_extended (
-  user_id INT PRIMARY KEY,
-  biography TEXT,
-  profile_image BYTEA,
-  FOREIGN KEY (user_id) REFERENCES user_core(user_id)
-);
-
-CREATE TABLE user_activity (
-  user_id INT PRIMARY KEY,
-  preferences JSON,
-  last_login TIMESTAMP,
+  MASTER_PASSWORD='strongpassword# NOTE: The following code had syntax errors and was commented out
+# 
+# ### Sharding
+# 
+# Sharding distributes data across multiple database instances based on a shard key.
+# 
+# **Sharding Strategies:**
+# - **Range-Based**: # NOTE: The following code had syntax errors and was commented out
+# # // Configure shard servers
+# # sh.addShard("shard01/shard01server01:27017,shard01server02:27017,shard01server03:27017")
+# # sh.addShard("shard02/shard02server01:27017,shard02server02:27017,shard02server03:27017")
+# # 
+# # // Enable sharding for a database
+# # sh.enableSharding("mydatabase")
+# # 
+# # // Shard a collection using a key
+# # sh.shardCollection("mydataba# NOTE: The following code had syntax errors and was commented out
+# # -- Create distributed table
+# # SELECT create_distributed_table('users', 'user_id');
+# # 
+# # -- Insert data (automatically sharded)
+# # INSERT INTO users (user_id, name, email) VALUES (1, 'John', 'john@example.com');database")
+# 
+# // Shard a collection using a key
+# sh.shardCol# NOTE: The following code had syntax errors and was commented out
+# # -- Original wide table
+# # CREATE TABLE user_profiles (
+# #   user_id INT PRIMARY KEY,
+# #   username VARCHAR(50),
+# #   email VARCHAR(100),
+# #   password_hash VARCHAR(256),
+# #   biography TEXT,
+# #   profile_image BYTEA,
+# #   preferences JSON,
+# #   last_login TIMESTAMP
+# # );
+# # 
+# # -- Vertically partitioned tables
+# # CREATE TABLE user_core (
+# #   user_id INT PRIMARY KEY,
+# #   username VARCHAR(50),
+# #   email VARCHAR(100),
+# #   password_hash VARCHAR(256)
+# # );
+# # 
+# # CREATE TABLE user_extended (
+# #   user_id INT PRIMARY KEY,
+# #   biography TEXT,
+# #   profile_image BYTEA,
+# #   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
+# # );
+# # 
+# # CREATE TABLE user_activity (
+# #   user_id INT PRIMARY KEY,
+# #   preferences JSON,
+# #   last_login TIMESTAMP,
+# #   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
+# # );E TABLE user_core (
+#   user_id INT PRIMARY KEY,
+#   username VARCHAR(50),
+#   email VARCHAR(100),
+#   password_hash VARCHAR(256)
+# );
+# 
+# CREATE TABLE user_extended (
+#   user_id INT PRIMARY KEY,
+#   biography TEXT,
+#   profile_image BYTEA,
+#   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
+# );
+# 
+# CREATE TABLE user_activity (
+#   user_id INT PRIMARY KEY,
+#   preferences JSON,
+#   last_login TIMESTAMP,
+#   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
+# ); last_login TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
 );
 ```
@@ -273,139 +275,136 @@ The CAP theorem states that a distributed database system can only provide two o
   - CouchDB
   - DynamoDB (with eventual consistency)
 
-## Denormalization
-
-Denormalization is the process of adding redundant data to improve read performance.
-
-**Techniques:**
-- **Precomputed Aggregates**: Store calculated values
-- **Flattened Data Structures**: Combine related data
-- **Redundant Fields**: Copy fields across tables to avoid joins
-
-**Example:**
-```sql
--- Normalized model
-CREATE TABLE orders (
-  order_id INT PRIMARY KEY,
-  user_id INT,
-  order_date TIMESTAMP,
-  FOREIGN KEY (user_id) REFERENCES users(id)
-);
-
-CREATE TABLE order_items (
-  id INT PRIMARY KEY,
-  order_id INT,
-  product_id INT,
-  quantity INT,
-  price DECIMAL(10,2),
-  FOREIGN KEY (order_id) REFERENCES orders(order_id),
-  FOREIGN KEY (product_id) REFERENCES products(id)
-);
-
--- Denormalized model for reporting
-CREATE TABLE order_reports (
-  order_id INT,
-  user_id INT,
-  username VARCHAR(50),  -- Denormalized from users
-  email VARCHAR(100),    -- Denormalized from users
-  order_date TIMESTAMP,
-  product_id INT,
-  product_name VARCHAR(100),  -- Denormalized from products
-  quantity INT,
-  price DECIMAL(10,2),
-  total DECIMAL(10,2),   -- Precomputed
-  PRIMARY KEY (order_id, product_id)
-);
-```
-
-## Implementation Examples
-
-### PostgreSQL Docker Setup
-
-```yaml
-# docker-compose.yml
-version: '3'
-
-services:
-  postgres:
-    image: postgres:14
-    environment:
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydb
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
-      - ./init-scripts:/docker-entrypoint-initdb.d
-    restart: always
-
-  pgadmin:
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@example.com
-      PGADMIN_DEFAULT_PASSWORD: adminpassword
-    ports:
-      - "8080:80"
-    depends_on:
-      - postgres
-    restart: always
-
-volumes:
-  postgres-data:
-```
-
-### MongoDB Replica Set
-
-```yaml
-# docker-compose.yml
-version: '3'
-
-services:
-  mongo1:
-    image: mongo:5
-    container_name: mongo1
-    command: mongod --replSet rs0 --bind_ip_all
-    ports:
-      - "27017:27017"
-    restart: always
-    volumes:
-      - mongo1-data:/data/db
-    networks:
-      - mongo-network
-
-  mongo2:
-    image: mongo:5
-    container_name: mongo2
-    command: mongod --replSet rs0 --bind_ip_all
-    ports:
-      - "27018:27017"
-    restart: always
-    volumes:
-      - mongo2-data:/data/db
-    networks:
-      - mongo-network
-
-  mongo3:
-    image: mongo:5
-    container_name: mongo3
-    command: mongod --replSet rs0 --bind_ip_all
-    ports:
-      - "27019:27017"
-    restart: always
-    volumes:
-      - mongo3-data:/data/db
-    networks:
-      - mongo-network
-
-  # Initialize replica set
-  mongo-init:
-    image: mongo:5
-    depends_on:
-      - mongo1
-      - mongo2
-      - mongo3
-    networks:
+## Denormalization# NOTE: The following code had syntax errors and was commented out
+# -- Normalized model
+# CREATE TABLE orders (
+#   order_id INT PRIMARY KEY,
+#   user_id INT,
+#   order_date TIMESTAMP,
+#   FOREIGN KEY (user_id) REFERENCES users(id)
+# );
+# 
+# CREATE TABLE order_items (
+#   id INT PRIMARY KEY,
+#   order_id INT,
+#   product_id INT,
+#   quantity INT,
+#   price DECIMAL(10,2),
+#   FOREIGN KEY (order_id) REFERENCES orders(order_id),
+#   FOREIGN KEY (product_id) REFERENCES products(id)
+# );
+# 
+# -- Denormalized model for reporting
+# CREATE TABLE order_reports (
+#   order_id INT,
+#   user_id INT,
+#   username VARCHAR(50),  -- Denormalized from users
+#   email VARCHAR(100),    -- Denormalized from users
+#   order_date TIMESTAMP,
+#   product_id INT,
+#   product_name VARCHAR(100),  -- Denormalized from products
+#   quantity INT,
+#   price DECIMAL(10,2),
+#   total DECIMAL(10,2), # NOTE: The following code had syntax errors and was commented out
+# # docker-compose.yml
+# version: '3'
+# 
+# services:
+#   postgres:
+#     image: postgres:14
+#     environment:
+#       POSTGRES_USER: myuser
+#       POSTGRES_PASSWORD: mypassword
+#       POSTGRES_DB: mydb
+#     ports:
+#       - "5432:5432"
+#     volumes:
+#       - postgres-data:/var/lib/postgresql/data
+#       - ./init-scripts:/docker-entrypoint-initdb.d
+#     restart: always
+# 
+#   pgadmin:
+#     image: dpage/pgadmin4
+#     environment:
+#       PGADMIN_DEFAULT_EMAIL: admin@example.com
+#       PGADMIN_DEFAULT_PASSWORD: adminpassword
+#     ports:
+#       - "8080:80"
+#  # NOTE: The following code had syntax errors and was commented out
+# # docker-compose.yml
+# version: '3'
+# 
+# services:
+#   mongo1:
+#     image: mongo:5
+#     container_name: mongo1
+#     command: mongod --replSet rs0 --bind_ip_all
+#     ports:
+#       - "27017:27017"
+#     restart: always
+#     volumes:
+#       - mongo1-data:/data/db
+#     networks:
+#       - mongo-network
+# 
+#   mongo2:
+#     image: mongo:5
+#     container_name: mongo2
+#     command: mongod --replSet rs0 --bind_ip_all
+#     ports:
+#       - "27018:27017"
+#     restart: always
+#     volumes:
+#       - mongo2-data:/data/db
+#     networks:
+#       - mongo-network
+# 
+#   mongo3:
+#     image: mongo:5
+#     container_name: mongo3
+#     command: mongod --replSet rs0 --bind_ip_all
+#     ports:
+#       - "27019:27017"
+#     restart: always
+#     volumes:
+#       - mongo3-data:/data/db
+#     networks:
+#       - mongo-network
+# 
+#   # Initialize replica set
+#   mongo-init:
+#     image: mongo:5
+#     depends_on:
+#       - mongo1
+#       - mongo2
+#       - mongo3
+#     networks:
+#       - mongo-network
+#     command: >
+#       bash -c "
+#         sleep 10 &&
+#         mongo --host mongo1:27017 --eval '
+#           rs.initiate({
+#             _id: \"rs0\",
+#             members: [
+#               {_id: 0, host: \"mongo1:27017\"},
+#               {_id: 1, host: \"mongo2:27017\"},
+#               {_id: 2, host: \"mongo3# NOTE: The following code had syntax errors and was commented out
+# # docker-compose.yml
+# version: '3'
+# 
+# services:
+#   redis:
+#     image: redis:6
+#     command: redis-server --appendonly yes --requirepass strongpassword
+#     ports:
+#       - "6379:6379"
+#     volumes:
+#       - redis-data:/data
+#     restart: always
+# 
+# volumes:
+#   redis-data:
       - mongo-network
     command: >
       bash -c "

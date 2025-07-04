@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for deployment/containerization
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Containerization Guide
 
 This document provides comprehensive guidance on containerizing applications using Docker, Kubernetes, and Dev Containers.
@@ -35,77 +44,75 @@ docker exec -it <container_id> /bin/bash
 ### Dockerfile Example
 
 ```dockerfile
-# Use multi-stage build for smaller final image
-# Build stage
-FROM node:18 AS builder
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci
-COPY . .
-RUN npm run build
-
-# Production stage
-FROM node:18-slim
-WORKDIR /app
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/node_modules ./node_modules
-
-# Set environment variables
-ENV NODE_ENV=production
-ENV PORT=3000
-
-# Expose port
-EXPOSE 3000
-
-# Health check
-HEALTHCHECK --interval=30s --timeout=3s \
-  CMD curl -f http://localhost:3000/health || exit 1
-
-# Start command
-CMD ["node", "dist/main.js"]
-```
-
-### Docker Compose
-
-Example `docker-compose.yml`:
-
-```yaml
-version: '3.8'
-
-services:
-  app:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV=development
-      - DATABASE_URL=postgres://user:pass@db:5432/mydb
-    depends_on:
-      - db
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
-
-  db:
-    image: postgres:15
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: pass
-      POSTGRES_DB: mydb
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U user -d mydb"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
-
-volumes:
-  postgres_data:
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # # Use multi-stage build for smaller final image
+# # # Build stage
+# # FROM node:18 AS builder
+# # WORKDIR /app
+# # COPY package*.json ./
+# # RUN npm ci
+# # COPY . .
+# # RUN npm run build
+# # 
+# # # Production stage
+# # FROM node:18-slim
+# # WORKDIR /app
+# # COPY --from=builder /app/package*.json ./
+# # COPY --from=builder /app/dist ./dist
+# # COPY --from=builder /app/node_modules ./node_modules
+# # 
+# # # Set environment variables
+# # ENV NODE_ENV=production
+# # ENV PORT=3000
+# # 
+# # # Expose port
+# # EXPOSE 3000
+# # 
+# # # Health check
+# # HEALTHCHECK --interval=30s --timeout=3s \
+# #   CMD curl -f http://localhost:3000/health |# NOTE: The following code had syntax errors and was commented out
+# # version: '3.8'
+# # 
+# # services:
+# #   app:
+# #     build: .
+# #     ports:
+# #       - "3000:3000"
+# #     environment:
+# #       - NODE_ENV=development
+# #       - DATABASE_URL=postgres://user:pass@db:5432/mydb
+# #     depends_on:
+# #       - db
+# #     healthcheck:
+# #       test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+# #       interval: 30s
+# #       timeout: 10s
+# #       retries: 3
+# #       start_period: 40s
+# # 
+# #   db:
+# #     image: postgres:15
+# #     environment:
+# #       POSTGRES_USER: user
+# #       POSTGRES_PASSWORD: pass
+# #       POSTGRES_DB: mydb
+# #     volumes:
+# #       - postgres_data:/var/lib/postgresql/data
+# #     healthcheck:
+# #       test: ["CMD-SHELL", "pg_isready -U user -d mydb"]
+# #       interval: 5s
+# #       timeout: 5s
+# #       retries: 5
+# # 
+# # volumes:
+# #   postgres_data: ["CMD-SHELL", "pg_isready -U user -d mydb"]
+#       interval: 5s
+#       timeout: 5s
+#       retries: 5
+# 
+# volumes:
+#   postgres_data:
 ```
 
 ## Kubernetes
@@ -114,126 +121,122 @@ volumes:
 
 - **Pods**: Smallest deployable units
 - **Deployments**: Manage replicated applications
-- **Services**: Network access to applications
-- **ConfigMaps & Secrets**: Configuration management
-- **Ingress**: External access to services
-- **PersistentVolumes**: Storage management
-
-### Example Deployment
-
-```yaml
-# deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: myapp
-  labels:
-    app: myapp
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: myapp
-  template:
-    metadata:
-      labels:
-        app: myapp
-    spec:
-      containers:
-      - name: myapp
-        image: myapp:latest
-        ports:
-        - containerPort: 3000
-        envFrom:
-        - configMapRef:
-            name: myapp-config
-        - secretRef:
-            name: myapp-secrets
-        resources:
-          limits:
-            cpu: "1"
-            memory: "512Mi"
-          requests:
-            cpu: "0.5"
-            memory: "256Mi"
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 3000
-          initialDelaySeconds: 30
-          periodSeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /ready
-            port: 3000
-          initialDelaySeconds: 5
-          periodSeconds: 5
-```
-
-### Service and Ingress
-
-```yaml
-# service.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: myapp-service
-spec:
-  selector:
-    app: myapp
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 3000
-  type: ClusterIP
----
-# ingress.yaml
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: myapp-ingress
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-spec:
-  rules:
-  - host: myapp.example.com
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: myapp-service
-            port:
-              number: 80
-```
-
-## Dev Containers
-
-### VS Code Dev Container
-
-Example `.devcontainer/devcontainer.json`:
-
-```json
-{
-  "name": "My App Dev Container",
-  "build": {
-    "dockerfile": "../Dockerfile",
-    "context": "..",
-    "args": {
-      "VARIANT": "18-bullseye"
-    }
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "ms-azuretools.vscode-docker"
-      ],
-      "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash",
-        "editor.formatOnSave": true,
+- **Services**: N# NOTE: The following code had syntax errors and was commented out
+# # deployment.yaml
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: myapp
+#   labels:
+#     app: myapp
+# spec:
+#   replicas: 3
+#   selector:
+#     matchLabels:
+#       app: myapp
+#   template:
+#     metadata:
+#       labels:
+#         app: myapp
+#     spec:
+#       containers:
+#       - name: myapp
+#         image: myapp:latest
+#         ports:
+#         - containerPort: 3000
+#         envFrom:
+#         - configMapRef:
+#             name: myapp-config
+#         - secretRef:
+#             name: myapp-secrets
+#         resources:
+#           limits:
+#             cpu: "1"
+#             memory: "512Mi"
+#           requests:
+#             cpu: "0.5"
+#             memory: "256Mi"
+#         livenessProbe:
+#           httpGet:
+#             path: /health
+#             # NOTE: The following code had syntax errors and was commented out
+# # # service.yaml
+# # apiVersion: v1
+# # kind: Service
+# # metadata:
+# #   name: myapp-service
+# # spec:
+# #   selector:
+# #     app: myapp
+# #   ports:
+# #     - protocol: TCP
+# #       port: 80
+# #       targetPort: 3000
+# #   type: ClusterIP
+# # ---
+# # # ingress.yaml
+# # apiVersion: networking.k8s.io/v1
+# # kind: Ingress
+# # metadata:
+# #   name: myapp-ingress
+# #   annotations:
+# #     nginx.ingress.kubernetes.io/rewrite-target: /
+# # spec:
+# #   rules:
+# #   - host: myapp.example.com
+# #     http:
+# #       paths:
+# #       - path: /
+# #         pathType: Prefix
+# #         backend:
+# #           service:
+# #             name: myapp-service
+# #             por# NOTE: The following code had syntax errors and was commented out
+# # {
+# #   "name": "My App Dev Container",
+# #   "build": {
+# #     "dockerfile": "../Dockerfile",
+# #     "context": "..",
+# #     "args": {
+# #       "VARIANT": "18-bullseye"
+# #     }
+# #   },
+# #   "customizations": {
+# #     "vscode": {
+# #       "extensions": [
+# #         "dbaeumer.vscode-eslint",
+# #         "esbenp.prettier-vscode",
+# #         "ms-azuretools.vscode-docker"
+# #       ],
+# #       "settings": {
+# #         "terminal.integrated.shell.linux": "/bin/bash",
+# #         "editor.formatOnSave": true,
+# #         "editor.codeActionsOnSave": {
+# #           "source.fixAll.eslint": true
+# #         }
+# #       }
+# #     }
+# #   },
+# #   "forwardPorts": [3000],
+# #   "postCreateCommand": "npm install",
+# #   "remoteUser": "node"
+# # }lint",
+#         "esbenp.prettier-vscode",
+#         "ms-azuretools.vscode-docker"
+#       ],
+#       "settings": {
+#         "terminal.integrated.shell.linux": "/bin/bash",
+#         "editor.formatOnSave": true,
+#         "editor.codeActionsOnSave": {
+#           "source.fixAll.eslint": true
+#         }
+#       }
+#     }
+#   },
+#   "forwardPorts": [3000],
+#   "postCreateCommand": "npm install",
+#   "remoteUser": "node"
+# }": true,
         "editor.codeActionsOnSave": {
           "source.fixAll.eslint": true
         }
@@ -251,16 +254,15 @@ Example `.devcontainer/devcontainer.json`:
 1. Push the `.devcontainer` configuration to your repository
 2. Go to GitHub Codespaces
 3. Click "New codespace"
-4. Select your repository and branch
-5. Start coding with a fully configured environment
-
-## Multi-Architecture Builds
-
-### Building for Multiple Platforms
-
-```bash
-# Create a builder that can handle multi-architecture builds
-docker buildx create --name mybuilder --use
+4. Select your repos# NOTE: The following code had syntax errors and was commented out
+# # Create a manifest list
+# docker manifest create username/myapp:latest \
+#   --amend username/myapp:amd64 \
+#   --amend username/myapp:arm64 \
+#   --amend username/myapp:armv7
+# 
+# # Push the manifest list
+# docker manifest push username/myapp:latestuilder --use
 
 # Build for multiple architectures
 docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t username/myapp:latest --push .

@@ -39,7 +39,9 @@ Client-server architecture is a distributed application structure that partition
 
 ## Example: 3-Tier Web Application
 ```
-[Client] <-> [Web Server] <-> [Database Server]
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # [Client] <-> [Web Server] <-> [Database Server]
 ```
 
 ## Implementation Example: Flask Web Server

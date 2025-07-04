@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Continuous Learning for robotics/advanced_system
+title: Continuous Learning
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Continuous Learning Systems in Robotics
 
 This document provides an overview and implementation guide for continuous learning and adaptation in advanced robotics systems.

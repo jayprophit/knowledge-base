@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Virtual Assistant Book for virtual_assistant_book.md
+title: Virtual Assistant Book
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Virtual Assistant Development Book
 
 ---

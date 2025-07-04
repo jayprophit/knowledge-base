@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Self Awareness for ai/emotional_intelligence
+title: Self Awareness
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Self-Awareness and Introspection System
 
 ## Overview

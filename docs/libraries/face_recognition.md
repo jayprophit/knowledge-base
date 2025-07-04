@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Face Recognition for libraries/face_recognition.md
+title: Face Recognition
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # face_recognition Library
 
 ## Overview

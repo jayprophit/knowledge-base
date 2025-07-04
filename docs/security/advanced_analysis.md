@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Advanced Analysis for security/advanced_analysis.md
+title: Advanced Analysis
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Security Analysis and Penetration Techniques
 
 This guide covers advanced security analysis, ethical hacking, and penetration testing techniques for AI systems.

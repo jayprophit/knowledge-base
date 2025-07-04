@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Freecad Automation for cad_manufacturing/freecad_automation.md
+title: Freecad Automation
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # FreeCAD Automation Guide
 
 This guide covers how to automate 3D modeling tasks in FreeCAD using Python scripting. FreeCAD's Python API allows for programmatic creation and modification of 3D models, making it ideal for parametric and generative design.

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Opencv-Python for libraries/opencv-python.md
+title: Opencv-Python
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # opencv-python Library
 
 ## Overview

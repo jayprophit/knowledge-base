@@ -1,7 +1,11 @@
 ---
-id: self-healing
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Self Healing for robotics/advanced_system
+id: self-healing
+title: Self Healing
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Self-Healing Capabilities in Robotics

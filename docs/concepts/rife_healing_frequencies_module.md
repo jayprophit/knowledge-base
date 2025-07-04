@@ -1,15 +1,19 @@
 ---
-id: rife-healing-frequencies
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Rife Healing Frequencies Module for concepts/rife_healing_frequencies_module.md
+id: rife-healing-frequencies
 tags:
-  - rife
-  - healing
-  - frequency_therapy
-  - biofeedback
-  - electromagnetic
-  - physical_health
-  - mental_health
+- rife
+- healing
+- frequency_therapy
+- biofeedback
+- electromagnetic
+- physical_health
+- mental_health
+title: Rife Healing Frequencies Module
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Dr. Royal Rife: Healing Frequencies for Physical and Mental Balance

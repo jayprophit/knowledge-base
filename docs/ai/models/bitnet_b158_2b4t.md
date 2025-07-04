@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Bitnet B158 2B4T for ai/models
+title: Bitnet B158 2B4T
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Microsoft BITNET B1.58 2B4T
 
 ## Overview

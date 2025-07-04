@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Gtts for libraries/gtts.md
+title: Gtts
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # gTTS (Google Text-to-Speech) Library
 
 ## Overview

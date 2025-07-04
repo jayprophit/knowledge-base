@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Web Layers for web_layers.md
+title: Web Layers
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # The Infinite Layers of the Web
 
 ---

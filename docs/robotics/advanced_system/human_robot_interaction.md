@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Human Robot Interaction for robotics/advanced_system
+title: Human Robot Interaction
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Human-Robot Interaction (HRI)
 
 This document provides an overview and implementation guide for human-robot interaction (HRI) in advanced robotics systems.

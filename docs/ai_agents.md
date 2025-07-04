@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Ai Agents for ai_agents.md
+title: Ai Agents
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Comprehensive AI Agents and Extensions Directory
 
 This document provides a curated, detailed, and categorized list of AI agents, platforms, and extension libraries available for integration into virtual assistants and multidisciplinary AI systems. All entries are referenced, with installation and integration notes, and cross-links to relevant sections of the knowledge base.

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Integration for ai/multidisciplinary
+title: Integration
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Multidisciplinary AI System Integration Guide
 
 This guide explains how to integrate psychology, philosophy, sociology, biology, and cosmology modules into a cohesive AI system, ensuring modularity, cross-linking, and extensibility.

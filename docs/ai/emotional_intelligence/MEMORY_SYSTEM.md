@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Memory System for ai/emotional_intelligence
+title: Memory System
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Emotional Memory System
 
 ## Overview

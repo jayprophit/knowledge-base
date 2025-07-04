@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Azure-Cognitiveservices-Speech for libraries/azure-cognitiveservices-speech.md
+title: Azure-Cognitiveservices-Speech
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # azure-cognitiveservices-speech Library
 
 ## Overview

@@ -1,16 +1,20 @@
 ---
-id: animal-environmental-protection
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Animal Environmental Protection Module for concepts/animal_environmental_protection_module.md
+id: animal-environmental-protection
 tags:
-  - environment
-  - animal_welfare
-  - sustainability
-  - ecosystem
-  - conservation
-  - ai
-  - climate
-  - biodiversity
+- environment
+- animal_welfare
+- sustainability
+- ecosystem
+- conservation
+- ai
+- climate
+- biodiversity
+title: Animal Environmental Protection Module
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Animal and Environmental Protection Protocols Module

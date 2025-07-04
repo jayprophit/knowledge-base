@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Backend Api for backend_api.md
+title: Backend Api
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Backend API — Knowledge Base Assistant
 
 > **See also:** [backend/src/README.md](../backend/src/README.md)

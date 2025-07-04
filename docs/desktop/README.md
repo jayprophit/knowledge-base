@@ -1,7 +1,11 @@
 ---
-id: desktop-overview
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Readme for desktop/README.md
+id: desktop-overview
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Desktop Systems Overview

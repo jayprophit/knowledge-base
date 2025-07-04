@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Audio Recognition Guide for machine_learning/audio_recognition
+title: Audio Recognition Guide
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Multi-Modal Audio Recognition Guide
 
 This guide provides comprehensive documentation for the audio recognition components of our multi-modal recognition system.
@@ -16,21 +25,22 @@ Our audio recognition system integrates multiple audio processing capabilities i
 The system follows a modular design with specialized components that can work independently or as part of an integrated pipeline:
 
 ```
-┌─────────────────────────────────────────────┐
-│            AudioRecognitionSystem           │
-└───────────────┬─────────────┬───────────────┘
-                │             │
-    ┌───────────┴─────┐   ┌───┴───────────┐
-    │ Content Detector│   │ Audio Router  │
-    └───────────┬─────┘   └───┬───────────┘
-                │             │
-┌───────────────┼─────────────┼───────────────┐
-│               │             │               │
-▼               ▼             ▼               ▼
-┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
-│ Speech  │ │ Voice   │ │ Music   │ │ Sound   │
-│ Recog.  │ │ Analysis│ │ Analysis│ │ Class.  │
-└─────────┘ └─────────┘ └─────────┘ └─────────┘
+# NOTE: The following code had issues and was commented out
+# ┌─────────────────────────────────────────────┐
+# │            AudioRecognitionSystem           │
+# └───────────────┬─────────────┬───────────────┘
+#                 │             │
+#     ┌───────────┴─────┐   ┌───┴───────────┐
+#     │ Content Detector│   │ Audio Router  │
+#     └───────────┬─────┘   └───┬───────────┘
+#                 │             │
+# ┌───────────────┼─────────────┼───────────────┐
+# │               │             │               │
+# ▼               ▼             ▼               ▼
+# ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
+# │ Speech  │ │ Voice   │ │ Music   │ │ Sound   │
+# │ Recog.  │ │ Analysis│ │ Analysis│ │ Class.  │
+# └─────────┘ └─────────┘ └─────────┘ └─────────┘
 ```
 
 ## Components

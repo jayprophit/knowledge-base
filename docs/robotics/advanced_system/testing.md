@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Testing for robotics/advanced_system
+title: Testing
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Robotics Testing & Validation Frameworks
 
 This document provides an overview and implementation guide for testing and validation in advanced robotics systems.

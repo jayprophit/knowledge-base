@@ -90,12 +90,14 @@ A client cannot ordinarily tell whether it is connected directly to the end serv
 ## Error Handling
 Return structured error objects:
 ```json
-{
-  "error": {
-    "code": 400,
-    "message": "Invalid input data"
-  }
-}
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # {
+# #   "error": {
+# #     "code": 400,
+# #     "message": "Invalid input data"
+# #   }
+# # }
 ```
 
 ## Rate Limiting

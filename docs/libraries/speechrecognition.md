@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Speechrecognition for libraries/speechrecognition.md
+title: Speechrecognition
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # SpeechRecognition Library
 
 ## Overview

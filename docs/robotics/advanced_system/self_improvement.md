@@ -1,7 +1,11 @@
 ---
-id: self-improvement
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Self Improvement for robotics/advanced_system
+id: self-improvement
+title: Self Improvement
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Self-Improvement and Evolution in Robotics

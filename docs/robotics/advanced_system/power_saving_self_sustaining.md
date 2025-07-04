@@ -1,7 +1,11 @@
 ---
-id: power-saving-self-sustaining
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Power Saving Self Sustaining for robotics/advanced_system
+id: power-saving-self-sustaining
+title: Power Saving Self Sustaining
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Power-Saving and Self-Sustaining Systems

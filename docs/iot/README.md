@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for iot/README.md
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # IoT Systems
 
 This documentation covers Internet of Things (IoT) systems integration with the knowledge base, including device management, protocols, sensors, security, and edge computing.

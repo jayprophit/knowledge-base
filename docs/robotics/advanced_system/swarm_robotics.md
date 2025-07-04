@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Swarm Robotics for robotics/advanced_system
+title: Swarm Robotics
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Swarm Robotics
 
 This document provides an overview and implementation guide for swarm robotics in advanced systems.

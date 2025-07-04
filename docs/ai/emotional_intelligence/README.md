@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for ai/emotional_intelligence
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Emotional Intelligence and Self-Awareness System
 
 [![Tests](https://github.com/yourusername/knowledge-base/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/knowledge-base/actions)

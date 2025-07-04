@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Depth Estimation for robotics/advanced_system
+title: Depth Estimation
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Depth Estimation for Robotic Perception
 
 This document provides a comprehensive guide to depth estimation techniques used in the robotic perception system, including monocular and stereo vision approaches.

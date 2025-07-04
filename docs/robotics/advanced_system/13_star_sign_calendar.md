@@ -1,16 +1,19 @@
 ---
-id: 13-star-sign-calendar
-title: 13-Star Sign Lunar Calendar and Dual Chronology
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on 13 Star Sign Calendar for robotics/advanced_system
+id: 13-star-sign-calendar
 tags:
-  - calendar
-  - timekeeping
-  - lunar_cycle
-  - star_signs
-  - dual_chronology
-  - robotics
-  - advanced_system
+- calendar
+- timekeeping
+- lunar_cycle
+- star_signs
+- dual_chronology
+- robotics
+- advanced_system
+title: 13-Star Sign Lunar Calendar and Dual Chronology
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # 13-Star Sign Lunar Calendar and Dual Chronology in Advanced Systems

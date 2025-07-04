@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Physics Simulation for cad_manufacturing/physics_simulation.md
+title: Physics Simulation
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Physics Simulation for CAD Models
 
 This document covers the implementation of physics simulations for CAD models, including rigid body dynamics, material interactions, and stress analysis.
@@ -23,7 +32,7 @@ class RigidBody:
         self.position = np.array(position, dtype=float)  # [x, y, z] in meters
         self.velocity = np.array(velocity, dtype=float)  # [vx, vy, vz] in m/s
         self.orientation = np.array(orientation, dtype=float)  # Quaternion [x, y, z, w]
-        self.angular_velocity = np.zeros(3)  # [ωx, ωy, ωz] in rad/s
+        self.angular_velocity = np.zeros(3)  # [?x, ?y, ?z] in rad/s
         self.forces = []
         self.torques = []
     
@@ -54,7 +63,7 @@ class RigidBody:
         self.velocity += acceleration * dt
         self.position += self.velocity * dt
         
-        # Angular motion (τ = Iα, simplified)
+        # Angular motion (? = I?, simplified)
         # Note: This is a simplified version assuming spherical inertia
         moment_of_inertia = (2/5) * self.mass * 0.1**2  # For a sphere
         angular_acceleration = total_torque / moment_of_inertia
@@ -105,7 +114,7 @@ def calculate_stress(force, area, angle=0):
     
     Args:
         force: Applied force vector [Fx, Fy, Fz] in N
-        area: Cross-sectional area in m²
+        area: Cross-sectional area in m?
         angle: Angle between force and surface normal in radians
     
     Returns:
@@ -180,7 +189,7 @@ steel = Material('steel_aisi_1018')
 beam = Beam(length=2.0, width=0.05, height=0.1, material=steel)
 
 # Calculate maximum stress under a bending moment
-moment = 1000  # N·m
+moment = 1000  # N?m
 max_stress = beam.max_bending_stress(moment)
 print(f"Maximum bending stress: {max_stress/1e6:.2f} MPa")
 
@@ -200,9 +209,9 @@ class ThermalSimulation:
         
         Args:
             nodes: List of node positions [[x1,y1,z1], [x2,y2,z2], ...]
-            conductivity: Thermal conductivity (W/m·K)
-            specific_heat: Specific heat capacity (J/kg·K)
-            density: Material density (kg/m³)
+            conductivity: Thermal conductivity (W/m?K)
+            specific_heat: Specific heat capacity (J/kg?K)
+            density: Material density (kg/m?)
         """
         self.nodes = np.array(nodes)
         self.temperatures = np.zeros(len(nodes))
@@ -258,17 +267,17 @@ def simulate_thermal_analysis():
     # Material properties for steel
     sim = ThermalSimulation(
         nodes=nodes,
-        conductivity=50,  # W/m·K
-        specific_heat=500,  # J/kg·K
-        density=7800  # kg/m³
+        conductivity=50,  # W/m?K
+        specific_heat=500,  # J/kg?K
+        density=7800  # kg/m?
     )
     
-    # Initial temperature: 20°C
+    # Initial temperature: 20?C
     sim.set_initial_temperature(20)
     
     # Boundary conditions: fixed temperature at ends
-    sim.set_boundary_condition([0], 100)  # 100°C at left end
-    sim.set_boundary_condition([-1], 0)   # 0°C at right end
+    sim.set_boundary_condition([0], 100)  # 100?C at left end
+    sim.set_boundary_condition([-1], 0)   # 0?C at right end
     
     # Simulate for 100 time steps
     for _ in range(100):
@@ -370,7 +379,7 @@ class MultiPhysicsSimulation:
         thermal_result = self.thermal.step(dt)
         
         # Calculate thermal strains
-        delta_T = thermal_result - 20  # Temperature change from reference (20°C)
+        delta_T = thermal_result - 20  # Temperature change from reference (20?C)
         thermal_strain = self.thermal_expansion * delta_T
         
         # Apply thermal loads to structural model

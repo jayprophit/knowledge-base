@@ -1,7 +1,11 @@
 ---
-id: asynchronous-operations
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Asynchronous Operations for robotics/advanced_system
+id: asynchronous-operations
+title: Asynchronous Operations
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Asynchronous Operations in Advanced Robotics

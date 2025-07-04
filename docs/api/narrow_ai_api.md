@@ -40,20 +40,16 @@ The Narrow AI component provides AI-driven optimization and control for quantum 
 ## Installation
 
 ```bash
-pip install narrow-ai-quantum
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # pip install narrow-ai-quantum
 ```
 
 Dependencies:
 - Python 3.8+
 - Qiskit >= 0.34.0
 - TensorFlow >= 2.8.0
-- NumPy >= 1.20.0
-- Paho-MQTT (for device control)
-
-## Quick Start
-
-```python
-from narrow_ai import CircuitOptimizer, DeviceController, ErrorCorrector
+- NumPy >from narrow_ai import CircuitOptimizer, DeviceController, ErrorCorrector
 from qiskit import QuantumCircuit
 
 # Initialize components
@@ -69,72 +65,76 @@ optimized_qc = optimizer.optimize(qc)
 
 # Control quantum devices
 device_controller.connect("mqtt.broker.address")
-device_controller.set_device_state("quantum_device_1", {"temperature": 0.01})
+device_controller.set_device_state("quantum_device_1", {"temperature": 0.0o1})
 
 # Correct quantum errors
-noisy_results = [0.98, 0.02]  # Example noisy measurement
-corrected_results = error_corrector.correct(noisy_results)
-```
-
-## API Reference
-
-### CircuitOptimizer
-
-#### `__init__(model_path: str = None, backend: str = 'aer_simulator')`
-Initialize the circuit optimizer.
-
-**Parameters:**
-- `model_path`: Path to a pre-trained model (optional)
-- `backend`: Quantum backend to use for simulation
-
-#### `optimize(circuit: QuantumCircuit, iterations: int = 100) -> QuantumCircuit`
-Optimize a quantum circuit using AI.
-
-**Parameters:**
-- `circuit`: Input quantum circuit
-- `iterations`: Number of optimization iterations
-
-**Returns:**
-Optimized quantum circuit
-
-### DeviceController
-
-#### `__init__(broker: str = None, port: int = 1883)`
-Initialize the device controller.
-
-**Parameters:**
-- `broker`: MQTT broker address
-- `port`: MQTT broker port
-
-#### `connect(broker: str = None, port: int = 1883) -> bool`
-Connect to the MQTT broker.
-
-**Returns:**
-`True` if connection successful, `False` otherwise
-
-#### `set_device_state(device_id: str, state: dict) -> bool`
-Set the state of a quantum device.
-
-**Returns:**
-`True` if command sent successfully
-
-### ErrorCorrector
-
-#### `__init__(model_path: str = None, threshold: float = 0.1)`
-Initialize the error corrector.
-
-**Parameters:**
-- `model_path`: Path to a pre-trained model
-- `threshold`: Error correction threshold
-
-#### `correct(measurements: List[float]) -> List[float]`
-Correct errors in quantum measurements.
-
-**Parameters:**
-- `measurements`: List of noisy measurements
-
-**Returns:**
-List of corrected measurements
+noisy_results = [0.98, 0.0o2]  # Example noisy measurement
+corrected_results = error_corrector.correct(noisy_results)"eas# NOTE: The following code had syntax errors and was commented out
+# 
+# ## API Reference
+# 
+# ### CircuitOptimizer
+# 
+# #### `__init__(model_path: str = None, backend: str = 'aer_simulator')`
+# Initialize the circuit optimizer.
+# 
+# **Parameters:**
+# - `model_path`: Path to a pre-trained model (optional)
+# - `backend`: Quantum backend to use for simulation
+# 
+# #### `optimize(circuit: QuantumCircuit, iterations: int = 100) -> QuantumCircuit`
+# Optimize a quantum circuit using AI.
+# 
+# **Parameters:**
+# - `circuit`: Input quantum circuit
+# - `iterations`: Number of optimization iterations
+# 
+# **Returns:**
+# Optimized quantum circuit
+# 
+# ### DeviceController
+# 
+# #### `__init__(broker: str = None, port: int = 1883)`
+# Initialize the device controller.
+# 
+# **Parameters:**
+# - `broker`: MQTT broker address
+# - `port`: MQTT broker port
+# 
+# #### `connect(broker: str = None, port: int = 1883) -> bool`
+# Connect to the MQTT broker.
+# 
+# **Returns:**
+# `True` if connection successful, `False` otherwise
+# 
+# #### `set_device_state(device_id: str, state: dict) -> bool`
+# Set the state of a quantum device.
+# 
+# **Returns:**
+# `True` if command sent successfully
+# 
+# ### ErrorCorrector
+# 
+# #### `__init__(model_path: str = None, threshold: float = 0.1)`
+# Initialize the error corrector.
+# 
+# **Parameters:**
+# - `model_path`: Path to a pre-trained model
+# - `threshold`: Error correction threshold
+# 
+# #### `correct(measurements: List[float]) -> List[float]`
+# Correct errors in quantum measurements.
+# 
+# **Parameters:**
+# - `measurements`: List of noisy measurements
+# 
+# **Returns:**
+# List of corrected measurements
+# 
+# ## Examples
+# 
+# ### 1. Circuit Optimization
+# st of corrected measurements
 
 ## Examples
 
@@ -186,12 +186,6 @@ if controller.connect("mqtt.broker.address"):
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        controller.disconnect()
-```
-
-### 3. Error Correction
-
-```python
 import numpy as np
 from narrow_ai import ErrorCorrector
 
@@ -212,6 +206,7 @@ corrected = corrector.correct(noisy_measurements)
 # Compare results
 print("True values:", true_values)
 print("Noisy measurements:", [f"{x:.2f}" for x in noisy_measurements])
+print("Corrected values:", [f"{x:.2f}" for x in corrected])"asurements])
 print("Corrected values:", [f"{x:.2f}" for x in corrected])
 ```
 
@@ -252,7 +247,10 @@ print("Corrected values:", [f"{x:.2f}" for x in corrected])
 
 2. **Hardware Acceleration**
    - Enable GPU support
-   - Use specialized quantum hardware
+# NOTE: The following code had syntax errors and was commented out
+# 
+# ### Running Tests
+# d quantum hardware
 
 3. **Caching**
    - Cache optimization results

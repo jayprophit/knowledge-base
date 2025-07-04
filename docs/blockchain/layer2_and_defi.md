@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Layer2 And Defi for blockchain/layer2_and_defi.md
+title: Layer2 And Defi
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Layer-2, DeFi, Cross-Chain, and Referral Enhancements
 
 ## Overview

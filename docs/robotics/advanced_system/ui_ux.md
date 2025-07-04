@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Ui Ux for robotics/advanced_system
+title: Ui Ux
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # User Interface and Experience (UI/UX) for Robotics
 
 This document provides a comprehensive overview of UI/UX design and implementation for advanced robotics systems.

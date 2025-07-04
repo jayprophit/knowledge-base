@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Modularity And Customization for robotics/advanced_system
+title: Modularity And Customization
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Modularity and Customization in Advanced Robotics
 
 This document details modular design principles and customization strategies for advanced robotics systems.

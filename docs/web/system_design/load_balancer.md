@@ -209,39 +209,41 @@ services:
 
 ### HAProxy Configuration (haproxy.cfg)
 ```
-global
-    log /dev/log local0
-    log /dev/log local1 notice
-    daemon
-    maxconn 4096
-
-defaults
-    log global
-    mode http
-    option httplog
-    option dontlognull
-    timeout connect 5000
-    timeout client 50000
-    timeout server 50000
-
-frontend http_front
-    bind *:80
-    stats uri /haproxy?stats
-    default_backend http_back
-
-backend http_back
-    balance roundrobin
-    server web1 web1:80 check
-    server web2 web2:80 check
-    server web3 web3:80 check
-
-listen stats
-    bind *:9000
-    stats enable
-    stats uri /
-    stats refresh 5s
-    stats realm Haproxy\ Statistics
-    stats auth admin:admin
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # global
+# #     log /dev/log local0
+# #     log /dev/log local1 notice
+# #     daemon
+# #     maxconn 4096
+# # 
+# # defaults
+# #     log global
+# #     mode http
+# #     option httplog
+# #     option dontlognull
+# #     timeout connect 5000
+# #     timeout client 50000
+# #     timeout server 50000
+# # 
+# # frontend http_front
+# #     bind *:80
+# #     stats uri /haproxy?stats
+# #     default_backend http_back
+# # 
+# # backend http_back
+# #     balance roundrobin
+# #     server web1 web1:80 check
+# #     server web2 web2:80 check
+# #     server web3 web3:80 check
+# # 
+# # listen stats
+# #     bind *:9000
+# #     stats enable
+# #     stats uri /
+# #     stats refresh 5s
+# #     stats realm Haproxy\ Statistics
+# #     stats auth admin:admin
 ```
 
 ## Load Balancer Health Checks

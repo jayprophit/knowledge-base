@@ -1,12 +1,16 @@
 ---
-id: multi-energy-harvesting
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Multi Energy Harvesting for robotics/advanced_system
+id: multi-energy-harvesting
 tags:
-  - energy_harvesting
-  - quantum
-  - robotics
-  - advanced_system
+- energy_harvesting
+- quantum
+- robotics
+- advanced_system
+title: Multi Energy Harvesting
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Multi-Energy Harvesting in Advanced Robotic Systems

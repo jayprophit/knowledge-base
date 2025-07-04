@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Ethics And Compliance for robotics/advanced_system
+title: Ethics And Compliance
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Ethics and Compliance in Robotics
 
 This document outlines ethical guidelines and compliance requirements for advanced robotics systems.

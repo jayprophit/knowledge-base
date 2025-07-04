@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Sensor Fusion for robotics/advanced_system
+title: Sensor Fusion
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Sensor Fusion in Advanced Robotics
 
 This document provides a comprehensive guide to sensor fusion for advanced robotic perception, including theory, implementation, code, and integration with SLAM/localization and UI/UX.

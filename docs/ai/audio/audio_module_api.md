@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Audio Module Api for ai/audio
+title: Audio Module Api
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Audio Module API Reference
 
 ## Overview
@@ -10,11 +19,11 @@ The main entry point for audio processing functionality.
 ### Constructor
 ```python
 def __init__(self, 
-             speech_model_path: Optional[str] = None,
-             speech_scorer_path: Optional[str] = None,
-             music_model_path: Optional[str] = None,
-             sound_model_path: Optional[str] = None,
-             sound_class_map_path: Optional[str] = None)
+            speech_model_path: Optional[str] = None,
+            speech_scorer_path: Optional[str] = None,
+            music_model_path: Optional[str] = None,
+            sound_model_path: Optional[str] = None,
+            sound_class_map_path: Optional[str] = None)
 ```
 
 **Parameters**:
@@ -139,11 +148,9 @@ def __init__(self, model_path: Optional[str] = None, sample_rate: int = 16000, n
 
 #### classify_sound
 ```python
-def classify_sound(self, audio: Union[str, np.ndarray], 
-                 duration: Optional[float] = 5.0,
-                 top_k: int = 3) -> SoundClassificationResult
-```
-Classify environmental sound.
+def cdef classify_sound(self, audio: Union[str, np.ndarray], 
+                duration: Optional[float] = 5.0,
+                top_k: int = 3) -> SoundClassificationResultClassify environmental sound.
 
 **Parameters**:
 - `audio`: Audio file path or numpy array
@@ -203,7 +210,7 @@ class MusicFeatures:
 
 ### SoundClassificationResult
 ```python
-@dataclass
+@datacl@dataclass
 class SoundClassificationResult:
     label: str
     confidence: float
@@ -211,5 +218,4 @@ class SoundClassificationResult:
     top_predictions: Optional[List[Dict[str, Any]]] = None
     source_file: Optional[str] = None
     duration: Optional[float] = None
-    timestamp: Optional[float] = None  # For event detection in longer recordings
-```
+    timestamp: Optional[float] = None  # For event detection in longer recordings"

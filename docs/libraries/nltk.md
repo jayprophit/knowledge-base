@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Nltk for libraries/nltk.md
+title: Nltk
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # NLTK Library
 
 ## Overview

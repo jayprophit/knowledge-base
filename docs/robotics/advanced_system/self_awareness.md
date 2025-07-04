@@ -1,7 +1,11 @@
 ---
-id: self-awareness
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Self Awareness for robotics/advanced_system
+id: self-awareness
+title: Self Awareness
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Advanced Self-Awareness in Robotics

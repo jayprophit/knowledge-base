@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Google-Cloud-Speech for libraries/google-cloud-speech.md
+title: Google-Cloud-Speech
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # google-cloud-speech Library
 
 ## Overview

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Parallel Processing for ai/parallel_processing.md
+title: Parallel Processing
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Parallel Processing and Multitasking in AI Systems
 
 ## Table of Contents

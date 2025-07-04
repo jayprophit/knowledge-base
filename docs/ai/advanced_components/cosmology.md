@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Cosmology for ai/advanced_components
+title: Cosmology
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Cosmology Module Documentation
 
 ## Overview

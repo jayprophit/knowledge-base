@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/advanced_system
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Navigation System
 
 This document outlines the navigation architecture and key algorithms for the advanced robotic system.
@@ -200,7 +209,7 @@ def visualize_navigation(pose, path, obstacles, goal):
     publish_obstacle_markers(obstacles)
     
     # Publish goal
-    publish_goal_marker(goal)
+    publish_goal_marker(goal)""
 ```
 
 ## Performance Metrics
@@ -224,45 +233,46 @@ def visualize_navigation(pose, path, obstacles, goal):
 
 Example configuration file (`nav_params.yaml`):
 
-```yaml
-localization:
-  update_rate: 25.0  # Hz
-  gps_enabled: true
-  imu_enabled: true
-  
-planning:
-  global_planner: "astar"
-  local_planner: "dwa"
-  max_velocity: 1.0  # m/s
-  max_acceleration: 0.5  # m/s²
-  
-obstacle_avoidance:
-  safety_distance: 0.5  # meters
-  inflation_radius: 0.3  # meters
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Localization Drift**
-   - Check IMU calibration
-   - Verify sensor synchronization
-   - Increase update rate for odometry
-
-2. **Path Planning Failures**
-   - Check for valid start/goal positions
-   - Verify obstacle map is being updated
-   - Adjust planner parameters
-
-3. **Oscillations**
-   - Tune PID controller gains
-   - Reduce maximum velocity/acceleration
-   - Increase lookahead distance
-
-## API Reference
-
-### Navigation System
+```yaml# NOTE: The following code had syntax errors and was commented out
+# localization:
+#   update_rate: 25.0  # Hz
+#   gps_enabled: true
+#   imu_enabled: true
+#   
+# planning:
+#   global_planner: "astar"
+#   local_planner: "dwa"
+#   max_velocity: 1.0  # m/s
+#   max_acceleration: 0.5  # m/s?
+#   
+# obstacle_avoidance:
+#   safety_distance: 0.5  # meters
+#   inflation_radius: 0.3  # meterss
+```# NOTE: The following code had syntax errors and was commented out
+# 
+# ## Troubleshooting
+# 
+# ### Common Issues
+# 
+# 1. **Localization Drift**
+#    - Check IMU calibration
+#    - Verify sensor synchronization
+#    - Increase update rate for odometry
+# 
+# 2. **Path Planning Failures**
+#    - Check for valid start/goal positions
+#    - Verify obstacle map is being updated
+#    - Adjust planner parameters
+# 
+# 3. **Oscillations**
+#    - Tune PID controller gains
+#    - Reduce maximum velocity/acceleration
+#    - Increase lookahead distance
+# 
+# ## API Reference
+# 
+# ### Navigation System
+# 
 
 ```python
 class NavigationSystem:

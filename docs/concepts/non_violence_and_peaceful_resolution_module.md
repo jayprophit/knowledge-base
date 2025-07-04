@@ -1,15 +1,19 @@
 ---
-id: non-violence-peaceful-resolution
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Non Violence And Peaceful Resolution Module for concepts/non_violence_and_peaceful_resolution_module.md
+id: non-violence-peaceful-resolution
 tags:
-  - ethics
-  - non-violence
-  - peace
-  - conflict_resolution
-  - ai
-  - quantum
-  - mediation
+- ethics
+- non-violence
+- peace
+- conflict_resolution
+- ai
+- quantum
+- mediation
+title: Non Violence And Peaceful Resolution Module
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Non-Violence and Peaceful Resolution Module

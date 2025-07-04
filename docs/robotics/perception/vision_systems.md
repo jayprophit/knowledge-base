@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Vision Systems for robotics/perception
+title: Vision Systems
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Vision Systems for Advanced Robotics
 
 This document details the vision systems implemented in our advanced robotic platform, enabling comprehensive environmental perception and interaction.

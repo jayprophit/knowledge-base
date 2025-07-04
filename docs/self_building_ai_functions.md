@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Self Building Ai Functions for self_building_ai_functions.md
+title: Self Building Ai Functions
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Self-Building AI: Core Functions & Usage Guide
 
 ## 1. Error Detection & AI-Powered Fix Suggestions
@@ -139,10 +148,11 @@ elif choice == "Preview":
 ### 2. Install Dependencies
 - In terminal:
   ```bash
-  pip install openai streamlit python-dotenv
-  ```
-
-### 3. Configure `.env`
+# NOTE: The following code had issues and was commented out
+#   pip install openai streamlit python-dotenv
+#   ```
+# 
+# ### 3. Configure `.env`
 ```
 OPENAI_API_KEY=your_openai_api_key
 USE_OPENAI=true  # or false for internal AI

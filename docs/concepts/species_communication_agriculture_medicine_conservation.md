@@ -1,16 +1,21 @@
 ---
-id: species-communication-agriculture-medicine-conservation
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Species Communication Agriculture Medicine Conservation
+  for concepts/species_communication_agriculture_medicine_conservation.md
+id: species-communication-agriculture-medicine-conservation
 tags:
-  - species_communication
-  - agriculture
-  - medicine
-  - conservation
-  - ai
-  - biofeedback
-  - healing
-  - ecosystem
+- species_communication
+- agriculture
+- medicine
+- conservation
+- ai
+- biofeedback
+- healing
+- ecosystem
+title: Species Communication Agriculture Medicine Conservation
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Comprehensive Species Communication Systems and Tailored Applications for Agriculture, Medicine, and Conservation

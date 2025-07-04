@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Data Acquisition for machine_learning/workflow
+title: Data Acquisition
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Data Acquisition
 
 ## Overview

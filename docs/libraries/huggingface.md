@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Huggingface for libraries/huggingface.md
+title: Huggingface
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Hugging Face Library
 
 ## Overview

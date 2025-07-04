@@ -1,16 +1,20 @@
 ---
-id: advanced-frequency-delivery-technologies
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Advanced Frequency Delivery Technologies for concepts/advanced_frequency_delivery_technologies.md
+id: advanced-frequency-delivery-technologies
 tags:
-  - frequency_therapy
-  - wearable_devices
-  - virtual_reality
-  - ai
-  - cloud
-  - biofeedback
-  - healing
-  - regenerative
+- frequency_therapy
+- wearable_devices
+- virtual_reality
+- ai
+- cloud
+- biofeedback
+- healing
+- regenerative
+title: Advanced Frequency Delivery Technologies
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Advanced Technologies for Frequency Delivery Systems: Wearables and Virtual Reality Interfaces

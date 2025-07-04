@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/advanced_system
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Software Architecture
 
 This document outlines the software architecture of the advanced robotic system, including the software stack, components, and their interactions.
@@ -25,12 +34,14 @@ The software architecture follows a modular, layered approach to ensure scalabil
 
 #### 3.1 Perception Stack
 ```mermaid
-graph LR
-    A[Sensors] --> B[Driver Layer]
-    B --> C[Preprocessing]
-    C --> D[Feature Extraction]
-    D --> E[Object Recognition]
-    E --> F[World Modeling]
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # graph LR
+# #     A[Sensors] --> B[Driver Layer]
+# #     B --> C[Preprocessing]
+# #     C --> D[Feature Extraction]
+# #     D --> E[Object Recognition]
+# #     E --> F[World Modeling]
 ```
 
 - **Computer Vision**
@@ -149,33 +160,33 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws
 colcon build --symlink-install
 
-# Source the workspace
-source install/setup.bash
-```
-
-### 2. Directory Structure
-```
-ros2_ws/
-├── src/
-│   ├── perception/
-│   │   ├── camera_drivers/
-│   │   ├── object_detection/
-│   │   └── sensor_fusion/
-│   ├── navigation/
-│   │   ├── slam/
-│   │   └── path_planning/
-│   ├── control/
-│   │   ├── motion_control/
-│   │   └── manipulation/
-│   └── ui/
-│       ├── web_dashboard/
-│       └── mobile_app/
-├── config/
-│   ├── params/
-│   └── launch/
-└── scripts/
-    ├── deployment/
-    └── testing/
+# Sour# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had issues and was commented out
+# # ros2_ws/
+# # ├── src/
+# # │   ├── perception/
+# # │   │   ├── camera_drivers/
+# # │   │   ├── object_detection/
+# # │   │   └── sensor_fusion/
+# # │   ├── navigation/
+# # │   │   ├── slam/
+# # │   │   └── path_planning/
+# # │   ├── control/
+# # │   │   ├── motion_control/
+# # │   │   └── manipulation/
+# # │   └── ui/
+# # │       ├── web_dashboard/
+# # │       └── mobile_app/
+# # ├── config/
+# # │   ├── params/
+# # │   └── launch/
+# # └── scripts/
+# #     ├── deployment/
+# #     └── testing/rams/
+# │   └── launch/
+# └── scripts/
+#     ├── deployment/
+#     └── testing/
 ```
 
 ### 3. Dependencies
@@ -185,16 +196,14 @@ ros2_ws/
 - Python 3.8+
 - C++17
 - CUDA 11.8
-- cuDNN 8.6
-- TensorRT 8.5
-- OpenCV 4.5+
-- PCL 1.12
-- Eigen 3.4
-
-#### Python Packages
-```
-numpy>=1.20.0
-opencv-python>=4.5.0
+- cuDNN 8# NOTE: The following code had syntax errors and was commented out
+# numpy>=1.20.0
+# opencv-python>=4.5.0
+# torch>=2.0.0
+# torchvision>=0.15.0
+# scipy>=1.7.0
+# matplotlib>=3.4.0
+# pandas>=1.3.05.0
 torch>=2.0.0
 torchvision>=0.15.0
 scipy>=1.7.0

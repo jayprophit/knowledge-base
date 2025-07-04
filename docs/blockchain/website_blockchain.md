@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Website Blockchain for blockchain/website_blockchain.md
+title: Website Blockchain
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Website-as-Blockchain System Documentation
 
 ## Overview

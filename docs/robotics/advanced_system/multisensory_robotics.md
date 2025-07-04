@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Multisensory Robotics for robotics/advanced_system
+title: Multisensory Robotics
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Multisensory Robotic System
 
 This document outlines the design, components, and implementation strategies for a robotic system capable of perceiving a wide range of stimuli (color, temperature, smell, taste, orientation), and performing complex physical tasks (lifting, running, swimming, climbing, parkour, combat sports, medical, repair, etc.).

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on 02 Cognitive Functions for ai/virtual_brain
+title: 02 Cognitive Functions
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Virtual Brain Simulation - Cognitive Functions
 
 ## 1. Consciousness Module

@@ -1,49 +1,59 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Ai Assistant Architecture for ai_assistant_architecture.md
+title: Ai Assistant Architecture
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # AI Assistant Architecture: Cross-Platform Knowledge Base Integration
 
 ## System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                      Client Applications                             │
-├───────────────┬───────────────┬───────────────┬───────────────┐
-│   Web (PWA)   │ iOS/Android   │    Desktop    │ Smart Devices │
-│  React/Next.js│  React Native │Electron/Tauri │     APIs      │
-└───────┬───────┴───────┬───────┴───────┬───────┴───────┬───────┘
-        │               │               │               │
-        └───────────────┼───────────────┼───────────────┘
-                        │               │
-                        ▼               ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                         API Gateway                                  │
-│                     (FastAPI + NGINX)                                │
-└───────────────────────────────┬─────────────────────────────────────┘
-                                │
-         ┌────────────────────┐ │ ┌────────────────────┐
-         │                    │ │ │                    │
-         ▼                    │ │ ▼                    │
-┌─────────────────┐  ┌────────┴─┴─────────┐  ┌─────────────────┐
-│  Auth Service   │  │  Core AI Service   │  │  Content Service │
-│  JWT/OAuth2     │◄─┤  Agent Orchestrator│◄─┤  Knowledge Base  │
-│  User Profiles  │  │  Model Selection   │  │  Vector Search   │
-└────────┬────────┘  └────────┬───────────┘  └────────┬─────────┘
-         │                    │                       │
-         └────────────────────┼───────────────────────┘
-                             │
-                             ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        AI Services Layer                             │
-├─────────────────┬─────────────────┬─────────────────┬───────────────┐
-│   Text/Chat     │    Multimodal   │  Code Generation│  Domain-Specific│
-│   Processing    │  Audio/Visual   │     & Assist    │     Agents     │
-└─────────────────┴─────────────────┴─────────────────┴───────────────┘
-                             │
-                             ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Storage Layer                                 │
-├─────────────────┬─────────────────┬─────────────────┬───────────────┐
-│  PostgreSQL     │  Redis Cache    │ Vector Database │  Object Store  │
-│  User Data      │  Sessions       │  Embeddings     │  Media/Files   │
-└─────────────────┴─────────────────┴─────────────────┴───────────────┘
+# NOTE: The following code had issues and was commented out
+# ┌─────────────────────────────────────────────────────────────────────┐
+# │                      Client Applications                             │
+# ├───────────────┬───────────────┬───────────────┬───────────────┐
+# │   Web (PWA)   │ iOS/Android   │    Desktop    │ Smart Devices │
+# │  React/Next.js│  React Native │Electron/Tauri │     APIs      │
+# └───────┬───────┴───────┬───────┴───────┬───────┴───────┬───────┘
+#         │               │               │               │
+#         └───────────────┼───────────────┼───────────────┘
+#                         │               │
+#                         ▼               ▼
+# ┌─────────────────────────────────────────────────────────────────────┐
+# │                         API Gateway                                  │
+# │                     (FastAPI + NGINX)                                │
+# └───────────────────────────────┬─────────────────────────────────────┘
+#                                 │
+#          ┌────────────────────┐ │ ┌────────────────────┐
+#          │                    │ │ │                    │
+#          ▼                    │ │ ▼                    │
+# ┌─────────────────┐  ┌────────┴─┴─────────┐  ┌─────────────────┐
+# │  Auth Service   │  │  Core AI Service   │  │  Content Service │
+# │  JWT/OAuth2     │◄─┤  Agent Orchestrator│◄─┤  Knowledge Base  │
+# │  User Profiles  │  │  Model Selection   │  │  Vector Search   │
+# └────────┬────────┘  └────────┬───────────┘  └────────┬─────────┘
+#          │                    │                       │
+#          └────────────────────┼───────────────────────┘
+#                              │
+#                              ▼
+# ┌─────────────────────────────────────────────────────────────────────┐
+# │                        AI Services Layer                             │
+# ├─────────────────┬─────────────────┬─────────────────┬───────────────┐
+# │   Text/Chat     │    Multimodal   │  Code Generation│  Domain-Specific│
+# │   Processing    │  Audio/Visual   │     & Assist    │     Agents     │
+# └─────────────────┴─────────────────┴─────────────────┴───────────────┘
+#                              │
+#                              ▼
+# ┌─────────────────────────────────────────────────────────────────────┐
+# │                        Storage Layer                                 │
+# ├─────────────────┬─────────────────┬─────────────────┬───────────────┐
+# │  PostgreSQL     │  Redis Cache    │ Vector Database │  Object Store  │
+# │  User Data      │  Sessions       │  Embeddings     │  Media/Files   │
+# └─────────────────┴─────────────────┴─────────────────┴───────────────┘
 ```
 
 ## Component Description

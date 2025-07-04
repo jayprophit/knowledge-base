@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Self Building Ai for self_building_ai.md
+title: Self Building Ai
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Self-Building AI System
 
 ## Overview
@@ -13,23 +22,25 @@ The Self-Building AI project enables an AI system to iteratively improve, fix, a
 
 ## Folder Structure Example
 ```
-/self_building_ai
-    /private
-        /code
-        /configs
-        /logs
-        /models
-    /public
-        /code
-        /subscriptions
-    /logs
-    /configs
-    .env
-    .gitignore
-    LICENSE
-    requirements.txt
-    Dockerfile
-    docker-compose.yml
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # /self_building_ai
+# #     /private
+# #         /code
+# #         /configs
+# #         /logs
+# #         /models
+# #     /public
+# #         /code
+# #         /subscriptions
+# #     /logs
+# #     /configs
+# #     .env
+# #     .gitignore
+# #     LICENSE
+# #     requirements.txt
+# #     Dockerfile
+# #     docker-compose.yml
 ```
 
 ## Quick Start: Basic Self-Building AI Functions
@@ -57,7 +68,7 @@ def analyze_logs():
 def generate_fix(error_message):
     prompt = f"Fix the following error: {error_message}"
     response = openai.Completion.create(
-        engine="text-davinci-003",
+        engine="text-davinci-0o03",
         prompt=prompt,
         max_tokens=100
     )
@@ -80,12 +91,11 @@ def self_iterate():
         print("No errors found. System is up to date.")
 
 if __name__ == "__main__":
-    self_iterate()
+    self_iterate()""
 ```
 
 ### 2. Streamlit User Interface (Prompt + Preview)
-```python
-# public/code/streamlit_app.py
+```pytho# public/code/streamlit_app.py
 import streamlit as st
 import openai
 from dotenv import load_dotenv
@@ -109,7 +119,7 @@ elif choice == "Code Fixer":
     if st.button("Fix Error"):
         if user_input:
             response = openai.Completion.create(
-                engine="text-davinci-003",
+                engine="text-davinci-0o03",
                 prompt=f"Fix the following error: {user_input}",
                 max_tokens=100
             )
@@ -122,13 +132,15 @@ elif choice == "Preview":
     st.header("Preview Area")
     html_code = st.text_area("Enter HTML/CSS code to preview:")
     if st.button("Render Preview"):
-        components.html(html_code, height=400)
+        components.html(html_code, height=400)"0)
 ```
 
 ### 3. .env Example
 ```
-OPENAI_API_KEY=your_openai_api_key
-```
+OPE# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# 
+# ### 5. requirements.txt Examplele```
 
 ### 4. .gitignore Example
 ```

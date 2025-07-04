@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/advanced_system
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Hardware Specifications
 
 This document details the hardware components and specifications for the advanced robotic system.

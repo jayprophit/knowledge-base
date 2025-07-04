@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Google-Api-Python-Client for libraries/google-api-python-client.md
+title: Google-Api-Python-Client
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # google-api-python-client Library
 
 ## Overview

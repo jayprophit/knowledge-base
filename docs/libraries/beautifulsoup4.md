@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Beautifulsoup4 for libraries/beautifulsoup4.md
+title: Beautifulsoup4
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # BeautifulSoup4 Library
 
 ## Overview

@@ -1,18 +1,22 @@
 ---
-id: human-genetics-module
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Human Genetics Module for concepts/human_genetics_module.md
+id: human-genetics-module
 tags:
-  - genetics
-  - dna
-  - rna
-  - crispr
-  - disease_cure
-  - enhancement
-  - ai
-  - quantum
-  - nanotechnology
-  - bioengineering
+- genetics
+- dna
+- rna
+- crispr
+- disease_cure
+- enhancement
+- ai
+- quantum
+- nanotechnology
+- bioengineering
+title: Human Genetics Module
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Human Genetics Understanding and Manipulation Module

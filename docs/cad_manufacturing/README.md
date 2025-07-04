@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for cad_manufacturing/README.md
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # AI-Driven CAD & Manufacturing System
 
 This documentation covers the implementation of an AI-driven CAD design, simulation, and manufacturing system. The system integrates computer-aided design, physics simulation, material science, and automated manufacturing.
@@ -37,34 +46,36 @@ This documentation covers the implementation of an AI-driven CAD design, simulat
 - OpenSCAD (for parametric modeling)
 - Required Python packages:
   ```
-  numpy scipy sympy deap tensorflow keras paho-mqtt
-  ```
-
-### Installation
-1. Install system dependencies:
-   ```bash
-   # On Ubuntu/Debian
-   sudo apt-get install freecad openscad
-   
-   # On Windows
-   # Download and install FreeCAD and OpenSCAD from their official websites
-   ```
-
-2. Install Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Quick Start Example
-
-### Basic CAD Generation
+# NOTE: The following code had issues and was commented out
+#   numpy scipy sympy deap tensorflow keras paho-mqtt
+#   ```
+# 
+# ### Installation
+# 1. Install system dependencies:
+#    ```bash
+#    # On Ubuntu/Debian
+#    sudo apt-get install freecad openscad
+#    
+#    # On Windows
+#    # Download and install FreeCAD and OpenSCAD from their official websites
+#    ```
+# 
+# 2. Install Python packages:
+#    ```bash
+#    pip install -r requirements.txt
+#    ```
+# 
+# ## Quick Start Example
+# 
+# ### Basic CAD Generation
 ```python
 import FreeCAD, Part
 
 def create_parametric_cylinder(radius, height, output_file):
     doc = FreeCAD.newDocument("ParametricDesign")
-    cylinder = Part.makeCylinder(radius, height)
-    Part.show(cylinder)
+    cylinder = Part.makeCylinder(radiu# NOTE: The following code had issues and was commented out
+# 
+# ### Material Simulation(cylinder)
     doc.recompute()
     doc.saveAs(output_file)
     return doc

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/README.md
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Robotic Systems Documentation
 
 This directory contains comprehensive documentation for advanced robotic systems, including perception, movement, intelligence, and integration capabilities.

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for devops/README.md
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # DevOps for Robotics Knowledge Base
 
 This section documents the DevOps practices, CI/CD pipelines, automation, monitoring, and deployment strategies for the robotics knowledge base.

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Sqlite3 for libraries/sqlite3.md
+title: Sqlite3
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # sqlite3 Library
 
 ## Overview

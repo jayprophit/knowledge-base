@@ -1,16 +1,20 @@
 ---
-id: experiential-learning-emotional-memory
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Experiential Learning Emotional Memory Module for concepts/experiential_learning_emotional_memory_module.md
+id: experiential-learning-emotional-memory
 tags:
-  - learning
-  - memory
-  - emotion
-  - joy
-  - pain
-  - ai
-  - perspective
-  - growth
+- learning
+- memory
+- emotion
+- joy
+- pain
+- ai
+- perspective
+- growth
+title: Experiential Learning Emotional Memory Module
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Experiential Learning and Emotional Memory Module

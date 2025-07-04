@@ -1,12 +1,16 @@
 ---
-id: naming-conventions-advanced-robotics
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Naming Conventions for robotics/advanced_system
+id: naming-conventions-advanced-robotics
 tags:
-  - naming
-  - robotics
-  - system_design
-  - best_practices
+- naming
+- robotics
+- system_design
+- best_practices
+title: Naming Conventions
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Naming Conventions and Suggestions for Advanced Robotic Systems

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Non Coder Setup for non_coder_setup.md
+title: Non Coder Setup
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Step-by-Step Setup & Deployment Guide for Non-Coders
 
 This guide walks you through setting up, developing, and deploying the Quantum AI System (and related projects) using only a private GitHub repository, Codespaces, Docker, .env, and cross-platform tools—no coding experience required. Works on iPad Pro, desktop, or any device with a browser and keyboard.

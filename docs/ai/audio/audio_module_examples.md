@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Audio Module Examples for ai/audio
+title: Audio Module Examples
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Audio Module Usage Examples
 
 This document provides practical examples of how to use the audio module's components for various audio processing tasks.
@@ -152,7 +161,7 @@ events = classifier.detect_events("long_recording.wav",
 
 print("Detected events:")
 for event in events:
-    print(f"- {event['label']} at {event['start_time']:.1f}s (duration: {event['duration']:.1f}s)")
+    print(f"- {event['label']} at {event['start_time']:.1f}s (duration: {event['duration']:.1f}s)")"'"'
 ```
 
 ## Complete Pipeline Example

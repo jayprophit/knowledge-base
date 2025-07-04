@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Materials Database for cad_manufacturing/materials_database.md
+title: Materials Database
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Material Properties & Database
 
 This document outlines the material database system used for CAD modeling, physics simulation, and manufacturing. The database stores material properties essential for accurate simulations and manufacturing processes.
@@ -43,7 +52,7 @@ material_database = {
         'name': 'AISI 1018 Steel',
         'category': 'metal',
         'mechanical': {
-            'density': 7870,  # kg/m³
+            'density': 7870,  # kg/m?
             'youngs_modulus': 205e9,  # Pa
             'poisson_ratio': 0.29,
             'yield_strength': 370e6,  # Pa
@@ -52,13 +61,13 @@ material_database = {
             'hardness_brinell': 126
         },
         'thermal': {
-            'conductivity': 51.9,  # W/m·K
-            'specific_heat': 486,  # J/kg·K
+            'conductivity': 51.9,  # W/m?K
+            'specific_heat': 486,  # J/kg?K
             'expansion': 12e-6,  # 1/K
-            'melting_point': 1520  # °C
+            'melting_point': 1520  # ?C
         },
         'electrical': {
-            'resistivity': 1.43e-7,  # Ω·m
+            'resistivity': 1.43e-7,  # ??m
             'conductivity': 6.99e6  # S/m
         },
         'manufacturing': {
@@ -129,7 +138,7 @@ class Material:
 
 # Example usage
 steel = Material('steel_aisi_1018')
-print(f"Density: {steel.mechanical_density} kg/m³")
+print(f"Density: {steel.mechanical_density} kg/m?")
 print(f"Young's Modulus: {steel.mechanical_youngs_modulus/1e9:.1f} GPa")
 ```
 
@@ -168,7 +177,7 @@ def filter_materials(database, **criteria):
             
     return results
 
-# Example: Find materials with density between 2000-3000 kg/m³ and yield strength > 200 MPa
+# Example: Find materials with density between 2000-3000 kg/m? and yield strength > 200 MPa
 results = filter_materials(
     material_database,
     **{

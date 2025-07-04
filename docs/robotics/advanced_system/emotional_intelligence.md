@@ -1,11 +1,15 @@
 ---
-id: emotional-intelligence
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Emotional Intelligence for robotics/advanced_system
+id: emotional-intelligence
 tags:
-  - emotional_intelligence
-  - ai
-  - advanced_system
+- emotional_intelligence
+- ai
+- advanced_system
+title: Emotional Intelligence
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Emotional Intelligence in Advanced Robotics

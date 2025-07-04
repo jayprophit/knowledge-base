@@ -1,4 +1,4 @@
-""
+"""
 Multidisciplinary AI Integration Module
 ======================================
 

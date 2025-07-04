@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Virtual Assistant Cross Platform for virtual_assistant_cross_platform.md
+title: Virtual Assistant Cross Platform
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Virtual Assistant with AI Agents: Cross-Platform, Cloud-First Architecture
 
 ## Overview
@@ -7,286 +16,254 @@ This project provides a complete, production-ready virtual assistant system with
 
 ## 1. Project Structure
 ```
-virtual-assistant/
-│
-├── .devcontainer/
-│   └── devcontainer.json
-│
-├── .github/
-│   └── workflows/
-│       ├── ci-cd.yml
-│
-├── backend/
-│   ├── src/
-│   │   ├── agents/
-│   │   ├── services/
-│   │   ├── models/
-│   │   └── main.py
-│   ├── tests/
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── services/
-│   │   └── App.js
-│   └── package.json
-│
-├── docker/
-│   ├── backend.Dockerfile
-│   └── frontend.Dockerfile
-│
-├── docker-compose.yml
-├── .env.example
-└── README.md
+# NOTE: The following code had issues and was commented out
+# virtual-assistant/
+# ?
+# ??? .devcontainer/
+# ?   ??? devcontainer.json
+# ?
+# ??? .github/
+# ?   ??? workflows/
+# ?       ??? ci-cd.yml
+# ?
+# ??? backend/
+# ?   ??? src/
+# ?   ?   ??? agents/
+# ?   ?   ??? services/
+# ?   ?   ??? models/
+# ?   ?   ??? main.py
+# ?   ??? tests/
+# ?   ??? requirements.txt
+# ?
+# ??? frontend/
+# ?   ??? src/
+# ?   ?   ??? components/
+# ?   ?   ??? services/
+# ?   ?   ??? App.js
+# ?   ??? package.json
+# ?
+# ??? docker/
+# ?   ??? backend.Dockerfile
+# ?   ??? frontend.Dockerfile
+# ?
+# ??? docker-compose.yml
+# ??? .env.example
+# ??? README.md
 ```
 
 ---
 
 ## 2. DevContainer Example (.devcontainer/devcontainer.json)
 ```json
-{
-    "name": "Virtual Assistant Dev Environment",
-    "build": {
-        "dockerfile": "docker/backend.Dockerfile",
-        "context": "."
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-python.python",
-                "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode"
-            ]
-        }
-    },
-    "forwardPorts": [3000, 8000],
-    "postCreateCommand": "pip install -r backend/requirements.txt && npm install --prefix frontend",
-    "remoteUser": "vscode"
-}
-```
-
----
-
-## 3. Backend Dockerfile (docker/backend.Dockerfile)
-```dockerfile
-FROM python:3.11-slim
-
-WORKDIR /app
-
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    portaudio19-dev \
-    python3-pyaudio \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY backend/ .
-
-ENV PYTHONUNBUFFERED=1
-
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
----
-
-## 4. Frontend Dockerfile (docker/frontend.Dockerfile)
-```dockerfile
-FROM node:18-alpine
-
-WORKDIR /app
-
-COPY frontend/package.json ./
-COPY frontend/package-lock.json ./
-RUN npm install
-
-COPY frontend/ .
-
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
----
-
-## 5. Docker Compose (docker-compose.yml)
-```yaml
-version: '3.8'
-
-services:
-  backend:
-    build:
-      context: .
-      dockerfile: docker/backend.Dockerfile
-    ports:
-      - "8000:8000"
-    environment:
-      - ENV=production
-    volumes:
-      - ./backend:/app
-
-  frontend:
-    build:
-      context: .
-      dockerfile: docker/frontend.Dockerfile
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
-    environment:
-      - REACT_APP_BACKEND_URL=http://backend:8000
-```
-
----
-
-## 6. Environment Variables (.env.example)
-```
-# API Keys and Credentials
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_CALENDAR_API_KEY=your_google_calendar_key
-
-# Database Configuration
-DATABASE_URL=postgresql://username:password@localhost/virtualassistant
-
-# AI Agent Configuration
-SPEECH_MODEL=whisper
-NLP_MODEL=gpt-4
-
-# Deployment Settings
-PRODUCTION_MODE=false
-DEBUG=true
-```
-
----
-
-## 7. Backend Requirements (backend/requirements.txt)
-```
-fastapi==0.95.1
-uvicorn==0.22.0
-langchain==0.0.180
-openai==0.27.6
-python-dotenv==1.0.0
-SpeechRecognition==3.9.0
-pyaudio==0.2.13
-openai-whisper==20230314
-google-api-python-client==2.86.0
-requests==2.30.0
-sqlalchemy==2.0.12
-psycopg2-binary==2.9.6
-pytest==7.3.1
-```
-
----
-
-## 8. README.md (Key Sections)
-```
-# Virtual Assistant with AI Agents
-
-## Overview
-Cross-platform virtual assistant built for cloud-based development using GitHub Codespaces.
-
-## Prerequisites
-- GitHub Account
-- GitHub Codespaces
-- Docker
-- Node.js
-- Python 3.11+
-
-## Setup Instructions
-1. Clone the repository
-2. Open in GitHub Codespaces
-3. Configure environment variables in .env
-4. Run docker-compose up --build
-
-## Development
-### Backend
-- Python FastAPI application
-- Modular AI agent architecture
-
-### Frontend
-- React/React Native for cross-platform UI
-- Component-based architecture
-
-## Deployment
-Supports deployment to:
-- Heroku
-- AWS
-- Google Cloud Platform
-
-## Testing
-- Backend: Pytest
-- Frontend: Jest
-
-## Contributing
-1. Fork repository
-2. Create feature branch
-3. Commit changes
-4. Push and create Pull Request
-```
-
----
-
-## 9. Example Backend Agent Manager (backend/src/agents/agent_manager.py)
-```python
-from typing import Dict, Any, Optional
-from pydantic import BaseModel, Field
-from enum import Enum
-import importlib
-
-class AIModelType(Enum):
-    GPT4 = "gpt-4"
-    WHISPER = "whisper-1"
-    CLAUDE = "claude-3-opus"
-    CUSTOM = "custom"
-
-class AgentConfiguration(BaseModel):
-    model_type: AIModelType
-    api_key: str
-    max_tokens: int = Field(default=1000, ge=100, le=4096)
-    temperature: float = Field(default=0.7, ge=0.0, le=1.0)
-    language: str = "en"
-
-class DynamicAgentFactory:
-    _agent_registry: Dict[AIModelType, str] = {
-        AIModelType.GPT4: "openai_agent.GPT4Agent",
-        AIModelType.WHISPER: "whisper_agent.WhisperAgent",
-        AIModelType.CLAUDE: "claude_agent.ClaudeAgent"
-    }
-
-    @classmethod
-    def create_agent(
-        cls, 
-        config: AgentConfiguration
-    ) -> Any:
-        if config.model_type == AIModelType.CUSTOM:
-            return cls._load_custom_agent(config)
-        agent_path = cls._agent_registry.get(config.model_type)
-        if not agent_path:
-            raise ValueError(f"No agent found for {config.model_type}")
-        module_name, class_name = agent_path.rsplit('.', 1)
-        try:
-            module = importlib.import_module(module_name)
-            agent_class = getattr(module, class_name)
-            return agent_class(
-                api_key=config.api_key,
-                max_tokens=config.max_tokens,
-                temperature=config.temperature,
-                language=config.language
-            )
-        except (ImportError, AttributeError) as e:
-            raise RuntimeError(f"Failed to load agent: {e}")
-
-    @staticmethod
-    def _load_custom_agent(config: AgentConfiguration):
-        raise NotImplementedError("Custom agent loading not implemented")
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # {
+# #     "name": "Virtual Assistant Dev Environment",
+# #     "build": {
+# #         "dockerfile": "docker/backend.Dockerfile",
+# #         "context": "."
+# #     },
+# #     "customizations": {
+# #         "vscode": {
+# #             "extensions": [
+# #                 "ms-python.python",
+# #                 "dbaeumer.vscode-eslint",
+# #                 "esbenp.prettier-vscode"
+# #             ]
+# #         }
+# #     },
+# #     "forwardPorts": [3000, 8000],
+# #     "postCreateCommand": "pip install -r backend/requirements.txt && npm install --prefix frontend",
+# #    # NOTE: The following code had syntax errors and was commented out
+# # FROM python:3.11-slim
+# # 
+# # WORKDIR /app
+# # 
+# # RUN apt-get update && apt-get install -y \
+# #     build-essential \
+# #     portaudio19-dev \
+# #     python3-pyaudio \
+# #     && rm -rf /var/lib/apt/lists/*
+# # 
+# # COPY backend/requirements.txt .
+# # RUN pip install --no-cache-dir -r requirements.txt
+# # 
+# # COPY backend/ .
+# # 
+# # ENV PYTHONUNBUFFERED=1
+# # 
+# # CMD ["uvicorn", "src.main:app", "--host", "0.0.# NOTE: The following code had syntax errors and was commented out
+# # FROM node:18-alpine
+# # 
+# # WORKDIR /app
+# # 
+# # COPY frontend/package.json ./
+# # COPY frontend/package-lock.json ./
+# # RUN npm install
+# # 
+# # COPY frontend/ .
+# # 
+# # EXPO# NOTE: The following code had syntax errors and was commented out
+# # version: '3.8'
+# # 
+# # services:
+# #   backend:
+# #     build:
+# #       context: .
+# #       dockerfile: docker/backend.Dockerfile
+# #     ports:
+# #       - "8000:8000"
+# #     environment:
+# #       - ENV=production
+# #     volumes:
+# #       - ./backend:/app
+# # 
+# #   frontend:
+# #     build:
+# #       context: .
+# #       dockerfile: docker/frontend.Dockerfile
+# #     ports:
+# #       - "3000:3000"
+# #     depends_on:
+# #       - backend
+# #     environ# NOTE: The following code had syntax errors and was commented out
+# # # API Keys and Credentials
+# # OPENAI_API_KEY=your_openai_api_key
+# # GOOGLE_CALENDAR_API_KEY=your_google_calendar_key
+# # 
+# # # Database Configuration
+# # DATABASE_URL=postgresql://username:password@localhost/virtualassistant
+# # 
+# # # AI Agent Configuration
+# # SPEECH_MODEL=whisper
+# # NLP_MODEL=gpt-4
+# # 
+# # # Deployment Settings
+# # PRODUCTI# NOTE: The following code had syntax errors and was commented out
+# # fastapi==0.95.1
+# # uvicorn==0.22.0
+# # langchain==0.0.180
+# # openai==0.27.6
+# # python-dotenv==1.0.0
+# # SpeechRecognition==3.9.0
+# # pyaudio==0.2.13
+# # openai-whisper==20230314
+# # google-api-python-client==2.86.0
+# # requests==2.30.0
+# # sqlalchemy==# NOTE: The following code had syntax errors and was commented out
+# # # Virtual Assistant with AI Agents
+# # 
+# # ## Overview
+# # Cross-platform virtual assistant built for cloud-based development using GitHub Codespaces.
+# # 
+# # ## Prerequisites
+# # - GitHub Account
+# # - GitHub Codespaces
+# # - Docker
+# # - Node.js
+# # - Python 3.11+
+# # 
+# # ## Setup Instructions
+# # 1. Clone the repository
+# # 2. Open in GitHub Codespaces
+# # 3. Configure environment variables in .env
+# # 4. Run docker-compose up --build
+# # 
+# # ## Development
+# # ### Backend
+# # - Python FastAPI application
+# # - Modular AI agent architecture
+# # 
+# # ### Frontend
+# # - React/React Native for cross-platform UI
+# # - Component-based architecture
+# # 
+# # ## Deployment
+# # Supports deployment to:
+# # - Heroku
+# # - AWS
+# # - Google Cloud Platform
+# # 
+# # ## Testing
+# # - Backend: Pytest
+# # - Frontend: Jest
+# # 
+# # ## Contributing
+# # 1. Fork repository
+# # 2. Create feature branfrom typing import Dict, Any, Optional
+# from pydantic import BaseModel, Field
+# from enum import Enum
+# import importlib
+# 
+# class AIModelType(Enum):
+#     GPT4 = "gpt-4"
+#     WHISPER = "whisper-1"
+#     CLAUDE = "claude-3-opus"
+#     CUSTOM = "custom"
+# 
+# class AgentConfiguration(BaseModel):
+#     model_type: AIModelType
+#     api_key: str
+#     max_tokens: int = Field(default=1000, ge=100, le=4096)
+#     temperature: float = Field(default=0.7, ge=0.0, le=1.0)
+#     language: str = "en"
+# 
+# class DynamicAgentFactory:
+#     _agent_registry: Dict[AIModelType, str] = {
+#         AIModelType.GPT4: "openai_agent.GPT4Agent",
+#         AIModelType.WHISPER: "whisper_agent.WhisperAgent",
+#         AIModelType.CLAUDE: "claude_agent.ClaudeAgent"
+#     }
+# 
+#     @classmethod
+#     def create_agent(
+#         cls, 
+#         config: AgentConfiguration
+#     ) -> Any:
+#         if config.model_type == AIModelType.CUSTOM:
+#             return cls._load_custom_agent(config)
+#         agent_path = cls._agent_registry.get(config.model_type)
+#         if not agent_path:
+#             raise ValueError(f"No agent found for {config.model_type}")
+#         module_name, class_name = agent_path.rsplit('.', 1)
+#         try:
+#             module = importlib.import_module(module_name)
+#             agent_class = getattr(module, class_name)
+#             return agent_class(
+#                 api_key=config.api_key,
+#                 max_tokens=config.max_tokens,
+#                 temperature=config.temperature,
+#                 language=config.language
+#             )
+#         except (ImportError, AttributeError) as e:
+#             raise RuntimeError(f"Failed to load agent: {e}")
+# 
+#     @staticmethod
+#     def _load_custom_agent(config: AgentConfiguration):
+#         raise NotImplementedError("Custom agent loading not implemented")"'"' agent_path:
+#             raise ValueError(f"No agent found for {config.model_type}")
+#         module_name, class_name = agent_path.rsplit('.', 1)
+#         try:
+#             module = importlib.import_module(module_name)
+#             agent_class = getattr(module, class_name)
+#             return agent_class(
+#                 api_key=config.api_key,
+#                 max_tokens=config.max_tokens,
+#                 temperature=config.temperature,
+#                 language=config.language
+#             )
+#         except (ImportError, AttributeError) as e:
+#             raise RuntimeError(f"Failed to load agent: {e}")
+# 
+#     @staticmethod
+#     def _load_custom_agent(config: AgentConfiguration):
+#         raise NotImplementedError("Custom agent loading not implemented")"'
 ```
 
 ---
 
 ## 10. Example Voice Service (backend/src/services/voice_service.py)
-```python
-import speech_recognition as sr
+```pythoimport speech_recognition as sr
 import openai
 from typing import Dict, Optional, Tuple
 from enum import Enum
@@ -332,16 +309,21 @@ class MultiLanguageVoiceService:
                 transcription = self._transcribe_audio(audio)
                 yield (
                     VoiceProcessingStatus.COMPLETED \
-                    if transcription \
-                    else VoiceProcessingStatus.ERROR,
+  # NOTE: The following code had syntax errors and was commented out
+# 
+# ---
+# 
+# ## 11. Example CI/CD Workflow (.github/workflows/ci-cd.yml)ceProcessingStatus.ERROR,
                     transcription
                 )
         except Exception as e:
             yield VoiceProcessingStatus.ERROR, str(e)
 
-    def _transcribe_audio(self, audio) -> Optional[str]:
-        try:
-            transcription = openai.Audio.transcribe(
+    def _transcribe_audio(self, audio) -> Optional[str]# NOTE: The following code had syntax errors and was commented out
+# 
+# ---
+# 
+# ## 11. Example CI/CD Workflow (.github/workflows/ci-cd.yml)e(
                 model="whisper-1",
                 file=audio.get_wav_data(),
                 language=self.current_language
@@ -353,7 +335,7 @@ class MultiLanguageVoiceService:
 
     @classmethod
     def get_supported_languages(cls) -> Dict[str, str]:
-        return cls.SUPPORTED_LANGUAGES
+        return cls.SUPPORTED_LANGUAGES"'ES
 ```
 
 ---
@@ -380,8 +362,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r backend/requirements.txt
-        pip install pytest
+    # NOTE: The following code had syntax errors and was commented out
+# 
+# ---
+# 
+# ## 12. Example Frontend App (frontend/src/App.js) install pytest
     - name: Backend Unit Tests
       run: |
         cd backend
@@ -391,9 +376,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
-    - name: Login to Docker Hub
+    - name: Set up Docker Buildx# NOTE: The following code had syntax errors and was commented out
+# 
+# ---
+# 
+# ## 12. Example Frontend App (frontend/src/App.js)Login to Docker Hub
       uses: docker/login-action@v2
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on 01 Architecture Overview for ai/virtual_brain
+title: 01 Architecture Overview
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Virtual Brain Simulation System - Architecture Overview
 
 **[Python Implementation →](03_python_implementation.md)**  

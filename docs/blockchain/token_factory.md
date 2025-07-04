@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Token Factory for blockchain/token_factory.md
+title: Token Factory
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # User-Created Token Framework for 3D Blockchain
 
 ## Overview

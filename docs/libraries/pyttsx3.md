@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Pyttsx3 for libraries/pyttsx3.md
+title: Pyttsx3
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # pyttsx3 Library
 
 ## Overview

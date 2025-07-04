@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Advanced Abilities for robotics/advanced_system
+title: Advanced Abilities
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Robotic Abilities: Flight, Anti-Gravity, Dimensional Travel, Aquatic, and Self-Sustaining Capabilities
 
 This document provides a comprehensive, up-to-date framework and implementation strategies for integrating advanced abilities into robotic systems, including manipulation of flight, anti-gravity, dimensional travel, aquatic abilities, energy harvesting, machine learning, and ethical/safety frameworks. All sections are cross-linked to relevant system documentation for full integration.

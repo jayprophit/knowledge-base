@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Energy Management for robotics/advanced_system
+title: Energy Management
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Energy Management for Advanced Robotics
 
 This document provides a comprehensive overview of energy management strategies and implementations for advanced robotics systems.
@@ -194,7 +203,7 @@ class EnergyManagementSystem:
             
         avg_consumption = sum(self.power_history) / len(self.power_history)
         if avg_consumption <= 0:
-            return "∞ (very low consumption)"
+            return "? (very low consumption)"
             
         remaining_wh = (self.current_charge / 100) * self.battery_capacity_wh
         remaining_hours = remaining_wh / avg_consumption

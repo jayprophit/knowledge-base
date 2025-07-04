@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Sample Neural Network for machine_learning/sample_neural_network.md
+title: Sample Neural Network
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Neural Network Fundamentals {#doc-id-nn001}
 
 ## Overview {#overview}
@@ -21,7 +30,9 @@ Neural networks consist of interconnected layers of artificial neurons. A typica
 The mathematical representation of a neuron:
 
 ```
-y = f(∑(w_i * x_i) + b)
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # y = f(?(w_i * x_i) + b)
 ```
 Where:
 - x_i: input values

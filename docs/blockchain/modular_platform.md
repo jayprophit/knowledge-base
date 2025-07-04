@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Modular Platform for blockchain/modular_platform.md
+title: Modular Platform
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Modular Website & App Platform for 3D Blockchain
 
 ## Overview

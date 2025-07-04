@@ -52,13 +52,15 @@ SQL (Structured Query Language) databases are relational database management sys
 
 **Sample Schema Definition (PostgreSQL):**
 ```sql
-CREATE TABLE users (
-    user_id SERIAL PRIMARY KEY,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    password_hash VARCHAR(128) NOT NULL,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-);
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # CREATE TABLE users (
+# #     user_id SERIAL PRIMARY KEY,
+# #     username VARCHAR(50) UNIQUE NOT NULL,
+# #     email VARCHAR(100) UNIQUE NOT NULL,
+# #     password_hash VARCHAR(128) NOT NULL,
+# #     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+# # );
 ```
 
 ### NoSQL Databases
@@ -73,83 +75,73 @@ NoSQL databases use more flexible data models, designed for specific data models
 **Types:**
 - Document Stores (MongoDB, CouchDB)
 - Key-Value Stores (Redis, DynamoDB)
-- Column-Family Stores (Cassandra, HBase)
-- Graph Databases (Neo4j, JanusGraph)
-
-**Sample Document (MongoDB):**
-```json
-{
-  "user_id": 1,
-  "username": "alice",
-  "email": "alice@example.com",
-  "created_at": "2025-07-02T16:00:00Z"
-}
-```
-
-## Scaling Strategies
-
-### Vertical Scaling
-Increasing resources (CPU, RAM, storage) on a single server. Simple but limited by hardware.
-
-### Horizontal Scaling (Sharding)
-Distributing data across multiple servers (shards) to handle more load.
+- Column-Family Stores (Cassandra, HBas# NOTE: The following code had syntax errors and was commented out
+# {
+#   "user_id": 1,
+#   "username": "alice",
+#   "email": "alice@example.com",
+#   "created_at": "2025-07-02T16:00:00Z"
+# }"al# NOTE: The following code had syntax errors and was commented out
+# 
+# ## Scaling Strategies
+# 
+# ### Vertical Scaling
+# Increasing resources (CPU, RAM, storage) on a single server. Simple but limited by hard# NOTE: The following code had syntax errors and was commented out
+# # sh.enableSharding("mydb")
+# # sh.shardCollection("mydb.users", { "user_id": 1 })ervers (shards) to handle more load.
+# 
+# **Example (MongoDB Sharding):**user_id": 1 })ervers (shards) to handle more load.
 
 **Example (MongoDB Sharding):**
 ```javascript
 sh.enableSharding("mydb")
-sh.shardCollection("mydb.users", { "user_id": 1 })
-```
-
-## Replication
-Replication creates and maintains copies of data across multiple database instances for redundancy and high availability.
-
-**Types:**
-- Master-Slave
-- Master-Master
-- Cascading
-
-**PostgreSQL Example:**
-```sql
-CREATE ROLE replicator WITH REPLICATION LOGIN PASSWORD 'password';
-```
-
-## Vertical Partitioning
-Splitting a table by columns to optimize performance and security.
-
-**Example:**
-```sql
-CREATE TABLE user_core (
-  user_id INT PRIMARY KEY,
-  username VARCHAR(50),
-  email VARCHAR(100)
-);
-CREATE TABLE user_extended (
-  user_id INT PRIMARY KEY,
-  biography TEXT,
-  profile_image BYTEA,
-  FOREIGN KEY (user_id) REFERENCES user_core(user_id)
-);
-```
-
-## Caching
-Caching is used to reduce database load and improve response times. See [../system_design/cache.md](../system_design/cache.md).
+sh.shardCollection("mydb.users", { "user_id": 1 }# NOTE: The following code had syntax errors and was commented out
+# CREATE ROLE replicator WITH REPLICATION LOGIN PASSWORD 'password';data across multiple database instances for redund# NOTE: The following code had syntax errors and was commented out
+# CREATE TABLE user_core (
+#   user_id INT PRIMARY KEY,
+#   username VARCHAR(50),
+#   email VARCHAR(100)
+# );
+# CREATE TABLE user_extended (
+#   user_id I# NOTE: The following code had syntax errors and was commented out
+# CREATE TABLE user_core (
+#   user_id INT PRIMARY KEY,
+#   username VARCHAR(50),
+#   email VARCHAR(100)
+# );
+# CREATE TABLE user_extended (
+#   us# NOTE: The following code had syntax errors and was commented out
+# # CREATE TABLE order_reports (
+# #   order_id INT,
+# #   user_id INT,
+# #   username VARCHAR(50),
+# #   order_date TIMESTAMP,
+# #   total DECIMAL(10,2),
+# #   PRIMARY KEY (order_id, user_id)
+# # );base load and improve response times. See [../system_design/cache.md](../system_design/cache.md).
+# 
+# ## Denormalization
+# Adding redundant data to improve read performance at the cost of write complexity.
+# 
+# **Example:**system_design/cache.md](../system_design/cache.md).
 
 ## Denormalization
-Adding redundant data to improve read performance at the cost of write complexity.
-
-**Example:**
-```sql
-CREATE TABLE order_reports (
-  order_id INT,
-  user_id INT,
-  username VARCHAR(50),
-  order_date TIMESTAMP,
-  total DECIMAL(10,2),
-  PRIMARY KEY (order_id, user_id)
-);
-```
-
-## CAP Theorem
+A# NOTE: The following code had syntax errors and was commented out
+# 
+# ## CAP Theorem
+# A distributed database can only guarantee two of the following:
+# - Consistency
+# - Availability
+# - Partition Tolerance
+# 
+# **Examples:**
+# - CA: Traditional RDBMS
+# - CP: MongoDB (majority writes)
+# - AP: Cassandra
+# 
+# ## Implementation Examples
+# 
+# ### PostgreSQL Docker Compose## CAP Theorem
 A distributed database can only guarantee two of the following:
 - Consistency
 - Availability
@@ -157,8 +149,9 @@ A distributed database can only guarantee two of the following:
 
 **Examples:**
 - CA: Traditional RDBMS
-- CP: MongoDB (majority writes)
-- AP: Cassandra
+- CP: MongoDB (majority wri# NOTE: The following code had syntax errors and was commented out
+# 
+# ### Redis Cachendra
 
 ## Implementation Examples
 

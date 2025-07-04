@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Advanced Emotional Ai for ai/advanced_emotional_ai.md
+title: Advanced Emotional Ai
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Emotional AI: Architectures, Theories, and Implementation
 
 ## Table of Contents

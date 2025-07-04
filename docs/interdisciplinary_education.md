@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Interdisciplinary Education for interdisciplinary_education.md
+title: Interdisciplinary Education
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Interdisciplinary Education Integration
 
 This document outlines the integration of diverse educational fields into the knowledge base system to create a comprehensive and versatile AI assistant.

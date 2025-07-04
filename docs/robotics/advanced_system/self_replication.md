@@ -1,7 +1,11 @@
 ---
-id: self-replication
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Self Replication for robotics/advanced_system
+id: self-replication
+title: Self Replication
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Self-Replication and Scalability in Robotics

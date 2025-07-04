@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Emotion Regulation for ai/emotional_intelligence
+title: Emotion Regulation
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Emotion Regulation System
 
 ## Overview
@@ -122,7 +131,7 @@ strategy_selection:
         'processing_time_ms': int,
         'model_version': str
     }
-}
+}''
 ```
 
 ## API Reference
@@ -166,8 +175,7 @@ Choose best situation from available options.
 
 ### 1. Neural Network Architecture
 
-```python
-class RegulationNetwork(nn.Module):
+```pythonclass RegulationNetwork(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super().__init__()
         self.encoder = nn.Sequential(
@@ -208,80 +216,81 @@ class RegulationNetwork(nn.Module):
             'regulated_emotion': regulated,
             'strategy_logits': strategy_logits,
             'strategy': strategy
-        }
-```
-
-### 2. Training Process
-
-1. **Data Collection**:
-   - Collect examples of emotional states and their regulated versions
-   - Include context information and strategy used
-
-2. **Loss Function**:
-   ```python
-   def regulation_loss(predicted, target, strategy_used):
-       # Emotion prediction loss
-       emotion_loss = F.mse_loss(predicted['regulated_emotion'], target)
-       
-       # Strategy prediction loss
-       strategy_loss = F.cross_entropy(
-           predicted['strategy_logits'], 
-           strategy_used
-       )
-       
-       # Regularization
-       l2_reg = torch.tensor(0.)
-       for param in model.parameters():
-           l2_reg += torch.norm(param)
-           
-       return emotion_loss + 0.1 * strategy_loss + 0.001 * l2_reg
-   ```
-
-3. **Training Loop**:
-   ```python
-   def train_epoch(model, dataloader, optimizer, device):
-       model.train()
-       total_loss = 0
-       
-       for batch in dataloader:
-           # Move batch to device
-           emotion = batch['emotion'].to(device)
-           target = batch['target_emotion'].to(device)
-           strategy = batch['strategy'].to(device)
-           
-           # Forward pass
-           output = model(emotion, strategy)
-           
-           # Calculate loss
-           loss = regulation_loss(output, target, strategy)
-           
-           # Backward pass
-           optimizer.zero_grad()
-           loss.backward()
-           optimizer.step()
-           
-           total_loss += loss.item()
-       
-       return total_loss / len(dataloader)
-   ```
-
-## Performance Metrics
-
-1. **Regulation Accuracy**:
-   - Percentage of cases where regulation moved emotion towards target
-   - Measured by cosine similarity between emotion vectors
-
-2. **Strategy Effectiveness**:
-   - Average effectiveness score per strategy
-   - Context-specific effectiveness
-
-3. **Computational Efficiency**:
-   - Average processing time per regulation
-   - Memory usage
-
-## Usage Examples
-
-### Basic Regulation
+        }'}
+```# NOTE: The following code had syntax errors and was commented out
+# 
+# ### 2. Training Process
+# 
+# 1. **Data Collection**:
+#    - Collect examples of emotional states and their regulated versions
+#    - Include context information and strategy used
+# 
+# 2. **Loss Function**:
+#    ```python
+# # NOTE: The following code had issues and was commented out
+# #    def regulation_loss(predicted, target, strategy_used):
+# #        # Emotion prediction loss
+# #        emotion_loss = F.mse_loss(predicted['regulated_emotion'], target)
+# #        
+# #        # Strategy prediction loss
+# #        strategy_loss = F.cross_entropy(
+# #            predicted['strategy_logits'], 
+# #            strategy_used
+# #        )
+# #        
+# #        # Regularization
+# #        l2_reg = torch.tensor(0.)
+# #        for param in model.parameters():
+# #            l2_reg += torch.norm(param)
+# #            
+# #        return emotion_loss + 0.1 * strategy_loss + 0.001 * l2_reg
+# #    ```
+# # 
+# # 3. **Training Loop**:
+# #    ```python
+# #    def train_epoch(model, dataloader, optimizer, device):
+# #        model.train()
+# #        total_loss = 0
+# #        
+# #        for batch in dataloader:
+# #            # Move batch to device
+# #            emotion = batch['emotion'].to(device)
+# #            target = batch['target_emotion'].to(device)
+# #            strategy = batch['strategy'].to(device)
+# #            
+# #            # Forward pass
+# #            output = model(emotion, strategy)
+# #            
+# #            # Calculate loss
+# #            loss = regulation_loss(output, target, strategy)
+# #            
+# #            # Backward pass
+# #            optimizer.zero_grad()
+# #            loss.backward()
+# #            optimizer.step()
+# #            
+# #            total_loss += loss.item()
+# #        
+# #        return total_loss / len(dataloader)
+# #    ```
+# # 
+# # ## Performance Metrics
+# # 
+# # 1. **Regulation Accuracy**:
+# #    - Percentage of cases where regulation moved emotion towards target
+# #    - Measured by cosine similarity between emotion vectors
+# # 
+# # 2. **Strategy Effectiveness**:
+# #    - Average effectiveness score per strategy
+# #    - Context-specific effectiveness
+# # 
+# # 3. **Computational Efficiency**:
+# #    - Average processing time per regulation
+# #    - Memory usage
+# # 
+# # ## Usage Examples
+# # 
+# # ### Basic Regulationn
 ```python
 from emotion_regulation.regulator import EmotionRegulator
 
@@ -310,7 +319,9 @@ context = {
 
 # Regulate emotion
 result = regulator.regulate_emotion(emotion, context)
-print(f"Regulated emotion: {result['regulated_emotion']['dominant_emotion']}")
+pri# NOTE: The following code had issues and was commented out
+# 
+# ### Strategy-Specific Regulationregulated_emotion']['dominant_emotion']}")
 print(f"Strategy used: {result['strategy_used']}")
 print(f"Effectiveness: {result['effectiveness']:.2f}")
 ```

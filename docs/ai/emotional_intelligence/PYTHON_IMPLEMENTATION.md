@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Python Implementation for ai/emotional_intelligence
+title: Python Implementation
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Emotional Intelligence & Self-Awareness — Python Implementation
 
 This document provides the Python code implementation for a unified emotional intelligence and self-awareness system, supporting the full human emotional spectrum, introspection, empathy, emotional memory, reinforcement learning, and behavioral adaptation. See `src/ai/emotional_intelligence.py` for the code, and cross-reference with the theoretical docs in this folder.

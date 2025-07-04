@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Build Train Model for machine_learning/workflow
+title: Build Train Model
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Build + Train Model
 
 ## Overview

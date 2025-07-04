@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Transformers for libraries/transformers.md
+title: Transformers
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Transformers Library
 
 ## Overview

@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/advanced_system
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Learning and Adaptation System
 
 This document outlines the machine learning and adaptive capabilities of the advanced robotic system.
@@ -261,7 +270,7 @@ class ModelServer:
             return jsonify({'action': action.tolist()})
     
     def run(self):
-        self.app.run(port=self.port)
+        self.app.run(port=self.port)''
 ```
 
 ## Future Work

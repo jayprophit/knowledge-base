@@ -1,7 +1,11 @@
 ---
-id: consciousness-algorithms
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Consciousness Algorithms for robotics/advanced_system
+id: consciousness-algorithms
+title: Consciousness Algorithms
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Consciousness Algorithms for Robotics

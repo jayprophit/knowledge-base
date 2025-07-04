@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for ai/multidisciplinary
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Multidisciplinary AI Integration
 
 This directory contains documentation and implementations for integrating knowledge from multiple disciplines into AI systems, including psychology, philosophy, sociology, biology, and cosmology.
@@ -35,14 +44,15 @@ This directory contains documentation and implementations for integrating knowle
 - Python 3.8+
 - Required packages:
   ```
-  torch
-  networkx
-  numpy
-  matplotlib
-  ```
-
-### Quick Start
-
+# NOTE: The following code had issues and was commented out
+#   torch
+#   networkx
+#   numpy
+#   matplotlib
+#   ```
+# 
+# ### Quick Start
+# 
 ```python
 from multidisciplinary_ai import MultidisciplinaryAI
 

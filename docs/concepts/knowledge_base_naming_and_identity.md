@@ -1,15 +1,19 @@
 ---
-id: knowledge-base-naming-identity
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Knowledge Base Naming And Identity for concepts/knowledge_base_naming_and_identity.md
+id: knowledge-base-naming-identity
 tags:
-  - naming
-  - identity
-  - omni_system
-  - universal
-  - synthesis
-  - knowledge_base
-  - system_design
+- naming
+- identity
+- omni_system
+- universal
+- synthesis
+- knowledge_base
+- system_design
+title: Knowledge Base Naming And Identity
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Naming and Identity of the Universal Omni-Program System

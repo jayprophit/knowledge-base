@@ -1,7 +1,11 @@
 ---
-id: streamlined-architecture
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Streamlined Architecture for robotics/advanced_system
+id: streamlined-architecture
+title: Streamlined Architecture
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Streamlined and Efficient Architecture for Advanced Robotics

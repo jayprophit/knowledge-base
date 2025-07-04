@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Empathy And Social Awareness for ai/emotional_intelligence
+title: Empathy And Social Awareness
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Empathy and Social Awareness System
 
 ## Overview

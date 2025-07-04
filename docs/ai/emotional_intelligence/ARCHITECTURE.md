@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Architecture for ai/emotional_intelligence
+title: Architecture
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Emotional Intelligence System Architecture
 
 ## Overview

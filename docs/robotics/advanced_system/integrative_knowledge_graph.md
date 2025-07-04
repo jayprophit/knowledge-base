@@ -1,12 +1,16 @@
 ---
-id: integrative-knowledge-graph
-created_at: 2025-07-02
 author: Knowledge Base System
+created_at: 2025-07-02
+description: Documentation on Integrative Knowledge Graph for robotics/advanced_system
+id: integrative-knowledge-graph
 tags:
-  - knowledge_graph
-  - database
-  - robotics
-  - advanced_system
+- knowledge_graph
+- database
+- robotics
+- advanced_system
+title: Integrative Knowledge Graph
+updated_at: '2025-07-04'
+version: 1.0.0
 ---
 
 # Integrative Knowledge Graph for Advanced Robotic Systems

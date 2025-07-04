@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Readme for robotics/advanced_system
+title: Readme
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Advanced Robotics Control Systems
 
 This document provides an overview and implementation guide for advanced control systems in robotics, including hierarchical, adaptive, and AI-driven control architectures.

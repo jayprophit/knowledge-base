@@ -45,30 +45,32 @@ relationships:
 ## Integration Architecture
 
 ```mermaid
-flowchart TB
-  subgraph DataSources[Data Sources]
-    A[Raw Data]
-  end
-  
-  subgraph PrivacyLayer[Privacy Layer]
-    B[Data Anonymization]
-    C[Federated Learning Orchestrator]
-    D[HE Encryption Engine]
-  end
-  
-  subgraph Processing[Secure Processing]
-    E[Encrypted Computation]
-    F[Model Training]
-    G[Private Aggregation]
-  end
-  
-  A --> B
-  B --> D
-  B --> C
-  C --> F
-  D --> E
-  E --> G
-  F --> G
+# NOTE: The following code had syntax errors and was commented out
+# # NOTE: The following code had syntax errors and was commented out
+# # flowchart TB
+# #   subgraph DataSources[Data Sources]
+# #     A[Raw Data]
+# #   end
+# #   
+# #   subgraph PrivacyLayer[Privacy Layer]
+# #     B[Data Anonymization]
+# #     C[Federated Learning Orchestrator]
+# #     D[HE Encryption Engine]
+# #   end
+# #   
+# #   subgraph Processing[Secure Processing]
+# #     E[Encrypted Computation]
+# #     F[Model Training]
+# #     G[Private Aggregation]
+# #   end
+# #   
+# #   A --> B
+# #   B --> D
+# #   B --> C
+# #   C --> F
+# #   D --> E
+# #   E --> G
+# #   F --> G
 ```
 
 ## Security Features

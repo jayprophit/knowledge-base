@@ -1,3 +1,12 @@
+---
+author: Knowledge Base Automation System
+created_at: '2025-07-04'
+description: Documentation on Architecture for robotics/architecture.md
+title: Architecture
+updated_at: '2025-07-04'
+version: 1.0.0
+---
+
 # Robotic System Architecture
 
 This document outlines the high-level architecture of the advanced robotic system, designed for comprehensive environmental interaction and complex task execution.
