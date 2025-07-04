@@ -45,8 +45,7 @@ To begin developing mobile applications that integrate with the knowledge base:
 
 ## Directory Structure
 
-```
-# NOTE: The following code had issues and was commented out
+```text
 # /src/mobile/
 #   ├── App.js                  # Main application component
 #   ├── MultimodalCapture.js    # Component for capturing multimodal data
@@ -75,7 +74,7 @@ For React Native projects:
 
 For iOS (CocoaPods):
 
-```ruby
+```text
 pod 'KnowledgeBaseMobileClient', '~> 1.0.0'
 ```
 
@@ -128,9 +127,7 @@ const client = new KnowledgeBaseClient({
   apiUrl: 'https://api.knowledge-base.example',
   apiKey: 'YOUR_API_KEY'
 });
-```
-
-### Data Synchronization
+```text
 
 ```javascript
 // Fetch latest content
@@ -141,9 +138,7 @@ await client.saveOffline(articles);
 
 // Access offline content
 const offlineArticles = await client.getOfflineArticles('robotics');
-```
-
-### Multimodal Capture
+```text
 
 ```javascript
 import { captureImage, captureAudio } from '@knowledge-base/mobile-client';

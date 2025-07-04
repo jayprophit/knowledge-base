@@ -64,9 +64,7 @@ def speech_to_text(audio_file):
 # Test the function with a sample WAV file
 text_output = speech_to_text('test_audio.wav')
 print(f"Recognized Speech: {text_output}")"'"'
-```
-
-DeepSpeech is an open-source ASR model based on deep learning that converts spoken audio into text. It works with WAV audio files, which are commonly used for speech recognition.
+```text
 
 ### 3. Voice Recognition with SpeechRecognition
 
@@ -99,7 +97,7 @@ recognize_voice()"'()
 # ### 4. Audio Classification with Librosa
 # a
 
-```pytimport librosa
+```text
 import numpy as np
 from tensorflow.keras.models import load_model
 

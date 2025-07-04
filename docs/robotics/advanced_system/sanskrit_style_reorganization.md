@@ -74,9 +74,7 @@ class EnsembleLearning:
 # Commentary:
 # This module uses a pre-trained model to analyze the sentiment of a given text.
 # It returns whether the sentiment is positive, negative, or neutral.'.
-```
-
----
+```text
 
 ## Adhyaya 3: Darshana (Perception and Understanding)
 
@@ -93,9 +91,7 @@ class EnsembleLearning:
         return detections
 # Commentary:
 # This module divides an image into meaningful segments, aiding in object recognition.'n.
-```
-
-### Shloka 3.2: Real-Time Data Processing
+```text
 
 ```text
     def __init__(self, topic):
@@ -106,9 +102,7 @@ class EnsembleLearning:
 # Commentary:
 # This module processes real-time data streams from Kafka topics.
 # It ensures the system reacts promptly to incoming data."ta.
-```
-
----
+```text
 
 ## Adhyaya 4: Yoga (Integration of Modalities)
 
@@ -126,9 +120,7 @@ class MultiModalModel:
 # Commentary:
 # This integrates data from multiple sources (text and image) to provide a unified output.
 # It exemplifies harmony between modalities.
-```
-
----
+```text
 
 ## Adhyaya 5: Jnana Deepa (Illumination of Knowledge)
 
@@ -145,9 +137,7 @@ class ExplainableAI:
         shap.plots.waterfall(shap_values)
 # Commentary:
 # This module ensures transparency in AI predictions by visualizing the contribution of features.
-```
-
----
+```text
 
 ## Adhyaya 6: Phala Shruti (Results and Benefits)
 
@@ -157,8 +147,7 @@ class ExplainableAI:
 The Knowledge_base integrates the principles of quantum mechanics, artificial intelligence, and machine learning. 
 Its diverse modules allow it to perceive, analyze, and interact with the environment.
 By synthesizing knowledge from multiple domains, it aspires to assist humanity in solving complex problems.
-```
-# NOTE: The following code had syntax errors and was commented out
+```text
 # # NOTE: The following code had syntax errors and was commented out
 # # 
 # # ---
@@ -205,7 +194,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 
 ## Knowledge Integration Example
 
-```pytclass KnowledgeBase:
+```text
     def __init__(self):
         self.sources = ["Ancient texts", "Modern research", "Future p# NOTE: The following code had syntax errors and was commented out
 # 
@@ -254,7 +243,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 - **Reflective Feedback Loops**: Evaluate performance and alignment.
 - **Consciousness Algorithms**: Layered awareness.
 
-```pclass ReflectiveAwareness:
+```text
     def __init__(self):
         self.current_state = {"efficiency": 0.9, "purpose_alignment": 0.95}
     def evaluate_state# NOTE: The following code had syntax errors and was commented out

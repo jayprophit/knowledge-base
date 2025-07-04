@@ -31,9 +31,7 @@ The Audio Module is a comprehensive solution for processing and analyzing variou
 # #     D --> I[Genre Classification]
 # #     E --> J[Sound Classification]
 # #     K[Output] <-- F & G & H & I & J
-```
-
-## Core Components
+```text
 
 ### 1. Audio Input Handler
 - **Purpose**: Handles audio input from various sources (files, microphones, streams)
@@ -273,9 +271,7 @@ pip install audio-analysis-module
 git clone https://github.com/yourusername/audio-module.git
 cd audio-module
 pip install -e .
-```
-
-### Docker
+```text
 ```dockerfile
 FROM python:3.9-slim
 
@@ -294,9 +290,7 @@ COPY . .
 
 # Run the application
 CMD ["python", "-m", "audio_module.cli"]
-```
-
-## Monitoring and Logging
+```text
 
 ### Logging Configuration
 ```python

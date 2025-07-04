@@ -43,9 +43,7 @@ The Narrow AI component provides AI-driven optimization and control for quantum 
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # pip install narrow-ai-quantum
-```
-
-Dependencies:
+```text
 - Python 3.8+
 - Qiskit >= 0.34.0
 - TensorFlow >= 2.8.0
@@ -157,9 +155,7 @@ optimized_qc = optimizer.optimize(qc, iterations=50)
 
 # View the optimized circuit
 print(optimized_qc)
-```
-
-### 2. Device Control
+```text
 
 ```text
 from narrow_ai import DeviceController
@@ -208,9 +204,7 @@ print("True values:", true_values)
 print("Noisy measurements:", [f"{x:.2f}" for x in noisy_measurements])
 print("Corrected values:", [f"{x:.2f}" for x in corrected])"asurements])
 print("Corrected values:", [f"{x:.2f}" for x in corrected])
-```
-
-## Troubleshooting
+```text
 
 ### Common Issues
 
@@ -264,15 +258,11 @@ print("Corrected values:", [f"{x:.2f}" for x in corrected])
 git clone https://github.com/your-org/narrow-ai-quantum.git
 cd narrow-ai-quantum
 pip install -e .[dev]
-```
-
-### Running Tests
+```text
 
 ```bash
 pytest tests/
-```
-
-### Code Style
+```text
 
 ```bash
 black .

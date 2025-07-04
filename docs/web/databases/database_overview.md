@@ -61,9 +61,7 @@ SQL (Structured Query Language) databases are relational database management sys
 # #     password_hash VARCHAR(128) NOT NULL,
 # #     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 # # );
-```
-
-### NoSQL Databases
+```text
 NoSQL databases use more flexible data models, designed for specific data models and have flexible schemas for building modern applications.
 
 **Key Characteristics:**
@@ -156,7 +154,7 @@ A distributed database can only guarantee two of the following:
 ## Implementation Examples
 
 ### PostgreSQL Docker Compose
-```yaml
+```text
 version: '3'
 services:
   postgres:
@@ -174,7 +172,7 @@ volumes:
 ```
 
 ### Redis Cache
-```yaml
+```text
 version: '3'
 services:
   redis:

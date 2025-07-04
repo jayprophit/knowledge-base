@@ -24,9 +24,7 @@ def __init__(self,
             music_model_path: Optional[str] = None,
             sound_model_path: Optional[str] = None,
             sound_class_map_path: Optional[str] = None)
-```
-
-**Parameters**:
+```text
 - `speech_model_path`: Path to DeepSpeech model for speech recognition
 - `speech_scorer_path`: Path to DeepSpeech scorer for speech recognition
 - `music_model_path`: Path to music genre classification model
@@ -38,8 +36,7 @@ def __init__(self,
 #### process_audio
 ```text
 def process_audio(self, audio_file: str, extract_all: bool = False) -> Dict[str, Any]
-```
-Process an audio file with the appropriate recognition method based on content.
+```text
 
 **Parameters**:
 - `audio_file`: Path to audio file
@@ -51,8 +48,7 @@ Dictionary with recognition results
 #### identify_audio_type
 ```text
 def identify_audio_type(self, audio_file: str) -> str
-```
-Identify the type of audio (speech, music, or environmental sound).
+```text
 
 **Parameters**:
 - `audio_file`: Path to audio file
@@ -63,8 +59,7 @@ Audio type as string: 'speech', 'music', 'environmental', or 'unknown'
 #### recognize_from_microphone
 ```text
 def recognize_from_microphone(self, duration: int = 5) -> Dict[str, Any]
-```
-Record audio from microphone and recognize content.
+```text
 
 **Parameters**:
 - `duration`: Recording duration in seconds
@@ -79,9 +74,7 @@ Analyzes voice characteristics and performs speaker identification.
 ### Constructor
 ```text
 def __init__(self, sample_rate: int = 16000, frame_length: int = 2048, hop_length: int = 512)
-```
-
-**Parameters**:
+```text
 - `sample_rate`: Sample rate for audio processing
 - `frame_length`: Length of the analysis window in samples
 - `hop_length`: Hop length between analysis windows
@@ -108,9 +101,7 @@ Analyzes music and extracts musical features.
 ### Constructor
 ```text
 def __init__(self, model_path: Optional[str] = None, sample_rate: int = SAMPLE_RATE)
-```
-
-**Parameters**:
+```text
 - `model_path`: Path to pre-trained genre classification model
 - `sample_rate`: Sample rate for audio processing
 
@@ -136,9 +127,7 @@ Classifies environmental sounds and audio events.
 ### Constructor
 ```text
 def __init__(self, model_path: Optional[str] = None, sample_rate: int = 16000, n_fft: int = 2048, hop_length: int = 512)
-```
-
-**Parameters**:
+```text
 - `model_path`: Path to pre-trained sound classification model
 - `sample_rate`: Sample rate for audio processing
 - `n_fft`: FFT window size

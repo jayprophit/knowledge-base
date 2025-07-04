@@ -25,9 +25,7 @@ graph TD
     F -->|Actuation| G[Robot]
     G -->|Odometry| B
     G -->|Perception| A
-```
-
-## Localization
+```text
 
 ### 1. Sensor Fusion
 
@@ -57,9 +55,7 @@ class SensorFusion:
             
         self.last_update = time.time()
         return self.state
-```
-
-## Path Planning
+```text
 
 ### 1. Global Planning (A*)
 
@@ -89,9 +85,7 @@ def astar_plan(start, goal, grid):
                 open_set.put((f_score[neighbor], neighbor))
     
     return None  # No path found
-```
-
-### 2. Local Planning (DWA)
+```text
 
 ```python
 class DWAPlanner:
@@ -122,9 +116,7 @@ class DWAPlanner:
                     best_vel = (v, w)
         
         return best_vel
-```
-
-## Motion Control
+```text
 
 ### 1. PID Controller
 
@@ -156,9 +148,7 @@ class PIDController:
         self.last_error = error
         
         return p + i + d
-```
-
-## Obstacle Avoidance
+```text
 
 ### 1. Dynamic Obstacle Handling
 
@@ -190,9 +180,7 @@ def avoid_obstacles(current_pose, velocity, obstacles, safety_distance=0.5):
         adjusted_vel = (adjusted_vel / speed) * MAX_SPEED
     
     return adjusted_vel
-```
-
-## Visualization
+```text
 
 ### 1. RViz Integration
 
@@ -210,9 +198,7 @@ def visualize_navigation(pose, path, obstacles, goal):
     
     # Publish goal
     publish_goal_marker(goal)""
-```
-
-## Performance Metrics
+```text
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
@@ -248,7 +234,7 @@ Example configuration file (`nav_params.yaml`):
 # obstacle_avoidance:
 #   safety_distance: 0.5  # meters
 #   inflation_radius: 0.3  # meterss
-```# NOTE: The following code had syntax errors and was commented out
+```text
 # 
 # ## Troubleshooting
 # 
@@ -290,9 +276,7 @@ class NavigationSystem:
         
     def get_current_path(self):
         """Get current planned path."""
-```
-
-## Testing
+```text
 
 ### Unit Tests
 

@@ -98,9 +98,7 @@ Return structured error objects:
 # #     "message": "Invalid input data"
 # #   }
 # # }
-```
-
-## Rate Limiting
+```text
 Protects APIs from abuse by limiting the number of requests per client.
 
 **Example (Flask-Limiter):**
@@ -115,9 +113,7 @@ limiter = Limiter(app, default_limits=["100 per hour"])
 @limiter.limit("10/minute")
 def resource():
     return "Resource"
-```
-
-## REST API Example: Python (FastAPI)
+```text
 ```python
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -144,9 +140,7 @@ def get_user(user_id: int):
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
     return user
-```
-
-## REST API Example: Node.js (Express)
+```text
 ```js
 const express = require('express');
 const app = express();

@@ -42,9 +42,7 @@ The software architecture follows a modular, layered approach to ensure scalabil
 # #     C --> D[Feature Extraction]
 # #     D --> E[Object Recognition]
 # #     E --> F[World Modeling]
-```
-
-- **Computer Vision**
+```text
   - OpenCV 4.5+
   - TensorRT 8.5+
   - Custom CUDA kernels
@@ -93,9 +91,7 @@ class TrainingPipeline:
         self.model.configure()
         self.trainer.fit(self.model, dataset)
         return self.model.export()
-```
-
-#### 4.2 Model Zoo
+```text
 - **Perception Models**
   - Object detection (YOLO, Faster R-CNN)
   - Semantic segmentation (DeepLabV3+)
@@ -187,9 +183,7 @@ colcon build --symlink-install
 # └── scripts/
 #     ├── deployment/
 #     └── testing/
-```
-
-### 3. Dependencies
+```text
 
 #### Core Dependencies
 - ROS 2 Humble
@@ -214,7 +208,7 @@ pandas>=1.3.0
 ## Deployment
 
 ### 1. Containerization
-```dockerfile
+```text
 # Example Dockerfile for perception stack
 FROM nvcr.io/nvidia/l4t-ros2:humble
 
@@ -241,7 +235,7 @@ ENTRYPOINT ["/app/entrypoint.sh"]
 ```
 
 ### 2. Kubernetes Deployment
-```yaml
+```text
 # Example deployment for navigation stack
 apiVersion: apps/v1
 kind: Deployment

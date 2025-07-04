@@ -23,9 +23,7 @@ graph TD
     D -->|Improve| C
     D -->|Deploy| E[Runtime Inference]
     E -->|Feedback| A
-```
-
-## Core Components
+```text
 
 ### 1. Reinforcement Learning
 
@@ -58,9 +56,7 @@ class RLAgent:
     def _compute_loss(self, batch):
         # Implementation of DQN loss
         pass
-```
-
-### 2. Imitation Learning
+```text
 
 ```python
 class ImitationLearner:
@@ -99,9 +95,7 @@ class ImitationLearner:
             
             # Train on aggregated dataset
             self.train_on_dataset(dataset)
-```
-
-## Implementation Details
+```text
 
 ### 1. Model Architectures
 
@@ -120,9 +114,7 @@ class DQN(nn.Module):
     
     def forward(self, x):
         return self.net(x)
-```
-
-#### 1.2 Policy Network
+```text
 ```python
 class PolicyNetwork(nn.Module):
     def __init__(self, state_dim, action_dim, hidden_dim=64):
@@ -138,9 +130,7 @@ class PolicyNetwork(nn.Module):
         mean = torch.tanh(self.mean(x))
         std = torch.exp(self.log_std)
         return torch.distributions.Normal(mean, std)
-```
-
-### 2. Training Pipeline
+```text
 
 ```python
 def train_agent(env, agent, episodes=1000):
@@ -174,9 +164,7 @@ def train_agent(env, agent, episodes=1000):
             print(f"Episode {episode}, Reward: {episode_reward}")
     
     return rewards
-```
-
-## Performance Evaluation
+```text
 
 ### 1. Metrics
 
@@ -207,9 +195,7 @@ def evaluate_policy(env, policy, n_episodes=10):
         'success_rate': successes / n_episodes,
         'std_reward': np.std(rewards)
     }
-```
-
-## Integration with Navigation
+```text
 
 ### 1. Adaptive Path Planning
 
@@ -247,9 +233,7 @@ class AdaptivePlanner:
         # Apply learned optimizations
         # Implementation depends on specific learning approach
         pass
-```
-
-## Deployment
+```text
 
 ### 1. Model Serving
 
@@ -271,9 +255,7 @@ class ModelServer:
     
     def run(self):
         self.app.run(port=self.port)''
-```
-
-## Future Work
+```text
 
 1. **Meta-Learning**
    - Learn to learn across different tasks

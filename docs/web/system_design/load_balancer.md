@@ -144,7 +144,7 @@ class IPHashLoadBalancer:
 ## Implementation Example: NGINX Load Balancer
 
 ### Configuration
-```nginx
+```text
 http {
     upstream backend {
         # Load balancing method
@@ -174,7 +174,7 @@ http {
 ## Docker Implementation Example
 
 ### Docker Compose with HAProxy
-```yaml
+```text
 version: '3'
 
 services:
@@ -244,9 +244,7 @@ services:
 # #     stats refresh 5s
 # #     stats realm Haproxy\ Statistics
 # #     stats auth admin:admin
-```
-
-## Load Balancer Health Checks
+```text
 
 Health checks are essential for maintaining system reliability:
 

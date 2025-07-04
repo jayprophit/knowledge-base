@@ -71,9 +71,7 @@ relationships:
 # #   D --> E
 # #   E --> G
 # #   F --> G
-```
-
-## Security Features
+```text
 
 ### Data Protection
 - End-to-end encryption for data in transit and at rest
@@ -109,18 +107,14 @@ def setup_he_encryption():
     parms.set_coeff_modulus(CoeffModulus.BFVDefault(4096))
     parms.set_plain_modulus(256)
     return parms
-```
-
-### 2. Federated Learning Setup
+```text
 ```python
 import tensorflow_federated as tff
 
 @tff.federated_computation
 def federated_average(model_weights):
     return tff.federated_mean(model_weights)
-```
-
-### 3. Differential Privacy
+```text
 ```python
 from diffprivlib.models import LogisticRegression
 

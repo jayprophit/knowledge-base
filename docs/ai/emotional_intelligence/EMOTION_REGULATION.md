@@ -64,9 +64,7 @@ graph TD
     E --> G
     F --> G
     G --> H[Output: Regulated Response]
-```
-
-#### 2.2 Hyperparameters
+```text
 ```yaml
 regulation_network:
   learning_rate: 0.001
@@ -82,9 +80,7 @@ strategy_selection:
     response_modulation: 0.4
     situation_selection: 0.2
     attention_deployment: 0.1
-```
-
-## Data Structures
+```text
 
 ### 1. Regulation Context
 ```python
@@ -113,9 +109,7 @@ strategy_selection:
         }
     ]
 }
-```
-
-### 2. Regulation Result
+```text
 ```text
 {
     'regulated_emotion': {
@@ -132,9 +126,7 @@ strategy_selection:
         'model_version': str
     }
 }''
-```
-
-## API Reference
+```text
 
 ### 1. Core Functions
 
@@ -217,7 +209,7 @@ Choose best situation from available options.
             'strategy_logits': strategy_logits,
             'strategy': strategy
         }'}
-```# NOTE: The following code had syntax errors and was commented out
+```text
 # 
 # ### 2. Training Process
 # 
@@ -244,8 +236,7 @@ Choose best situation from available options.
 # #            l2_reg += torch.norm(param)
 # #            
 # #        return emotion_loss + 0.1 * strategy_loss + 0.001 * l2_reg
-# #    ```
-# # 
+# #    ```text
 # # 3. **Training Loop**:
 # #    ```python
 # #    def train_epoch(model, dataloader, optimizer, device):
@@ -272,8 +263,7 @@ Choose best situation from available options.
 # #            total_loss += loss.item()
 # #        
 # #        return total_loss / len(dataloader)
-# #    ```
-# # 
+# #    ```text
 # # ## Performance Metrics
 # # 
 # # 1. **Regulation Accuracy**:
@@ -324,9 +314,7 @@ pri# NOTE: The following code had issues and was commented out
 # ### Strategy-Specific Regulationregulated_emotion']['dominant_emotion']}")
 print(f"Strategy used: {result['strategy_used']}")
 print(f"Effectiveness: {result['effectiveness']:.2f}")
-```
-
-### Strategy-Specific Regulation
+```text
 ```python
 # Force using cognitive reappraisal
 result = regulator.regulate_emotion(

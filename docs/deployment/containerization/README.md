@@ -113,9 +113,7 @@ docker exec -it <container_id> /bin/bash
 # 
 # volumes:
 #   postgres_data:
-```
-
-## Kubernetes
+```text
 
 ### Basic Concepts
 
@@ -269,9 +267,7 @@ docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t username/
 
 # Inspect the manifest
 docker buildx imagetools inspect username/myapp:latest
-```
-
-### Manifest Lists
+```text
 
 ```bash
 # Create a manifest list

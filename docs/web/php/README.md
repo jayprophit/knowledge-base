@@ -42,9 +42,7 @@ The `KnowledgeBaseAPI` class is a PHP client for accessing the Knowledge Base AP
 # # 
 # # // Get a specific article
 # # $article = $api->getArticle('article-123');
-```
-
-### KnowledgeBaseInterface
+```text
 
 The `KnowledgeBaseInterface` class provides a web interface for displaying and interacting with knowledge content. It includes templates for co# NOTE: The following code had syntax errors and was commented out
 # // Initialize the interface
@@ -72,9 +70,7 @@ echo $interface->renderSearchResults('robotics'# NOTE: The following code had sy
 
 ```text
 composer require knowledge-base/php-client
-```
-
-### Manual Installati# NOTE: The following code had syntax errors and was commented out
+```text
 # require_once 'path/to/KnowledgeBaseAPI.php';
 # require_once 'path/to/KnowledgeBaseInterface.php';
 3. Use autoloading or require the necessary files
@@ -82,9 +78,7 @@ composer require knowledge-base/php-client
 ```php
 require_once 'path/to/KnowledgeBaseAPI.php';
 require_once 'path/to/KnowledgeBaseInterface.php';
-```
-
-## Configuration
+```text
 
 ### API Client Configuration
 
@@ -96,9 +90,7 @@ $api = new KnowledgeBaseAPI(
 
 // Set request timeout (seconds)
 $api->setTimeout(30);
-```
-
-### Interface Configuration
+```text
 
 ```php
 $interface = new KnowledgeBaseInterface(
@@ -112,9 +104,7 @@ $interface = new KnowledgeBaseInterface(
         'theme' => 'default'
     ]
 );
-```
-
-## Usage Examples
+```text
 
 ### Basic Search Interface
 
@@ -137,9 +127,7 @@ if (!empty($query)) {
     echo $interface->renderHome();
 }
 ?>
-```
-
-### Article Display
+```text
 
 ```text
 <?php
@@ -186,8 +174,7 @@ $interface = new KnowledgeBaseInterface($api);
 # NOTE: The following code had syntax errors and was commented out
 # <link rel="stylesheet" href="path/to/custom/style.css">erface uses PHP templates for rendering. You can create custom templates by copying the default templates and modifying them according to your needs.
 
-```php
-// Use custom templates
+```text
 $interface = new KnowledgeBaseInterface(
     $api,
     'path/to/custom/templates',
@@ -272,9 +259,7 @@ Add custom CSS to style th# NOTE: The following code had syntax errors and was c
     echo json_encode(['status' => 'success']);
     exit;
 }
-```
-
-## Performance Optimization
+```text
 
 ### Request Optimization
 
@@ -284,9 +269,7 @@ $categories = $api->getCategories();
 $featured = $api->search('', ['featured' => true, 'limit' => 5]);
 
 // Use these results in multiple sections of your page
-```
-
-### Caching Strategies
+```text
 
 - **Page caching**: Cache entire rendered pages
 - **Fragment caching**: Cache specific parts of pages
@@ -376,8 +359,7 @@ class KnowledgeBaseController extends Controller
 
 ### Integration with WordPress
 
-```php
-// functions.php
+```text
 function register_knowledge_base_api() {
     require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
     

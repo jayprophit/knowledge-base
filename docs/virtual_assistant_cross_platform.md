@@ -15,8 +15,7 @@ This project provides a complete, production-ready virtual assistant system with
 ---
 
 ## 1. Project Structure
-```
-# NOTE: The following code had issues and was commented out
+```text
 # virtual-assistant/
 # ?
 # ??? .devcontainer/
@@ -258,9 +257,7 @@ This project provides a complete, production-ready virtual assistant system with
 #     @staticmethod
 #     def _load_custom_agent(config: AgentConfiguration):
 #         raise NotImplementedError("Custom agent loading not implemented")"'
-```
-
----
+```text
 
 ## 10. Example Voice Service (backend/src/services/voice_service.py)
 ```text
@@ -336,9 +333,7 @@ class MultiLanguageVoiceService:
     @classmethod
     def get_supported_languages(cls) -> Dict[str, str]:
         return cls.SUPPORTED_LANGUAGES"'ES
-```
-
----
+```text
 
 ## 11. Example CI/CD Workflow (.github/workflows/ci-cd.yml)
 ```text
@@ -395,9 +390,7 @@ jobs:
     - name: Deploy to Cloud Platform
       run: |
         echo "Deploying to cloud platform"
-```
-
----
+```text
 
 ## 12. Example Frontend App (frontend/src/App.js)
 ```jsx

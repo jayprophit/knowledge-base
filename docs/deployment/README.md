@@ -79,9 +79,7 @@ Create a `.env` file in the root directory with the following variables:
 # # # Secrets (use secrets manager in production)
 # # API_KEY=your_api_key_here
 # # JWT_SECRET=your_jwt_secret_here
-```
-
-## Deployment
+```text
 
 ## Overview
 Deployment for the robotics knowledge base leverages containerization, environment management, and automated workflows for reproducibility and scalability. See the following resources for details:
@@ -102,9 +100,7 @@ docker-compose up -d
 # Using Node.js
 npm install
 npm run dev
-```
-
-### Production Deployment
+```text
 
 ```bash
 # Build Docker image

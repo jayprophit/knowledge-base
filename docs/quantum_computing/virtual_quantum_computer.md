@@ -186,7 +186,7 @@ simulator = Aer.get_backend('ae# NOTE: The following code had syntax errors and 
 
 Neural network for quantum parameter optimization:
 
-```pythoimport tensorflow as tf
+```text
 import numpy as np
 
 # Define a simple neural network to optimize qubit parameters
@@ -317,7 +317,7 @@ client.on_message # NOTE: The following code had syntax errors and was commented
 # 
 # ---
 # 
-```json
+```text
 {
   "document_id": "doc-vqc-0o01",
   "document_type": "concept",

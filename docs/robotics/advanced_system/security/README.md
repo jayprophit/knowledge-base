@@ -37,9 +37,7 @@ This document outlines the comprehensive security measures implemented in the ad
 # #     A -->|IPSec VPN| C[Cloud Services]
 # #     A -->|AES-256| D[Peripheral Devices]
 # #     B -->|SSH| E[Maintenance Port]
-```
-
-#### 2.2 Network Protocols
+```text
 - **Wireless**: WPA3-Enterprise with 802.1X authentication
 - **Wired**: MACsec (IEEE 802.1AE) for all wired connections
 - **VPN**: Always-on VPN with certificate-based authentication
@@ -100,9 +98,7 @@ class MultiFactorAuth:
     permissions:
       - sensor:read:basic
       - status:view
-```
-
-### 4. Data Protection
+```text
 
 #### 4.1 Encryption
 - **At Rest**: AES-256 with hardware-acclass SecureStorage:
@@ -190,9 +186,7 @@ def secure_firmware_update(firmware_file, signature):
 # 
 # #### 6.1 Anomaly Detectionlback_firmware()
             raise SecurityError("Firmware verification failed after update")
-```
-
-### 6. Intrusion Detection & Prevention
+```text
 
 #### 6.1 Anomaly Detection
 ```python

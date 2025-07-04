@@ -68,9 +68,7 @@ pip install -r requirements.txt
 # # 
 # # # Test error correction
 # # python examples/error_correction.py
-```
-
-## API Reference
+```text
 
 ### Key Modules
 - `narrow_ai.CircuitOptimizer` - Optimize quantum circuits using AI

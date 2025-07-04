@@ -58,9 +58,7 @@ def detect_objects(image_path):
     results = model(img)
     results.show()  # This will display the image with the detected objects
     return results''
-```
-
-YOLO (You Only Look Once) is a state-of-the-art object detection model that can detect multiple classes of objects in real-time. The pre-trained model includes 80 common object categories from the COCO dataset.
+```text
 
 ### 3. Face and Item Recognition with MobileNetV2
 
@@ -89,7 +87,7 @@ def classify_item(img_path):
     decoded_predictions = tf.keras.applications.mobilenet_v2.decode_predictions(predictions, top=3)[0]
     for i, (imagenet_id, label, score) in enumerate(decoded_predictions):
         print(f"{label}: {score*100:.2f}%")"')
-```# NOTE: The following code had syntax errors and was commented out
+```text
 # 
 # MobileNetV2 is optimized for mobile and edge device applications while maintaining good accuracy. It's pre-trained on the ImageNet dataset with 1000 classes including various objects, animals, and scenes.
 # 

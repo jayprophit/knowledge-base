@@ -26,9 +26,7 @@ This document provides a comprehensive overview of the perception system for the
 # #     F --> G[Scene Understanding]
 # #     G --> H[Action Planning]
 # #     H --> I[Robot Control]
-```
-
-## Core Components
+```text
 
 ### 1. Object Detection
 

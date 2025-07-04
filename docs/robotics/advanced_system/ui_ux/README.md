@@ -43,9 +43,7 @@ This document outlines the design principles, components, and implementation gui
 # # $gray-500: #6b7280;    // Medium gray
 # # $gray-300: #d1d5db;    // Light gray
 # # $gray-100: #f3f4f6;    // Off-white
-```
-
-#### 2.2 Typography
+```text
 - **Primary Font**: Inter (Sans-serif)
 - **Monospace**: JetBrains Mono
 - **Base Size**: 16px (1rem)
@@ -78,9 +76,7 @@ function Navigation() {
     </nav>
   );
 }
-```
-
-#### 1.2 Status Overview
+```text
 ```jsx
 function StatusOverview() {
   const [status, setStatus] = useState({
@@ -118,9 +114,7 @@ function StatusOverview() {
     </div>
   );
 }
-```
-
-### 2. Teleoperation Interface
+```text
 
 #### 2.1 Joystick Control
 ```jsx
@@ -158,9 +152,7 @@ function JoystickControl() {
     </div>
   );
 }
-```
-
-### 3. Sensor Visualization
+```text
 
 #### 3.1 3D Point Cloud
 ```jsx
@@ -204,9 +196,7 @@ function PointCloudViewer() {
   
   return <canvas ref={canvasRef} className="w-full h-96" />;
 }
-```
-
-## Mobile Application
+```text
 
 ### 1. Navigation Structure
 ```mermaid
@@ -223,9 +213,7 @@ graph TD
     E --> K[Task Creation]
     F --> L[Camera Feed]
     F --> M[Sensor Readings]
-```
-
-### 2. Key Screens
+```text
 
 #### 2.1 Login Screen
 ```text
@@ -337,9 +325,7 @@ function LoginScreen() {
         emergency_stop()"ef handle_emergency_stop(self, _):
         print("EMERGENCY STOP ACTIVATED")
         emergency_stop()
-```
-
-## Accessibility
+```text
 
 ### 1. Screen Reader Support
 - All interactive elements have proper ARIA labels
@@ -430,7 +416,7 @@ describe('Navigation', () => {
 ## Deployment
 
 ### 1. Web Application
-```yaml
+```text
 # docker-compose.yml
 version: '3.8'
 services:
@@ -445,7 +431,7 @@ services:
 ```
 
 ### 2. Mobile Application
-```yaml
+```text
 # fastlane/Fastfile
 lane :beta do
   increment_build_number
