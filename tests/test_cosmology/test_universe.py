@@ -193,3 +193,4 @@ def test_periodic_boundary_conditions(empty_universe):
     new_pos = empty_universe.structures["edge_galaxy"].position[0]
     assert 0 <= new_pos < 100.0  # Within bounds
     assert new_pos < 5.0  # Should have wrapped around
+"""

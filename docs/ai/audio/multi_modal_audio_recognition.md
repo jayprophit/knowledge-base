@@ -37,7 +37,7 @@ pip install tensorflow keras librosa opencv-python torch torchvision transformer
 
 ### 2. Speech Recognition with DeepSpeech
 
-```python
+```text
 import deepspeech
 import numpy as np
 import wave

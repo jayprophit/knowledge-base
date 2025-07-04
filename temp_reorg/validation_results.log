@@ -1,0 +1,222 @@
+
+=== Documentation Validation Results ===
+
+ERROR: Found 201 errors:
+  - Syntax error in F:\github\knowledge-base\docs\self_building_ai.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\deployment\README.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\mobile\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 1: unterminated string literal (detected at line 16)
+  - Syntax error in F:\github\knowledge-base\docs\web\apis\rest_api.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 7: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 8: unmatched ')'
+  - Syntax error in F:\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 7: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\connectivity_and_communication.md, code block 1: ':' expected after dictionary key
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 6: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 7: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\learning\README.md, code block 9: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\navigation\README.md, code block 7: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: unterminated string literal (detected at line 57)
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 2: unterminated string literal (detected at line 43)
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 7: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: unterminated string literal (detected at line 33)
+  - Syntax error in F:\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\advanced_components\privacy_preservation.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 3: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 4: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 5: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 6: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 7: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 8: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 9: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 10: expected '('
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_architecture.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_examples.md, code block 9: unterminated string literal (detected at line 4)
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\emotional_intelligence\EMOTION_REGULATION.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md, code block 2: invalid syntax. Perhaps you forgot a comma?
+  - Broken link in F:\github\knowledge-base\docs\advanced_emotional_ai.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\CONTRIBUTING.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ethics_explainability.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\knowledge_representation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\LICENSE.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\nlp_ml.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\system_design.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/improvements_module.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/emotional_intelligence.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\api\audio_recognition_api.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\audio\audio_recognition.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\3d_model_generation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\3d_printing_export.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\advanced_physics.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\cnc_machining_export.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\fea_analysis.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\gan_design_generation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\generative_design.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\genetic_algorithm_optimization.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\iot_manufacturing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\multi_material_design.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\neural_network_predictions.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\openscad_automation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\environment.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\troubleshooting.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\examples\emotional_intelligence.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\examples\multidisciplinary.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\guides\multimodal_integration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\hardware\sensors.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\troubleshooting.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\fairlearn.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\keras-rl2.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\qiskit.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\scapy.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\web3.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\manufacturing\3d_printing_export.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\troubleshooting.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\ai_system_enhancements.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\api.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\CONTRIBUTING.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\development.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\faq.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\human_robot_interaction.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\integration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\safety_ethics.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\specs.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\testing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\troubleshooting.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\apis\api_gateway.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\networking\proxy.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\performance\denormalization.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\security\authentication.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\security\security.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\contributing\documentation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\contributing\pull_requests.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\contributing\setup.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\contributing\standards.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\contributing\testing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\references\api_reference.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\references\performance_guide.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\references\php_standards.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\references\security_guide.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\references\template_guide.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\advanced_system.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\industry4.0.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\simulation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: ../../../../ai/multidisciplinary/philosophy.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\TROUBLESHOOTING.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\contributing\coding-standards.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\contributing\development-setup.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\contributing\documentation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\contributing\testing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\cross-platform\flutter.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\cross-platform\react-native.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\examples\knowledge-browser.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\examples\multimodal-capture.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\examples\offline-viewer.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\native\android.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\native\ios.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\performance\memory-management.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\performance\offline-support.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\performance\optimization.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\references\api-docs.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\references\backend-integration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\references\component-library.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\references\standards.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\security\authentication.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\security\encryption.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\security\secure-storage.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\ui-ux\accessibility.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\ui-ux\component-library.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\ui-ux\design-principles.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\training\training_guide.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\vision_recognition\vision_recognition_guide.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\workflow\deployment.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\contributing\documentation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\contributing\pull_requests.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\contributing\setup.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\contributing\style_guide.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\contributing\testing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\device_management\configuration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\device_management\discovery.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\device_management\firmware.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\device_management\monitoring.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\device_management\registration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\edge_computing\analytics.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\edge_computing\processing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\edge_computing\resource_management.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\edge_computing\storage.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\edge_computing\synchronization.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\protocols\amqp.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\protocols\coap.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\protocols\http.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\protocols\mqtt.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\protocols\websockets.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\references\data_formats.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\references\device_management.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\references\edge_computing.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\references\protocol_specs.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\references\security_standards.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\security\authentication.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\security\authorization.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\security\encryption.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\security\intrusion_detection.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\security\key_management.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\security\secure_boot.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\sensors\calibration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\sensors\data_collection.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\sensors\fusion.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\sensors\types.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\sensors\validation.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\examples\emotional_intelligence\demo_emotional_ai.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\audio\LICENSE.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\CONTRIBUTING.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\LICENSE.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\guides\performance_tuning.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\guides\robotics_ai_algorithms.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\guides\robotics_movement.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\biology.md: ../../../../src/multidisciplinary_ai/biology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology/cosmology_model.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\philosophy.md: ../../../../src/multidisciplinary_ai/philosophy.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\psychology.md: ../../../../src/multidisciplinary_ai/psychology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: ../../../../src/multidisciplinary_ai/sociology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\security\access_control.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\security\deployment.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\tools\benchmarking.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\ai\guides\multimodal_integration.md: ./related_resource.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\ai\guides\quantum_circuit_optimization.md: ./related_resource.md (target not found)
+
+WARNING: Found 301 warnings:
+  - Non-standard tag 'neuromorphic_computing' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'ai_acceleration' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'brain_inspired_computing' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'spiking_neural_networks' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'hardware_acceleration' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'narrow_ai' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'machine_learning' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'optimization' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'frequency_therapy' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Non-standard tag 'wearable_devices' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  ... and 291 more warnings
+
+=== Validation Complete ===
+
+ERROR: Documentation validation failed!

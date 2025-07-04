@@ -23,7 +23,7 @@ This document outlines the design principles, components, and implementation gui
 ### 2. Design System
 
 #### 2.1 Color Palette
-```scss
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # // Primary Colors
@@ -228,7 +228,7 @@ graph TD
 ### 2. Key Screens
 
 #### 2.1 Login Screen
-```jsx
+```text
 function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

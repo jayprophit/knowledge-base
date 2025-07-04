@@ -208,7 +208,7 @@ services:
 ```
 
 ### HAProxy Configuration (haproxy.cfg)
-```
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # global

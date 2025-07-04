@@ -66,7 +66,7 @@ class EnsembleLearning:
 
 ### Shloka 2.2: Sentiment Analysis
 
-```pythonclass SentimentAnalysis:
+```text
     def __init__(self):
         self.sentiment_model = pipeline('sentiment-analysis')
     def analyze_sentiment(self, text):
@@ -97,7 +97,7 @@ class EnsembleLearning:
 
 ### Shloka 3.2: Real-Time Data Processing
 
-```pythclass RealTimeProcessing:
+```text
     def __init__(self, topic):
         self.consumer = KafkaConsumer(topic)
     def process_stream(self):
@@ -114,7 +114,7 @@ class EnsembleLearning:
 
 ### Shloka 4.1: Multi-Modal Integration
 
-```python
+```text
 class MultiModalModel:
     def __init__(self):
         self.text_model = SentimentAnalysis()
@@ -134,7 +134,7 @@ class MultiModalModel:
 
 ### Shloka 5.1: Explainable AI
 
-```python
+```text
 class ExplainableAI:
     def __init__(self, model, X):
         self.model = model

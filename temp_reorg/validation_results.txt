@@ -1,0 +1,528 @@
+
+=== Documentation Validation Results ===
+
+ERROR: Found 506 errors:
+  - Syntax error in F:\github\knowledge-base\docs\ai_assistant_architecture.md, code block 1: invalid character '?' (U+250C)
+  - Syntax error in F:\github\knowledge-base\docs\self_building_ai.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\self_building_ai.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\UNIFIED_SYSTEM_ARCHITECTURE.md, code block 1: unexpected indent
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 1: invalid character '?' (U+2502)
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 6: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 7: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 8: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 9: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 10: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 11: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\api\narrow_ai_api.md, code block 5: invalid syntax
+  - Missing required field 'title' in F:\github\knowledge-base\docs\app\README.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\app\README.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\app\README.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\app\README.md
+  - Syntax error in F:\github\knowledge-base\docs\cad_manufacturing\README.md, code block 1: unexpected indent
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\animal_environmental_protection_module.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\animal_environmental_protection_module.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\animal_environmental_protection_module.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\animal_environmental_protection_module.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\experiential_learning_emotional_memory_module.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\experiential_learning_emotional_memory_module.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\experiential_learning_emotional_memory_module.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\experiential_learning_emotional_memory_module.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\human_genetics_module.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\human_genetics_module.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\human_genetics_module.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\human_genetics_module.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\non_violence_and_peaceful_resolution_module.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\non_violence_and_peaceful_resolution_module.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\non_violence_and_peaceful_resolution_module.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\non_violence_and_peaceful_resolution_module.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\README.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\README.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\README.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\README.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\rife_healing_frequencies_module.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\rife_healing_frequencies_module.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\rife_healing_frequencies_module.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\rife_healing_frequencies_module.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\universal_life_communication_and_improvement_module.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\universal_life_communication_and_improvement_module.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\universal_life_communication_and_improvement_module.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\universal_life_communication_and_improvement_module.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\concepts\universal_scientific_and_technological_advancement.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\concepts\universal_scientific_and_technological_advancement.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\concepts\universal_scientific_and_technological_advancement.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\concepts\universal_scientific_and_technological_advancement.md
+  - Syntax error in F:\github\knowledge-base\docs\deployment\README.md, code block 1: invalid syntax
+  - Missing required field 'title' in F:\github\knowledge-base\docs\desktop\README.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\desktop\README.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\desktop\README.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\desktop\README.md
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\sample_neural_network.md, code block 1: invalid character '?' (U+2211)
+  - Syntax error in F:\github\knowledge-base\docs\mobile\README.md, code block 1: invalid character '?' (U+251C)
+  - Syntax error in F:\github\knowledge-base\docs\mobile\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\mobile\README.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\mobile\README.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 2: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 3: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 4: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 6: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 7: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in F:\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 8: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in F:\github\knowledge-base\docs\web\apis\rest_api.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\client_server\architecture.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\database_overview.md, code block 6: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\databases\overview.md, code block 6: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 9: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 10: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 11: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 12: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 13: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\php\README.md, code block 15: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 7: invalid syntax
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\13_star_sign_calendar.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\13_star_sign_calendar.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\13_star_sign_calendar.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\ai_ml_integration.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\ai_ml_integration.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\ai_ml_integration.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\ai_ml_integration.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\asynchronous_operations.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\asynchronous_operations.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\asynchronous_operations.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\asynchronous_operations.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\bio_mimicry.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\bio_mimicry.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\bio_mimicry.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\bio_mimicry.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\blockchain_integration.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\blockchain_integration.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\blockchain_integration.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\blockchain_integration.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\connectivity_and_communication.md, code block 1: ':' expected after dictionary key
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\connectivity_and_communication.md, code block 2: ':' expected after dictionary key
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\consciousness_algorithms.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\consciousness_algorithms.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\consciousness_algorithms.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\consciousness_algorithms.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\emotional_intelligence.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\emotional_intelligence.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\emotional_intelligence.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\emotional_intelligence.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\integrative_knowledge_graph.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\integrative_knowledge_graph.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\integrative_knowledge_graph.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\integrative_knowledge_graph.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\molecular_self_healing.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\molecular_self_healing.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\molecular_self_healing.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\molecular_self_healing.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\multi_energy_harvesting.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\multi_energy_harvesting.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\multi_energy_harvesting.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\multi_energy_harvesting.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\naming_conventions.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\naming_conventions.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\naming_conventions.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\naming_conventions.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\nanotechnology_integration.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\nanotechnology_integration.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\nanotechnology_integration.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\nanotechnology_integration.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\power_saving_self_sustaining.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\power_saving_self_sustaining.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\power_saving_self_sustaining.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\power_saving_self_sustaining.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_temporal_mapping.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_temporal_mapping.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_temporal_mapping.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\quantum_temporal_mapping.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 8: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 9: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 10: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 11: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 12: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 13: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 14: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 17: invalid syntax
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\self_awareness.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\self_awareness.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\self_awareness.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\self_awareness.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\self_healing.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\self_healing.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\self_healing.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\self_healing.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\self_improvement.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\self_improvement.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\self_improvement.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\self_improvement.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\self_replication.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\self_replication.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\self_replication.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\self_replication.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\streamlined_architecture.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\streamlined_architecture.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\streamlined_architecture.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\streamlined_architecture.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\time_crystal_integration.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\time_crystal_integration.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\time_crystal_integration.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\time_crystal_integration.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\unified_knowledge_architecture.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\unified_knowledge_architecture.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\unified_knowledge_architecture.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\unified_knowledge_architecture.md
+  - Missing required field 'title' in F:\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+  - Missing required field 'description' in F:\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+  - Missing required field 'updated_at' in F:\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+  - Missing required field 'version' in F:\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\learning\README.md, code block 9: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\navigation\README.md, code block 7: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\navigation\README.md, code block 8: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 8: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 10: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\audio_recognition\audio_recognition_guide.md, code block 1: invalid character '?' (U+250C)
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 1: invalid character '?' (U+250C)
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 7: unterminated string literal (detected at line 30)
+  - Syntax error in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 9: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\deployment\containerization\README.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\deployment\containerization\README.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\deployment\containerization\README.md, code block 6: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\advanced_components\privacy_preservation.md, code block 1: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 3: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 4: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 5: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 6: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 7: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 8: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 9: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 10: expected ':'
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_architecture.md, code block 1: invalid decimal literal
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_architecture.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\audio_module_examples.md, code block 9: unterminated string literal (detected at line 4)
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 2: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 3: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md, code block 6: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\emotional_intelligence\EMOTION_REGULATION.md, code block 4: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\emotional_intelligence\EMOTION_REGULATION.md, code block 5: invalid syntax
+  - Syntax error in F:\github\knowledge-base\docs\ai\guides\multimodal_integration.md, code block 1: invalid character '?' (U+250C)
+  - Syntax error in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md, code block 1: unexpected indent
+  - Syntax error in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md, code block 2: invalid syntax. Perhaps you forgot a comma?
+  - Syntax error in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md, code block 3: unterminated string literal (detected at line 2)
+  - Syntax error in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md, code block 4: invalid syntax
+  - Broken link in F:\github\knowledge-base\docs\interdisciplinary_education.md: ../ai/improvements_module.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\interdisciplinary_education.md: ../ai/emotional_intelligence/ADVANCED_IMPROVEMENTS.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\interdisciplinary_education.md: ../ai/guides/multimodal_integration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\interdisciplinary_education.md: ../blockchain/3d_blockchain.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\interdisciplinary_education.md: ../robotics/advanced_system/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\non_coder_setup.md: deployment.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web_layers.md: ./robotics/advanced_system/simulation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web_layers.md: ./robotics/advanced_system/industry4.0.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/improvements_module.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/emotional_intelligence.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../../advanced_emotional_ai.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../guides/multimodal_integration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../knowledge_representation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../nlp_ml.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\improvements_module.md: ../ethics_explainability.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\README.md: ./guides/performance_tuning.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\README.md: ./tools/benchmarking/ (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\README.md: ./security/deployment.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\README.md: ./security/access_control.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\README.md: ../CONTRIBUTING.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\README.md: ../LICENSE (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\system_improvement_strategies.md: ../README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\app\README.md: ../README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\freecad_automation.md: fea_analysis.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\materials_database.md: fea_analysis.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\materials_database.md: ../manufacturing/3d_printing_export.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md: fea_analysis.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md: ../manufacturing/3d_printing_export.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: openscad_automation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: 3d_model_generation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: fea_analysis.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: genetic_algorithm_optimization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: neural_network_predictions.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: gan_design_generation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: 3d_printing_export.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: cnc_machining_export.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: iot_manufacturing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: advanced_physics.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: multi_material_design.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\cad_manufacturing\README.md: generative_design.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md: ../system_design.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\concepts\README.md: ../README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./platforms/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./ci_cd/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./iac/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./mlops/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./security/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./environment.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ./troubleshooting.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ../CONTRIBUTING.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\deployment\README.md: ../LICENSE (target not found)
+  - Broken link in F:\github\knowledge-base\docs\desktop\README.md: ../README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: device_management/registration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: device_management/discovery.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: device_management/monitoring.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: device_management/configuration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: device_management/firmware.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: protocols/mqtt.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: protocols/coap.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: protocols/http.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: protocols/websockets.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: protocols/amqp.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: sensors/types.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: sensors/data_collection.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: sensors/calibration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: sensors/validation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: sensors/fusion.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: security/authentication.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: security/authorization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: security/encryption.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: security/key_management.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: security/secure_boot.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: security/intrusion_detection.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: edge_computing/processing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: edge_computing/analytics.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: edge_computing/storage.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: edge_computing/synchronization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: edge_computing/resource_management.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: troubleshooting.md#connectivity (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: troubleshooting.md#authentication (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: troubleshooting.md#data-processing (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: troubleshooting.md#security (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: troubleshooting.md#performance (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: references/security_standards.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: references/protocol_specs.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: references/data_formats.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: references/edge_computing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: references/device_management.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: contributing/setup.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: contributing/testing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: contributing/documentation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: contributing/style_guide.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\iot\README.md: contributing/pull_requests.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\README.md: ./web3.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\README.md: ./qiskit.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\README.md: ./scapy.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\README.md: ./fairlearn.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\libraries\README.md: ./keras-rl2.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: native/ios.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: native/android.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: cross-platform/react-native.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: cross-platform/flutter.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: ui-ux/design-principles.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: ui-ux/component-library.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: ui-ux/accessibility.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: performance/optimization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: performance/offline-support.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: performance/memory-management.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: security/authentication.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: security/encryption.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: security/secure-storage.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: troubleshooting.md#connectivity (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: troubleshooting.md#performance (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: troubleshooting.md#authentication (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: troubleshooting.md#api (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: examples/knowledge-browser.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: examples/multimodal-capture.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: examples/offline-viewer.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: references/standards.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: references/api-docs.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: references/component-library.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: references/backend-integration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: contributing/development-setup.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: contributing/coding-standards.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: contributing/testing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\mobile\README.md: contributing/documentation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: perception/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: movement/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: ai/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: safety_ethics.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: integration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: development.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: development.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: specs/ (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: api/ (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: troubleshooting.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: faq.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\README.md: CONTRIBUTING.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\apis\rest_api.md: ../security/authentication.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\apis\rest_api.md: api_gateway.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\apis\rest_api.md: ../security/authentication.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\databases\database_overview.md: ../performance/denormalization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\networking\dns.md: proxy.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\networking\http.md: proxy.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\networking\ip_address.md: proxy.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: references/php_standards.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: references/api_reference.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: references/template_guide.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: references/performance_guide.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: references/security_guide.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: contributing/setup.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: contributing/standards.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: contributing/testing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: contributing/documentation.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\php\README.md: contributing/pull_requests.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\system_design\blob_storage.md: ../security/security.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\system_design\cache.md: ../performance/denormalization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\system_design\cache.md: ../security/security.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\system_design\cdn.md: ../performance/denormalization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\system_design\cdn.md: ../security/security.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\web\system_design\rate_limiting.md: ../security/security.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\advanced_abilities.md: ../ai_system_enhancements.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\architecture.md: ../development.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\architecture.md: ../examples/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\cad_and_manufacturing.md: ../ai_system_enhancements.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\human_robot_interaction.md: ./testing/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: ../../hardware/sensors.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: ../../ai/guides/robotics_ai_algorithms.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: ../../ai/guides/robotics_movement.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: ../../ai/audio/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\README.md: networking/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\README.md: ai/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\README.md: safety_ethics/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\README.md: deployment/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\README.md: deployment/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\README.md: TROUBLESHOOTING.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md: ./advanced_system.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\self_powering_and_regeneration.md: ../ai_system_enhancements.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: ../../../../ai/multidisciplinary/philosophy.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: ./testing/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\swarm_robotics.md: ./testing/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\theoretical_abilities.md: ../ai_system_enhancements.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: ../human_robot_interaction.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: ../control/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: ../testing.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\robotics\advanced_system\control\README.md: ../testing/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md: ../vision_recognition/vision_recognition_guide.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md: ../training/training_guide.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\workflow\evaluate_performance.md: deployment.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\machine_learning\workflow\hyperparameter_tuning.md: deployment.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\audio\audio_module_architecture.md: LICENSE (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md: ../../api/audio_recognition_api.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#52-gans-for-simulated-emotions (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#53-meta-learning-for-adaptability (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#51-bayesian-networks-for-uncertainty (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#7-integration-with-emerging-technologies (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#2-multi-agent-emotional-systems (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#6-ethical-and-safety-considerations (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md#8-references-and-further-reading (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md: ../../advanced_emotional_ai.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\README.md: ../../examples/emotional_intelligence/ (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\README.md: ../../examples/emotional_intelligence/demo_emotional_ai.py#L15-L60 (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\README.md: ../../examples/emotional_intelligence/demo_emotional_ai.py#L62-L77 (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\README.md: ../../examples/emotional_intelligence/demo_emotional_ai.py#L79-L95 (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\README.md: CONTRIBUTING.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\emotional_intelligence\README.md: LICENSE (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../audio/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\models\bitnet_b158_2b4t.md: ../../machine_learning/workflow/deployment.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\biology.md: ../../../../src/multidisciplinary_ai/biology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\biology.md: ../ai/guides/quantum_circuit_optimization.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology/cosmology_model.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\philosophy.md: ../../../../src/multidisciplinary_ai/philosophy.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\psychology.md: ../../../../src/multidisciplinary_ai/psychology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ./psychology/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ./philosophy/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ./sociology/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ./biology/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ./cosmology/README.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ../../examples/multidisciplinary/ (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\README.md: ../../CONTRIBUTING.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: ../../../../src/multidisciplinary_ai/sociology.py (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: ../ai/guides/multimodal_integration.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: ../../audio/audio_recognition.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: ../../../iot/sensors.md (target not found)
+  - Broken link in F:\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: ../../../mobile/vision_apps.md (target not found)
+
+WARNING: Found 301 warnings:
+  - Non-standard tag 'neuromorphic_computing' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'ai_acceleration' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'brain_inspired_computing' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'spiking_neural_networks' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'hardware_acceleration' in F:\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
+  - Non-standard tag 'narrow_ai' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'machine_learning' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'optimization' in F:\github\knowledge-base\docs\api\narrow_ai_api.md
+  - Non-standard tag 'frequency_therapy' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  - Non-standard tag 'wearable_devices' in F:\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
+  ... and 291 more warnings
+
+=== Validation Complete ===
+
+
+ERROR: Documentation validation failed!

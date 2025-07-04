@@ -1,14 +1,32 @@
 """
 Tests for the object detection module.
 """
+import sys
+from pathlib import Path
+
+# Add mock modules to path if available
+mock_path = Path(__file__).parent.parent / "src" / "mock_modules"
+if mock_path.exists() and str(mock_path) not in sys.path:
+    sys.path.insert(0, str(mock_path))
+
 
 import unittest
 import os
 import numpy as np
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-import torch
-import cv2
+try:
+    import torch
+except (ImportError, ModuleNotFoundError):
+    print(f"Warning: torch module not available. Some functionality may be limited.")
+    torch = None
+
+try:
+    import cv2
+except (ImportError, ModuleNotFoundError):
+    print(f"Warning: cv2 module not available. Some functionality may be limited.")
+    cv2 = None
+
 
 # Add the src directory to the Python path
 import sys

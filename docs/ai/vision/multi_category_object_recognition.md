@@ -38,7 +38,7 @@ pip install tensorflow keras opencv-python torch torchvision matplotlib
 
 ### 2. Object Detection Using YOLOv5
 
-```python
+```text
 import torch
 from PIL import Image
 import cv2

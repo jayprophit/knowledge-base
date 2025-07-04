@@ -8,7 +8,12 @@ import unittest
 import numpy as np
 from pathlib import Path
 import tempfile
-import cv2
+try:
+    import cv2
+except (ImportError, ModuleNotFoundError):
+    print(f"Warning: cv2 module not available. Some functionality may be limited.")
+    cv2 = None
+
 
 # Add the src directory to the path so we can import the modules
 sys.path.insert(0, str(Path(__file__).parent.parent))

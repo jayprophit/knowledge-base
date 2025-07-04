@@ -64,7 +64,7 @@ To begin developing mobile applications that integrate with the knowledge base:
 
 For React Native projects:
 
-```bash
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # npm install# NOTE: The following code had syntax errors and was commented out

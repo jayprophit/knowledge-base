@@ -43,7 +43,7 @@ docker exec -it <container_id> /bin/bash
 
 ### Dockerfile Example
 
-```dockerfile
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # # Use multi-stage build for smaller final image

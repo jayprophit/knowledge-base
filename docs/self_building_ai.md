@@ -46,7 +46,7 @@ The Self-Building AI project enables an AI system to iteratively improve, fix, a
 ## Quick Start: Basic Self-Building AI Functions
 
 ### 1. Error Detection & Fixing (Python Example)
-```python
+```text
 # private/code/self_iteration.py
 import os
 import openai

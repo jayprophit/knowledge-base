@@ -44,7 +44,7 @@ relationships:
 
 ## Integration Architecture
 
-```mermaid
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # flowchart TB

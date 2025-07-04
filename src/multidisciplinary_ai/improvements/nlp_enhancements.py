@@ -196,3 +196,4 @@ class NLPEnhancer:
             Language.JAPANESE: {"の", "に", "は", "を", "た"},
             Language.KOREAN: {"이", "있", "하", "는", "을"},
             Language.RUSSIAN: {"и", "в", 
+}}

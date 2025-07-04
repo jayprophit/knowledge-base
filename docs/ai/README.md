@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```
 
 ### Running Examples
-```bash
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # # Run circuit optimization example

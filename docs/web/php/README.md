@@ -31,7 +31,7 @@ The PHP Web Interface module provides libraries and components for building web 
 
 The `KnowledgeBaseAPI` class is a PHP client for accessing the Knowledge Base API. It provides methods for searching, retrieving, and managing knowledge content.
 
-```php
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # // Initialize the API client
@@ -70,7 +70,7 @@ echo $interface->renderSearchResults('robotics'# NOTE: The following code had sy
 
 ### Via Composer
 
-```bash
+```text
 composer require knowledge-base/php-client
 ```
 
@@ -141,7 +141,7 @@ if (!empty($query)) {
 
 ### Article Display
 
-```php
+```text
 <?php
 require_once 'vendor/autoload.php';
 
@@ -193,7 +193,7 @@ $interface = new KnowledgeBaseInterface(
     'path/to/custom/templates',
     ['theme' => 'custom']
 );
-```
+```text
 
 ### Custom Styling
 

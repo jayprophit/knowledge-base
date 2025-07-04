@@ -17,7 +17,7 @@ The Audio Module provides comprehensive audio processing capabilities including 
 The main entry point for audio processing functionality.
 
 ### Constructor
-```python
+```text
 def __init__(self, 
             speech_model_path: Optional[str] = None,
             speech_scorer_path: Optional[str] = None,
@@ -36,7 +36,7 @@ def __init__(self,
 ### Methods
 
 #### process_audio
-```python
+```text
 def process_audio(self, audio_file: str, extract_all: bool = False) -> Dict[str, Any]
 ```
 Process an audio file with the appropriate recognition method based on content.
@@ -49,7 +49,7 @@ Process an audio file with the appropriate recognition method based on content.
 Dictionary with recognition results
 
 #### identify_audio_type
-```python
+```text
 def identify_audio_type(self, audio_file: str) -> str
 ```
 Identify the type of audio (speech, music, or environmental sound).
@@ -61,7 +61,7 @@ Identify the type of audio (speech, music, or environmental sound).
 Audio type as string: 'speech', 'music', 'environmental', or 'unknown'
 
 #### recognize_from_microphone
-```python
+```text
 def recognize_from_microphone(self, duration: int = 5) -> Dict[str, Any]
 ```
 Record audio from microphone and recognize content.
@@ -77,7 +77,7 @@ Dictionary with recognition results
 Analyzes voice characteristics and performs speaker identification.
 
 ### Constructor
-```python
+```text
 def __init__(self, sample_rate: int = 16000, frame_length: int = 2048, hop_length: int = 512)
 ```
 
@@ -89,7 +89,7 @@ def __init__(self, sample_rate: int = 16000, frame_length: int = 2048, hop_lengt
 ### Methods
 
 #### extract_features
-```python
+```text
 def extract_features(self, audio: np.ndarray, sr: Optional[int] = None) -> VoiceCharacteristics
 ```
 Extract voice characteristics from audio.
@@ -106,7 +106,7 @@ VoiceCharacteristics object with extracted features
 Analyzes music and extracts musical features.
 
 ### Constructor
-```python
+```text
 def __init__(self, model_path: Optional[str] = None, sample_rate: int = SAMPLE_RATE)
 ```
 
@@ -117,7 +117,7 @@ def __init__(self, model_path: Optional[str] = None, sample_rate: int = SAMPLE_R
 ### Methods
 
 #### extract_features
-```python
+```text
 def extract_features(self, audio: Union[str, np.ndarray], duration: Optional[float] = 30.0) -> MusicFeatures
 ```
 Extract comprehensive music features from audio.
@@ -134,7 +134,7 @@ MusicFeatures object containing extracted features
 Classifies environmental sounds and audio events.
 
 ### Constructor
-```python
+```text
 def __init__(self, model_path: Optional[str] = None, sample_rate: int = 16000, n_fft: int = 2048, hop_length: int = 512)
 ```
 
@@ -147,7 +147,7 @@ def __init__(self, model_path: Optional[str] = None, sample_rate: int = 16000, n
 ### Methods
 
 #### classify_sound
-```python
+```text
 def cdef classify_sound(self, audio: Union[str, np.ndarray], 
                 duration: Optional[float] = 5.0,
                 top_k: int = 3) -> SoundClassificationResultClassify environmental sound.

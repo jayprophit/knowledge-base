@@ -51,7 +51,7 @@ SQL (Structured Query Language) databases are relational database management sys
 - SQLite
 
 **Sample Schema Definition (PostgreSQL):**
-```sql
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # CREATE TABLE users (

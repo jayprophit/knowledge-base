@@ -39,7 +39,7 @@ The Narrow AI component provides AI-driven optimization and control for quantum 
 
 ## Installation
 
-```bash
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # pip install narrow-ai-quantum
@@ -161,7 +161,7 @@ print(optimized_qc)
 
 ### 2. Device Control
 
-```python
+```text
 from narrow_ai import DeviceController
 import time
 

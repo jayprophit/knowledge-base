@@ -249,7 +249,7 @@ Replication creates and maintains copies of data across multiple database instan
 # ); last_login TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
 );
-```
+```text
 
 ## CAP Theorem
 

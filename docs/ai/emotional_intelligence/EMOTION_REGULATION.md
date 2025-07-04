@@ -116,7 +116,7 @@ strategy_selection:
 ```
 
 ### 2. Regulation Result
-```python
+```text
 {
     'regulated_emotion': {
         'vector': List[float],  # Regulated emotion vector

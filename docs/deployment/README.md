@@ -58,7 +58,7 @@ This directory contains comprehensive documentation for deploying applications a
 
 Create a `.env` file in the root directory with the following variables:
 
-```env
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # # Application

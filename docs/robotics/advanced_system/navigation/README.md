@@ -196,7 +196,7 @@ def avoid_obstacles(current_pose, velocity, obstacles, safety_distance=0.5):
 
 ### 1. RViz Integration
 
-```python
+```text
 def visualize_navigation(pose, path, obstacles, goal):
     """Publish visualization markers to RViz."""
     # Publish robot pose

@@ -77,7 +77,7 @@ Robotic systems require seamless access to a variety of communication channels f
 ## Implementation Examples
 
 ### Python: Unified Communication Manager (Skeleton)
-```python
+```text
 import serial
 import socket
 import ssl

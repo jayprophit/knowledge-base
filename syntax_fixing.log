@@ -1,0 +1,168 @@
+2025-07-04 19:22:05,386 - syntax-fixer - INFO - Starting syntax error fixes
+2025-07-04 19:22:05,387 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\integration.py
+2025-07-04 19:22:05,389 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\integration.py
+2025-07-04 19:22:05,389 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_nlp_enhancements.py
+2025-07-04 19:22:05,395 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_nlp_enhancements.py
+2025-07-04 19:22:05,409 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\ai_system.py
+2025-07-04 19:22:05,428 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\ai_system.py
+2025-07-04 19:22:05,429 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\contextual_memory.py
+2025-07-04 19:22:05,430 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\contextual_memory.py
+2025-07-04 19:22:05,431 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\ethics.py
+2025-07-04 19:22:05,432 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\ethics.py
+2025-07-04 19:22:05,434 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\knowledge_access.py
+2025-07-04 19:22:05,436 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\knowledge_access.py
+2025-07-04 19:22:05,438 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\knowledge_graph.py
+2025-07-04 19:22:05,440 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\knowledge_graph.py
+2025-07-04 19:22:05,441 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\ml_enhancements.py
+2025-07-04 19:22:05,442 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\ml_enhancements.py
+2025-07-04 19:22:05,444 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\multimodal.py
+2025-07-04 19:22:05,445 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\multimodal.py
+2025-07-04 19:22:05,446 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\nlp_enhancements.py
+2025-07-04 19:22:05,447 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\nlp_enhancements.py
+2025-07-04 19:22:05,448 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\online_learning.py
+2025-07-04 19:22:05,454 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\online_learning.py
+2025-07-04 19:22:05,454 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\simulation.py
+2025-07-04 19:22:05,456 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\simulation.py
+2025-07-04 19:22:05,456 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\user_profile.py
+2025-07-04 19:22:05,458 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\user_profile.py
+2025-07-04 19:22:05,460 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\advanced_engineering_ai\__init__.py
+2025-07-04 19:22:05,461 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\advanced_engineering_ai\__init__.py
+2025-07-04 19:22:05,462 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\ai\emotional_intelligence.py
+2025-07-04 19:22:05,465 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\ai\emotional_intelligence.py
+2025-07-04 19:22:05,465 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\ai\improvements_module.py
+2025-07-04 19:22:05,469 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\ai\improvements_module.py
+2025-07-04 19:22:05,469 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\ai\virtual_brain.py
+2025-07-04 19:22:05,473 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\ai\virtual_brain.py
+2025-07-04 19:22:05,475 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\audio\audio_recognition.py
+2025-07-04 19:22:05,482 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\audio\audio_recognition.py
+2025-07-04 19:22:05,491 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\audio\music_analysis.py
+2025-07-04 19:22:05,497 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\audio\music_analysis.py
+2025-07-04 19:22:05,497 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\audio\sound_classification.py
+2025-07-04 19:22:05,511 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\audio\sound_classification.py
+2025-07-04 19:22:05,512 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\audio\speech_recognition.py
+2025-07-04 19:22:05,519 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\audio\speech_recognition.py
+2025-07-04 19:22:05,523 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\audio\voice_analysis.py
+2025-07-04 19:22:05,527 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\audio\voice_analysis.py
+2025-07-04 19:22:05,527 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\audio\__init__.py
+2025-07-04 19:22:05,530 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\audio\__init__.py
+2025-07-04 19:22:05,530 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\blockchain\3d_blockchain.py
+2025-07-04 19:22:05,539 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\blockchain\3d_blockchain.py
+2025-07-04 19:22:05,542 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\blockchain\3d_blockchain_api.py
+2025-07-04 19:22:05,545 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\blockchain\3d_blockchain_api.py
+2025-07-04 19:22:05,547 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\blockchain\layer2_and_defi.py
+2025-07-04 19:22:05,554 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\blockchain\layer2_and_defi.py
+2025-07-04 19:22:05,556 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\blockchain\modular_platform.py
+2025-07-04 19:22:05,559 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\blockchain\modular_platform.py
+2025-07-04 19:22:05,559 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\blockchain\token_factory.py
+2025-07-04 19:22:05,563 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\blockchain\token_factory.py
+2025-07-04 19:22:05,568 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\blockchain\website_blockchain.py
+2025-07-04 19:22:05,575 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\blockchain\website_blockchain.py
+2025-07-04 19:22:05,576 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\fields_of_education\arts.py
+2025-07-04 19:22:05,578 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\fields_of_education\arts.py
+2025-07-04 19:22:05,586 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\fields_of_education\engineering.py
+2025-07-04 19:22:05,590 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\fields_of_education\engineering.py
+2025-07-04 19:22:05,591 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\fields_of_education\health_sciences.py
+2025-07-04 19:22:05,593 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\fields_of_education\health_sciences.py
+2025-07-04 19:22:05,594 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\fields_of_education\humanities.py
+2025-07-04 19:22:05,596 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\fields_of_education\humanities.py
+2025-07-04 19:22:05,597 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\fields_of_education\natural_sciences.py
+2025-07-04 19:22:05,599 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\fields_of_education\natural_sciences.py
+2025-07-04 19:22:05,607 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\fields_of_education\social_sciences.py
+2025-07-04 19:22:05,609 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\fields_of_education\social_sciences.py
+2025-07-04 19:22:05,610 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\iot\device_management\device_manager.py
+2025-07-04 19:22:05,619 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\iot\device_management\device_manager.py
+2025-07-04 19:22:05,622 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\iot\edge_computing\edge_processor.py
+2025-07-04 19:22:05,630 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\iot\edge_computing\edge_processor.py
+2025-07-04 19:22:05,640 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\iot\protocols\mqtt_client.py
+2025-07-04 19:22:05,647 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\iot\protocols\mqtt_client.py
+2025-07-04 19:22:05,648 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\iot\security\authentication.py
+2025-07-04 19:22:05,657 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\iot\security\authentication.py
+2025-07-04 19:22:05,658 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\iot\sensors\sensor_interface.py
+2025-07-04 19:22:05,665 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\iot\sensors\sensor_interface.py
+2025-07-04 19:22:05,666 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\biology.py
+2025-07-04 19:22:05,681 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\biology.py
+2025-07-04 19:22:05,685 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology.py
+2025-07-04 19:22:05,691 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology.py
+2025-07-04 19:22:05,694 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\integration.py
+2025-07-04 19:22:05,707 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\integration.py
+2025-07-04 19:22:05,710 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\philosophy.py
+2025-07-04 19:22:05,726 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\philosophy.py
+2025-07-04 19:22:05,729 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\psychology.py
+2025-07-04 19:22:05,741 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\psychology.py
+2025-07-04 19:22:05,744 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\sociology.py
+2025-07-04 19:22:05,758 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\sociology.py
+2025-07-04 19:22:05,760 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\__init__.py
+2025-07-04 19:22:05,762 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\__init__.py
+2025-07-04 19:22:05,764 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\cosmic_structure.py
+2025-07-04 19:22:05,771 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\cosmic_structure.py
+2025-07-04 19:22:05,774 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\cosmology_model.py
+2025-07-04 19:22:05,779 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\cosmology_model.py
+2025-07-04 19:22:05,782 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\cosmology_module.py
+2025-07-04 19:22:05,797 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\cosmology_module.py
+2025-07-04 19:22:05,804 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\universe.py
+2025-07-04 19:22:05,811 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\universe.py
+2025-07-04 19:22:05,813 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\__init__.py
+2025-07-04 19:22:05,817 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\cosmology\__init__.py
+2025-07-04 19:22:05,822 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\data_sources.py
+2025-07-04 19:22:05,828 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\data_sources.py
+2025-07-04 19:22:05,830 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\knowledge_representation.py
+2025-07-04 19:22:05,840 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\knowledge_representation.py
+2025-07-04 19:22:05,840 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\nlp_enhancements.py
+2025-07-04 19:22:05,845 - syntax-fixer - INFO - Adding missing closing characters: }}
+2025-07-04 19:22:05,848 - syntax-fixer - INFO - ✓ Fixed syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\nlp_enhancements.py
+2025-07-04 19:22:05,853 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\__init__.py
+2025-07-04 19:22:05,856 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\improvements\__init__.py
+2025-07-04 19:22:05,857 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\knowledge_system\knowledge_graph.py
+2025-07-04 19:22:05,864 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multidisciplinary_ai\knowledge_system\knowledge_graph.py
+2025-07-04 19:22:05,870 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\knowledge_system\__init__.py
+2025-07-04 19:22:05,872 - syntax-fixer - INFO - Found unterminated triple quote starting at line 15
+2025-07-04 19:22:05,875 - syntax-fixer - INFO - ✓ Fixed syntax errors in F:\github\knowledge-base\src\multidisciplinary_ai\knowledge_system\__init__.py
+2025-07-04 19:22:05,876 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\multimodal\recognition_api.py
+2025-07-04 19:22:05,885 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\multimodal\recognition_api.py
+2025-07-04 19:22:05,889 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\advanced_system\multisensory_robotics.py
+2025-07-04 19:22:05,891 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\advanced_system\multisensory_robotics.py
+2025-07-04 19:22:05,893 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\advanced_system\quantum_integration.py
+2025-07-04 19:22:05,905 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\advanced_system\quantum_integration.py
+2025-07-04 19:22:05,906 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\advanced_system\self_healing.py
+2025-07-04 19:22:05,911 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\advanced_system\self_healing.py
+2025-07-04 19:22:05,912 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\advanced_system\self_powering.py
+2025-07-04 19:22:05,924 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\advanced_system\self_powering.py
+2025-07-04 19:22:05,926 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\advanced_system\swarm_robotics.py
+2025-07-04 19:22:05,930 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\advanced_system\swarm_robotics.py
+2025-07-04 19:22:05,932 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\navigation\motion_control.py
+2025-07-04 19:22:05,942 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\navigation\motion_control.py
+2025-07-04 19:22:05,943 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\navigation\path_planning.py
+2025-07-04 19:22:05,949 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\navigation\path_planning.py
+2025-07-04 19:22:05,955 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\navigation\sensor_fusion.py
+2025-07-04 19:22:05,958 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\navigation\sensor_fusion.py
+2025-07-04 19:22:05,959 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\robotics\navigation\__init__.py
+2025-07-04 19:22:05,961 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\robotics\navigation\__init__.py
+2025-07-04 19:22:05,962 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\src\vision\object_detection.py
+2025-07-04 19:22:05,967 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\src\vision\object_detection.py
+2025-07-04 19:22:05,975 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_device_control_ai.py
+2025-07-04 19:22:05,981 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_device_control_ai.py
+2025-07-04 19:22:05,982 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_emotional_intelligence.py
+2025-07-04 19:22:05,990 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_emotional_intelligence.py
+2025-07-04 19:22:05,991 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_multimodal_recognition.py
+2025-07-04 19:22:05,995 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_multimodal_recognition.py
+2025-07-04 19:22:05,996 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_nlp_enhancements.py
+2025-07-04 19:22:06,001 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_nlp_enhancements.py
+2025-07-04 19:22:06,002 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_object_detection.py
+2025-07-04 19:22:06,009 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_object_detection.py
+2025-07-04 19:22:06,010 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_quantum_optimization.py
+2025-07-04 19:22:06,013 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_quantum_optimization.py
+2025-07-04 19:22:06,014 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_sound_classification.py
+2025-07-04 19:22:06,022 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_sound_classification.py
+2025-07-04 19:22:06,026 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\integration\test_emotional_system.py
+2025-07-04 19:22:06,031 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\integration\test_emotional_system.py
+2025-07-04 19:22:06,039 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\robotics\test_navigation.py
+2025-07-04 19:22:06,046 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\robotics\test_navigation.py
+2025-07-04 19:22:06,046 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_model.py
+2025-07-04 19:22:06,048 - syntax-fixer - INFO - Found unterminated triple quote starting at line 143
+2025-07-04 19:22:06,094 - syntax-fixer - INFO - ✓ Fixed syntax errors in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_model.py
+2025-07-04 19:22:06,094 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_module.py
+2025-07-04 19:22:06,099 - syntax-fixer - INFO - No syntax errors found in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_module.py
+2025-07-04 19:22:06,101 - syntax-fixer - INFO - Fixing syntax errors in F:\github\knowledge-base\tests\test_cosmology\test_universe.py
+2025-07-04 19:22:06,104 - syntax-fixer - INFO - Found unterminated triple quote starting at line 176
+2025-07-04 19:22:06,110 - syntax-fixer - INFO - ✓ Fixed syntax errors in F:\github\knowledge-base\tests\test_cosmology\test_universe.py
+2025-07-04 19:22:06,110 - syntax-fixer - INFO - Fixed syntax errors in 4 files

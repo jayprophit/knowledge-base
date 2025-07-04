@@ -29,7 +29,7 @@ This document outlines the comprehensive security measures implemented in the ad
 ### 2. Network Security
 
 #### 2.1 Secure Communication
-```mermaid
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # graph TD

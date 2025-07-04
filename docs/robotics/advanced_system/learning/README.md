@@ -253,7 +253,7 @@ class AdaptivePlanner:
 
 ### 1. Model Serving
 
-```python
+```text
 class ModelServer:
     def __init__(self, model_path, port=5000):
         self.model = load_model(model_path)

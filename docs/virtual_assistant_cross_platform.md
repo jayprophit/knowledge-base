@@ -54,7 +54,7 @@ This project provides a complete, production-ready virtual assistant system with
 ---
 
 ## 2. DevContainer Example (.devcontainer/devcontainer.json)
-```json
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # {
@@ -263,7 +263,7 @@ This project provides a complete, production-ready virtual assistant system with
 ---
 
 ## 10. Example Voice Service (backend/src/services/voice_service.py)
-```pythoimport speech_recognition as sr
+```text
 import openai
 from typing import Dict, Optional, Tuple
 from enum import Enum
@@ -341,7 +341,7 @@ class MultiLanguageVoiceService:
 ---
 
 ## 11. Example CI/CD Workflow (.github/workflows/ci-cd.yml)
-```yaml
+```text
 name: Virtual Assistant CI/CD
 
 on:

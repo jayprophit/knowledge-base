@@ -1,0 +1,26 @@
+2025-07-04 19:25:37,158 - import-patcher - INFO - Starting import patching
+2025-07-04 19:25:37,163 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_device_control_ai.py
+2025-07-04 19:25:37,172 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_device_control_ai.py
+2025-07-04 19:25:37,173 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_emotional_intelligence.py
+2025-07-04 19:25:37,177 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_emotional_intelligence.py
+2025-07-04 19:25:37,179 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_multimodal_recognition.py
+2025-07-04 19:25:37,216 - import-patcher - INFO - ✓ Patched imports in F:\github\knowledge-base\tests\test_multimodal_recognition.py
+2025-07-04 19:25:37,219 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_nlp_enhancements.py
+2025-07-04 19:25:37,222 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_nlp_enhancements.py
+2025-07-04 19:25:37,223 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_object_detection.py
+2025-07-04 19:25:37,231 - import-patcher - INFO - ✓ Patched imports in F:\github\knowledge-base\tests\test_object_detection.py
+2025-07-04 19:25:37,233 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_quantum_optimization.py
+2025-07-04 19:25:37,240 - import-patcher - INFO - ✓ Patched imports in F:\github\knowledge-base\tests\test_quantum_optimization.py
+2025-07-04 19:25:37,242 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_sound_classification.py
+2025-07-04 19:25:37,246 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_sound_classification.py
+2025-07-04 19:25:37,283 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\integration\test_emotional_system.py
+2025-07-04 19:25:37,307 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\integration\test_emotional_system.py
+2025-07-04 19:25:37,333 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\robotics\test_navigation.py
+2025-07-04 19:25:37,374 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\robotics\test_navigation.py
+2025-07-04 19:25:37,389 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_model.py
+2025-07-04 19:25:37,394 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_model.py
+2025-07-04 19:25:37,413 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_module.py
+2025-07-04 19:25:37,445 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_cosmology\test_cosmology_module.py
+2025-07-04 19:25:37,471 - import-patcher - INFO - Patching imports in F:\github\knowledge-base\tests\test_cosmology\test_universe.py
+2025-07-04 19:25:37,505 - import-patcher - INFO - No imports needed patching in F:\github\knowledge-base\tests\test_cosmology\test_universe.py
+2025-07-04 19:25:37,508 - import-patcher - INFO - Patched imports in 3 files

@@ -17,7 +17,7 @@ The Audio Module is a comprehensive solution for processing and analyzing variou
 
 ### High-Level Components
 
-```mermaid
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # graph TD

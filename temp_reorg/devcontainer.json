@@ -1,0 +1,11 @@
+{
+    "name": "Robotics Knowledge Base DevContainer",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "pip install -r scripts/requirements.txt"
+}

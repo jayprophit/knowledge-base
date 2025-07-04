@@ -33,7 +33,7 @@ The software architecture follows a modular, layered approach to ensure scalabil
 ### 3. Core Components
 
 #### 3.1 Perception Stack
-```mermaid
+```text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # graph LR
@@ -81,7 +81,7 @@ The software architecture follows a modular, layered approach to ensure scalabil
 ### 4. AI/ML Framework
 
 #### 4.1 Training Pipeline
-```python
+```text
 class TrainingPipeline:
     def __init__(self):
         self.data_loader = DataLoader()
@@ -150,7 +150,7 @@ class TrainingPipeline:
 ## Development Environment
 
 ### 1. Setup
-```bash
+```text
 # Clone the repository
 git clone https://github.com/your-org/advanced-robotics-system.git
 cd advanced-robotics-system
