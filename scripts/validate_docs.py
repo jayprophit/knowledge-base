@@ -13,12 +13,16 @@ import re
 import ast
 import glob
 import yaml
+import traceback
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 import markdown
 from bs4 import BeautifulSoup
 import nbformat
 from nbconvert import PythonExporter
+
+# Set up log file
+LOG_FILE = Path(__file__).parent.parent / 'validation_results.log'
 
 # Configuration
 DOCS_DIR = Path(__file__).parent.parent / 'docs'
@@ -37,22 +41,61 @@ class DocValidator:
     
     def validate_all(self) -> bool:
         """Validate all documentation files."""
-        # Find all markdown files
-        md_files = list(DOCS_DIR.rglob('*.md'))
-        ipynb_files = list(DOCS_DIR.rglob('*.ipynb'))
+        with open(LOG_FILE, 'a', encoding='ascii', errors='replace') as f:
+            f.write("\nStarting validation of all documentation files...\n")
+            
+            # Find all markdown files
+            try:
+                md_files = list(DOCS_DIR.rglob('*.md'))
+                f.write(f"Found {len(md_files)} markdown files.\n")
+                # Log the first few files for debugging
+                for i, file in enumerate(md_files[:5]):
+                    f.write(f"  - {file}\n")
+                if len(md_files) > 5:
+                    f.write(f"  ... and {len(md_files) - 5} more\n")
+            except Exception as e:
+                f.write(f"ERROR finding markdown files: {str(e)}\n")
+                md_files = []
+            
+            # Find all Jupyter notebooks
+            try:
+                ipynb_files = list(DOCS_DIR.rglob('*.ipynb'))
+                f.write(f"Found {len(ipynb_files)} Jupyter notebook files.\n")
+            except Exception as e:
+                f.write(f"ERROR finding notebook files: {str(e)}\n")
+                ipynb_files = []
+                
+            f.write("\nStarting validation of markdown files...\n")
+            # Validate markdown files
+            for file_path in md_files:
+                try:
+                    f.write(f"Validating {file_path}\n")
+                    self.validate_markdown_file(file_path)
+                except Exception as e:
+                    f.write(f"EXCEPTION validating {file_path}: {str(e)}\n")
+                    self.errors.append(f"Exception processing {file_path}: {str(e)}")
+            
+            f.write("\nStarting validation of Jupyter notebooks...\n")
+            # Validate Jupyter notebooks
+            for file_path in ipynb_files:
+                try:
+                    f.write(f"Validating {file_path}\n")
+                    self.validate_notebook(file_path)
+                except Exception as e:
+                    f.write(f"EXCEPTION validating {file_path}: {str(e)}\n")
+                    self.errors.append(f"Exception processing {file_path}: {str(e)}")
+            
+            f.write("\nChecking for broken links...\n")
+            # Check for broken links
+            try:
+                self.check_broken_links()
+            except Exception as e:
+                f.write(f"EXCEPTION checking links: {str(e)}\n")
+                self.errors.append(f"Exception checking links: {str(e)}")
+            
+            # Report results
+            f.write("\nGenerating validation report...\n")
         
-        # Validate markdown files
-        for file_path in md_files:
-            self.validate_markdown_file(file_path)
-        
-        # Validate Jupyter notebooks
-        for file_path in ipynb_files:
-            self.validate_notebook(file_path)
-        
-        # Check for broken links
-        self.check_broken_links()
-        
-        # Report results
         self._report_validation_results()
         
         return len(self.errors) == 0
@@ -218,37 +261,54 @@ class DocValidator:
                         )
     
     def _report_validation_results(self):
-        """Print validation results."""
-        print("\n=== Documentation Validation Results ===\n")
-        
-        if self.errors:
-            print(f"ERROR: Found {len(self.errors)} errors:")
-            for error in self.errors:
-                print(f"  - {error}")
-        else:
-            print("OK: No errors found!")
-        
-        if self.warnings:
-            print(f"\nWARNING: Found {len(self.warnings)} warnings:")
-            for warning in self.warnings[:10]:  # Show first 10 warnings
-                print(f"  - {warning}")
-            if len(self.warnings) > 10:
-                print(f"  ... and {len(self.warnings) - 10} more warnings")
-        
-        print("\n=== Validation Complete ===\n")
+        """Write validation results to log file."""
+        with open(LOG_FILE, 'w', encoding='ascii', errors='replace') as f:
+            f.write("\n=== Documentation Validation Results ===\n\n")
+            
+            if self.errors:
+                f.write(f"ERROR: Found {len(self.errors)} errors:\n")
+                for error in self.errors:
+                    f.write(f"  - {error}\n")
+            else:
+                f.write("OK: No errors found!\n")
+            
+            if self.warnings:
+                f.write(f"\nWARNING: Found {len(self.warnings)} warnings:\n")
+                for warning in self.warnings[:10]:  # Show first 10 warnings
+                    f.write(f"  - {warning}\n")
+                if len(self.warnings) > 10:
+                    f.write(f"  ... and {len(self.warnings) - 10} more warnings\n")
+            
+            f.write("\n=== Validation Complete ===\n")
+            
+        # Also print to console
+        print(f"Results written to {LOG_FILE}")
 
 
 def main():
     """Run the documentation validator."""
-    validator = DocValidator()
-    success = validator.validate_all()
-    
-    if not success:
-        print("\nERROR: Documentation validation failed!")
+    try:
+        # Write initial log entry
+        with open(LOG_FILE, 'w', encoding='ascii', errors='replace') as f:
+            f.write("Starting documentation validation...\n")
+            
+        validator = DocValidator()
+        success = validator.validate_all()
+        
+        if not success:
+            with open(LOG_FILE, 'a', encoding='ascii', errors='replace') as f:
+                f.write("\nERROR: Documentation validation failed!\n")
+            return 1
+        
+        with open(LOG_FILE, 'a', encoding='ascii', errors='replace') as f:
+            f.write("\nOK: All documentation is valid!\n")
+        return 0
+    except Exception as e:
+        # Catch any unexpected errors
+        with open(LOG_FILE, 'a', encoding='ascii', errors='replace') as f:
+            f.write(f"\nFATAL ERROR: Unhandled exception in validator:\n{str(e)}\n")
+            f.write(traceback.format_exc())
         return 1
-    
-    print("\nOK: All documentation is valid!")
-    return 0
 
 
 if __name__ == "__main__":
