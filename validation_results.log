@@ -1,7 +1,7 @@
 
 === Documentation Validation Results ===
 
-ERROR: Found 163 errors:
+ERROR: Found 256 errors:
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md: 1.0
@@ -33,6 +33,10 @@ ERROR: Found 163 errors:
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md: 1.0
+  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
+  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
+  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
+  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md: 1.0
@@ -66,6 +70,14 @@ ERROR: Found 163 errors:
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md: 1.0
+  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
+  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
+  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
+  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
+  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
+  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
+  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
+  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: unindent does not match any outer indentation level
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 2: expected ':'
@@ -126,9 +138,17 @@ ERROR: Found 163 errors:
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md: 1.0
+  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
+  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
+  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
+  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md: 1.0
+  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
+  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
+  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
+  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: invalid syntax
@@ -148,6 +168,10 @@ ERROR: Found 163 errors:
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md: 1.0
+  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
+  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
+  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
+  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
   - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md
   - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md
   - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md: 1.0
@@ -156,17 +180,86 @@ ERROR: Found 163 errors:
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\virtual_assistant_book.md: ../unified-ai-system/README.md (target not found)
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/improvements_module.py (target not found)
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/emotional_intelligence.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: ../../../../ai/multidisciplinary/philosophy.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\README.md: temp_reorg/docs/ai/guides/performance_tuning.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\README.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\README.md: temp_reorg/docs/robotics/access_control.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\freecad_automation.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md: temp_reorg/docs/manufacturing/3d_printing_export.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md: temp_reorg/docs/manufacturing/3d_printing_export.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/openscad_automation.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/3d_model_generation.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/genetic_algorithm_optimization.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/neural_network_predictions.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/gan_design_generation.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/manufacturing/3d_printing_export.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/cnc_machining_export.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/iot/iot_manufacturing.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/advanced_physics.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/multi_material_design.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/generative_design.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md: temp_reorg/docs/robotics/system_design.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\README.md: temp_reorg/docs/deployment/environment.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\README.md: temp_reorg/docs/robotics/troubleshooting.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/safety_ethics.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/integration.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/development.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/development.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/troubleshooting.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/faq.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\rest_api.md: temp_reorg/docs/web/security/authentication.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\rest_api.md: temp_reorg/docs/web/system_design/api_gateway.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\rest_api.md: temp_reorg/docs/web/security/authentication.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\databases\database_overview.md: temp_reorg/docs/web/system_design/denormalization.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\dns.md: temp_reorg/docs/web/system_design/proxy.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\http.md: temp_reorg/docs/web/system_design/proxy.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\ip_address.md: temp_reorg/docs/web/system_design/proxy.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\blob_storage.md: temp_reorg/docs/web/security/security.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cache.md: temp_reorg/docs/web/system_design/denormalization.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cache.md: temp_reorg/docs/web/security/security.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cdn.md: temp_reorg/docs/web/system_design/denormalization.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cdn.md: temp_reorg/docs/web/security/security.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\rate_limiting.md: temp_reorg/docs/web/security/security.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\advanced_abilities.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\architecture.md: temp_reorg/docs/robotics/development.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\cad_and_manufacturing.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: temp_reorg/docs/iot/sensors.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: temp_reorg/docs/ai/guides/robotics_ai_algorithms.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: temp_reorg/docs/ai/guides/robotics_movement.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: docs/ai/audio/README.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md: temp_reorg/docs/robotics/advanced_system/advanced_system.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\self_powering_and_regeneration.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: temp_reorg/docs/ai/multidisciplinary/philosophy.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\theoretical_abilities.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: temp_reorg/docs/robotics/advanced_system/human_robot_interaction.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: temp_reorg/docs/robotics/advanced_system/testing.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md: temp_reorg/docs/machine_learning/vision_recognition/vision_recognition_guide.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md: temp_reorg/docs/machine_learning/training/training_guide.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\evaluate_performance.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\hyperparameter_tuning.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md: temp_reorg/docs/api/audio_recognition_api.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\README.md: temp_reorg/src/ai/demo_emotional_ai.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\README.md: temp_reorg/src/ai/demo_emotional_ai.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\README.md: temp_reorg/src/ai/demo_emotional_ai.py (target not found)
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tutorials/multimodal_recognition_tutorial.py (target not found)
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tests/test_multimodal_recognition.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\biology.md: ../../../../src/multidisciplinary_ai/biology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: ../../../../src/multidisciplinary_ai/cosmology/cosmology_model.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\philosophy.md: ../../../../src/multidisciplinary_ai/philosophy.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\psychology.md: ../../../../src/multidisciplinary_ai/psychology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: ../../../../src/multidisciplinary_ai/sociology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\models\bitnet_b158_2b4t.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\biology.md: temp_reorg/docs/src/multidisciplinary_ai/biology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\biology.md: temp_reorg/docs/ai/guides/quantum_circuit_optimization.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: temp_reorg/docs/src/multidisciplinary_ai/cosmology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: temp_reorg/docs/src/multidisciplinary_ai/cosmology/cosmology_model.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\philosophy.md: temp_reorg/docs/src/multidisciplinary_ai/philosophy.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\psychology.md: temp_reorg/docs/src/multidisciplinary_ai/psychology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\README.md: docs/CONTRIBUTING.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: temp_reorg/docs/src/multidisciplinary_ai/sociology.py (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: temp_reorg/docs/guides/multimodal_integration.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: temp_reorg/docs/audio/audio_recognition.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: temp_reorg/docs/iot/sensors.md (target not found)
+  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: temp_reorg/docs/ai/vision_apps.md (target not found)
 
-WARNING: Found 301 warnings:
+WARNING: Found 313 warnings:
   - Non-standard tag 'neuromorphic_computing' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
   - Non-standard tag 'ai_acceleration' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
   - Non-standard tag 'brain_inspired_computing' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md
@@ -177,7 +270,7 @@ WARNING: Found 301 warnings:
   - Non-standard tag 'optimization' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\narrow_ai_api.md
   - Non-standard tag 'frequency_therapy' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
   - Non-standard tag 'wearable_devices' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\advanced_frequency_delivery_technologies.md
-  ... and 291 more warnings
+  ... and 303 more warnings
 
 === Validation Complete ===
 

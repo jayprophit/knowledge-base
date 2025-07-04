@@ -1,0 +1,25 @@
+---
+title: "Constitutional Assessment Matrix"
+description: "Stub documentation for Constitutional Assessment Matrix"
+type: "documentation"
+category: "Templates"
+related_resources:
+  - name: "Related Resource 1"
+    url: "#"
+tags:
+  - documentation
+  - stub
+---
+
+# Constitutional Assessment Matrix
+
+This is a stub document created to fix broken links in the knowledge base.
+
+## Overview
+
+This documentation needs to be expanded with actual content.
+
+## References
+
+- Reference 1
+- Reference 2
