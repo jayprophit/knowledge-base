@@ -56,7 +56,10 @@ brain.add_region("Cerebral Cortex", "Higher-order thinking", 10000)
 brain.add_region("Limbic System", "Emotions and Memory", 5000)
 brain.add_region("Cerebellum", "Motor control", 8000)
 brain.simulate():
-``````python
+
+```
+
+```python
 import torch
 import torch.nn as nn
 
@@ -78,7 +81,10 @@ model = BrainSimulation()
 input_data = torch.randn(1, 100)
 output = model(input_data)
 print(output)
-``````python
+
+```
+
+```python
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
@@ -88,7 +94,10 @@ input_ids = tokenizer.encode(input_text, return_tensors='pt')
 outputs = model.generate(input_ids, max_length=50)
 generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(generated_text)
-``````python
+
+```
+
+```python
 import torchvision
 from torchvision import transforms
 import torch.nn as nn
@@ -114,7 +123,10 @@ class VisualCortex(nn.Module):
 visual_model = VisualCortex()
 output = visual_model(image)
 print(output)
-``````python
+
+```
+
+```python
 class EmotionalSystem(nn.Module):
     def __init__(self):
         super().__init__()
@@ -125,7 +137,10 @@ class EmotionalSystem(nn.Module):
 emotional_model = EmotionalSystem()
 input_data = torch.randn(1, 100)
 print(f"Emotional response: {emotional_model(input_data)}")
-``````python
+
+```
+
+```python
 class SelfAwarenessModule:
     def __init__(self, brain_model):
         self.brain_model = brain_model
@@ -142,4 +157,5 @@ brain_model = BrainSimulation()
 awareness = SelfAwarenessModule(brain_model)
 input_data = torch.randn(1, 100)
 decision = awareness.make_decision(input_data)
+
 ```

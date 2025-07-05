@@ -52,7 +52,10 @@ Tracks and evaluates the AI's own thought processes.
         'obstacles': List[Dict]
     }
 }
-``````python
+
+```
+
+```python
 class IntrospectionEngine:
     def __init__(self, memory_system, emotion_model):
         self.memory = memory_system
@@ -60,7 +63,7 @@ class IntrospectionEngine:
         self.reflection_depth = 2  # Default depth of reflection
         
     def reflect(self, topic, depth=None):
-        """Engage in reflective thinking about a topic.""""
+        """Engage in reflective thinking about a topic."""
         if depth is None:
             depth = self.reflection_depth
             
@@ -94,7 +97,7 @@ class IntrospectionEngine:
         return reflection
     
     def _analyze_topic(self, topic):
-        """Perform initial analysis of a reflection topic.""""
+        """Perform initial analysis of a reflection topic."""
         analysis = {
             'emotional_significance': self._assess_emotional_significance(topic),
             'related_memories': self.memory.retrieve_related(topic, limit=3),
@@ -104,7 +107,7 @@ class IntrospectionEngine:
         return analysis
     
     def _deep_reflection(self, topic, remaining_depth):
-        """Recursively explore a topic in depth.""""
+        """Recursively explore a topic in depth."""
         if remaining_depth <= 0:
             return []
             
@@ -133,29 +136,32 @@ class IntrospectionEngine:
         return insights
     
     def _generate_reflective_questions(self, topic, analysis, insights):
-        """Generate thought-provoking questions based on reflection.""""
+        """Generate thought-provoking questions based on reflection."""
         questions = []
         
         # Emotion-related questions
         if analysis['emotional_significance']['intensity'] > 0.5:
             questions.append(
-                f"Why does this topic evoke {analysis['emotional_significance']['primary_emotion']}?""
+                f"Why does this topic evoke {analysis['emotional_significance']['primary_emotion']}?"""
             )
         
         # Goal-related questions
         for goal in analysis['goal_relevance']['relevant_goals']:
             questions.append(
-                f"How does this relate to my goal of {goal['description']}?""
+                f"How does this relate to my goal of {goal['description']}?"""
             )
         
         # Value-related questions
         if analysis['values_implications']['conflicts']:
             questions.append(
-                "How can I resolve the tension between these values in this situation?""
+                "How can I resolve the tension between these values in this situation?"""
             )
             
         return questions""
-``````python
+
+```
+
+```python
 # Check for recurring negative thought patterns
 patterns = monitor.detect_thought_patterns(
     time_window='24h',
@@ -165,4 +171,5 @@ patterns = monitor.detect_thought_patterns(
 if patterns['negative_thoughts'] > 5:
     print("Notice: High frequency of negative thoughts detected.")
     print("Consider engaging in positive reframing or taking a break.")
+
 ```

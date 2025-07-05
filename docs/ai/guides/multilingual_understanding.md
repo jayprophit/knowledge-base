@@ -27,7 +27,10 @@ def speak_text(text, language='en'):
 # Example usage
 speak_text("Hello, how are you?", 'en')
 speak_text("Bonjour, comment ?a va?", 'fr')
-``````python
+
+```
+
+```python
 from transformers import pipeline
 import torch
 
@@ -36,7 +39,10 @@ synthesiser = pipeline("text-to-speech", "microsoft/speecht5_tts")
 
 # Generate speech
 speech = synthesiser("Hello, this is neural TTS!", forward_params={"speaker_embeddings": torch.ones((1, 512))})
-``````python
+
+```
+
+```python
 from transformers import MarianMTModel, MarianTokenizer
 
 def translate_text(text, src_lang="en", tgt_lang="es"):
@@ -47,7 +53,10 @@ def translate_text(text, src_lang="en", tgt_lang="es"):
     inputs = tokenizer(text, return_tensors="pt", truncation=True)
     outputs = model.generate(**inputs)
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
-``````python
+
+```
+
+```python
 from transformers import pipeline
 
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
@@ -55,7 +64,10 @@ classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnl
 sequence = "This is a guide about artificial intelligence"
 candidate_labels = ["education", "technology", "politics", "sports"]
 result = classifier(sequence, candidate_labels)
-``````python
+
+```
+
+```python
 from transformers import VisionEncoderDecoderModel, ViTFeatureExtractor, AutoTokenizer
 import torch
 from PIL import Image
@@ -70,20 +82,24 @@ def generate_caption(image_path):
     output_ids = model.generate(pixel_values, max_length=50, num_beams=4)
     caption = tokenizer.decode(output_ids[0], skip_special_tokens=True)
     return caption
-``````python
+
+```
+
+```python
 from transformers import pipeline
 
 # Load sentiment analysis pipeline in multiple languages
-sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")"
+sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")""
 
 # Analyze text in different languages
 texts = [
-    "I love this product!","
-    "No me gusta nada esto","
-    "C'est incroyable!"\'"\'
+    "I love this product!",""
+    "No me gusta nada esto",""
+    "C'est incroyable!"\'"\'"'
 ]
 
 for text in texts:
     result = sentiment_analyzer(text)
     print(f"{text}: {result[0]['label']} ({result[0]['score\']:.2f})")""\'
+
 ```

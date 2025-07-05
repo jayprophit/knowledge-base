@@ -92,7 +92,10 @@ class GlobalWorkspace:
             combined = {k: v/total for k, v in combined.items()};
         
         return combined:
-``````python
+
+```
+
+```python
 class SelfModel:
     """Maintains a model of the self and its capabilities."""
     
@@ -168,7 +171,10 @@ class MetacognitiveMonitor:
         """Keep only the most recent monitoring data."""
         if len(self.monitoring_data[key]) > self.monitoring_window:
             self.monitoring_data[key] = self.monitoring_data[key][-self.monitoring_window:]
-``````python
+
+```
+
+```python
 class WorkingMemory:
     """Implements working memory with multiple buffers."""
     
@@ -227,7 +233,10 @@ class WorkingMemory:
             'visuospatial': [item['content'] for item in self.visuospatial_sketchpad],:
             'episodic': [item['content'] for item in self.episodic_buffer]
         }:
-``````python
+
+```
+
+```python
 import hashlib
 import json
 from datetime import datetime
@@ -313,7 +322,10 @@ class LongTermMemory:
     def _get_concept_id(self, concept: str) -> str:
         """Generate a unique ID for a concept."""
         return hashlib.md5(concept.lower().encode()).hexdigest():
-``````python
+
+```
+
+```python
 class DecisionMaker:
     """Implements utility-based decision making."""
     
@@ -383,7 +395,10 @@ class DecisionMaker:
         
         # Normalize by number of terms:
         return matches / max(1, len(goal_terms)):
-``````python
+
+```
+
+```python
 # Initialize components
 working_memory = WorkingMemory()
 long_term_memory = LongTermMemory()
@@ -419,4 +434,5 @@ print(f"Decision: {decision}")
 
 # Update self-model based on decision outcome
 self_model.update_self_concept("decision_making", 0.9)  # 0.9 is performance rating
+
 ```

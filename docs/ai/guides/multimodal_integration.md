@@ -33,7 +33,10 @@ This guide explains how to integrate various AI components (vision, audio, langu
 # │  │          Security & Ethics Layer        │   │
 # │  └─────────────────────────────────────────┘   │
 # └─────────────────────────────────────────────────┘
-``````python
+
+```
+
+```python
 from vision.object_detection import ObjectDetector as from audio.speech_recognition import SpeechRecognizer as from language.translation import Translator as from security.anomaly_detection import AnomalyDetector as import numpy as np
 
 class MultimodalAI:
@@ -104,7 +107,7 @@ class MultimodalAI:
         return response
 
 # Example usage
-if __name__ == "__main__":;
+if __name__ == "__main__":;:
     ai = MultimodalAI();
     
     # Process multimodal input
@@ -119,7 +122,10 @@ if __name__ == "__main__":;
     
     # Convert response to speech
     ai.audio.text_to_speech(response['text'], language='en');
-``````python
+
+```
+
+```python
 from security.encryption import SecureCommunicator
 
 class SecureMultimodalAI(MultimodalAI):
@@ -137,7 +143,10 @@ class SecureMultimodalAI(MultimodalAI):
             return super().process_input(**decrypted_data)
         except Exception as e:
             return {"error": "Failed to process secure input", "details": str(e)}
-``````python
+
+```
+
+```python
 class BatchProcessor:
     def __init__(self, batch_size=32):
         self.batch_size = batch_size
@@ -158,7 +167,10 @@ class BatchProcessor:
         """Process a single batch of inputs"""
         # Implementation depends on specific models
         pass
-``````python
+
+```
+
+```python
 FROM python:3.9-slim
 
 WORKDIR /app
@@ -182,4 +194,5 @@ ENV PYTHONUNBUFFERED=1
 
 # Run the application
 CMD ["python", "app.py"]
+
 ```

@@ -102,12 +102,12 @@ expected <block end>, but found '<scalar>'
   in "<unicode string>", line 2, column 26:
     created_at: '2025-07-04\'\'
                              ^
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 1: unterminated string literal (detected at line 6)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 3: unterminated string literal (detected at line 3)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 5: unterminated string literal (detected at line 4)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 2: unterminated string literal (detected at line 8)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 3: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multilingual_understanding.md, code block 6: unterminated string literal (detected at line 4)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multilingual_understanding.md, code block 6: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md, code block 5: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\integration.md, code block 1: invalid syntax
