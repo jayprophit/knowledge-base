@@ -74,16 +74,16 @@ def generate_caption(image_path):
 from transformers import pipeline
 
 # Load sentiment analysis pipeline in multiple languages
-sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")"
 
 # Analyze text in different languages
 texts = [
-    "I love this product!",
-    "No me gusta nada esto",
-    "C'est incroyable!"'
+    "I love this product!","
+    "No me gusta nada esto","
+    "C'est incroyable!"\'"\'
 ]
 
 for text in texts:
     result = sentiment_analyzer(text)
-    print(f"{text}: {result[0]['label']} ({result[0]['score']:.2f})")"
+    print(f"{text}: {result[0]['label']} ({result[0]['score\']:.2f})")""\'
 ```
