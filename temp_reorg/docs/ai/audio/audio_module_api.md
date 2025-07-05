@@ -23,7 +23,7 @@ def __init__(self,
             speech_scorer_path: Optional[str] = None,
             music_model_path: Optional[str] = None,
             sound_model_path: Optional[str] = None,
-            sound_class_map_path: Optional[str] = None)
+            sound_class_map_path: Optional[str] = None):
 ```
 
 **Parameters**:
@@ -78,7 +78,7 @@ Analyzes voice characteristics and performs speaker identification.
 
 ### Constructor
 ```python
-def __init__(self, sample_rate: int = 16000, frame_length: int = 2048, hop_length: int = 512)
+def __init__(self, sample_rate: int = 16000, frame_length: int = 2048, hop_length: int = 512):
 ```
 
 **Parameters**:
@@ -107,7 +107,7 @@ Analyzes music and extracts musical features.
 
 ### Constructor
 ```python
-def __init__(self, model_path: Optional[str] = None, sample_rate: int = SAMPLE_RATE)
+def __init__(self, model_path: Optional[str] = None, sample_rate: int = SAMPLE_RATE):
 ```
 
 **Parameters**:
@@ -135,7 +135,7 @@ Classifies environmental sounds and audio events.
 
 ### Constructor
 ```python
-def __init__(self, model_path: Optional[str] = None, sample_rate: int = 16000, n_fft: int = 2048, hop_length: int = 512)
+def __init__(self, model_path: Optional[str] = None, sample_rate: int = 16000, n_fft: int = 2048, hop_length: int = 512):
 ```
 
 **Parameters**:
@@ -180,7 +180,7 @@ class VoiceCharacteristics:
     gender: Optional[str] = None
     age_group: Optional[str] = None
     emotion: Optional[str] = None
-```
+```python
 
 ### MusicFeatures
 ```python
@@ -206,7 +206,7 @@ class MusicFeatures:
     instrumentalness: Optional[float] = None
     liveness: Optional[float] = None
     speechiness: Optional[float] = None
-```
+```python
 
 ### SoundClassificationResult
 ```python

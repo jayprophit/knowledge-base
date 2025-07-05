@@ -1,14 +1,18 @@
 ---
-title: "Constitutional Assessment Matrix"
-description: "Stub documentation for Constitutional Assessment Matrix"
-type: "documentation"
-category: "Templates"
+title: Constitutional Assessment Matrix
+description: Stub documentation for Constitutional Assessment Matrix
+type: documentation
+category: Templates
 related_resources:
-  - name: "Related Resource 1"
-    url: "#"
+- name: Related Resource 1
+  url: '#'
 tags:
-  - documentation
-  - stub
+- documentation
+- stub
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
 ---
 
 # Constitutional Assessment Matrix

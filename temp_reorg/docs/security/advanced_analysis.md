@@ -62,7 +62,7 @@ from concurrent.futures import ThreadPoolExecutor
 from typing import List, Tuple
 
 def scan_port(ip: str, port: int) -> Tuple[int, bool]:
-    """Check if a port is open on the given IP"""
+    """Check if a port is open on the given IP""":
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.settimeout(1)
@@ -77,7 +77,7 @@ def port_scan(target: str, ports: List[int], max_workers: int = 100) -> None:
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         results = list(executor.map(lambda p: scan_port(target, p), ports))
     
-    open_ports = [port for port, is_open in results if is_open]
+    open_ports = [port for port, is_open in results if is_open]:
     if open_ports:
         print("Open ports:", ", ".join(map(str, sorted(open_ports))))
     else:
@@ -103,7 +103,7 @@ class SimpleScanner:
         self.vulnerabilities = []
 
     def scan_xss_vulnerabilities(self):
-        """Check for potential XSS vulnerabilities in forms"""
+        """Check for potential XSS vulnerabilities in forms""":
         try:
             response = self.session.get(self.target_url)
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -114,7 +114,7 @@ class SimpleScanner:
                     'method': form.get('method', 'get').lower(),
                     'inputs': [input_tag.get('name', '') for input_tag in form.find_all('input')]
                 }
-                
+                :
                 if form_details['inputs']:
                     self.vulnerabilities.append({
                         'type': 'XSS',
@@ -131,7 +131,7 @@ class SimpleScanner:
         print(f"Starting security scan for {self.target_url}")
         self.scan_xss_vulnerabilities()
         # Add more scan methods here
-        
+        :
         if self.vulnerabilities:
             print("\nVulnerabilities found:")
             for i, vuln in enumerate(self.vulnerabilities, 1):

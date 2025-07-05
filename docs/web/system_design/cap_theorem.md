@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - cap_theorem
-  - databases
-  - system_design
+- cap_theorem
+- databases
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - database_overview.md
-    - sharding.md
-    - replication.md
+  - database_overview.md
+  - sharding.md
+  - replication.md
 ---
 
 # CAP Theorem in System Design

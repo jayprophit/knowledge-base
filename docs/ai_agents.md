@@ -236,7 +236,7 @@ See [non_coder_setup.md](./non_coder_setup.md) for step-by-step setup and [READM
 ---
 
 ## References & Further Reading
-- [Unified AI System](../unified-ai-system/README.md)
+- [Unified AI System](../temp_reorg/robotics/advanced_system/README.md)
 - [Vision Module](../src/vision/README.md)
 - [Multimodal Integration Guide](./ai/guides/multimodal_integration.md)
 - [Quantum AI System](../quantum_ai_system/README.md)

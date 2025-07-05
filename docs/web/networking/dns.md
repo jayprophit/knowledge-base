@@ -1,22 +1,23 @@
 ---
 id: web-networking-dns
 title: DNS (Domain Name System)
-description: Documentation on DNS principles, resolution process, and implementation examples
+description: Documentation on DNS principles, resolution process, and implementation
+  examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - dns
-  - networking
-  - system_design
+- dns
+- networking
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ip_address.md
-    - proxy.md
-    - http.md
+  - ip_address.md
+  - proxy.md
+  - http.md
 ---
 
 # DNS (Domain Name System)
@@ -51,7 +52,7 @@ print(socket.gethostbyname('example.com'))
 
 ## Related Topics
 - [IP Address](ip_address.md)
-- [Proxy](temp_reorg/docs/web/system_design/proxy.md)
+- [Proxy](../../../temp_reorg/docs/web/system_design/proxy.md)
 - [HTTP](http.md)
 
 ## References

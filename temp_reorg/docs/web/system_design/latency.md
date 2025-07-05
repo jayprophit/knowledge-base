@@ -1,22 +1,23 @@
 ---
 id: web-system-design-latency
 title: Latency in System Design
-description: Documentation on latency, its causes, measurement, and mitigation in distributed systems
+description: Documentation on latency, its causes, measurement, and mitigation in
+  distributed systems
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - latency
-  - system_design
-  - performance
+- latency
+- system_design
+- performance
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../networking/ip_address.md
-    - ../networking/dns.md
-    - ../system_design/cdn.md
+  - ../networking/ip_address.md
+  - ../networking/dns.md
+  - ../system_design/cdn.md
 ---
 
 # Latency in System Design

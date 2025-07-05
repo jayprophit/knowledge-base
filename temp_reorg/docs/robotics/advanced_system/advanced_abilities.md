@@ -142,7 +142,7 @@ class AquaticNavigationSystem:
         self.sonar_active = False
     def activate_sonar(self):
         self.sonar_active = True
-        print("Sonar activated for underwater navigation.")
+        print("Sonar activated for underwater navigation."):
     def swim(self, target_depth):
         self.depth = target_depth
         print(f"Swimming to target depth: {self.depth} m with speed: {self.speed} m/s")

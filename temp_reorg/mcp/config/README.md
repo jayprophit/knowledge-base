@@ -1,3 +1,12 @@
+---
+title: Config Documentation
+description: Documentation and guides for the Config module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # MCP Configuration
 
 ## Overview
@@ -66,7 +75,7 @@ The configuration includes servers for:
 
 ## Related Documents
 
-- [MCP Integration Guide](../integration_guide.md)
-- [API Documentation](../api/README.md)
-- [Vectorization Protocols](../vectorization/README.md)
-- [System Design](../../system_design.md)
+- [MCP Integration Guide](../../docs/ai/integration_guide.md)
+- [API Documentation](../../robotics/advanced_system/README.md)
+- [Vectorization Protocols](../../robotics/advanced_system/README.md)
+- [System Design](../../docs/robotics/system_design.md)

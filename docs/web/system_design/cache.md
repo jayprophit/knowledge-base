@@ -1,25 +1,26 @@
 ---
 id: web-system-design-cache
 title: Caching Systems in System Design
-description: Comprehensive documentation on caching systems, types, algorithms, and implementation examples
+description: Comprehensive documentation on caching systems, types, algorithms, and
+  implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - cache
-  - system_design
-  - performance
-  - scalability
+- cache
+- system_design
+- performance
+- scalability
 relationships:
   prerequisites: []
   successors:
-    - ../databases/database_overview.md
-    - ../performance/denormalization.md
+  - ../databases/database_overview.md
+  - ../performance/denormalization.md
   related:
-    - ../databases/database_overview.md
-    - ../performance/denormalization.md
-    - ../security/security.md
+  - ../databases/database_overview.md
+  - ../performance/denormalization.md
+  - ../security/security.md
 ---
 
 # Caching Systems in System Design
@@ -106,8 +107,8 @@ print(client.get('foo'))
 
 ## Related Topics
 - [Database Systems](../databases/database_overview.md)
-- [Performance Optimization](temp_reorg/docs/web/system_design/denormalization.md)
-- [Security](temp_reorg/docs/web/security/security.md)
+- [Performance Optimization](../../../temp_reorg/docs/web/system_design/denormalization.md)
+- [Security](../../../temp_reorg/docs/web/security/security.md)
 
 ## References
 - [Redis Documentation](https://redis.io/documentation)

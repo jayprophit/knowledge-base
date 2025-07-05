@@ -1,3 +1,12 @@
+---
+title: Step By Step Guide
+description: Documentation for Step By Step Guide in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Step-by-Step Automation Guide
 
 ## Overview

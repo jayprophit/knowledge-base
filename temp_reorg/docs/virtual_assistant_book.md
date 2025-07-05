@@ -126,7 +126,7 @@ A complete, unsimplified install and usage guide for every required library and 
 ## 7. Integration, Deployment, and Best Practices
 
 - Step-by-step setup and integration: see [non_coder_setup.md](./non_coder_setup.md)
-- Architecture and design principles: see [README.md](../README.md), [architecture.md](../architecture.md)
+- Architecture and design principles: see [README.md](../robotics/advanced_system/README.md), [architecture.md](web/client_server/architecture.md)
 - Advanced usage, troubleshooting, and best practices: see [docs/ai/guides/multimodal_integration.md], [src/vision/README.md], [docs/robotics/advanced_system/README.md]
 - Cross-linking, deduplication, and repo-wide verification: see [checklist.md], [plan.md], [broken-links-report.csv]
 - Modular, scalable, and extensible system design
@@ -136,8 +136,8 @@ A complete, unsimplified install and usage guide for every required library and 
 
 ## 8. References and Cross-links
 
-- [Unified AI System](../unified-ai-system/README.md)
-- [Vision Module](../src/vision/README.md)
+- [Unified AI System](../robotics/advanced_system/README.md)
+- [Vision Module](../robotics/advanced_system/README.md)
 - [Multimodal Integration Guide](./ai/guides/multimodal_integration.md)
 - [Quantum AI System](../quantum_ai_system/README.md)
 - [Official Docs for Each Library/Platform]

@@ -193,7 +193,7 @@ $interface = new KnowledgeBaseInterface(
     'path/to/custom/templates',
     ['theme' => 'custom']
 );
-```
+```python
 
 ### Custom Styling
 
@@ -217,8 +217,8 @@ Add custom CSS to style th# NOTE: The following code had syntax errors and was c
 #     
 #     // Display editor for authenticated users
 #     if ($user['can_edit']) {
-#         echo $interface->renderEditor($articleId);
-#     } else {
+#         echo $interface->renderEditor($articleId);:
+#     } else {:
 #         echo $interface->renderArticl# NOTE: The following code had syntax errors and was commented out
 # // Check if user is authenticated
 # if (isUserAuthenticated()) {
@@ -234,22 +234,22 @@ Add custom CSS to style th# NOTE: The following code had syntax errors and was c
 #     } else {
 #         echo $interface->renderArticle($articleId);
 #     }
-# } else {
-#     // Redirect to login
+# } else {:
+#     // Redirect to login:
 #     header('Location: login.php');
 #     exit;
 # # NOTE: The following code had syntax errors and was commented out
 # // Webhook endpoint
-# if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/webhook') {
+# if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/webhook') {:
 #     $payload = json_d# NOTE: The following code had syntax errors and was commented out
 # # // Reduce API calls by combining requests
 # # $categories = $api->getCategories();
 # # $featured = $api->search('', ['featured' => true, 'limit' => 5]);
 # # 
-# # // Use these results in multiple sections of your pagepdated':
+# # // Use these results in multiple sections of your pagepdated':'
 #                 // Clear cache for the affected article
 #                 clearCache('article_' . $payload['article_id']);
-#                 break;
+#                 break;:
 #             case 'category.updated':
 #                 // Clear category cache
 #                 clearCache('category_' . $payload['category_id']);
@@ -372,7 +372,7 @@ class KnowledgeBaseController extends Controller
         ]);
     }
 }
-```
+```python
 
 ### Integration with WordPress
 
@@ -413,7 +413,7 @@ function kb_search_shortcode($atts) {
     return ob_get_clean();
 }
 add_shortcode('kb_search', 'kb_search_shortcode');
-```
+```python
 
 ## References
 
@@ -428,7 +428,9 @@ add_shortcode('kb_search', 'kb_search_shortcode');
 Guidelines for contributing to the PHP module:
 
 - [Development Setup](contributing/setup.md)
-- [Coding Standards](contributing/standards.md)
-- [Testing Guidelines](contributing/testing.md)
-- [Documentation Guidelines](contributing/documentation.md)
+- [Coding Standards](../../mobile/references/standards.md)
+- [Testing Guidelines](../../robotics/advanced_system/testing.md)
+- [Documentation Guidelines](../../mobile/contributing/documentation.md)
 - [Pull Request Process](contributing/pull_requests.md)
+
+```

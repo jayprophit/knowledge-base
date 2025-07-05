@@ -26,8 +26,8 @@ print(result)
 ```
 
 ## References
-- [src/multidisciplinary_ai/sociology.py](temp_reorg/docs/src/multidisciplinary_ai/sociology.py)
-- [Social AI Guide](temp_reorg/docs/guides/multimodal_integration.md)
+- [src/multidisciplinary_ai/sociology.py](../../../temp_reorg/docs/src/multidisciplinary_ai/sociology.py)
+- [Social AI Guide](../../../temp_reorg/docs/guides/multimodal_integration.md)
 
 ---
 **Back to [Multidisciplinary AI](./README.md)**

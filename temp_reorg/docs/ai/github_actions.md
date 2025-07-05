@@ -1,3 +1,12 @@
+---
+title: Github Actions
+description: Documentation for Github Actions in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # GitHub Actions Documentation
 
 ## Overview
@@ -187,5 +196,5 @@ Scripts used by these workflows are located in the `/scripts` directory:
 ## References
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Update Scripts Documentation](update_scripts.md)
-- [Contribution Guide](../process/contribution_guide.md)
-- [Changelog Standards](../meta/changelog_standards.md)
+- [Contribution Guide](contribution_guide.md)
+- [Changelog Standards](../robotics/changelog_standards.md)

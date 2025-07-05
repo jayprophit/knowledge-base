@@ -13,7 +13,7 @@ version: 1.0.0
 
 This document describes the system for allowing users to create, manage, and integrate their own tokens (like ERC-20) within the 3D blockchain platform. These tokens can be linked to websites or products and participate in staking, swaps, and liquidity pools.
 
-See also: [`src/blockchain/token_factory.py`](../../src/blockchain/token_factory.py)
+See also: [`src/blockchain/token_factory.py`](../../../src/blockchain/token_factory.py)
 
 ## Features
 
@@ -25,7 +25,7 @@ See also: [`src/blockchain/token_factory.py`](../../src/blockchain/token_factory
 
 ## Example Python Implementation
 
-See [`src/blockchain/token_factory.py`](../../src/blockchain/token_factory.py) for class implementations:
+See [`src/blockchain/token_factory.py`](../../../src/blockchain/token_factory.py) for class implementations:
 - `CustomToken`: User-defined token contract (ERC-20 style)
 - `TokenFactory`: Deploys and manages user tokens
 - `WebsiteTokenRegistry`: Links tokens to websites/products
@@ -53,10 +53,10 @@ website_registry.register_website_token("product_456", user_b_token)
 
 # Stake tokens
 staking = TokenStaking()
-staking.stake_tokens("user_a_address", user_a_token, 1000)
+staking.stake_tokens("user_a_address", user_a_token, 1000):
 ```
 
 ## Integration & References
-- Integrated with [`layer2_and_defi.py`](../../src/blockchain/layer2_and_defi.py) and [`3d_blockchain.py`](../../src/blockchain/3d_blockchain.py)
+- Integrated with [`layer2_and_defi.py`](../../../src/blockchain/layer2_and_defi.py) and [`3d_blockchain.py`](../../../src/blockchain/3d_blockchain.py)
 - [ERC-20 Standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
 - [Token Factories](https://docs.openzeppelin.com/contracts/4.x/tokens#token-factories)

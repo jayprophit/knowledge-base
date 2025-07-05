@@ -1,28 +1,29 @@
 ---
 id: web-database-overview
 title: Database Systems Overview
-description: Comprehensive documentation on database systems, types, selection criteria, and implementation examples
+description: Comprehensive documentation on database systems, types, selection criteria,
+  and implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - database
-  - sql
-  - nosql
-  - data_storage
-  - system_design
+- database
+- sql
+- nosql
+- data_storage
+- system_design
 relationships:
   prerequisites: []
   successors:
-    - overview.md
-    - ../system_design/cache.md
-    - ../performance/denormalization.md
-    - ../system_design/vertical_partitioning.md
+  - overview.md
+  - ../system_design/cache.md
+  - ../performance/denormalization.md
+  - ../system_design/vertical_partitioning.md
   related:
-    - ../system_design/cache.md
-    - ../performance/denormalization.md
-    - ../system_design/vertical_partitioning.md
+  - ../system_design/cache.md
+  - ../performance/denormalization.md
+  - ../system_design/vertical_partitioning.md
 ---
 
 # Database Systems Overview
@@ -147,7 +148,7 @@ A distributed database can only guarantee two of the following:
 
 **Examples:**
 - CA: Traditional RDBMS
-- CP: MongoDB (majority wri# NOTE: The following code had syntax errors and was commented out
+- CP: MongoDB (majority wri# NOTE: The following code had syntax errors and was commented out,
 # 
 # ### Redis Cachendra
 
@@ -169,8 +170,7 @@ services:
       - postgres-data:/var/lib/postgresql/data
 volumes:
   postgres-data:
-```
-
+```python
 ### Redis Cache
 ```text
 version: '3'
@@ -184,13 +184,14 @@ services:
       - redis-data:/data
 volumes:
   redis-data:
-```
-
+```python
 ## References
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [Redis Documentation](https://redis.io/documentation)
 - [CAP Theorem](https://www.ibm.com/cloud/learn/cap-theorem)
 - [../system_design/cache.md](../system_design/cache.md)
-- [../performance/denormalization.md](temp_reorg/docs/web/system_design/denormalization.md)
+- [../performance/denormalization.md](../../../temp_reorg/docs/web/system_design/denormalization.md)
 - [../system_design/vertical_partitioning.md](../system_design/vertical_partitioning.md)
+
+```

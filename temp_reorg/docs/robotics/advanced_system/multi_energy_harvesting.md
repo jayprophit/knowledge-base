@@ -31,12 +31,12 @@ class EnergyHarvester:
     def __init__(self):
         self.energy_sources = ["solar", "kinetic", "thermal", "zero-point", "cold_fusion", "piezoelectric"]
     def harvest_energy(self):
-        total_energy = sum([self.generate_energy(source) for source in self.energy_sources])
+        total_energy = sum([self.generate_energy(source) for source in self.energy_sources]):
         return f"Total energy harvested: {total_energy} units"
     def generate_energy(self, source):
         # Simulate energy harvesting
-        return 100 if source in self.energy_sources else 0
-# Commentary: Integrates multiple renewable sources for sustainability.
+        return 100 if source in self.energy_sources else 0:
+# Commentary: Integrates multiple renewable sources for sustainability.:
 ```
 
 ## Applications

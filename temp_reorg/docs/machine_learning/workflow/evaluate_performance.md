@@ -86,13 +86,12 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
                              precision_recall_curve)
 from sklearn.calibration import calibration_curve
 import seaborn as sns
-
+:
 # Assuming model is already trained and the following variables exist:
 # model: trained model
 # X_val, y_val: validation data
 # X_test, y_test: test data
-# class_names: list of class names
-
+# class_names: list of class names:
 def evaluate_classification_model(model, X, y_true, class_names=None, threshold=0.5):
     """Comprehensive evaluation of a classification model."""
     
@@ -101,7 +100,7 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     
     if y_pred_proba.shape[1] == 2:  # Binary classification
         y_pred = (y_pred_proba[:, 1] >= threshold).astype(int)
-    else:  # Multiclass classification
+    else:  # Multiclass classification:
         y_pred = np.argmax(y_pred_proba, axis=1)
     
     # Calculate metrics
@@ -112,7 +111,7 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     recall = recall_score(y_true, y_pred, average='weighted')
     f1 = f1_score(y_true, y_pred, average='weighted')
     
-    # ROC AUC - special handling for multiclass
+    # ROC AUC - special handling for multiclass:
     try:
         if y_pred_proba.shape[1] == 2:  # Binary
             auc_roc = roc_auc_score(y_true, y_pred_proba[:, 1])
@@ -145,7 +144,7 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     plt.title('Confusion Matrix')
     plt.show()
     
-    # For binary classification, plot ROC and Precision-Recall curves
+    # For binary classification, plot ROC and Precision-Recall curves:
     if y_pred_proba.shape[1] == 2:
         # ROC Curve
         fpr, tpr, _ = roc_curve(y_true, y_pred_proba[:, 1])
@@ -224,7 +223,7 @@ def analyze_performance_by_feature(model, X, y_true, feature_idx, feature_name, 
     plt.xticks(range(len(accuracies)), [f'{bin_edges[i]:.2f}-{bin_edges[i+1]:.2f}' for i in range(len(accuracies))])
     plt.tight_layout()
     
-    # Add sample counts
+    # Add sample counts:
     for i, count in enumerate(counts):
         plt.text(i, accuracies[i] + 0.01, f'n={count}', ha='center')
         
@@ -233,7 +232,7 @@ def analyze_performance_by_feature(model, X, y_true, feature_idx, feature_name, 
 # Example usage for error analysis
 analyze_performance_by_feature(model, X_test, y_test, 
                               feature_idx=0,  # Index of the feature to analyze
-                              feature_name='Feature Name')
+                              feature_name='Feature Name'):
 ```
 
 ## References

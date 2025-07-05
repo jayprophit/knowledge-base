@@ -131,7 +131,7 @@ This living document explores the endlessly expanding conceptual layers of the W
 - [Virtual Assistant Book](./virtual_assistant_book.md)
 - [AI Agents Directory](./ai_agents.md)
 - [Quantum AI System](../quantum_ai_system/README.md)
-- [Vision Module](../src/vision/README.md)
+- [Vision Module](../robotics/advanced_system/README.md)
 - [Multimodal Integration Guide](./ai/guides/multimodal_integration.md)
 - [Simulation and Digital Twin Layer](./robotics/advanced_system/simulation.md)
 - [Industry 4.0 Layer](./robotics/advanced_system/industry4.0.md)

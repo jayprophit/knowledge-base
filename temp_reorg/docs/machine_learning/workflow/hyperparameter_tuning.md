@@ -181,7 +181,7 @@ best_rf = RandomForestClassifier(
 best_rf.fit(X_train, y_train)
 print(f"Validation score: {best_rf.score(X_val, y_val):.4f}")
 
-# 4. Hyperparameter Tuning for Neural Networks (Keras)
+# 4. Hyperparameter Tuning for Neural Networks (Keras):
 def build_model(hp):
     model = keras.Sequential()
     
@@ -246,7 +246,7 @@ tuner.search(
 )
 
 # Get best hyperparameters
-best_hyperparameters = tuner.get_best_hyperparameters(1)[0]
+best_hyperparameters = tuner.get_best_hyperparameters(1)[0]:
 print(f"Best hyperparameters: {best_hyperparameters.values}")
 
 # Build and train final model

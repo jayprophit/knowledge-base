@@ -1,3 +1,12 @@
+---
+title: Audio Documentation
+description: Documentation and guides for the Audio module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Audio Processing Module
 
 This module provides comprehensive audio processing capabilities including speech recognition, voice analysis, music analysis, and sound classification. It's designed to be modular, extensible, and easy to use for a variety of audio processing tasks.
@@ -52,7 +61,7 @@ print(f"You said: {result.text}")
 result = recognizer.recognize_google("path/to/audio.wav")
 print(f"Transcription: {result.text}")
 
-# Use DeepSpeech for offline recognition (if model is loaded)
+# Use DeepSpeech for offline recognition (if model is loaded):
 if recognizer.ds_model:
     result = recognizer.recognize_deepspeech("path/to/audio.wav")
     print(f"Offline transcription: {result.text}")
@@ -71,7 +80,7 @@ profile = analyzer.create_speaker_profile("path/to/speaker1.wav", "speaker1")
 print(f"Created profile for {profile['speaker_id']}")
 
 # Identify speaker from unknown audio
-results = analyzer.identify_speaker("path/to/unknown.wav", top_n=3)
+results = analyzer.identify_speaker("path/to/unknown.wav", top_n=3):
 for i, result in enumerate(results, 1):
     print(f"{i}. {result['speaker_id']} (confidence: {result['similarity']:.2f})")
 
@@ -154,7 +163,7 @@ for i, segment in enumerate(segments, 1):
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../../temp_reorg/LICENSE) file for details.
 
 ## Acknowledgments
 

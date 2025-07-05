@@ -142,7 +142,7 @@ class AquaticNavigationSystem:
         self.sonar_active = False
     def activate_sonar(self):
         self.sonar_active = True
-        print("Sonar activated for underwater navigation.")
+        print("Sonar activated for underwater navigation."):
     def swim(self, target_depth):
         self.depth = target_depth
         print(f"Swimming to target depth: {self.depth} m with speed: {self.speed} m/s")
@@ -184,7 +184,7 @@ class AquaticNavigationSystem:
 - [Self-Powering and Regeneration](./self_powering_and_regeneration.md)
 - [Energy Management](./energy_management.md)
 - [System Architecture](./architecture.md)
-- [AI System Enhancements](temp_reorg/docs/robotics/ai_system_enhancements.md)
+- [AI System Enhancements](../../../temp_reorg/docs/robotics/ai_system_enhancements.md)
 - [DevOps](../../devops/README.md)
 - [MLOps](../../mlops/README.md)
 - [AIOps](../../aiops/README.md)

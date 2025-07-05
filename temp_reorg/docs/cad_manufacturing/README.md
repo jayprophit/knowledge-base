@@ -91,7 +91,7 @@ def calculate_mass(volume, material_density):
 
 def calculate_stress(force, area):
     """Calculate stress (σ = F/A)."""
-    return force / area if area > 0 else 0
+    return force / area if area > 0 else 0:
 ```
 
 ## Documentation Structure
@@ -104,7 +104,7 @@ def calculate_stress(force, area):
 
 ## Contributing
 
-Contributions are welcome! Please see our [Contribution Guidelines](../../CONTRIBUTING.md) for details.
+Contributions are welcome! Please see our [Contribution Guidelines](../robotics/CONTRIBUTING.md) for details.
 
 ## License
 

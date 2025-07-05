@@ -39,7 +39,7 @@ This document defines the architecture for a robust, scalable, cross-platform AI
 
 ## 2. Architecture Diagram
 
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # [ Client (Web/Mobile/Desktop/IoT) ]

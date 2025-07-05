@@ -7,15 +7,15 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - websockets
-  - system_design
-  - networking
+- websockets
+- system_design
+- networking
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../networking/http.md
-    - ../system_design/microservices.md
+  - ../networking/http.md
+  - ../system_design/microservices.md
 ---
 
 # WebSockets in System Design

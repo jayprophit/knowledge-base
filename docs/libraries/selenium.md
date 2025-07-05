@@ -31,7 +31,7 @@ search_box = browser.find_element(By.NAME, 'q')
 search_box.send_keys('virtual assistant')
 search_box.submit()
 
-browser.quit()
+browser.quit():
 ```
 
 ## Integration Notes

@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - message_queue
-  - system_design
-  - architecture
+- message_queue
+- system_design
+- architecture
 relationships:
   prerequisites: []
   successors: []
   related:
-    - microservices.md
-    - api_gateway.md
-    - cache.md
+  - microservices.md
+  - api_gateway.md
+  - cache.md
 ---
 
 # Message Queues in System Design

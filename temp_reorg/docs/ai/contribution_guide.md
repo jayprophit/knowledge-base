@@ -1,3 +1,12 @@
+---
+title: Contribution Guide
+description: Documentation for Contribution Guide in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Contribution Guide
 
 ## Overview
@@ -14,16 +23,16 @@ Before creating new content, consider:
 
 ### 2. Content Creation
 1. **Select the appropriate template**:
-   - General documentation: [Document Template](../templates/document_template.md)
-   - ML model documentation: [Model Template](../templates/model_template.md)
-   - Workflow step documentation: [Workflow Template](../templates/workflow_template.md)
+   - General documentation: [Document Template](document_template.md)
+   - ML model documentation: [Model Template](model_template.md)
+   - Workflow step documentation: [Workflow Template](workflow_template.md)
 
 2. **Follow naming conventions**:
    - Use lowercase with underscores for filenames: `file_name.md`
    - Be descriptive but concise
    - Include the topic category in multi-word filenames: `preprocessing_techniques.md` instead of just `techniques.md`
 
-3. **Place in the correct directory** according to [Architecture](../architecture.md)
+3. **Place in the correct directory** according to [Architecture](../web/client_server/architecture.md)
 
 4. **Fill all required sections** from the template
 
@@ -45,13 +54,13 @@ Before creating new content, consider:
 #### References
 - Include at least 2-3 references to related internal documents
 - Add external references to authoritative sources
-- Format links consistently: `[Link Text](URL)`
+- Format links consistently: `[Link Text](../../../.venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py)`
 
 ### 4. Submission Process
 1. Create or update the file in the appropriate location
 2. Update any related documents that should reference the new content
-3. Update the changelog following [changelog standards](../meta/changelog_standards.md)
-4. If creating a new directory or major content area, update [architecture.md](../architecture.md)
+3. Update the changelog following [changelog standards](../robotics/changelog_standards.md)
+4. If creating a new directory or major content area, update [architecture.md](../web/client_server/architecture.md)
 
 ### 5. Review Process
 All contributions undergo review as described in [Review Process](review_process.md)
@@ -92,7 +101,7 @@ All contributions undergo review as described in [Review Process](review_process
   ```
 
 ## References
-- [Architecture](../architecture.md) - File organization guidelines
+- [Architecture](../web/client_server/architecture.md) - File organization guidelines
 - [Review Process](review_process.md) - How contributions are reviewed
-- [Document Template](../templates/document_template.md) - Base template for documents
-- [Changelog Standards](../meta/changelog_standards.md) - How to update the changelog
+- [Document Template](document_template.md) - Base template for documents
+- [Changelog Standards](../robotics/changelog_standards.md) - How to update the changelog

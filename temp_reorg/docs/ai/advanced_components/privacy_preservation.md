@@ -1,23 +1,24 @@
 ---
 id: privacy-preservation
 title: Privacy-Preserving Computation for AI Systems
-description: Implementation of privacy-preserving techniques including homomorphic encryption, federated learning, and differential privacy
+description: Implementation of privacy-preserving techniques including homomorphic
+  encryption, federated learning, and differential privacy
 author: Knowledge Base System
 created_at: 2025-06-30
 updated_at: 2025-06-30
 version: 1.0.0
 tags:
-  - privacy
-  - security
-  - homomorphic_encryption
-  - federated_learning
-  - differential_privacy
+- privacy
+- security
+- homomorphic_encryption
+- federated_learning
+- differential_privacy
 relationships:
   prerequisites:
-    - ai/architecture/system_design.md
+  - ai/architecture/system_design.md
   successors: []
   related:
-    - ai/accelerators/time_crystal_module.md
+  - ai/accelerators/time_crystal_module.md
 ---
 
 # Privacy-Preserving Computation Layer

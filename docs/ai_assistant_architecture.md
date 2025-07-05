@@ -11,7 +11,7 @@ version: 1.0.0
 
 ## System Architecture
 
-```
+```python
 # NOTE: The following code had issues and was commented out
 # ┌─────────────────────────────────────────────────────────────────────┐
 # │                      Client Applications                             │

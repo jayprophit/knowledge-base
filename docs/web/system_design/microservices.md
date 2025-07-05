@@ -1,22 +1,23 @@
 ---
 id: web-system-design-microservices
 title: Microservices Architecture
-description: Documentation on microservices architecture, principles, patterns, and implementation examples
+description: Documentation on microservices architecture, principles, patterns, and
+  implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - microservices
-  - architecture
-  - system_design
+- microservices
+- architecture
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../apis/rest_api.md
-    - ../system_design/message_queue.md
-    - ../system_design/api_gateway.md
+  - ../apis/rest_api.md
+  - ../system_design/message_queue.md
+  - ../system_design/api_gateway.md
 ---
 
 # Microservices Architecture

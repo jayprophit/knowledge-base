@@ -1,3 +1,12 @@
+---
+title: Config Documentation
+description: Documentation and guides for the Config module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # MCP Configuration
 
 ## Overview

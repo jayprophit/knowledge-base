@@ -62,7 +62,7 @@ ai = MultidisciplinaryAI()
 # Process input across all disciplines
 results = ai.process_input({
     'psychology': {
-        'thought': "I'm feeling motivated today",
+        'thought': "I'm feeling motivated today",'
         'context': 'work_environment'
     },
     'philosophy': {
@@ -110,7 +110,7 @@ See the [examples](../../examples/multidisciplinary/) directory for practical im
 
 ## Contributing
 
-Contributions are welcome! Please see our [contributing guidelines](docs/CONTRIBUTING.md) for details.
+Contributions are welcome! Please see our [contributing guidelines](../../../temp_reorg/docs/robotics/CONTRIBUTING.md) for details.
 
 ## License
 

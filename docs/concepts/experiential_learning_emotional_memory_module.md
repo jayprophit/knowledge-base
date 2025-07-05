@@ -57,7 +57,7 @@ class EmotionalMemory:
     def add_experience(self, data, emotion):
         self.memories.append({'data': data, 'emotion': emotion})
     def get_by_emotion(self, emotion):
-        return [m for m in self.memories if m['emotion'] == emotion]
+        return [m for m in self.memories if m['emotion'] == emotion]:
 ```
 
 ### Experiential Learning Engine
@@ -68,12 +68,12 @@ class ExperientialLearner:
         # Store experience
         self.memory.add_experience(data, emotion)
         # Learn from experience
-        return self.extract_lesson(data, emotion)
+        return self.extract_lesson(data, emotion):
     def extract_lesson(self, data, emotion):
         if emotion == 'pain':
-            return f"Lesson: Seek alternative approaches or perspectives for '{data}'"
+            return f"Lesson: Seek alternative approaches or perspectives for '{data}'":
         else:
-            return f"Reinforce positive behavior for '{data}'"
+            return f"Reinforce positive behavior for '{data}'":
     def __init__(self, memory):
         self.memory = memory
 ```

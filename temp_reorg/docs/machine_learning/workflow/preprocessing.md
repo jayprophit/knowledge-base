@@ -96,7 +96,7 @@ preprocessor = ColumnTransformer(
 # Create and apply the preprocessing pipeline
 preprocessing_pipeline = Pipeline(steps=[('preprocessor', preprocessor)])
 processed_data = preprocessing_pipeline.fit_transform(data)
-
+:
 print("Original data shape:", data.shape)
 print("Processed data shape:", processed_data.shape)
 ```

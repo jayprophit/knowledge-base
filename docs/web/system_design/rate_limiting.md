@@ -1,22 +1,23 @@
 ---
 id: web-system-design-rate-limiting
 title: Rate Limiting in System Design
-description: Comprehensive documentation on rate limiting, algorithms, implementation, and best practices
+description: Comprehensive documentation on rate limiting, algorithms, implementation,
+  and best practices
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - rate_limiting
-  - api
-  - system_design
-  - security
+- rate_limiting
+- api
+- system_design
+- security
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../apis/rest_api.md
-    - ../security/security.md
+  - ../apis/rest_api.md
+  - ../security/security.md
 ---
 
 # Rate Limiting in System Design
@@ -78,7 +79,7 @@ def resource():
 
 ## Related Topics
 - [REST API Design](../apis/rest_api.md)
-- [Security](temp_reorg/docs/web/security/security.md)
+- [Security](../../../temp_reorg/docs/web/security/security.md)
 
 ## References
 - [OWASP Rate Limiting](https://owasp.org/www-community/attacks/Rate_limiting)

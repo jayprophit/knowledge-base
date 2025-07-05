@@ -1,3 +1,12 @@
+---
+title: Review Process
+description: Documentation for Review Process in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Review Process
 
 ## Overview
@@ -109,5 +118,5 @@ If reviewers and contributors disagree:
 
 ## References
 - [Contribution Guide](contribution_guide.md) - How to submit content for review
-- [Linking Standards](../meta/linking_standards.md) - Requirements for cross-references
-- [Content Lifecycle](../meta/content_lifecycle.md) - Where review fits in the content lifecycle
+- [Linking Standards](linking_standards.md) - Requirements for cross-references
+- [Content Lifecycle](content_lifecycle.md) - Where review fits in the content lifecycle

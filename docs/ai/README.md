@@ -92,12 +92,12 @@ optimized_qc = optimizer.optimize(qc)
 ## Advanced Topics
 
 ### Performance Optimization
-- [Performance Tuning Guide](temp_reorg/docs/ai/guides/performance_tuning.md)
+- [Performance Tuning Guide](../../temp_reorg/docs/ai/guides/performance_tuning.md)
 - [Benchmarking Tools](./tools/benchmarking/)
 
 ### Security
-- [Secure Deployment](temp_reorg/docs/machine_learning/workflow/deployment.md)
-- [Access Control](temp_reorg/docs/robotics/access_control.md)
+- [Secure Deployment](../../temp_reorg/docs/machine_learning/workflow/deployment.md)
+- [Access Control](../../temp_reorg/docs/robotics/access_control.md)
 
 ## Contributing
 
@@ -113,7 +113,7 @@ If you find a bug or have a feature request, please [open an issue](https://gith
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](../../temp_reorg/LICENSE) file for details.
 
 ## Resources
 

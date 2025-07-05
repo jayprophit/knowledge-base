@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - api_gateway
-  - system_design
-  - microservices
+- api_gateway
+- system_design
+- microservices
 relationships:
   prerequisites: []
   successors: []
   related:
-    - microservices.md
-    - message_queue.md
-    - ../apis/rest_api.md
+  - microservices.md
+  - message_queue.md
+  - ../apis/rest_api.md
 ---
 
 # API Gateway in System Design

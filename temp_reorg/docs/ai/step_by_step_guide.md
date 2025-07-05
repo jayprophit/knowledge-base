@@ -1,3 +1,12 @@
+---
+title: Step By Step Guide
+description: Documentation for Step By Step Guide in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Step-by-Step Automation Guide
 
 ## Overview
@@ -364,5 +373,5 @@ If you encounter issues with the automation:
 ## References
 - [GitHub Actions Documentation](github_actions.md) - Detailed workflow documentation
 - [Update Scripts Documentation](update_scripts.md) - Script details and configuration
-- [Rollback Procedures](../rollback.md) - Full rollback documentation
-- [Content Lifecycle](../meta/content_lifecycle.md) - Content lifecycle management
+- [Rollback Procedures](../robotics/rollback.md) - Full rollback documentation
+- [Content Lifecycle](content_lifecycle.md) - Content lifecycle management

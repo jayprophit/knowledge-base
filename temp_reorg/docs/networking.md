@@ -9,7 +9,7 @@ version: 1.0.0
 
 # Networking Module — Backend API
 
-> **See also:** [backend/src/networking.md](../backend/src/networking.md)
+> **See also:** [backend/src/networking.md](ai/networking.md)
 
 This document covers the backend networking, VPN, DNS, and VOIP API for the AI assistant.
 
@@ -24,8 +24,8 @@ This document covers the backend networking, VPN, DNS, and VOIP API for the AI a
 - Requires backend permissions for real VPN/VOIP/DNS changes.
 
 ## Implementation
-- See [`networking.py`](../backend/src/networking.py) for code and extension points.
-- See [backend/src/networking.md](../backend/src/networking.md) for full details and examples.
+- See [`networking.py`](../../backend/src/networking.py) for code and extension points.
+- See [backend/src/networking.md](ai/networking.md) for full details and examples.
 
 ---
 

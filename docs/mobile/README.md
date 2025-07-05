@@ -67,7 +67,7 @@ For React Native projects:
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # npm install# NOTE: The following code had syntax errors and was commented out
-# # implementation 'com.kn# NOTE: The following code had syntax errors and was commented out
+# # implementation 'com.kn# NOTE: The following code had syntax errors and was commented out'
 # # pod 'KnowledgeBaseMobileClient', '~> 1.0.0'ovy
 # implementation# NOTE: The following code had syntax errors and was commented out
 # pod 'KnowledgeBaseMobileClient', '~> 1.0.0'``
@@ -76,8 +76,7 @@ For iOS (CocoaPods):
 
 ```text
 pod 'KnowledgeBaseMobileClient', '~> 1.0.0'
-```
-
+```python
 ## Core Components
 
 ### App.js
@@ -114,14 +113,14 @@ A component for capturing multimodal data (images, audio, text) from mobile devi
 
 ### Security
 
-- [Authentication and Authorization](security/authentication.md)
+- [Authentication and Authorization](security/authentication.md):
 - [Da# NOTE: The following code had syntax errors and was commented out
 # import { KnowledgeBaseClient } from '@knowledge-base/mobile-client';
 # 
 # const client = new KnowledgeBaseClient({
 #   apiUrl: 'https://api.knowledge-base.example',
 #   apiKey: 'YOUR_API_KEY'
-# });wledge-base/mobile-client';
+# });wledge-base/mobile-client';'
 
 const client = new KnowledgeBaseClient({
   apiUrl: 'https://api.knowledge-base.example',
@@ -170,10 +169,10 @@ const audioAnalysis = await client.analyzeAudio(audioResult.uri);
 
 Common issues and their solutions:
 
-- [Connectivity Issues](troubleshooting.md#connectivity)
-- [Performance Problems](troubleshooting.md#performance)
-- [Authentication Errors](troubleshooting.md#authentication)
-- [API Integration Issues](troubleshooting.md#api)
+- [Connectivity Issues](../../temp_reorg/docs/robotics/troubleshooting.md)
+- [Performance Problems](../../temp_reorg/docs/robotics/troubleshooting.md)
+- [Authentication Errors](../../temp_reorg/docs/robotics/troubleshooting.md)
+- [API Integration Issues](../../temp_reorg/docs/robotics/troubleshooting.md)
 
 ## Examples
 

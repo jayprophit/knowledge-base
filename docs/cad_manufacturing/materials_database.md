@@ -80,7 +80,7 @@ material_database = {
         'notes': 'Low carbon steel, good for general purpose applications'
     },
     # More materials...
-}
+}:
 ```
 
 ## 3. Python Implementation
@@ -125,13 +125,13 @@ class Material:
     def calculate_mass(self, volume):
         """Calculate mass from volume."""
         return self.mechanical_density * volume if hasattr(self, 'mechanical_density') else None
-    
+    :
     def calculate_stress(self, force, area):
         """Calculate stress from force and area."""
         return force / area if area > 0 else 0
-    
+    :
     def calculate_strain(self, stress):
-        """Calculate strain from stress using Hooke's Law."""
+        """Calculate strain from stress using Hooke's Law."""'
         if hasattr(self, 'mechanical_youngs_modulus') and self.mechanical_youngs_modulus > 0:
             return stress / self.mechanical_youngs_modulus
         return None
@@ -139,7 +139,7 @@ class Material:
 # Example usage
 steel = Material('steel_aisi_1018')
 print(f"Density: {steel.mechanical_density} kg/m?")
-print(f"Young's Modulus: {steel.mechanical_youngs_modulus/1e9:.1f} GPa")
+print(f"Young's Modulus: {steel.mechanical_youngs_modulus/1e9:.1f} GPa")'
 ```
 
 ## 4. Material Selection
@@ -244,8 +244,8 @@ def recommend_material(application, constraints):
                 for part in key.split('.'):
                     value = value[part]
                 # Normalize value (assuming higher is better for all properties)
-                # In a real implementation, you'd want to handle different properties differently
-                score += value * weight
+                # In a real implementation, you'd want to handle different properties differently'
+                score += value * weight:
             except (KeyError, TypeError):
                 pass
                 
@@ -334,13 +334,13 @@ class FreeCADMaterial:
             'YieldStrength': f"{self.material.mechanical_yield_strength} Pa"
         }
         
-        # Set visual properties if available
+        # Set visual properties if available:
         if hasattr(obj, 'ViewObject') and hasattr(obj.ViewObject, 'ShapeColor'):
             # Set color based on material category
             colors = {
-                'metal': (0.8, 0.8, 0.8),      # Light gray for metals
-                'plastic': (0.9, 0.9, 0.5),    # Light yellow for plastics
-                'ceramic': (0.7, 0.7, 0.9),    # Light blue for ceramics
+                'metal': (0.8, 0.8, 0.8),      # Light gray for metals:
+                'plastic': (0.9, 0.9, 0.5),    # Light yellow for plastics:
+                'ceramic': (0.7, 0.7, 0.9),    # Light blue for ceramics:
                 'composite': (0.8, 0.5, 0.5)   # Light red for composites
             }
             
@@ -355,7 +355,7 @@ steel = Material('steel_aisi_1018')
 fc_material = FreeCADMaterial(steel)
 
 # Assuming 'box' is a FreeCAD object
-# fc_material.apply_to_object(box)
+# fc_material.apply_to_object(box):
 ```
 
 ## 7. Example Materials
@@ -386,8 +386,8 @@ fc_material = FreeCADMaterial(steel)
 
 ## Next Steps
 - [Physics Simulation](physics_simulation.md)
-- [FEA Analysis](temp_reorg/docs/cad_manufacturing/fea_analysis.md)
-- [Manufacturing Export](temp_reorg/docs/manufacturing/3d_printing_export.md)
+- [FEA Analysis](../../temp_reorg/docs/cad_manufacturing/fea_analysis.md)
+- [Manufacturing Export](../../temp_reorg/docs/manufacturing/3d_printing_export.md)
 
 ---
 *Last updated: June 30, 2025*

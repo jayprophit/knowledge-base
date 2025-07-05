@@ -136,7 +136,7 @@ A complete, unsimplified install and usage guide for every required library and 
 
 ## 8. References and Cross-links
 
-- [Unified AI System](../unified-ai-system/README.md)
+- [Unified AI System](../temp_reorg/robotics/advanced_system/README.md)
 - [Vision Module](../src/vision/README.md)
 - [Multimodal Integration Guide](./ai/guides/multimodal_integration.md)
 - [Quantum AI System](../quantum_ai_system/README.md)

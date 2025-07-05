@@ -35,7 +35,7 @@ class QuantumTemporalMapper:
         self.timelines[timestamp] = state
     def predict_future(self, current_state):
         # Placeholder for quantum prediction logic
-        return "Predicted future state (TBD)"
+        return "Predicted future state (TBD)":
 # Commentary: Maps and predicts system states across time.
 ```
 

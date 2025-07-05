@@ -60,7 +60,7 @@ class EthicsEngine:
         return "Accepted: Aligns with ethical guidelines"
     def is_harmful(self, action):
         harmful_keywords = ["war", "violence", "harm"]
-        return any(keyword in action.lower() for keyword in harmful_keywords)
+        return any(keyword in action.lower() for keyword in harmful_keywords):
 ```
 
 ### Conflict Analysis Module

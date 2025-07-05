@@ -100,7 +100,7 @@ This guide walks you through setting up, developing, and deploying the Quantum A
 - [Backend README](../backend/README.md)
 - [Frontend README](../frontend/README.md)
 - [Infrastructure README](../infrastructure/README.md)
-- [Unified AI System README](../unified-ai-system/README.md)
+- [Unified AI System README](../temp_reorg/robotics/advanced_system/README.md)
 
 ---
 

@@ -1,3 +1,12 @@
+---
+title: Document Template
+description: Documentation for Document Template in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # [Document Title]
 
 ## Overview
@@ -18,7 +27,7 @@ A brief introduction to the topic, explaining its importance and context within 
 # Example code or implementation
 def example_function():
     """Documentation for the example function."""
-    return "Example output"
+    return "Example output":
 ```
 
 ## Tools & Technologies

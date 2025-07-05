@@ -1,24 +1,25 @@
 ---
 id: narrow-ai-api
 title: Narrow AI API Documentation
-description: Comprehensive API reference for the Narrow AI component in the Quantum Computing System
+description: Comprehensive API reference for the Narrow AI component in the Quantum
+  Computing System
 author: Knowledge Base System
 created_at: 2025-06-30
 updated_at: 2025-06-30
 version: 1.0.0
 tags:
-  - api
-  - narrow_ai
-  - quantum_computing
-  - machine_learning
-  - optimization
+- api
+- narrow_ai
+- quantum_computing
+- machine_learning
+- optimization
 relationships:
   prerequisites:
-    - ai/applications/narrow_ai_quantum.md
-    - quantum_computing/virtual_quantum_computer.md
+  - ai/applications/narrow_ai_quantum.md
+  - quantum_computing/virtual_quantum_computer.md
   related:
-    - ai/guides/quantum_circuit_optimization.md
-    - ai/architecture/system_design.md
+  - ai/guides/quantum_circuit_optimization.md
+  - ai/architecture/system_design.md
 ---
 
 # Narrow AI API Documentation

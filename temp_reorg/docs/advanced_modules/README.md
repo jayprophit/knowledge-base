@@ -22,4 +22,4 @@ This directory contains advanced modules for the knowledge base, integrating cut
 - [Neuromorphic Computing](./neuromorphic_computing.md)
 
 ---
-**Back to [Knowledge Base Home](../../README.md)**
+**Back to [Knowledge Base Home](../../robotics/advanced_system/README.md)**

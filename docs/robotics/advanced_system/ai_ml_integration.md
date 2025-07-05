@@ -246,7 +246,7 @@ class FederatedLearning:
     def add_model(self, model):
         self.models.append(model)
     def average_weights(self):
-        avg_weights = [np.mean([model.weights for model in self.models], axis=0)]
+        avg_weights = [np.mean([model.weights for model in self.models], axis=0)]:
         for model in self.models:
             model.set_weights(avg_weights)
 ```

@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - replication
-  - databases
-  - system_design
+- replication
+- databases
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - sharding.md
-    - vertical_scaling.md
-    - database_overview.md
+  - sharding.md
+  - vertical_scaling.md
+  - database_overview.md
 ---
 
 # Replication in System Design

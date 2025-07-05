@@ -1,3 +1,12 @@
+---
+title: Anthropic Document Template
+description: Documentation for Anthropic Document Template in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # [Document Title]
 
 ## Overview
@@ -15,7 +24,7 @@
 [Detailed technical information, organized in a logical flow]
 
 ```python
-# Example code if applicable
+# Example code if applicable:
 def example_function():
     """Docstring explaining purpose"""
     return "Example output"

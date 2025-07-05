@@ -35,7 +35,7 @@ import torch
 emotional_system = EmotionalSystem()
 input_data = torch.randn(1, 100)
 emotions = emotional_system(input_data)
-emotion_values = {EMOTIONAL_STATES[i]: emotions[0][i].item() for i in range(len(EMOTIONAL_STATES))}
+emotion_values = {EMOTIONAL_STATES[i]: emotions[0][i].item() for i in range(len(EMOTIONAL_STATES))}:
 print(f"Emotional state values: {emotion_values}")
 ```
 

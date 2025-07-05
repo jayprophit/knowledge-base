@@ -103,7 +103,7 @@ class VisionPipeline:
         results['fused'] = self._fuse_modalities(frames)
         
         return results
-    
+    :
     def _fuse_modalities(self, frames):
         # Implementation of sensor fusion
         pass

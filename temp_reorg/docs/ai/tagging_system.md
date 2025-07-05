@@ -1,3 +1,12 @@
+---
+title: Tagging System
+description: Documentation for Tagging System in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Tagging System
 
 ## Overview
@@ -150,6 +159,6 @@ Combine tags to narrow search results:
 - Tag usage statistics and optimization
 
 ## References
-- [Contribution Guide](../process/contribution_guide.md) - How to use tags when contributing
+- [Contribution Guide](contribution_guide.md) - How to use tags when contributing
 - [Content Lifecycle](content_lifecycle.md) - How status tags relate to content lifecycle
 - [Linking Standards](linking_standards.md) - How tags complement document linking

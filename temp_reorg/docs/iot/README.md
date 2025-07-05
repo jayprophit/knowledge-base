@@ -161,7 +161,7 @@ model.load("models/environment_anomaly.pkl")
 # Process sensor data with AI model
 sensor_data = device.get_sensor_data()
 anomalies = model.predict(sensor_data)
-
+:
 if anomalies:
     print(f"Anomalies detected: {anomalies}")
     # Take appropriate action
@@ -191,7 +191,7 @@ article_id = kb_client.create_article({
 
 # Link device data to related knowledge articles
 related_articles = kb_client.search(f"troubleshooting {device.device_type}")
-kb_client.create_relationship(article_id, [art["id"] for art in related_articles])
+kb_client.create_relationship(article_id, [art["id"] for art in related_articles]):
 ```
 
 ## Best Practices
@@ -232,11 +232,11 @@ kb_client.create_relationship(article_id, [art["id"] for art in related_articles
 
 Common issues and their solutions:
 
-- [Connectivity Issues](troubleshooting.md#connectivity)
-- [Authentication Problems](troubleshooting.md#authentication)
-- [Data Processing Errors](troubleshooting.md#data-processing)
-- [Security Alerts](troubleshooting.md#security)
-- [Performance Issues](troubleshooting.md#performance)
+- [Connectivity Issues](../robotics/troubleshooting.md)
+- [Authentication Problems](../robotics/troubleshooting.md)
+- [Data Processing Errors](../robotics/troubleshooting.md)
+- [Security Alerts](../robotics/troubleshooting.md)
+- [Performance Issues](../robotics/troubleshooting.md)
 
 ## References
 

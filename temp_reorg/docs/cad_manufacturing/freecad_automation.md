@@ -144,7 +144,7 @@ Mesh.export([cyl_object], "/path/to/export.stl")
 # Export all objects in document
 objects = doc.Objects
 shapes = [obj.Shape for obj in objects]
-Mesh.export(shapes, "/path/to/all_objects.stl")
+Mesh.export(shapes, "/path/to/all_objects.stl"):
 ```
 
 ### Export to STEP (CAD Exchange)

@@ -26,8 +26,8 @@ print(force)
 ```
 
 ## References
-- [src/multidisciplinary_ai/cosmology.py](temp_reorg/docs/src/multidisciplinary_ai/cosmology.py)
-- [Cosmology Model](temp_reorg/docs/src/multidisciplinary_ai/cosmology/cosmology_model.py)
+- [src/multidisciplinary_ai/cosmology.py](../../../temp_reorg/docs/src/multidisciplinary_ai/cosmology.py)
+- [Cosmology Model](../../../temp_reorg/docs/src/multidisciplinary_ai/cosmology/cosmology_model.py)
 
 ---
 **Back to [Multidisciplinary AI](./README.md)**

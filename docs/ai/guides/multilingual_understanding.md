@@ -106,7 +106,7 @@ sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-mul
 texts = [
     "I love this product!",
     "No me gusta nada esto",
-    "C'est incroyable!"
+    "C'est incroyable!"'
 ]
 
 for text in texts:

@@ -56,7 +56,7 @@ enhanced_system = manager.apply_all(system)
 
 - Add new improvement types by subclassing `Improvement`.
 - Improvements can be domain-specific (e.g., medical, legal, education).
-- See [src/ai/improvements_module.py](../../../src/ai/improvements_module.py) for implementation.
+- See [src/ai/improvements_module.py](../../temp_reorg/src/ai/improvements_module.py) for implementation.
 
 ## Best Practices
 
@@ -67,7 +67,7 @@ enhanced_system = manager.apply_all(system)
 
 ## References & Cross-Links
 
-- [Unified Emotional Intelligence Code](../../../src/ai/emotional_intelligence.py)
+- [Unified Emotional Intelligence Code](../../temp_reorg/src/ai/emotional_intelligence.py)
 - [Advanced Emotional AI Theory](../../advanced_emotional_ai.md)
 - [Multimodal Integration Guide](../guides/multimodal_integration.md)
 - [Knowledge Representation Guide](../knowledge_representation.md)

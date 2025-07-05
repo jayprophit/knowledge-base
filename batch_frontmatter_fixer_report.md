@@ -1,3 +1,12 @@
+---
+title: Batch Frontmatter Fixer Report
+description: Documentation for Batch Frontmatter Fixer Report in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Batch Front Matter Fixer Report
 
 ## Summary

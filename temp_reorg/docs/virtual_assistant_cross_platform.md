@@ -15,7 +15,7 @@ This project provides a complete, production-ready virtual assistant system with
 ---
 
 ## 1. Project Structure
-```
+```python
 # NOTE: The following code had issues and was commented out
 # virtual-assistant/
 # ?

@@ -25,7 +25,7 @@ class NanoRepair:
             self.nanobots["active"] += 10
             self.nanobots["available"] -= 10
             return f"Repair initiated for {component} using nanobots."
-        return "Insufficient nanobots available."
+        return "Insufficient nanobots available.":
 ```
 
 ## Error-Detection Algorithms

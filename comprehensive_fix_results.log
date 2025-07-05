@@ -1,0 +1,2279 @@
+=== Comprehensive Fix Results ===
+
+Started at: 2025-07-05 04:46:25
+Total files found: 1130
+
+Processing: 3d_model_generation.md
+  - No changes needed: 3d_model_generation.md
+Processing: 3d_printing_export.md
+  - No changes needed: 3d_printing_export.md
+Processing: advanced_emotional_ai.md
+  ✓ Fixed file: advanced_emotional_ai.md
+Processing: advanced_physics.md
+  - No changes needed: advanced_physics.md
+Processing: advanced_system.md
+  - No changes needed: advanced_system.md
+Processing: api_gateway.md
+  - No changes needed: api_gateway.md
+Processing: architecture.md
+  ✓ Fixed file: architecture.md
+Processing: batch_frontmatter_fixer_report.md
+  ✓ Fixed file: batch_frontmatter_fixer_report.md
+Processing: changelog.md
+  ✓ Fixed file: changelog.md
+Processing: checklist.md
+  ✓ Fixed file: checklist.md
+Processing: cnc_machining_export.md
+  - No changes needed: cnc_machining_export.md
+Processing: CODE_OF_CONDUCT.md
+  ✓ Fixed file: CODE_OF_CONDUCT.md
+Processing: COMPREHENSIVE_CLEANUP_REPORT.md
+  ✓ Fixed file: COMPREHENSIVE_CLEANUP_REPORT.md
+Processing: CONTRIBUTING.md
+  ✓ Fixed file: CONTRIBUTING.md
+Processing: CROSS_PLATFORM_README.md
+  ✓ Fixed file: CROSS_PLATFORM_README.md
+Processing: current_goal.md
+  ✓ Fixed file: current_goal.md
+Processing: deployment.md
+  - No changes needed: deployment.md
+Processing: development.md
+  - No changes needed: development.md
+Processing: environment.md
+  - No changes needed: environment.md
+Processing: fairlearn.md
+  - No changes needed: fairlearn.md
+Processing: FAQ.md
+  ✓ Fixed file: FAQ.md
+Processing: fea_analysis.md
+  - No changes needed: fea_analysis.md
+Processing: final_cleanup_report.md
+  ✓ Fixed file: final_cleanup_report.md
+Processing: FIXME.md
+  ✓ Fixed file: FIXME.md
+Processing: FULL_STACK_IMPLEMENTATION.md
+  ✓ Fixed file: FULL_STACK_IMPLEMENTATION.md
+Processing: gan_design_generation.md
+  - No changes needed: gan_design_generation.md
+Processing: generative_design.md
+  - No changes needed: generative_design.md
+Processing: genetic_algorithm_optimization.md
+  - No changes needed: genetic_algorithm_optimization.md
+Processing: GOVERNANCE.md
+  ✓ Fixed file: GOVERNANCE.md
+Processing: inherit.md
+  ✓ Fixed file: inherit.md
+Processing: integration.md
+  - No changes needed: integration.md
+Processing: iot_manufacturing.md
+  - No changes needed: iot_manufacturing.md
+Processing: keras-rl2.md
+  - No changes needed: keras-rl2.md
+Processing: memories.md
+  ✓ Fixed file: memories.md
+Processing: method.md
+  ✓ Fixed file: method.md
+Processing: multi_material_design.md
+  - No changes needed: multi_material_design.md
+Processing: neural_network_predictions.md
+  - No changes needed: neural_network_predictions.md
+Processing: notes.md
+  ✓ Fixed file: notes.md
+Processing: openscad_automation.md
+  - No changes needed: openscad_automation.md
+Processing: plan.md
+  ✓ Fixed file: plan.md
+Processing: PRODUCTION_READINESS_REPORT.md
+  ✓ Fixed file: PRODUCTION_READINESS_REPORT.md
+Processing: proxy.md
+  - No changes needed: proxy.md
+Processing: qiskit.md
+  - No changes needed: qiskit.md
+Processing: README.md
+  ✓ Fixed file: README.md
+Processing: RELEASE_CHECKLIST.md
+  ✓ Fixed file: RELEASE_CHECKLIST.md
+Processing: reorganization_report.md
+  ✓ Fixed file: reorganization_report.md
+Processing: rollback.md
+  ✓ Fixed file: rollback.md
+Processing: safety_ethics.md
+  - No changes needed: safety_ethics.md
+Processing: scapy.md
+  - No changes needed: scapy.md
+Processing: SECURITY.md
+  ✓ Fixed file: SECURITY.md
+Processing: stub_creation_report.md
+  ✓ Fixed file: stub_creation_report.md
+Processing: SUPPORT.md
+  ✓ Fixed file: SUPPORT.md
+Processing: system_design.md
+  ✓ Fixed file: system_design.md
+Processing: task_list.md
+  ✓ Fixed file: task_list.md
+Processing: TODO.md
+  ✓ Fixed file: TODO.md
+Processing: TROUBLESHOOTING.md
+  ✓ Fixed file: TROUBLESHOOTING.md
+Processing: UNIFIED_SYSTEM_ARCHITECTURE.md
+  ✓ Fixed file: UNIFIED_SYSTEM_ARCHITECTURE.md
+Processing: web3.md
+  - No changes needed: web3.md
+Processing: ai\improvements_module.md
+  ✓ Fixed file: ai\improvements_module.md
+Processing: ai\README.md
+  - No changes needed: ai\README.md
+Processing: anthropic\constitutional_principles.md
+  ✓ Fixed file: anthropic\constitutional_principles.md
+Processing: anthropic\processing_pipeline.md
+  ✓ Fixed file: anthropic\processing_pipeline.md
+Processing: api\README.md
+  - No changes needed: api\README.md
+Processing: automation\github_actions.md
+  ✓ Fixed file: automation\github_actions.md
+Processing: automation\step_by_step_guide.md
+  ✓ Fixed file: automation\step_by_step_guide.md
+Processing: automation\update_scripts.md
+  ✓ Fixed file: automation\update_scripts.md
+Processing: backend\README.md
+  ✓ Fixed file: backend\README.md
+Processing: biology\README.md
+  - No changes needed: biology\README.md
+Processing: blockchain\3d_blockchain.md
+  ✓ Fixed file: blockchain\3d_blockchain.md
+Processing: ci_cd\README.md
+  - No changes needed: ci_cd\README.md
+Processing: contributing\coding-standards.md
+  - No changes needed: contributing\coding-standards.md
+Processing: contributing\development-setup.md
+  - No changes needed: contributing\development-setup.md
+Processing: contributing\documentation.md
+  - No changes needed: contributing\documentation.md
+Processing: contributing\pull_requests.md
+  - No changes needed: contributing\pull_requests.md
+Processing: contributing\setup.md
+  - No changes needed: contributing\setup.md
+Processing: contributing\standards.md
+  - No changes needed: contributing\standards.md
+Processing: contributing\style_guide.md
+  - No changes needed: contributing\style_guide.md
+Processing: contributing\testing.md
+  - No changes needed: contributing\testing.md
+Processing: cosmology\README.md
+  - No changes needed: cosmology\README.md
+Processing: cross-platform\flutter.md
+  - No changes needed: cross-platform\flutter.md
+Processing: cross-platform\react-native.md
+  - No changes needed: cross-platform\react-native.md
+Processing: deployment\README.md
+  - No changes needed: deployment\README.md
+Processing: device_management\configuration.md
+  - No changes needed: device_management\configuration.md
+Processing: device_management\discovery.md
+  - No changes needed: device_management\discovery.md
+Processing: device_management\firmware.md
+  - No changes needed: device_management\firmware.md
+Processing: device_management\monitoring.md
+  - No changes needed: device_management\monitoring.md
+Processing: device_management\registration.md
+  - No changes needed: device_management\registration.md
+Processing: docs\advanced_emotional_ai.md
+  - No changes needed: docs\advanced_emotional_ai.md
+Processing: docs\ai_agents.md
+  ✓ Fixed file: docs\ai_agents.md
+Processing: docs\ai_assistant_architecture.md
+  ✓ Fixed file: docs\ai_assistant_architecture.md
+Processing: docs\ai_system_enhancements.md
+  - No changes needed: docs\ai_system_enhancements.md
+Processing: docs\backend_api.md
+  - No changes needed: docs\backend_api.md
+Processing: docs\CONTRIBUTING.md
+  - No changes needed: docs\CONTRIBUTING.md
+Processing: docs\deployment.md
+  - No changes needed: docs\deployment.md
+Processing: docs\ethics_explainability.md
+  - No changes needed: docs\ethics_explainability.md
+Processing: docs\FULL_STACK_IMPLEMENTATION.md
+  - No changes needed: docs\FULL_STACK_IMPLEMENTATION.md
+Processing: docs\interdisciplinary_education.md
+  - No changes needed: docs\interdisciplinary_education.md
+Processing: docs\knowledge_representation.md
+  - No changes needed: docs\knowledge_representation.md
+Processing: docs\LICENSE.md
+  - No changes needed: docs\LICENSE.md
+Processing: docs\networking.md
+  - No changes needed: docs\networking.md
+Processing: docs\nlp_ml.md
+  - No changes needed: docs\nlp_ml.md
+Processing: docs\non_coder_setup.md
+  ✓ Fixed file: docs\non_coder_setup.md
+Processing: docs\PROJECT_SUMMARY.md
+  - No changes needed: docs\PROJECT_SUMMARY.md
+Processing: docs\README.md
+  - No changes needed: docs\README.md
+Processing: docs\related_resource.md
+  ✓ Fixed file: docs\related_resource.md
+Processing: docs\self_building_ai.md
+  ✓ Fixed file: docs\self_building_ai.md
+Processing: docs\self_building_ai_functions.md
+  ✓ Fixed file: docs\self_building_ai_functions.md
+Processing: docs\system_design.md
+  - No changes needed: docs\system_design.md
+Processing: docs\UNIFIED_SYSTEM_ARCHITECTURE.md
+  ✓ Fixed file: docs\UNIFIED_SYSTEM_ARCHITECTURE.md
+Processing: docs\virtual_assistant_book.md
+  ✓ Fixed file: docs\virtual_assistant_book.md
+Processing: docs\virtual_assistant_cross_platform.md
+  - No changes needed: docs\virtual_assistant_cross_platform.md
+Processing: docs\web_layers.md
+  - No changes needed: docs\web_layers.md
+Processing: edge_computing\analytics.md
+  - No changes needed: edge_computing\analytics.md
+Processing: edge_computing\processing.md
+  - No changes needed: edge_computing\processing.md
+Processing: edge_computing\resource_management.md
+  - No changes needed: edge_computing\resource_management.md
+Processing: edge_computing\storage.md
+  - No changes needed: edge_computing\storage.md
+Processing: edge_computing\synchronization.md
+  - No changes needed: edge_computing\synchronization.md
+Processing: examples\knowledge-browser.md
+  - No changes needed: examples\knowledge-browser.md
+Processing: examples\multimodal-capture.md
+  - No changes needed: examples\multimodal-capture.md
+Processing: examples\offline-viewer.md
+  - No changes needed: examples\offline-viewer.md
+Processing: frontend\README.md
+  ✓ Fixed file: frontend\README.md
+Processing: frontend\README_DEPLOY.md
+  ✓ Fixed file: frontend\README_DEPLOY.md
+Processing: guides\performance_tuning.md
+  - No changes needed: guides\performance_tuning.md
+Processing: iac\README.md
+  - No changes needed: iac\README.md
+Processing: infrastructure\README.md
+  ✓ Fixed file: infrastructure\README.md
+Processing: iot\sensors.md
+  ✓ Fixed file: iot\sensors.md
+Processing: maintenance\quality_checklist.md
+  ✓ Fixed file: maintenance\quality_checklist.md
+Processing: maintenance\scheduled_reviews.md
+  ✓ Fixed file: maintenance\scheduled_reviews.md
+Processing: mcp\integration_guide.md
+  ✓ Fixed file: mcp\integration_guide.md
+Processing: meta\changelog_standards.md
+  ✓ Fixed file: meta\changelog_standards.md
+Processing: meta\content_lifecycle.md
+  ✓ Fixed file: meta\content_lifecycle.md
+Processing: meta\knowledge_graph.md
+  ✓ Fixed file: meta\knowledge_graph.md
+Processing: meta\linking_standards.md
+  ✓ Fixed file: meta\linking_standards.md
+Processing: meta\tagging_system.md
+  ✓ Fixed file: meta\tagging_system.md
+Processing: mlops\README.md
+  - No changes needed: mlops\README.md
+Processing: mobile\vision_apps.md
+  ✓ Fixed file: mobile\vision_apps.md
+Processing: movement\README.md
+  - No changes needed: movement\README.md
+Processing: native\android.md
+  - No changes needed: native\android.md
+Processing: native\ios.md
+  - No changes needed: native\ios.md
+Processing: networking\README.md
+  - No changes needed: networking\README.md
+Processing: perception\README.md
+  - No changes needed: perception\README.md
+Processing: performance\memory-management.md
+  - No changes needed: performance\memory-management.md
+Processing: performance\offline-support.md
+  - No changes needed: performance\offline-support.md
+Processing: performance\optimization.md
+  - No changes needed: performance\optimization.md
+Processing: philosophy\README.md
+  - No changes needed: philosophy\README.md
+Processing: platforms\README.md
+  - No changes needed: platforms\README.md
+Processing: process\contribution_guide.md
+  ✓ Fixed file: process\contribution_guide.md
+Processing: process\review_process.md
+  ✓ Fixed file: process\review_process.md
+Processing: protocols\amqp.md
+  - No changes needed: protocols\amqp.md
+Processing: protocols\coap.md
+  - No changes needed: protocols\coap.md
+Processing: protocols\http.md
+  - No changes needed: protocols\http.md
+Processing: protocols\mqtt.md
+  - No changes needed: protocols\mqtt.md
+Processing: protocols\websockets.md
+  - No changes needed: protocols\websockets.md
+Processing: psychology\README.md
+  - No changes needed: psychology\README.md
+Processing: quantum_ai_system\README.md
+  ✓ Fixed file: quantum_ai_system\README.md
+Processing: references\api-docs.md
+  - No changes needed: references\api-docs.md
+Processing: references\api_reference.md
+  - No changes needed: references\api_reference.md
+Processing: references\backend-integration.md
+  - No changes needed: references\backend-integration.md
+Processing: references\component-library.md
+  - No changes needed: references\component-library.md
+Processing: references\data_formats.md
+  - No changes needed: references\data_formats.md
+Processing: references\device_management.md
+  - No changes needed: references\device_management.md
+Processing: references\edge_computing.md
+  - No changes needed: references\edge_computing.md
+Processing: references\performance_guide.md
+  - No changes needed: references\performance_guide.md
+Processing: references\php_standards.md
+  - No changes needed: references\php_standards.md
+Processing: references\protocol_specs.md
+  - No changes needed: references\protocol_specs.md
+Processing: references\security_guide.md
+  - No changes needed: references\security_guide.md
+Processing: references\security_standards.md
+  - No changes needed: references\security_standards.md
+Processing: references\standards.md
+  - No changes needed: references\standards.md
+Processing: references\template_guide.md
+  - No changes needed: references\template_guide.md
+Processing: safety_ethics\README.md
+  - No changes needed: safety_ethics\README.md
+Processing: scripts\vector_db_setup.md
+  ✓ Fixed file: scripts\vector_db_setup.md
+Processing: security\access_control.md
+  - No changes needed: security\access_control.md
+Processing: security\authentication.md
+  - No changes needed: security\authentication.md
+Processing: security\authorization.md
+  - No changes needed: security\authorization.md
+Processing: security\deployment.md
+  - No changes needed: security\deployment.md
+Processing: security\encryption.md
+  - No changes needed: security\encryption.md
+Processing: security\intrusion_detection.md
+  - No changes needed: security\intrusion_detection.md
+Processing: security\key_management.md
+  - No changes needed: security\key_management.md
+Processing: security\README.md
+  - No changes needed: security\README.md
+Processing: security\secure-storage.md
+  - No changes needed: security\secure-storage.md
+Processing: security\secure_boot.md
+  - No changes needed: security\secure_boot.md
+Processing: sensors\calibration.md
+  - No changes needed: sensors\calibration.md
+Processing: sensors\data_collection.md
+  - No changes needed: sensors\data_collection.md
+Processing: sensors\fusion.md
+  - No changes needed: sensors\fusion.md
+Processing: sensors\types.md
+  - No changes needed: sensors\types.md
+Processing: sensors\validation.md
+  - No changes needed: sensors\validation.md
+Processing: sociology\README.md
+  - No changes needed: sociology\README.md
+Processing: specs\README.md
+  - No changes needed: specs\README.md
+Processing: templates\document_template.md
+  ✓ Fixed file: templates\document_template.md
+Processing: templates\model_template.md
+  ✓ Fixed file: templates\model_template.md
+Processing: templates\review_template.md
+  ✓ Fixed file: templates\review_template.md
+Processing: templates\technical_review_template.md
+  ✓ Fixed file: templates\technical_review_template.md
+Processing: templates\workflow_template.md
+  ✓ Fixed file: templates\workflow_template.md
+Processing: temp_reorg\ai\README.md
+  - No changes needed: temp_reorg\ai\README.md
+Processing: temp_reorg\backend\README.md
+  ✓ Fixed file: temp_reorg\backend\README.md
+Processing: temp_reorg\docs\3d_model_generation.md
+  - No changes needed: temp_reorg\docs\3d_model_generation.md
+Processing: temp_reorg\docs\3d_printing_export.md
+  - No changes needed: temp_reorg\docs\3d_printing_export.md
+Processing: temp_reorg\docs\accessibility.md
+  - No changes needed: temp_reorg\docs\accessibility.md
+Processing: temp_reorg\docs\advanced_emotional_ai.md
+  ✓ Fixed file: temp_reorg\docs\advanced_emotional_ai.md
+Processing: temp_reorg\docs\advanced_physics.md
+  - No changes needed: temp_reorg\docs\advanced_physics.md
+Processing: temp_reorg\docs\advanced_system.md
+  - No changes needed: temp_reorg\docs\advanced_system.md
+Processing: temp_reorg\docs\ai_agents.md
+  ✓ Fixed file: temp_reorg\docs\ai_agents.md
+Processing: temp_reorg\docs\ai_assistant_architecture.md
+  ✓ Fixed file: temp_reorg\docs\ai_assistant_architecture.md
+Processing: temp_reorg\docs\ai_system_enhancements.md
+  - No changes needed: temp_reorg\docs\ai_system_enhancements.md
+Processing: temp_reorg\docs\amqp.md
+  - No changes needed: temp_reorg\docs\amqp.md
+Processing: temp_reorg\docs\analytics.md
+  - No changes needed: temp_reorg\docs\analytics.md
+Processing: temp_reorg\docs\android.md
+  - No changes needed: temp_reorg\docs\android.md
+Processing: temp_reorg\docs\api-docs.md
+  - No changes needed: temp_reorg\docs\api-docs.md
+Processing: temp_reorg\docs\api_gateway.md
+  - No changes needed: temp_reorg\docs\api_gateway.md
+Processing: temp_reorg\docs\api_reference.md
+  - No changes needed: temp_reorg\docs\api_reference.md
+Processing: temp_reorg\docs\authentication.md
+  - No changes needed: temp_reorg\docs\authentication.md
+Processing: temp_reorg\docs\authorization.md
+  - No changes needed: temp_reorg\docs\authorization.md
+Processing: temp_reorg\docs\backend-integration.md
+  - No changes needed: temp_reorg\docs\backend-integration.md
+Processing: temp_reorg\docs\backend_api.md
+  ✓ Fixed file: temp_reorg\docs\backend_api.md
+Processing: temp_reorg\docs\calibration.md
+  - No changes needed: temp_reorg\docs\calibration.md
+Processing: temp_reorg\docs\cnc_machining_export.md
+  - No changes needed: temp_reorg\docs\cnc_machining_export.md
+Processing: temp_reorg\docs\coap.md
+  - No changes needed: temp_reorg\docs\coap.md
+Processing: temp_reorg\docs\coding-standards.md
+  - No changes needed: temp_reorg\docs\coding-standards.md
+Processing: temp_reorg\docs\component-library.md
+  - No changes needed: temp_reorg\docs\component-library.md
+Processing: temp_reorg\docs\configuration.md
+  - No changes needed: temp_reorg\docs\configuration.md
+Processing: temp_reorg\docs\CONTRIBUTING.md
+  ✓ Fixed file: temp_reorg\docs\CONTRIBUTING.md
+Processing: temp_reorg\docs\data_collection.md
+  - No changes needed: temp_reorg\docs\data_collection.md
+Processing: temp_reorg\docs\data_formats.md
+  - No changes needed: temp_reorg\docs\data_formats.md
+Processing: temp_reorg\docs\deployment.md
+  - No changes needed: temp_reorg\docs\deployment.md
+Processing: temp_reorg\docs\design-principles.md
+  - No changes needed: temp_reorg\docs\design-principles.md
+Processing: temp_reorg\docs\development-setup.md
+  - No changes needed: temp_reorg\docs\development-setup.md
+Processing: temp_reorg\docs\development.md
+  - No changes needed: temp_reorg\docs\development.md
+Processing: temp_reorg\docs\discovery.md
+  - No changes needed: temp_reorg\docs\discovery.md
+Processing: temp_reorg\docs\documentation.md
+  - No changes needed: temp_reorg\docs\documentation.md
+Processing: temp_reorg\docs\edge_computing.md
+  - No changes needed: temp_reorg\docs\edge_computing.md
+Processing: temp_reorg\docs\encryption.md
+  - No changes needed: temp_reorg\docs\encryption.md
+Processing: temp_reorg\docs\environment.md
+  - No changes needed: temp_reorg\docs\environment.md
+Processing: temp_reorg\docs\ethics_explainability.md
+  ✓ Fixed file: temp_reorg\docs\ethics_explainability.md
+Processing: temp_reorg\docs\fea_analysis.md
+  - No changes needed: temp_reorg\docs\fea_analysis.md
+Processing: temp_reorg\docs\firmware.md
+  - No changes needed: temp_reorg\docs\firmware.md
+Processing: temp_reorg\docs\flutter.md
+  - No changes needed: temp_reorg\docs\flutter.md
+Processing: temp_reorg\docs\FULL_STACK_IMPLEMENTATION.md
+  - No changes needed: temp_reorg\docs\FULL_STACK_IMPLEMENTATION.md
+Processing: temp_reorg\docs\fusion.md
+  - No changes needed: temp_reorg\docs\fusion.md
+Processing: temp_reorg\docs\gan_design_generation.md
+  - No changes needed: temp_reorg\docs\gan_design_generation.md
+Processing: temp_reorg\docs\generative_design.md
+  - No changes needed: temp_reorg\docs\generative_design.md
+Processing: temp_reorg\docs\genetic_algorithm_optimization.md
+  - No changes needed: temp_reorg\docs\genetic_algorithm_optimization.md
+Processing: temp_reorg\docs\industry4.0.md
+  - No changes needed: temp_reorg\docs\industry4.0.md
+Processing: temp_reorg\docs\integration.md
+  - No changes needed: temp_reorg\docs\integration.md
+Processing: temp_reorg\docs\interdisciplinary_education.md
+  ✓ Fixed file: temp_reorg\docs\interdisciplinary_education.md
+Processing: temp_reorg\docs\intrusion_detection.md
+  - No changes needed: temp_reorg\docs\intrusion_detection.md
+Processing: temp_reorg\docs\ios.md
+  - No changes needed: temp_reorg\docs\ios.md
+Processing: temp_reorg\docs\keras-rl2.md
+  - No changes needed: temp_reorg\docs\keras-rl2.md
+Processing: temp_reorg\docs\key_management.md
+  - No changes needed: temp_reorg\docs\key_management.md
+Processing: temp_reorg\docs\knowledge-browser.md
+  - No changes needed: temp_reorg\docs\knowledge-browser.md
+Processing: temp_reorg\docs\knowledge_representation.md
+  ✓ Fixed file: temp_reorg\docs\knowledge_representation.md
+Processing: temp_reorg\docs\LICENSE.md
+  ✓ Fixed file: temp_reorg\docs\LICENSE.md
+Processing: temp_reorg\docs\memory-management.md
+  - No changes needed: temp_reorg\docs\memory-management.md
+Processing: temp_reorg\docs\monitoring.md
+  - No changes needed: temp_reorg\docs\monitoring.md
+Processing: temp_reorg\docs\mqtt.md
+  - No changes needed: temp_reorg\docs\mqtt.md
+Processing: temp_reorg\docs\multimodal-capture.md
+  - No changes needed: temp_reorg\docs\multimodal-capture.md
+Processing: temp_reorg\docs\multi_material_design.md
+  - No changes needed: temp_reorg\docs\multi_material_design.md
+Processing: temp_reorg\docs\networking.md
+  ✓ Fixed file: temp_reorg\docs\networking.md
+Processing: temp_reorg\docs\neural_network_predictions.md
+  - No changes needed: temp_reorg\docs\neural_network_predictions.md
+Processing: temp_reorg\docs\nlp_ml.md
+  ✓ Fixed file: temp_reorg\docs\nlp_ml.md
+Processing: temp_reorg\docs\non_coder_setup.md
+  ✓ Fixed file: temp_reorg\docs\non_coder_setup.md
+Processing: temp_reorg\docs\offline-support.md
+  - No changes needed: temp_reorg\docs\offline-support.md
+Processing: temp_reorg\docs\offline-viewer.md
+  - No changes needed: temp_reorg\docs\offline-viewer.md
+Processing: temp_reorg\docs\openscad_automation.md
+  - No changes needed: temp_reorg\docs\openscad_automation.md
+Processing: temp_reorg\docs\optimization.md
+  - No changes needed: temp_reorg\docs\optimization.md
+Processing: temp_reorg\docs\performance_guide.md
+  - No changes needed: temp_reorg\docs\performance_guide.md
+Processing: temp_reorg\docs\performance_tuning.md
+  - No changes needed: temp_reorg\docs\performance_tuning.md
+Processing: temp_reorg\docs\processing.md
+  - No changes needed: temp_reorg\docs\processing.md
+Processing: temp_reorg\docs\PROJECT_SUMMARY.md
+  - No changes needed: temp_reorg\docs\PROJECT_SUMMARY.md
+Processing: temp_reorg\docs\protocol_specs.md
+  - No changes needed: temp_reorg\docs\protocol_specs.md
+Processing: temp_reorg\docs\proxy.md
+  - No changes needed: temp_reorg\docs\proxy.md
+Processing: temp_reorg\docs\pull_requests.md
+  - No changes needed: temp_reorg\docs\pull_requests.md
+Processing: temp_reorg\docs\qiskit.md
+  - No changes needed: temp_reorg\docs\qiskit.md
+Processing: temp_reorg\docs\react-native.md
+  - No changes needed: temp_reorg\docs\react-native.md
+Processing: temp_reorg\docs\README.md
+  - No changes needed: temp_reorg\docs\README.md
+Processing: temp_reorg\docs\registration.md
+  - No changes needed: temp_reorg\docs\registration.md
+Processing: temp_reorg\docs\resource_management.md
+  - No changes needed: temp_reorg\docs\resource_management.md
+Processing: temp_reorg\docs\safety_ethics.md
+  - No changes needed: temp_reorg\docs\safety_ethics.md
+Processing: temp_reorg\docs\scapy.md
+  - No changes needed: temp_reorg\docs\scapy.md
+Processing: temp_reorg\docs\secure-storage.md
+  - No changes needed: temp_reorg\docs\secure-storage.md
+Processing: temp_reorg\docs\secure_boot.md
+  - No changes needed: temp_reorg\docs\secure_boot.md
+Processing: temp_reorg\docs\security_guide.md
+  - No changes needed: temp_reorg\docs\security_guide.md
+Processing: temp_reorg\docs\security_standards.md
+  - No changes needed: temp_reorg\docs\security_standards.md
+Processing: temp_reorg\docs\self_building_ai.md
+  ✓ Fixed file: temp_reorg\docs\self_building_ai.md
+Processing: temp_reorg\docs\self_building_ai_functions.md
+  ✓ Fixed file: temp_reorg\docs\self_building_ai_functions.md
+Processing: temp_reorg\docs\setup.md
+  - No changes needed: temp_reorg\docs\setup.md
+Processing: temp_reorg\docs\simulation.md
+  - No changes needed: temp_reorg\docs\simulation.md
+Processing: temp_reorg\docs\standards.md
+  - No changes needed: temp_reorg\docs\standards.md
+Processing: temp_reorg\docs\storage.md
+  - No changes needed: temp_reorg\docs\storage.md
+Processing: temp_reorg\docs\style_guide.md
+  - No changes needed: temp_reorg\docs\style_guide.md
+Processing: temp_reorg\docs\synchronization.md
+  - No changes needed: temp_reorg\docs\synchronization.md
+Processing: temp_reorg\docs\system_design.md
+  ✓ Fixed file: temp_reorg\docs\system_design.md
+Processing: temp_reorg\docs\template_guide.md
+  - No changes needed: temp_reorg\docs\template_guide.md
+Processing: temp_reorg\docs\testing.md
+  - No changes needed: temp_reorg\docs\testing.md
+Processing: temp_reorg\docs\types.md
+  - No changes needed: temp_reorg\docs\types.md
+Processing: temp_reorg\docs\UNIFIED_SYSTEM_ARCHITECTURE.md
+  ✓ Fixed file: temp_reorg\docs\UNIFIED_SYSTEM_ARCHITECTURE.md
+Processing: temp_reorg\docs\validation.md
+  - No changes needed: temp_reorg\docs\validation.md
+Processing: temp_reorg\docs\virtual_assistant_book.md
+  ✓ Fixed file: temp_reorg\docs\virtual_assistant_book.md
+Processing: temp_reorg\docs\virtual_assistant_cross_platform.md
+  ✓ Fixed file: temp_reorg\docs\virtual_assistant_cross_platform.md
+Processing: temp_reorg\docs\web_layers.md
+  ✓ Fixed file: temp_reorg\docs\web_layers.md
+Processing: temp_reorg\frontend\README.md
+  ✓ Fixed file: temp_reorg\frontend\README.md
+Processing: temp_reorg\frontend\README_DEPLOY.md
+  ✓ Fixed file: temp_reorg\frontend\README_DEPLOY.md
+Processing: temp_reorg\infrastructure\README.md
+  ✓ Fixed file: temp_reorg\infrastructure\README.md
+Processing: temp_reorg\quantum_ai_system\README.md
+  ✓ Fixed file: temp_reorg\quantum_ai_system\README.md
+Processing: temp_reorg\src\ai\demo_emotional_ai.md
+  - No changes needed: temp_reorg\src\ai\demo_emotional_ai.md
+Processing: temp_reorg\robotics\advanced_system\README.md
+  - No changes needed: temp_reorg\robotics\advanced_system\README.md
+Processing: temp_reorg\mcp\config\README.md
+  ✓ Fixed file: temp_reorg\mcp\config\README.md
+Processing: temp_reorg\examples\emotional_intelligence\README.md
+  ✓ Fixed file: temp_reorg\examples\emotional_intelligence\README.md
+Processing: temp_reorg\docs\advanced_modules\advanced_engineering_ai.md
+  - No changes needed: temp_reorg\docs\advanced_modules\advanced_engineering_ai.md
+Processing: temp_reorg\docs\advanced_modules\advanced_engineering_ai_improvements.md
+  - No changes needed: temp_reorg\docs\advanced_modules\advanced_engineering_ai_improvements.md
+Processing: temp_reorg\docs\advanced_modules\neuromorphic_computing.md
+  ✓ Fixed file: temp_reorg\docs\advanced_modules\neuromorphic_computing.md
+Processing: temp_reorg\docs\advanced_modules\README.md
+  ✓ Fixed file: temp_reorg\docs\advanced_modules\README.md
+Processing: temp_reorg\docs\ai\advanced_emotional_ai.md
+  ✓ Fixed file: temp_reorg\docs\ai\advanced_emotional_ai.md
+Processing: temp_reorg\docs\ai\ADVANCED_IMPROVEMENTS.md
+  ✓ Fixed file: temp_reorg\docs\ai\ADVANCED_IMPROVEMENTS.md
+Processing: temp_reorg\docs\ai\anthropic_document_template.md
+  ✓ Fixed file: temp_reorg\docs\ai\anthropic_document_template.md
+Processing: temp_reorg\docs\ai\CODE_OF_CONDUCT.md
+  ✓ Fixed file: temp_reorg\docs\ai\CODE_OF_CONDUCT.md
+Processing: temp_reorg\docs\ai\constitutional_principles.md
+  ✓ Fixed file: temp_reorg\docs\ai\constitutional_principles.md
+Processing: temp_reorg\docs\ai\content_lifecycle.md
+  ✓ Fixed file: temp_reorg\docs\ai\content_lifecycle.md
+Processing: temp_reorg\docs\ai\contribution_guide.md
+  ✓ Fixed file: temp_reorg\docs\ai\contribution_guide.md
+Processing: temp_reorg\docs\ai\document_template.md
+  ✓ Fixed file: temp_reorg\docs\ai\document_template.md
+Processing: temp_reorg\docs\ai\fairlearn.md
+  - No changes needed: temp_reorg\docs\ai\fairlearn.md
+Processing: temp_reorg\docs\ai\FAQ.md
+  ✓ Fixed file: temp_reorg\docs\ai\FAQ.md
+Processing: temp_reorg\docs\ai\github_actions.md
+  ✓ Fixed file: temp_reorg\docs\ai\github_actions.md
+Processing: temp_reorg\docs\ai\GOVERNANCE.md
+  ✓ Fixed file: temp_reorg\docs\ai\GOVERNANCE.md
+Processing: temp_reorg\docs\ai\improvements_module.md
+  ✓ Fixed file: temp_reorg\docs\ai\improvements_module.md
+Processing: temp_reorg\docs\ai\inherit.md
+  ✓ Fixed file: temp_reorg\docs\ai\inherit.md
+Processing: temp_reorg\docs\ai\integration_guide.md
+  ✓ Fixed file: temp_reorg\docs\ai\integration_guide.md
+Processing: temp_reorg\docs\ai\linking_standards.md
+  ✓ Fixed file: temp_reorg\docs\ai\linking_standards.md
+Processing: temp_reorg\docs\ai\model_template.md
+  ✓ Fixed file: temp_reorg\docs\ai\model_template.md
+Processing: temp_reorg\docs\ai\multimodal_integration.md
+  ✓ Fixed file: temp_reorg\docs\ai\multimodal_integration.md
+Processing: temp_reorg\docs\ai\networking.md
+  ✓ Fixed file: temp_reorg\docs\ai\networking.md
+Processing: temp_reorg\docs\ai\parallel_processing.md
+  ✓ Fixed file: temp_reorg\docs\ai\parallel_processing.md
+Processing: temp_reorg\docs\ai\processing_pipeline.md
+  ✓ Fixed file: temp_reorg\docs\ai\processing_pipeline.md
+Processing: temp_reorg\docs\ai\quality_checklist.md
+  ✓ Fixed file: temp_reorg\docs\ai\quality_checklist.md
+Processing: temp_reorg\docs\ai\README.md
+  ✓ Fixed file: temp_reorg\docs\ai\README.md
+Processing: temp_reorg\docs\ai\review_process.md
+  ✓ Fixed file: temp_reorg\docs\ai\review_process.md
+Processing: temp_reorg\docs\ai\scheduled_reviews.md
+  ✓ Fixed file: temp_reorg\docs\ai\scheduled_reviews.md
+Processing: temp_reorg\docs\ai\SECURITY.md
+  ✓ Fixed file: temp_reorg\docs\ai\SECURITY.md
+Processing: temp_reorg\docs\ai\step_by_step_guide.md
+  ✓ Fixed file: temp_reorg\docs\ai\step_by_step_guide.md
+Processing: temp_reorg\docs\ai\SUPPORT.md
+  ✓ Fixed file: temp_reorg\docs\ai\SUPPORT.md
+Processing: temp_reorg\docs\ai\system_improvement_strategies.md
+  ✓ Fixed file: temp_reorg\docs\ai\system_improvement_strategies.md
+Processing: temp_reorg\docs\ai\tagging_system.md
+  ✓ Fixed file: temp_reorg\docs\ai\tagging_system.md
+Processing: temp_reorg\docs\ai\TROUBLESHOOTING.md
+  ✓ Fixed file: temp_reorg\docs\ai\TROUBLESHOOTING.md
+Processing: temp_reorg\docs\ai\update_scripts.md
+  ✓ Fixed file: temp_reorg\docs\ai\update_scripts.md
+Processing: temp_reorg\docs\ai\vision_apps.md
+  ✓ Fixed file: temp_reorg\docs\ai\vision_apps.md
+Processing: temp_reorg\docs\ai\workflow_template.md
+  ✓ Fixed file: temp_reorg\docs\ai\workflow_template.md
+Processing: temp_reorg\docs\aiops\README.md
+  - No changes needed: temp_reorg\docs\aiops\README.md
+Processing: temp_reorg\docs\api\audio_recognition_api.md
+  ✓ Fixed file: temp_reorg\docs\api\audio_recognition_api.md
+Processing: temp_reorg\docs\api\narrow_ai_api.md
+  ✓ Fixed file: temp_reorg\docs\api\narrow_ai_api.md
+Processing: temp_reorg\docs\app\README.md
+  - No changes needed: temp_reorg\docs\app\README.md
+Processing: temp_reorg\docs\audio\audio_recognition.md
+  ✓ Fixed file: temp_reorg\docs\audio\audio_recognition.md
+Processing: temp_reorg\docs\audio\README.md
+  - No changes needed: temp_reorg\docs\audio\README.md
+Processing: temp_reorg\docs\blockchain\3d_blockchain.md
+  ✓ Fixed file: temp_reorg\docs\blockchain\3d_blockchain.md
+Processing: temp_reorg\docs\blockchain\layer2_and_defi.md
+  ✓ Fixed file: temp_reorg\docs\blockchain\layer2_and_defi.md
+Processing: temp_reorg\docs\blockchain\modular_platform.md
+  ✓ Fixed file: temp_reorg\docs\blockchain\modular_platform.md
+Processing: temp_reorg\docs\blockchain\token_factory.md
+  ✓ Fixed file: temp_reorg\docs\blockchain\token_factory.md
+Processing: temp_reorg\docs\blockchain\website_blockchain.md
+  ✓ Fixed file: temp_reorg\docs\blockchain\website_blockchain.md
+Processing: temp_reorg\docs\cad_manufacturing\3d_model_generation.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\3d_model_generation.md
+Processing: temp_reorg\docs\cad_manufacturing\3d_printing_export.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\3d_printing_export.md
+Processing: temp_reorg\docs\cad_manufacturing\advanced_physics.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\advanced_physics.md
+Processing: temp_reorg\docs\cad_manufacturing\cnc_machining_export.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\cnc_machining_export.md
+Processing: temp_reorg\docs\cad_manufacturing\fea_analysis.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\fea_analysis.md
+Processing: temp_reorg\docs\cad_manufacturing\freecad_automation.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\freecad_automation.md
+Processing: temp_reorg\docs\cad_manufacturing\gan_design_generation.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\gan_design_generation.md
+Processing: temp_reorg\docs\cad_manufacturing\generative_design.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\generative_design.md
+Processing: temp_reorg\docs\cad_manufacturing\genetic_algorithm_optimization.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\genetic_algorithm_optimization.md
+Processing: temp_reorg\docs\cad_manufacturing\iot_manufacturing.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\iot_manufacturing.md
+Processing: temp_reorg\docs\cad_manufacturing\materials_database.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\materials_database.md
+Processing: temp_reorg\docs\cad_manufacturing\multi_material_design.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\multi_material_design.md
+Processing: temp_reorg\docs\cad_manufacturing\neural_network_predictions.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\neural_network_predictions.md
+Processing: temp_reorg\docs\cad_manufacturing\openscad_automation.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\openscad_automation.md
+Processing: temp_reorg\docs\cad_manufacturing\physics_simulation.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\physics_simulation.md
+Processing: temp_reorg\docs\cad_manufacturing\README.md
+  ✓ Fixed file: temp_reorg\docs\cad_manufacturing\README.md
+Processing: temp_reorg\docs\concepts\advanced_frequency_delivery_technologies.md
+  - No changes needed: temp_reorg\docs\concepts\advanced_frequency_delivery_technologies.md
+Processing: temp_reorg\docs\concepts\animal_environmental_protection_module.md
+  - No changes needed: temp_reorg\docs\concepts\animal_environmental_protection_module.md
+Processing: temp_reorg\docs\concepts\experiential_learning_emotional_memory_module.md
+  ✓ Fixed file: temp_reorg\docs\concepts\experiential_learning_emotional_memory_module.md
+Processing: temp_reorg\docs\concepts\human_genetics_module.md
+  - No changes needed: temp_reorg\docs\concepts\human_genetics_module.md
+Processing: temp_reorg\docs\concepts\knowledge_base_naming_and_identity.md
+  - No changes needed: temp_reorg\docs\concepts\knowledge_base_naming_and_identity.md
+Processing: temp_reorg\docs\concepts\non_violence_and_peaceful_resolution_module.md
+  ✓ Fixed file: temp_reorg\docs\concepts\non_violence_and_peaceful_resolution_module.md
+Processing: temp_reorg\docs\concepts\README.md
+  - No changes needed: temp_reorg\docs\concepts\README.md
+Processing: temp_reorg\docs\concepts\rife_healing_frequencies_module.md
+  ✓ Fixed file: temp_reorg\docs\concepts\rife_healing_frequencies_module.md
+Processing: temp_reorg\docs\concepts\species_communication_agriculture_medicine_conservation.md
+  ✓ Fixed file: temp_reorg\docs\concepts\species_communication_agriculture_medicine_conservation.md
+Processing: temp_reorg\docs\concepts\universal_life_communication_and_improvement_module.md
+  - No changes needed: temp_reorg\docs\concepts\universal_life_communication_and_improvement_module.md
+Processing: temp_reorg\docs\concepts\universal_scientific_and_technological_advancement.md
+  - No changes needed: temp_reorg\docs\concepts\universal_scientific_and_technological_advancement.md
+Processing: temp_reorg\docs\deployment\environment.md
+  ✓ Fixed file: temp_reorg\docs\deployment\environment.md
+Processing: temp_reorg\docs\deployment\README.md
+  ✓ Fixed file: temp_reorg\docs\deployment\README.md
+Processing: temp_reorg\docs\desktop\README.md
+  - No changes needed: temp_reorg\docs\desktop\README.md
+Processing: temp_reorg\docs\devops\README.md
+  - No changes needed: temp_reorg\docs\devops\README.md
+Processing: temp_reorg\docs\examples\emotional_intelligence.md
+  ✓ Fixed file: temp_reorg\docs\examples\emotional_intelligence.md
+Processing: temp_reorg\docs\examples\multidisciplinary.md
+  ✓ Fixed file: temp_reorg\docs\examples\multidisciplinary.md
+Processing: temp_reorg\docs\guides\multimodal_integration.md
+  ✓ Fixed file: temp_reorg\docs\guides\multimodal_integration.md
+Processing: temp_reorg\docs\hardware\sensors.md
+  ✓ Fixed file: temp_reorg\docs\hardware\sensors.md
+Processing: temp_reorg\docs\iot\architecture.md
+  ✓ Fixed file: temp_reorg\docs\iot\architecture.md
+Processing: temp_reorg\docs\iot\CROSS_PLATFORM_README.md
+  ✓ Fixed file: temp_reorg\docs\iot\CROSS_PLATFORM_README.md
+Processing: temp_reorg\docs\iot\device_management.md
+  - No changes needed: temp_reorg\docs\iot\device_management.md
+Processing: temp_reorg\docs\iot\iot_manufacturing.md
+  - No changes needed: temp_reorg\docs\iot\iot_manufacturing.md
+Processing: temp_reorg\docs\iot\README.md
+  ✓ Fixed file: temp_reorg\docs\iot\README.md
+Processing: temp_reorg\docs\iot\RELEASE_CHECKLIST.md
+  ✓ Fixed file: temp_reorg\docs\iot\RELEASE_CHECKLIST.md
+Processing: temp_reorg\docs\iot\sensors.md
+  ✓ Fixed file: temp_reorg\docs\iot\sensors.md
+Processing: temp_reorg\docs\iot\troubleshooting.md
+  ✓ Fixed file: temp_reorg\docs\iot\troubleshooting.md
+Processing: temp_reorg\docs\libraries\azure-cognitiveservices-speech.md
+  - No changes needed: temp_reorg\docs\libraries\azure-cognitiveservices-speech.md
+Processing: temp_reorg\docs\libraries\beautifulsoup4.md
+  - No changes needed: temp_reorg\docs\libraries\beautifulsoup4.md
+Processing: temp_reorg\docs\libraries\deepl.md
+  - No changes needed: temp_reorg\docs\libraries\deepl.md
+Processing: temp_reorg\docs\libraries\dlib.md
+  ✓ Fixed file: temp_reorg\docs\libraries\dlib.md
+Processing: temp_reorg\docs\libraries\face_recognition.md
+  ✓ Fixed file: temp_reorg\docs\libraries\face_recognition.md
+Processing: temp_reorg\docs\libraries\fairlearn.md
+  ✓ Fixed file: temp_reorg\docs\libraries\fairlearn.md
+Processing: temp_reorg\docs\libraries\google-api-python-client.md
+  - No changes needed: temp_reorg\docs\libraries\google-api-python-client.md
+Processing: temp_reorg\docs\libraries\google-cloud-speech.md
+  - No changes needed: temp_reorg\docs\libraries\google-cloud-speech.md
+Processing: temp_reorg\docs\libraries\googletrans.md
+  - No changes needed: temp_reorg\docs\libraries\googletrans.md
+Processing: temp_reorg\docs\libraries\gtts.md
+  - No changes needed: temp_reorg\docs\libraries\gtts.md
+Processing: temp_reorg\docs\libraries\huggingface.md
+  - No changes needed: temp_reorg\docs\libraries\huggingface.md
+Processing: temp_reorg\docs\libraries\ics.md
+  - No changes needed: temp_reorg\docs\libraries\ics.md
+Processing: temp_reorg\docs\libraries\imaplib.md
+  - No changes needed: temp_reorg\docs\libraries\imaplib.md
+Processing: temp_reorg\docs\libraries\keras-rl2.md
+  ✓ Fixed file: temp_reorg\docs\libraries\keras-rl2.md
+Processing: temp_reorg\docs\libraries\nltk.md
+  - No changes needed: temp_reorg\docs\libraries\nltk.md
+Processing: temp_reorg\docs\libraries\opencv-python.md
+  ✓ Fixed file: temp_reorg\docs\libraries\opencv-python.md
+Processing: temp_reorg\docs\libraries\playsound.md
+  - No changes needed: temp_reorg\docs\libraries\playsound.md
+Processing: temp_reorg\docs\libraries\pyautogui.md
+  - No changes needed: temp_reorg\docs\libraries\pyautogui.md
+Processing: temp_reorg\docs\libraries\pydub.md
+  - No changes needed: temp_reorg\docs\libraries\pydub.md
+Processing: temp_reorg\docs\libraries\pyttsx3.md
+  - No changes needed: temp_reorg\docs\libraries\pyttsx3.md
+Processing: temp_reorg\docs\libraries\qiskit.md
+  ✓ Fixed file: temp_reorg\docs\libraries\qiskit.md
+Processing: temp_reorg\docs\libraries\README.md
+  - No changes needed: temp_reorg\docs\libraries\README.md
+Processing: temp_reorg\docs\libraries\scapy.md
+  ✓ Fixed file: temp_reorg\docs\libraries\scapy.md
+Processing: temp_reorg\docs\libraries\selenium.md
+  ✓ Fixed file: temp_reorg\docs\libraries\selenium.md
+Processing: temp_reorg\docs\libraries\spacy.md
+  - No changes needed: temp_reorg\docs\libraries\spacy.md
+Processing: temp_reorg\docs\libraries\speechrecognition.md
+  - No changes needed: temp_reorg\docs\libraries\speechrecognition.md
+Processing: temp_reorg\docs\libraries\sqlite3.md
+  - No changes needed: temp_reorg\docs\libraries\sqlite3.md
+Processing: temp_reorg\docs\libraries\tensorflow.md
+  - No changes needed: temp_reorg\docs\libraries\tensorflow.md
+Processing: temp_reorg\docs\libraries\torch.md
+  - No changes needed: temp_reorg\docs\libraries\torch.md
+Processing: temp_reorg\docs\libraries\transformers.md
+  - No changes needed: temp_reorg\docs\libraries\transformers.md
+Processing: temp_reorg\docs\libraries\web3.md
+  ✓ Fixed file: temp_reorg\docs\libraries\web3.md
+Processing: temp_reorg\docs\libraries\yagmail.md
+  - No changes needed: temp_reorg\docs\libraries\yagmail.md
+Processing: temp_reorg\docs\machine_learning\sample_neural_network.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\sample_neural_network.md
+Processing: temp_reorg\docs\manufacturing\3d_printing_export.md
+  ✓ Fixed file: temp_reorg\docs\manufacturing\3d_printing_export.md
+Processing: temp_reorg\docs\mlops\README.md
+  - No changes needed: temp_reorg\docs\mlops\README.md
+Processing: temp_reorg\docs\mobile\README.md
+  ✓ Fixed file: temp_reorg\docs\mobile\README.md
+Processing: temp_reorg\docs\mobile\troubleshooting.md
+  ✓ Fixed file: temp_reorg\docs\mobile\troubleshooting.md
+Processing: temp_reorg\docs\quantum_computing\virtual_quantum_computer.md
+  ✓ Fixed file: temp_reorg\docs\quantum_computing\virtual_quantum_computer.md
+Processing: temp_reorg\docs\robotics\access_control.md
+  - No changes needed: temp_reorg\docs\robotics\access_control.md
+Processing: temp_reorg\docs\robotics\ai_system_enhancements.md
+  ✓ Fixed file: temp_reorg\docs\robotics\ai_system_enhancements.md
+Processing: temp_reorg\docs\robotics\api.md
+  ✓ Fixed file: temp_reorg\docs\robotics\api.md
+Processing: temp_reorg\docs\robotics\architecture.md
+  - No changes needed: temp_reorg\docs\robotics\architecture.md
+Processing: temp_reorg\docs\robotics\changelog.md
+  ✓ Fixed file: temp_reorg\docs\robotics\changelog.md
+Processing: temp_reorg\docs\robotics\changelog_standards.md
+  ✓ Fixed file: temp_reorg\docs\robotics\changelog_standards.md
+Processing: temp_reorg\docs\robotics\checklist.md
+  ✓ Fixed file: temp_reorg\docs\robotics\checklist.md
+Processing: temp_reorg\docs\robotics\CONTRIBUTING.md
+  ✓ Fixed file: temp_reorg\docs\robotics\CONTRIBUTING.md
+Processing: temp_reorg\docs\robotics\current_goal.md
+  ✓ Fixed file: temp_reorg\docs\robotics\current_goal.md
+Processing: temp_reorg\docs\robotics\development.md
+  ✓ Fixed file: temp_reorg\docs\robotics\development.md
+Processing: temp_reorg\docs\robotics\faq.md
+  ✓ Fixed file: temp_reorg\docs\robotics\faq.md
+Processing: temp_reorg\docs\robotics\FIXME.md
+  ✓ Fixed file: temp_reorg\docs\robotics\FIXME.md
+Processing: temp_reorg\docs\robotics\FULL_STACK_IMPLEMENTATION.md
+  ✓ Fixed file: temp_reorg\docs\robotics\FULL_STACK_IMPLEMENTATION.md
+Processing: temp_reorg\docs\robotics\human_robot_interaction.md
+  ✓ Fixed file: temp_reorg\docs\robotics\human_robot_interaction.md
+Processing: temp_reorg\docs\robotics\integration.md
+  ✓ Fixed file: temp_reorg\docs\robotics\integration.md
+Processing: temp_reorg\docs\robotics\knowledge_graph.md
+  ✓ Fixed file: temp_reorg\docs\robotics\knowledge_graph.md
+Processing: temp_reorg\docs\robotics\memories.md
+  ✓ Fixed file: temp_reorg\docs\robotics\memories.md
+Processing: temp_reorg\docs\robotics\method.md
+  ✓ Fixed file: temp_reorg\docs\robotics\method.md
+Processing: temp_reorg\docs\robotics\notes.md
+  ✓ Fixed file: temp_reorg\docs\robotics\notes.md
+Processing: temp_reorg\docs\robotics\plan.md
+  ✓ Fixed file: temp_reorg\docs\robotics\plan.md
+Processing: temp_reorg\docs\robotics\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\README.md
+Processing: temp_reorg\docs\robotics\rollback.md
+  ✓ Fixed file: temp_reorg\docs\robotics\rollback.md
+Processing: temp_reorg\docs\robotics\safety_ethics.md
+  ✓ Fixed file: temp_reorg\docs\robotics\safety_ethics.md
+Processing: temp_reorg\docs\robotics\specs.md
+  ✓ Fixed file: temp_reorg\docs\robotics\specs.md
+Processing: temp_reorg\docs\robotics\system_design.md
+  ✓ Fixed file: temp_reorg\docs\robotics\system_design.md
+Processing: temp_reorg\docs\robotics\task_list.md
+  ✓ Fixed file: temp_reorg\docs\robotics\task_list.md
+Processing: temp_reorg\docs\robotics\testing.md
+  ✓ Fixed file: temp_reorg\docs\robotics\testing.md
+Processing: temp_reorg\docs\robotics\TODO.md
+  ✓ Fixed file: temp_reorg\docs\robotics\TODO.md
+Processing: temp_reorg\docs\robotics\troubleshooting.md
+  ✓ Fixed file: temp_reorg\docs\robotics\troubleshooting.md
+Processing: temp_reorg\docs\robotics\UNIFIED_SYSTEM_ARCHITECTURE.md
+  ✓ Fixed file: temp_reorg\docs\robotics\UNIFIED_SYSTEM_ARCHITECTURE.md
+Processing: temp_reorg\docs\security\advanced_analysis.md
+  ✓ Fixed file: temp_reorg\docs\security\advanced_analysis.md
+Processing: temp_reorg\docs\security\quantum_resistant_cryptography.md
+  ✓ Fixed file: temp_reorg\docs\security\quantum_resistant_cryptography.md
+Processing: temp_reorg\docs\web\http.md
+  - No changes needed: temp_reorg\docs\web\http.md
+Processing: temp_reorg\docs\web\php_standards.md
+  - No changes needed: temp_reorg\docs\web\php_standards.md
+Processing: temp_reorg\docs\web\README.md
+  ✓ Fixed file: temp_reorg\docs\web\README.md
+Processing: temp_reorg\docs\web\web3.md
+  - No changes needed: temp_reorg\docs\web\web3.md
+Processing: temp_reorg\docs\web\websockets.md
+  - No changes needed: temp_reorg\docs\web\websockets.md
+Processing: temp_reorg\docs\web\apis\api_gateway.md
+  ✓ Fixed file: temp_reorg\docs\web\apis\api_gateway.md
+Processing: temp_reorg\docs\web\apis\graphql.md
+  ✓ Fixed file: temp_reorg\docs\web\apis\graphql.md
+Processing: temp_reorg\docs\web\apis\rest_api.md
+  ✓ Fixed file: temp_reorg\docs\web\apis\rest_api.md
+Processing: temp_reorg\docs\web\client_server\architecture.md
+  ✓ Fixed file: temp_reorg\docs\web\client_server\architecture.md
+Processing: temp_reorg\docs\web\databases\database_overview.md
+  ✓ Fixed file: temp_reorg\docs\web\databases\database_overview.md
+Processing: temp_reorg\docs\web\databases\overview.md
+  ✓ Fixed file: temp_reorg\docs\web\databases\overview.md
+Processing: temp_reorg\docs\web\networking\dns.md
+  ✓ Fixed file: temp_reorg\docs\web\networking\dns.md
+Processing: temp_reorg\docs\web\networking\http.md
+  ✓ Fixed file: temp_reorg\docs\web\networking\http.md
+Processing: temp_reorg\docs\web\networking\ip_address.md
+  ✓ Fixed file: temp_reorg\docs\web\networking\ip_address.md
+Processing: temp_reorg\docs\web\networking\proxy.md
+  ✓ Fixed file: temp_reorg\docs\web\networking\proxy.md
+Processing: temp_reorg\docs\web\performance\denormalization.md
+  ✓ Fixed file: temp_reorg\docs\web\performance\denormalization.md
+Processing: temp_reorg\docs\web\php\README.md
+  ✓ Fixed file: temp_reorg\docs\web\php\README.md
+Processing: temp_reorg\docs\web\security\authentication.md
+  ✓ Fixed file: temp_reorg\docs\web\security\authentication.md
+Processing: temp_reorg\docs\web\security\security.md
+  ✓ Fixed file: temp_reorg\docs\web\security\security.md
+Processing: temp_reorg\docs\web\system_design\api_gateway.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\api_gateway.md
+Processing: temp_reorg\docs\web\system_design\blob_storage.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\blob_storage.md
+Processing: temp_reorg\docs\web\system_design\cache.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\cache.md
+Processing: temp_reorg\docs\web\system_design\caching.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\caching.md
+Processing: temp_reorg\docs\web\system_design\cap_theorem.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\cap_theorem.md
+Processing: temp_reorg\docs\web\system_design\cdn.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\cdn.md
+Processing: temp_reorg\docs\web\system_design\denormalization.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\denormalization.md
+Processing: temp_reorg\docs\web\system_design\idempotency.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\idempotency.md
+Processing: temp_reorg\docs\web\system_design\latency.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\latency.md
+Processing: temp_reorg\docs\web\system_design\load_balancer.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\load_balancer.md
+Processing: temp_reorg\docs\web\system_design\message_queue.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\message_queue.md
+Processing: temp_reorg\docs\web\system_design\microservices.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\microservices.md
+Processing: temp_reorg\docs\web\system_design\proxy.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\proxy.md
+Processing: temp_reorg\docs\web\system_design\rate_limiting.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\rate_limiting.md
+Processing: temp_reorg\docs\web\system_design\replication.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\replication.md
+Processing: temp_reorg\docs\web\system_design\sharding.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\sharding.md
+Processing: temp_reorg\docs\web\system_design\sql_vs_nosql.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\sql_vs_nosql.md
+Processing: temp_reorg\docs\web\system_design\vertical_partitioning.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\vertical_partitioning.md
+Processing: temp_reorg\docs\web\system_design\vertical_scaling.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\vertical_scaling.md
+Processing: temp_reorg\docs\web\system_design\websockets.md
+  ✓ Fixed file: temp_reorg\docs\web\system_design\websockets.md
+Processing: temp_reorg\docs\web\php\contributing\pull_requests.md
+  ✓ Fixed file: temp_reorg\docs\web\php\contributing\pull_requests.md
+Processing: temp_reorg\docs\web\php\contributing\setup.md
+  ✓ Fixed file: temp_reorg\docs\web\php\contributing\setup.md
+Processing: temp_reorg\docs\web\php\references\api_reference.md
+  ✓ Fixed file: temp_reorg\docs\web\php\references\api_reference.md
+Processing: temp_reorg\docs\web\php\references\performance_guide.md
+  ✓ Fixed file: temp_reorg\docs\web\php\references\performance_guide.md
+Processing: temp_reorg\docs\web\php\references\php_standards.md
+  ✓ Fixed file: temp_reorg\docs\web\php\references\php_standards.md
+Processing: temp_reorg\docs\web\php\references\security_guide.md
+  ✓ Fixed file: temp_reorg\docs\web\php\references\security_guide.md
+Processing: temp_reorg\docs\web\php\references\template_guide.md
+  ✓ Fixed file: temp_reorg\docs\web\php\references\template_guide.md
+Processing: temp_reorg\docs\src\multidisciplinary_ai\biology.md
+  - No changes needed: temp_reorg\docs\src\multidisciplinary_ai\biology.md
+Processing: temp_reorg\docs\src\multidisciplinary_ai\cosmology.md
+  - No changes needed: temp_reorg\docs\src\multidisciplinary_ai\cosmology.md
+Processing: temp_reorg\docs\src\multidisciplinary_ai\philosophy.md
+  - No changes needed: temp_reorg\docs\src\multidisciplinary_ai\philosophy.md
+Processing: temp_reorg\docs\src\multidisciplinary_ai\psychology.md
+  - No changes needed: temp_reorg\docs\src\multidisciplinary_ai\psychology.md
+Processing: temp_reorg\docs\src\multidisciplinary_ai\sociology.md
+  - No changes needed: temp_reorg\docs\src\multidisciplinary_ai\sociology.md
+Processing: temp_reorg\docs\src\multidisciplinary_ai\cosmology\cosmology_model.md
+  - No changes needed: temp_reorg\docs\src\multidisciplinary_ai\cosmology\cosmology_model.md
+Processing: temp_reorg\docs\robotics\advanced_system\13_star_sign_calendar.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\13_star_sign_calendar.md
+Processing: temp_reorg\docs\robotics\advanced_system\advanced_abilities.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\advanced_abilities.md
+Processing: temp_reorg\docs\robotics\advanced_system\advanced_system.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\advanced_system.md
+Processing: temp_reorg\docs\robotics\advanced_system\ai_ml_integration.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\ai_ml_integration.md
+Processing: temp_reorg\docs\robotics\advanced_system\architecture.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\architecture.md
+Processing: temp_reorg\docs\robotics\advanced_system\asynchronous_operations.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\asynchronous_operations.md
+Processing: temp_reorg\docs\robotics\advanced_system\bio_mimicry.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\bio_mimicry.md
+Processing: temp_reorg\docs\robotics\advanced_system\blockchain_integration.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\blockchain_integration.md
+Processing: temp_reorg\docs\robotics\advanced_system\cad_and_manufacturing.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\cad_and_manufacturing.md
+Processing: temp_reorg\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+Processing: temp_reorg\docs\robotics\advanced_system\connectivity_and_communication.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\connectivity_and_communication.md
+Processing: temp_reorg\docs\robotics\advanced_system\consciousness_algorithms.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\consciousness_algorithms.md
+Processing: temp_reorg\docs\robotics\advanced_system\continuous_learning.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\continuous_learning.md
+Processing: temp_reorg\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+Processing: temp_reorg\docs\robotics\advanced_system\disaster_recovery_and_backup.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\disaster_recovery_and_backup.md
+Processing: temp_reorg\docs\robotics\advanced_system\emotional_intelligence.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\emotional_intelligence.md
+Processing: temp_reorg\docs\robotics\advanced_system\energy_management.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\energy_management.md
+Processing: temp_reorg\docs\robotics\advanced_system\ethics_and_compliance.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\ethics_and_compliance.md
+Processing: temp_reorg\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+Processing: temp_reorg\docs\robotics\advanced_system\human_robot_interaction.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\human_robot_interaction.md
+Processing: temp_reorg\docs\robotics\advanced_system\industry4.0.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\industry4.0.md
+Processing: temp_reorg\docs\robotics\advanced_system\integrative_knowledge_graph.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\integrative_knowledge_graph.md
+Processing: temp_reorg\docs\robotics\advanced_system\modularity_and_customization.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\modularity_and_customization.md
+Processing: temp_reorg\docs\robotics\advanced_system\molecular_self_healing.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\molecular_self_healing.md
+Processing: temp_reorg\docs\robotics\advanced_system\multisensory_robotics.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\multisensory_robotics.md
+Processing: temp_reorg\docs\robotics\advanced_system\multi_energy_harvesting.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\multi_energy_harvesting.md
+Processing: temp_reorg\docs\robotics\advanced_system\naming_conventions.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\naming_conventions.md
+Processing: temp_reorg\docs\robotics\advanced_system\nanotechnology_integration.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\nanotechnology_integration.md
+Processing: temp_reorg\docs\robotics\advanced_system\power_saving_self_sustaining.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\power_saving_self_sustaining.md
+Processing: temp_reorg\docs\robotics\advanced_system\quantum_drive_and_thought.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\quantum_drive_and_thought.md
+Processing: temp_reorg\docs\robotics\advanced_system\quantum_temporal_mapping.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\quantum_temporal_mapping.md
+Processing: temp_reorg\docs\robotics\advanced_system\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+Processing: temp_reorg\docs\robotics\advanced_system\self_awareness.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\self_awareness.md
+Processing: temp_reorg\docs\robotics\advanced_system\self_healing.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\self_healing.md
+Processing: temp_reorg\docs\robotics\advanced_system\self_improvement.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\self_improvement.md
+Processing: temp_reorg\docs\robotics\advanced_system\self_powering_and_regeneration.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\self_powering_and_regeneration.md
+Processing: temp_reorg\docs\robotics\advanced_system\self_replication.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\self_replication.md
+Processing: temp_reorg\docs\robotics\advanced_system\simulation.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\simulation.md
+Processing: temp_reorg\docs\robotics\advanced_system\speculative_abilities.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\speculative_abilities.md
+Processing: temp_reorg\docs\robotics\advanced_system\streamlined_architecture.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\streamlined_architecture.md
+Processing: temp_reorg\docs\robotics\advanced_system\swarm_robotics.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\swarm_robotics.md
+Processing: temp_reorg\docs\robotics\advanced_system\testing.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\testing.md
+Processing: temp_reorg\docs\robotics\advanced_system\theoretical_abilities.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\theoretical_abilities.md
+Processing: temp_reorg\docs\robotics\advanced_system\time_crystal_integration.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\time_crystal_integration.md
+Processing: temp_reorg\docs\robotics\advanced_system\ui_ux.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\ui_ux.md
+Processing: temp_reorg\docs\robotics\advanced_system\unified_knowledge_architecture.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\unified_knowledge_architecture.md
+Processing: temp_reorg\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+Processing: temp_reorg\docs\robotics\ai\README.md
+  - No changes needed: temp_reorg\docs\robotics\ai\README.md
+Processing: temp_reorg\docs\robotics\control\README.md
+  - No changes needed: temp_reorg\docs\robotics\control\README.md
+Processing: temp_reorg\docs\robotics\examples\README.md
+  - No changes needed: temp_reorg\docs\robotics\examples\README.md
+Processing: temp_reorg\docs\robotics\movement\README.md
+  - No changes needed: temp_reorg\docs\robotics\movement\README.md
+Processing: temp_reorg\docs\robotics\perception\vision_systems.md
+  ✓ Fixed file: temp_reorg\docs\robotics\perception\vision_systems.md
+Processing: temp_reorg\docs\robotics\advanced_system\control\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\control\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\energy\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\energy\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\hardware\README.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\hardware\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\learning\README.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\learning\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\navigation\README.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\navigation\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\perception\depth_estimation.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\perception\depth_estimation.md
+Processing: temp_reorg\docs\robotics\advanced_system\perception\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\perception\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\perception\sensor_fusion.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\perception\sensor_fusion.md
+Processing: temp_reorg\docs\robotics\advanced_system\security\README.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\security\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\software\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\software\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\testing\README.md
+  - No changes needed: temp_reorg\docs\robotics\advanced_system\testing\README.md
+Processing: temp_reorg\docs\robotics\advanced_system\ui_ux\README.md
+  ✓ Fixed file: temp_reorg\docs\robotics\advanced_system\ui_ux\README.md
+Processing: temp_reorg\docs\mobile\contributing\coding-standards.md
+  ✓ Fixed file: temp_reorg\docs\mobile\contributing\coding-standards.md
+Processing: temp_reorg\docs\mobile\contributing\development-setup.md
+  ✓ Fixed file: temp_reorg\docs\mobile\contributing\development-setup.md
+Processing: temp_reorg\docs\mobile\contributing\documentation.md
+  ✓ Fixed file: temp_reorg\docs\mobile\contributing\documentation.md
+Processing: temp_reorg\docs\mobile\contributing\testing.md
+  ✓ Fixed file: temp_reorg\docs\mobile\contributing\testing.md
+Processing: temp_reorg\docs\mobile\cross-platform\flutter.md
+  ✓ Fixed file: temp_reorg\docs\mobile\cross-platform\flutter.md
+Processing: temp_reorg\docs\mobile\cross-platform\react-native.md
+  ✓ Fixed file: temp_reorg\docs\mobile\cross-platform\react-native.md
+Processing: temp_reorg\docs\mobile\examples\knowledge-browser.md
+  ✓ Fixed file: temp_reorg\docs\mobile\examples\knowledge-browser.md
+Processing: temp_reorg\docs\mobile\examples\multimodal-capture.md
+  ✓ Fixed file: temp_reorg\docs\mobile\examples\multimodal-capture.md
+Processing: temp_reorg\docs\mobile\examples\offline-viewer.md
+  ✓ Fixed file: temp_reorg\docs\mobile\examples\offline-viewer.md
+Processing: temp_reorg\docs\mobile\native\android.md
+  ✓ Fixed file: temp_reorg\docs\mobile\native\android.md
+Processing: temp_reorg\docs\mobile\native\ios.md
+  ✓ Fixed file: temp_reorg\docs\mobile\native\ios.md
+Processing: temp_reorg\docs\mobile\performance\memory-management.md
+  ✓ Fixed file: temp_reorg\docs\mobile\performance\memory-management.md
+Processing: temp_reorg\docs\mobile\performance\offline-support.md
+  ✓ Fixed file: temp_reorg\docs\mobile\performance\offline-support.md
+Processing: temp_reorg\docs\mobile\performance\optimization.md
+  ✓ Fixed file: temp_reorg\docs\mobile\performance\optimization.md
+Processing: temp_reorg\docs\mobile\references\api-docs.md
+  ✓ Fixed file: temp_reorg\docs\mobile\references\api-docs.md
+Processing: temp_reorg\docs\mobile\references\backend-integration.md
+  ✓ Fixed file: temp_reorg\docs\mobile\references\backend-integration.md
+Processing: temp_reorg\docs\mobile\references\standards.md
+  ✓ Fixed file: temp_reorg\docs\mobile\references\standards.md
+Processing: temp_reorg\docs\mobile\security\authentication.md
+  ✓ Fixed file: temp_reorg\docs\mobile\security\authentication.md
+Processing: temp_reorg\docs\mobile\security\encryption.md
+  ✓ Fixed file: temp_reorg\docs\mobile\security\encryption.md
+Processing: temp_reorg\docs\mobile\security\secure-storage.md
+  ✓ Fixed file: temp_reorg\docs\mobile\security\secure-storage.md
+Processing: temp_reorg\docs\mobile\ui-ux\accessibility.md
+  ✓ Fixed file: temp_reorg\docs\mobile\ui-ux\accessibility.md
+Processing: temp_reorg\docs\mobile\ui-ux\component-library.md
+  ✓ Fixed file: temp_reorg\docs\mobile\ui-ux\component-library.md
+Processing: temp_reorg\docs\mobile\ui-ux\design-principles.md
+  ✓ Fixed file: temp_reorg\docs\mobile\ui-ux\design-principles.md
+Processing: temp_reorg\docs\machine_learning\audio_recognition\audio_recognition_guide.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\audio_recognition\audio_recognition_guide.md
+Processing: temp_reorg\docs\machine_learning\multimodal\unified_recognition_guide.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\multimodal\unified_recognition_guide.md
+Processing: temp_reorg\docs\machine_learning\training\training_guide.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\training\training_guide.md
+Processing: temp_reorg\docs\machine_learning\vision_recognition\vision_recognition_guide.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\vision_recognition\vision_recognition_guide.md
+Processing: temp_reorg\docs\machine_learning\workflow\build_train_model.md
+  - No changes needed: temp_reorg\docs\machine_learning\workflow\build_train_model.md
+Processing: temp_reorg\docs\machine_learning\workflow\data_acquisition.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\workflow\data_acquisition.md
+Processing: temp_reorg\docs\machine_learning\workflow\deployment.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\workflow\deployment.md
+Processing: temp_reorg\docs\machine_learning\workflow\evaluate_performance.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\workflow\evaluate_performance.md
+Processing: temp_reorg\docs\machine_learning\workflow\hyperparameter_tuning.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\workflow\hyperparameter_tuning.md
+Processing: temp_reorg\docs\machine_learning\workflow\preprocessing.md
+  ✓ Fixed file: temp_reorg\docs\machine_learning\workflow\preprocessing.md
+Processing: temp_reorg\docs\machine_learning\workflow\splitting_the_data.md
+  - No changes needed: temp_reorg\docs\machine_learning\workflow\splitting_the_data.md
+Processing: temp_reorg\docs\iot\contributing\documentation.md
+  ✓ Fixed file: temp_reorg\docs\iot\contributing\documentation.md
+Processing: temp_reorg\docs\iot\contributing\pull_requests.md
+  ✓ Fixed file: temp_reorg\docs\iot\contributing\pull_requests.md
+Processing: temp_reorg\docs\iot\contributing\setup.md
+  ✓ Fixed file: temp_reorg\docs\iot\contributing\setup.md
+Processing: temp_reorg\docs\iot\contributing\style_guide.md
+  ✓ Fixed file: temp_reorg\docs\iot\contributing\style_guide.md
+Processing: temp_reorg\docs\iot\contributing\testing.md
+  ✓ Fixed file: temp_reorg\docs\iot\contributing\testing.md
+Processing: temp_reorg\docs\iot\device_management\configuration.md
+  ✓ Fixed file: temp_reorg\docs\iot\device_management\configuration.md
+Processing: temp_reorg\docs\iot\device_management\discovery.md
+  ✓ Fixed file: temp_reorg\docs\iot\device_management\discovery.md
+Processing: temp_reorg\docs\iot\device_management\firmware.md
+  ✓ Fixed file: temp_reorg\docs\iot\device_management\firmware.md
+Processing: temp_reorg\docs\iot\device_management\monitoring.md
+  ✓ Fixed file: temp_reorg\docs\iot\device_management\monitoring.md
+Processing: temp_reorg\docs\iot\device_management\registration.md
+  ✓ Fixed file: temp_reorg\docs\iot\device_management\registration.md
+Processing: temp_reorg\docs\iot\edge_computing\analytics.md
+  ✓ Fixed file: temp_reorg\docs\iot\edge_computing\analytics.md
+Processing: temp_reorg\docs\iot\edge_computing\processing.md
+  ✓ Fixed file: temp_reorg\docs\iot\edge_computing\processing.md
+Processing: temp_reorg\docs\iot\edge_computing\resource_management.md
+  ✓ Fixed file: temp_reorg\docs\iot\edge_computing\resource_management.md
+Processing: temp_reorg\docs\iot\edge_computing\storage.md
+  ✓ Fixed file: temp_reorg\docs\iot\edge_computing\storage.md
+Processing: temp_reorg\docs\iot\edge_computing\synchronization.md
+  ✓ Fixed file: temp_reorg\docs\iot\edge_computing\synchronization.md
+Processing: temp_reorg\docs\iot\protocols\amqp.md
+  ✓ Fixed file: temp_reorg\docs\iot\protocols\amqp.md
+Processing: temp_reorg\docs\iot\protocols\coap.md
+  ✓ Fixed file: temp_reorg\docs\iot\protocols\coap.md
+Processing: temp_reorg\docs\iot\protocols\http.md
+  ✓ Fixed file: temp_reorg\docs\iot\protocols\http.md
+Processing: temp_reorg\docs\iot\protocols\mqtt.md
+  ✓ Fixed file: temp_reorg\docs\iot\protocols\mqtt.md
+Processing: temp_reorg\docs\iot\protocols\websockets.md
+  ✓ Fixed file: temp_reorg\docs\iot\protocols\websockets.md
+Processing: temp_reorg\docs\iot\references\data_formats.md
+  ✓ Fixed file: temp_reorg\docs\iot\references\data_formats.md
+Processing: temp_reorg\docs\iot\references\device_management.md
+  ✓ Fixed file: temp_reorg\docs\iot\references\device_management.md
+Processing: temp_reorg\docs\iot\references\edge_computing.md
+  ✓ Fixed file: temp_reorg\docs\iot\references\edge_computing.md
+Processing: temp_reorg\docs\iot\references\protocol_specs.md
+  ✓ Fixed file: temp_reorg\docs\iot\references\protocol_specs.md
+Processing: temp_reorg\docs\iot\references\security_standards.md
+  ✓ Fixed file: temp_reorg\docs\iot\references\security_standards.md
+Processing: temp_reorg\docs\iot\security\authentication.md
+  ✓ Fixed file: temp_reorg\docs\iot\security\authentication.md
+Processing: temp_reorg\docs\iot\security\authorization.md
+  ✓ Fixed file: temp_reorg\docs\iot\security\authorization.md
+Processing: temp_reorg\docs\iot\security\encryption.md
+  ✓ Fixed file: temp_reorg\docs\iot\security\encryption.md
+Processing: temp_reorg\docs\iot\security\intrusion_detection.md
+  ✓ Fixed file: temp_reorg\docs\iot\security\intrusion_detection.md
+Processing: temp_reorg\docs\iot\security\key_management.md
+  ✓ Fixed file: temp_reorg\docs\iot\security\key_management.md
+Processing: temp_reorg\docs\iot\security\secure_boot.md
+  ✓ Fixed file: temp_reorg\docs\iot\security\secure_boot.md
+Processing: temp_reorg\docs\iot\sensors\calibration.md
+  ✓ Fixed file: temp_reorg\docs\iot\sensors\calibration.md
+Processing: temp_reorg\docs\iot\sensors\data_collection.md
+  ✓ Fixed file: temp_reorg\docs\iot\sensors\data_collection.md
+Processing: temp_reorg\docs\iot\sensors\fusion.md
+  ✓ Fixed file: temp_reorg\docs\iot\sensors\fusion.md
+Processing: temp_reorg\docs\iot\sensors\types.md
+  ✓ Fixed file: temp_reorg\docs\iot\sensors\types.md
+Processing: temp_reorg\docs\iot\sensors\validation.md
+  ✓ Fixed file: temp_reorg\docs\iot\sensors\validation.md
+Processing: temp_reorg\docs\examples\emotional_intelligence\demo_emotional_ai.md
+  ✓ Fixed file: temp_reorg\docs\examples\emotional_intelligence\demo_emotional_ai.md
+Processing: temp_reorg\docs\deployment\containerization\README.md
+  ✓ Fixed file: temp_reorg\docs\deployment\containerization\README.md
+Processing: temp_reorg\docs\deployment\iac\README.md
+  - No changes needed: temp_reorg\docs\deployment\iac\README.md
+Processing: temp_reorg\docs\ai\accelerators\time_crystal_module.md
+  ✓ Fixed file: temp_reorg\docs\ai\accelerators\time_crystal_module.md
+Processing: temp_reorg\docs\ai\advanced_components\cosmology.md
+  ✓ Fixed file: temp_reorg\docs\ai\advanced_components\cosmology.md
+Processing: temp_reorg\docs\ai\advanced_components\privacy_preservation.md
+  ✓ Fixed file: temp_reorg\docs\ai\advanced_components\privacy_preservation.md
+Processing: temp_reorg\docs\ai\applications\narrow_ai_quantum.md
+  ✓ Fixed file: temp_reorg\docs\ai\applications\narrow_ai_quantum.md
+Processing: temp_reorg\docs\ai\architecture\system_design.md
+  ✓ Fixed file: temp_reorg\docs\ai\architecture\system_design.md
+Processing: temp_reorg\docs\ai\audio\audio_module_api.md
+  ✓ Fixed file: temp_reorg\docs\ai\audio\audio_module_api.md
+Processing: temp_reorg\docs\ai\audio\audio_module_architecture.md
+  ✓ Fixed file: temp_reorg\docs\ai\audio\audio_module_architecture.md
+Processing: temp_reorg\docs\ai\audio\audio_module_examples.md
+  - No changes needed: temp_reorg\docs\ai\audio\audio_module_examples.md
+Processing: temp_reorg\docs\ai\audio\LICENSE.md
+  ✓ Fixed file: temp_reorg\docs\ai\audio\LICENSE.md
+Processing: temp_reorg\docs\ai\audio\multi_modal_audio_recognition.md
+  - No changes needed: temp_reorg\docs\ai\audio\multi_modal_audio_recognition.md
+Processing: temp_reorg\docs\ai\audio\README.md
+  - No changes needed: temp_reorg\docs\ai\audio\README.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\ARCHITECTURE.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\ARCHITECTURE.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\CONTRIBUTING.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\CONTRIBUTING.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\EMOTION_REGULATION.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\EMOTION_REGULATION.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\LICENSE.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\LICENSE.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\README.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\README.md
+Processing: temp_reorg\docs\ai\emotional_intelligence\SELF_AWARENESS.md
+  ✓ Fixed file: temp_reorg\docs\ai\emotional_intelligence\SELF_AWARENESS.md
+Processing: temp_reorg\docs\ai\guides\multilingual_understanding.md
+  ✓ Fixed file: temp_reorg\docs\ai\guides\multilingual_understanding.md
+Processing: temp_reorg\docs\ai\guides\multimodal_integration.md
+  ✓ Fixed file: temp_reorg\docs\ai\guides\multimodal_integration.md
+Processing: temp_reorg\docs\ai\guides\performance_tuning.md
+  ✓ Fixed file: temp_reorg\docs\ai\guides\performance_tuning.md
+Processing: temp_reorg\docs\ai\guides\quantum_circuit_optimization.md
+  ✓ Fixed file: temp_reorg\docs\ai\guides\quantum_circuit_optimization.md
+Processing: temp_reorg\docs\ai\guides\robotics_ai_algorithms.md
+  ✓ Fixed file: temp_reorg\docs\ai\guides\robotics_ai_algorithms.md
+Processing: temp_reorg\docs\ai\guides\robotics_movement.md
+  ✓ Fixed file: temp_reorg\docs\ai\guides\robotics_movement.md
+Processing: temp_reorg\docs\ai\models\bitnet_b158_2b4t.md
+  - No changes needed: temp_reorg\docs\ai\models\bitnet_b158_2b4t.md
+Processing: temp_reorg\docs\ai\multidisciplinary\biology.md
+  ✓ Fixed file: temp_reorg\docs\ai\multidisciplinary\biology.md
+Processing: temp_reorg\docs\ai\multidisciplinary\cosmology.md
+  - No changes needed: temp_reorg\docs\ai\multidisciplinary\cosmology.md
+Processing: temp_reorg\docs\ai\multidisciplinary\fields_of_education.md
+  - No changes needed: temp_reorg\docs\ai\multidisciplinary\fields_of_education.md
+Processing: temp_reorg\docs\ai\multidisciplinary\integration.md
+  ✓ Fixed file: temp_reorg\docs\ai\multidisciplinary\integration.md
+Processing: temp_reorg\docs\ai\multidisciplinary\philosophy.md
+  - No changes needed: temp_reorg\docs\ai\multidisciplinary\philosophy.md
+Processing: temp_reorg\docs\ai\multidisciplinary\psychology.md
+  - No changes needed: temp_reorg\docs\ai\multidisciplinary\psychology.md
+Processing: temp_reorg\docs\ai\multidisciplinary\README.md
+  ✓ Fixed file: temp_reorg\docs\ai\multidisciplinary\README.md
+Processing: temp_reorg\docs\ai\multidisciplinary\sociology.md
+  - No changes needed: temp_reorg\docs\ai\multidisciplinary\sociology.md
+Processing: temp_reorg\docs\ai\security\access_control.md
+  ✓ Fixed file: temp_reorg\docs\ai\security\access_control.md
+Processing: temp_reorg\docs\ai\security\deployment.md
+  ✓ Fixed file: temp_reorg\docs\ai\security\deployment.md
+Processing: temp_reorg\docs\ai\tools\benchmarking.md
+  ✓ Fixed file: temp_reorg\docs\ai\tools\benchmarking.md
+Processing: temp_reorg\docs\ai\virtual_brain\01_architecture_overview.md
+  ✓ Fixed file: temp_reorg\docs\ai\virtual_brain\01_architecture_overview.md
+Processing: temp_reorg\docs\ai\virtual_brain\02_cognitive_functions.md
+  ✓ Fixed file: temp_reorg\docs\ai\virtual_brain\02_cognitive_functions.md
+Processing: temp_reorg\docs\ai\virtual_brain\03_python_implementation.md
+  ✓ Fixed file: temp_reorg\docs\ai\virtual_brain\03_python_implementation.md
+Processing: temp_reorg\docs\ai\vision\multi_category_object_recognition.md
+  ✓ Fixed file: temp_reorg\docs\ai\vision\multi_category_object_recognition.md
+Processing: temp_reorg\docs\ai\ai\guides\multimodal_integration.md
+  ✓ Fixed file: temp_reorg\docs\ai\ai\guides\multimodal_integration.md
+Processing: temp_reorg\docs\ai\ai\guides\quantum_circuit_optimization.md
+  ✓ Fixed file: temp_reorg\docs\ai\ai\guides\quantum_circuit_optimization.md
+Processing: temp_reorg\backend\src\README.md
+  ✓ Fixed file: temp_reorg\backend\src\README.md
+Processing: src\audio\LICENSE.md
+  ✓ Fixed file: src\audio\LICENSE.md
+Processing: src\audio\README.md
+  ✓ Fixed file: src\audio\README.md
+Processing: src\multimodal\README.md
+  ✓ Fixed file: src\multimodal\README.md
+Processing: src\vision\README.md
+  ✓ Fixed file: src\vision\README.md
+Processing: src\multidisciplinary_ai\cosmology\README.md
+  ✓ Fixed file: src\multidisciplinary_ai\cosmology\README.md
+Processing: src\multidisciplinary_ai\improvements\README.md
+  ✓ Fixed file: src\multidisciplinary_ai\improvements\README.md
+Processing: robotics\advanced_system\industry4.0.md
+  - No changes needed: robotics\advanced_system\industry4.0.md
+Processing: robotics\advanced_system\README.md
+  - No changes needed: robotics\advanced_system\README.md
+Processing: robotics\advanced_system\simulation.md
+  - No changes needed: robotics\advanced_system\simulation.md
+Processing: mcp\api\knowledge_api.md
+  ✓ Fixed file: mcp\api\knowledge_api.md
+Processing: mcp\api\README.md
+  ✓ Fixed file: mcp\api\README.md
+Processing: mcp\config\README.md
+  ✓ Fixed file: mcp\config\README.md
+Processing: mcp\vectorization\README.md
+  ✓ Fixed file: mcp\vectorization\README.md
+Processing: examples\emotional_intelligence\README.md
+  ✓ Fixed file: examples\emotional_intelligence\README.md
+Processing: docs\advanced_modules\advanced_engineering_ai.md
+  - No changes needed: docs\advanced_modules\advanced_engineering_ai.md
+Processing: docs\advanced_modules\advanced_engineering_ai_improvements.md
+  - No changes needed: docs\advanced_modules\advanced_engineering_ai_improvements.md
+Processing: docs\advanced_modules\neuromorphic_computing.md
+  ✓ Fixed file: docs\advanced_modules\neuromorphic_computing.md
+Processing: docs\advanced_modules\README.md
+  - No changes needed: docs\advanced_modules\README.md
+Processing: docs\ai\advanced_emotional_ai.md
+  ✓ Fixed file: docs\ai\advanced_emotional_ai.md
+Processing: docs\ai\improvements_module.md
+  ✓ Fixed file: docs\ai\improvements_module.md
+Processing: docs\ai\parallel_processing.md
+  ✓ Fixed file: docs\ai\parallel_processing.md
+Processing: docs\ai\README.md
+  ✓ Fixed file: docs\ai\README.md
+Processing: docs\ai\system_improvement_strategies.md
+  ✓ Fixed file: docs\ai\system_improvement_strategies.md
+Processing: docs\aiops\README.md
+  - No changes needed: docs\aiops\README.md
+Processing: docs\api\audio_recognition_api.md
+  - No changes needed: docs\api\audio_recognition_api.md
+Processing: docs\api\narrow_ai_api.md
+  ✓ Fixed file: docs\api\narrow_ai_api.md
+Processing: docs\api\related_resource.md
+  ✓ Fixed file: docs\api\related_resource.md
+Processing: docs\app\README.md
+  - No changes needed: docs\app\README.md
+Processing: docs\audio\audio_recognition.md
+  - No changes needed: docs\audio\audio_recognition.md
+Processing: docs\audio\README.md
+  - No changes needed: docs\audio\README.md
+Processing: docs\audio\related_resource.md
+  ✓ Fixed file: docs\audio\related_resource.md
+Processing: docs\blockchain\3d_blockchain.md
+  - No changes needed: docs\blockchain\3d_blockchain.md
+Processing: docs\blockchain\layer2_and_defi.md
+  - No changes needed: docs\blockchain\layer2_and_defi.md
+Processing: docs\blockchain\modular_platform.md
+  - No changes needed: docs\blockchain\modular_platform.md
+Processing: docs\blockchain\token_factory.md
+  ✓ Fixed file: docs\blockchain\token_factory.md
+Processing: docs\blockchain\website_blockchain.md
+  - No changes needed: docs\blockchain\website_blockchain.md
+Processing: docs\cad_manufacturing\3d_model_generation.md
+  - No changes needed: docs\cad_manufacturing\3d_model_generation.md
+Processing: docs\cad_manufacturing\3d_printing_export.md
+  - No changes needed: docs\cad_manufacturing\3d_printing_export.md
+Processing: docs\cad_manufacturing\advanced_physics.md
+  - No changes needed: docs\cad_manufacturing\advanced_physics.md
+Processing: docs\cad_manufacturing\cnc_machining_export.md
+  - No changes needed: docs\cad_manufacturing\cnc_machining_export.md
+Processing: docs\cad_manufacturing\fea_analysis.md
+  - No changes needed: docs\cad_manufacturing\fea_analysis.md
+Processing: docs\cad_manufacturing\freecad_automation.md
+  ✓ Fixed file: docs\cad_manufacturing\freecad_automation.md
+Processing: docs\cad_manufacturing\gan_design_generation.md
+  - No changes needed: docs\cad_manufacturing\gan_design_generation.md
+Processing: docs\cad_manufacturing\generative_design.md
+  - No changes needed: docs\cad_manufacturing\generative_design.md
+Processing: docs\cad_manufacturing\genetic_algorithm_optimization.md
+  - No changes needed: docs\cad_manufacturing\genetic_algorithm_optimization.md
+Processing: docs\cad_manufacturing\iot_manufacturing.md
+  - No changes needed: docs\cad_manufacturing\iot_manufacturing.md
+Processing: docs\cad_manufacturing\materials_database.md
+  ✓ Fixed file: docs\cad_manufacturing\materials_database.md
+Processing: docs\cad_manufacturing\multi_material_design.md
+  - No changes needed: docs\cad_manufacturing\multi_material_design.md
+Processing: docs\cad_manufacturing\neural_network_predictions.md
+  - No changes needed: docs\cad_manufacturing\neural_network_predictions.md
+Processing: docs\cad_manufacturing\openscad_automation.md
+  - No changes needed: docs\cad_manufacturing\openscad_automation.md
+Processing: docs\cad_manufacturing\physics_simulation.md
+  ✓ Fixed file: docs\cad_manufacturing\physics_simulation.md
+Processing: docs\cad_manufacturing\README.md
+  ✓ Fixed file: docs\cad_manufacturing\README.md
+Processing: docs\cad_manufacturing\related_resource.md
+  ✓ Fixed file: docs\cad_manufacturing\related_resource.md
+Processing: docs\concepts\advanced_frequency_delivery_technologies.md
+  - No changes needed: docs\concepts\advanced_frequency_delivery_technologies.md
+Processing: docs\concepts\animal_environmental_protection_module.md
+  - No changes needed: docs\concepts\animal_environmental_protection_module.md
+Processing: docs\concepts\experiential_learning_emotional_memory_module.md
+  ✓ Fixed file: docs\concepts\experiential_learning_emotional_memory_module.md
+Processing: docs\concepts\human_genetics_module.md
+  - No changes needed: docs\concepts\human_genetics_module.md
+Processing: docs\concepts\knowledge_base_naming_and_identity.md
+  ✓ Fixed file: docs\concepts\knowledge_base_naming_and_identity.md
+Processing: docs\concepts\non_violence_and_peaceful_resolution_module.md
+  ✓ Fixed file: docs\concepts\non_violence_and_peaceful_resolution_module.md
+Processing: docs\concepts\README.md
+  - No changes needed: docs\concepts\README.md
+Processing: docs\concepts\rife_healing_frequencies_module.md
+  ✓ Fixed file: docs\concepts\rife_healing_frequencies_module.md
+Processing: docs\concepts\species_communication_agriculture_medicine_conservation.md
+  ✓ Fixed file: docs\concepts\species_communication_agriculture_medicine_conservation.md
+Processing: docs\concepts\universal_life_communication_and_improvement_module.md
+  - No changes needed: docs\concepts\universal_life_communication_and_improvement_module.md
+Processing: docs\concepts\universal_scientific_and_technological_advancement.md
+  - No changes needed: docs\concepts\universal_scientific_and_technological_advancement.md
+Processing: docs\deployment\environment.md
+  - No changes needed: docs\deployment\environment.md
+Processing: docs\deployment\README.md
+  ✓ Fixed file: docs\deployment\README.md
+Processing: docs\deployment\related_resource.md
+  ✓ Fixed file: docs\deployment\related_resource.md
+Processing: docs\deployment\troubleshooting.md
+  - No changes needed: docs\deployment\troubleshooting.md
+Processing: docs\desktop\README.md
+  - No changes needed: docs\desktop\README.md
+Processing: docs\devops\README.md
+  - No changes needed: docs\devops\README.md
+Processing: docs\examples\emotional_intelligence.md
+  - No changes needed: docs\examples\emotional_intelligence.md
+Processing: docs\examples\multidisciplinary.md
+  - No changes needed: docs\examples\multidisciplinary.md
+Processing: docs\examples\related_resource.md
+  ✓ Fixed file: docs\examples\related_resource.md
+Processing: docs\guides\multimodal_integration.md
+  - No changes needed: docs\guides\multimodal_integration.md
+Processing: docs\guides\related_resource.md
+  ✓ Fixed file: docs\guides\related_resource.md
+Processing: docs\hardware\related_resource.md
+  ✓ Fixed file: docs\hardware\related_resource.md
+Processing: docs\hardware\sensors.md
+  - No changes needed: docs\hardware\sensors.md
+Processing: docs\iot\README.md
+  ✓ Fixed file: docs\iot\README.md
+Processing: docs\iot\related_resource.md
+  ✓ Fixed file: docs\iot\related_resource.md
+Processing: docs\iot\troubleshooting.md
+  - No changes needed: docs\iot\troubleshooting.md
+Processing: docs\libraries\azure-cognitiveservices-speech.md
+  - No changes needed: docs\libraries\azure-cognitiveservices-speech.md
+Processing: docs\libraries\beautifulsoup4.md
+  - No changes needed: docs\libraries\beautifulsoup4.md
+Processing: docs\libraries\deepl.md
+  - No changes needed: docs\libraries\deepl.md
+Processing: docs\libraries\dlib.md
+  - No changes needed: docs\libraries\dlib.md
+Processing: docs\libraries\face_recognition.md
+  - No changes needed: docs\libraries\face_recognition.md
+Processing: docs\libraries\fairlearn.md
+  - No changes needed: docs\libraries\fairlearn.md
+Processing: docs\libraries\google-api-python-client.md
+  - No changes needed: docs\libraries\google-api-python-client.md
+Processing: docs\libraries\google-cloud-speech.md
+  - No changes needed: docs\libraries\google-cloud-speech.md
+Processing: docs\libraries\googletrans.md
+  - No changes needed: docs\libraries\googletrans.md
+Processing: docs\libraries\gtts.md
+  - No changes needed: docs\libraries\gtts.md
+Processing: docs\libraries\huggingface.md
+  - No changes needed: docs\libraries\huggingface.md
+Processing: docs\libraries\ics.md
+  - No changes needed: docs\libraries\ics.md
+Processing: docs\libraries\imaplib.md
+  - No changes needed: docs\libraries\imaplib.md
+Processing: docs\libraries\keras-rl2.md
+  - No changes needed: docs\libraries\keras-rl2.md
+Processing: docs\libraries\nltk.md
+  - No changes needed: docs\libraries\nltk.md
+Processing: docs\libraries\opencv-python.md
+  - No changes needed: docs\libraries\opencv-python.md
+Processing: docs\libraries\playsound.md
+  - No changes needed: docs\libraries\playsound.md
+Processing: docs\libraries\pyautogui.md
+  - No changes needed: docs\libraries\pyautogui.md
+Processing: docs\libraries\pydub.md
+  - No changes needed: docs\libraries\pydub.md
+Processing: docs\libraries\pyttsx3.md
+  - No changes needed: docs\libraries\pyttsx3.md
+Processing: docs\libraries\qiskit.md
+  - No changes needed: docs\libraries\qiskit.md
+Processing: docs\libraries\README.md
+  - No changes needed: docs\libraries\README.md
+Processing: docs\libraries\related_resource.md
+  ✓ Fixed file: docs\libraries\related_resource.md
+Processing: docs\libraries\scapy.md
+  - No changes needed: docs\libraries\scapy.md
+Processing: docs\libraries\selenium.md
+  ✓ Fixed file: docs\libraries\selenium.md
+Processing: docs\libraries\spacy.md
+  - No changes needed: docs\libraries\spacy.md
+Processing: docs\libraries\speechrecognition.md
+  - No changes needed: docs\libraries\speechrecognition.md
+Processing: docs\libraries\sqlite3.md
+  - No changes needed: docs\libraries\sqlite3.md
+Processing: docs\libraries\tensorflow.md
+  - No changes needed: docs\libraries\tensorflow.md
+Processing: docs\libraries\torch.md
+  - No changes needed: docs\libraries\torch.md
+Processing: docs\libraries\transformers.md
+  - No changes needed: docs\libraries\transformers.md
+Processing: docs\libraries\web3.md
+  - No changes needed: docs\libraries\web3.md
+Processing: docs\libraries\yagmail.md
+  - No changes needed: docs\libraries\yagmail.md
+Processing: docs\machine_learning\data_acquisition.md
+  ✓ Fixed file: docs\machine_learning\data_acquisition.md
+Processing: docs\machine_learning\sample_neural_network.md
+  ✓ Fixed file: docs\machine_learning\sample_neural_network.md
+Processing: docs\manufacturing\3d_printing_export.md
+  - No changes needed: docs\manufacturing\3d_printing_export.md
+Processing: docs\manufacturing\related_resource.md
+  ✓ Fixed file: docs\manufacturing\related_resource.md
+Processing: docs\mlops\README.md
+  - No changes needed: docs\mlops\README.md
+Processing: docs\mobile\README.md
+  ✓ Fixed file: docs\mobile\README.md
+Processing: docs\mobile\related_resource.md
+  ✓ Fixed file: docs\mobile\related_resource.md
+Processing: docs\mobile\troubleshooting.md
+  - No changes needed: docs\mobile\troubleshooting.md
+Processing: docs\quantum_computing\virtual_quantum_computer.md
+  ✓ Fixed file: docs\quantum_computing\virtual_quantum_computer.md
+Processing: docs\robotics\ai_system_enhancements.md
+  - No changes needed: docs\robotics\ai_system_enhancements.md
+Processing: docs\robotics\api.md
+  - No changes needed: docs\robotics\api.md
+Processing: docs\robotics\architecture.md
+  - No changes needed: docs\robotics\architecture.md
+Processing: docs\robotics\CONTRIBUTING.md
+  - No changes needed: docs\robotics\CONTRIBUTING.md
+Processing: docs\robotics\development.md
+  - No changes needed: docs\robotics\development.md
+Processing: docs\robotics\faq.md
+  - No changes needed: docs\robotics\faq.md
+Processing: docs\robotics\human_robot_interaction.md
+  - No changes needed: docs\robotics\human_robot_interaction.md
+Processing: docs\robotics\integration.md
+  - No changes needed: docs\robotics\integration.md
+Processing: docs\robotics\README.md
+  ✓ Fixed file: docs\robotics\README.md
+Processing: docs\robotics\related_resource.md
+  ✓ Fixed file: docs\robotics\related_resource.md
+Processing: docs\robotics\safety_ethics.md
+  - No changes needed: docs\robotics\safety_ethics.md
+Processing: docs\robotics\specs.md
+  - No changes needed: docs\robotics\specs.md
+Processing: docs\robotics\testing.md
+  - No changes needed: docs\robotics\testing.md
+Processing: docs\robotics\troubleshooting.md
+  - No changes needed: docs\robotics\troubleshooting.md
+Processing: docs\security\advanced_analysis.md
+  ✓ Fixed file: docs\security\advanced_analysis.md
+Processing: docs\security\quantum_resistant_cryptography.md
+  ✓ Fixed file: docs\security\quantum_resistant_cryptography.md
+Processing: docs\web\README.md
+  - No changes needed: docs\web\README.md
+Processing: docs\web\apis\api_gateway.md
+  - No changes needed: docs\web\apis\api_gateway.md
+Processing: docs\web\apis\graphql.md
+  ✓ Fixed file: docs\web\apis\graphql.md
+Processing: docs\web\apis\related_resource.md
+  ✓ Fixed file: docs\web\apis\related_resource.md
+Processing: docs\web\apis\rest_api.md
+  ✓ Fixed file: docs\web\apis\rest_api.md
+Processing: docs\web\client_server\architecture.md
+  ✓ Fixed file: docs\web\client_server\architecture.md
+Processing: docs\web\databases\database_overview.md
+  ✓ Fixed file: docs\web\databases\database_overview.md
+Processing: docs\web\databases\overview.md
+  ✓ Fixed file: docs\web\databases\overview.md
+Processing: docs\web\networking\dns.md
+  ✓ Fixed file: docs\web\networking\dns.md
+Processing: docs\web\networking\http.md
+  ✓ Fixed file: docs\web\networking\http.md
+Processing: docs\web\networking\ip_address.md
+  ✓ Fixed file: docs\web\networking\ip_address.md
+Processing: docs\web\networking\proxy.md
+  - No changes needed: docs\web\networking\proxy.md
+Processing: docs\web\networking\related_resource.md
+  ✓ Fixed file: docs\web\networking\related_resource.md
+Processing: docs\web\performance\denormalization.md
+  - No changes needed: docs\web\performance\denormalization.md
+Processing: docs\web\performance\related_resource.md
+  ✓ Fixed file: docs\web\performance\related_resource.md
+Processing: docs\web\php\README.md
+  ✓ Fixed file: docs\web\php\README.md
+Processing: docs\web\security\authentication.md
+  - No changes needed: docs\web\security\authentication.md
+Processing: docs\web\security\related_resource.md
+  ✓ Fixed file: docs\web\security\related_resource.md
+Processing: docs\web\security\security.md
+  - No changes needed: docs\web\security\security.md
+Processing: docs\web\system_design\api_gateway.md
+  ✓ Fixed file: docs\web\system_design\api_gateway.md
+Processing: docs\web\system_design\blob_storage.md
+  ✓ Fixed file: docs\web\system_design\blob_storage.md
+Processing: docs\web\system_design\cache.md
+  ✓ Fixed file: docs\web\system_design\cache.md
+Processing: docs\web\system_design\caching.md
+  ✓ Fixed file: docs\web\system_design\caching.md
+Processing: docs\web\system_design\cap_theorem.md
+  ✓ Fixed file: docs\web\system_design\cap_theorem.md
+Processing: docs\web\system_design\cdn.md
+  ✓ Fixed file: docs\web\system_design\cdn.md
+Processing: docs\web\system_design\denormalization.md
+  ✓ Fixed file: docs\web\system_design\denormalization.md
+Processing: docs\web\system_design\idempotency.md
+  ✓ Fixed file: docs\web\system_design\idempotency.md
+Processing: docs\web\system_design\latency.md
+  ✓ Fixed file: docs\web\system_design\latency.md
+Processing: docs\web\system_design\load_balancer.md
+  ✓ Fixed file: docs\web\system_design\load_balancer.md
+Processing: docs\web\system_design\message_queue.md
+  ✓ Fixed file: docs\web\system_design\message_queue.md
+Processing: docs\web\system_design\microservices.md
+  ✓ Fixed file: docs\web\system_design\microservices.md
+Processing: docs\web\system_design\proxy.md
+  ✓ Fixed file: docs\web\system_design\proxy.md
+Processing: docs\web\system_design\rate_limiting.md
+  ✓ Fixed file: docs\web\system_design\rate_limiting.md
+Processing: docs\web\system_design\replication.md
+  ✓ Fixed file: docs\web\system_design\replication.md
+Processing: docs\web\system_design\sharding.md
+  ✓ Fixed file: docs\web\system_design\sharding.md
+Processing: docs\web\system_design\sql_vs_nosql.md
+  ✓ Fixed file: docs\web\system_design\sql_vs_nosql.md
+Processing: docs\web\system_design\vertical_partitioning.md
+  ✓ Fixed file: docs\web\system_design\vertical_partitioning.md
+Processing: docs\web\system_design\vertical_scaling.md
+  ✓ Fixed file: docs\web\system_design\vertical_scaling.md
+Processing: docs\web\system_design\websockets.md
+  ✓ Fixed file: docs\web\system_design\websockets.md
+Processing: docs\web\php\contributing\documentation.md
+  - No changes needed: docs\web\php\contributing\documentation.md
+Processing: docs\web\php\contributing\pull_requests.md
+  - No changes needed: docs\web\php\contributing\pull_requests.md
+Processing: docs\web\php\contributing\related_resource.md
+  ✓ Fixed file: docs\web\php\contributing\related_resource.md
+Processing: docs\web\php\contributing\setup.md
+  - No changes needed: docs\web\php\contributing\setup.md
+Processing: docs\web\php\contributing\standards.md
+  - No changes needed: docs\web\php\contributing\standards.md
+Processing: docs\web\php\contributing\testing.md
+  - No changes needed: docs\web\php\contributing\testing.md
+Processing: docs\web\php\references\api_reference.md
+  - No changes needed: docs\web\php\references\api_reference.md
+Processing: docs\web\php\references\performance_guide.md
+  - No changes needed: docs\web\php\references\performance_guide.md
+Processing: docs\web\php\references\php_standards.md
+  - No changes needed: docs\web\php\references\php_standards.md
+Processing: docs\web\php\references\related_resource.md
+  ✓ Fixed file: docs\web\php\references\related_resource.md
+Processing: docs\web\php\references\security_guide.md
+  - No changes needed: docs\web\php\references\security_guide.md
+Processing: docs\web\php\references\template_guide.md
+  - No changes needed: docs\web\php\references\template_guide.md
+Processing: docs\robotics\advanced_system\13_star_sign_calendar.md
+  ✓ Fixed file: docs\robotics\advanced_system\13_star_sign_calendar.md
+Processing: docs\robotics\advanced_system\advanced_abilities.md
+  ✓ Fixed file: docs\robotics\advanced_system\advanced_abilities.md
+Processing: docs\robotics\advanced_system\advanced_system.md
+  - No changes needed: docs\robotics\advanced_system\advanced_system.md
+Processing: docs\robotics\advanced_system\ai_ml_integration.md
+  ✓ Fixed file: docs\robotics\advanced_system\ai_ml_integration.md
+Processing: docs\robotics\advanced_system\architecture.md
+  ✓ Fixed file: docs\robotics\advanced_system\architecture.md
+Processing: docs\robotics\advanced_system\asynchronous_operations.md
+  - No changes needed: docs\robotics\advanced_system\asynchronous_operations.md
+Processing: docs\robotics\advanced_system\bio_mimicry.md
+  - No changes needed: docs\robotics\advanced_system\bio_mimicry.md
+Processing: docs\robotics\advanced_system\blockchain_integration.md
+  ✓ Fixed file: docs\robotics\advanced_system\blockchain_integration.md
+Processing: docs\robotics\advanced_system\cad_and_manufacturing.md
+  ✓ Fixed file: docs\robotics\advanced_system\cad_and_manufacturing.md
+Processing: docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+  ✓ Fixed file: docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+Processing: docs\robotics\advanced_system\connectivity_and_communication.md
+  - No changes needed: docs\robotics\advanced_system\connectivity_and_communication.md
+Processing: docs\robotics\advanced_system\consciousness_algorithms.md
+  - No changes needed: docs\robotics\advanced_system\consciousness_algorithms.md
+Processing: docs\robotics\advanced_system\continuous_learning.md
+  - No changes needed: docs\robotics\advanced_system\continuous_learning.md
+Processing: docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+  - No changes needed: docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+Processing: docs\robotics\advanced_system\disaster_recovery_and_backup.md
+  - No changes needed: docs\robotics\advanced_system\disaster_recovery_and_backup.md
+Processing: docs\robotics\advanced_system\emotional_intelligence.md
+  ✓ Fixed file: docs\robotics\advanced_system\emotional_intelligence.md
+Processing: docs\robotics\advanced_system\energy_management.md
+  ✓ Fixed file: docs\robotics\advanced_system\energy_management.md
+Processing: docs\robotics\advanced_system\ethics_and_compliance.md
+  - No changes needed: docs\robotics\advanced_system\ethics_and_compliance.md
+Processing: docs\robotics\advanced_system\holographic_projection_and_interaction.md
+  - No changes needed: docs\robotics\advanced_system\holographic_projection_and_interaction.md
+Processing: docs\robotics\advanced_system\human_robot_interaction.md
+  - No changes needed: docs\robotics\advanced_system\human_robot_interaction.md
+Processing: docs\robotics\advanced_system\industry4.0.md
+  - No changes needed: docs\robotics\advanced_system\industry4.0.md
+Processing: docs\robotics\advanced_system\integrative_knowledge_graph.md
+  - No changes needed: docs\robotics\advanced_system\integrative_knowledge_graph.md
+Processing: docs\robotics\advanced_system\modularity_and_customization.md
+  - No changes needed: docs\robotics\advanced_system\modularity_and_customization.md
+Processing: docs\robotics\advanced_system\molecular_self_healing.md
+  ✓ Fixed file: docs\robotics\advanced_system\molecular_self_healing.md
+Processing: docs\robotics\advanced_system\multisensory_robotics.md
+  ✓ Fixed file: docs\robotics\advanced_system\multisensory_robotics.md
+Processing: docs\robotics\advanced_system\multi_energy_harvesting.md
+  ✓ Fixed file: docs\robotics\advanced_system\multi_energy_harvesting.md
+Processing: docs\robotics\advanced_system\naming_conventions.md
+  - No changes needed: docs\robotics\advanced_system\naming_conventions.md
+Processing: docs\robotics\advanced_system\nanotechnology_integration.md
+  - No changes needed: docs\robotics\advanced_system\nanotechnology_integration.md
+Processing: docs\robotics\advanced_system\power_saving_self_sustaining.md
+  - No changes needed: docs\robotics\advanced_system\power_saving_self_sustaining.md
+Processing: docs\robotics\advanced_system\quantum_drive_and_thought.md
+  ✓ Fixed file: docs\robotics\advanced_system\quantum_drive_and_thought.md
+Processing: docs\robotics\advanced_system\quantum_temporal_mapping.md
+  ✓ Fixed file: docs\robotics\advanced_system\quantum_temporal_mapping.md
+Processing: docs\robotics\advanced_system\README.md
+  - No changes needed: docs\robotics\advanced_system\README.md
+Processing: docs\robotics\advanced_system\related_resource.md
+  ✓ Fixed file: docs\robotics\advanced_system\related_resource.md
+Processing: docs\robotics\advanced_system\sanskrit_style_reorganization.md
+  ✓ Fixed file: docs\robotics\advanced_system\sanskrit_style_reorganization.md
+Processing: docs\robotics\advanced_system\self_awareness.md
+  ✓ Fixed file: docs\robotics\advanced_system\self_awareness.md
+Processing: docs\robotics\advanced_system\self_healing.md
+  ✓ Fixed file: docs\robotics\advanced_system\self_healing.md
+Processing: docs\robotics\advanced_system\self_improvement.md
+  - No changes needed: docs\robotics\advanced_system\self_improvement.md
+Processing: docs\robotics\advanced_system\self_powering_and_regeneration.md
+  ✓ Fixed file: docs\robotics\advanced_system\self_powering_and_regeneration.md
+Processing: docs\robotics\advanced_system\self_replication.md
+  - No changes needed: docs\robotics\advanced_system\self_replication.md
+Processing: docs\robotics\advanced_system\simulation.md
+  - No changes needed: docs\robotics\advanced_system\simulation.md
+Processing: docs\robotics\advanced_system\speculative_abilities.md
+  ✓ Fixed file: docs\robotics\advanced_system\speculative_abilities.md
+Processing: docs\robotics\advanced_system\streamlined_architecture.md
+  - No changes needed: docs\robotics\advanced_system\streamlined_architecture.md
+Processing: docs\robotics\advanced_system\swarm_robotics.md
+  - No changes needed: docs\robotics\advanced_system\swarm_robotics.md
+Processing: docs\robotics\advanced_system\testing.md
+  - No changes needed: docs\robotics\advanced_system\testing.md
+Processing: docs\robotics\advanced_system\theoretical_abilities.md
+  ✓ Fixed file: docs\robotics\advanced_system\theoretical_abilities.md
+Processing: docs\robotics\advanced_system\time_crystal_integration.md
+  - No changes needed: docs\robotics\advanced_system\time_crystal_integration.md
+Processing: docs\robotics\advanced_system\TROUBLESHOOTING.md
+  - No changes needed: docs\robotics\advanced_system\TROUBLESHOOTING.md
+Processing: docs\robotics\advanced_system\ui_ux.md
+  ✓ Fixed file: docs\robotics\advanced_system\ui_ux.md
+Processing: docs\robotics\advanced_system\unified_knowledge_architecture.md
+  - No changes needed: docs\robotics\advanced_system\unified_knowledge_architecture.md
+Processing: docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+  ✓ Fixed file: docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+Processing: docs\robotics\ai\README.md
+  - No changes needed: docs\robotics\ai\README.md
+Processing: docs\robotics\api\.md
+  ✓ Fixed file: docs\robotics\api\.md
+Processing: docs\robotics\control\README.md
+  - No changes needed: docs\robotics\control\README.md
+Processing: docs\robotics\examples\README.md
+  - No changes needed: docs\robotics\examples\README.md
+Processing: docs\robotics\movement\README.md
+  - No changes needed: docs\robotics\movement\README.md
+Processing: docs\robotics\perception\README.md
+  - No changes needed: docs\robotics\perception\README.md
+Processing: docs\robotics\perception\vision_systems.md
+  ✓ Fixed file: docs\robotics\perception\vision_systems.md
+Processing: docs\robotics\specs\.md
+  ✓ Fixed file: docs\robotics\specs\.md
+Processing: docs\robotics\advanced_system\ai\README.md
+  - No changes needed: docs\robotics\advanced_system\ai\README.md
+Processing: docs\robotics\advanced_system\control\README.md
+  ✓ Fixed file: docs\robotics\advanced_system\control\README.md
+Processing: docs\robotics\advanced_system\deployment\README.md
+  - No changes needed: docs\robotics\advanced_system\deployment\README.md
+Processing: docs\robotics\advanced_system\energy\README.md
+  ✓ Fixed file: docs\robotics\advanced_system\energy\README.md
+Processing: docs\robotics\advanced_system\hardware\README.md
+  - No changes needed: docs\robotics\advanced_system\hardware\README.md
+Processing: docs\robotics\advanced_system\learning\README.md
+  - No changes needed: docs\robotics\advanced_system\learning\README.md
+Processing: docs\robotics\advanced_system\navigation\README.md
+  - No changes needed: docs\robotics\advanced_system\navigation\README.md
+Processing: docs\robotics\advanced_system\networking\README.md
+  - No changes needed: docs\robotics\advanced_system\networking\README.md
+Processing: docs\robotics\advanced_system\perception\depth_estimation.md
+  ✓ Fixed file: docs\robotics\advanced_system\perception\depth_estimation.md
+Processing: docs\robotics\advanced_system\perception\README.md
+  ✓ Fixed file: docs\robotics\advanced_system\perception\README.md
+Processing: docs\robotics\advanced_system\perception\sensor_fusion.md
+  - No changes needed: docs\robotics\advanced_system\perception\sensor_fusion.md
+Processing: docs\robotics\advanced_system\safety_ethics\README.md
+  - No changes needed: docs\robotics\advanced_system\safety_ethics\README.md
+Processing: docs\robotics\advanced_system\security\README.md
+  - No changes needed: docs\robotics\advanced_system\security\README.md
+Processing: docs\robotics\advanced_system\software\README.md
+  ✓ Fixed file: docs\robotics\advanced_system\software\README.md
+Processing: docs\robotics\advanced_system\testing\README.md
+  - No changes needed: docs\robotics\advanced_system\testing\README.md
+Processing: docs\robotics\advanced_system\ui_ux\README.md
+  ✓ Fixed file: docs\robotics\advanced_system\ui_ux\README.md
+Processing: docs\mobile\contributing\coding-standards.md
+  - No changes needed: docs\mobile\contributing\coding-standards.md
+Processing: docs\mobile\contributing\development-setup.md
+  - No changes needed: docs\mobile\contributing\development-setup.md
+Processing: docs\mobile\contributing\documentation.md
+  - No changes needed: docs\mobile\contributing\documentation.md
+Processing: docs\mobile\contributing\related_resource.md
+  ✓ Fixed file: docs\mobile\contributing\related_resource.md
+Processing: docs\mobile\contributing\testing.md
+  - No changes needed: docs\mobile\contributing\testing.md
+Processing: docs\mobile\cross-platform\flutter.md
+  - No changes needed: docs\mobile\cross-platform\flutter.md
+Processing: docs\mobile\cross-platform\react-native.md
+  - No changes needed: docs\mobile\cross-platform\react-native.md
+Processing: docs\mobile\cross-platform\related_resource.md
+  ✓ Fixed file: docs\mobile\cross-platform\related_resource.md
+Processing: docs\mobile\examples\knowledge-browser.md
+  - No changes needed: docs\mobile\examples\knowledge-browser.md
+Processing: docs\mobile\examples\multimodal-capture.md
+  - No changes needed: docs\mobile\examples\multimodal-capture.md
+Processing: docs\mobile\examples\offline-viewer.md
+  - No changes needed: docs\mobile\examples\offline-viewer.md
+Processing: docs\mobile\examples\related_resource.md
+  ✓ Fixed file: docs\mobile\examples\related_resource.md
+Processing: docs\mobile\native\android.md
+  - No changes needed: docs\mobile\native\android.md
+Processing: docs\mobile\native\ios.md
+  - No changes needed: docs\mobile\native\ios.md
+Processing: docs\mobile\native\related_resource.md
+  ✓ Fixed file: docs\mobile\native\related_resource.md
+Processing: docs\mobile\performance\memory-management.md
+  - No changes needed: docs\mobile\performance\memory-management.md
+Processing: docs\mobile\performance\offline-support.md
+  - No changes needed: docs\mobile\performance\offline-support.md
+Processing: docs\mobile\performance\optimization.md
+  - No changes needed: docs\mobile\performance\optimization.md
+Processing: docs\mobile\performance\related_resource.md
+  ✓ Fixed file: docs\mobile\performance\related_resource.md
+Processing: docs\mobile\references\api-docs.md
+  - No changes needed: docs\mobile\references\api-docs.md
+Processing: docs\mobile\references\backend-integration.md
+  - No changes needed: docs\mobile\references\backend-integration.md
+Processing: docs\mobile\references\component-library.md
+  - No changes needed: docs\mobile\references\component-library.md
+Processing: docs\mobile\references\related_resource.md
+  ✓ Fixed file: docs\mobile\references\related_resource.md
+Processing: docs\mobile\references\standards.md
+  - No changes needed: docs\mobile\references\standards.md
+Processing: docs\mobile\security\authentication.md
+  - No changes needed: docs\mobile\security\authentication.md
+Processing: docs\mobile\security\encryption.md
+  - No changes needed: docs\mobile\security\encryption.md
+Processing: docs\mobile\security\related_resource.md
+  ✓ Fixed file: docs\mobile\security\related_resource.md
+Processing: docs\mobile\security\secure-storage.md
+  - No changes needed: docs\mobile\security\secure-storage.md
+Processing: docs\mobile\ui-ux\accessibility.md
+  - No changes needed: docs\mobile\ui-ux\accessibility.md
+Processing: docs\mobile\ui-ux\component-library.md
+  - No changes needed: docs\mobile\ui-ux\component-library.md
+Processing: docs\mobile\ui-ux\design-principles.md
+  - No changes needed: docs\mobile\ui-ux\design-principles.md
+Processing: docs\mobile\ui-ux\related_resource.md
+  ✓ Fixed file: docs\mobile\ui-ux\related_resource.md
+Processing: docs\machine_learning\audio_recognition\audio_recognition_guide.md
+  ✓ Fixed file: docs\machine_learning\audio_recognition\audio_recognition_guide.md
+Processing: docs\machine_learning\multimodal\unified_recognition_guide.md
+  ✓ Fixed file: docs\machine_learning\multimodal\unified_recognition_guide.md
+Processing: docs\machine_learning\training\related_resource.md
+  ✓ Fixed file: docs\machine_learning\training\related_resource.md
+Processing: docs\machine_learning\training\training_guide.md
+  - No changes needed: docs\machine_learning\training\training_guide.md
+Processing: docs\machine_learning\vision_recognition\related_resource.md
+  ✓ Fixed file: docs\machine_learning\vision_recognition\related_resource.md
+Processing: docs\machine_learning\vision_recognition\vision_recognition_guide.md
+  - No changes needed: docs\machine_learning\vision_recognition\vision_recognition_guide.md
+Processing: docs\machine_learning\workflow\build_train_model.md
+  - No changes needed: docs\machine_learning\workflow\build_train_model.md
+Processing: docs\machine_learning\workflow\data_acquisition.md
+  ✓ Fixed file: docs\machine_learning\workflow\data_acquisition.md
+Processing: docs\machine_learning\workflow\deployment.md
+  - No changes needed: docs\machine_learning\workflow\deployment.md
+Processing: docs\machine_learning\workflow\evaluate_performance.md
+  ✓ Fixed file: docs\machine_learning\workflow\evaluate_performance.md
+Processing: docs\machine_learning\workflow\hyperparameter_tuning.md
+  ✓ Fixed file: docs\machine_learning\workflow\hyperparameter_tuning.md
+Processing: docs\machine_learning\workflow\preprocessing.md
+  ✓ Fixed file: docs\machine_learning\workflow\preprocessing.md
+Processing: docs\machine_learning\workflow\related_resource.md
+  ✓ Fixed file: docs\machine_learning\workflow\related_resource.md
+Processing: docs\machine_learning\workflow\splitting_the_data.md
+  - No changes needed: docs\machine_learning\workflow\splitting_the_data.md
+Processing: docs\iot\contributing\documentation.md
+  - No changes needed: docs\iot\contributing\documentation.md
+Processing: docs\iot\contributing\pull_requests.md
+  - No changes needed: docs\iot\contributing\pull_requests.md
+Processing: docs\iot\contributing\related_resource.md
+  ✓ Fixed file: docs\iot\contributing\related_resource.md
+Processing: docs\iot\contributing\setup.md
+  - No changes needed: docs\iot\contributing\setup.md
+Processing: docs\iot\contributing\style_guide.md
+  - No changes needed: docs\iot\contributing\style_guide.md
+Processing: docs\iot\contributing\testing.md
+  - No changes needed: docs\iot\contributing\testing.md
+Processing: docs\iot\device_management\configuration.md
+  - No changes needed: docs\iot\device_management\configuration.md
+Processing: docs\iot\device_management\discovery.md
+  - No changes needed: docs\iot\device_management\discovery.md
+Processing: docs\iot\device_management\firmware.md
+  - No changes needed: docs\iot\device_management\firmware.md
+Processing: docs\iot\device_management\monitoring.md
+  - No changes needed: docs\iot\device_management\monitoring.md
+Processing: docs\iot\device_management\registration.md
+  - No changes needed: docs\iot\device_management\registration.md
+Processing: docs\iot\device_management\related_resource.md
+  ✓ Fixed file: docs\iot\device_management\related_resource.md
+Processing: docs\iot\edge_computing\analytics.md
+  - No changes needed: docs\iot\edge_computing\analytics.md
+Processing: docs\iot\edge_computing\processing.md
+  - No changes needed: docs\iot\edge_computing\processing.md
+Processing: docs\iot\edge_computing\related_resource.md
+  ✓ Fixed file: docs\iot\edge_computing\related_resource.md
+Processing: docs\iot\edge_computing\resource_management.md
+  - No changes needed: docs\iot\edge_computing\resource_management.md
+Processing: docs\iot\edge_computing\storage.md
+  - No changes needed: docs\iot\edge_computing\storage.md
+Processing: docs\iot\edge_computing\synchronization.md
+  - No changes needed: docs\iot\edge_computing\synchronization.md
+Processing: docs\iot\protocols\amqp.md
+  - No changes needed: docs\iot\protocols\amqp.md
+Processing: docs\iot\protocols\coap.md
+  - No changes needed: docs\iot\protocols\coap.md
+Processing: docs\iot\protocols\http.md
+  - No changes needed: docs\iot\protocols\http.md
+Processing: docs\iot\protocols\mqtt.md
+  - No changes needed: docs\iot\protocols\mqtt.md
+Processing: docs\iot\protocols\related_resource.md
+  ✓ Fixed file: docs\iot\protocols\related_resource.md
+Processing: docs\iot\protocols\websockets.md
+  - No changes needed: docs\iot\protocols\websockets.md
+Processing: docs\iot\references\data_formats.md
+  - No changes needed: docs\iot\references\data_formats.md
+Processing: docs\iot\references\device_management.md
+  - No changes needed: docs\iot\references\device_management.md
+Processing: docs\iot\references\edge_computing.md
+  - No changes needed: docs\iot\references\edge_computing.md
+Processing: docs\iot\references\protocol_specs.md
+  - No changes needed: docs\iot\references\protocol_specs.md
+Processing: docs\iot\references\related_resource.md
+  ✓ Fixed file: docs\iot\references\related_resource.md
+Processing: docs\iot\references\security_standards.md
+  - No changes needed: docs\iot\references\security_standards.md
+Processing: docs\iot\security\authentication.md
+  - No changes needed: docs\iot\security\authentication.md
+Processing: docs\iot\security\authorization.md
+  - No changes needed: docs\iot\security\authorization.md
+Processing: docs\iot\security\encryption.md
+  - No changes needed: docs\iot\security\encryption.md
+Processing: docs\iot\security\intrusion_detection.md
+  - No changes needed: docs\iot\security\intrusion_detection.md
+Processing: docs\iot\security\key_management.md
+  - No changes needed: docs\iot\security\key_management.md
+Processing: docs\iot\security\related_resource.md
+  ✓ Fixed file: docs\iot\security\related_resource.md
+Processing: docs\iot\security\secure_boot.md
+  - No changes needed: docs\iot\security\secure_boot.md
+Processing: docs\iot\sensors\calibration.md
+  - No changes needed: docs\iot\sensors\calibration.md
+Processing: docs\iot\sensors\data_collection.md
+  - No changes needed: docs\iot\sensors\data_collection.md
+Processing: docs\iot\sensors\fusion.md
+  - No changes needed: docs\iot\sensors\fusion.md
+Processing: docs\iot\sensors\related_resource.md
+  ✓ Fixed file: docs\iot\sensors\related_resource.md
+Processing: docs\iot\sensors\types.md
+  - No changes needed: docs\iot\sensors\types.md
+Processing: docs\iot\sensors\validation.md
+  - No changes needed: docs\iot\sensors\validation.md
+Processing: docs\examples\emotional_intelligence\.md
+  ✓ Fixed file: docs\examples\emotional_intelligence\.md
+Processing: docs\examples\emotional_intelligence\demo_emotional_ai.md
+  - No changes needed: docs\examples\emotional_intelligence\demo_emotional_ai.md
+Processing: docs\examples\emotional_intelligence\related_resource.md
+  ✓ Fixed file: docs\examples\emotional_intelligence\related_resource.md
+Processing: docs\examples\multidisciplinary\.md
+  ✓ Fixed file: docs\examples\multidisciplinary\.md
+Processing: docs\deployment\ci_cd\README.md
+  - No changes needed: docs\deployment\ci_cd\README.md
+Processing: docs\deployment\containerization\README.md
+  ✓ Fixed file: docs\deployment\containerization\README.md
+Processing: docs\deployment\iac\README.md
+  - No changes needed: docs\deployment\iac\README.md
+Processing: docs\deployment\mlops\README.md
+  - No changes needed: docs\deployment\mlops\README.md
+Processing: docs\deployment\platforms\README.md
+  - No changes needed: docs\deployment\platforms\README.md
+Processing: docs\deployment\security\README.md
+  - No changes needed: docs\deployment\security\README.md
+Processing: docs\ai\accelerators\time_crystal_module.md
+  ✓ Fixed file: docs\ai\accelerators\time_crystal_module.md
+Processing: docs\ai\advanced_components\cosmology.md
+  - No changes needed: docs\ai\advanced_components\cosmology.md
+Processing: docs\ai\advanced_components\privacy_preservation.md
+  ✓ Fixed file: docs\ai\advanced_components\privacy_preservation.md
+Processing: docs\ai\applications\narrow_ai_quantum.md
+  ✓ Fixed file: docs\ai\applications\narrow_ai_quantum.md
+Processing: docs\ai\architecture\system_design.md
+  ✓ Fixed file: docs\ai\architecture\system_design.md
+Processing: docs\ai\audio\audio_module_api.md
+  ✓ Fixed file: docs\ai\audio\audio_module_api.md
+Processing: docs\ai\audio\audio_module_architecture.md
+  ✓ Fixed file: docs\ai\audio\audio_module_architecture.md
+Processing: docs\ai\audio\audio_module_examples.md
+  - No changes needed: docs\ai\audio\audio_module_examples.md
+Processing: docs\ai\audio\LICENSE.md
+  - No changes needed: docs\ai\audio\LICENSE.md
+Processing: docs\ai\audio\multi_modal_audio_recognition.md
+  ✓ Fixed file: docs\ai\audio\multi_modal_audio_recognition.md
+Processing: docs\ai\audio\README.md
+  - No changes needed: docs\ai\audio\README.md
+Processing: docs\ai\audio\related_resource.md
+  ✓ Fixed file: docs\ai\audio\related_resource.md
+Processing: docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+Processing: docs\ai\emotional_intelligence\ARCHITECTURE.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\ARCHITECTURE.md
+Processing: docs\ai\emotional_intelligence\CONTRIBUTING.md
+  - No changes needed: docs\ai\emotional_intelligence\CONTRIBUTING.md
+Processing: docs\ai\emotional_intelligence\EMOTION_REGULATION.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\EMOTION_REGULATION.md
+Processing: docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+Processing: docs\ai\emotional_intelligence\LICENSE.md
+  - No changes needed: docs\ai\emotional_intelligence\LICENSE.md
+Processing: docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+Processing: docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+Processing: docs\ai\emotional_intelligence\README.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\README.md
+Processing: docs\ai\emotional_intelligence\related_resource.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\related_resource.md
+Processing: docs\ai\emotional_intelligence\SELF_AWARENESS.md
+  ✓ Fixed file: docs\ai\emotional_intelligence\SELF_AWARENESS.md
+Processing: docs\ai\guides\multilingual_understanding.md
+  ✓ Fixed file: docs\ai\guides\multilingual_understanding.md
+Processing: docs\ai\guides\multimodal_integration.md
+  ✓ Fixed file: docs\ai\guides\multimodal_integration.md
+Processing: docs\ai\guides\performance_tuning.md
+  - No changes needed: docs\ai\guides\performance_tuning.md
+Processing: docs\ai\guides\quantum_circuit_optimization.md
+  ✓ Fixed file: docs\ai\guides\quantum_circuit_optimization.md
+Processing: docs\ai\guides\related_resource.md
+  ✓ Fixed file: docs\ai\guides\related_resource.md
+Processing: docs\ai\guides\robotics_ai_algorithms.md
+  - No changes needed: docs\ai\guides\robotics_ai_algorithms.md
+Processing: docs\ai\guides\robotics_movement.md
+  - No changes needed: docs\ai\guides\robotics_movement.md
+Processing: docs\ai\models\bitnet_b158_2b4t.md
+  ✓ Fixed file: docs\ai\models\bitnet_b158_2b4t.md
+Processing: docs\ai\multidisciplinary\biology.md
+  ✓ Fixed file: docs\ai\multidisciplinary\biology.md
+Processing: docs\ai\multidisciplinary\cosmology.md
+  ✓ Fixed file: docs\ai\multidisciplinary\cosmology.md
+Processing: docs\ai\multidisciplinary\fields_of_education.md
+  - No changes needed: docs\ai\multidisciplinary\fields_of_education.md
+Processing: docs\ai\multidisciplinary\integration.md
+  ✓ Fixed file: docs\ai\multidisciplinary\integration.md
+Processing: docs\ai\multidisciplinary\philosophy.md
+  ✓ Fixed file: docs\ai\multidisciplinary\philosophy.md
+Processing: docs\ai\multidisciplinary\psychology.md
+  ✓ Fixed file: docs\ai\multidisciplinary\psychology.md
+Processing: docs\ai\multidisciplinary\README.md
+  ✓ Fixed file: docs\ai\multidisciplinary\README.md
+Processing: docs\ai\multidisciplinary\sociology.md
+  ✓ Fixed file: docs\ai\multidisciplinary\sociology.md
+Processing: docs\ai\security\access_control.md
+  - No changes needed: docs\ai\security\access_control.md
+Processing: docs\ai\security\deployment.md
+  - No changes needed: docs\ai\security\deployment.md
+Processing: docs\ai\security\related_resource.md
+  ✓ Fixed file: docs\ai\security\related_resource.md
+Processing: docs\ai\tools\benchmarking.md
+  - No changes needed: docs\ai\tools\benchmarking.md
+Processing: docs\ai\tools\related_resource.md
+  ✓ Fixed file: docs\ai\tools\related_resource.md
+Processing: docs\ai\virtual_brain\01_architecture_overview.md
+  ✓ Fixed file: docs\ai\virtual_brain\01_architecture_overview.md
+Processing: docs\ai\virtual_brain\02_cognitive_functions.md
+  ✓ Fixed file: docs\ai\virtual_brain\02_cognitive_functions.md
+Processing: docs\ai\virtual_brain\03_python_implementation.md
+  ✓ Fixed file: docs\ai\virtual_brain\03_python_implementation.md
+Processing: docs\ai\vision\multi_category_object_recognition.md
+  ✓ Fixed file: docs\ai\vision\multi_category_object_recognition.md
+Processing: docs\ai\tools\benchmarking\.md
+  ✓ Fixed file: docs\ai\tools\benchmarking\.md
+Processing: docs\ai\multidisciplinary\biology\README.md
+  - No changes needed: docs\ai\multidisciplinary\biology\README.md
+Processing: docs\ai\multidisciplinary\cosmology\README.md
+  - No changes needed: docs\ai\multidisciplinary\cosmology\README.md
+Processing: docs\ai\multidisciplinary\philosophy\README.md
+  - No changes needed: docs\ai\multidisciplinary\philosophy\README.md
+Processing: docs\ai\multidisciplinary\psychology\README.md
+  - No changes needed: docs\ai\multidisciplinary\psychology\README.md
+Processing: docs\ai\multidisciplinary\sociology\README.md
+  - No changes needed: docs\ai\multidisciplinary\sociology\README.md
+Processing: docs\ai\ai\guides\multimodal_integration.md
+  - No changes needed: docs\ai\ai\guides\multimodal_integration.md
+Processing: docs\ai\ai\guides\quantum_circuit_optimization.md
+  - No changes needed: docs\ai\ai\guides\quantum_circuit_optimization.md
+Processing: docs\ai\ai\guides\related_resource.md
+  ✓ Fixed file: docs\ai\ai\guides\related_resource.md
+Processing: backend\src\networking.md
+  ✓ Fixed file: backend\src\networking.md
+Processing: backend\src\README.md
+  ✓ Fixed file: backend\src\README.md
+Processing: anthropic\templates\anthropic_document_template.md
+  ✓ Fixed file: anthropic\templates\anthropic_document_template.md
+Processing: anthropic\templates\constitutional_assessment_template.md
+  ✓ Fixed file: anthropic\templates\constitutional_assessment_template.md
+Processing: ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+  ✓ Fixed file: ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+Processing: ai\guides\multimodal_integration.md
+  ✓ Fixed file: ai\guides\multimodal_integration.md
+
+=== Summary ===
+Total files processed: 1130
+Files fixed: 582
+Files with errors: 0
+Files skipped: 548
+
+Specific fixes applied:
+- Frontmatter fields added: 717
+- Version format fixed: 176
+- Code block syntax fixed: 399
+- Links fixed: 544
+
+Completed at: 2025-07-05 04:46:46

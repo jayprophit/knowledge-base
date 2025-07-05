@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - caching
-  - system_design
-  - performance
+- caching
+- system_design
+- performance
 relationships:
   prerequisites: []
   successors: []
   related:
-    - cache.md
-    - cdn.md
-    - ../databases/database_overview.md
+  - cache.md
+  - cdn.md
+  - ../databases/database_overview.md
 ---
 
 # Caching in System Design

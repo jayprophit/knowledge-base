@@ -1,3 +1,12 @@
+---
+title: Backend Documentation
+description: Documentation and guides for the Backend module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Backend
 
 This backend powers the Quantum AI System, handling AI agents, authentication, voice services, and orchestration of all core and service modules.

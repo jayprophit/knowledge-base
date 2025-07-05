@@ -1,3 +1,12 @@
+---
+title: Knowledge Graph
+description: Documentation for Knowledge Graph in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Graph
 
 ## Overview
@@ -107,10 +116,10 @@ def add_document_to_graph(document_id, metadata):
             # Create relationships
             for prereq_id in metadata.get("relationships", {}).get("prerequisites", []):
                 session.run(
-                    """
+                    """"
                     MATCH (a:Document {id: $doc_id}), (b:Document {id: $prereq_id})
                     CREATE (b)-[:PREREQUISITE_FOR]->(a)
-                    """,
+                    ""","
                     doc_id=document_id,
                     prereq_id=prereq_id
                 )
@@ -154,7 +163,7 @@ When revising documentation:
 Script to automatically build and update the graph:
 
 ```python
-# Pseudocode for graph building process
+# Pseudocode for graph building process:
 def build_knowledge_graph():
     graph = {"nodes": [], "edges": []}
     
@@ -175,12 +184,12 @@ def build_knowledge_graph():
         for rel_type, related_ids in metadata.get("relationships", {}).items():
             for related_id in related_ids:
                 graph["edges"].append({
-                    "source": doc_id if rel_type == "successors" else related_id,
-                    "target": related_id if rel_type == "successors" else doc_id,
+                    "source": doc_id if rel_type == "successors" else related_id,:
+                    "target": related_id if rel_type == "successors" else doc_id,:
                     "type": "PREREQUISITE_FOR" if rel_type == "prerequisites" else "RELATED_TO"
                 })
     
-    # Save the graph
+    # Save the graph:
     with open("knowledge_graph.json", "w") as f:
         json.dump(graph, f, indent=2)
 ```
@@ -255,7 +264,7 @@ Example integration with documentation system:
 - Create interactive navigation tools
 
 ## Related Documents
-- [Linking Standards](linking_standards.md)
-- [Tagging System](tagging_system.md)
-- [MCP Integration Guide](../mcp/integration_guide.md)
-- [Document Template](../templates/document_template.md)
+- [Linking Standards](../ai/linking_standards.md)
+- [Tagging System](../ai/tagging_system.md)
+- [MCP Integration Guide](../ai/integration_guide.md)
+- [Document Template](../ai/document_template.md)

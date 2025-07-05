@@ -1,3 +1,12 @@
+---
+title: Checklist
+description: Documentation for Checklist in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Checklist
 
 > **IMPORTANT:** The following main files are critical and must be kept in sync. Any change to one must be reflected in all others, both before and after any process. All must be cross-linked and referenced:

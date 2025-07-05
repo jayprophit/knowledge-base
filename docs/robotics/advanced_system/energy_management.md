@@ -85,7 +85,7 @@ class EnergyManagementSystem:
         self.current_charge = 85  # Starting at 85%
         
         # Power consumption rates in watts for different components
-        self.power_consumption = {
+        self.power_consumption = {:
             'motors': 15.0,
             'cpu': 5.0,
             'sensors': {
@@ -119,7 +119,7 @@ class EnergyManagementSystem:
         self.monitor_thread = threading.Thread(target=self._power_monitor)
         self.monitor_thread.daemon = True
         self.monitor_thread.start()
-    
+    :
     def _calculate_current_consumption(self):
         """Calculate total current power consumption based on active components"""
         total = 0
@@ -155,8 +155,8 @@ class EnergyManagementSystem:
             self._check_power_mode()
             
             # Wait for next measurement cycle
-            time.sleep(self.time_per_measurement)
-    
+            time.sleep(self.time_per_measurement):
+    :
     def _check_power_mode(self):
         """Adjust power mode based on battery level"""
         if self.current_charge < 15:
@@ -181,7 +181,7 @@ class EnergyManagementSystem:
                 self.active_sensors = ['imu', 'ultrasonic']  # Basic sensors
             elif mode == 'normal':
                 self.active_sensors = ['imu', 'ultrasonic', 'camera']
-            else:  # full
+            else:  # full:
                 self.active_sensors = ['imu', 'ultrasonic', 'camera', 'lidar']
     
     def activate_component(self, component):
@@ -192,7 +192,7 @@ class EnergyManagementSystem:
     
     def deactivate_component(self, component):
         """Deactivate a specific component to save power"""
-        if component in self.active_components and component != 'cpu':  # CPU always needed
+        if component in self.active_components and component != 'cpu':  # CPU always needed:
             self.active_components.remove(component)
             print(f"Deactivated component: {component}")
     
@@ -243,7 +243,7 @@ if __name__ == "__main__":
     print("\nSimulating low battery...")
     ems.current_charge = 25  # Force low battery for demo
     ems._check_power_mode()
-    
+    :
     print("\nFinal status:")
     print(ems.get_status())
 ```

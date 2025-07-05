@@ -1,23 +1,24 @@
 ---
 id: web-system-design-load-balancer
 title: Load Balancer - System Design
-description: Comprehensive documentation on load balancers, types, algorithms, and implementation examples
+description: Comprehensive documentation on load balancers, types, algorithms, and
+  implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - system_design
-  - load_balancing
-  - high_availability
-  - scalability
-  - infrastructure
+- system_design
+- load_balancing
+- high_availability
+- scalability
+- infrastructure
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../networking/proxy.md
-    - ../scalability/horizontal_scaling.md
+  - ../networking/proxy.md
+  - ../scalability/horizontal_scaling.md
 ---
 
 # Load Balancers
@@ -138,7 +139,7 @@ class IPHashLoadBalancer:
         # Simple hash function
         hash_value = sum(int(octet) for octet in ip_address.split('.'))
         server_index = hash_value % len(self.servers)
-        return self.servers[server_index]
+        return self.servers[server_index]:
 ```
 
 ## Implementation Example: NGINX Load Balancer
@@ -208,7 +209,7 @@ services:
 ```
 
 ### HAProxy Configuration (haproxy.cfg)
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # global
@@ -268,7 +269,7 @@ class HealthChecker(Thread):
         self.check_interval = check_interval
         self.timeout = timeout
         self.daemon = True
-        
+        :
     def run(self):
         while True:
             for server in self.servers:
@@ -284,7 +285,7 @@ class HealthChecker(Thread):
             time.sleep(self.check_interval)
     
     def get_healthy_servers(self):
-        return [server for server, healthy in self.healthy_servers.items() if healthy]
+        return [server for server, healthy in self.healthy_servers.items() if healthy]:
 ```
 
 ## Session Persistence

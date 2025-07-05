@@ -1,3 +1,12 @@
+---
+title: Src Documentation
+description: Documentation and guides for the Src module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Backend API Documentation — Knowledge Base Assistant
 
 This backend powers the cross-platform AI assistant with advanced automation, networking, and multimodal features.

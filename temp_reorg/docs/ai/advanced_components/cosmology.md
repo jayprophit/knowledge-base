@@ -57,7 +57,7 @@ Unit tests are provided in:
 - `tests/test_cosmology/test_cosmology_module.py`
 
 ## Cross-links
-- [Main Plan](../../../plan.md)
+- [Main Plan](../../robotics/plan.md)
 - [Advanced Components](./)
 
 ## Changelog

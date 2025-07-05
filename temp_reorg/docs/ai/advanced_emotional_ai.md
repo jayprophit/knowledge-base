@@ -174,7 +174,7 @@ class PlutchikEmotionWheel:
         }
         
     def blend_emotions(self, emotion1, emotion2, intensity1=1.0, intensity2=1.0):
-        """Blend two emotions according to Plutchik's model."""
+        """Blend two emotions according to Plutchik's model."""'
         # Normalize intensities
         total = intensity1 + intensity2
         if total > 0:
@@ -182,14 +182,14 @@ class PlutchikEmotionWheel:
         else:
             w1 = w2 = 0.5
             
-        # Check if this is a known dyad
+        # Check if this is a known dyad:
         if (emotion1, emotion2) in self.dyads:
             return self.dyads[(emotion1, emotion2)], 0.5 * (intensity1 + intensity2)
         elif (emotion2, emotion1) in self.dyads:
             return self.dyads[(emotion2, emotion1)], 0.5 * (intensity1 + intensity2)
             
         # Default: return weighted average if not a known dyad
-        return f"{emotion1}_{emotion2}", (intensity1 * w1 + intensity2 * w2)
+        return f"{emotion1}_{emotion2}", (intensity1 * w1 + intensity2 * w2):
 ```
 
 ## 5. Advanced Implementation Techniques
@@ -241,16 +241,16 @@ When implementing emotional AI, several ethical considerations must be addressed
 ### 7.1 Quantum-Inspired Emotional Processing
 
 ```python
-# Pseudocode for quantum-inspired emotional state processing
+# Pseudocode for quantum-inspired emotional state processing:
 class QuantumEmotionProcessor:
     def __init__(self):
         self.emotion_qubits = 4  # Number of qubits for emotional state
         self.circuit = self._initialize_circuit()
-        
+        :
     def _initialize_circuit(self):
         # Initialize quantum circuit for emotional state processing
         # This is a simplified representation
-        circuit = {
+        circuit = {:
             'qubits': [0] * self.emotion_qubits,
             'gates': []
         }

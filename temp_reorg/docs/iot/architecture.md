@@ -1,3 +1,12 @@
+---
+title: Architecture
+description: Documentation for Architecture in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base Architecture
 
 ## Critical Main Files
@@ -5,15 +14,15 @@
 > **IMPORTANT:** The following main files are critical and must be kept in sync. Any change to one must be reflected in all others, both before and after any process. All must be cross-linked and referenced:
 > - [README.md](README.md)
 > - [architecture.md](architecture.md)
-> - [changelog.md](changelog.md)
-> - [memories.md](memories.md)
-> - [method.md](method.md)
-> - [plan.md](plan.md)
-> - [rollback.md](rollback.md)
-> - [system_design.md](system_design.md)
-> - [FIXME.md](FIXME.md)
-> - [TODO.md](TODO.md)
-> - [checklist.md](checklist.md)
+> - [changelog.md](../robotics/changelog.md)
+> - [memories.md](../robotics/memories.md)
+> - [method.md](../robotics/method.md)
+> - [plan.md](../robotics/plan.md)
+> - [rollback.md](../robotics/rollback.md)
+> - [system_design.md](../robotics/system_design.md)
+> - [FIXME.md](../robotics/FIXME.md)
+> - [TODO.md](../robotics/TODO.md)
+> - [checklist.md](../robotics/checklist.md)
 >
 > **Validation:** All data and code must be validated for correct formatting and correctness at every step.
 
@@ -25,7 +34,7 @@ The Unified AI Assistant is a world-class, production-ready cross-platform syste
 
 ## Directory Structure
 
-```
+```python
 /knowledge-base/
   /docs/              # Core documentation files
     /workflow/        # ML workflow step documentation
@@ -56,7 +65,7 @@ The Unified AI Assistant is a world-class, production-ready cross-platform syste
   changelog.md        # Record of changes
   system_design.md    # System design documentation
   architecture.md     # This file
-  rollback.md         # Rollback procedures
+  rollback.md         # Rollback procedures:
 ```
 
 ## File Relationships
@@ -199,24 +208,24 @@ When adding new files to the knowledge base, follow these location guidelines:
 After every process or major update, the following files must be reviewed and updated to maintain architectural integrity:
 - [README.md](README.md)
 - [architecture.md](architecture.md)
-- [changelog.md](changelog.md)
-- [memories.md](memories.md)
-- [method.md](method.md)
-- [plan.md](plan.md)
-- [rollback.md](rollback.md)
-- [system_design.md](system_design.md)
-- [FIXME.md](FIXME.md)
-- [TODO.md](TODO.md)
-- [checklist.md](checklist.md)
+- [changelog.md](../robotics/changelog.md)
+- [memories.md](../robotics/memories.md)
+- [method.md](../robotics/method.md)
+- [plan.md](../robotics/plan.md)
+- [rollback.md](../robotics/rollback.md)
+- [system_design.md](../robotics/system_design.md)
+- [FIXME.md](../robotics/FIXME.md)
+- [TODO.md](../robotics/TODO.md)
+- [checklist.md](../robotics/checklist.md)
 
-See [plan.md](plan.md) and [checklist.md](checklist.md) for the update workflow and status tracking.
+See [plan.md](../robotics/plan.md) and [checklist.md](../robotics/checklist.md) for the update workflow and status tracking.
 
 ## References
-- [System Design](system_design.md) - Conceptual system design
-- [Plan](plan.md) - Current knowledge base plan
-- [Changelog](changelog.md) - Record of changes to knowledge base
-- [MCP Integration Guide](mcp/integration_guide.md) - MCP compatibility guidelines
-- [MCP Configuration](mcp/config/README.md) - MCP server configuration guide
-- [Anthropic Processing Pipeline](anthropic/processing_pipeline.md) - Anthropic data processing methodology
-- [Automation Guide](automation/step_by_step_guide.md) - Step-by-step automation procedures
-- [Rollback Procedures](rollback.md) - Recovery and rollback process
+- [System Design](../robotics/system_design.md) - Conceptual system design
+- [Plan](../robotics/plan.md) - Current knowledge base plan
+- [Changelog](../robotics/changelog.md) - Record of changes to knowledge base
+- [MCP Integration Guide](../ai/integration_guide.md) - MCP compatibility guidelines
+- [MCP Configuration](../../robotics/advanced_system/README.md) - MCP server configuration guide
+- [Anthropic Processing Pipeline](../ai/processing_pipeline.md) - Anthropic data processing methodology
+- [Automation Guide](../ai/step_by_step_guide.md) - Step-by-step automation procedures
+- [Rollback Procedures](../robotics/rollback.md) - Recovery and rollback process

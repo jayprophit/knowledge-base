@@ -45,7 +45,7 @@ To begin developing mobile applications that integrate with the knowledge base:
 
 ## Directory Structure
 
-```
+```python
 # NOTE: The following code had issues and was commented out
 # /src/mobile/
 #   ├── App.js                  # Main application component
@@ -55,7 +55,7 @@ To begin developing mobile applications that integrate with the knowledge base:
 #   ├── screens/                # Screen components
 #   ├── navigation/             # Navigation configuration
 #   ├── utils/                  # Utility functions
-#   └── assets/                 # Images, fonts, and other assets
+#   └── assets/                 # Images, fonts, and other assets:
 ```
 
 ## Installation
@@ -77,7 +77,7 @@ For iOS (CocoaPods):
 
 ```ruby
 pod 'KnowledgeBaseMobileClient', '~> 1.0.0'
-```
+```python
 
 ## Core Components
 
@@ -115,14 +115,14 @@ A component for capturing multimodal data (images, audio, text) from mobile devi
 
 ### Security
 
-- [Authentication and Authorization](security/authentication.md)
+- [Authentication and Authorization](security/authentication.md):
 - [Da# NOTE: The following code had syntax errors and was commented out
 # import { KnowledgeBaseClient } from '@knowledge-base/mobile-client';
 # 
 # const client = new KnowledgeBaseClient({
 #   apiUrl: 'https://api.knowledge-base.example',
 #   apiKey: 'YOUR_API_KEY'
-# });wledge-base/mobile-client';
+# });wledge-base/mobile-client';'
 
 const client = new KnowledgeBaseClient({
   apiUrl: 'https://api.knowledge-base.example',
@@ -175,10 +175,10 @@ const audioAnalysis = await client.analyzeAudio(audioResult.uri);
 
 Common issues and their solutions:
 
-- [Connectivity Issues](troubleshooting.md#connectivity)
-- [Performance Problems](troubleshooting.md#performance)
-- [Authentication Errors](troubleshooting.md#authentication)
-- [API Integration Issues](troubleshooting.md#api)
+- [Connectivity Issues](../robotics/troubleshooting.md)
+- [Performance Problems](../robotics/troubleshooting.md)
+- [Authentication Errors](../robotics/troubleshooting.md)
+- [API Integration Issues](../robotics/troubleshooting.md)
 
 ## Examples
 
@@ -192,7 +192,7 @@ Example projects demonstrating integration with the knowledge base:
 
 - [Mobile Development Standards](references/standards.md)
 - [API Documentation](references/api-docs.md)
-- [Component Library](references/component-library.md)
+- [Component Library](ui-ux/component-library.md)
 - [Integration with Backend Systems](references/backend-integration.md)
 
 ## Contributing

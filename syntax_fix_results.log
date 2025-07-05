@@ -1,0 +1,149 @@
+=== Syntax Fix Results ===
+
+Started at: syntax_fixer.py
+Total errors found: 109
+Total files to process: 63
+
+Processing: docs\self_building_ai.md - 1 error(s)
+  - No changes needed or could not fix: docs\self_building_ai.md
+Processing: docs\self_building_ai_functions.md - 1 error(s)
+  - No changes needed or could not fix: docs\self_building_ai_functions.md
+Processing: docs\virtual_assistant_cross_platform.md - 1 error(s)
+  - No changes needed or could not fix: docs\virtual_assistant_cross_platform.md
+Processing: docs\advanced_modules\neuromorphic_computing.md - 4 error(s)
+  - No changes needed or could not fix: docs\advanced_modules\neuromorphic_computing.md
+Processing: docs\ai\advanced_emotional_ai.md - 2 error(s)
+  - No changes needed or could not fix: docs\ai\advanced_emotional_ai.md
+Processing: docs\ai\parallel_processing.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\parallel_processing.md
+Processing: docs\ai\system_improvement_strategies.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\system_improvement_strategies.md
+Processing: docs\blockchain\token_factory.md - 1 error(s)
+  - No changes needed or could not fix: docs\blockchain\token_factory.md
+Processing: docs\cad_manufacturing\freecad_automation.md - 1 error(s)
+  - No changes needed or could not fix: docs\cad_manufacturing\freecad_automation.md
+Processing: docs\cad_manufacturing\materials_database.md - 3 error(s)
+  - No changes needed or could not fix: docs\cad_manufacturing\materials_database.md
+Processing: docs\cad_manufacturing\physics_simulation.md - 5 error(s)
+  - No changes needed or could not fix: docs\cad_manufacturing\physics_simulation.md
+Processing: docs\concepts\experiential_learning_emotional_memory_module.md - 2 error(s)
+  - No changes needed or could not fix: docs\concepts\experiential_learning_emotional_memory_module.md
+Processing: docs\concepts\non_violence_and_peaceful_resolution_module.md - 1 error(s)
+  - No changes needed or could not fix: docs\concepts\non_violence_and_peaceful_resolution_module.md
+Processing: docs\concepts\rife_healing_frequencies_module.md - 2 error(s)
+  - No changes needed or could not fix: docs\concepts\rife_healing_frequencies_module.md
+Processing: docs\concepts\species_communication_agriculture_medicine_conservation.md - 3 error(s)
+  - No changes needed or could not fix: docs\concepts\species_communication_agriculture_medicine_conservation.md
+Processing: docs\mobile\README.md - 2 error(s)
+  ✓ Fixed code block 2: invalid syntax
+  ✓ Fixed file: docs\mobile\README.md
+Processing: docs\quantum_computing\virtual_quantum_computer.md - 1 error(s)
+  - No changes needed or could not fix: docs\quantum_computing\virtual_quantum_computer.md
+Processing: docs\security\advanced_analysis.md - 2 error(s)
+  - No changes needed or could not fix: docs\security\advanced_analysis.md
+Processing: docs\security\quantum_resistant_cryptography.md - 5 error(s)
+  - No changes needed or could not fix: docs\security\quantum_resistant_cryptography.md
+Processing: docs\web\databases\database_overview.md - 1 error(s)
+  ✓ Fixed code block 2: invalid syntax. Perhaps you forgot a comma?
+  ✓ Fixed file: docs\web\databases\database_overview.md
+Processing: docs\web\php\README.md - 1 error(s)
+  - No changes needed or could not fix: docs\web\php\README.md
+Processing: docs\web\system_design\load_balancer.md - 2 error(s)
+  - No changes needed or could not fix: docs\web\system_design\load_balancer.md
+Processing: docs\robotics\advanced_system\13_star_sign_calendar.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\13_star_sign_calendar.md
+Processing: docs\robotics\advanced_system\advanced_abilities.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\advanced_abilities.md
+Processing: docs\robotics\advanced_system\ai_ml_integration.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\ai_ml_integration.md
+Processing: docs\robotics\advanced_system\blockchain_integration.md - 2 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\blockchain_integration.md
+Processing: docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md - 2 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+Processing: docs\robotics\advanced_system\emotional_intelligence.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\emotional_intelligence.md
+Processing: docs\robotics\advanced_system\energy_management.md - 1 error(s)
+  ✓ Fixed code block 1: invalid syntax
+  ✓ Fixed file: docs\robotics\advanced_system\energy_management.md
+Processing: docs\robotics\advanced_system\molecular_self_healing.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\molecular_self_healing.md
+Processing: docs\robotics\advanced_system\multi_energy_harvesting.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\multi_energy_harvesting.md
+Processing: docs\robotics\advanced_system\quantum_drive_and_thought.md - 2 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\quantum_drive_and_thought.md
+Processing: docs\robotics\advanced_system\quantum_temporal_mapping.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\quantum_temporal_mapping.md
+Processing: docs\robotics\advanced_system\sanskrit_style_reorganization.md - 1 error(s)
+  ✓ Fixed code block 3: invalid syntax
+  ✓ Fixed file: docs\robotics\advanced_system\sanskrit_style_reorganization.md
+Processing: docs\robotics\advanced_system\self_awareness.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\self_awareness.md
+Processing: docs\robotics\advanced_system\self_healing.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\self_healing.md
+Processing: docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md - 2 error(s)
+  ✓ Fixed code block 1: invalid syntax
+  ✓ Fixed file: docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+Processing: docs\robotics\perception\vision_systems.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\perception\vision_systems.md
+Processing: docs\robotics\advanced_system\control\README.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\control\README.md
+Processing: docs\robotics\advanced_system\energy\README.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\energy\README.md
+Processing: docs\robotics\advanced_system\perception\depth_estimation.md - 5 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\perception\depth_estimation.md
+Processing: docs\robotics\advanced_system\perception\README.md - 2 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\perception\README.md
+Processing: docs\robotics\advanced_system\security\README.md - 2 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\security\README.md
+Processing: docs\robotics\advanced_system\software\README.md - 1 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\software\README.md
+Processing: docs\robotics\advanced_system\ui_ux\README.md - 2 error(s)
+  - No changes needed or could not fix: docs\robotics\advanced_system\ui_ux\README.md
+Processing: docs\machine_learning\audio_recognition\audio_recognition_guide.md - 1 error(s)
+  - No changes needed or could not fix: docs\machine_learning\audio_recognition\audio_recognition_guide.md
+Processing: docs\machine_learning\multimodal\unified_recognition_guide.md - 2 error(s)
+  - No changes needed or could not fix: docs\machine_learning\multimodal\unified_recognition_guide.md
+Processing: docs\machine_learning\workflow\evaluate_performance.md - 1 error(s)
+  ✓ Fixed code block 1: invalid syntax
+  ✓ Fixed file: docs\machine_learning\workflow\evaluate_performance.md
+Processing: docs\machine_learning\workflow\hyperparameter_tuning.md - 1 error(s)
+  - No changes needed or could not fix: docs\machine_learning\workflow\hyperparameter_tuning.md
+Processing: docs\machine_learning\workflow\preprocessing.md - 1 error(s)
+  - No changes needed or could not fix: docs\machine_learning\workflow\preprocessing.md
+Processing: docs\deployment\containerization\README.md - 1 error(s)
+  - No changes needed or could not fix: docs\deployment\containerization\README.md
+Processing: docs\ai\applications\narrow_ai_quantum.md - 2 error(s)
+  - No changes needed or could not fix: docs\ai\applications\narrow_ai_quantum.md
+Processing: docs\ai\audio\audio_module_api.md - 2 error(s)
+  ✓ Fixed code block 2: invalid syntax
+  ✓ Fixed file: docs\ai\audio\audio_module_api.md
+Processing: docs\ai\audio\audio_module_examples.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\audio\audio_module_examples.md
+Processing: docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md - 5 error(s)
+  - No changes needed or could not fix: docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+Processing: docs\ai\emotional_intelligence\MEMORY_SYSTEM.md - 2 error(s)
+  ✓ Fixed code block 7: invalid syntax
+  ✓ Fixed code block 8: invalid syntax
+  ✓ Fixed file: docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+Processing: docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+Processing: docs\ai\emotional_intelligence\SELF_AWARENESS.md - 3 error(s)
+  - No changes needed or could not fix: docs\ai\emotional_intelligence\SELF_AWARENESS.md
+Processing: docs\ai\guides\multilingual_understanding.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\guides\multilingual_understanding.md
+Processing: docs\ai\guides\multimodal_integration.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\guides\multimodal_integration.md
+Processing: docs\ai\multidisciplinary\integration.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\multidisciplinary\integration.md
+Processing: docs\ai\virtual_brain\02_cognitive_functions.md - 5 error(s)
+  ✓ Fixed code block 1: invalid syntax
+  ✓ Fixed file: docs\ai\virtual_brain\02_cognitive_functions.md
+Processing: docs\ai\virtual_brain\03_python_implementation.md - 1 error(s)
+  - No changes needed or could not fix: docs\ai\virtual_brain\03_python_implementation.md
+
+=== Summary ===
+Total files processed: 63
+Files fixed: 9
+Files with errors: 0
+Files skipped: 54
+Total code blocks fixed: 10

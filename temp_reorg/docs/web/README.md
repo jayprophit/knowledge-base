@@ -29,8 +29,8 @@ This directory contains comprehensive documentation and implementation examples 
 - [apis/](apis/) - API design, implementation and management
 - [databases/](databases/) - Database technologies and usage patterns
 - [networking/](networking/) - Network infrastructure components and protocols
-- [scalability/](scalability/) - Scaling strategies and implementation
-- [microservices/](microservices/) - Microservices design patterns and implementation
+- [scalability/](../../../docs/robotics/specs/.md) - Scaling strategies and implementation
+- [microservices/](../../../docs/robotics/specs/.md) - Microservices design patterns and implementation
 - [performance/](performance/) - Performance optimization techniques
 - [security/](security/) - Web system security practices
 
@@ -40,5 +40,5 @@ This directory contains comprehensive documentation and implementation examples 
 - [../../src/advanced_engineering_ai/](../../src/advanced_engineering_ai/) - Advanced engineering concepts
 
 ## References
-- [System Design](../../system_design.md)
-- [Architecture](../../architecture.md)
+- [System Design](../robotics/system_design.md)
+- [Architecture](client_server/architecture.md)

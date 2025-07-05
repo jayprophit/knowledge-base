@@ -77,7 +77,7 @@ class HealingWebSystem:
     def apply_regeneration_protocol(self):
         return "Activating wound healing system using nanotech"
     def apply_cellular_repair_protocol(self):
-        return "Applying gene editing for cellular repair"
+        return "Applying gene editing for cellular repair":
 ```
 
 ### Natural Healing Communication
@@ -110,7 +110,7 @@ class HabitatMonitor:
     def activate_cooling_systems(self):
         return "Activating cooling systems to protect ecosystem"
     def activate_irrigation_system(self):
-        return "Activating irrigation systems for dry regions"
+        return "Activating irrigation systems for dry regions":
 ```
 
 ### Conservation Species Communication
@@ -127,7 +127,7 @@ class SpeciesProtectionSystem:
     def notify_anti_poaching_team(self):
         return "Alerting anti-poaching unit in the area"
     def alert_veterinary_team(self):
-        return "Alerting veterinary team for emergency care"
+        return "Alerting veterinary team for emergency care":
 ```
 
 ---

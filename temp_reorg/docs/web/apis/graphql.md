@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - graphql
-  - api
-  - system_design
+- graphql
+- api
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - rest_api.md
-    - ../system_design/cache.md
-    - ../system_design/microservices.md
+  - rest_api.md
+  - ../system_design/cache.md
+  - ../system_design/microservices.md
 ---
 
 # GraphQL in System Design
@@ -50,11 +50,11 @@ from ariadne import QueryType, make_executable_schema, graphql_sync
 from ariadne.constants import PLAYGROUND_HTML
 from flask import Flask, request, jsonify
 
-type_defs = """
+type_defs = """"
 type Query {
   hello: String!
 }
-"""
+""""
 query = QueryType()
 @query.field("hello")
 def resolve_hello(*_):

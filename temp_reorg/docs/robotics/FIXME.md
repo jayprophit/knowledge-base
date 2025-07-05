@@ -1,4 +1,13 @@
-> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](README.md#main-files-policy-critical-requirement) for details.
+---
+title: Fixme
+description: Documentation for Fixme in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
+> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](../../robotics/advanced_system/README.md) for details.
 
 > **Traceability:** All data inputs and amendments are timestamped for traceability and rollback. See also [memories.md](memories.md), [changelog.md](changelog.md), and [rollback.md](rollback.md).
 
@@ -17,7 +26,7 @@
 - [notes.md](notes.md)
 - [current_goal.md](current_goal.md)
 - [task_list.md](task_list.md)
-- [inherit.md](inherit.md)
+- [inherit.md](../ai/inherit.md)
 
 # FIXME Checklist
 
@@ -42,7 +51,7 @@ This file tracks folders and files that need to be fixed, categorized by urgency
 - [ ] Broken core system files
 - [ ] Critical robotics/AI module errors
 - [ ] Major documentation gaps in new modules
-- [ ] [Multisensory Robotics Documentation](docs/robotics/advanced_system/multisensory_robotics.md) — use as reference for advanced robotics fixes
+- [ ] [Multisensory Robotics Documentation](advanced_system/multisensory_robotics.md) — use as reference for advanced robotics fixes
 
 ## Intermediate (mostly fixed, can finish later)
 - [ ] Incomplete cross-links in robotics/AI docs
@@ -55,5 +64,5 @@ This file tracks folders and files that need to be fixed, categorized by urgency
 - [ ] Expanding advanced movement/interaction examples
 
 ---
-**Reference:** See [Multisensory Robotics Documentation](docs/robotics/advanced_system/multisensory_robotics.md) and [multisensory_robotics.py](src/robotics/advanced_system/multisensory_robotics.py) for implementation and documentation standards for advanced robotics fixes.
+**Reference:** See [Multisensory Robotics Documentation](advanced_system/multisensory_robotics.md) and [multisensory_robotics.py](../../../src/robotics/advanced_system/multisensory_robotics.py) for implementation and documentation standards for advanced robotics fixes.
 

@@ -95,7 +95,7 @@ optimized_qc = optimizer.optimize(qc)
 
 ### Performance Optimization
 - [Performance Tuning Guide](./guides/performance_tuning.md)
-- [Benchmarking Tools](./tools/benchmarking/)
+- [Benchmarking Tools](../../../docs/robotics/specs/.md)
 
 ### Security
 - [Secure Deployment](./security/deployment.md)
@@ -115,7 +115,7 @@ If you find a bug or have a feature request, please [open an issue](https://gith
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](../../LICENSE) file for details.
 
 ## Resources
 

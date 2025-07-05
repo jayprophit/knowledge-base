@@ -37,7 +37,7 @@ The system is designed to be modular, extensible, and easy to integrate with exi
 
 The unified multi-modal recognition system follows a layered architecture:
 
-```
+```python
 # NOTE: The following code had issues and was commented out
 # ?????????????????????????????????????????????????????????????????
 # ?                MultiModalRecognitionSystem                    ?
@@ -161,7 +161,7 @@ if results['audio_analysis']:
 # ### Process Image and Audio Together
 # :
     print("Scene description:", ", ".join(results['context']['scene_description']))
-    print("Audio context:", ", ".join(results['context']['audio_context']))"'
+    print("Audio context:", ", ".join(results['context']['audio_context']))"'"'
 ```
 
 ### Process Image and Audio Together
@@ -255,7 +255,7 @@ from src.multimodal.recognition_api import MultiModalRecognitionSystem
 # Initialize system with custom detector
 system = MultiModalRecognitionSystem()
 system.vision_system = custom_detector
-```
+```python
 
 ### Add Custom Audio Processors
 

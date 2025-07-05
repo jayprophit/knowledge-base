@@ -24,7 +24,7 @@ Our audio recognition system integrates multiple audio processing capabilities i
 
 The system follows a modular design with specialized components that can work independently or as part of an integrated pipeline:
 
-```
+```python
 # NOTE: The following code had issues and was commented out
 # ┌─────────────────────────────────────────────┐
 # │            AudioRecognitionSystem           │
@@ -108,7 +108,7 @@ analyzer.create_speaker_profile("speaker1_sample.wav", "John")
 analyzer.create_speaker_profile("speaker2_sample.wav", "Alice")
 
 # Identify speaker in unknown audio
-results = analyzer.identify_speaker("unknown_speaker.wav")
+results = analyzer.identify_speaker("unknown_speaker.wav"):
 print(f"Most likely speaker: {results[0]['speaker_id']}")
 print(f"Confidence: {results[0]['similarity']:.2f}")
 

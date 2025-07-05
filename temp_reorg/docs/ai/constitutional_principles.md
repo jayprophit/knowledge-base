@@ -1,3 +1,12 @@
+---
+title: Constitutional Principles
+description: Documentation for Constitutional Principles in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Constitutional Principles for Knowledge Base
 
 ## Overview
@@ -121,7 +130,7 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
-```
+```python
 
 ## Performance Characteristics
 - Average case: O(n log n) (confidence: very high)
@@ -168,5 +177,5 @@ Constitutional alignment changes are tracked:
 
 ## References
 - [Processing Pipeline](processing_pipeline.md) - How principles are applied
-- [Review Process](../process/review_process.md) - Standard review procedures
-- [Content Lifecycle](../meta/content_lifecycle.md) - Document lifecycle
+- [Review Process](review_process.md) - Standard review procedures
+- [Content Lifecycle](content_lifecycle.md) - Document lifecycle

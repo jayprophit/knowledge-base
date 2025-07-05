@@ -1,24 +1,25 @@
 ---
 id: web-databases-overview
 title: Database Systems - Overview and Comparison
-description: Comprehensive documentation on database systems, including SQL vs. NoSQL databases, scaling strategies, and implementation examples
+description: Comprehensive documentation on database systems, including SQL vs. NoSQL
+  databases, scaling strategies, and implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - system_design
-  - databases
-  - sql
-  - nosql
-  - data_storage
+- system_design
+- databases
+- sql
+- nosql
+- data_storage
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../system_design/cache.md
-    - ../scalability/replication.md
-    - ../scalability/sharding.md
+  - ../system_design/cache.md
+  - ../scalability/replication.md
+  - ../scalability/sharding.md
 ---
 
 # Database Systems Overview
@@ -119,7 +120,7 @@ Vertical scaling (scaling up) involves increasing resources on a single server.
 - Downtime for upgrades
 
 **Implementation:**
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # # Example: Vertical scaling in a cloud environment (AWS CLI)
@@ -249,7 +250,7 @@ Replication creates and maintains copies of data across multiple database instan
 # ); last_login TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES user_core(user_id)
 );
-```
+```python
 
 ## CAP Theorem
 
@@ -304,7 +305,7 @@ The CAP theorem states that a distributed database system can only provide two o
 #   product_id INT,
 #   product_name VARCHAR(100),  -- Denormalized from products
 #   quantity INT,
-#   price DECIMAL(10,2),
+#   price DECIMAL(10,2),:
 #   total DECIMAL(10,2), # NOTE: The following code had syntax errors and was commented out
 # # docker-compose.yml
 # version: '3'
@@ -381,15 +382,15 @@ The CAP theorem states that a distributed database system can only provide two o
 #     networks:
 #       - mongo-network
 #     command: >
-#       bash -c "
+#       bash -c ""
 #         sleep 10 &&
-#         mongo --host mongo1:27017 --eval '
+#         mongo --host mongo1:27017 --eval ''
 #           rs.initiate({
 #             _id: \"rs0\",
 #             members: [
 #               {_id: 0, host: \"mongo1:27017\"},
 #               {_id: 1, host: \"mongo2:27017\"},
-#               {_id: 2, host: \"mongo3# NOTE: The following code had syntax errors and was commented out
+#               {_id: 2, host: \"mongo3# NOTE: The following code had syntax errors and was commented out"
 # # docker-compose.yml
 # version: '3'
 # 
@@ -407,9 +408,9 @@ The CAP theorem states that a distributed database system can only provide two o
 #   redis-data:
       - mongo-network
     command: >
-      bash -c "
+      bash -c ""
         sleep 10 &&
-        mongo --host mongo1:27017 --eval '
+        mongo --host mongo1:27017 --eval ''
           rs.initiate({
             _id: \"rs0\",
             members: [
@@ -418,8 +419,8 @@ The CAP theorem states that a distributed database system can only provide two o
               {_id: 2, host: \"mongo3:27017\"}
             ]
           })
-        '
-      "
+        ''
+      ""
 
 networks:
   mongo-network:

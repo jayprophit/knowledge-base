@@ -1,9 +1,18 @@
+---
+title: Changelog
+description: Documentation for Changelog in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Changelog
 
 ## [Unreleased]
 
 ### Added
-- New documentation: [Speculative Abilities](docs/robotics/advanced_system/speculative_abilities.md) covering supersonic/hypersonic movement, consciousness, telepathy, teleportation, and telekinesis in robotics
+- New documentation: [Speculative Abilities](advanced_system/speculative_abilities.md) covering supersonic/hypersonic movement, consciousness, telepathy, teleportation, and telekinesis in robotics
 - Cross-links to speculative abilities in README.md and advanced_system/README.md
 
 ### Added

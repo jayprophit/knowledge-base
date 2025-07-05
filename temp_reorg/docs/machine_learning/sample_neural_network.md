@@ -29,7 +29,7 @@ Neural networks consist of interconnected layers of artificial neurons. A typica
 
 The mathematical representation of a neuron:
 
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # y = f(?(w_i * x_i) + b)

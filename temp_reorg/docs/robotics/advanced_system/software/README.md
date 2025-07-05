@@ -209,7 +209,7 @@ torchvision>=0.15.0
 scipy>=1.7.0
 matplotlib>=3.4.0
 pandas>=1.3.0
-```
+```python
 
 ## Deployment
 
@@ -238,7 +238,7 @@ RUN . /opt/ros/humble/setup.sh && \
 
 # Entrypoint
 ENTRYPOINT ["/app/entrypoint.sh"]
-```
+```python
 
 ### 2. Kubernetes Deployment
 ```yaml
@@ -267,7 +267,7 @@ spec:
         resources:
           limits:
             nvidia.com/gpu: 1
-```
+```python
 
 ## Testing
 
@@ -289,7 +289,7 @@ class TestPathPlanner(unittest.TestCase):
         self.assertGreater(len(path), 0)
         self.assertEqual(path[0], start)
         self.assertEqual(path[-1], goal)
-```
+```python
 
 ### 2. Integration Testing
 - ROS 2 launch testing
@@ -335,7 +335,9 @@ class TestPathPlanner(unittest.TestCase):
 ## License
 
 This software is licensed under the Apache License 2.0.
-
----
+:
+---:
 *Last updated: 2025-07-01*
 *Version: 1.0.0*
+
+```

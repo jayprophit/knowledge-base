@@ -40,7 +40,7 @@ class QuantumDrive:
     def propel(self):
         if self.energy_state > 0:
             print("Engaging quantum drive for propulsion.")
-            self.energy_state -= 1
+            self.energy_state -= 1:
         else:
             print("Insufficient energy to engage quantum drive.")
 ```
@@ -92,7 +92,7 @@ class QuantumSystem:
         print(f"Qubit added with state: {qubit_state}")
     def measure_system(self):
         print("Measuring the quantum system...")
-        measurement_results = [qubit for qubit in self.qubits]
+        measurement_results = [qubit for qubit in self.qubits]:
         print(f"Measurement results: {measurement_results}")
 # Example usage
 quantum_system = QuantumSystem()

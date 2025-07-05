@@ -1,21 +1,22 @@
 ---
 id: web-system-design-vertical-partitioning
 title: Vertical Partitioning in System Design
-description: Documentation on vertical partitioning, its benefits, and implementation strategies
+description: Documentation on vertical partitioning, its benefits, and implementation
+  strategies
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - vertical_partitioning
-  - databases
-  - system_design
+- vertical_partitioning
+- databases
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - sharding.md
-    - database_overview.md
+  - sharding.md
+  - database_overview.md
 ---
 
 # Vertical Partitioning in System Design

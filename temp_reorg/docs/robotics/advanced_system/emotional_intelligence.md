@@ -30,7 +30,7 @@ This document details the implementation of emotional intelligence within advanc
 class EmotionalIntelligence:
     def recognize_emotion(self, input_data):
         # Analyze input for emotional cues (text, audio, visual)
-        return self.analyze_cues(input_data)
+        return self.analyze_cues(input_data):
     def simulate_response(self, context):
         # Generate an emotionally appropriate response
         emotions = ["joy", "sadness", "anger", "compassion"]

@@ -217,7 +217,7 @@ class MemoryRetriever:
         self.index = faiss.IndexFlatIP(dim)  # Inner product for cosine similarity
         self.memories = []
         self.id_to_idx = {}
-        
+        :
     def add_memory(self, memory_id, embedding):
         idx = len(self.memories)
         self.memories.append(memory_id)
@@ -226,7 +226,7 @@ class MemoryRetriever:
         # Convert to numpy array and normalize for cosine similarity
         emb = np.array(embedding, dtype=np.float32)
         faiss.normalize_L2(emb.reshape(1, -1))
-        
+        :
         if self.index.ntotal == 0:
             self.index.add(emb)
         else:
@@ -287,8 +287,8 @@ def forget_memories(self, threshold=0.1):
     self.episodic_memory = [
         mem for mem in self.episodic_memory
         if mem['retrieval_strength'] >= threshold
-    ]
-    return before - len(self.episodic_memory)  # Number forgotten
+    ]:
+    return before - len(self.episodic_memory)  # Number forgotten:
 ```
 
 ## Integration with Other Components

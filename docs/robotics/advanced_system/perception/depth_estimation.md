@@ -32,12 +32,12 @@ import numpy as np
 
 class MonocularDepthEstimator:
     def __init__(self, model_type='DPT_Large', device='cuda'):
-        """Initialize the depth estimation model.
+        """Initialize the depth estimation model."
         
         Args:
             model_type: Type of model to use ('DPT_Large', 'MiDaS', etc.)
             device: Device to run inference on ('cuda' or 'cpu')
-        """
+        """"
         self.device = torch.device(device if torch.cuda.is_available() else 'cpu')
         self.model = torch.hub.load('intel-isl/MiDaS', model_type)
         self.model.to(self.device).eval()
@@ -48,16 +48,16 @@ class MonocularDepthEstimator:
             transforms.Normalize(mean=[0.5, 0.5, 0.5], 
                               std=[0.5, 0.5, 0.5])
         ])
-    
+    :
     def estimate(self, img):
-        """Estimate depth from a single RGB image.
+        """Estimate depth from a single RGB image."
         
         Args:
             img: Input RGB image (H, W, 3) in range [0, 255]
             
         Returns:
             depth: Normalized depth map (H, W) in range [0, 1]
-        """
+        """"
         # Preprocess
         input_tensor = self.transform(img).unsqueeze(0).to(self.device)
         
@@ -90,13 +90,13 @@ import numpy as np
 
 class StereoDepthEstimator:
     def __init__(self, min_disparity=0, num_disparities=64, block_size=11):
-        """Initialize stereo matcher.
+        """Initialize stereo matcher."
         
         Args:
             min_disparity: Minimum possible disparity value
             num_disparities: Maximum disparity minus minimum disparity
             block_size: Matched block size (must be odd)
-        """
+        """"
         self.stereo = cv2.StereoSGBM_create(
             minDisparity=min_disparity,
             numDisparities=num_disparities,
@@ -111,7 +111,7 @@ class StereoDepthEstimator:
         )
     
     def compute_disparity(self, left_img, right_img):
-        """Compute disparity map from stereo image pair.
+        """Compute disparity map from stereo image pair."
         
         Args:
             left_img: Left stereo image (H, W, 3)
@@ -119,8 +119,8 @@ class StereoDepthEstimator:
             
         Returns:
             disparity: Disparity map (H, W)
-        """
-        # Convert to grayscale if needed
+        """"
+        # Convert to grayscale if needed:
         if len(left_img.shape) == 3:
             left_gray = cv2.cvtColor(left_img, cv2.COLOR_BGR2GRAY)
             right_gray = cv2.cvtColor(right_img, cv2.COLOR_BGR2GRAY)
@@ -133,7 +133,7 @@ class StereoDepthEstimator:
         return disparity
     
     def disparity_to_depth(self, disparity, baseline, focal_length):
-        """Convert disparity map to depth map.
+        """Convert disparity map to depth map."
         
         Args:
             disparity: Disparity map (H, W)
@@ -142,7 +142,7 @@ class StereoDepthEstimator:
             
         Returns:
             depth: Depth map (H, W) in meters
-        """
+        """"
         # Avoid division by zero
         disparity[disparity == 0] = 0.1
         
@@ -163,7 +163,7 @@ import open3d as o3d
 import numpy as np
 
 def create_point_cloud(rgb_img, depth_map, camera_intrinsics):
-    """Create a 3D point cloud from RGB image and depth map.
+    """Create a 3D point cloud from RGB image and depth map."
     
     Args:
         rgb_img: RGB image (H, W, 3)
@@ -172,7 +172,7 @@ def create_point_cloud(rgb_img, depth_map, camera_intrinsics):
         
     Returns:
         pcd: Open3D point cloud
-    """
+    """"
     height, width = depth_map.shape
     fx = camera_intrinsics[0, 0]
     fy = camera_intrinsics[1, 1]
@@ -206,22 +206,22 @@ def create_point_cloud(rgb_img, depth_map, camera_intrinsics):
 
 ```python
 def quantize_model(model, quant_dynamic=True):
-    """Quantize model for faster inference.
-    
+    """Quantize model for faster inference."
+    :
     Args:
         model: PyTorch model to quantize
         quant_dynamic: Whether to use dynamic quantization
         
     Returns:
         Quantized model
-    """
+    """"
     if quant_dynamic:
         # Dynamic quantization for LSTM/RNN
         model = torch.quantization.quantize_dynamic(
             model,
             {torch.nn.Linear, torch.nn.LSTM, torch.nn.GRU},
             dtype=torch.qint8
-        )
+        ):
     else:
         # Static quantization for CNNs
         model.qconfig = torch.quantization.get_default_qconfig('fbgemm')
@@ -230,7 +230,7 @@ def quantize_model(model, quant_dynamic=True):
         # model = calibrate_model(model, calibration_data)
         model = torch.quantization.convert(model, inplace=True)
     
-    return model
+    return model:
 ```
 
 ## Integration with Navigation
@@ -240,21 +240,21 @@ def quantize_model(model, quant_dynamic=True):
 ```python
 class ObstacleDetector:
     def __init__(self, depth_estimator, min_depth=0.1, max_depth=10.0, obstacle_height=0.3):
-        """Initialize obstacle detector.
+        """Initialize obstacle detector."
         
         Args:
             depth_estimator: Depth estimation model
             min_depth: Minimum valid depth in meters
             max_depth: Maximum valid depth in meters
             obstacle_height: Height threshold for obstacle detection in meters
-        """
+        """"
         self.depth_estimator = depth_estimator
         self.min_depth = min_depth
         self.max_depth = max_depth
         self.obstacle_height = obstacle_height
-    
+    :
     def detect_obstacles(self, rgb_img, depth_map=None):
-        """Detect obstacles from RGB image and optional depth map.
+        """Detect obstacles from RGB image and optional depth map."
         
         Args:
             rgb_img: Input RGB image
@@ -262,8 +262,8 @@ class ObstacleDetector:
             
         Returns:
             obstacles: List of detected obstacles with bounding boxes
-        """
-        # Compute depth if not provided
+        """"
+        # Compute depth if not provided:
         if depth_map is None:
             depth_map = self.depth_estimator.estimate(rgb_img)
         

@@ -1,3 +1,12 @@
+---
+title: Model Template
+description: Documentation for Model Template in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # [Model Name]
 
 ## Overview
@@ -46,7 +55,7 @@ Detailed description of the model architecture, including layers, connections, a
 import framework
 
 model = framework.load_model("model_name")
-result = model.predict(input_data)
+result = model.predict(input_data):
 ```
 
 ## References

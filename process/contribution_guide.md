@@ -1,3 +1,12 @@
+---
+title: Contribution Guide
+description: Documentation for Contribution Guide in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Contribution Guide
 
 ## Overview
@@ -45,7 +54,7 @@ Before creating new content, consider:
 #### References
 - Include at least 2-3 references to related internal documents
 - Add external references to authoritative sources
-- Format links consistently: `[Link Text](URL)`
+- Format links consistently: `[Link Text](../.venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py)`
 
 ### 4. Submission Process
 1. Create or update the file in the appropriate location

@@ -88,10 +88,10 @@ except KeyboardInterrupt:
 - Healthcare, industrial automation, search & rescue, sports, medical/repair
 
 ## References
-- [Sensor Integration](temp_reorg/docs/iot/sensors.md)
-- [AI Algorithms](temp_reorg/docs/ai/guides/robotics_ai_algorithms.md)
-- [Movement Algorithms](temp_reorg/docs/ai/guides/robotics_movement.md)
-- [Speech & Audio](docs/ai/audio/README.md)
+- [Sensor Integration](../../../temp_reorg/docs/iot/sensors.md)
+- [AI Algorithms](../../../temp_reorg/docs/ai/guides/robotics_ai_algorithms.md)
+- [Movement Algorithms](../../../temp_reorg/docs/ai/guides/robotics_movement.md)
+- [Speech & Audio](../../../temp_reorg/robotics/advanced_system/README.md)
 
 ---
 **Back to [Advanced Robotics](./README.md)**

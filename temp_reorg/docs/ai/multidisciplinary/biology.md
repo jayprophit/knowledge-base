@@ -19,7 +19,7 @@ This module implements biological models, neural networks, and evolutionary algo
 ## Example Usage
 ```python
 from multidisciplinary_ai.biology import BiologyModule
-# Example usage will depend on the module's API
+# Example usage will depend on the module's API'
 ```
 
 ## References

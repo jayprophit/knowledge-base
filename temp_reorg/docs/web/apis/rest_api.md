@@ -1,25 +1,28 @@
 ---
 id: web-apis-rest
 title: REST API Design and Implementation
-description: Comprehensive documentation on REST API principles, design best practices, and implementation examples
+description: Comprehensive documentation on REST API principles, design best practices,
+  and implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - rest_api
-  - api_design
-  - web_services
-  - http
-  - system_design
+- rest_api
+- api_design
+- web_services
+- http
+- system_design
 relationships:
   prerequisites: []
-  successors: [graphql.md, api_gateway.md]
+  successors:
+  - graphql.md
+  - api_gateway.md
   related:
-    - ../networking/http.md
-    - graphql.md
-    - api_gateway.md
-    - ../security/authentication.md
+  - ../networking/http.md
+  - graphql.md
+  - api_gateway.md
+  - ../security/authentication.md
 ---
 
 # REST APIs

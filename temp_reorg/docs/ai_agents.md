@@ -231,13 +231,13 @@ This document provides a curated, detailed, and categorized list of AI agents, p
 
 ## Installation & Integration Guide
 
-See [non_coder_setup.md](./non_coder_setup.md) for step-by-step setup and [README.md](../README.md) for architecture and integration principles. For each library, use `pip install <package>` as shown in the main assistant development guide.
+See [non_coder_setup.md](./non_coder_setup.md) for step-by-step setup and [README.md](../robotics/advanced_system/README.md) for architecture and integration principles. For each library, use `pip install <package>` as shown in the main assistant development guide.
 
 ---
 
 ## References & Further Reading
-- [Unified AI System](../unified-ai-system/README.md)
-- [Vision Module](../src/vision/README.md)
+- [Unified AI System](../robotics/advanced_system/README.md)
+- [Vision Module](../robotics/advanced_system/README.md)
 - [Multimodal Integration Guide](./ai/guides/multimodal_integration.md)
 - [Quantum AI System](../quantum_ai_system/README.md)
 - [Official Docs for Each Library/Platform]

@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - sharding
-  - scalability
-  - system_design
+- sharding
+- scalability
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - replication.md
-    - vertical_scaling.md
-    - database_overview.md
+  - replication.md
+  - vertical_scaling.md
+  - database_overview.md
 ---
 
 # Sharding in System Design

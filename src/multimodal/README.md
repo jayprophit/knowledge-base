@@ -1,3 +1,12 @@
+---
+title: Multimodal Documentation
+description: Documentation and guides for the Multimodal module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Multi-Modal Recognition System
 
 This directory contains the implementation of a unified multi-modal recognition system that combines audio and visual data processing capabilities into a single, cohesive framework.

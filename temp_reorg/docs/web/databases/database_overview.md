@@ -1,28 +1,29 @@
 ---
 id: web-database-overview
 title: Database Systems Overview
-description: Comprehensive documentation on database systems, types, selection criteria, and implementation examples
+description: Comprehensive documentation on database systems, types, selection criteria,
+  and implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - database
-  - sql
-  - nosql
-  - data_storage
-  - system_design
+- database
+- sql
+- nosql
+- data_storage
+- system_design
 relationships:
   prerequisites: []
   successors:
-    - overview.md
-    - ../system_design/cache.md
-    - ../performance/denormalization.md
-    - ../system_design/vertical_partitioning.md
+  - overview.md
+  - ../system_design/cache.md
+  - ../performance/denormalization.md
+  - ../system_design/vertical_partitioning.md
   related:
-    - ../system_design/cache.md
-    - ../performance/denormalization.md
-    - ../system_design/vertical_partitioning.md
+  - ../system_design/cache.md
+  - ../performance/denormalization.md
+  - ../system_design/vertical_partitioning.md
 ---
 
 # Database Systems Overview
@@ -171,7 +172,7 @@ services:
       - postgres-data:/var/lib/postgresql/data
 volumes:
   postgres-data:
-```
+```python
 
 ### Redis Cache
 ```yaml
@@ -186,7 +187,7 @@ services:
       - redis-data:/data
 volumes:
   redis-data:
-```
+```python
 
 ## References
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
@@ -196,3 +197,5 @@ volumes:
 - [../system_design/cache.md](../system_design/cache.md)
 - [../performance/denormalization.md](../performance/denormalization.md)
 - [../system_design/vertical_partitioning.md](../system_design/vertical_partitioning.md)
+
+```

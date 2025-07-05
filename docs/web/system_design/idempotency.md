@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - idempotency
-  - system_design
-  - api
+- idempotency
+- system_design
+- api
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../apis/rest_api.md
-    - api_gateway.md
-    - message_queue.md
+  - ../apis/rest_api.md
+  - api_gateway.md
+  - message_queue.md
 ---
 
 # Idempotency in System Design

@@ -34,7 +34,7 @@ cv2.destroyAllWindows()
 ## Cross-links
 - [virtual_assistant_book.md](../virtual_assistant_book.md)
 - [ai_agents.md](../ai_agents.md)
-- [Vision Module](../../src/vision/README.md)
+- [Vision Module](../../robotics/advanced_system/README.md)
 
 ---
 _Last updated: July 3, 2025_

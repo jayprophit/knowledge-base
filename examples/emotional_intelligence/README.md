@@ -1,3 +1,12 @@
+---
+title: Emotional Intelligence Documentation
+description: Documentation and guides for the Emotional Intelligence module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Emotional Intelligence Example
 
 This directory contains a practical implementation of emotional intelligence capabilities for AI systems, including emotion modeling, self-awareness, and empathy.
@@ -64,9 +73,9 @@ This example can be integrated with:
 
 ## Related Documentation
 
-- [Emotional Intelligence Architecture](../docs/ai/emotional_intelligence/ARCHITECTURE.md)
-- [Emotion Regulation](../docs/ai/emotional_intelligence/EMOTION_REGULATION.md)
-- [Empathy and Social Awareness](../docs/ai/emotional_intelligence/EMPATHY_AND_SOCIAL_AWARENESS.md)
+- [Emotional Intelligence Architecture](../../temp_reorg/docs/web/client_server/architecture.md)
+- [Emotion Regulation](../../temp_reorg/docs/ai/emotional_intelligence/EMOTION_REGULATION.md)
+- [Empathy and Social Awareness](../../temp_reorg/docs/ai/emotional_intelligence/EMPATHY_AND_SOCIAL_AWARENESS.md)
 
 ## Testing
 

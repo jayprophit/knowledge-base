@@ -1,3 +1,12 @@
+---
+title: Vision Documentation
+description: Documentation and guides for the Vision module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Computer Vision Module
 
 This module provides computer vision capabilities including object detection, face detection, and image classification across multiple categories.
@@ -143,7 +152,7 @@ face_detector = get_detector(
 import torch
 
 # Check if CUDA is available
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu":
 print(f"Using device: {device}")
 
 # Initialize detector with specified device

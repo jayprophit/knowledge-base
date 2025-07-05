@@ -68,7 +68,7 @@ class VirtualBrain:
         
         # Initialize neural pathways
         self._initialize_pathways()
-    
+    :
     def _initialize_pathways(self):
         """Set up communication pathways between modules."""
         self.pathways = {
@@ -119,7 +119,7 @@ class LIFNeuron:
         dV = (current_input - (self.membrane_potential - self.rest_potential)) / self.tau
         self.membrane_potential += dV
         
-        # Check for spike
+        # Check for spike:
         if self.membrane_potential >= self.threshold:
             self.spike_times.append(t)
             self.membrane_potential = self.rest_potential
@@ -139,7 +139,7 @@ class NeuralPopulation:
         self.neurons = [neuron_type(**neuron_params) for _ in range(size)]
         self.size = size
         self.connections = None  # Will be set by Network class
-    
+    :
     def update(self, inputs, t):
         """Update all neurons in the population."""
         if inputs.ndim == 1:
@@ -153,7 +153,7 @@ class NeuralPopulation:
     
     def get_activity(self):
         """Get current activity level of the population."""
-        return np.array([n.membrane_potential for n in self.neurons])
+        return np.array([n.membrane_potential for n in self.neurons]):
 ```
 
 ## 3. Brain Region Implementation
@@ -163,7 +163,7 @@ class NeuralPopulation:
 ```python
 class BrainRegion:
     """Base class for all brain regions."""
-    
+    :
     def __init__(self, name, neural_population):
         self.name = name
         self.population = neural_population
@@ -177,7 +177,7 @@ class BrainRegion:
             self.modulators[target_region] = modulator
     
     def update(self, inputs, t):
-        """Update the region's state."""
+        """Update the region's state."""'
         # Apply modulation from other regions
         modulated_input = self._apply_modulation(inputs)
         

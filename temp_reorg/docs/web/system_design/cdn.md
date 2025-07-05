@@ -1,23 +1,24 @@
 ---
 id: web-system-design-cdn
 title: Content Delivery Networks (CDN) in System Design
-description: Comprehensive documentation on CDN concepts, use cases, implementation, and best practices
+description: Comprehensive documentation on CDN concepts, use cases, implementation,
+  and best practices
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - cdn
-  - system_design
-  - performance
-  - scalability
+- cdn
+- system_design
+- performance
+- scalability
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../performance/denormalization.md
-    - ../system_design/cache.md
-    - ../security/security.md
+  - ../performance/denormalization.md
+  - ../system_design/cache.md
+  - ../security/security.md
 ---
 
 # Content Delivery Networks (CDN) in System Design

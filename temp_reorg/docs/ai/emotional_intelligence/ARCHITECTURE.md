@@ -105,7 +105,7 @@ This document provides a high-level overview of the Emotional Intelligence Syste
 
 **Data Structures**:
 ```python
-# Memory Entry
+# Memory Entry:
 {
     'id': int,                     # Unique identifier
     'timestamp': str,              # ISO format timestamp

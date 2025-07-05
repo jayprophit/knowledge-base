@@ -51,7 +51,7 @@ class SelfAwareModule:
         return self.calculate_emotional_response(situation, emotions)
     def calculate_emotional_response(self, situation, emotions):
         response = {emotion: self.emotional_weight(situation, emotion) for emotion in emotions}
-        return response
+        return response:
 ```
 
 ### 2. Physical Abilities and Adaptations
@@ -119,8 +119,8 @@ class NanoReplicator:
 ```python
 class PowerOptimizer:
     def allocate_energy(self, tasks):
-        high_priority_tasks = [task for task in tasks if task.priority == "high"]
-        return self.distribute_energy(high_priority_tasks)
+        high_priority_tasks = [task for task in tasks if task.priority == "high"]:
+        return self.distribute_energy(high_priority_tasks):
     def harvest_energy(self, environment_factors):
         return store_energy(environment_factors)
 ```

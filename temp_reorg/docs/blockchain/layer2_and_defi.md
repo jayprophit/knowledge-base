@@ -20,7 +20,7 @@ This document describes the advanced blockchain features added to the 3D and web
 
 These features enable the blockchain to support fast, low-cost transactions, on-chain swaps/conversions, cross-chain asset transfers, and user/community incentives.
 
-See also: [`src/blockchain/layer2_and_defi.py`](../../src/blockchain/layer2_and_defi.py)
+See also: [`src/blockchain/layer2_and_defi.py`](../../../src/blockchain/layer2_and_defi.py)
 
 ## Features
 
@@ -46,7 +46,7 @@ See also: [`src/blockchain/layer2_and_defi.py`](../../src/blockchain/layer2_and_
 
 ## Example Python Implementation
 
-See [`src/blockchain/layer2_and_defi.py`](../../src/blockchain/layer2_and_defi.py) for class implementations:
+See [`src/blockchain/layer2_and_defi.py`](../../../src/blockchain/layer2_and_defi.py) for class implementations:
 - `Transaction` (Layer-2, dynamic fees)
 - `Rollup` (batching)
 - `LiquidityPool` (AMM swaps)
@@ -91,7 +91,7 @@ ref_sys.reward_referral("user_5", 100)
 ```
 
 ## Integration & References
-- Integrated with [`website_blockchain.py`](../../src/blockchain/website_blockchain.py) and [`3d_blockchain.py`](../../src/blockchain/3d_blockchain.py)
+- Integrated with [`website_blockchain.py`](../../../src/blockchain/website_blockchain.py) and [`3d_blockchain.py`](../../../src/blockchain/3d_blockchain.py)
 - [Layer 2 Scaling](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
 - [Automated Market Maker](https://uniswap.org/whitepaper.pdf)
 - [Hashed Timelock Contracts](https://en.bitcoin.it/wiki/Hashed_Timelock_Contract)

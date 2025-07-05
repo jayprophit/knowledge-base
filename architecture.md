@@ -1,3 +1,12 @@
+---
+title: Architecture
+description: Documentation for Architecture in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base Architecture
 
 ## Critical Main Files
@@ -25,7 +34,7 @@ The Unified AI Assistant is a world-class, production-ready cross-platform syste
 
 ## Directory Structure
 
-```
+```python
 /knowledge-base/
   /docs/              # Core documentation files
     /workflow/        # ML workflow step documentation
@@ -56,7 +65,7 @@ The Unified AI Assistant is a world-class, production-ready cross-platform syste
   changelog.md        # Record of changes
   system_design.md    # System design documentation
   architecture.md     # This file
-  rollback.md         # Rollback procedures
+  rollback.md         # Rollback procedures:
 ```
 
 ## File Relationships

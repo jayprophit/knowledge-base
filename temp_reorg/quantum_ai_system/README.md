@@ -1,3 +1,12 @@
+---
+title: Quantum Ai System Documentation
+description: Documentation and guides for the Quantum Ai System module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Quantum AI System
 
 This directory contains the code and documentation for the Quantum AI System, integrating quantum computing, advanced AI, blockchain, frequency analysis, automation, and secure deployment. Each submodule is documented and cross-linked for full discoverability and traceability.
@@ -15,7 +24,7 @@ This directory contains the code and documentation for the Quantum AI System, in
 
 Each subfolder contains a README or docstring headers in each file. See the root README for cross-links to main project documentation.
 
-- [Main Knowledge Base README](../README.md)
+- [Main Knowledge Base README](../robotics/advanced_system/README.md)
 - [Deployment Guide](../docs/deployment.md)
 - [Non-Coder Setup Guide](../docs/non_coder_setup.md)
 

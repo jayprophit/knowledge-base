@@ -64,12 +64,12 @@ class CryptographicDecoder:
         for shift in range(shift_range):
             decrypted = ''.join(
                 chr((ord(char) - shift - 65) % 26 + 65) if char.isupper()
-                else chr((ord(char) - shift - 97) % 26 + 97) if char.islower()
-                else char
-                for char in cipher_text
+                else chr((ord(char) - shift - 97) % 26 + 97) if char.islower():
+                else char:
+                for char in cipher_text:
             )
-            possible_messages.append(decrypted)
-        return possible_messages
+            possible_messages.append(decrypted):
+        return possible_messages:
 ```
 
 ### Anagram Solver
@@ -79,8 +79,8 @@ class AnagramSolver:
     def __init__(self, dictionary):
         self.dictionary = set(dictionary)
     def solve_anagram(self, scrambled_word):
-        possible_words = [''.join(p) for p in permutations(scrambled_word)]
-        return [word for word in possible_words if word in self.dictionary]
+        possible_words = [''.join(p) for p in permutations(scrambled_word)]:
+        return [word for word in possible_words if word in self.dictionary]:
 ```
 
 ### Image-Based Steganography

@@ -107,7 +107,7 @@ class MetacognitiveMonitor:
         # Normalize weights
         total = sum(self.attention_weights.values())
         self.attention_weights = {k: v/total for k, v in self.attention_weights.items()}
-    
+    :
     def monitor_thoughts(self, thought, confidence, context):
         """Track and analyze thought processes."""
         thought_record = {
@@ -129,7 +129,7 @@ class MetacognitiveMonitor:
         if len(self.thought_buffer) < 5:  # Need minimum thoughts for pattern detection
             return
             
-        # Analyze recent thoughts for patterns
+        # Analyze recent thoughts for patterns:
         recent_thoughts = list(self.thought_buffer)[-5:]
         
         # Check for repetitive negative thoughts
@@ -137,11 +137,11 @@ class MetacognitiveMonitor:
         negative_count = sum(
             1 for t in recent_thoughts 
             if any(kw in t['content'].lower() for kw in negative_keywords)
-        )
-        
+        ):
+        :
         if negative_count >= 3:
             self.trigger_reflection(
-                'I\'ve noticed several negative thoughts recently. ' +
+                'I\'ve noticed several negative thoughts recently. ' +'
                 'Would it help to reframe these situations more positively?'
             )
 ```
@@ -173,7 +173,7 @@ class IntrospectionEngine:
         initial_analysis = self._analyze_topic(topic)
         reflection['initial_analysis'] = initial_analysis
         
-        # Deeper reflection if needed
+        # Deeper reflection if needed:
         if depth > 0:
             deeper_insights = self._deep_reflection(topic, depth)
             reflection['deeper_insights'] = deeper_insights
@@ -276,7 +276,7 @@ monitor = MetacognitiveMonitor(emotion_model, memory_system)
 introspection = IntrospectionEngine(memory_system, emotion_model)
 
 # Monitor a thought
-thought = "I'm worried about the upcoming presentation."
+thought = "I'm worried about the upcoming presentation."'
 monitor.monitor_thoughts(
     thought=thought,
     confidence=0.7,
@@ -302,7 +302,7 @@ patterns = monitor.detect_thought_patterns(
     time_window='24h',
     emotion_threshold=0.6
 )
-
+:
 if patterns['negative_thoughts'] > 5:
     print("Notice: High frequency of negative thoughts detected.")
     print("Consider engaging in positive reframing or taking a break.")

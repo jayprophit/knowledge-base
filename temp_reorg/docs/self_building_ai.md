@@ -21,7 +21,7 @@ The Self-Building AI project enables an AI system to iteratively improve, fix, a
 - **Integration:** APIs, cloud services, and external devices (CAD, IoT, 3D printing) supported.
 
 ## Folder Structure Example
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # /self_building_ai
@@ -63,8 +63,8 @@ def analyze_logs():
         with open(ERROR_LOG, "r") as f:
             logs = f.readlines()
             return [log.strip() for log in logs if "ERROR" in log]
-    return []
-
+    return []:
+:
 def generate_fix(error_message):
     prompt = f"Fix the following error: {error_message}"
     response = openai.Completion.create(
@@ -136,7 +136,7 @@ elif choice == "Preview":
 ```
 
 ### 3. .env Example
-```
+```python
 OPE# NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # 
@@ -148,14 +148,14 @@ OPE# NOTE: The following code had syntax errors and was commented out
 __pycache__/
 logs/
 *.pyc
-```
+```python
 
 ### 5. requirements.txt Example
 ```
 openai
 streamlit
 python-dotenv
-```
+```python
 
 ---
 
@@ -173,5 +173,7 @@ python-dotenv
 - Continue iterative self-improvement cycles.
 
 ---
-
+:
 _Last updated: July 3, 2025_
+
+```

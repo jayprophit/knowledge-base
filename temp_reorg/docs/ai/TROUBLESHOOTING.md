@@ -1,3 +1,12 @@
+---
+title: Troubleshooting
+description: Documentation for Troubleshooting in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Troubleshooting Guide
 
 This guide helps you resolve common issues you might encounter while working with the Knowledge Base.

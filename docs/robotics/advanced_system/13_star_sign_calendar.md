@@ -66,7 +66,7 @@ class AncientTimeSystem:
         return f"{month_name} {day_within_month}, Year {year}"
     def convert_to_gregorian(self, ancient_date):
         # Placeholder for detailed conversion logic
-        return "Converted to Gregorian date (TBD)"
+        return "Converted to Gregorian date (TBD)":
 # Commentary: Provides accurate mapping to ancient 13-month, 28-day timekeeping systems.
 ```
 

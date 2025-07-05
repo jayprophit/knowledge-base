@@ -1,3 +1,12 @@
+---
+title: Unified System Architecture
+description: Documentation for Unified System Architecture in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Unified AI Assistant: Production Architecture
 
 ## Overview
@@ -62,7 +71,7 @@ This document outlines the production-grade architecture for the Unified AI Assi
 ## Integration Architecture
 
 ### Data Flow
-```
+```python
                                    ┌─────────────────┐
                                    │                 │
                                    │   Knowledge     │
@@ -90,7 +99,7 @@ This document outlines the production-grade architecture for the Unified AI Assi
 ```
 
 ### Authentication Flow
-```
+```python
 ┌─────────┐     ┌─────────┐     ┌─────────┐     ┌─────────┐
 │         │     │         │     │         │     │         │
 │ Client  ├────►│ Auth    ├────►│ Backend ├────►│ Services│

@@ -51,7 +51,7 @@ This directory contains comprehensive documentation for deploying applications a
 ### Quick Start
 
 1. Clone the repository
-2. Set up environment variables (see [Environment Configuration](temp_reorg/docs/deployment/environment.md))
+2. Set up environment variables (see [Environment Configuration](../../temp_reorg/docs/deployment/environment.md))
 3. Build and deploy using the provided scripts
 
 ## Environment Configuration
@@ -130,7 +130,7 @@ terraform apply
 
 ## Troubleshooting
 
-See [Troubleshooting Guide](temp_reorg/docs/robotics/troubleshooting.md) for common issues and solutions.
+See [Troubleshooting Guide](../../temp_reorg/docs/robotics/troubleshooting.md) for common issues and solutions.
 
 ## Contributing
 
@@ -138,4 +138,4 @@ Please read [CONTRIBUTING.md](../CONTRIBUTING.md) for details on our code of con
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../../temp_reorg/LICENSE) file for details.

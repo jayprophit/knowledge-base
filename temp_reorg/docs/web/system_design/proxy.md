@@ -1,23 +1,24 @@
 ---
 id: web-system-design-proxy
 title: Proxy and Reverse Proxy in System Design
-description: Documentation on proxy and reverse proxy concepts, use cases, and implementation examples
+description: Documentation on proxy and reverse proxy concepts, use cases, and implementation
+  examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - proxy
-  - reverse_proxy
-  - system_design
-  - networking
+- proxy
+- reverse_proxy
+- system_design
+- networking
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../networking/ip_address.md
-    - ../networking/dns.md
-    - load_balancer.md
+  - ../networking/ip_address.md
+  - ../networking/dns.md
+  - load_balancer.md
 ---
 
 # Proxy and Reverse Proxy in System Design

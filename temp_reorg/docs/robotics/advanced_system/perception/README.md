@@ -123,7 +123,7 @@ class ObjectTracker:
 # ## Example: Sensor Fusion (Camera, LiDAR, IMU)
 # 
         return tracked_objects
-```
+```python
 
 ---
 
@@ -153,7 +153,7 @@ class SensorFusion:
         # Align timestamps and transform data to common frame
         # ... (see code in depth_estimation.md for details)
         return {}
-```
+```python
 
 ---
 
@@ -172,3 +172,5 @@ class SensorFusion:
 
 ---
 _Last updated: 2025-07-01_
+
+```

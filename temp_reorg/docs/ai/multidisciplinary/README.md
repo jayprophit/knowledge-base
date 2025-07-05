@@ -62,7 +62,7 @@ ai = MultidisciplinaryAI()
 # Process input across all disciplines
 results = ai.process_input({
     'psychology': {
-        'thought': "I'm feeling motivated today",
+        'thought': "I'm feeling motivated today",'
         'context': 'work_environment'
     },
     'philosophy': {
@@ -97,16 +97,16 @@ print(results)
 
 ## Documentation
 
-- [Psychology Module](./psychology/README.md)
-- [Philosophy Module](./philosophy/README.md)
-- [Sociology Module](./sociology/README.md)
-- [Biology Module](./biology/README.md)
-- [Cosmology Module](./cosmology/README.md)
+- [Psychology Module](../../../robotics/advanced_system/README.md)
+- [Philosophy Module](../../../robotics/advanced_system/README.md)
+- [Sociology Module](../../../robotics/advanced_system/README.md)
+- [Biology Module](../../../robotics/advanced_system/README.md)
+- [Cosmology Module](../../../robotics/advanced_system/README.md)
 - [Integration Guide](./integration.md)
 
 ## Examples
 
-See the [examples](../../examples/multidisciplinary/) directory for practical implementations and use cases.
+See the [examples](../../../../docs/robotics/specs/.md) directory for practical implementations and use cases.
 
 ## Contributing
 

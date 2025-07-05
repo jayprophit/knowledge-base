@@ -1,3 +1,12 @@
+---
+title: Support
+description: Documentation for Support in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Getting Support
 
 We're here to help! Here's how you can get support for the Knowledge Base project.

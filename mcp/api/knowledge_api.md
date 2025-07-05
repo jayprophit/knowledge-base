@@ -1,14 +1,18 @@
 ---
-title: "Knowledge API Documentation"
-description: "Stub documentation for Knowledge API Documentation"
-type: "documentation"
-category: "Documentation"
+title: Knowledge API Documentation
+description: Stub documentation for Knowledge API Documentation
+type: documentation
+category: Documentation
 related_resources:
-  - name: "Related Resource 1"
-    url: "#"
+- name: Related Resource 1
+  url: '#'
 tags:
-  - documentation
-  - stub
+- documentation
+- stub
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
 ---
 
 # Knowledge API Documentation

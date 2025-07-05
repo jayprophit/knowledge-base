@@ -7,19 +7,19 @@ created_at: 2025-06-30
 updated_at: 2025-06-30
 version: 1.0.0
 tags:
-  - security
-  - cryptography
-  - post_quantum
-  - encryption
-  - digital_signatures
-  - key_exchange
+- security
+- cryptography
+- post_quantum
+- encryption
+- digital_signatures
+- key_exchange
 relationships:
   prerequisites:
-    - security/cryptography_basics.md
+  - security/cryptography_basics.md
   related:
-    - quantum_computing/virtual_quantum_computer.md
-    - security/encryption_at_rest.md
-    - security/encryption_in_transit.md
+  - quantum_computing/virtual_quantum_computer.md
+  - security/encryption_at_rest.md
+  - security/encryption_in_transit.md
 ---
 
 # Quantum-Resistant Cryptography
@@ -50,7 +50,7 @@ def generate_kyber_keypair():
     private_key = kyber.generate_private_key()
     public_key = private_key.public_key()
     return private_key, public_key
-
+:
 def encrypt_message(public_key, message):
     """Encrypt a message using Kyber KEM."""
     ciphertext, shared_secret = public_key.encrypt(message)
@@ -74,7 +74,7 @@ def generate_sphincs_keypair():
     private_key = sphincs.generate_private_key()
     public_key = private_key.public_key()
     return private_key, public_key
-
+:
 def sign_message(private_key, message):
     """Sign a message using SPHINCS+."""
     return private_key.sign(
@@ -113,7 +113,7 @@ class McEliece:
         G = np.random.randint(0, 2, (self.k, self.n))
         
         # Generate random non-singular matrix S
-        S = np.random.randint(0, 2, (self.k, self.k))
+        S = np.random.randint(0, 2, (self.k, self.k)):
         while np.linalg.det(S) == 0:
             S = np.random.randint(0, 2, (self.k, self.k))
             
@@ -121,7 +121,7 @@ class McEliece:
         P = np.eye(self.n, dtype=int)
         np.random.shuffle(P)
         
-        # Compute public key G' = SGP
+        # Compute public key G' = SGP'
         G_prime = np.mod(np.dot(S, np.dot(G, P)), 2)
         
         return {
@@ -134,12 +134,12 @@ class McEliece:
         assert len(message) == self.k
         assert len(errors) == self.n
         
-        # Compute ciphertext c = mG' + e
+        # Compute ciphertext c = mG' + e'
         ciphertext = np.mod(np.dot(message, public_key) + errors, 2)
         return ciphertext
     
     def decrypt(self, private_key, ciphertext):
-        # Implementation of Patterson's algorithm for decoding
+        # Implementation of Patterson's algorithm for decoding'
         # This is a simplified version for illustration
         S, G, P = private_key['S'], private_key['G'], private_key['P']
         
@@ -148,7 +148,7 @@ class McEliece:
         c_prime = np.mod(np.dot(ciphertext, P_inv), 2)
         
         # Decode using the private key (simplified)
-        # In practice, this would use the Goppa code decoder
+        # In practice, this would use the Goppa code decoder:
         m_hat = c_prime[:self.k]  # This is a simplification
         
         # Recover original message
@@ -191,7 +191,7 @@ class HybridEncryption:
             info=b'hybrid-encryption',
         ).derive(shared_key)
         
-        # Split into encryption and authentication keys
+        # Split into encryption and authentication keys:
         enc_key = derived_key[:32]
         auth_key = derived_key[32:]
         
@@ -298,7 +298,7 @@ def benchmark_operations():
         headers=["Algorithm", "KeyGen (ms)", "Encrypt (ms)", "Decrypt (ms)"],
         tablefmt="grid"
     ))
-
+:
 if __name__ == "__main__":
     benchmark_operations()
 ```
@@ -329,7 +329,7 @@ class CryptoAlgorithm:
     def is_available(self) -> bool:
         """Check if this algorithm is available in the current environment."""
         raise NotImplementedError
-    
+    :
     def get_parameters(self) -> Dict[str, Any]:
         """Get algorithm parameters."""
         return {}
@@ -339,16 +339,16 @@ class CryptoAgilityManager:
         self.algorithms: Dict[AlgorithmType, Dict[str, CryptoAlgorithm]] = {
             alg_type: {} for alg_type in AlgorithmType
         }
-    
+    :
     def register_algorithm(self, algorithm: CryptoAlgorithm):
         """Register a new cryptographic algorithm."""
         self.algorithms[algorithm.algorithm_type][algorithm.name] = algorithm
     
     def get_algorithm(self, algorithm_type: AlgorithmType, name: str = None):
-        """
+        """"
         Get the best available algorithm of the specified type.
         If name is provided, returns that specific algorithm if available.
-        """
+        """":
         if name:
             return self.algorithms[algorithm_type].get(name)
         
@@ -356,8 +356,8 @@ class CryptoAgilityManager:
         available = [
             alg for alg in self.algorithms[algorithm_type].values() 
             if alg.enabled and alg.is_available()
-        ]
-        
+        ]:
+        :
         if not available:
             raise ValueError(f"No available {algorithm_type} algorithms")
             

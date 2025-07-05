@@ -51,7 +51,7 @@ class PIDController:
         derivative = (error - self.last_error) / dt if dt > 0 else 0.0
         output = self.kp * error + self.ki * self.integral + self.kd * derivative
         self.last_error = error
-        return output
+        return output:
 ```
 
 ## Sample Code: Reinforcement Learning Control
@@ -60,7 +60,7 @@ import gym
 import torch
 # Example: DQN or PPO for robot control (see Stable-Baselines3)
 # env = gym.make('CartPole-v1')
-# ... RL agent setup and training ...
+# ... RL agent setup and training ...:
 ```
 
 ## Cross-links

@@ -1,3 +1,12 @@
+---
+title: Content Lifecycle
+description: Documentation for Content Lifecycle in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Content Lifecycle
 
 ## Overview
@@ -150,6 +159,6 @@ Content quality is scored on a 0-100 scale:
 - Quality score calculation
 
 ## References
-- [Review Process](../process/review_process.md) - Detailed review procedures
+- [Review Process](review_process.md) - Detailed review procedures
 - [Tagging System](tagging_system.md) - Status tagging standards
-- [Changelog Standards](changelog_standards.md) - How updates are documented
+- [Changelog Standards](../robotics/changelog_standards.md) - How updates are documented

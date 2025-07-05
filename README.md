@@ -1,3 +1,12 @@
+---
+title: Knowledge-Base Documentation
+description: Documentation and guides for the Knowledge-Base module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Advanced AI Knowledge Base
 
 > **IMPORTANT:** The following main files are critical and must be kept in sync. Any change to one must be reflected in all others, both before and after any process. All must be cross-linked and referenced:
@@ -19,7 +28,7 @@ This repository serves as a comprehensive knowledge base for advanced AI systems
 
 ## Project Structure
 
-```
+```python
 knowledge-base/
 ├── docs/                      # Documentation organized by domain
 │   ├── ai/                    # AI and machine learning
@@ -43,7 +52,7 @@ knowledge-base/
 ├── architecture.md            # System architecture
 ├── changelog.md               # Version history
 ├── plan.md                    # Development roadmap
-└── README.md                  # This file
+└── README.md                  # This file:
 ```
 
 
@@ -118,7 +127,7 @@ Explore our comprehensive guides:
 from emotional_intelligence.emotion_recognition import EmotionRecognizer
 
 recognizer = EmotionRecognizer()
-analysis = recognizer.analyze("I'm really excited about this project!")
+analysis = recognizer.analyze("I'm really excited about this project!")'
 print(f"Detected emotion: {analysis['primary_emotion']['label']}")
 print(f"Confidence: {analysis['primary_emotion']['confidence']:.2f}")
 ```
@@ -129,7 +138,7 @@ from emotional_intelligence.empathy import EmpathicResponseGenerator
 
 generator = EmpathicResponseGenerator()
 response = generator.generate_response(
-    "I'm feeling really stressed about this deadline.",
+    "I'm feeling really stressed about this deadline.",'
     context={'conversation_history': [...]}
 )
 print(response['content'])
@@ -180,8 +189,8 @@ Complete documentation for all stages of the ML workflow:
 
 Documentation and implementations for quantum computing components:
 - [Virtual Quantum Computer](docs/quantum_computing/virtual_quantum_computer.md)
-- [Quantum Circuit Optimization](tutorials/quantum_circuit_optimization_tutorial.ipynb)
-- [Device Control AI](tutorials/device_control_ai_tutorial.ipynb)
+- [Quantum Circuit Optimization](temp_reorg/quantum_circuit_optimization_tutorial.ipynb)
+- [Device Control AI](temp_reorg/device_control_ai_tutorial.ipynb)
 
 ## Documentation Guidelines
 

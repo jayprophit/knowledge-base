@@ -24,4 +24,4 @@ result = function_call(parameter)
 
 ## Related Resources
 
-- [Related Link](./related_resource.md)
+- [Related Link](../../../../docs/web/security/related_resource.md)

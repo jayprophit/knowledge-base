@@ -7,18 +7,18 @@ created_at: 2025-06-30
 updated_at: 2025-06-30
 version: 1.0.0
 tags:
-  - quantum_computing
-  - circuit_optimization
-  - ai
-  - implementation_guide
-  - performance
+- quantum_computing
+- circuit_optimization
+- ai
+- implementation_guide
+- performance
 relationships:
   prerequisites:
-    - ai/applications/narrow_ai_quantum.md
-    - quantum_computing/virtual_quantum_computer.md
+  - ai/applications/narrow_ai_quantum.md
+  - quantum_computing/virtual_quantum_computer.md
   related:
-    - ai/accelerators/time_crystal_module.md
-    - ai/architecture/system_design.md
+  - ai/accelerators/time_crystal_module.md
+  - ai/architecture/system_design.md
 ---
 
 # Quantum Circuit Optimization Guide
@@ -80,7 +80,7 @@ import numpy as np
 
 def extract_circuit_features(circuit: QuantumCircuit) -> dict:
     """Extract features from a quantum circuit for optimization."""
-    features = {
+    features = {:
         'num_qubits': circuit.num_qubits,
         'depth': circuit.depth(),
         'gate_counts': dict(circuit.count_ops()),
@@ -92,7 +92,7 @@ def extract_circuit_features(circuit: QuantumCircuit) -> dict:
 def _calculate_connectivity(circuit: QuantumCircuit) -> float:
     """Calculate the connectivity score of the circuit."""
     # Implementation details for connectivity analysis
-    pass
+    pass:
 ```
 
 ### 2. Machine Learning Model
@@ -122,7 +122,7 @@ class CircuitOptimizer(tf.keras.Model):
         )
         
         # Output layers
-        self.output_layers = {
+        self.output_layers = {:
             'gate_type': layers.Dense(10, activation='softmax'),
             'parameters': layers.Dense(num_qubits * 3),  # For rotation angles
             'qubit_mapping': layers.Dense(num_qubits**2, activation='sigmoid')
@@ -192,14 +192,14 @@ class QuantumCircuitEnv(gym.Env):
     def _apply_gate(self, action):
         # Implementation for applying gate to circuit
         pass
-    
+    :
     def _calculate_reward(self):
         # Implementation for calculating reward
         pass
-    
+    :
     def _get_obs(self):
         # Implementation for getting observation
-        pass
+        pass:
 ```
 
 ## Performance Tuning
@@ -236,7 +236,7 @@ study = create_study(direction='maximize')
 study.optimize(objective, n_trials=50)
 
 # Best hyperparameters
-best_params = study.best_params
+best_params = study.best_params:
 print(f"Best parameters: {best_params}")
 ```
 
@@ -275,10 +275,10 @@ class AICircuitOptimizer:
     def _extract_features(self, circuit: QuantumCircuit):
         # Implementation for feature extraction
         pass
-    
+    :
     def _apply_suggestions(self, circuit: QuantumCircuit, suggestions: dict):
         # Implementation for applying AI suggestions
-        pass
+        pass:
 ```
 
 ## Troubleshooting

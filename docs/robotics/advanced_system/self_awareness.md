@@ -25,9 +25,9 @@ class ReflectiveAwareness:
         self.current_state = {"efficiency": 0.9, "purpose_alignment": 0.95}
     def evaluate_state(self):
         reflection = {key: self.analyze(key, value) for key, value in self.current_state.items()}
-        self.adjust_state(reflection)
+        self.adjust_state(reflection):
     def analyze(self, metric, value):
-        return value if value > 0.8 else value + 0.1
+        return value if value > 0.8 else value + 0.1:
     def adjust_state(self, reflection):
         self.current_state.update(reflection)
 ```

@@ -1,23 +1,24 @@
 ---
 id: web-system-design-sql-vs-nosql
 title: SQL vs NoSQL Databases
-description: Documentation comparing SQL and NoSQL databases, use cases, and implementation examples
+description: Documentation comparing SQL and NoSQL databases, use cases, and implementation
+  examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - sql
-  - nosql
-  - databases
-  - system_design
+- sql
+- nosql
+- databases
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../databases/database_overview.md
-    - ../system_design/sharding.md
-    - ../system_design/replication.md
+  - ../databases/database_overview.md
+  - ../system_design/sharding.md
+  - ../system_design/replication.md
 ---
 
 # SQL vs NoSQL Databases

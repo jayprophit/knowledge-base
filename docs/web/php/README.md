@@ -355,7 +355,7 @@ class KnowledgeBaseController extends Controller
         ]);
     }
 }
-```
+```python
 
 ### Integration with WordPress
 
@@ -395,7 +395,7 @@ function kb_search_shortcode($atts) {
     return ob_get_clean();
 }
 add_shortcode('kb_search', 'kb_search_shortcode');
-```
+```python
 
 ## References
 
@@ -414,3 +414,5 @@ Guidelines for contributing to the PHP module:
 - [Testing Guidelines](contributing/testing.md)
 - [Documentation Guidelines](contributing/documentation.md)
 - [Pull Request Process](contributing/pull_requests.md)
+
+```

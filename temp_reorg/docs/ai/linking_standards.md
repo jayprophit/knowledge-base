@@ -1,3 +1,12 @@
+---
+title: Linking Standards
+description: Documentation for Linking Standards in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Linking Standards
 
 ## Overview
@@ -8,12 +17,12 @@ This document defines the standardized approach to creating and maintaining link
 ### Link Types
 1. **Direct References**: Links to other documents that provide supporting information
    ```markdown
-   See [Data Preprocessing](../docs/workflow/preprocessing.md) for more details.
+   See [Data Preprocessing](../machine_learning/workflow/preprocessing.md) for more details.
    ```
 
 2. **Section References**: Links to specific sections within other documents
    ```markdown
-   Learn about [hyperparameter optimization techniques](../docs/workflow/hyperparameter_tuning.md#optimization-techniques)
+   Learn about [hyperparameter optimization techniques](../machine_learning/workflow/hyperparameter_tuning.md)
    ```
 
 3. **Contextual References**: Inline links that provide additional context
@@ -24,8 +33,8 @@ This document defines the standardized approach to creating and maintaining link
 4. **Related Content**: Links to related documents, typically in a dedicated section
    ```markdown
    ## Related Content
-   - [Model Evaluation](../docs/workflow/evaluate_performance.md)
-   - [Deployment Strategies](../docs/workflow/deployment.md)
+   - [Model Evaluation](../machine_learning/workflow/evaluate_performance.md)
+   - [Deployment Strategies](../machine_learning/workflow/deployment.md)
    ```
 
 ### Link Formatting
@@ -61,9 +70,9 @@ Each document should include links to:
 Example for a document about model training:
 ```markdown
 ## References
-- [Data Preprocessing](preprocessing.md) - Required before model training
-- [Model Evaluation](evaluate_performance.md) - Next step after model training
-- [Hyperparameter Tuning](hyperparameter_tuning.md) - For optimizing model performance
+- [Data Preprocessing](../machine_learning/workflow/preprocessing.md) - Required before model training
+- [Model Evaluation](../machine_learning/workflow/evaluate_performance.md) - Next step after model training
+- [Hyperparameter Tuning](../machine_learning/workflow/hyperparameter_tuning.md) - For optimizing model performance
 ```
 
 ## External Linking
@@ -159,7 +168,7 @@ Each document should include a References section at the end with these subsecti
 This document covers the process of training machine learning models.
 
 ## Prerequisites
-Before training models, you'll need properly [preprocessed data](preprocessing.md) 
+Before training models, you'll need properly [preprocessed data](../machine_learning/workflow/preprocessing.md) 
 and a clear understanding of [model selection criteria](model_selection.md).
 
 ## Process Steps
@@ -174,15 +183,15 @@ For improving model performance, consider using [transfer learning](../concepts/
 or implementing [early stopping](../concepts/regularization.md#early-stopping).
 
 ## Next Steps
-After training, proceed to [model evaluation](evaluate_performance.md) to assess performance
-and potentially [tune hyperparameters](hyperparameter_tuning.md) to improve results.
+After training, proceed to [model evaluation](../machine_learning/workflow/evaluate_performance.md) to assess performance
+and potentially [tune hyperparameters](../machine_learning/workflow/hyperparameter_tuning.md) to improve results.
 
 ## References
 
 ### Internal References
-- [Data Preprocessing](preprocessing.md) - Required preprocessing steps before model training
-- [Model Evaluation](evaluate_performance.md) - Techniques to assess model performance
-- [Hyperparameter Tuning](hyperparameter_tuning.md) - Methods to optimize model parameters
+- [Data Preprocessing](../machine_learning/workflow/preprocessing.md) - Required preprocessing steps before model training
+- [Model Evaluation](../machine_learning/workflow/evaluate_performance.md) - Techniques to assess model performance
+- [Hyperparameter Tuning](../machine_learning/workflow/hyperparameter_tuning.md) - Methods to optimize model parameters
 
 ### External References
 - [Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning.](https://www.deeplearningbook.org/) - Comprehensive resource on deep learning fundamentals
@@ -193,6 +202,6 @@ and potentially [tune hyperparameters](hyperparameter_tuning.md) to improve resu
 ```
 
 ## References
-- [Contribution Guide](../process/contribution_guide.md) - Overall guidelines for contributing
+- [Contribution Guide](contribution_guide.md) - Overall guidelines for contributing
 - [Content Lifecycle](content_lifecycle.md) - How links relate to content lifecycle
 - [Tagging System](tagging_system.md) - How tags complement document linking

@@ -68,7 +68,7 @@ enhanced_system = manager.apply_all(system)
 ## References & Cross-Links
 
 - [Unified Emotional Intelligence Code](../../../src/ai/emotional_intelligence.py)
-- [Advanced Emotional AI Theory](../../advanced_emotional_ai.md)
+- [Advanced Emotional AI Theory](advanced_emotional_ai.md)
 - [Multimodal Integration Guide](../guides/multimodal_integration.md)
 - [Knowledge Representation Guide](../knowledge_representation.md)
 - [NLP & ML Guide](../nlp_ml.md)

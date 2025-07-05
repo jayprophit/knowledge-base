@@ -30,7 +30,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 - **Code Example:**
 ```python
 # Example using Flower (flwr) for federated learning
-import flwr as fl
+import flwr as fl:
 class MyClient(fl.client.NumPyClient):
     def get_parameters(self): ...
     def fit(self, parameters, config): ...

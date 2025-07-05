@@ -1,12 +1,13 @@
 ---
-id: "doc-vqc-0o01"
-title: "Virtual Quantum Computer with AI and IoT Integration"
-description: "Comprehensive guide to designing and implementing a software-simulated quantum computing system with AI optimization, IoT connectivity, and quantum simulation"
-author: "Knowledge Base System"
-created_at: "2025-0o6-30"
-updated_at: "2025-0o6-30"
+id: doc-vqc-0o01
+title: Virtual Quantum Computer with AI and IoT Integration
+description: Comprehensive guide to designing and implementing a software-simulated
+  quantum computing system with AI optimization, IoT connectivity, and quantum simulation
+author: Knowledge Base System
+created_at: 2025-0o6-30
+updated_at: 2025-0o6-30
 confidence: 0.92
-version: "2.0.0"
+version: 2.0.0
 constitutional_scores:
   helpfulness: 0.96
   harmlessness: 1.0
@@ -14,23 +15,23 @@ constitutional_scores:
   neutrality: 0.92
   accessibility: 0.94
 tags:
-  - "quantum_computing"
-  - "ai_integration"
-  - "iot"
-  - "quantum_simulation"
-  - "virtualization"
-  - "quantum_machine_learning"
-  - "smart_devices"
+- quantum_computing
+- ai_integration
+- iot
+- quantum_simulation
+- virtualization
+- quantum_machine_learning
+- smart_devices
 relationships:
   prerequisites:
-    - "quantum_computing/basics"
-    - "ai/machine_learning/fundamentals"
+  - quantum_computing/basics
+  - ai/machine_learning/fundamentals
   successors:
-    - "quantum_computing/time_crystal_integration"
+  - quantum_computing/time_crystal_integration
   related:
-    - "ai/architecture/system_design"
-    - "ai/accelerators/time_crystal_module"
-    - "iot/device_management"
+  - ai/architecture/system_design
+  - ai/accelerators/time_crystal_module
+  - iot/device_management
 ---
 
 # Virtual Quantum Computer with AI/ML and IoT Integration

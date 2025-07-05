@@ -17,12 +17,12 @@ This directory contains comprehensive documentation for deploying applications a
    - Docker
    - Kubernetes
    - Dev Containers
-2. [Platform-Specific Deployment](./platforms/README.md)
+2. [Platform-Specific Deployment](../../robotics/advanced_system/README.md)
    - Microsoft Windows
    - macOS
    - Linux
    - Cloud Platforms
-3. [CI/CD Pipelines](./ci_cd/README.md)
+3. [CI/CD Pipelines](../../robotics/advanced_system/README.md)
    - GitHub Actions
    - GitLab CI
    - Jenkins
@@ -30,11 +30,11 @@ This directory contains comprehensive documentation for deploying applications a
    - Terraform
    - Ansible
    - Pulumi
-5. [AI/ML Ops](./mlops/README.md)
+5. [AI/ML Ops](../../robotics/advanced_system/README.md)
    - Model Serving
    - Monitoring
    - Scaling
-6. [Security](./security/README.md)
+6. [Security](../../robotics/advanced_system/README.md)
    - Secrets Management
    - Network Policies
    - Compliance
@@ -90,7 +90,7 @@ Deployment for the robotics knowledge base leverages containerization, environme
 - [MLOps](../mlops/README.md)
 - [AIOps](../aiops/README.md)
 - [Dockerfile](../../Dockerfile)
-- [DevContainer](../../.devcontainer/devcontainer.json)
+- [DevContainer](../../devcontainer.json)
 - [.env Example](../../.env)
 
 ### Local Development
@@ -134,7 +134,7 @@ terraform apply
 
 ## Troubleshooting
 
-See [Troubleshooting Guide](./troubleshooting.md) for common issues and solutions.
+See [Troubleshooting Guide](../robotics/troubleshooting.md) for common issues and solutions.
 
 ## Contributing
 
@@ -142,4 +142,4 @@ Please read [CONTRIBUTING.md](../CONTRIBUTING.md) for details on our code of con
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../../LICENSE) file for details.

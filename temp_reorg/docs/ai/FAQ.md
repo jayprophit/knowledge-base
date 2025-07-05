@@ -1,3 +1,12 @@
+---
+title: Faq
+description: Documentation for Faq in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Frequently Asked Questions
 
 ## General
@@ -11,7 +20,7 @@ Check out our [README](README.md) for an overview and setup instructions.
 ## Contributing
 
 ### How can I contribute?
-See our [CONTRIBUTING](CONTRIBUTING.md) guide for detailed instructions on how to contribute to this project.
+See our [CONTRIBUTING](../robotics/CONTRIBUTING.md) guide for detailed instructions on how to contribute to this project.
 
 ### How do I report a bug?
 Please open an [issue](https://github.com/yourusername/knowledge-base/issues) with a clear description of the problem.
@@ -30,7 +39,7 @@ Run `pip install -r requirements.txt` followed by `mkdocs serve` to view the doc
 Please report it by opening an [issue](https://github.com/yourusername/knowledge-base/issues) with the page and link details.
 
 ### The documentation is outdated. How can I update it?
-Feel free to submit a pull request with the necessary updates. See our [CONTRIBUTING](CONTRIBUTING.md) guide for more information.
+Feel free to submit a pull request with the necessary updates. See our [CONTRIBUTING](../robotics/CONTRIBUTING.md) guide for more information.
 
 ## Support
 

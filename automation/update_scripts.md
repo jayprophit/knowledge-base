@@ -1,3 +1,12 @@
+---
+title: Update Scripts
+description: Documentation for Update Scripts in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Update Scripts Documentation
 
 ## Overview
@@ -138,12 +147,12 @@ CONFIG = {
 ### Template for New Scripts
 ```python
 #!/usr/bin/env python3
-"""
+""""
 Script Name: script_name.py
-Description: Brief description of the script's purpose.
+Description: Brief description of the script's purpose.'
 Author: Your Name
 Date: YYYY-MM-DD
-"""
+""""
 
 import argparse
 import logging
@@ -194,13 +203,13 @@ if __name__ == "__main__":
 ## Script Installation and Dependencies
 
 ### Required Python Packages
-```
+```python
 # requirements.txt
 gitpython>=3.1.30
 pyyaml>=6.0
 markdown>=3.4.1
 beautifulsoup4>=4.11.1
-pytest>=7.2.1  # for running tests
+pytest>=7.2.1  # for running tests:
 ```
 
 ### Installation Steps

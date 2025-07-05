@@ -62,7 +62,7 @@ For more examples, see the [examples directory](../../examples/emotional_intelli
   - Dimensional model (Valence, Arousal, Dominance)
   - Basic and social emotions
   - Emotion blending and regulation
-  - [View Example Usage](temp_reorg/src/ai/demo_emotional_ai.py)
+  - [View Example Usage](../../../temp_reorg/src/ai/demo_emotional_ai.py)
 
 ### 2. Self-Awareness (`/self_awareness/`)
 - `introspection.py`: Implements self-reflection and metacognitive capabilities
@@ -70,7 +70,7 @@ For more examples, see the [examples directory](../../examples/emotional_intelli
   - Behavioral pattern recognition
   - Self-evaluation and critique
   - Goal alignment assessment
-  - [Example Implementation](temp_reorg/src/ai/demo_emotional_ai.py)
+  - [Example Implementation](../../../temp_reorg/src/ai/demo_emotional_ai.py)
 
 ### 3. Empathy and Social Awareness (`/empathy/`)
 - `social_awareness.py`: Implements theory of mind and social intelligence
@@ -78,7 +78,7 @@ For more examples, see the [examples directory](../../examples/emotional_intelli
   - Perspective taking
   - Empathic responding
   - Social norm understanding
-  - [Example Implementation](temp_reorg/src/ai/demo_emotional_ai.py)
+  - [Example Implementation](../../../temp_reorg/src/ai/demo_emotional_ai.py)
 
 ### 4. Emotional Memory (`/memory/`)
 - `emotional_memory.py`: Manages storage and retrieval of emotional experiences
@@ -195,7 +195,7 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../../../temp_reorg/LICENSE) file for details.
 
 ## Acknowledgments
 

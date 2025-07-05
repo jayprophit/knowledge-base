@@ -68,7 +68,7 @@ Each of these reflects a different aspect of the system’s holistic, quantum, a
 ---
 
 ## Cross-links and References
-- [System Design Overview](temp_reorg/docs/robotics/system_design.md)
+- [System Design Overview](../../temp_reorg/docs/robotics/system_design.md)
 - [Advanced Frequency Delivery Technologies](./advanced_frequency_delivery_technologies.md)
 - [Rife Healing Frequencies Module](./rife_healing_frequencies_module.md)
 - [Universal Communication and Understanding of All Life](./universal_life_communication_and_improvement_module.md)

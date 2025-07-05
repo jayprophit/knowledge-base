@@ -1,6 +1,15 @@
+---
+title: Plan
+description: Documentation for Plan in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base Documentation Plan
 
-> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](README.md#main-files-policy-critical-requirement) for details.
+> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](temp_reorg/robotics/advanced_system/README.md) for details.
 
 **Main Files:**
 - [README.md](README.md)

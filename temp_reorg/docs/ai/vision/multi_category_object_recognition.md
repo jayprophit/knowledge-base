@@ -168,16 +168,16 @@ if error > threshold:
     print("Unknown object detected!")
 else:
     print("Known object.")
-```
+```python
 
 An autoencoder is used for anomaly detection to identify unknown or unusual objects. The model is trained to reconstruct known objects, and when it encounters an unknown object, the reconstruction error will be high.
 
 ## Optimization Considerations
-
-- **Model Compression**: Consider quantization and pruning techniques for deployment on edge devices
-- **Batch Processing**: Implement batch processing for handling multiple images efficiently
-- **Real-time Processing**: Optimize for real-time inference by using lightweight models and GPU acceleration
-- **Fine-tuning Strategies**: Experiment with different fine-tuning approaches for transfer learning
+:
+- **Model Compression**: Consider quantization and pruning techniques for deployment on edge devices:
+- **Batch Processing**: Implement batch processing for handling multiple images efficiently:
+- **Real-time Processing**: Optimize for real-time inference by using lightweight models and GPU acceleration:
+- **Fine-tuning Strategies**: Experiment with different fine-tuning approaches for transfer learning:
 - **Data Augmentation**: Use various augmentation techniques to improve model generalization
 
 ## Integration with Other Components
@@ -185,11 +185,11 @@ An autoencoder is used for anomaly detection to identify unknown or unusual obje
 This multi-category object recognition system can be integrated with:
 
 - [Audio Recognition System](../../audio/audio_recognition.md) for multi-modal sensing
-- [IoT devices](../../../iot/sensors.md) for smart environment applications
-- [Mobile applications](../../../mobile/vision_apps.md) for on-device object recognition
+- [IoT devices](../../iot/sensors.md) for smart environment applications
+- [Mobile applications](../vision_apps.md) for on-device object recognition
 
 ## References and Resources
-
+:
 - [YOLO Official Repository](https://github.com/ultralytics/yolov5)
 - [TensorFlow Image Classification Guide](https://www.tensorflow.org/tutorials/images/classification)
 - [PyTorch Transfer Learning Tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
@@ -198,3 +198,5 @@ This multi-category object recognition system can be integrated with:
 ---
 
 *Last updated: June 30, 2025*
+
+```

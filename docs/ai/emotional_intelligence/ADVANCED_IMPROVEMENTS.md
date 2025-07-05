@@ -125,34 +125,34 @@ class EthicalEmotionalOverride:
 ### GANs for Simulated Emotions
 - Use GANs to generate synthetic emotional data for training or augmentation.
 - Example: Integrate a GAN-based generator as a data source for the emotional system.
-- See [Section 5.2 in advanced_emotional_ai.md](../../advanced_emotional_ai.md#52-gans-for-simulated-emotions) for design.
+- See [Section 5.2 in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md) for design.
 
 ### Meta-Learning for Adaptability
 - Implement meta-learning loops to adapt emotion models to new users or domains.
 - Example: Use a Model-Agnostic Meta-Learning (MAML) wrapper around the emotional network.
-- See [Section 5.3 in advanced_emotional_ai.md](../../advanced_emotional_ai.md#53-meta-learning-for-adaptability).
+- See [Section 5.3 in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md).
 
 ### Bayesian Networks for Uncertainty
 - Integrate Bayesian inference to model uncertainty in emotion predictions.
 - Example: Use [pgmpy](https://pgmpy.org/) to add a Bayesian layer to your emotion pipeline.
-- See [Section 5.1 in advanced_emotional_ai.md](../../advanced_emotional_ai.md#51-bayesian-networks-for-uncertainty).
+- See [Section 5.1 in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md).
 
 ### Quantum/IoT Emotional Processing
 - Explore quantum-inspired modules for richer emotional state representations.
 - Example: Add a quantum processing stub as a plugin to the emotional system.
-- See [Section 7 in advanced_emotional_ai.md](../../advanced_emotional_ai.md#7-integration-with-emerging-technologies).
+- See [Section 7 in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md).
 
 ### Multi-Agent and Cognitive Architectures
 - Use multi-agent and global workspace designs for distributed or collective emotion modeling.
 - Example: Compose several EmotionalSystem instances and synchronize via a GlobalWorkspace controller.
-- See [Section 2 and 3 in advanced_emotional_ai.md](../../advanced_emotional_ai.md#2-multi-agent-emotional-systems).
+- See [Section 2 and 3 in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md).
 
 ### Ethical Safeguards
 - Implement consent, privacy, and anti-bias checks in all emotional AI modules.
-- See [Section 6 in advanced_emotional_ai.md](../../advanced_emotional_ai.md#6-ethical-and-safety-considerations).
+- See [Section 6 in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md).
 
 ### Patent/Research Concepts
-- For research or patenting, document novel architectures and cite [References in advanced_emotional_ai.md](../../advanced_emotional_ai.md#8-references-and-further-reading).
+- For research or patenting, document novel architectures and cite [References in advanced_emotional_ai.md](../../../temp_reorg/docs/ai/advanced_emotional_ai.md).
 
 ---
 

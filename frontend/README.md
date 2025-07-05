@@ -1,3 +1,12 @@
+---
+title: Frontend Documentation
+description: Documentation and guides for the Frontend module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Frontend
 
 This directory contains the user interface for the Quantum AI System, built with React and TypeScript for cross-platform access, including iPad Pro.

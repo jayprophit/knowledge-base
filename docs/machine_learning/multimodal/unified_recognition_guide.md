@@ -160,7 +160,7 @@ if results['audio_analysis']:
 # ### Process Image and Audio Together
 # :
     print("Scene description:", ", ".join(results['context']['scene_description']))
-    print("Audio context:", ", ".join(results['context']['audio_context']))"'"
+    print("Audio context:", ", ".join(results['context']['audio_context']))"'"'
 ```python
 
 ### Process Image and Audio Together
@@ -322,6 +322,6 @@ system = MultiModalRecognitionSystem()'stem()
 ## Resources
 
 - **Audio Recognition Documentation**: [Audio Recognition Guide](../audio_recognition/audio_recognition_guide.md)
-- **Vision Recognition Documentation**: [Vision Recognition Guide](temp_reorg/docs/machine_learning/vision_recognition/vision_recognition_guide.md)
+- **Vision Recognition Documentation**: [Vision Recognition Guide](../../../temp_reorg/docs/machine_learning/vision_recognition/vision_recognition_guide.md)
 - **Model Downloads**: [Pre-trained Models](https://example.com/models)
-- **Training Scripts**: [Custom Model Training](temp_reorg/docs/machine_learning/training/training_guide.md)
+- **Training Scripts**: [Custom Model Training](../../../temp_reorg/docs/machine_learning/training/training_guide.md)

@@ -53,7 +53,7 @@ website_registry.register_website_token("product_456", user_b_token)
 
 # Stake tokens
 staking = TokenStaking()
-staking.stake_tokens("user_a_address", user_a_token, 1000)
+staking.stake_tokens("user_a_address", user_a_token, 1000):
 ```
 
 ## Integration & References

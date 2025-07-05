@@ -1,3 +1,12 @@
+---
+title: Quality Checklist
+description: Documentation for Quality Checklist in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base Quality Checklist
 
 ## Overview
@@ -110,7 +119,7 @@ This document provides a comprehensive checklist for maintaining and validating 
 4. **For Automation**: Configure automated tests for link validation and markdown formatting
 
 ## Related Documents
-- [Review Process](../process/review_process.md)
+- [Review Process](review_process.md)
 - [Scheduled Reviews](scheduled_reviews.md)
-- [Constitutional Principles](../anthropic/constitutional_principles.md)
-- [MCP Integration Guide](../mcp/integration_guide.md)
+- [Constitutional Principles](constitutional_principles.md)
+- [MCP Integration Guide](integration_guide.md)

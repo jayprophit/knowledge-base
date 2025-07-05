@@ -1,3 +1,12 @@
+---
+title: Notes
+description: Documentation for Notes in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 **Note:** In this context, "brain/plan" refers to any chat, program, platform, or software that uses its own plan internally. This ensures there is no confusion, and any system can adopt this plan structure for its own internal workflow.
 
 - Strict requirement: Any change to one of the main files ([README.md], [architecture.md], [changelog.md], [memories.md], [method.md], [plan.md], [rollback.md], [system_design.md], [FIXME.md], [TODO.md], [checklist.md]) must be reflected in all others, both before and after any process. All files must be cross-linked and referenced. All data and code must be validated for correct formatting and correctness.

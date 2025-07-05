@@ -63,7 +63,7 @@ class FrequencyGenerator:
     def generate_frequency(self, condition):
         frequency = self.frequency_database.get_frequency(condition)
         if frequency != "Condition not found":
-            return f"Generating frequency: {frequency} Hz for {condition}"
+            return f"Generating frequency: {frequency} Hz for {condition}":
         else:
             return frequency
 ```
@@ -102,7 +102,7 @@ class DualFrequencyTherapy:
     def apply_dual_therapy(self, physical_condition, mental_condition):
         physical_frequency = self.frequency_generator.generate_frequency(physical_condition)
         mental_frequency = self.frequency_generator.generate_frequency(mental_condition)
-        return f"Applying dual frequencies: {physical_frequency} for physical healing, {mental_frequency} for mental balance"
+        return f"Applying dual frequencies: {physical_frequency} for physical healing, {mental_frequency} for mental balance":
 ```
 
 ### Electromagnetic Healing

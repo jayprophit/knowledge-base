@@ -1,3 +1,12 @@
+---
+title: Scheduled Reviews
+description: Documentation for Scheduled Reviews in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Scheduled Reviews
 
 ## Overview
@@ -97,9 +106,9 @@ This document outlines the schedule, methodology, and process for conducting reg
 
 ### Review Templates
 - [Quality Checklist](quality_checklist.md)
-- [Content Review Form](../templates/review_template.md)
-- [Constitutional Assessment Matrix](../anthropic/templates/constitutional_assessment_template.md)
-- [Technical Accuracy Checklist](../templates/technical_review_template.md)
+- [Content Review Form](../../../templates/review_template.md)
+- [Constitutional Assessment Matrix](../../../anthropic/templates/constitutional_assessment_template.md)
+- [Technical Accuracy Checklist](../../../templates/technical_review_template.md)
 
 ### Tracking and Management
 - GitHub Issues for tracking identified problems
@@ -166,7 +175,7 @@ This document outlines the schedule, methodology, and process for conducting reg
 
 ## Related Documents
 - [Quality Checklist](quality_checklist.md)
-- [Review Process](../process/review_process.md)
-- [Constitutional Principles](../anthropic/constitutional_principles.md)
-- [MCP Integration Guide](../mcp/integration_guide.md)
-- [Changelog Standards](../meta/changelog_standards.md)
+- [Review Process](review_process.md)
+- [Constitutional Principles](constitutional_principles.md)
+- [MCP Integration Guide](integration_guide.md)
+- [Changelog Standards](../robotics/changelog_standards.md)

@@ -1,23 +1,24 @@
 ---
 id: ai-architecture-overview
 title: AI Platform Architecture - System Design
-description: Comprehensive architecture of an advanced AI platform integrating MCP, RAG, KAG, CAG, LLM with fine-tuning, agent orchestration, and quantum acceleration
+description: Comprehensive architecture of an advanced AI platform integrating MCP,
+  RAG, KAG, CAG, LLM with fine-tuning, agent orchestration, and quantum acceleration
 author: Knowledge Base System
 created_at: 2025-06-30
 updated_at: 2025-06-30
 version: 1.0.0
 tags:
-  - ai_architecture
-  - system_design
-  - quantum_computing
-  - model_architecture
-  - ai_platform
+- ai_architecture
+- system_design
+- quantum_computing
+- model_architecture
+- ai_platform
 relationships:
   prerequisites: []
   successors: []
   related:
-    - quantum_computing/virtual_quantum_computer.md
-    - machine_learning/workflow/build_train_model.md
+  - quantum_computing/virtual_quantum_computer.md
+  - machine_learning/workflow/build_train_model.md
 ---
 
 # AI Platform Architecture

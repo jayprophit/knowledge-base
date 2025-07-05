@@ -70,13 +70,13 @@ class RigidBody:
         self.angular_velocity += angular_acceleration * dt
         
         # Update orientation (simplified)
-        # In a real implementation, you'd use quaternion integration
+        # In a real implementation, you'd use quaternion integration'
         self.reset_forces()
 
 def simulate_physics(bodies, duration, dt=0.01):
     """Simulate physics for multiple bodies."""
     time_steps = np.arange(0, duration, dt)
-    
+    :
     for t in time_steps:
         # Apply forces (e.g., gravity)
         for body in bodies:
@@ -99,7 +99,7 @@ projectile = RigidBody(
 )
 
 # Simulate for 2 seconds with 0.1s time steps
-simulate_physics([projectile], duration=2.0, dt=0.1)
+simulate_physics([projectile], duration=2.0, dt=0.1):
 print(f"Final position: {projectile.position}")
 print(f"Final velocity: {projectile.velocity}")
 ```
@@ -109,7 +109,7 @@ print(f"Final velocity: {projectile.velocity}")
 ### Basic Stress Calculation
 ```python
 def calculate_stress(force, area, angle=0):
-    """
+    """"
     Calculate normal and shear stress.
     
     Args:
@@ -119,7 +119,7 @@ def calculate_stress(force, area, angle=0):
     
     Returns:
         tuple: (normal_stress, shear_stress) in Pa
-    """
+    """"
     force_magnitude = np.linalg.norm(force)
     normal_force = force_magnitude * np.cos(angle)
     shear_force = force_magnitude * np.sin(angle)
@@ -128,11 +128,11 @@ def calculate_stress(force, area, angle=0):
     shear_stress = shear_force / area if area > 0 else 0
     
     return normal_stress, shear_stress
-
+:
 def calculate_strain(stress, youngs_modulus):
-    """Calculate strain using Hooke's Law."""
+    """Calculate strain using Hooke's Law."""'
     return stress / youngs_modulus if youngs_modulus > 0 else 0
-
+:
 def von_mises_stress(principal_stresses):
     """Calculate von Mises stress from principal stresses."""
     s1, s2, s3 = principal_stresses
@@ -204,7 +204,7 @@ print(f"Safety factor: {safety_factor:.2f}")
 ```python
 class ThermalSimulation:
     def __init__(self, nodes, conductivity, specific_heat, density):
-        """
+        """"
         Initialize thermal simulation.
         
         Args:
@@ -212,7 +212,7 @@ class ThermalSimulation:
             conductivity: Thermal conductivity (W/m?K)
             specific_heat: Specific heat capacity (J/kg?K)
             density: Material density (kg/m?)
-        """
+        """"
         self.nodes = np.array(nodes)
         self.temperatures = np.zeros(len(nodes))
         self.conductivity = conductivity
@@ -230,7 +230,7 @@ class ThermalSimulation:
     def set_initial_temperature(self, temp):
         """Set initial temperature for all nodes."""
         self.temperatures = np.full(len(self.nodes), temp)
-    
+    :
     def set_boundary_condition(self, node_indices, temp):
         """Set fixed temperature boundary conditions."""
         self.temperatures[node_indices] = temp
@@ -271,7 +271,7 @@ def simulate_thermal_analysis():
         specific_heat=500,  # J/kg?K
         density=7800  # kg/m?
     )
-    
+    :
     # Initial temperature: 20?C
     sim.set_initial_temperature(20)
     
@@ -279,7 +279,7 @@ def simulate_thermal_analysis():
     sim.set_boundary_condition([0], 100)  # 100?C at left end
     sim.set_boundary_condition([-1], 0)   # 0?C at right end
     
-    # Simulate for 100 time steps
+    # Simulate for 100 time steps:
     for _ in range(100):
         sim.step(dt=0.1)
     
@@ -291,7 +291,7 @@ def simulate_thermal_analysis():
 ### Simple Impact Model
 ```python
 def calculate_impact(mass, velocity, stiffness, damping=0.1):
-    """
+    """"
     Calculate impact force using a spring-damper model.
     
     Args:
@@ -302,7 +302,7 @@ def calculate_impact(mass, velocity, stiffness, damping=0.1):
     
     Returns:
         dict: Impact results including max force, duration, etc.
-    """
+    """"
     # Natural frequency (rad/s)
     omega_n = np.sqrt(stiffness / mass)
     

@@ -1,0 +1,1348 @@
+2025-07-05 04:46:23 - INFO - ================================================================================
+2025-07-05 04:46:23 - INFO - COMPREHENSIVE DOCUMENTATION FIXER STARTING
+2025-07-05 04:46:23 - INFO - ================================================================================
+2025-07-05 04:46:23 - INFO - Starting comprehensive fixer on C:\Users\jpowe\CascadeProjects\github\knowledge-base
+2025-07-05 04:46:23 - INFO - Dry run mode: OFF
+2025-07-05 04:46:23 - INFO - Building file index for link resolution...
+2025-07-05 04:46:24 - INFO - File index built with 9186 entries
+2025-07-05 04:46:25 - INFO - Found 1130 markdown files to process
+2025-07-05 04:46:25 - INFO - Processing: 3d_model_generation.md
+2025-07-05 04:46:25 - INFO - Processing: 3d_printing_export.md
+2025-07-05 04:46:25 - INFO - Processing: advanced_emotional_ai.md
+2025-07-05 04:46:25 - INFO - Processing: advanced_physics.md
+2025-07-05 04:46:25 - INFO - Processing: advanced_system.md
+2025-07-05 04:46:25 - INFO - Processing: api_gateway.md
+2025-07-05 04:46:25 - INFO - Processing: architecture.md
+2025-07-05 04:46:25 - INFO - Fixed 2 code blocks in architecture.md
+2025-07-05 04:46:25 - INFO - Processing: batch_frontmatter_fixer_report.md
+2025-07-05 04:46:25 - INFO - Processing: changelog.md
+2025-07-05 04:46:25 - INFO - Processing: checklist.md
+2025-07-05 04:46:25 - INFO - Processing: cnc_machining_export.md
+2025-07-05 04:46:25 - INFO - Processing: CODE_OF_CONDUCT.md
+2025-07-05 04:46:25 - INFO - Processing: COMPREHENSIVE_CLEANUP_REPORT.md
+2025-07-05 04:46:25 - INFO - Processing: CONTRIBUTING.md
+2025-07-05 04:46:25 - INFO - Processing: CROSS_PLATFORM_README.md
+2025-07-05 04:46:25 - INFO - Processing: current_goal.md
+2025-07-05 04:46:25 - INFO - Fixed 1 code blocks in current_goal.md
+2025-07-05 04:46:25 - INFO - Processing: deployment.md
+2025-07-05 04:46:25 - INFO - Processing: development.md
+2025-07-05 04:46:25 - INFO - Processing: environment.md
+2025-07-05 04:46:25 - INFO - Processing: fairlearn.md
+2025-07-05 04:46:25 - INFO - Processing: FAQ.md
+2025-07-05 04:46:25 - INFO - Processing: fea_analysis.md
+2025-07-05 04:46:25 - INFO - Processing: final_cleanup_report.md
+2025-07-05 04:46:25 - INFO - Processing: FIXME.md
+2025-07-05 04:46:25 - INFO - Processing: FULL_STACK_IMPLEMENTATION.md
+2025-07-05 04:46:25 - INFO - Fixed 3 code blocks in FULL_STACK_IMPLEMENTATION.md
+2025-07-05 04:46:25 - INFO - Processing: gan_design_generation.md
+2025-07-05 04:46:25 - INFO - Processing: generative_design.md
+2025-07-05 04:46:25 - INFO - Processing: genetic_algorithm_optimization.md
+2025-07-05 04:46:25 - INFO - Processing: GOVERNANCE.md
+2025-07-05 04:46:25 - INFO - Processing: inherit.md
+2025-07-05 04:46:26 - INFO - Processing: integration.md
+2025-07-05 04:46:26 - INFO - Processing: iot_manufacturing.md
+2025-07-05 04:46:26 - INFO - Processing: keras-rl2.md
+2025-07-05 04:46:26 - INFO - Processing: memories.md
+2025-07-05 04:46:26 - INFO - Processing: method.md
+2025-07-05 04:46:26 - INFO - Processing: multi_material_design.md
+2025-07-05 04:46:26 - INFO - Processing: neural_network_predictions.md
+2025-07-05 04:46:26 - INFO - Processing: notes.md
+2025-07-05 04:46:26 - INFO - Processing: openscad_automation.md
+2025-07-05 04:46:26 - INFO - Processing: plan.md
+2025-07-05 04:46:26 - INFO - Processing: PRODUCTION_READINESS_REPORT.md
+2025-07-05 04:46:26 - INFO - Processing: proxy.md
+2025-07-05 04:46:26 - INFO - Processing: qiskit.md
+2025-07-05 04:46:26 - INFO - Processing: README.md
+2025-07-05 04:46:26 - INFO - Fixed 4 code blocks in README.md
+2025-07-05 04:46:26 - INFO - Processing: RELEASE_CHECKLIST.md
+2025-07-05 04:46:26 - INFO - Processing: reorganization_report.md
+2025-07-05 04:46:26 - INFO - Processing: rollback.md
+2025-07-05 04:46:26 - INFO - Fixed 1 code blocks in rollback.md
+2025-07-05 04:46:26 - INFO - Processing: safety_ethics.md
+2025-07-05 04:46:26 - INFO - Processing: scapy.md
+2025-07-05 04:46:26 - INFO - Processing: SECURITY.md
+2025-07-05 04:46:26 - INFO - Processing: stub_creation_report.md
+2025-07-05 04:46:26 - INFO - Processing: SUPPORT.md
+2025-07-05 04:46:26 - INFO - Processing: system_design.md
+2025-07-05 04:46:26 - INFO - Fixed 2 code blocks in system_design.md
+2025-07-05 04:46:26 - INFO - Processing: task_list.md
+2025-07-05 04:46:26 - INFO - Processing: TODO.md
+2025-07-05 04:46:26 - INFO - Processing: TROUBLESHOOTING.md
+2025-07-05 04:46:26 - INFO - Processing: UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:26 - INFO - Fixed 2 code blocks in UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:26 - INFO - Processing: web3.md
+2025-07-05 04:46:26 - INFO - Processing: ai\improvements_module.md
+2025-07-05 04:46:26 - INFO - Processing: ai\README.md
+2025-07-05 04:46:26 - INFO - Processing: anthropic\constitutional_principles.md
+2025-07-05 04:46:26 - INFO - Fixed 1 code blocks in constitutional_principles.md
+2025-07-05 04:46:26 - INFO - Processing: anthropic\processing_pipeline.md
+2025-07-05 04:46:26 - INFO - Fixed 6 code blocks in processing_pipeline.md
+2025-07-05 04:46:26 - INFO - Processing: api\README.md
+2025-07-05 04:46:26 - INFO - Processing: automation\github_actions.md
+2025-07-05 04:46:26 - INFO - Processing: automation\step_by_step_guide.md
+2025-07-05 04:46:26 - INFO - Processing: automation\update_scripts.md
+2025-07-05 04:46:26 - INFO - Fixed 3 code blocks in update_scripts.md
+2025-07-05 04:46:26 - INFO - Processing: backend\README.md
+2025-07-05 04:46:26 - INFO - Processing: biology\README.md
+2025-07-05 04:46:26 - INFO - Processing: blockchain\3d_blockchain.md
+2025-07-05 04:46:26 - INFO - Processing: ci_cd\README.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\coding-standards.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\development-setup.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\documentation.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\pull_requests.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\setup.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\standards.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\style_guide.md
+2025-07-05 04:46:26 - INFO - Processing: contributing\testing.md
+2025-07-05 04:46:26 - INFO - Processing: cosmology\README.md
+2025-07-05 04:46:26 - INFO - Processing: cross-platform\flutter.md
+2025-07-05 04:46:26 - INFO - Processing: cross-platform\react-native.md
+2025-07-05 04:46:26 - INFO - Processing: deployment\README.md
+2025-07-05 04:46:26 - INFO - Processing: device_management\configuration.md
+2025-07-05 04:46:26 - INFO - Processing: device_management\discovery.md
+2025-07-05 04:46:26 - INFO - Processing: device_management\firmware.md
+2025-07-05 04:46:26 - INFO - Processing: device_management\monitoring.md
+2025-07-05 04:46:26 - INFO - Processing: device_management\registration.md
+2025-07-05 04:46:26 - INFO - Processing: docs\advanced_emotional_ai.md
+2025-07-05 04:46:26 - INFO - Processing: docs\ai_agents.md
+2025-07-05 04:46:27 - INFO - Processing: docs\ai_assistant_architecture.md
+2025-07-05 04:46:27 - INFO - Fixed 1 code blocks in ai_assistant_architecture.md
+2025-07-05 04:46:27 - INFO - Processing: docs\ai_system_enhancements.md
+2025-07-05 04:46:27 - INFO - Processing: docs\backend_api.md
+2025-07-05 04:46:27 - INFO - Processing: docs\CONTRIBUTING.md
+2025-07-05 04:46:27 - INFO - Processing: docs\deployment.md
+2025-07-05 04:46:27 - INFO - Processing: docs\ethics_explainability.md
+2025-07-05 04:46:27 - INFO - Processing: docs\FULL_STACK_IMPLEMENTATION.md
+2025-07-05 04:46:27 - INFO - Processing: docs\interdisciplinary_education.md
+2025-07-05 04:46:27 - INFO - Processing: docs\knowledge_representation.md
+2025-07-05 04:46:27 - INFO - Processing: docs\LICENSE.md
+2025-07-05 04:46:27 - INFO - Processing: docs\networking.md
+2025-07-05 04:46:27 - INFO - Processing: docs\nlp_ml.md
+2025-07-05 04:46:27 - INFO - Processing: docs\non_coder_setup.md
+2025-07-05 04:46:27 - INFO - Processing: docs\PROJECT_SUMMARY.md
+2025-07-05 04:46:27 - INFO - Processing: docs\README.md
+2025-07-05 04:46:27 - INFO - Processing: docs\related_resource.md
+2025-07-05 04:46:27 - INFO - Processing: docs\self_building_ai.md
+2025-07-05 04:46:27 - INFO - Fixed 5 code blocks in self_building_ai.md
+2025-07-05 04:46:27 - INFO - Processing: docs\self_building_ai_functions.md
+2025-07-05 04:46:27 - INFO - Fixed 3 code blocks in self_building_ai_functions.md
+2025-07-05 04:46:27 - INFO - Processing: docs\system_design.md
+2025-07-05 04:46:27 - INFO - Processing: docs\UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:27 - INFO - Fixed 1 code blocks in UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:27 - INFO - Processing: docs\virtual_assistant_book.md
+2025-07-05 04:46:27 - INFO - Processing: docs\virtual_assistant_cross_platform.md
+2025-07-05 04:46:27 - INFO - Processing: docs\web_layers.md
+2025-07-05 04:46:27 - INFO - Processing: edge_computing\analytics.md
+2025-07-05 04:46:27 - INFO - Processing: edge_computing\processing.md
+2025-07-05 04:46:27 - INFO - Processing: edge_computing\resource_management.md
+2025-07-05 04:46:27 - INFO - Processing: edge_computing\storage.md
+2025-07-05 04:46:27 - INFO - Processing: edge_computing\synchronization.md
+2025-07-05 04:46:27 - INFO - Processing: examples\knowledge-browser.md
+2025-07-05 04:46:27 - INFO - Processing: examples\multimodal-capture.md
+2025-07-05 04:46:27 - INFO - Processing: examples\offline-viewer.md
+2025-07-05 04:46:27 - INFO - Processing: frontend\README.md
+2025-07-05 04:46:27 - INFO - Processing: frontend\README_DEPLOY.md
+2025-07-05 04:46:27 - INFO - Processing: guides\performance_tuning.md
+2025-07-05 04:46:27 - INFO - Processing: iac\README.md
+2025-07-05 04:46:27 - INFO - Processing: infrastructure\README.md
+2025-07-05 04:46:27 - INFO - Processing: iot\sensors.md
+2025-07-05 04:46:27 - INFO - Processing: maintenance\quality_checklist.md
+2025-07-05 04:46:28 - INFO - Processing: maintenance\scheduled_reviews.md
+2025-07-05 04:46:28 - INFO - Processing: mcp\integration_guide.md
+2025-07-05 04:46:28 - INFO - Fixed 6 code blocks in integration_guide.md
+2025-07-05 04:46:28 - INFO - Processing: meta\changelog_standards.md
+2025-07-05 04:46:28 - INFO - Processing: meta\content_lifecycle.md
+2025-07-05 04:46:28 - INFO - Processing: meta\knowledge_graph.md
+2025-07-05 04:46:28 - INFO - Fixed 2 code blocks in knowledge_graph.md
+2025-07-05 04:46:28 - INFO - Processing: meta\linking_standards.md
+2025-07-05 04:46:28 - INFO - Processing: meta\tagging_system.md
+2025-07-05 04:46:28 - INFO - Processing: mlops\README.md
+2025-07-05 04:46:28 - INFO - Processing: mobile\vision_apps.md
+2025-07-05 04:46:28 - INFO - Processing: movement\README.md
+2025-07-05 04:46:28 - INFO - Processing: native\android.md
+2025-07-05 04:46:28 - INFO - Processing: native\ios.md
+2025-07-05 04:46:28 - INFO - Processing: networking\README.md
+2025-07-05 04:46:28 - INFO - Processing: perception\README.md
+2025-07-05 04:46:28 - INFO - Processing: performance\memory-management.md
+2025-07-05 04:46:28 - INFO - Processing: performance\offline-support.md
+2025-07-05 04:46:28 - INFO - Processing: performance\optimization.md
+2025-07-05 04:46:28 - INFO - Processing: philosophy\README.md
+2025-07-05 04:46:28 - INFO - Processing: platforms\README.md
+2025-07-05 04:46:28 - INFO - Processing: process\contribution_guide.md
+2025-07-05 04:46:28 - INFO - Processing: process\review_process.md
+2025-07-05 04:46:28 - INFO - Processing: protocols\amqp.md
+2025-07-05 04:46:28 - INFO - Processing: protocols\coap.md
+2025-07-05 04:46:28 - INFO - Processing: protocols\http.md
+2025-07-05 04:46:28 - INFO - Processing: protocols\mqtt.md
+2025-07-05 04:46:28 - INFO - Processing: protocols\websockets.md
+2025-07-05 04:46:28 - INFO - Processing: psychology\README.md
+2025-07-05 04:46:28 - INFO - Processing: quantum_ai_system\README.md
+2025-07-05 04:46:28 - INFO - Processing: references\api-docs.md
+2025-07-05 04:46:28 - INFO - Processing: references\api_reference.md
+2025-07-05 04:46:28 - INFO - Processing: references\backend-integration.md
+2025-07-05 04:46:28 - INFO - Processing: references\component-library.md
+2025-07-05 04:46:28 - INFO - Processing: references\data_formats.md
+2025-07-05 04:46:28 - INFO - Processing: references\device_management.md
+2025-07-05 04:46:28 - INFO - Processing: references\edge_computing.md
+2025-07-05 04:46:28 - INFO - Processing: references\performance_guide.md
+2025-07-05 04:46:28 - INFO - Processing: references\php_standards.md
+2025-07-05 04:46:28 - INFO - Processing: references\protocol_specs.md
+2025-07-05 04:46:28 - INFO - Processing: references\security_guide.md
+2025-07-05 04:46:28 - INFO - Processing: references\security_standards.md
+2025-07-05 04:46:28 - INFO - Processing: references\standards.md
+2025-07-05 04:46:28 - INFO - Processing: references\template_guide.md
+2025-07-05 04:46:28 - INFO - Processing: safety_ethics\README.md
+2025-07-05 04:46:28 - INFO - Processing: scripts\vector_db_setup.md
+2025-07-05 04:46:28 - INFO - Processing: security\access_control.md
+2025-07-05 04:46:28 - INFO - Processing: security\authentication.md
+2025-07-05 04:46:28 - INFO - Processing: security\authorization.md
+2025-07-05 04:46:28 - INFO - Processing: security\deployment.md
+2025-07-05 04:46:28 - INFO - Processing: security\encryption.md
+2025-07-05 04:46:28 - INFO - Processing: security\intrusion_detection.md
+2025-07-05 04:46:28 - INFO - Processing: security\key_management.md
+2025-07-05 04:46:28 - INFO - Processing: security\README.md
+2025-07-05 04:46:28 - INFO - Processing: security\secure-storage.md
+2025-07-05 04:46:28 - INFO - Processing: security\secure_boot.md
+2025-07-05 04:46:28 - INFO - Processing: sensors\calibration.md
+2025-07-05 04:46:28 - INFO - Processing: sensors\data_collection.md
+2025-07-05 04:46:28 - INFO - Processing: sensors\fusion.md
+2025-07-05 04:46:28 - INFO - Processing: sensors\types.md
+2025-07-05 04:46:28 - INFO - Processing: sensors\validation.md
+2025-07-05 04:46:28 - INFO - Processing: sociology\README.md
+2025-07-05 04:46:28 - INFO - Processing: specs\README.md
+2025-07-05 04:46:28 - INFO - Processing: templates\document_template.md
+2025-07-05 04:46:28 - INFO - Fixed 1 code blocks in document_template.md
+2025-07-05 04:46:28 - INFO - Processing: templates\model_template.md
+2025-07-05 04:46:28 - INFO - Fixed 1 code blocks in model_template.md
+2025-07-05 04:46:28 - INFO - Processing: templates\review_template.md
+2025-07-05 04:46:28 - INFO - Processing: templates\technical_review_template.md
+2025-07-05 04:46:28 - INFO - Processing: templates\workflow_template.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\ai\README.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\backend\README.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\3d_model_generation.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\3d_printing_export.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\accessibility.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\advanced_emotional_ai.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\advanced_physics.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\advanced_system.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\ai_agents.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\ai_assistant_architecture.md
+2025-07-05 04:46:28 - INFO - Fixed 1 code blocks in ai_assistant_architecture.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\ai_system_enhancements.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\amqp.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\analytics.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\android.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\api-docs.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\api_gateway.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\api_reference.md
+2025-07-05 04:46:28 - INFO - Processing: temp_reorg\docs\authentication.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\authorization.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\backend-integration.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\backend_api.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\calibration.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\cnc_machining_export.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\coap.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\coding-standards.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\component-library.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\configuration.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\CONTRIBUTING.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\data_collection.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\data_formats.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\deployment.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\design-principles.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\development-setup.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\development.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\discovery.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\documentation.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\edge_computing.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\encryption.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\environment.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\ethics_explainability.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\fea_analysis.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\firmware.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\flutter.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\FULL_STACK_IMPLEMENTATION.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\fusion.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\gan_design_generation.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\generative_design.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\genetic_algorithm_optimization.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\industry4.0.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\integration.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\interdisciplinary_education.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\intrusion_detection.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\ios.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\keras-rl2.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\key_management.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\knowledge-browser.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\knowledge_representation.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\LICENSE.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\memory-management.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\monitoring.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\mqtt.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\multimodal-capture.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\multi_material_design.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\networking.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\neural_network_predictions.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\nlp_ml.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\non_coder_setup.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\offline-support.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\offline-viewer.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\openscad_automation.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\optimization.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\performance_guide.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\performance_tuning.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\processing.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\PROJECT_SUMMARY.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\protocol_specs.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\proxy.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\pull_requests.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\qiskit.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\react-native.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\registration.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\resource_management.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\safety_ethics.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\scapy.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\secure-storage.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\secure_boot.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\security_guide.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\security_standards.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\self_building_ai.md
+2025-07-05 04:46:29 - INFO - Fixed 6 code blocks in self_building_ai.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\self_building_ai_functions.md
+2025-07-05 04:46:29 - INFO - Fixed 3 code blocks in self_building_ai_functions.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\setup.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\simulation.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\standards.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\storage.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\style_guide.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\synchronization.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\system_design.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\template_guide.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\testing.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\types.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:29 - INFO - Fixed 1 code blocks in UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\validation.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\virtual_assistant_book.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\virtual_assistant_cross_platform.md
+2025-07-05 04:46:29 - INFO - Fixed 1 code blocks in virtual_assistant_cross_platform.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\web_layers.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\frontend\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\frontend\README_DEPLOY.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\infrastructure\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\quantum_ai_system\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\src\ai\demo_emotional_ai.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\robotics\advanced_system\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\mcp\config\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\examples\emotional_intelligence\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\advanced_modules\advanced_engineering_ai.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\advanced_modules\advanced_engineering_ai_improvements.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\advanced_modules\neuromorphic_computing.md
+2025-07-05 04:46:29 - INFO - Fixed 4 code blocks in neuromorphic_computing.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\advanced_modules\README.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\ai\advanced_emotional_ai.md
+2025-07-05 04:46:29 - INFO - Fixed 2 code blocks in advanced_emotional_ai.md
+2025-07-05 04:46:29 - INFO - Processing: temp_reorg\docs\ai\ADVANCED_IMPROVEMENTS.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\anthropic_document_template.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in anthropic_document_template.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\CODE_OF_CONDUCT.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\constitutional_principles.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in constitutional_principles.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\content_lifecycle.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\contribution_guide.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\document_template.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in document_template.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\fairlearn.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\FAQ.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\github_actions.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\GOVERNANCE.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\improvements_module.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\inherit.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\integration_guide.md
+2025-07-05 04:46:30 - INFO - Fixed 6 code blocks in integration_guide.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\linking_standards.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\model_template.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in model_template.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\multimodal_integration.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\networking.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\parallel_processing.md
+2025-07-05 04:46:30 - INFO - Fixed 3 code blocks in parallel_processing.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\processing_pipeline.md
+2025-07-05 04:46:30 - INFO - Fixed 6 code blocks in processing_pipeline.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\quality_checklist.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\README.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\review_process.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\scheduled_reviews.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\SECURITY.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\step_by_step_guide.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\SUPPORT.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\system_improvement_strategies.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in system_improvement_strategies.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\tagging_system.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\TROUBLESHOOTING.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\update_scripts.md
+2025-07-05 04:46:30 - INFO - Fixed 3 code blocks in update_scripts.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\vision_apps.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\ai\workflow_template.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\aiops\README.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\api\audio_recognition_api.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\api\narrow_ai_api.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in narrow_ai_api.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\app\README.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\audio\audio_recognition.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\audio\README.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\blockchain\3d_blockchain.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\blockchain\layer2_and_defi.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\blockchain\modular_platform.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\blockchain\token_factory.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in token_factory.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\blockchain\website_blockchain.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\3d_model_generation.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\3d_printing_export.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\advanced_physics.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\cnc_machining_export.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\fea_analysis.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\freecad_automation.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in freecad_automation.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\gan_design_generation.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\generative_design.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\genetic_algorithm_optimization.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\iot_manufacturing.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\materials_database.md
+2025-07-05 04:46:30 - INFO - Fixed 4 code blocks in materials_database.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\multi_material_design.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\neural_network_predictions.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\openscad_automation.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\physics_simulation.md
+2025-07-05 04:46:30 - INFO - Fixed 5 code blocks in physics_simulation.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\cad_manufacturing\README.md
+2025-07-05 04:46:30 - INFO - Fixed 1 code blocks in README.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\concepts\advanced_frequency_delivery_technologies.md
+2025-07-05 04:46:30 - INFO - Processing: temp_reorg\docs\concepts\animal_environmental_protection_module.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\experiential_learning_emotional_memory_module.md
+2025-07-05 04:46:31 - INFO - Fixed 2 code blocks in experiential_learning_emotional_memory_module.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\human_genetics_module.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\knowledge_base_naming_and_identity.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\non_violence_and_peaceful_resolution_module.md
+2025-07-05 04:46:31 - INFO - Fixed 1 code blocks in non_violence_and_peaceful_resolution_module.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\rife_healing_frequencies_module.md
+2025-07-05 04:46:31 - INFO - Fixed 2 code blocks in rife_healing_frequencies_module.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\species_communication_agriculture_medicine_conservation.md
+2025-07-05 04:46:31 - INFO - Fixed 3 code blocks in species_communication_agriculture_medicine_conservation.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\universal_life_communication_and_improvement_module.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\concepts\universal_scientific_and_technological_advancement.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\deployment\environment.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\deployment\README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\desktop\README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\devops\README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\examples\emotional_intelligence.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\examples\multidisciplinary.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\guides\multimodal_integration.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\hardware\sensors.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\architecture.md
+2025-07-05 04:46:31 - INFO - Fixed 2 code blocks in architecture.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\CROSS_PLATFORM_README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\device_management.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\iot_manufacturing.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\README.md
+2025-07-05 04:46:31 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\RELEASE_CHECKLIST.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\sensors.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\iot\troubleshooting.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\azure-cognitiveservices-speech.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\beautifulsoup4.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\deepl.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\dlib.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\face_recognition.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\fairlearn.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\google-api-python-client.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\google-cloud-speech.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\googletrans.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\gtts.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\huggingface.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\ics.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\imaplib.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\keras-rl2.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\nltk.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\opencv-python.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\playsound.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\pyautogui.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\pydub.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\pyttsx3.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\qiskit.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\scapy.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\selenium.md
+2025-07-05 04:46:31 - INFO - Fixed 1 code blocks in selenium.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\spacy.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\speechrecognition.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\sqlite3.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\tensorflow.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\torch.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\transformers.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\web3.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\libraries\yagmail.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\machine_learning\sample_neural_network.md
+2025-07-05 04:46:31 - INFO - Fixed 1 code blocks in sample_neural_network.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\manufacturing\3d_printing_export.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\mlops\README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\mobile\README.md
+2025-07-05 04:46:31 - INFO - Fixed 4 code blocks in README.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\mobile\troubleshooting.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\quantum_computing\virtual_quantum_computer.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\robotics\access_control.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\robotics\ai_system_enhancements.md
+2025-07-05 04:46:31 - INFO - Processing: temp_reorg\docs\robotics\api.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\architecture.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\changelog.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\changelog_standards.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\checklist.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\CONTRIBUTING.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\current_goal.md
+2025-07-05 04:46:32 - INFO - Fixed 1 code blocks in current_goal.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\development.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\faq.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\FIXME.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\FULL_STACK_IMPLEMENTATION.md
+2025-07-05 04:46:32 - INFO - Fixed 3 code blocks in FULL_STACK_IMPLEMENTATION.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\human_robot_interaction.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\integration.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\knowledge_graph.md
+2025-07-05 04:46:32 - INFO - Fixed 2 code blocks in knowledge_graph.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\memories.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\method.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\notes.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\plan.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\README.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\rollback.md
+2025-07-05 04:46:32 - INFO - Fixed 1 code blocks in rollback.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\safety_ethics.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\specs.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\system_design.md
+2025-07-05 04:46:32 - INFO - Fixed 2 code blocks in system_design.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\task_list.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\testing.md
+2025-07-05 04:46:32 - INFO - Processing: temp_reorg\docs\robotics\TODO.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\troubleshooting.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:33 - INFO - Fixed 2 code blocks in UNIFIED_SYSTEM_ARCHITECTURE.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\security\advanced_analysis.md
+2025-07-05 04:46:33 - INFO - Fixed 2 code blocks in advanced_analysis.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\security\quantum_resistant_cryptography.md
+2025-07-05 04:46:33 - INFO - Fixed 6 code blocks in quantum_resistant_cryptography.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\http.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php_standards.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\README.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\web3.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\websockets.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\apis\api_gateway.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\apis\graphql.md
+2025-07-05 04:46:33 - INFO - Fixed 1 code blocks in graphql.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\apis\rest_api.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\client_server\architecture.md
+2025-07-05 04:46:33 - INFO - Fixed 1 code blocks in architecture.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\databases\database_overview.md
+2025-07-05 04:46:33 - INFO - Fixed 2 code blocks in database_overview.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\databases\overview.md
+2025-07-05 04:46:33 - INFO - Fixed 3 code blocks in overview.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\networking\dns.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\networking\http.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\networking\ip_address.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\networking\proxy.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\performance\denormalization.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\README.md
+2025-07-05 04:46:33 - INFO - Fixed 4 code blocks in README.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\security\authentication.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\security\security.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\api_gateway.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\blob_storage.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\cache.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\caching.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\cap_theorem.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\cdn.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\denormalization.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\idempotency.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\latency.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\load_balancer.md
+2025-07-05 04:46:33 - INFO - Fixed 3 code blocks in load_balancer.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\message_queue.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\microservices.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\proxy.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\rate_limiting.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\replication.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\sharding.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\sql_vs_nosql.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\vertical_partitioning.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\vertical_scaling.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\system_design\websockets.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\contributing\pull_requests.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\contributing\setup.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\references\api_reference.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\references\performance_guide.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\references\php_standards.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\references\security_guide.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\web\php\references\template_guide.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\src\multidisciplinary_ai\biology.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\src\multidisciplinary_ai\cosmology.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\src\multidisciplinary_ai\philosophy.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\src\multidisciplinary_ai\psychology.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\src\multidisciplinary_ai\sociology.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\src\multidisciplinary_ai\cosmology\cosmology_model.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\13_star_sign_calendar.md
+2025-07-05 04:46:33 - INFO - Fixed 1 code blocks in 13_star_sign_calendar.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\advanced_abilities.md
+2025-07-05 04:46:33 - INFO - Fixed 1 code blocks in advanced_abilities.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\advanced_system.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\ai_ml_integration.md
+2025-07-05 04:46:33 - INFO - Fixed 1 code blocks in ai_ml_integration.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\architecture.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\asynchronous_operations.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\bio_mimicry.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\blockchain_integration.md
+2025-07-05 04:46:33 - INFO - Fixed 2 code blocks in blockchain_integration.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\cad_and_manufacturing.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+2025-07-05 04:46:33 - INFO - Fixed 2 code blocks in comprehensive_domain_implementation_and_future_refinements.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\connectivity_and_communication.md
+2025-07-05 04:46:33 - INFO - Fixed 1 code blocks in connectivity_and_communication.md
+2025-07-05 04:46:33 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\consciousness_algorithms.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\continuous_learning.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\disaster_recovery_and_backup.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\emotional_intelligence.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in emotional_intelligence.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\energy_management.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in energy_management.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\ethics_and_compliance.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\holographic_projection_and_interaction.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\human_robot_interaction.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\industry4.0.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\integrative_knowledge_graph.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\modularity_and_customization.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\molecular_self_healing.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in molecular_self_healing.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\multisensory_robotics.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\multi_energy_harvesting.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in multi_energy_harvesting.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\naming_conventions.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\nanotechnology_integration.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\power_saving_self_sustaining.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\quantum_drive_and_thought.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in quantum_drive_and_thought.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\quantum_temporal_mapping.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in quantum_temporal_mapping.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\sanskrit_style_reorganization.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in sanskrit_style_reorganization.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\self_awareness.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in self_awareness.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\self_healing.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in self_healing.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\self_improvement.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\self_powering_and_regeneration.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\self_replication.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\simulation.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\speculative_abilities.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\streamlined_architecture.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\swarm_robotics.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\testing.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\theoretical_abilities.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\time_crystal_integration.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\ui_ux.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in ui_ux.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\unified_knowledge_architecture.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in universal_data_deciphering_and_conspiracy_analysis.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\ai\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\control\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\examples\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\movement\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\perception\vision_systems.md
+2025-07-05 04:46:34 - INFO - Fixed 1 code blocks in vision_systems.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\control\README.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\energy\README.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\hardware\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\learning\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\navigation\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\perception\depth_estimation.md
+2025-07-05 04:46:34 - INFO - Fixed 5 code blocks in depth_estimation.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\perception\README.md
+2025-07-05 04:46:34 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\perception\sensor_fusion.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\security\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\software\README.md
+2025-07-05 04:46:34 - INFO - Fixed 5 code blocks in README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\testing\README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\robotics\advanced_system\ui_ux\README.md
+2025-07-05 04:46:34 - INFO - Fixed 5 code blocks in README.md
+2025-07-05 04:46:34 - INFO - Processing: temp_reorg\docs\mobile\contributing\coding-standards.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\contributing\development-setup.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\contributing\documentation.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\contributing\testing.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\cross-platform\flutter.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\cross-platform\react-native.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\examples\knowledge-browser.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\examples\multimodal-capture.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\examples\offline-viewer.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\native\android.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\native\ios.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\performance\memory-management.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\performance\offline-support.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\performance\optimization.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\references\api-docs.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\references\backend-integration.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\references\standards.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\security\authentication.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\security\encryption.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\security\secure-storage.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\ui-ux\accessibility.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\ui-ux\component-library.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\mobile\ui-ux\design-principles.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\audio_recognition\audio_recognition_guide.md
+2025-07-05 04:46:35 - INFO - Fixed 2 code blocks in audio_recognition_guide.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\multimodal\unified_recognition_guide.md
+2025-07-05 04:46:35 - INFO - Fixed 3 code blocks in unified_recognition_guide.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\training\training_guide.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\vision_recognition\vision_recognition_guide.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\build_train_model.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\data_acquisition.md
+2025-07-05 04:46:35 - INFO - Fixed 1 code blocks in data_acquisition.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\deployment.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\evaluate_performance.md
+2025-07-05 04:46:35 - INFO - Fixed 1 code blocks in evaluate_performance.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\hyperparameter_tuning.md
+2025-07-05 04:46:35 - INFO - Fixed 1 code blocks in hyperparameter_tuning.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\preprocessing.md
+2025-07-05 04:46:35 - INFO - Fixed 1 code blocks in preprocessing.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\machine_learning\workflow\splitting_the_data.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\contributing\documentation.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\contributing\pull_requests.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\contributing\setup.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\contributing\style_guide.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\contributing\testing.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\device_management\configuration.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\device_management\discovery.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\device_management\firmware.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\device_management\monitoring.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\device_management\registration.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\edge_computing\analytics.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\edge_computing\processing.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\edge_computing\resource_management.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\edge_computing\storage.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\edge_computing\synchronization.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\protocols\amqp.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\protocols\coap.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\protocols\http.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\protocols\mqtt.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\protocols\websockets.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\references\data_formats.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\references\device_management.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\references\edge_computing.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\references\protocol_specs.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\references\security_standards.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\security\authentication.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\security\authorization.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\security\encryption.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\security\intrusion_detection.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\security\key_management.md
+2025-07-05 04:46:35 - INFO - Processing: temp_reorg\docs\iot\security\secure_boot.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\iot\sensors\calibration.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\iot\sensors\data_collection.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\iot\sensors\fusion.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\iot\sensors\types.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\iot\sensors\validation.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\examples\emotional_intelligence\demo_emotional_ai.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\deployment\containerization\README.md
+2025-07-05 04:46:36 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\deployment\iac\README.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\accelerators\time_crystal_module.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\advanced_components\cosmology.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\advanced_components\privacy_preservation.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\applications\narrow_ai_quantum.md
+2025-07-05 04:46:36 - INFO - Fixed 2 code blocks in narrow_ai_quantum.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\architecture\system_design.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\audio\audio_module_api.md
+2025-07-05 04:46:36 - INFO - Fixed 6 code blocks in audio_module_api.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\audio\audio_module_architecture.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\audio\audio_module_examples.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\audio\LICENSE.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\audio\multi_modal_audio_recognition.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\audio\README.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\ARCHITECTURE.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in ARCHITECTURE.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\CONTRIBUTING.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\EMOTION_REGULATION.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in EMOTION_REGULATION.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+2025-07-05 04:46:36 - INFO - Fixed 5 code blocks in EMPATHY_AND_SOCIAL_AWARENESS.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\LICENSE.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+2025-07-05 04:46:36 - INFO - Fixed 2 code blocks in MEMORY_SYSTEM.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in PYTHON_IMPLEMENTATION.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\README.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\emotional_intelligence\SELF_AWARENESS.md
+2025-07-05 04:46:36 - INFO - Fixed 4 code blocks in SELF_AWARENESS.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\guides\multilingual_understanding.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in multilingual_understanding.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\guides\multimodal_integration.md
+2025-07-05 04:46:36 - INFO - Fixed 2 code blocks in multimodal_integration.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\guides\performance_tuning.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\guides\quantum_circuit_optimization.md
+2025-07-05 04:46:36 - INFO - Fixed 5 code blocks in quantum_circuit_optimization.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\guides\robotics_ai_algorithms.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\guides\robotics_movement.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\models\bitnet_b158_2b4t.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\biology.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in biology.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\cosmology.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\fields_of_education.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\integration.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in integration.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\philosophy.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\psychology.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\README.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in README.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\multidisciplinary\sociology.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\security\access_control.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\security\deployment.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\tools\benchmarking.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\virtual_brain\01_architecture_overview.md
+2025-07-05 04:46:36 - INFO - Fixed 4 code blocks in 01_architecture_overview.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\virtual_brain\02_cognitive_functions.md
+2025-07-05 04:46:36 - INFO - Fixed 5 code blocks in 02_cognitive_functions.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\virtual_brain\03_python_implementation.md
+2025-07-05 04:46:36 - INFO - Fixed 1 code blocks in 03_python_implementation.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\vision\multi_category_object_recognition.md
+2025-07-05 04:46:36 - INFO - Fixed 2 code blocks in multi_category_object_recognition.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\ai\guides\multimodal_integration.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\docs\ai\ai\guides\quantum_circuit_optimization.md
+2025-07-05 04:46:36 - INFO - Processing: temp_reorg\backend\src\README.md
+2025-07-05 04:46:36 - INFO - Processing: src\audio\LICENSE.md
+2025-07-05 04:46:36 - INFO - Processing: src\audio\README.md
+2025-07-05 04:46:37 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:37 - INFO - Processing: src\multimodal\README.md
+2025-07-05 04:46:37 - INFO - Processing: src\vision\README.md
+2025-07-05 04:46:37 - INFO - Fixed 1 code blocks in README.md
+2025-07-05 04:46:37 - INFO - Processing: src\multidisciplinary_ai\cosmology\README.md
+2025-07-05 04:46:37 - INFO - Fixed 3 code blocks in README.md
+2025-07-05 04:46:37 - INFO - Processing: src\multidisciplinary_ai\improvements\README.md
+2025-07-05 04:46:37 - INFO - Processing: robotics\advanced_system\industry4.0.md
+2025-07-05 04:46:37 - INFO - Processing: robotics\advanced_system\README.md
+2025-07-05 04:46:37 - INFO - Processing: robotics\advanced_system\simulation.md
+2025-07-05 04:46:37 - INFO - Processing: mcp\api\knowledge_api.md
+2025-07-05 04:46:37 - INFO - Processing: mcp\api\README.md
+2025-07-05 04:46:37 - INFO - Processing: mcp\config\README.md
+2025-07-05 04:46:37 - INFO - Processing: mcp\vectorization\README.md
+2025-07-05 04:46:37 - INFO - Processing: examples\emotional_intelligence\README.md
+2025-07-05 04:46:37 - INFO - Processing: docs\advanced_modules\advanced_engineering_ai.md
+2025-07-05 04:46:37 - INFO - Processing: docs\advanced_modules\advanced_engineering_ai_improvements.md
+2025-07-05 04:46:37 - INFO - Processing: docs\advanced_modules\neuromorphic_computing.md
+2025-07-05 04:46:37 - INFO - Fixed 4 code blocks in neuromorphic_computing.md
+2025-07-05 04:46:37 - INFO - Processing: docs\advanced_modules\README.md
+2025-07-05 04:46:37 - INFO - Processing: docs\ai\advanced_emotional_ai.md
+2025-07-05 04:46:37 - INFO - Fixed 2 code blocks in advanced_emotional_ai.md
+2025-07-05 04:46:37 - INFO - Processing: docs\ai\improvements_module.md
+2025-07-05 04:46:37 - INFO - Processing: docs\ai\parallel_processing.md
+2025-07-05 04:46:37 - INFO - Fixed 3 code blocks in parallel_processing.md
+2025-07-05 04:46:37 - INFO - Processing: docs\ai\README.md
+2025-07-05 04:46:37 - INFO - Processing: docs\ai\system_improvement_strategies.md
+2025-07-05 04:46:37 - INFO - Fixed 1 code blocks in system_improvement_strategies.md
+2025-07-05 04:46:37 - INFO - Processing: docs\aiops\README.md
+2025-07-05 04:46:37 - INFO - Processing: docs\api\audio_recognition_api.md
+2025-07-05 04:46:37 - INFO - Processing: docs\api\narrow_ai_api.md
+2025-07-05 04:46:37 - INFO - Processing: docs\api\related_resource.md
+2025-07-05 04:46:37 - INFO - Processing: docs\app\README.md
+2025-07-05 04:46:37 - INFO - Processing: docs\audio\audio_recognition.md
+2025-07-05 04:46:37 - INFO - Processing: docs\audio\README.md
+2025-07-05 04:46:37 - INFO - Processing: docs\audio\related_resource.md
+2025-07-05 04:46:37 - INFO - Processing: docs\blockchain\3d_blockchain.md
+2025-07-05 04:46:37 - INFO - Processing: docs\blockchain\layer2_and_defi.md
+2025-07-05 04:46:37 - INFO - Processing: docs\blockchain\modular_platform.md
+2025-07-05 04:46:37 - INFO - Processing: docs\blockchain\token_factory.md
+2025-07-05 04:46:37 - INFO - Fixed 1 code blocks in token_factory.md
+2025-07-05 04:46:37 - INFO - Processing: docs\blockchain\website_blockchain.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\3d_model_generation.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\3d_printing_export.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\advanced_physics.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\cnc_machining_export.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\fea_analysis.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\freecad_automation.md
+2025-07-05 04:46:37 - INFO - Fixed 1 code blocks in freecad_automation.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\gan_design_generation.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\generative_design.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\genetic_algorithm_optimization.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\iot_manufacturing.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\materials_database.md
+2025-07-05 04:46:37 - INFO - Fixed 4 code blocks in materials_database.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\multi_material_design.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\neural_network_predictions.md
+2025-07-05 04:46:37 - INFO - Processing: docs\cad_manufacturing\openscad_automation.md
+2025-07-05 04:46:38 - INFO - Processing: docs\cad_manufacturing\physics_simulation.md
+2025-07-05 04:46:38 - INFO - Fixed 5 code blocks in physics_simulation.md
+2025-07-05 04:46:38 - INFO - Processing: docs\cad_manufacturing\README.md
+2025-07-05 04:46:38 - INFO - Fixed 1 code blocks in README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\cad_manufacturing\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\advanced_frequency_delivery_technologies.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\animal_environmental_protection_module.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\experiential_learning_emotional_memory_module.md
+2025-07-05 04:46:38 - INFO - Fixed 2 code blocks in experiential_learning_emotional_memory_module.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\human_genetics_module.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\knowledge_base_naming_and_identity.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\non_violence_and_peaceful_resolution_module.md
+2025-07-05 04:46:38 - INFO - Fixed 1 code blocks in non_violence_and_peaceful_resolution_module.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\rife_healing_frequencies_module.md
+2025-07-05 04:46:38 - INFO - Fixed 2 code blocks in rife_healing_frequencies_module.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\species_communication_agriculture_medicine_conservation.md
+2025-07-05 04:46:38 - INFO - Fixed 3 code blocks in species_communication_agriculture_medicine_conservation.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\universal_life_communication_and_improvement_module.md
+2025-07-05 04:46:38 - INFO - Processing: docs\concepts\universal_scientific_and_technological_advancement.md
+2025-07-05 04:46:38 - INFO - Processing: docs\deployment\environment.md
+2025-07-05 04:46:38 - INFO - Processing: docs\deployment\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\deployment\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\deployment\troubleshooting.md
+2025-07-05 04:46:38 - INFO - Processing: docs\desktop\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\devops\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\examples\emotional_intelligence.md
+2025-07-05 04:46:38 - INFO - Processing: docs\examples\multidisciplinary.md
+2025-07-05 04:46:38 - INFO - Processing: docs\examples\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\guides\multimodal_integration.md
+2025-07-05 04:46:38 - INFO - Processing: docs\guides\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\hardware\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\hardware\sensors.md
+2025-07-05 04:46:38 - INFO - Processing: docs\iot\README.md
+2025-07-05 04:46:38 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\iot\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\iot\troubleshooting.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\azure-cognitiveservices-speech.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\beautifulsoup4.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\deepl.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\dlib.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\face_recognition.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\fairlearn.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\google-api-python-client.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\google-cloud-speech.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\googletrans.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\gtts.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\huggingface.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\ics.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\imaplib.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\keras-rl2.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\nltk.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\opencv-python.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\playsound.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\pyautogui.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\pydub.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\pyttsx3.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\qiskit.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\scapy.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\selenium.md
+2025-07-05 04:46:38 - INFO - Fixed 1 code blocks in selenium.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\spacy.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\speechrecognition.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\sqlite3.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\tensorflow.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\torch.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\transformers.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\web3.md
+2025-07-05 04:46:38 - INFO - Processing: docs\libraries\yagmail.md
+2025-07-05 04:46:38 - INFO - Processing: docs\machine_learning\data_acquisition.md
+2025-07-05 04:46:38 - INFO - Processing: docs\machine_learning\sample_neural_network.md
+2025-07-05 04:46:38 - INFO - Fixed 1 code blocks in sample_neural_network.md
+2025-07-05 04:46:38 - INFO - Processing: docs\manufacturing\3d_printing_export.md
+2025-07-05 04:46:38 - INFO - Processing: docs\manufacturing\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\mlops\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\mobile\README.md
+2025-07-05 04:46:38 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\mobile\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\mobile\troubleshooting.md
+2025-07-05 04:46:38 - INFO - Processing: docs\quantum_computing\virtual_quantum_computer.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\ai_system_enhancements.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\api.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\architecture.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\CONTRIBUTING.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\development.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\faq.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\human_robot_interaction.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\integration.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\README.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\related_resource.md
+2025-07-05 04:46:38 - INFO - Processing: docs\robotics\safety_ethics.md
+2025-07-05 04:46:39 - INFO - Processing: docs\robotics\specs.md
+2025-07-05 04:46:39 - INFO - Processing: docs\robotics\testing.md
+2025-07-05 04:46:39 - INFO - Processing: docs\robotics\troubleshooting.md
+2025-07-05 04:46:39 - INFO - Processing: docs\security\advanced_analysis.md
+2025-07-05 04:46:39 - INFO - Fixed 2 code blocks in advanced_analysis.md
+2025-07-05 04:46:39 - INFO - Processing: docs\security\quantum_resistant_cryptography.md
+2025-07-05 04:46:39 - INFO - Fixed 6 code blocks in quantum_resistant_cryptography.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\README.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\apis\api_gateway.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\apis\graphql.md
+2025-07-05 04:46:39 - INFO - Fixed 1 code blocks in graphql.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\apis\related_resource.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\apis\rest_api.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\client_server\architecture.md
+2025-07-05 04:46:39 - INFO - Fixed 1 code blocks in architecture.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\databases\database_overview.md
+2025-07-05 04:46:39 - INFO - Fixed 2 code blocks in database_overview.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\databases\overview.md
+2025-07-05 04:46:39 - INFO - Fixed 1 code blocks in overview.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\networking\dns.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\networking\http.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\networking\ip_address.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\networking\proxy.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\networking\related_resource.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\performance\denormalization.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\performance\related_resource.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\README.md
+2025-07-05 04:46:39 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\security\authentication.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\security\related_resource.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\security\security.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\api_gateway.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\blob_storage.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\cache.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\caching.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\cap_theorem.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\cdn.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\denormalization.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\idempotency.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\latency.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\load_balancer.md
+2025-07-05 04:46:39 - INFO - Fixed 2 code blocks in load_balancer.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\message_queue.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\microservices.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\proxy.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\rate_limiting.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\replication.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\sharding.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\sql_vs_nosql.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\vertical_partitioning.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\vertical_scaling.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\system_design\websockets.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\contributing\documentation.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\contributing\pull_requests.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\contributing\related_resource.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\contributing\setup.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\contributing\standards.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\contributing\testing.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\references\api_reference.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\references\performance_guide.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\references\php_standards.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\references\related_resource.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\references\security_guide.md
+2025-07-05 04:46:39 - INFO - Processing: docs\web\php\references\template_guide.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\13_star_sign_calendar.md
+2025-07-05 04:46:40 - INFO - Fixed 1 code blocks in 13_star_sign_calendar.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\advanced_abilities.md
+2025-07-05 04:46:40 - INFO - Fixed 1 code blocks in advanced_abilities.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\advanced_system.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\ai_ml_integration.md
+2025-07-05 04:46:40 - INFO - Fixed 1 code blocks in ai_ml_integration.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\architecture.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\asynchronous_operations.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\bio_mimicry.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\blockchain_integration.md
+2025-07-05 04:46:40 - INFO - Fixed 2 code blocks in blockchain_integration.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\cad_and_manufacturing.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md
+2025-07-05 04:46:40 - INFO - Fixed 2 code blocks in comprehensive_domain_implementation_and_future_refinements.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\connectivity_and_communication.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\consciousness_algorithms.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\continuous_learning.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\cosmological_and_speculative_tech.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\disaster_recovery_and_backup.md
+2025-07-05 04:46:40 - INFO - Processing: docs\robotics\advanced_system\emotional_intelligence.md
+2025-07-05 04:46:40 - INFO - Fixed 1 code blocks in emotional_intelligence.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\energy_management.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in energy_management.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\ethics_and_compliance.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\holographic_projection_and_interaction.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\human_robot_interaction.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\industry4.0.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\integrative_knowledge_graph.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\modularity_and_customization.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\molecular_self_healing.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in molecular_self_healing.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\multisensory_robotics.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\multi_energy_harvesting.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in multi_energy_harvesting.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\naming_conventions.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\nanotechnology_integration.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\power_saving_self_sustaining.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\quantum_drive_and_thought.md
+2025-07-05 04:46:41 - INFO - Fixed 2 code blocks in quantum_drive_and_thought.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\quantum_temporal_mapping.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in quantum_temporal_mapping.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\README.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\related_resource.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\sanskrit_style_reorganization.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in sanskrit_style_reorganization.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\self_awareness.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in self_awareness.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\self_healing.md
+2025-07-05 04:46:41 - INFO - Fixed 1 code blocks in self_healing.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\self_improvement.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\self_powering_and_regeneration.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\self_replication.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\simulation.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\speculative_abilities.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\streamlined_architecture.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\swarm_robotics.md
+2025-07-05 04:46:41 - INFO - Processing: docs\robotics\advanced_system\testing.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\theoretical_abilities.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\time_crystal_integration.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\TROUBLESHOOTING.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\ui_ux.md
+2025-07-05 04:46:42 - INFO - Fixed 2 code blocks in ui_ux.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\unified_knowledge_architecture.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md
+2025-07-05 04:46:42 - INFO - Fixed 2 code blocks in universal_data_deciphering_and_conspiracy_analysis.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\ai\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\api\.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\control\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\examples\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\movement\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\perception\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\perception\vision_systems.md
+2025-07-05 04:46:42 - INFO - Fixed 1 code blocks in vision_systems.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\specs\.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\ai\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\control\README.md
+2025-07-05 04:46:42 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\deployment\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\energy\README.md
+2025-07-05 04:46:42 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\hardware\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\learning\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\navigation\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\networking\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\perception\depth_estimation.md
+2025-07-05 04:46:42 - INFO - Fixed 5 code blocks in depth_estimation.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\perception\README.md
+2025-07-05 04:46:42 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\perception\sensor_fusion.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\safety_ethics\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\security\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\software\README.md
+2025-07-05 04:46:42 - INFO - Fixed 1 code blocks in README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\testing\README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\robotics\advanced_system\ui_ux\README.md
+2025-07-05 04:46:42 - INFO - Fixed 5 code blocks in README.md
+2025-07-05 04:46:42 - INFO - Processing: docs\mobile\contributing\coding-standards.md
+2025-07-05 04:46:42 - INFO - Processing: docs\mobile\contributing\development-setup.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\contributing\documentation.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\contributing\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\contributing\testing.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\cross-platform\flutter.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\cross-platform\react-native.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\cross-platform\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\examples\knowledge-browser.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\examples\multimodal-capture.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\examples\offline-viewer.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\examples\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\native\android.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\native\ios.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\native\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\performance\memory-management.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\performance\offline-support.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\performance\optimization.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\performance\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\references\api-docs.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\references\backend-integration.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\references\component-library.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\references\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\references\standards.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\security\authentication.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\security\encryption.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\security\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\security\secure-storage.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\ui-ux\accessibility.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\ui-ux\component-library.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\ui-ux\design-principles.md
+2025-07-05 04:46:43 - INFO - Processing: docs\mobile\ui-ux\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\audio_recognition\audio_recognition_guide.md
+2025-07-05 04:46:43 - INFO - Fixed 2 code blocks in audio_recognition_guide.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\multimodal\unified_recognition_guide.md
+2025-07-05 04:46:43 - INFO - Fixed 1 code blocks in unified_recognition_guide.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\training\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\training\training_guide.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\vision_recognition\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\vision_recognition\vision_recognition_guide.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\build_train_model.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\data_acquisition.md
+2025-07-05 04:46:43 - INFO - Fixed 1 code blocks in data_acquisition.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\deployment.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\evaluate_performance.md
+2025-07-05 04:46:43 - INFO - Fixed 1 code blocks in evaluate_performance.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\hyperparameter_tuning.md
+2025-07-05 04:46:43 - INFO - Fixed 1 code blocks in hyperparameter_tuning.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\preprocessing.md
+2025-07-05 04:46:43 - INFO - Fixed 1 code blocks in preprocessing.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\machine_learning\workflow\splitting_the_data.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\contributing\documentation.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\contributing\pull_requests.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\contributing\related_resource.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\contributing\setup.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\contributing\style_guide.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\contributing\testing.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\device_management\configuration.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\device_management\discovery.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\device_management\firmware.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\device_management\monitoring.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\device_management\registration.md
+2025-07-05 04:46:43 - INFO - Processing: docs\iot\device_management\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\edge_computing\analytics.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\edge_computing\processing.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\edge_computing\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\edge_computing\resource_management.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\edge_computing\storage.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\edge_computing\synchronization.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\protocols\amqp.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\protocols\coap.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\protocols\http.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\protocols\mqtt.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\protocols\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\protocols\websockets.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\references\data_formats.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\references\device_management.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\references\edge_computing.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\references\protocol_specs.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\references\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\references\security_standards.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\authentication.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\authorization.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\encryption.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\intrusion_detection.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\key_management.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\security\secure_boot.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\sensors\calibration.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\sensors\data_collection.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\sensors\fusion.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\sensors\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\sensors\types.md
+2025-07-05 04:46:44 - INFO - Processing: docs\iot\sensors\validation.md
+2025-07-05 04:46:44 - INFO - Processing: docs\examples\emotional_intelligence\.md
+2025-07-05 04:46:44 - INFO - Processing: docs\examples\emotional_intelligence\demo_emotional_ai.md
+2025-07-05 04:46:44 - INFO - Processing: docs\examples\emotional_intelligence\related_resource.md
+2025-07-05 04:46:44 - INFO - Processing: docs\examples\multidisciplinary\.md
+2025-07-05 04:46:44 - INFO - Processing: docs\deployment\ci_cd\README.md
+2025-07-05 04:46:44 - INFO - Processing: docs\deployment\containerization\README.md
+2025-07-05 04:46:44 - INFO - Fixed 2 code blocks in README.md
+2025-07-05 04:46:44 - INFO - Processing: docs\deployment\iac\README.md
+2025-07-05 04:46:44 - INFO - Processing: docs\deployment\mlops\README.md
+2025-07-05 04:46:44 - INFO - Processing: docs\deployment\platforms\README.md
+2025-07-05 04:46:45 - INFO - Processing: docs\deployment\security\README.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\accelerators\time_crystal_module.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\advanced_components\cosmology.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\advanced_components\privacy_preservation.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\applications\narrow_ai_quantum.md
+2025-07-05 04:46:45 - INFO - Fixed 2 code blocks in narrow_ai_quantum.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\architecture\system_design.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\audio_module_api.md
+2025-07-05 04:46:45 - INFO - Fixed 2 code blocks in audio_module_api.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\audio_module_architecture.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\audio_module_examples.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\LICENSE.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\multi_modal_audio_recognition.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\README.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\audio\related_resource.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\ARCHITECTURE.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in ARCHITECTURE.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\CONTRIBUTING.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\EMOTION_REGULATION.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in EMOTION_REGULATION.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md
+2025-07-05 04:46:45 - INFO - Fixed 5 code blocks in EMPATHY_AND_SOCIAL_AWARENESS.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\LICENSE.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\MEMORY_SYSTEM.md
+2025-07-05 04:46:45 - INFO - Fixed 2 code blocks in MEMORY_SYSTEM.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in PYTHON_IMPLEMENTATION.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\README.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\related_resource.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\emotional_intelligence\SELF_AWARENESS.md
+2025-07-05 04:46:45 - INFO - Fixed 4 code blocks in SELF_AWARENESS.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\multilingual_understanding.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in multilingual_understanding.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\multimodal_integration.md
+2025-07-05 04:46:45 - INFO - Fixed 2 code blocks in multimodal_integration.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\performance_tuning.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\quantum_circuit_optimization.md
+2025-07-05 04:46:45 - INFO - Fixed 5 code blocks in quantum_circuit_optimization.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\related_resource.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\robotics_ai_algorithms.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\guides\robotics_movement.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\models\bitnet_b158_2b4t.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\biology.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in biology.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\cosmology.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\fields_of_education.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\integration.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in integration.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\philosophy.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\psychology.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\README.md
+2025-07-05 04:46:45 - INFO - Fixed 1 code blocks in README.md
+2025-07-05 04:46:45 - INFO - Processing: docs\ai\multidisciplinary\sociology.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\security\access_control.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\security\deployment.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\security\related_resource.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\tools\benchmarking.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\tools\related_resource.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\virtual_brain\01_architecture_overview.md
+2025-07-05 04:46:46 - INFO - Fixed 4 code blocks in 01_architecture_overview.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\virtual_brain\02_cognitive_functions.md
+2025-07-05 04:46:46 - INFO - Fixed 5 code blocks in 02_cognitive_functions.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\virtual_brain\03_python_implementation.md
+2025-07-05 04:46:46 - INFO - Fixed 1 code blocks in 03_python_implementation.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\vision\multi_category_object_recognition.md
+2025-07-05 04:46:46 - INFO - Fixed 1 code blocks in multi_category_object_recognition.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\tools\benchmarking\.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\multidisciplinary\biology\README.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\multidisciplinary\cosmology\README.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\multidisciplinary\philosophy\README.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\multidisciplinary\psychology\README.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\multidisciplinary\sociology\README.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\ai\guides\multimodal_integration.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\ai\guides\quantum_circuit_optimization.md
+2025-07-05 04:46:46 - INFO - Processing: docs\ai\ai\guides\related_resource.md
+2025-07-05 04:46:46 - INFO - Processing: backend\src\networking.md
+2025-07-05 04:46:46 - INFO - Processing: backend\src\README.md
+2025-07-05 04:46:46 - INFO - Processing: anthropic\templates\anthropic_document_template.md
+2025-07-05 04:46:46 - INFO - Fixed 1 code blocks in anthropic_document_template.md
+2025-07-05 04:46:46 - INFO - Processing: anthropic\templates\constitutional_assessment_template.md
+2025-07-05 04:46:46 - INFO - Processing: ai\emotional_intelligence\ADVANCED_IMPROVEMENTS.md
+2025-07-05 04:46:46 - INFO - Processing: ai\guides\multimodal_integration.md
+2025-07-05 04:46:46 - INFO - 
+=== Summary ===
+Total files processed: 1130
+Files fixed: 582
+Files with errors: 0
+Files skipped: 548
+
+Specific fixes applied:
+- Frontmatter fields added: 717
+- Version format fixed: 176
+- Code block syntax fixed: 399
+- Links fixed: 544
+
+2025-07-05 04:46:46 - INFO - ================================================================================
+2025-07-05 04:46:46 - INFO - FIXER COMPLETE! Fixed 582 files
+2025-07-05 04:46:46 - INFO - Frontmatter fields added: 717
+2025-07-05 04:46:46 - INFO - Version formats fixed: 176
+2025-07-05 04:46:46 - INFO - Syntax errors fixed: 399
+2025-07-05 04:46:46 - INFO - Links fixed: 544
+2025-07-05 04:46:46 - INFO - ================================================================================
+2025-07-05 04:46:46 - INFO - Running validation script to verify fixes...

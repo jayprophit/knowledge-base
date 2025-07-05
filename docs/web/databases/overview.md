@@ -1,24 +1,25 @@
 ---
 id: web-databases-overview
 title: Database Systems - Overview and Comparison
-description: Comprehensive documentation on database systems, including SQL vs. NoSQL databases, scaling strategies, and implementation examples
+description: Comprehensive documentation on database systems, including SQL vs. NoSQL
+  databases, scaling strategies, and implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - system_design
-  - databases
-  - sql
-  - nosql
-  - data_storage
+- system_design
+- databases
+- sql
+- nosql
+- data_storage
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../system_design/cache.md
-    - ../scalability/replication.md
-    - ../scalability/sharding.md
+  - ../system_design/cache.md
+  - ../scalability/replication.md
+  - ../scalability/sharding.md
 ---
 
 # Database Systems Overview
@@ -119,7 +120,7 @@ Vertical scaling (scaling up) involves increasing resources on a single server.
 - Downtime for upgrades
 
 **Implementation:**
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # # Example: Vertical scaling in a cloud environment (AWS CLI)

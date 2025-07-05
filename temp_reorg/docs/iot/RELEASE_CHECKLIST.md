@@ -1,3 +1,12 @@
+---
+title: Release Checklist
+description: Documentation for Release Checklist in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Release Checklist: Knowledge Base AI Assistant
 
 ## 1. Pre-Release

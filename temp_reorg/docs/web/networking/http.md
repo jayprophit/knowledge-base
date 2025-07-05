@@ -7,17 +7,17 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - http
-  - https
-  - networking
-  - system_design
+- http
+- https
+- networking
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - dns.md
-    - proxy.md
-    - ../system_design/load_balancer.md
+  - dns.md
+  - proxy.md
+  - ../system_design/load_balancer.md
 ---
 
 # HTTP and HTTPS

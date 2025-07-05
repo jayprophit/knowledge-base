@@ -37,7 +37,7 @@ class BrainRegion:
 
     def generate_neurons(self, count):
         return [np.random.random(3) for _ in range(count)]  # 3D positions
-
+:
 class VirtualBrain:
     def __init__(self):
         self.regions = []
@@ -55,7 +55,7 @@ brain = VirtualBrain()
 brain.add_region("Cerebral Cortex", "Higher-order thinking", 10000)
 brain.add_region("Limbic System", "Emotions and Memory", 5000)
 brain.add_region("Cerebellum", "Motor control", 8000)
-brain.simulate()
+brain.simulate():
 ```
 
 ## Neural Network Simulation

@@ -175,7 +175,7 @@ import paho.mqtt.client as mqtt
 - [Self-Powering and Regeneration](./self_powering_and_regeneration.md)
 - [Energy Management](./energy_management.md)
 - [System Architecture](./architecture.md)
-- [AI System Enhancements](temp_reorg/docs/robotics/ai_system_enhancements.md)
+- [AI System Enhancements](../../../temp_reorg/docs/robotics/ai_system_enhancements.md)
 - [DevOps](../../devops/README.md)
 - [MLOps](../../mlops/README.md)
 - [AIOps](../../aiops/README.md)

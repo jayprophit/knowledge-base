@@ -71,7 +71,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
 
-const RobotControlPanel = ({ robotIP, isConnected }) => {
+const RobotControlPanel = ({ robotIP, isConnected }) => {;
   const [batteryLevel, setBatteryLevel] = useState(100);
   const [currentTask, setCurrentTask] = useState('Idle');
 
@@ -94,7 +94,7 @@ const RobotControlPanel = ({ robotIP, isConnected }) => {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ command })
+      body: JSON.stringify({ command });
     });
   };
 
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: 'bold',
-  },
+  },;
 });
 
 export default RobotControlPanel;
@@ -182,7 +182,7 @@ import json
 app = Flask(__name__)
 
 # Mock robot state
-robot_state = {
+robot_state = {:
     "battery": 85,
     "task": "Idle",
     "position": [0, 0, 0],
@@ -198,7 +198,7 @@ robot_state = {
 def update_robot_state():
     while True:
         # This would connect to actual robot hardware
-        # Here we're just simulating battery drain
+        # Here we're just simulating battery drain'
         robot_state["battery"] -= 0.1
         if robot_state["battery"] < 0:
             robot_state["battery"] = 100

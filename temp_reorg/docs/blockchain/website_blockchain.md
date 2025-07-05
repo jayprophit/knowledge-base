@@ -46,7 +46,7 @@ This document describes the architecture and usage of the Website-as-Blockchain 
 
 ## Example Python Implementation
 
-See [`src/blockchain/website_blockchain.py`](../../src/blockchain/website_blockchain.py) for the full code, including:
+See [`src/blockchain/website_blockchain.py`](../../../src/blockchain/website_blockchain.py) for the full code, including:
 
 - Block and WebsiteBlockchain classes
 - Methods for adding interactions, managing delegates, voting, and calculating rewards

@@ -1,22 +1,23 @@
 ---
 id: web-system-design-vertical-scaling
 title: Vertical Scaling in System Design
-description: Documentation on vertical scaling, its trade-offs, and implementation strategies
+description: Documentation on vertical scaling, its trade-offs, and implementation
+  strategies
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - vertical_scaling
-  - scalability
-  - system_design
+- vertical_scaling
+- scalability
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - sharding.md
-    - replication.md
-    - database_overview.md
+  - sharding.md
+  - replication.md
+  - database_overview.md
 ---
 
 # Vertical Scaling in System Design

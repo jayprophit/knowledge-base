@@ -160,7 +160,7 @@ class DPoSBlockchain(BlockchainWithPoW):
     def vote_for_delegate(self, voter, delegate_name):
         if delegate_name in self.delegates:
             self.delegates[delegate_name].append(voter)
-            print(f"{voter} voted for {delegate_name}.")
+            print(f"{voter} voted for {delegate_name}."):
     def validate_transaction(self, delegate_name):
         if delegate_name in self.delegates:
             print(f"Transaction validated by {delegate_name}.")
@@ -263,7 +263,7 @@ class QuantumEncryption:
         self.keys = {}
     def generate_key(self, user):
         self.keys[user] = "QuantumKey123"
-        print(f"Quantum key generated for {user}.")
+        print(f"Quantum key generated for {user}."):
     def encrypt(self, user, data):
         if user in self.keys:
             encrypted_data = f"Encrypted with {self.keys[user]}: {data}"

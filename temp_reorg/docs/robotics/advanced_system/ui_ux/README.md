@@ -392,7 +392,7 @@ function LoginScreen() {
     </Suspense>
   );
 }
-```
+```python
 
 ### 2. Image Optimization
 - Use WebP format with fallbacks
@@ -425,7 +425,7 @@ describe('Navigation', () => {
     await expect(element(by.text('Moving right'))).toBeVisible();
   });
 });
-```
+```python
 
 ## Deployment
 
@@ -442,7 +442,7 @@ services:
       - NODE_ENV=production
       - API_URL=/api
     restart: unless-stopped
-```
+```python
 
 ### 2. Mobile Application
 ```yaml
@@ -462,7 +462,7 @@ lane :beta do
   )
   upload_to_testflight
 end
-```
+```python
 
 ## Troubleshooting
 
@@ -490,6 +490,8 @@ end
 3. Ensure accessibility compliance
 4. Update documentation
 
----
+---:
 *Last updated: 2025-07-01*
 *Version: 1.0.0*
+
+```

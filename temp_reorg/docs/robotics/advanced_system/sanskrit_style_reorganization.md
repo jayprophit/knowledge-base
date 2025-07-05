@@ -39,7 +39,7 @@ import tensorflow as tf
 import shap
 # Commentary:
 # This section imports essential libraries required for machine learning,
-# natural language processing, computer vision, and real-time data streaming.
+# natural language processing, computer vision, and real-time data streaming.:
 ```
 
 ---
@@ -425,7 +425,7 @@ May this system continue to evol# NOTE: The following code had syntax errors and
         self.state = "Idle"
         print("Quantum Drive disengaged.")
 # Commentary: Instantaneous travel and data transfer via quantum principles."m principles.
-```
+```python
 
 ---
 
@@ -435,3 +435,5 @@ May this system continue to evol# NOTE: The following code had syntax errors and
 - [Topological Quantum Computing](https://en.wikipedia.org/wiki/Topological_quantum_computer)
 - [Hermetic Principles](https://en.wikipedia.org/wiki/Hermeticism)
 - [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
+
+```

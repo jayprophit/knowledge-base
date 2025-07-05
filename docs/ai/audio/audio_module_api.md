@@ -35,7 +35,7 @@ def __init__(self,
 
 #### process_audio
 ```text
-def process_audio(self, audio_file: str, extract_all: bool = False) -> Dict[str, Any]
+def process_audio(self, audio_file: str, extract_all: bool = False) -> Dict[str, Any]:
 ```text
 
 **Parameters**:
@@ -169,8 +169,7 @@ class VoiceCharacteristics:
     gender: Optional[str] = None
     age_group: Optional[str] = None
     emotion: Optional[str] = None
-```
-
+```python
 ### MusicFeatures
 ```python
 @dataclass
@@ -195,8 +194,7 @@ class MusicFeatures:
     instrumentalness: Optional[float] = None
     liveness: Optional[float] = None
     speechiness: Optional[float] = None
-```
-
+```python
 ### SoundClassificationResult
 ```python
 @datacl@dataclass

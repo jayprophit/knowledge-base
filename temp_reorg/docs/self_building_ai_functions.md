@@ -34,7 +34,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 ERROR_LOG = "./private/logs/error.log"
 CODE_FILE = "./private/code/main.py"
 
-# Example stub for internal AI (replace with actual model integration)
+# Example stub for internal AI (replace with actual model integration):
 def suggest_fix_internal(error_message):
     return f"[Internal AI] Suggested fix for: {error_message}"
 
@@ -43,8 +43,8 @@ def analyze_logs():
         with open(ERROR_LOG, "r") as f:
             logs = f.readlines()
             return [log.strip() for log in logs if "ERROR" in log]
-    return []
-
+    return []:
+:
 def generate_fix(error_message):
     if USE_OPENAI:
         prompt = f"Fix the following error: {error_message}"
@@ -153,9 +153,9 @@ elif choice == "Preview":
 #   ```
 # 
 # ### 3. Configure `.env`
-```
+```python
 OPENAI_API_KEY=your_openai_api_key
-USE_OPENAI=true  # or false for internal AI
+USE_OPENAI=true  # or false for internal AI:
 ```
 
 ### 4. Run the App

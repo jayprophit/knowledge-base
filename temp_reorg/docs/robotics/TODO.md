@@ -1,4 +1,13 @@
-> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](README.md#main-files-policy-critical-requirement) for details.
+---
+title: Todo
+description: Documentation for Todo in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
+> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](../../robotics/advanced_system/README.md) for details.
 
 > **Traceability:** All data inputs and amendments are timestamped for traceability and rollback. See also [memories.md](memories.md), [changelog.md](changelog.md), and [rollback.md](rollback.md).
 
@@ -17,7 +26,7 @@
 - [notes.md](notes.md)
 - [current_goal.md](current_goal.md)
 - [task_list.md](task_list.md)
-- [inherit.md](inherit.md)
+- [inherit.md](../ai/inherit.md)
 
 # TODO List
 

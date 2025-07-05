@@ -90,7 +90,7 @@ This document outlines the conceptual framework, hardware, software, safety, and
 ## Cross-links
 - [Advanced System Architecture](./architecture.md)
 - [AI/AGI Framework](../../ai_system_enhancements.md)
-- [Ethics & Social Impact](temp_reorg/docs/ai/multidisciplinary/philosophy.md)
+- [Ethics & Social Impact](../../../temp_reorg/docs/src/multidisciplinary_ai/philosophy.md)
 - [Energy Management](./energy/README.md)
 - [Hardware](./hardware/README.md)
 - [Security](./security/README.md)

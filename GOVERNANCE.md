@@ -1,3 +1,12 @@
+---
+title: Governance
+description: Documentation for Governance in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Project Governance
 
 This document outlines the governance model for the Knowledge Base project.

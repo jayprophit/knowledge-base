@@ -43,7 +43,7 @@ class MultidisciplinaryAI:
                 **input_data.get('cosmology', {}).get('simulation', {})
             ) if input_data.get('cosmology') else None
         }
-
+:
 # Example usage:
 ai = MultidisciplinaryAI()
 results = ai.process_input({

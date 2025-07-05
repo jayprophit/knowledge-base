@@ -1,3 +1,12 @@
+---
+title: Governance
+description: Documentation for Governance in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Project Governance
 
 This document outlines the governance model for the Knowledge Base project.
@@ -45,7 +54,7 @@ Contributors are community members who contribute to the project by:
 
 1. Make your first contribution (bug fix, feature, documentation, etc.)
 2. Follow the [Code of Conduct](CODE_OF_CONDUCT.md)
-3. Follow the [Contribution Guidelines](CONTRIBUTING.md)
+3. Follow the [Contribution Guidelines](../robotics/CONTRIBUTING.md)
 
 ## Becoming a Maintainer
 

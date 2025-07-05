@@ -2,7 +2,9 @@
 author: Knowledge Base Team
 created_at: 2025-07-04
 updated_at: 2025-07-04
-version: 1.0
+version: 1.0.0
+title: Related Resources for Emotional Intelligence
+description: Related resources and reference materials for Emotional Intelligence.
 ---
 
 ---

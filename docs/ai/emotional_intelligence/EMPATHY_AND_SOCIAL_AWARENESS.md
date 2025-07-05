@@ -160,7 +160,7 @@ class EmotionRecognizer:
         }
     
     def recognize_emotion(self, inputs):
-        """
+        """"
         Recognize emotion from multimodal inputs.
         
         Args:
@@ -168,7 +168,7 @@ class EmotionRecognizer:
             
         Returns:
             Dict containing combined emotion analysis
-        """
+        """"
         results = {}
         confidences = {}
         
@@ -186,8 +186,8 @@ class EmotionRecognizer:
         total_weight = sum(
             w * (1 if m in confidences else 0) 
             for m, w in self.fusion_weights.items()
-        )
-        
+        ):
+        :
         if total_weight == 0:
             return self._get_default_emotion()
         
@@ -278,7 +278,7 @@ class TheoryOfMind:
             'confidence': 0.7  # Base confidence
         }
         
-        # Consider personality traits if available
+        # Consider personality traits if available:
         if 'personality' in model:
             prediction['confidence'] *= (1 + model['personality'].get('consistency', 0))
         
@@ -291,17 +291,17 @@ class TheoryOfMind:
         return prediction
     
     def _update_beliefs(self, model, observation):
-        """Update the agent's beliefs based on new observations."""
+        """Update the agent's beliefs based on new observations."""'
         # Implementation depends on observation type
         pass
     
     def _infer_desires(self, model, observation):
-        """Infer the agent's desires based on behavior and context."""
+        """Infer the agent's desires based on behavior and context."""'
         # Implementation depends on observation type
         pass
     
     def _infer_intentions(self, model, observation):
-        """Infer the agent's intentions based on behavior and context."""
+        """Infer the agent's intentions based on behavior and context."""'
         # Implementation depends on observation type
         pass
     
@@ -314,7 +314,7 @@ class TheoryOfMind:
         
         # Adjust based on observation quality
         observation_quality = observation.get('confidence', 0.8)
-        model['uncertainty'] = (1 - observation_quality) * time_decay
+        model['uncertainty'] = (1 - observation_quality) * time_decay:
 ```
 
 ### 3. Empathic Response Generator
@@ -328,7 +328,7 @@ class EmpathicResponseGenerator:
         
     def generate_response(self, user_input, context):
         """Generate an empathic response to user input."""
-        # Analyze user's emotional state
+        # Analyze user's emotional state'
         emotion_analysis = self.emotion_recognizer.recognize_emotion({
             'text': user_input.get('text'),
             'audio': user_input.get('audio'),
@@ -399,7 +399,7 @@ class EmpathicResponseGenerator:
         emotion_label = emotion_analysis.get('primary_emotion', {}).get('label', 'neutral')
         templates = self.templates[response_type].get(emotion_label, [])
         return random.choice(templates) if templates else "I understand how you feel."
-    
+    :
     def _fill_template(self, template, **kwargs):
         """Fill in template variables with appropriate values."""
         return template.format(**kwargs)
@@ -439,7 +439,7 @@ recognizer = EmotionRecognizer(
 
 # Analyze user input
 emotion = recognizer.recognize_emotion({
-    'text': "I'm really excited about this project!",
+    'text': "I'm really excited about this project!",'
     'audio': audio_data,  # Raw audio data
     'visual': frame_data,  # Image/frame data
     'context': {
@@ -490,8 +490,8 @@ generator = EmpathicResponseGenerator(
     theory_of_mind=tom,
     response_templates={
         'affective': {
-            'joy': ["That's wonderful! I'm so happy for you!", "What great news!"],
-            'sadness': ["I'm really sorry to hear that.", "That sounds really difficult."]
+            'joy': ["That's wonderful! I'm so happy for you!", "What great news!"],:
+            'sadness': ["I'm really sorry to hear that.", "That sounds really difficult."]'
         },
         'cognitive': {
             'default': ["I understand how that situation could make you feel that way."]
@@ -505,7 +505,7 @@ generator = EmpathicResponseGenerator(
 # Generate response
 response = generator.generate_response(
     user_input={
-        'text': "I'm really stressed about this deadline.",
+        'text': "I'm really stressed about this deadline.",'
         'audio': audio_data
     },
     context={

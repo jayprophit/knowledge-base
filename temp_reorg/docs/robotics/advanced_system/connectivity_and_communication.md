@@ -117,7 +117,7 @@ class CommunicationManager:
         MORSE_CODE_DICT = {'A': '.-', 'B': '-...', 'C': '-.-.', ...}
         return ' '.join(MORSE_CODE_DICT.get(c.upper(), '') for c in text)
 
-    # Add additional methods for satellite, SDR, VOIP, subsonic, etc."'"'
+    # Add additional methods for satellite, SDR, VOIP, subsonic, etc."'"':
 ```
 
 ### Morse Code Python Example

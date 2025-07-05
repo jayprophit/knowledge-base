@@ -7,16 +7,16 @@ created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - ip_address
-  - networking
-  - system_design
+- ip_address
+- networking
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - dns.md
-    - proxy.md
-    - http.md
+  - dns.md
+  - proxy.md
+  - http.md
 ---
 
 # IP Address Fundamentals

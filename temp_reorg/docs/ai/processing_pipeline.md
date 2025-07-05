@@ -1,3 +1,12 @@
+---
+title: Processing Pipeline
+description: Documentation for Processing Pipeline in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Anthropic Processing Pipeline
 
 ## Overview
@@ -48,21 +57,21 @@ This document outlines the Anthropic-style pipeline for processing and maintaini
 
 ### Knowledge Document Workflow
 
-```
+```python
 Raw Source → Constitutional Filter → Draft Generation → Technical Review → 
 Content Review → Integration → Red Team Testing → Optimization → Publication
 ```
 
 ### Update Workflow
 
-```
+```python
 Change Detection → Impact Assessment → Update Drafting → Expedited Review → 
 Validation → Changelog Entry → Deployment
 ```
 
 ### Retirement Workflow
 
-```
+```python
 Obsolescence Detection → Replacement Planning → Migration Path Creation → 
 Content Deprecation → User Notification → Archival
 ```
@@ -102,7 +111,7 @@ def prepare_document_for_mcp(document):
     document.content = enhance_with_semantic_markup(document.content)
     
     # Validate constitutional alignment
-    alignment_issues = check_constitutional_alignment(document)
+    alignment_issues = check_constitutional_alignment(document):
     if alignment_issues:
         document = resolve_alignment_issues(document, alignment_issues)
     
@@ -112,7 +121,7 @@ def prepare_document_for_mcp(document):
     # Add relationship graph
     document.relationships = map_knowledge_relationships(document)
     
-    return document
+    return document:
 ```
 
 ### Example: Red Team Testing Process
@@ -134,13 +143,13 @@ def red_team_document(document):
     issues.extend(consistency_issues)
     
     # Generate report and recommended fixes
-    return create_red_team_report(document, issues)
+    return create_red_team_report(document, issues):
 ```
 
 ## Integration with Knowledge Base
 
 ### Folder Structure
-```
+```python
 /anthropic/
   /pipeline/                # Processing pipeline documentation
   /principles/              # Constitutional principles documentation
@@ -150,11 +159,11 @@ def red_team_document(document):
 ```
 
 ### Connection Points
-- Links to the [Content Lifecycle](../meta/content_lifecycle.md) process
-- Integration with [Review Process](../process/review_process.md)
-- Extension of [Tagging System](../meta/tagging_system.md) with Anthropic tags
+- Links to the [Content Lifecycle](content_lifecycle.md) process
+- Integration with [Review Process](review_process.md)
+- Extension of [Tagging System](tagging_system.md) with Anthropic tags
 
 ## References
-- [Content Lifecycle](../meta/content_lifecycle.md) - Document lifecycle stages
-- [Review Process](../process/review_process.md) - Standard review procedures
-- [Tagging System](../meta/tagging_system.md) - Metadata tagging framework
+- [Content Lifecycle](content_lifecycle.md) - Document lifecycle stages
+- [Review Process](review_process.md) - Standard review procedures
+- [Tagging System](tagging_system.md) - Metadata tagging framework

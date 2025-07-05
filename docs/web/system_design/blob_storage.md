@@ -1,23 +1,24 @@
 ---
 id: web-system-design-blob-storage
 title: Blob Storage in System Design
-description: Comprehensive documentation on blob storage concepts, use cases, implementation, and best practices
+description: Comprehensive documentation on blob storage concepts, use cases, implementation,
+  and best practices
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - blob_storage
-  - system_design
-  - storage
-  - scalability
+- blob_storage
+- system_design
+- storage
+- scalability
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../databases/database_overview.md
-    - ../performance/denormalization.md
-    - ../security/security.md
+  - ../databases/database_overview.md
+  - ../performance/denormalization.md
+  - ../security/security.md
 ---
 
 # Blob Storage in System Design
@@ -68,7 +69,7 @@ with open('myfile.txt', 'rb') as data:
 
 ## Related Topics
 - [Database Systems](../databases/database_overview.md)
-- [Security](temp_reorg/docs/web/security/security.md)
+- [Security](../../../temp_reorg/docs/web/security/security.md)
 
 ## References
 - [AWS S3 Documentation](https://docs.aws.amazon.com/s3/index.html)

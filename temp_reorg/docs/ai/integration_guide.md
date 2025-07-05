@@ -1,3 +1,12 @@
+---
+title: Integration Guide
+description: Documentation for Integration Guide in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # MCP Integration Guide
 
 ## Overview
@@ -8,7 +17,7 @@ This document provides comprehensive guidance on how the knowledge base is struc
 ### Directory Organization
 The knowledge base is organized to support efficient machine access:
 
-```
+```python
 /mcp/
   /schemas/             # JSON schemas for knowledge structures
   /api/                 # API documentation and examples
@@ -21,16 +30,16 @@ The knowledge base is organized to support efficient machine access:
 /docs/
   /workflow/            # Standard ML workflow documentation
   /models/              # Model-specific documentation
-  /concepts/            # Conceptual explanations
+  /concepts/            # Conceptual explanations:
 ```
 
 ### Machine-Readable Files
 Each content directory contains machine-optimized versions:
 
-```
+```python
 example_document.md             # Human-optimized version
 example_document.json           # Machine-optimized version
-example_document.metadata.json  # Extended metadata for AI systems
+example_document.metadata.json  # Extended metadata for AI systems:
 ```
 
 ## Data Format Standards
@@ -166,7 +175,7 @@ from langchain.embeddings import OpenAIEmbeddings
 
 def create_embeddings(document_path, document_id):
     """Create embeddings for a document."""
-    # Load document
+    # Load document:
     with open(document_path, 'r') as f:
         text = f.read()
     
@@ -192,7 +201,7 @@ def create_embeddings(document_path, document_id):
     # Save embeddings
     vectorstore.save_local(f"embeddings/{document_id}")
     
-    return len(chunks)
+    return len(chunks):
 ```
 
 ## MCP-Specific Optimizations
@@ -238,7 +247,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(128, activation='relu'),
     tf.keras.layers.Dense(10, activation='softmax')
 ])
-```
+```python
 :::
 ```
 
@@ -284,6 +293,6 @@ python scripts/validate_knowledge_retrieval.py --queries test_queries.json
 ```
 
 ## References
-- [Anthropic Processing Pipeline](../anthropic/processing_pipeline.md) - Related processing methodology
-- [Vector Database Setup](../scripts/vector_db_setup.md) - Vector database configuration
-- [Knowledge API Documentation](api/knowledge_api.md) - Complete API reference
+- [Anthropic Processing Pipeline](processing_pipeline.md) - Related processing methodology
+- [Vector Database Setup](../../../scripts/vector_db_setup.md) - Vector database configuration
+- [Knowledge API Documentation](../../../mcp/api/knowledge_api.md) - Complete API reference

@@ -1,25 +1,28 @@
 ---
 id: web-apis-rest
 title: REST API Design and Implementation
-description: Comprehensive documentation on REST API principles, design best practices, and implementation examples
+description: Comprehensive documentation on REST API principles, design best practices,
+  and implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - rest_api
-  - api_design
-  - web_services
-  - http
-  - system_design
+- rest_api
+- api_design
+- web_services
+- http
+- system_design
 relationships:
   prerequisites: []
-  successors: [graphql.md, api_gateway.md]
+  successors:
+  - graphql.md
+  - api_gateway.md
   related:
-    - ../networking/http.md
-    - graphql.md
-    - api_gateway.md
-    - ../security/authentication.md
+  - ../networking/http.md
+  - graphql.md
+  - api_gateway.md
+  - ../security/authentication.md
 ---
 
 # REST APIs
@@ -85,7 +88,7 @@ A client cannot ordinarily tell whether it is connected directly to the end serv
 - Token-based (JWT, OAuth2)
 - API keys
 - HTTP Basic Auth
-- See [../security/authentication.md](temp_reorg/docs/web/security/authentication.md)
+- See [../security/authentication.md](../../../temp_reorg/docs/web/security/authentication.md)
 
 ## Error Handling
 Return structured error objects:
@@ -166,8 +169,8 @@ app.listen(3000);
 
 ## Related Topics
 - [GraphQL](graphql.md)
-- [API Gateways](temp_reorg/docs/web/system_design/api_gateway.md)
-- [Authentication](temp_reorg/docs/web/security/authentication.md)
+- [API Gateways](../../../temp_reorg/docs/web/system_design/api_gateway.md)
+- [Authentication](../../../temp_reorg/docs/web/security/authentication.md)
 - [HTTP](../networking/http.md)
 - [Rate Limiting](../system_design/rate_limiting.md)
 

@@ -71,11 +71,11 @@ class DataProcessor(threading.Thread):
         self.result = f"Processed {self.data_source}"
 
 # Create and start threads
-threads = [DataProcessor(f"Source-{i}") for i in range(3)]
+threads = [DataProcessor(f"Source-{i}") for i in range(3)]:
 for t in threads:
     t.start()
 
-# Wait for all threads to complete
+# Wait for all threads to complete:
 for t in threads:
     t.join()
     print(t.result)
@@ -104,7 +104,7 @@ def main():
         processes.append(p)
         p.start()
     
-    # Wait for all processes to complete
+    # Wait for all processes to complete:
     for p in processes:
         p.join()
     
@@ -151,7 +151,7 @@ with ThreadPoolExecutor(max_workers=3) as executor:
     # Submit tasks
     futures = [executor.submit(process_item, i) for i in range(5)]
     
-    # Process results as they complete
+    # Process results as they complete:
     for future in futures:
         print(future.result())
 ```

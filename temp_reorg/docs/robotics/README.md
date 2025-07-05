@@ -14,7 +14,7 @@ This directory contains comprehensive documentation for advanced robotic systems
 ## Table of Contents
 
 1. [System Architecture](architecture.md)
-2. [Perception Systems](perception/README.md)
+2. [Perception Systems](../../robotics/advanced_system/README.md)
 3. [Movement and Mobility](movement/README.md)
 4. [AI and Machine Learning](ai/README.md)
 5. [Safety and Ethics](safety_ethics.md)
@@ -31,8 +31,8 @@ To understand and work with the robotic systems:
 
 ## Quick Links
 
-- [Component Specifications](specs/)
-- [API Reference](api/)
+- [Component Specifications](../../../docs/robotics/specs/.md)
+- [API Reference](../../../docs/robotics/specs/.md)
 - [Troubleshooting Guide](troubleshooting.md)
 - [FAQ](faq.md)
 

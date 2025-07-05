@@ -247,7 +247,7 @@ docker exec -it <container_id> /bin/bash
   "postCreateCommand": "npm install",
   "remoteUser": "node"
 }
-```
+```python
 
 ### GitHub Codespaces
 
@@ -264,7 +264,7 @@ docker exec -it <container_id> /bin/bash
 # # Push the manifest list
 # docker manifest push username/myapp:latestuilder --use
 
-# Build for multiple architectures
+# Build for multiple architectures:
 docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t username/myapp:latest --push .
 
 # Inspect the manifest

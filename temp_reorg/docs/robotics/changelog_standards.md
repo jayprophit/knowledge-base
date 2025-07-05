@@ -1,3 +1,12 @@
+---
+title: Changelog Standards
+description: Documentation for Changelog Standards in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Changelog Standards
 
 ## Overview
@@ -178,7 +187,7 @@ Some changes require manual changelog entries:
 - Ensure proper heading structure for automated TOC generation
 
 ## Related Documents
-- [Content Lifecycle](content_lifecycle.md)
-- [Review Process](../process/review_process.md)
-- [Rollback Procedures](../rollback.md)
-- [Update Scripts Documentation](../automation/update_scripts.md)
+- [Content Lifecycle](../ai/content_lifecycle.md)
+- [Review Process](../ai/review_process.md)
+- [Rollback Procedures](rollback.md)
+- [Update Scripts Documentation](../ai/update_scripts.md)

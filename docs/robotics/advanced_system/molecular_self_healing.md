@@ -31,7 +31,7 @@ class MolecularSelfHealing:
     def __init__(self):
         self.nanobot_units = 1000
     def detect_damage(self, system_status):
-        return [component for component, status in system_status.items() if status == "damaged"]
+        return [component for component, status in system_status.items() if status == "damaged"]:
     def repair(self, damaged_components):
         for component in damaged_components:
             self.deploy_nanobots(component)
@@ -40,7 +40,7 @@ class MolecularSelfHealing:
             self.nanobot_units -= 10
             print(f"Repairing {component} using nanobots.")
         else:
-            print("Insufficient nanobot units for repair.")
+            print("Insufficient nanobot units for repair."):
 # Commentary: Enables autonomous detection and repair.
 ```
 

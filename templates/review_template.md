@@ -1,14 +1,18 @@
 ---
-title: "Content Review Form"
-description: "Stub documentation for Content Review Form"
-type: "documentation"
-category: "Templates"
+title: Content Review Form
+description: Stub documentation for Content Review Form
+type: documentation
+category: Templates
 related_resources:
-  - name: "Related Resource 1"
-    url: "#"
+- name: Related Resource 1
+  url: '#'
 tags:
-  - documentation
-  - stub
+- documentation
+- stub
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
 ---
 
 # Content Review Form

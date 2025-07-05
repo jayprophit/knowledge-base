@@ -30,7 +30,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 - **Code Example:**
 ```python
 # Example using Flower (flwr) for federated learning
-import flwr as fl
+import flwr as fl:
 class MyClient(fl.client.NumPyClient):
     def get_parameters(self): ...
     def fit(self, parameters, config): ...
@@ -66,7 +66,7 @@ print(result)
 ### Data Quality Assessment
 - Algorithms to assess credibility and relevance before integration.
 - **Benefit:** Maintains integrity and accuracy.
-- **Reference:** [validate_docs.py](../../scripts/validate_docs.py)
+- **Reference:** [validate_docs.py](../../../scripts/validate_docs.py)
 
 ## 4. Emotional and Social Intelligence
 
@@ -128,7 +128,7 @@ print(result)
 ### Open Source Collaboration
 - Open parts of the system for community contributions.
 - **Benefit:** Encourages innovation and improvement.
-- **Reference:** [Contribution Guide](../../process/contribution_guide.md)
+- **Reference:** [Contribution Guide](contribution_guide.md)
 
 ### Educational Outreach
 - Create learning modules for educational institutions.
@@ -139,7 +139,7 @@ print(result)
 ### Regular Performance Reviews
 - Assess performance against metrics and feedback.
 - **Benefit:** Ensures adaptability and advancement.
-- **Reference:** [validate_docs.py](../../scripts/validate_docs.py)
+- **Reference:** [validate_docs.py](../../../scripts/validate_docs.py)
 
 ### Agile Development Practices
 - Use agile methods for rapid iteration and improvement.
@@ -151,6 +151,6 @@ print(result)
 - [Advanced Engineering AI Improvements](../advanced_modules/advanced_engineering_ai_improvements.md)
 - [Fields of Education](./multidisciplinary/fields_of_education.md)
 - [Emotional Intelligence Improvements](./emotional_intelligence/ADVANCED_IMPROVEMENTS.md)
-- [Contribution Guide](../../process/contribution_guide.md)
+- [Contribution Guide](contribution_guide.md)
 
 **Back to [AI Knowledge Base](../README.md)**

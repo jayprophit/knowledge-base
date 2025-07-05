@@ -67,7 +67,7 @@ See [Connectivity and Communication](./connectivity_and_communication.md) for a 
 - [MLOps](../../mlops/README.md)
 - [AIOps](../../aiops/README.md)
 - [Dockerfile](../../../Dockerfile)
-- [DevContainer](../../../.devcontainer/devcontainer.json)
+- [DevContainer](../../../devcontainer.json)
 - [.env Example](../../../.env)
 - [Self-Powering and Regeneration](./self_powering_and_regeneration.md)
 - [Theoretical and Speculative Abilities](./theoretical_abilities.md)
@@ -77,19 +77,19 @@ See [Connectivity and Communication](./connectivity_and_communication.md) for a 
 - [Software Architecture](software/README.md) - Software stack and architecture
 - [User Interface](ui_ux/README.md) - UI/UX design and implementation
 - [Energy Management](energy/README.md) - Power systems and optimization
-- [Networking & Security](networking/README.md) - Communication and security protocols
+- [Networking & Security](../../../robotics/advanced_system/README.md) - Communication and security protocols
 - [Navigation & Localization](navigation/README.md) - Movement and positioning systems
-- [AI & Machine Learning](ai/README.md) - AI/ML components and integration
-- [Safety & Ethics](safety_ethics/README.md) - Safety protocols and ethical considerations
-- [Deployment & Maintenance](deployment/README.md) - Deployment strategies and maintenance procedures
+- [AI & Machine Learning](../../../robotics/advanced_system/README.md) - AI/ML components and integration
+- [Safety & Ethics](../../../robotics/advanced_system/README.md) - Safety protocols and ethical considerations
+- [Deployment & Maintenance](../../../robotics/advanced_system/README.md) - Deployment strategies and maintenance procedures
 
 ## Quick Start
 
 1. Review the [system architecture](architecture.md) for an overview
 2. Check [hardware requirements](hardware/README.md) for setup
-3. Follow the [deployment guide](deployment/README.md) for installation
-4. Refer to [troubleshooting](TROUBLESHOOTING.md) for common issues
+3. Follow the [deployment guide](../../../robotics/advanced_system/README.md) for installation
+4. Refer to [troubleshooting](../troubleshooting.md) for common issues
 
 ## Contributing
 
-Please see the main [CONTRIBUTING.md](../../../CONTRIBUTING.md) for guidelines on contributing to this project.
+Please see the main [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines on contributing to this project.

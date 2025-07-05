@@ -13,7 +13,7 @@ This guide explains how to integrate various AI components (vision, audio, langu
 
 ## 1. System Architecture
 
-```
+```python
 # NOTE: The following code had issues and was commented out
 # ┌─────────────────────────────────────────────────┐
 # │             Multimodal AI System               │
@@ -60,7 +60,7 @@ class MultimodalAI:
             vision_results = self.vision.detect_objects(image_path)
             results['vision'] = vision_results
             
-            # Check for security anomalies
+            # Check for security anomalies:
             if self.security.detect_anomalies(vision_results):
                 results['security_warnings'] = ["Potential anomaly detected in visual input"]
         
@@ -69,7 +69,7 @@ class MultimodalAI:
             transcript = self.audio.transcribe(audio_path)
             results['transcript'] = transcript
             
-            # Translate if needed
+            # Translate if needed:
             if self.translator.detect_language(transcript) != 'en':
                 results['translation'] = self.translator.translate(transcript, target_lang='en')
         
@@ -83,7 +83,7 @@ class MultimodalAI:
             results['detected_language'] = self.translator.detect_language(text)
         
         return results
-    
+    :
     def generate_response(self, processed_data):
         """Generate appropriate response based on processed data"""
         response = {
@@ -104,7 +104,7 @@ class MultimodalAI:
             transcript = processed_data['transcript']
             response['text'] += f"\n\nYou said: {transcript}"
             
-            # Add sentiment analysis if available
+            # Add sentiment analysis if available:
             if 'sentiment' in processed_data:
                 sentiment = processed_data['sentiment']
                 response['text'] += f"\nYou sound {sentiment['label'].lower()} (confidence: {sentiment['score']:.2f})"
@@ -195,12 +195,12 @@ class BatchProcessor:
 ### Synchronized Audio-Visual Recognition
 - Use the [MultiModalRecognitionSystem](../../../src/multimodal/recognition_api.py) to process video files with both audio and visual streams.
 - Example: Run `process_video()` to extract and analyze both modalities, then combine results for context-aware scene understanding.
-- See [Unified Multi-Modal Recognition Guide](../../machine_learning/multimodal/unified_recognition_guide.md#usage-examples) for code and workflow.
+- See [Unified Multi-Modal Recognition Guide](../../../temp_reorg/docs/machine_learning/multimodal/unified_recognition_guide.md) for code and workflow.
 
 ### Batch and Real-Time Processing
-- For batch processing, see the `BatchProcessor` example in this guide and the [Vision Module README](../../../src/vision/README.md#batch-processing).
+- For batch processing, see the `BatchProcessor` example in this guide and the [Vision Module README](../../../temp_reorg/robotics/advanced_system/README.md).
 - Real-time: Use `process_live_feed()` in the multimodal API for synchronized camera and microphone analysis.
-- For high-throughput systems, combine frame interval tuning and GPU acceleration (see [Performance Tips](../../../src/vision/README.md#performance-tips)).
+- For high-throughput systems, combine frame interval tuning and GPU acceleration (see [Performance Tips](../../../temp_reorg/robotics/advanced_system/README.md)).
 
 ### Security and Ethics Integration
 - Integrate security checks (e.g., anomaly detection) at both vision and multimodal levels.
@@ -211,8 +211,8 @@ class BatchProcessor:
 
 ## 5B. Troubleshooting and Deployment Best Practices (Enhanced)
 
-- For troubleshooting multimodal deployments, see the [Troubleshooting](../../machine_learning/multimodal/unified_recognition_guide.md#troubleshooting) section of the unified guide.
-- For model, dependency, and CUDA issues, see "Model Loading Issues" and "Performance Problems" in the [Vision Module README](../../../src/vision/README.md#troubleshooting).
+- For troubleshooting multimodal deployments, see the [Troubleshooting](../../../temp_reorg/docs/machine_learning/multimodal/unified_recognition_guide.md) section of the unified guide.
+- For model, dependency, and CUDA issues, see "Model Loading Issues" and "Performance Problems" in the [Vision Module README](../../../temp_reorg/robotics/advanced_system/README.md).
 - For large-scale or production deployments:
   - Use containerization (see Dockerfile example in this guide)
   - Implement health checks, logging, and monitoring endpoints

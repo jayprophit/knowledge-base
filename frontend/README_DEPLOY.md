@@ -1,3 +1,12 @@
+---
+title: Readme Deploy
+description: Documentation for Readme Deploy in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base Assistant Web Deployment
 
 This project is a cross-platform AI assistant web app built with React. It supports chat, code generation, and multimodal features.

@@ -95,16 +95,16 @@ This guide walks you through setting up, developing, and deploying the Quantum A
 ---
 
 ## Cross-links
-- [Main README](../README.md)
+- [Main README](../robotics/advanced_system/README.md)
 - [Quantum AI System README](../quantum_ai_system/README.md)
 - [Backend README](../backend/README.md)
 - [Frontend README](../frontend/README.md)
 - [Infrastructure README](../infrastructure/README.md)
-- [Unified AI System README](../unified-ai-system/README.md)
+- [Unified AI System README](../robotics/advanced_system/README.md)
 
 ---
 
-For troubleshooting, see [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) and [SUPPORT.md](../SUPPORT.md).
+For troubleshooting, see [TROUBLESHOOTING.md](robotics/troubleshooting.md) and [SUPPORT.md](ai/SUPPORT.md).
 
 For advanced deployment, see [docs/deployment.md](deployment.md).
 

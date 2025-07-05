@@ -46,8 +46,8 @@ class GlobalWorkspace:
         """Update the global workspace with new inputs."""
         self.current_time += dt
         
-        # Calculate salience for each module's input
-        saliences = {}
+        # Calculate salience for each module's input'
+        saliences = {}:
         for module, data in module_inputs.items():
             weight = self.module_weights.get(module, 0.1)
             # Simple salience calculation: weighted sum of absolute values
@@ -67,8 +67,8 @@ class GlobalWorkspace:
             c for c in self.contents 
             if (self.current_time - c.timestamp) < c.duration
         ]
-        
-        # Limit to capacity
+        :
+        # Limit to capacity:
         if len(self.contents) > self.capacity:
             # Remove least salient content
             self.contents.sort(key=lambda x: np.mean(list(x.salience.values())))
@@ -92,7 +92,7 @@ class GlobalWorkspace:
         if total > 0:
             combined = {k: v/total for k, v in combined.items()}
         
-        return combined
+        return combined:
 ```
 
 ### 1.2 Self-Model and Metacognition
@@ -141,7 +141,7 @@ class SelfModel:
         
         return confidence / total_weight if total_weight > 0 else 0.5
 
-
+:
 class MetacognitiveMonitor:
     """Monitors and evaluates cognitive processes."""
     
@@ -159,7 +159,7 @@ class MetacognitiveMonitor:
             (decision['confidence'], was_correct)
         )
         self._trim_data('decision_accuracy')
-    
+    :
     def get_decision_accuracy(self) -> float:
         """Calculate recent decision accuracy."""
         if not self.monitoring_data['decision_accuracy']:
@@ -167,8 +167,8 @@ class MetacognitiveMonitor:
         
         correct = sum(1 for _, correct in self.monitoring_data['decision_accuracy'] if correct)
         total = len(self.monitoring_data['decision_accuracy'])
-        return correct / total
-    
+        return correct / total:
+    :
     def _trim_data(self, key: str):
         """Keep only the most recent monitoring data."""
         if len(self.monitoring_data[key]) > self.monitoring_window:
@@ -234,10 +234,10 @@ class WorkingMemory:
     def _get_current_state(self) -> dict:
         """Get current state of working memory."""
         return {
-            'phonological': [item['content'] for item in self.phonological_loop],
-            'visuospatial': [item['content'] for item in self.visuospatial_sketchpad],
+            'phonological': [item['content'] for item in self.phonological_loop],:
+            'visuospatial': [item['content'] for item in self.visuospatial_sketchpad],:
             'episodic': [item['content'] for item in self.episodic_buffer]
-        }
+        }:
 ```
 
 ### 2.2 Long-Term Memory
@@ -327,7 +327,7 @@ class LongTermMemory:
     
     def _get_concept_id(self, concept: str) -> str:
         """Generate a unique ID for a concept."""
-        return hashlib.md5(concept.lower().encode()).hexdigest()
+        return hashlib.md5(concept.lower().encode()).hexdigest():
 ```
 
 ## 3. Decision Making
@@ -360,7 +360,7 @@ class DecisionMaker:
             context = {}
         
         # Calculate utility for each option
-        utilities = []
+        utilities = []:
         for option in options:
             utility = self._calculate_utility(option, context)
             utilities.append((option, utility))
@@ -402,8 +402,8 @@ class DecisionMaker:
         # Count matching terms
         matches = sum(1 for term in goal_terms if term in option_str)
         
-        # Normalize by number of terms
-        return matches / max(1, len(goal_terms))
+        # Normalize by number of terms:
+        return matches / max(1, len(goal_terms)):
 ```
 
 ## 4. Integration Example

@@ -1,3 +1,12 @@
+---
+title: Cosmology Documentation
+description: Documentation and guides for the Cosmology module.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Cosmology Module
 
 This module provides tools for cosmological calculations and simulations, including distance measures, time evolution, and large-scale structure formation.
@@ -56,7 +65,7 @@ sim_id = "my_simulation"
 cosmo.create_simulation(sim_id, box_size=200.0)
 
 # Run the simulation for 1 Gyr
-result = cosmo.run_simulation(sim_id, time_step=0.01, n_steps=100)
+result = cosmo.run_simulation(sim_id, time_step=0.01, n_steps=100):
 print(f"Simulation complete. Current time: {result['current_time']} Gyr")
 
 # Analyze the cosmic web
@@ -102,7 +111,7 @@ plt.xlabel('Redshift (z)')
 plt.ylabel('Luminosity Distance (Mpc)')
 plt.title('Distance-Redshift Relation')
 plt.grid(True)
-plt.show()
+plt.show():
 ```
 
 ### Visualizing the Cosmic Web
@@ -123,8 +132,8 @@ galaxies = [s for s in cosmo.simulations[sim_id].structures.values()
 positions = np.array([g.position for g in galaxies])
 
 # Plot 3D distribution
-fig = plt.figure(figsize=(10, 8))
-ax = fig.add_subplot(111, projection='3d')
+fig = plt.figure(figsize=(10, 8)):
+ax = fig.add_subplot(111, projection='3d'):
 ax.scatter(positions[:,0], positions[:,1], positions[:,2], s=1, alpha=0.5)
 ax.set_xlabel('X (Mpc)')
 ax.set_ylabel('Y (Mpc)')

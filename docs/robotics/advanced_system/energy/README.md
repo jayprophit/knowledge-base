@@ -153,7 +153,7 @@ class EnergyAwareScheduler:
         self.power_budget = 0  # mW
         
     def add_task(self, task, power_profile):
-        """
+        """"
         Add a task with its power profile
         
         Args:
@@ -164,7 +164,7 @@ class EnergyAwareScheduler:
                 'priority': int,         # 1-10 (10 is highest)
                 'can_defer': bool        # Can task be delayed?
             }
-        """
+        """"
         self.tasks.append({
             'task': task,
             'profile': power_profile,
@@ -178,7 +178,7 @@ class EnergyAwareScheduler:
             
             # Sort tasks by priority and deadline
             ready_tasks = sorted(
-                [t for t in self.tasks if not t.get('running', False)],
+                [t for t in self.tasks if not t.get('running', False)],:
                 key=lambda x: (
                     -x['profile']['priority'],
                     x['submitted'] + x['profile']['deadline']
@@ -403,11 +403,11 @@ class PowerTelemetry:
             self.telemetry['solar_current']
         )
         
-        # Log to file and publish to telemetry
+        # Log to file and publish to telemetry:
         self._log_telemetry()
         telemetry_publisher.publish(self.telemetry)
         
-        return self.telemetry
+        return self.telemetry:
 ```
 
 ## Emergency Procedures

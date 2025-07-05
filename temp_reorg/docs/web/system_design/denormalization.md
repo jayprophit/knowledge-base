@@ -1,21 +1,22 @@
 ---
 id: web-system-design-denormalization
 title: Denormalization in System Design
-description: Documentation on denormalization, its pros and cons, and implementation strategies
+description: Documentation on denormalization, its pros and cons, and implementation
+  strategies
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - denormalization
-  - databases
-  - system_design
+- denormalization
+- databases
+- system_design
 relationships:
   prerequisites: []
   successors: []
   related:
-    - database_overview.md
-    - sharding.md
+  - database_overview.md
+  - sharding.md
 ---
 
 # Denormalization in System Design

@@ -1,8 +1,17 @@
+---
+title: System Design
+description: Documentation for System Design in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base System Design
 
 ## System Design
 
-> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](README.md#main-files-policy-critical-requirement) for details.
+> **Main Files Policy:** This file is one of the main, critical files for the knowledge base. Any change to this file must be reflected in all other main files, both before and after any process. All main files are cross-linked and referenced. See [README.md](temp_reorg/robotics/advanced_system/README.md) for details.
 
 **Main Files:**
 - [README.md](README.md)
@@ -95,7 +104,7 @@ This document outlines the system design and architecture of the knowledge base 
 ## Technical Implementation
 
 ### Repository Structure
-```
+```python
 knowledge-base/
 ├── README.md                 # Project overview and usage guide
 ├── method.md                 # Development methodology and approach
@@ -141,7 +150,7 @@ knowledge-base/
 │   ├── auto_update_all.bat   # Windows batch automation
 │   └── requirements.txt      # Script dependencies
 ├── backups/                  # Backup storage
-└── logs/                     # Log files
+└── logs/                     # Log files:
 ```
 
 ### Technologies

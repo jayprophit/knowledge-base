@@ -1,3 +1,12 @@
+---
+title: Cross Platform Readme
+description: Documentation for Cross Platform Readme in the Knowledge Base.
+author: Knowledge Base Team
+created_at: '2025-07-05'
+updated_at: '2025-07-05'
+version: 1.0.0
+---
+
 # Knowledge Base AI Assistant - Cross-Platform Implementation Guide
 
 This guide provides an overview of the cross-platform implementation of the Knowledge Base AI Assistant, with instructions for deploying and running on each supported platform.

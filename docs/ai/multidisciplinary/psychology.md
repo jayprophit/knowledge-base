@@ -27,7 +27,7 @@ print(result)
 ```
 
 ## References
-- [src/multidisciplinary_ai/psychology.py](temp_reorg/docs/src/multidisciplinary_ai/psychology.py)
+- [src/multidisciplinary_ai/psychology.py](../../../temp_reorg/docs/src/multidisciplinary_ai/psychology.py)
 - [Emotional Intelligence Documentation](../emotional_intelligence/README.md)
 
 ---

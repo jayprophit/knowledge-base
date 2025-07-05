@@ -19,7 +19,7 @@ This document describes the architecture, features, and usage of a novel 3D bloc
 - **Fiat & Crypto Support:** Handles both cryptocurrency and fiat transactions, with smart contracts and off-chain conversion APIs.
 - **Mining, Staking, Minting:** Supports PoW, PoS, and NFT minting.
 - **Plug-and-Play APIs:** REST API and SDKs for integration with any platform.
-- **DeFi Integration:** Supports lending, borrowing, staking, liquidity pools, and on-chain swaps (see [layer2_and_defi.py](../../src/blockchain/layer2_and_defi.py)).
+- **DeFi Integration:** Supports lending, borrowing, staking, liquidity pools, and on-chain swaps (see [layer2_and_defi.py](../../../src/blockchain/layer2_and_defi.py)).
 - **Layer-2 Fast Transactions:** State channels, rollups, and dynamic fee adjustment for cheap, scalable transactions ([layer2_and_defi.md](layer2_and_defi.md)).
 - **Cross-Chain Bridges:** HTLC-based atomic swaps and asset conversion across blockchains.
 - **Referral & Pyramid Schemes:** Smart contracts and referral system for bonuses and multi-level distribution.

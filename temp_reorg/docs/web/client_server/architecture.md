@@ -1,23 +1,24 @@
 ---
 id: web-client-server-architecture
 title: Client-Server Architecture
-description: Documentation on client-server architecture principles, patterns, and implementation examples
+description: Documentation on client-server architecture principles, patterns, and
+  implementation examples
 author: Knowledge Base System
 created_at: 2025-07-02
 updated_at: 2025-07-02
 version: 1.0.0
 tags:
-  - client_server
-  - architecture
-  - system_design
-  - networking
+- client_server
+- architecture
+- system_design
+- networking
 relationships:
   prerequisites: []
   successors: []
   related:
-    - ../system_design/load_balancer.md
-    - ../system_design/proxy.md
-    - ../networking/http.md
+  - ../system_design/load_balancer.md
+  - ../system_design/proxy.md
+  - ../networking/http.md
 ---
 
 # Client-Server Architecture
@@ -38,7 +39,7 @@ Client-server architecture is a distributed application structure that partition
 - **N-Tier:** Multiple layers for scalability and separation of concerns
 
 ## Example: 3-Tier Web Application
-```
+```python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # [Client] <-> [Web Server] <-> [Database Server]

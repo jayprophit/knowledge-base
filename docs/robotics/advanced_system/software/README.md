@@ -329,7 +329,9 @@ class TestPathPlanner(unittest.TestCase):
 ## License
 
 This software is licensed under the Apache License 2.0.
-
----
+:
+---:
 *Last updated: 2025-07-01*
 *Version: 1.0.0*
+
+```

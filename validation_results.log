@@ -1,263 +1,118 @@
 
 === Documentation Validation Results ===
 
-ERROR: Found 256 errors:
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\related_resource.md: 1.0
+ERROR: Found 111 errors:
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\self_building_ai.md, code block 6: invalid decimal literal
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\self_building_ai_functions.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 1: invalid syntax
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\api\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\audio\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\audio\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\audio\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\guides\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\guides\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\guides\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\hardware\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\hardware\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\hardware\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\libraries\related_resource.md: 1.0
-  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
-  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
-  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
-  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\data_acquisition.md
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\manufacturing\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 4: unterminated string literal (detected at line 17)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\advanced_emotional_ai.md, code block 5: unterminated string literal (detected at line 17)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\advanced_emotional_ai.md, code block 7: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\parallel_processing.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\system_improvement_strategies.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\blockchain\token_factory.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\freecad_automation.md, code block 10: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md, code block 2: unterminated string literal (detected at line 45)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md, code block 4: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md, code block 3: unterminated string literal (detected at line 12)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md, code block 5: unterminated string literal (detected at line 11)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md, code block 6: unterminated string literal (detected at line 13)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\experiential_learning_emotional_memory_module.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\experiential_learning_emotional_memory_module.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\non_violence_and_peaceful_resolution_module.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\rife_healing_frequencies_module.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\rife_healing_frequencies_module.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md, code block 6: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\README.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\README.md, code block 2: invalid syntax
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\related_resource.md: 1.0
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 1: unterminated string literal (detected at line 16)
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\performance\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\performance\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\performance\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\security\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\security\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\security\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\contributing\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\contributing\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\contributing\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\references\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\references\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\references\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\related_resource.md: 1.0
-  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
-  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
-  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
-  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\api\.md
-  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
-  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
-  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
-  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\specs\.md
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\advanced_analysis.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\advanced_analysis.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 6: unterminated string literal (detected at line 41)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\databases\database_overview.md, code block 2: invalid syntax. Perhaps you forgot a comma?
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\README.md, code block 2: invalid syntax. Perhaps you forgot a comma?
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 4: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 7: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\13_star_sign_calendar.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\advanced_abilities.md, code block 4: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ai_ml_integration.md, code block 12: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\blockchain_integration.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\blockchain_integration.md, code block 12: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\comprehensive_domain_implementation_and_future_refinements.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\emotional_intelligence.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\energy_management.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\molecular_self_healing.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multi_energy_harvesting.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\quantum_temporal_mapping.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\self_awareness.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\self_healing.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\perception\vision_systems.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\control\README.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\energy\README.md, code block 2: unterminated string literal (detected at line 18)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 1: unterminated string literal (detected at line 13)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 2: unterminated string literal (detected at line 12)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 3: unterminated string literal (detected at line 14)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 4: unterminated string literal (detected at line 10)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 5: unterminated string literal (detected at line 10)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 2: invalid decimal literal
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: unindent does not match any outer indentation level
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 2: expected ':'
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 4: invalid decimal literal
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 1: invalid syntax
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\contributing\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\contributing\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\contributing\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\cross-platform\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\cross-platform\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\examples\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\examples\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\examples\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\native\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\native\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\native\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\performance\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\performance\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\performance\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\references\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\references\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\references\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\security\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\security\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\security\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\ui-ux\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\ui-ux\related_resource.md: 1.0
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 4: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\audio_recognition\audio_recognition_guide.md, code block 3: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: invalid syntax
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\training\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\training\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\training\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\vision_recognition\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\contributing\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\contributing\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\contributing\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\device_management\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\device_management\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\device_management\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\edge_computing\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\edge_computing\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\edge_computing\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\protocols\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\protocols\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\protocols\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\references\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\references\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\references\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\security\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\security\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\security\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\iot\sensors\related_resource.md: 1.0
-  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
-  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
-  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
-  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\.md
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\emotional_intelligence\related_resource.md: 1.0
-  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
-  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
-  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
-  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\examples\multidisciplinary\.md
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: unterminated string literal (detected at line 33)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\evaluate_performance.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\hyperparameter_tuning.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\preprocessing.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\applications\narrow_ai_quantum.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\applications\narrow_ai_quantum.md, code block 3: unterminated string literal (detected at line 20)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_examples.md, code block 9: unterminated string literal (detected at line 4)
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\security\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\security\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\security\related_resource.md: 1.0
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\related_resource.md: 1.0
-  - Missing required field 'author' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
-  - Missing required field 'created_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
-  - Missing required field 'updated_at' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
-  - Missing required field 'version' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\tools\benchmarking\.md
-  - Missing required field 'title' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md
-  - Missing required field 'description' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md
-  - Invalid version format in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\ai\guides\related_resource.md: 1.0
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai_agents.md: ../unified-ai-system/README.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\non_coder_setup.md: ../unified-ai-system/README.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\virtual_assistant_book.md: ../unified-ai-system/README.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/improvements_module.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\improvements_module.md: ../../../src/ai/emotional_intelligence.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\README.md: temp_reorg/docs/ai/guides/performance_tuning.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\README.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\README.md: temp_reorg/docs/robotics/access_control.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\freecad_automation.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\materials_database.md: temp_reorg/docs/manufacturing/3d_printing_export.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\physics_simulation.md: temp_reorg/docs/manufacturing/3d_printing_export.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/openscad_automation.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/3d_model_generation.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/fea_analysis.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/genetic_algorithm_optimization.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/neural_network_predictions.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/gan_design_generation.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/manufacturing/3d_printing_export.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/cnc_machining_export.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/iot/iot_manufacturing.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/advanced_physics.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/multi_material_design.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\README.md: temp_reorg/docs/cad_manufacturing/generative_design.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\knowledge_base_naming_and_identity.md: temp_reorg/docs/robotics/system_design.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\README.md: temp_reorg/docs/deployment/environment.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\README.md: temp_reorg/docs/robotics/troubleshooting.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/safety_ethics.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/integration.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/development.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/development.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/troubleshooting.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\README.md: temp_reorg/docs/robotics/faq.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\rest_api.md: temp_reorg/docs/web/security/authentication.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\rest_api.md: temp_reorg/docs/web/system_design/api_gateway.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\apis\rest_api.md: temp_reorg/docs/web/security/authentication.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\databases\database_overview.md: temp_reorg/docs/web/system_design/denormalization.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\dns.md: temp_reorg/docs/web/system_design/proxy.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\http.md: temp_reorg/docs/web/system_design/proxy.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\networking\ip_address.md: temp_reorg/docs/web/system_design/proxy.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\blob_storage.md: temp_reorg/docs/web/security/security.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cache.md: temp_reorg/docs/web/system_design/denormalization.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cache.md: temp_reorg/docs/web/security/security.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cdn.md: temp_reorg/docs/web/system_design/denormalization.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\cdn.md: temp_reorg/docs/web/security/security.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\rate_limiting.md: temp_reorg/docs/web/security/security.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\advanced_abilities.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\architecture.md: temp_reorg/docs/robotics/development.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\cad_and_manufacturing.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: temp_reorg/docs/iot/sensors.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: temp_reorg/docs/ai/guides/robotics_ai_algorithms.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: temp_reorg/docs/ai/guides/robotics_movement.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\multisensory_robotics.md: docs/ai/audio/README.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md: temp_reorg/docs/robotics/advanced_system/advanced_system.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\self_powering_and_regeneration.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\speculative_abilities.md: temp_reorg/docs/ai/multidisciplinary/philosophy.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\theoretical_abilities.md: temp_reorg/docs/robotics/ai_system_enhancements.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: temp_reorg/docs/robotics/advanced_system/human_robot_interaction.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux.md: temp_reorg/docs/robotics/advanced_system/testing.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md: temp_reorg/docs/machine_learning/vision_recognition/vision_recognition_guide.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md: temp_reorg/docs/machine_learning/training/training_guide.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\evaluate_performance.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\hyperparameter_tuning.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\multi_modal_audio_recognition.md: temp_reorg/docs/api/audio_recognition_api.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\README.md: temp_reorg/src/ai/demo_emotional_ai.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\README.md: temp_reorg/src/ai/demo_emotional_ai.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\README.md: temp_reorg/src/ai/demo_emotional_ai.py (target not found)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 4: unterminated string literal (detected at line 25)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 5: unterminated string literal (detected at line 54)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 6: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 7: unterminated string literal (detected at line 16)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 9: unterminated string literal (detected at line 10)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md, code block 7: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md, code block 8: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 2: unterminated string literal (detected at line 57)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 4: unterminated string literal (detected at line 6)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multilingual_understanding.md, code block 6: unterminated string literal (detected at line 10)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\integration.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 1: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 4: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\03_python_implementation.md, code block 1: invalid syntax
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tutorials/multimodal_recognition_tutorial.py (target not found)
   - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tests/test_multimodal_recognition.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\models\bitnet_b158_2b4t.md: temp_reorg/docs/machine_learning/workflow/deployment.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\biology.md: temp_reorg/docs/src/multidisciplinary_ai/biology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\biology.md: temp_reorg/docs/ai/guides/quantum_circuit_optimization.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: temp_reorg/docs/src/multidisciplinary_ai/cosmology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\cosmology.md: temp_reorg/docs/src/multidisciplinary_ai/cosmology/cosmology_model.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\philosophy.md: temp_reorg/docs/src/multidisciplinary_ai/philosophy.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\psychology.md: temp_reorg/docs/src/multidisciplinary_ai/psychology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\README.md: docs/CONTRIBUTING.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: temp_reorg/docs/src/multidisciplinary_ai/sociology.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\sociology.md: temp_reorg/docs/guides/multimodal_integration.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: temp_reorg/docs/audio/audio_recognition.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: temp_reorg/docs/iot/sensors.md (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\vision\multi_category_object_recognition.md: temp_reorg/docs/ai/vision_apps.md (target not found)
 
 WARNING: Found 313 warnings:
   - Non-standard tag 'neuromorphic_computing' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md

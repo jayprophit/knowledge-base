@@ -209,10 +209,10 @@ class ContinuousLearner:
 ## AI-Driven Interdisciplinary Education Tools & Frameworks
 
 Modern AI systems can serve as powerful enablers for interdisciplinary education. The knowledge base integrates:
-- **Improvements Module:** [AI Improvements Framework](../ai/improvements_module.md) for modular, extensible upgrades across domains.
-- **Emotional Intelligence:** [Emotional Intelligence](../ai/emotional_intelligence/ADVANCED_IMPROVEMENTS.md) for adaptive, human-centric learning and support.
-- **Multimodal Integration:** [Multimodal Integration Guide](../ai/guides/multimodal_integration.md) for combining vision, audio, text, and sensor data in learning environments.
-- **Blockchain for Education:** [3D Blockchain](../blockchain/3d_blockchain.md) for credentialing, secure records, and decentralized learning platforms.
+- **Improvements Module:** [AI Improvements Framework](ai/improvements_module.md) for modular, extensible upgrades across domains.
+- **Emotional Intelligence:** [Emotional Intelligence](ai/emotional_intelligence/ADVANCED_IMPROVEMENTS.md) for adaptive, human-centric learning and support.
+- **Multimodal Integration:** [Multimodal Integration Guide](guides/multimodal_integration.md) for combining vision, audio, text, and sensor data in learning environments.
+- **Blockchain for Education:** [3D Blockchain](blockchain/3d_blockchain.md) for credentialing, secure records, and decentralized learning platforms.
 - **Robotics & Simulation:** [Robotics Systems](../robotics/advanced_system/README.md) for hands-on, experiential, and remote learning modules.
 
 ## Best Practices for AI-Integrated Education

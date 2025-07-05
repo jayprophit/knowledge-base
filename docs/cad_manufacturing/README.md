@@ -15,28 +15,28 @@ This documentation covers the implementation of an AI-driven CAD design, simulat
 
 1. **CAD Design Automation**
    - [FreeCAD Scripting](freecad_automation.md)
-   - [OpenSCAD Parametric Design](temp_reorg/docs/cad_manufacturing/openscad_automation.md)
-   - [3D Model Generation](temp_reorg/docs/cad_manufacturing/3d_model_generation.md)
+   - [OpenSCAD Parametric Design](../../temp_reorg/docs/cad_manufacturing/openscad_automation.md)
+   - [3D Model Generation](../../temp_reorg/docs/cad_manufacturing/3d_model_generation.md)
 
 2. **Physics & Material Simulation**
    - [Material Properties & Database](materials_database.md)
    - [Physics Simulation](physics_simulation.md)
-   - [Finite Element Analysis (FEA)](temp_reorg/docs/cad_manufacturing/fea_analysis.md)
+   - [Finite Element Analysis (FEA)](../../temp_reorg/docs/cad_manufacturing/fea_analysis.md)
 
 3. **AI Optimization**
-   - [Genetic Algorithm Optimization](temp_reorg/docs/cad_manufacturing/genetic_algorithm_optimization.md)
-   - [Neural Network Predictions](temp_reorg/docs/cad_manufacturing/neural_network_predictions.md)
-   - [GAN-based Design Generation](temp_reorg/docs/cad_manufacturing/gan_design_generation.md)
+   - [Genetic Algorithm Optimization](../../temp_reorg/docs/cad_manufacturing/genetic_algorithm_optimization.md)
+   - [Neural Network Predictions](../../temp_reorg/docs/cad_manufacturing/neural_network_predictions.md)
+   - [GAN-based Design Generation](../../temp_reorg/docs/cad_manufacturing/gan_design_generation.md)
 
 4. **Manufacturing Integration**
-   - [3D Printing (STL Export)](temp_reorg/docs/manufacturing/3d_printing_export.md)
-   - [CNC Machining (GCode)](temp_reorg/docs/cad_manufacturing/cnc_machining_export.md)
-   - [IoT & Smart Device Control](temp_reorg/docs/iot/iot_manufacturing.md)
+   - [3D Printing (STL Export)](../../temp_reorg/docs/manufacturing/3d_printing_export.md)
+   - [CNC Machining (GCode)](../../temp_reorg/docs/cad_manufacturing/cnc_machining_export.md)
+   - [IoT & Smart Device Control](../../temp_reorg/docs/iot/iot_manufacturing.md)
 
 5. **Advanced Topics**
-   - [Relativity & High-D Simulations](temp_reorg/docs/cad_manufacturing/advanced_physics.md)
-   - [Multi-Material Design](temp_reorg/docs/cad_manufacturing/multi_material_design.md)
-   - [Generative Design](temp_reorg/docs/cad_manufacturing/generative_design.md)
+   - [Relativity & High-D Simulations](../../temp_reorg/docs/cad_manufacturing/advanced_physics.md)
+   - [Multi-Material Design](../../temp_reorg/docs/cad_manufacturing/multi_material_design.md)
+   - [Generative Design](../../temp_reorg/docs/cad_manufacturing/generative_design.md)
 
 ## Getting Started
 
@@ -91,7 +91,7 @@ def calculate_mass(volume, material_density):
 
 def calculate_stress(force, area):
     """Calculate stress (σ = F/A)."""
-    return force / area if area > 0 else 0
+    return force / area if area > 0 else 0:
 ```
 
 ## Documentation Structure

@@ -19,12 +19,12 @@ This module implements biological models, neural networks, and evolutionary algo
 ## Example Usage
 ```python
 from multidisciplinary_ai.biology import BiologyModule
-# Example usage will depend on the module's API
+# Example usage will depend on the module's API'
 ```
 
 ## References
-- [src/multidisciplinary_ai/biology.py](temp_reorg/docs/src/multidisciplinary_ai/biology.py)
-- [Biological AI Guide](temp_reorg/docs/ai/guides/quantum_circuit_optimization.md)
+- [src/multidisciplinary_ai/biology.py](../../../temp_reorg/docs/src/multidisciplinary_ai/biology.py)
+- [Biological AI Guide](../../../temp_reorg/docs/ai/guides/quantum_circuit_optimization.md)
 
 ---
 **Back to [Multidisciplinary AI](./README.md)**

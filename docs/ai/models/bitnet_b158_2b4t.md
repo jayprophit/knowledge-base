@@ -78,7 +78,7 @@ This shrinks the model from gigabytes to the size of a small mobile game downloa
 
 ## Related Documents
 - [Build & Train Model](../../machine_learning/workflow/build_train_model.md) - General model building concepts
-- [Model Deployment](temp_reorg/docs/machine_learning/workflow/deployment.md) - Deploying efficient models
+- [Model Deployment](../../../temp_reorg/docs/machine_learning/workflow/deployment.md) - Deploying efficient models
 - [Performance Evaluation](../../machine_learning/workflow/evaluate_performance.md) - Benchmarking and evaluation techniques
 
 ---

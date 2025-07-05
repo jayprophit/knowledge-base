@@ -18,7 +18,7 @@ This document describes the modular, pluggable platform architecture for buildin
 - Messaging & communication (real-time, video, forums)
 - Plugin/microservice system for extensibility
 
-See also: [`src/blockchain/modular_platform.py`](../../src/blockchain/modular_platform.py)
+See also: [`src/blockchain/modular_platform.py`](../../../src/blockchain/modular_platform.py)
 
 ## Features
 
@@ -89,12 +89,12 @@ plugin = plugin_mgr.get_plugin("analytics")
 ```
 
 ## Integration & References
-- All modules are cross-referenced and ready for integration with [`3d_blockchain.py`](../../src/blockchain/3d_blockchain.py), [`token_factory.py`](../../src/blockchain/token_factory.py), and [`layer2_and_defi.py`](../../src/blockchain/layer2_and_defi.py).
+- All modules are cross-referenced and ready for integration with [`3d_blockchain.py`](../../../src/blockchain/3d_blockchain.py), [`token_factory.py`](../../../src/blockchain/token_factory.py), and [`layer2_and_defi.py`](../../../src/blockchain/layer2_and_defi.py).
 - Each module is fully documented and ready for production use.
 - For more, see the main README and API docs.
 
 ## Integration & References
-- Integrates with [`token_factory.py`](../../src/blockchain/token_factory.py), [`layer2_and_defi.py`](../../src/blockchain/layer2_and_defi.py), and [`3d_blockchain.py`](../../src/blockchain/3d_blockchain.py)
+- Integrates with [`token_factory.py`](../../../src/blockchain/token_factory.py), [`layer2_and_defi.py`](../../../src/blockchain/layer2_and_defi.py), and [`3d_blockchain.py`](../../../src/blockchain/3d_blockchain.py)
 - [Microservices Architecture](https://martinfowler.com/articles/microservices.html)
 - [Decentralized Identity (DID)](https://www.w3.org/TR/did-core/)
 - [WebRTC](https://webrtc.org/)
