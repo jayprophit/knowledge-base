@@ -41,23 +41,7 @@ The system follows a modular design with specialized components that can work in
 # │ Speech  │ │ Voice   │ │ Music   │ │ Sound   │
 # │ Recog.  │ │ Analysis│ │ Analysis│ │ Class.  │
 # └─────────┘ └─────────┘ └─────────┘ └─────────┘
-```
-
-## Components
-
-### 1. Speech Recognition (`speech_recognition.py`)
-
-The speech recognition module provides functionality to convert spoken language to text using multiple backends.
-
-#### Key Features:
-- Multiple backend support (Google Web Speech API, DeepSpeech)
-- Real-time microphone input processing
-- Audio file transcription
-- Confidence scores and alternatives
-
-#### Example Usage:
-
-```python
+``````python
 from src.audio import SpeechRecognizer
 
 # Initialize the recognizer
@@ -78,26 +62,7 @@ print(f"Offline transcript: {result.text}")
 # Transcribe from microphone (5-second recording)
 result = recognizer.recognize_from_microphone(duration=5)
 print(f"You said: {result.text}")
-```
-
-#### Model Support:
-- **DeepSpeech**: Download models from [Mozilla DeepSpeech Releases](https://github.com/mozilla/DeepSpeech/releases)
-- **Google Web Speech API**: Requires internet connection
-
-### 2. Voice Analysis (`voice_analysis.py`)
-
-The voice analysis module provides functionality for speaker identification and voice characteristic extraction.
-
-#### Key Features:
-- Speaker identification and verification
-- Voice characteristic analysis (pitch, intensity, etc.)
-- Gender and age estimation
-- Speaking rate analysis
-- Speaker profile management
-
-#### Example Usage:
-
-```python
+``````python
 from src.audio import VoiceAnalyzer
 
 # Initialize the analyzer
@@ -116,24 +81,9 @@ print(f"Confidence: {results[0]['similarity']:.2f}")
 features = analyzer.extract_features("voice_sample.wav")
 print(f"Average pitch: {features.pitch_hz:.1f} Hz")
 print(f"Gender prediction: {features.gender}")
-print(f"Speaking rate: {features.speaking_rate:.1f} syllables/sec")
+print(f"Speaking rate: {features.speaking_rate:.1f} syllables / sec")
 print(f"Voice intensity: {features.intensity_db:.1f} dB")
-```
-
-### 3. Music Analysis (`music_analysis.py`)
-
-The music analysis module provides functionality for extracting features from music and classifying genres.
-
-#### Key Features:
-- Music feature extraction (tempo, key, mode, etc.)
-- Genre classification
-- Beat tracking and segmentation
-- Music similarity comparison
-- Audio fingerprinting
-
-#### Example Usage:
-
-```python
+``````python
 from src.audio import MusicAnalyzer
 
 # Initialize the analyzer
@@ -155,21 +105,7 @@ print(f"First 5 beats at: {beat_times[:5]} seconds")
 segments = analyzer.get_segments("song.mp3")
 for i, segment in enumerate(segments):
     print(f"Segment {i+1}: {segment['start']:.1f}s to {segment['end']:.1f}s - {segment['label']}")
-```
-
-### 4. Sound Classification (`sound_classification.py`)
-
-The sound classification module provides functionality for identifying environmental sounds.
-
-#### Key Features:
-- Environmental sound classification (urban, animal, human, nature)
-- Sound event detection in continuous audio
-- Customizable class mapping
-- Feature extraction for audio analysis
-
-#### Example Usage:
-
-```python
+``````python
 from src.audio import SoundClassifier
 
 # Initialize the classifier
@@ -197,22 +133,7 @@ events = classifier.detect_sound_events(
 )
 for i, event in enumerate(events):
     print(f"Event {i+1}: {event.label} at {event.timestamp:.2f}s")
-```
-
-### 5. Integrated Audio Recognition (`audio_recognition.py`)
-
-The integrated audio recognition module provides a unified interface for all audio processing capabilities.
-
-#### Key Features:
-- Automatic audio content type detection
-- Intelligent routing to specialized processors
-- Unified API for all audio analysis
-- Language detection for transcribed speech
-- Real-time microphone processing
-
-#### Example Usage:
-
-```python
+``````python
 from src.audio import AudioRecognitionSystem
 
 # Initialize the system
@@ -249,43 +170,3 @@ if results['sound_classification']:
 mic_results = system.recognize_from_microphone(duration=5)
 print(f"You said: {mic_results['speech_recognition']['text']}")
 ```
-
-## Performance Considerations
-
-- **Processing Time**: Full multi-modal analysis may be computationally intensive. For real-time applications, consider selective processing.
-- **Memory Usage**: Large audio files should be processed in chunks.
-- **GPU Acceleration**: TensorFlow operations will automatically use GPU if available.
-- **Model Size**: Consider using smaller models for deployment on edge devices.
-- **Online vs. Offline**: Some components (like Google Web Speech API) require internet connectivity.
-
-## Extension Points
-
-1. **Custom Models**: Replace default models with your own trained models
-2. **New Analyzers**: Add new specialized analyzers for specific domains
-3. **Custom Pipelines**: Create domain-specific processing pipelines
-4. **Integration**: Connect with other systems via the unified API
-
-## Troubleshooting
-
-### Common Issues
-
-1. **No audio input detected**
-   - Check microphone permissions
-   - Verify device is connected and not muted
-
-2. **Poor recognition accuracy**
-   - Check audio quality (background noise, recording quality)
-   - Consider using domain-specific models
-   - Adjust input volume
-
-3. **Model loading errors**
-   - Verify model paths are correct
-   - Check compatibility between model format and library version
-   - Ensure sufficient memory/disk space
-
-## Additional Resources
-
-- [Librosa Documentation](https://librosa.org/doc/latest/index.html)
-- [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)
-- [TensorFlow Audio Models](https://www.tensorflow.org/tutorials/audio/simple_audio)
-- [Urban Sound Dataset](https://urbansounddataset.weebly.com/)

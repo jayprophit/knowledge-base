@@ -1,17 +1,20 @@
 
 === Documentation Validation Results ===
 
-ERROR: Found 111 errors:
+ERROR: Found 105 errors:
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\self_building_ai.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\self_building_ai.md, code block 6: invalid decimal literal
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\self_building_ai_functions.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\virtual_assistant_cross_platform.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 3: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 4: unterminated string literal (detected at line 17)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md, code block 5: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\advanced_emotional_ai.md, code block 5: unterminated string literal (detected at line 17)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\advanced_emotional_ai.md, code block 7: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\parallel_processing.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\parallel_processing.md, code block 8: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\parallel_processing.md, code block 9: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\system_improvement_strategies.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\blockchain\token_factory.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\cad_manufacturing\freecad_automation.md, code block 10: invalid syntax
@@ -31,8 +34,6 @@ ERROR: Found 111 errors:
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md, code block 3: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md, code block 5: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\concepts\species_communication_agriculture_medicine_conservation.md, code block 6: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\README.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\mobile\README.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\quantum_computing\virtual_quantum_computer.md, code block 1: unterminated string literal (detected at line 16)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\advanced_analysis.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\advanced_analysis.md, code block 3: invalid syntax
@@ -41,10 +42,10 @@ ERROR: Found 111 errors:
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 3: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 5: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\security\quantum_resistant_cryptography.md, code block 6: unterminated string literal (detected at line 41)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\databases\database_overview.md, code block 2: invalid syntax. Perhaps you forgot a comma?
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\php\README.md, code block 2: invalid syntax. Perhaps you forgot a comma?
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 4: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 7: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 5: invalid decimal literal
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 6: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\web\system_design\load_balancer.md, code block 8: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\13_star_sign_calendar.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\advanced_abilities.md, code block 4: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ai_ml_integration.md, code block 12: invalid syntax
@@ -59,7 +60,10 @@ ERROR: Found 111 errors:
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\quantum_drive_and_thought.md, code block 3: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\quantum_temporal_mapping.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 3: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 3: unexpected indent
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 4: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 8: unexpected indent
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\sanskrit_style_reorganization.md, code block 9: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\self_awareness.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\self_healing.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\universal_data_deciphering_and_conspiracy_analysis.md, code block 1: invalid syntax
@@ -72,24 +76,16 @@ ERROR: Found 111 errors:
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 3: unterminated string literal (detected at line 14)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 4: unterminated string literal (detected at line 10)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\depth_estimation.md, code block 5: unterminated string literal (detected at line 10)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\perception\README.md, code block 2: invalid decimal literal
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 1: unindent does not match any outer indentation level
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\security\README.md, code block 2: expected ':'
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\software\README.md, code block 4: invalid decimal literal
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\robotics\advanced_system\ui_ux\README.md, code block 4: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\audio_recognition\audio_recognition_guide.md, code block 3: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\multimodal\unified_recognition_guide.md, code block 2: unterminated string literal (detected at line 33)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\evaluate_performance.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\hyperparameter_tuning.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\machine_learning\workflow\preprocessing.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\deployment\containerization\README.md, code block 2: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\applications\narrow_ai_quantum.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\applications\narrow_ai_quantum.md, code block 3: unterminated string literal (detected at line 20)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_api.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\applications\narrow_ai_quantum.md, code block 4: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\audio\audio_module_examples.md, code block 9: unterminated string literal (detected at line 4)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 4: unterminated string literal (detected at line 25)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\EMPATHY_AND_SOCIAL_AWARENESS.md, code block 5: unterminated string literal (detected at line 54)
@@ -99,11 +95,11 @@ ERROR: Found 111 errors:
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md, code block 7: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\MEMORY_SYSTEM.md, code block 8: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\PYTHON_IMPLEMENTATION.md, code block 1: invalid syntax
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 2: unterminated string literal (detected at line 57)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 4: unterminated string literal (detected at line 6)
-  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 5: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 2: unterminated string literal (detected at line 102)
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md, code block 3: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multilingual_understanding.md, code block 6: unterminated string literal (detected at line 10)
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md, code block 2: invalid syntax
+  - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md, code block 5: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\integration.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 1: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 2: invalid syntax
@@ -111,8 +107,6 @@ ERROR: Found 111 errors:
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 4: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md, code block 5: invalid syntax
   - Syntax error in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\03_python_implementation.md, code block 1: invalid syntax
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tutorials/multimodal_recognition_tutorial.py (target not found)
-  - Broken link in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md: ../../../tests/test_multimodal_recognition.py (target not found)
 
 WARNING: Found 313 warnings:
   - Non-standard tag 'neuromorphic_computing' in C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\advanced_modules\neuromorphic_computing.md

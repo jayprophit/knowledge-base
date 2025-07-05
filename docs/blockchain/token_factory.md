@@ -35,7 +35,7 @@ See [`src/blockchain/token_factory.py`](../../src/blockchain/token_factory.py) f
 
 ```python
 # User A creates a token for their website
-user_a_token = CustomToken("WebsiteCoin", "WSC", initial_supply=1000000, owner_address="user_a_address")
+user_a_token = CustomToken("WebsiteCoin", "WSC", initial_supply = 1000000, owner_address="user_a_address")
 
 # User B creates a token for their product
 token_factory = TokenFactory()
@@ -46,7 +46,7 @@ user_a_token.transfer("user_a_address", "user_b_address", 500)
 user_a_token.approve("user_a_address", "user_c_address", 200)
 user_a_token.transfer_from("user_c_address", "user_a_address", "user_d_address", 150)
 
-# Link tokens to websites/products
+# Link tokens to websites / products
 website_registry = WebsiteTokenRegistry()
 website_registry.register_website_token("website_123.com", user_a_token)
 website_registry.register_website_token("product_456", user_b_token)
@@ -55,8 +55,3 @@ website_registry.register_website_token("product_456", user_b_token)
 staking = TokenStaking()
 staking.stake_tokens("user_a_address", user_a_token, 1000):
 ```
-
-## Integration & References
-- Integrated with [`layer2_and_defi.py`](../../src/blockchain/layer2_and_defi.py) and [`3d_blockchain.py`](../../src/blockchain/3d_blockchain.py)
-- [ERC-20 Standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
-- [Token Factories](https://docs.openzeppelin.com/contracts/4.x/tokens#token-factories)

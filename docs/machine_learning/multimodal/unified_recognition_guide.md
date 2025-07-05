@@ -38,47 +38,24 @@ The system is designed to be modular, extensible, and easy to integrate with exi
 The unified multi-modal recognition system follows a layered architecture:
 
 ```text
-# ?????????????????????????????????????????????????????????????????
+# ?
 # ?                MultiModalRecognitionSystem                    ?
-# ?????????????????????????????????????????????????????????????????
+# ?
 #                             ?
-#             ?????????????????????????????????
-#             ?                               ?
-# ?????????????????????????   ???????????????????????????
-# ?  AudioRecognitionSystem?   ?  Vision Recognition     ?
-# ?????????????????????????   ???????????????????????????
-#           ?                             ?
-# ?????????????????????????   ???????????????????????????
-# ?         ?             ?   ?           ?             ?
-# ?         ?             ?   ?           ?             ?
-# ??????? ???????     ??????? ???????   ???????     ???????
-# ?Speech? ?Voice?     ?Sound? ?YOLO ?   ?Face ?     ?Scene?
-# ?Recog.? ?Analys?    ?Class? ?Detect?  ?Detect?    ?Class?
-# ??????? ???????     ??????? ???????   ???????     ???????
-```python
-
-The system integrates the following components:
-
-1. **Audio Recognition**: Handles speech recognition, voice analysis, music analysis, and sound classification
-2. **Vision Recognition**: Manages object detection, face detection, and scene classification
-3. **Multi-Modal Integration**: Combines results from different modalities and generates contextual understanding
-
-## Installation
-
-### Prerequisites
-
-- Python 3.8+
-- TensorFlow 2.5+
-- PyTorch 1.9+
-- OpenCV 4.5+
-- Librosa 0.9+
-- FFmpeg (for video processing)
-
-### Setup
-
-1. Install the required packages:
-
-```bash
+#             ?
+#             ?
+# ?   ?
+# ?  AudioRecognitionSystem?  Vision Recognition     ?
+# ?   ?
+#           ?
+# ?   ?
+# ?             ?           ?
+# ?             ?           ?
+# ? ?     ? ?   ?     ?
+# ?Speech?Voice?Sound?YOLO ?Face ?Scene?
+# ?Recog.?Analys?Class?Detect?Detect?Class?
+# ? ?     ? ?   ?     ?
+``````text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # pip install tensorflow torch torchvision opencv-python librosa# NOTE: The following code had syntax errors and was commented out
@@ -92,42 +69,7 @@ The system integrates the following components:
 # # # Windows
 # # # Download from https://ffmpeg.org/download.html:
 # 
-```bash
-# Ubuntu/Debian
-apt-get install ffmpeg
-
-## NOTE: The following code had syntax errors and was commented out
-# 
-# ## Key Components
-# 
-# ### MultiModalRecognitionSystem
-# 
-# The main entry point for unified recognition tasks. It provides methods for:
-# 
-# - `process_video()`: Process video files with both audio and visual analysis
-# - `process_image_and_audio()`: Process separate image and audio files
-# - `process_live_feed()`: Process real-time camera and microphone input
-# 
-# ### MultiModalResult
-# 
-# A data class that stores the results of multi-modal recognition, including:
-# 
-# - Audio analysis results (speech, voice, music, sounds)
-# - Visual analysis results (objects, faces, scenes)
-# - Combined contextual understanding
-# - Source metadata and timestamps
-# 
-# ## Usage Examples
-# 
-# ### Process a Video File
-# nderstanding
-- Source metadata and timestamps
-
-## Usage Examples
-
-### Process a Video File
-
-```python
+``````text
 from src.multimodal.recognition_api import MultiModalRecognitionSystem
 
 # Initialize the system
@@ -161,11 +103,7 @@ if results['audio_analysis']:
 # :
     print("Scene description:", ", ".join(results['context']['scene_description']))
     print("Audio context:", ", ".join(results['context']['audio_context']))"'"'
-```python
-
-### Process Image and Audio Together
-
-```text
+``````text
 result = system.process_image_and_audio(
     image_path="path/to/image.jpg",
     audio_path="path/to/audio.wav",
@@ -186,11 +124,7 @@ if result.context:
     print("Combined context:")
     print("Scene:", ", ".join(result.context['scene_description']))
     print("Audio:", ", ".join(result.context['audio_context']))"'))"
-```python
-
-### Real-time Camera and Microphone Processing
-
-```text
+``````text
 live_result = system.process_live_feed(
     camera_id=0,  # Default camera
     duration=5,   # Record 5 seconds of audio
@@ -205,41 +139,15 @@ if live_result.speech_recognition:
 # 
 # For optimal performance when using the multi-modal recognition syste# NOTE: The following code had issues and was commented out
 # #    results = system.process_video(video_path, frame_interval=30)  # Process every 30th frame
-# #    ```python
-# # 
-# # 2. **Use Confidence Thresholds**: Filter low-confidence detections
-# #    ```python
+# #    ``````text
 # #    results = system.process_video(video_path, confidence_threshold=0.7)  # Only keep confident detections
-# #    ```python
-# # 
-# # 3. **GPU Acceleration**: Ensure TensorFlow and PyTorch are using GPU when available
-# #    ```python
+# #    ``````text
 # #    system = MultiModalRecognitionSystem(device="cuda")  # Force GPU usage
-# #    ```python
-# # 
-# # 4. **Limit Audio Duration**: For long videos, limit audio processing duration
-# #    ```python
+# #    ``````text
 # #    # Extract only first 60 seconds of audio
 # #    import os
 # #    os.system(f'ffmpeg -i "{video_path}" -t 60 -q:a 0 -map a "{audio_path}" -y')
-# #    ```python
-# # 
-# # ## Extension and Customization
-# # 
-# # The multi-modal recognition system is designed to be extensible. Here's how to customize it:
-# # 
-# # ### Add Custom Vision Models
-# # ystem is designed to be extensible. Here's how to customize it:
-# 
-# ### Add Custom Vision Models
-# e multi-modal recognition system is designed to be extensible. Here's how to customize it:
-# 
-# ### Add Custom Vision Models
-# ystem is designed to be extensible. Here's how to customize it:
-
-### Add Custom Vision Models
-
-```python
+# #    ``````text
 from src.vision.custom_detector import CustomDetector
 from src.multimodal.recognition_api import MultiModalRecognitionSystem
 
@@ -254,11 +162,7 @@ from src.multimodal.recognition_api import MultiModalRecognitionSystem
 # Initialize system with custom detector
 system = MultiModalRecognitionSystem()
 system.vision_system = custom_detector
-```python
-
-### Add Custom Audio Processors
-
-```python
+``````text
 from src.audio.custom_processor import CustomAudioProcessor
 from src.multimodal.recognition_api import MultiModalRecognitionSystem
 
@@ -317,11 +221,3 @@ logging.basicConfig(
 
 # Initialize system with verbose logging
 system = MultiModalRecognitionSystem()'stem()
-```python
-
-## Resources
-
-- **Audio Recognition Documentation**: [Audio Recognition Guide](../audio_recognition/audio_recognition_guide.md)
-- **Vision Recognition Documentation**: [Vision Recognition Guide](../../../temp_reorg/docs/machine_learning/vision_recognition/vision_recognition_guide.md)
-- **Model Downloads**: [Pre-trained Models](https://example.com/models)
-- **Training Scripts**: [Custom Model Training](../../../temp_reorg/docs/machine_learning/training/training_guide.md)

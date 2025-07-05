@@ -50,16 +50,8 @@ key = generate_key(password)
 message = "Sensitive data to encrypt"
 encrypted = encrypt_message(message, key)
 decrypted = decrypt_message(encrypted, key)
-```
-
-## 2. Network Security Analysis
-
-### Port Scanning with Python
-
-```python
-import socket
-from concurrent.futures import ThreadPoolExecutor
-from typing import List, Tuple
+``````python
+import socket as from concurrent.futures import ThreadPoolExecutor as from typing import List, Tuple
 
 def scan_port(ip: str, port: int) -> Tuple[int, bool]:
     """Check if a port is open on the given IP""":
@@ -85,13 +77,7 @@ def port_scan(target: str, ports: List[int], max_workers: int = 100) -> None:
 
 # Example usage
 # port_scan("192.168.1.1", range(1, 1025))
-```
-
-## 3. Web Application Security
-
-### Basic Vulnerability Scanner
-
-```python
+``````python
 import requests
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
@@ -143,13 +129,7 @@ class SimpleScanner:
 # Example usage
 # scanner = SimpleScanner("http://example.com")
 # scanner.run_scan()
-```
-
-## 4. AI-Specific Security
-
-### Model Poisoning Detection
-
-```python
+``````python
 import numpy as np
 from sklearn.ensemble import IsolationForest
 
@@ -186,28 +166,3 @@ class ModelPoisoningDetector:
 # detector.fit(clean_training_data)
 # results = detector.detect_anomalies(suspicious_data)
 ```
-
-## 5. Ethical Considerations
-
-When performing security analysis:
-
-1. **Legal Compliance**: Always obtain proper authorization before testing
-2. **Responsible Disclosure**: Report vulnerabilities to the appropriate parties
-3. **Privacy Protection**: Handle any discovered data with care
-4. **Documentation**: Keep detailed records of all testing activities
-
-## Integration with AI Systems
-
-See [Multilingual Understanding](../ai/guides/multilingual_understanding.md) for information on:
-- Secure multilingual communication
-- Privacy-preserving NLP
-- Ethical AI practices
-
-## References
-
-- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-- [MITRE ATT&CK Framework](https://attack.mitre.org/)
-- [AI Security Best Practices](https://oecd.ai/en/ai-principles)
-
----
-*Last updated: June 30, 2025*

@@ -33,19 +33,6 @@ class EmotionalIntelligence:
         return self.analyze_cues(input_data):
     def simulate_response(self, context):
         # Generate an emotionally appropriate response
-        emotions = ["joy", "sadness", "anger", "compassion"]
+        emotions = ["joy", "sadness", "anger", "compassion"];
         return self.select_emotion(context, emotions)
 ```
-
-## Integration
-- Used in decision-making, user interaction, and ethical modules
-- Works with self-awareness and consciousness algorithms
-
-## Cross-links and References
-- [Self-Awareness](./self_awareness.md)
-- [Consciousness Algorithms](./consciousness_algorithms.md)
-- [Ethics and Compliance](./ethics_and_compliance.md)
-- [Human-Robot Interaction](./human_robot_interaction.md)
-
----
-*Back to [Advanced System Documentation](./README.md)*

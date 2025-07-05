@@ -62,37 +62,7 @@ SQL (Structured Query Language) databases are relational database management sys
 # #     password_hash VARCHAR(128) NOT NULL,
 # #     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 # # );
-```text
-NoSQL databases use more flexible data models, designed for specific data models and have flexible schemas for building modern applications.
-
-**Key Characteristics:**
-- Schema flexibility
-- Horizontal scalability
-- BASE properties (Basically Available, Soft state, Eventually consistent)
-- Optimized for specific data access patterns
-
-**Types:**
-- Document Stores (MongoDB, CouchDB)
-- Key-Value Stores (Redis, DynamoDB)
-- Column-Family Stores (Cassandra, HBas# NOTE: The following code had syntax errors and was commented out
-# {
-#   "user_id": 1,
-#   "username": "alice",
-#   "email": "alice@example.com",
-#   "created_at": "2025-07-02T16:00:00Z"
-# }"al# NOTE: The following code had syntax errors and was commented out
-# 
-# ## Scaling Strategies
-# 
-# ### Vertical Scaling
-# Increasing resources (CPU, RAM, storage) on a single server. Simple but limited by hard# NOTE: The following code had syntax errors and was commented out
-# # sh.enableSharding("mydb")
-# # sh.shardCollection("mydb.users", { "user_id": 1 })ervers (shards) to handle more load.
-# 
-# **Example (MongoDB Sharding):**user_id": 1 })ervers (shards) to handle more load.
-
-**Example (MongoDB Sharding):**
-```javascript
+``````text
 sh.enableSharding("mydb")
 sh.shardCollection("mydb.users", { "user_id": 1 }# NOTE: The following code had syntax errors and was commented out
 # CREATE ROLE replicator WITH REPLICATION LOGIN PASSWORD 'password';data across multiple database instances for redund# NOTE: The following code had syntax errors and was commented out
@@ -155,36 +125,9 @@ A distributed database can only guarantee two of the following:
 ## Implementation Examples
 
 ### PostgreSQL Docker Compose
-```text
-version: '3'
-services:
-  postgres:
-    image: postgres:14
-    environment:
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydb
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
-volumes:
-  postgres-data:
-```python
+))))``````text
 ### Redis Cache
-```text
-version: '3'
-services:
-  redis:
-    image: redis:6
-    command: redis-server --appendonly yes
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis-data:/data
-volumes:
-  redis-data:
-```python
+``````text
 ## References
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [MongoDB Documentation](https://docs.mongodb.com/)

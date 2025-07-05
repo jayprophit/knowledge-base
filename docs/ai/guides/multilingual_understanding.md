@@ -27,11 +27,7 @@ def speak_text(text, language='en'):
 # Example usage
 speak_text("Hello, how are you?", 'en')
 speak_text("Bonjour, comment ?a va?", 'fr')
-```
-
-### Neural TTS with Transformers
-
-```python
+``````python
 from transformers import pipeline
 import torch
 
@@ -40,13 +36,7 @@ synthesiser = pipeline("text-to-speech", "microsoft/speecht5_tts")
 
 # Generate speech
 speech = synthesiser("Hello, this is neural TTS!", forward_params={"speaker_embeddings": torch.ones((1, 512))})
-```
-
-## 2. Universal Language Understanding
-
-### Multilingual Translation
-
-```python
+``````python
 from transformers import MarianMTModel, MarianTokenizer
 
 def translate_text(text, src_lang="en", tgt_lang="es"):
@@ -57,11 +47,7 @@ def translate_text(text, src_lang="en", tgt_lang="es"):
     inputs = tokenizer(text, return_tensors="pt", truncation=True)
     outputs = model.generate(**inputs)
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
-```
-
-### Zero-shot Classification
-
-```python
+``````python
 from transformers import pipeline
 
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
@@ -69,13 +55,7 @@ classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnl
 sequence = "This is a guide about artificial intelligence"
 candidate_labels = ["education", "technology", "politics", "sports"]
 result = classifier(sequence, candidate_labels)
-```
-
-## 3. Cross-modal Understanding
-
-### Image Captioning
-
-```python
+``````python
 from transformers import VisionEncoderDecoderModel, ViTFeatureExtractor, AutoTokenizer
 import torch
 from PIL import Image
@@ -90,13 +70,7 @@ def generate_caption(image_path):
     output_ids = model.generate(pixel_values, max_length=50, num_beams=4)
     caption = tokenizer.decode(output_ids[0], skip_special_tokens=True)
     return caption
-```
-
-## 4. Sentiment and Emotion Analysis
-
-### Multilingual Sentiment Analysis
-
-```python
+``````python
 from transformers import pipeline
 
 # Load sentiment analysis pipeline in multiple languages
@@ -111,29 +85,5 @@ texts = [
 
 for text in texts:
     result = sentiment_analyzer(text)
-    print(f"{text}: {result[0]['label']} ({result[0]['score']:.2f})")
+    print(f"{text}: {result[0]['label']} ({result[0]['score']:.2f})")"
 ```
-
-## 5. Integration with Security Features
-
-See [Security Documentation](../../security/advanced_analysis.md) for information on:
-- Secure communication protocols
-- Ethical considerations in AI
-- Privacy-preserving techniques
-
-## Best Practices
-
-1. **Language Detection**: Always detect language before processing
-2. **Model Selection**: Choose appropriate models for each language
-3. **Error Handling**: Implement robust error handling for unsupported languages
-4. **Performance**: Consider model size and inference speed for production use
-5. **Ethics**: Be mindful of biases in multilingual models
-
-## References
-
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [Google TTS Documentation](https://gtts.readthedocs.io/)
-- [Multilingual NLP Best Practices](https://huggingface.co/docs/transformers/multilingual)
-
----
-*Last updated: June 30, 2025*

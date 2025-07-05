@@ -22,22 +22,12 @@ Describes neuro-synaptic models, reflective feedback loops, and consciousness al
 ```python
 class ReflectiveAwareness:
     def __init__(self):
-        self.current_state = {"efficiency": 0.9, "purpose_alignment": 0.95}
+        self.current_state = {"efficiency": 0.9, "purpose_alignment": 0.95};
     def evaluate_state(self):
-        reflection = {key: self.analyze(key, value) for key, value in self.current_state.items()}
+        reflection = {key: self.analyze(key, value) for key, value in self.current_state.items()};
         self.adjust_state(reflection):
     def analyze(self, metric, value):
         return value if value > 0.8 else value + 0.1:
     def adjust_state(self, reflection):
         self.current_state.update(reflection)
 ```
-
-## Consciousness Algorithms
-- Layered awareness (task, environment, existential)
-
-## Cross-links
-- [AI/ML Integration](./ai_ml_integration.md)
-- [Continuous Learning](./continuous_learning.md)
-
----
-*Back to [Advanced System Documentation](./README.md)*

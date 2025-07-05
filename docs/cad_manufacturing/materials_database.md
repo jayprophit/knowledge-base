@@ -52,26 +52,26 @@ material_database = {
         'name': 'AISI 1018 Steel',
         'category': 'metal',
         'mechanical': {
-            'density': 7870,  # kg/m?
-            'youngs_modulus': 205e9,  # Pa
+            'density': 7870,  # kg/m?,
+            'youngs_modulus': 205e9,  # Pa,
             'poisson_ratio': 0.29,
-            'yield_strength': 370e6,  # Pa
-            'tensile_strength': 440e6,  # Pa
-            'shear_modulus': 80e9,  # Pa
+            'yield_strength': 370e6,  # Pa,
+            'tensile_strength': 440e6,  # Pa,
+            'shear_modulus': 80e9,  # Pa,
             'hardness_brinell': 126
         },
         'thermal': {
-            'conductivity': 51.9,  # W/m?K
-            'specific_heat': 486,  # J/kg?K
-            'expansion': 12e-6,  # 1/K
+            'conductivity': 51.9,  # W/m?K,
+            'specific_heat': 486,  # J/kg?K,
+            'expansion': 12e-6,  # 1/K,
             'melting_point': 1520  # ?C
         },
         'electrical': {
-            'resistivity': 1.43e-7,  # ??m
+            'resistivity': 1.43e-7,  # ??m,
             'conductivity': 6.99e6  # S/m
         },
         'manufacturing': {
-            'machinability': 0.65,  # Relative to AISI 1212 steel
+            'machinability': 0.65,  # Relative to AISI 1212 steel,
             'weldability': 'Good',
             'formability': 'Good'
         },
@@ -81,12 +81,7 @@ material_database = {
     },
     # More materials...
 }:
-```
-
-## 3. Python Implementation
-
-### Material Class
-```python
+``````python
 class Material:
     def __init__(self, material_id, database=None):
         """Initialize material from database."""
@@ -140,12 +135,7 @@ class Material:
 steel = Material('steel_aisi_1018')
 print(f"Density: {steel.mechanical_density} kg/m?")
 print(f"Young's Modulus: {steel.mechanical_youngs_modulus/1e9:.1f} GPa")'
-```
-
-## 4. Material Selection
-
-### Filtering Materials
-```python
+``````python
 def filter_materials(database, **criteria):
     """Filter materials based on criteria."""
     results = []
@@ -185,10 +175,7 @@ results = filter_materials(
         'mechanical.yield_strength': (200e6, float('inf'))
     }
 )
-```
-
-### Material Selection by Application
-```python
+``````python
 def recommend_material(application, constraints):
     """Recommend materials based on application requirements."""
     # Define application profiles with weightings
@@ -260,12 +247,7 @@ recommendations = recommend_material(
     'structural',
     {'mechanical.yield_strength': (200e6, float('inf'))}
 )
-```
-
-## 5. Custom Materials
-
-### Adding Custom Materials
-```python
+``````python
 def add_custom_material(database, material_id, properties):
     """Add a custom material to the database."""
     if material_id in database:
@@ -307,12 +289,7 @@ material_database = add_custom_material(
     'aluminum_custom_7075',
     custom_aluminum
 )
-```
-
-## 6. Integration with CAD
-
-### FreeCAD Integration
-```python
+``````python
 import FreeCAD
 
 class FreeCADMaterial:
@@ -357,37 +334,3 @@ fc_material = FreeCADMaterial(steel)
 # Assuming 'box' is a FreeCAD object
 # fc_material.apply_to_object(box):
 ```
-
-## 7. Example Materials
-
-### Common Engineering Materials
-
-#### Metals
-- **Steel (AISI 1018)**: General purpose low carbon steel
-- **Aluminum 6061**: Lightweight, corrosion-resistant alloy
-- **Titanium Grade 5**: High strength-to-weight ratio
-- **Brass C360**: Excellent machinability, good corrosion resistance
-
-#### Plastics
-- **ABS**: Tough, impact-resistant thermoplastic
-- **Nylon (PA6)**: Good wear resistance, self-lubricating
-- **Polycarbonate**: High impact strength, transparent
-- **PTFE (Teflon)**: Excellent chemical resistance, low friction
-
-#### Composites
-- **Carbon Fiber/Epoxy**: High strength-to-weight ratio
-- **Fiberglass**: Good strength, corrosion resistant
-- **Kevlar/Epoxy**: High impact resistance
-
-#### Ceramics
-- **Alumina (Al₂O₃)**: High hardness, electrical insulator
-- **Silicon Carbide (SiC)**: Excellent wear resistance
-- **Zirconia (ZrO₂)**: High fracture toughness
-
-## Next Steps
-- [Physics Simulation](physics_simulation.md)
-- [FEA Analysis](../../temp_reorg/docs/cad_manufacturing/fea_analysis.md)
-- [Manufacturing Export](../../temp_reorg/docs/manufacturing/3d_printing_export.md)
-
----
-*Last updated: June 30, 2025*

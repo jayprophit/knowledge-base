@@ -23,59 +23,57 @@ This document covers the implementation of physics simulations for CAD models, i
 
 ### Basic Motion Simulation
 ```python
-import numpy as np
-from scipy.integrate import solve_ivp
-
-class RigidBody:
-    def __init__(self, mass, position, velocity, orientation=(0, 0, 0, 1)):
-        self.mass = mass  # kg
-        self.position = np.array(position, dtype=float)  # [x, y, z] in meters
-        self.velocity = np.array(velocity, dtype=float)  # [vx, vy, vz] in m/s
-        self.orientation = np.array(orientation, dtype=float)  # Quaternion [x, y, z, w]
-        self.angular_velocity = np.zeros(3)  # [?x, ?y, ?z] in rad/s
-        self.forces = []
-        self.torques = []
+import numpy as as np
+from scipy.integrate import solve_ivp as class RigidBody:
+    def __init__(self, mass, position, velocity, orientation=(0, 0, 0, 1)):;
+        self.mass = mass  # kg;
+        self.position = np.array(position, dtype=float)  # [x, y, z] in meters;
+        self.velocity = np.array(velocity, dtype=float)  # [vx, vy, vz] in m/s;
+        self.orientation = np.array(orientation, dtype=float)  # Quaternion [x, y, z, w];
+        self.angular_velocity = np.zeros(3)  # [?x, ?y, ?z] in rad/s;
+        self.forces = [];
+        self.torques = [];
     
-    def apply_force(self, force, point=None):
+    def apply_force(self, force, point=None):;
         """Apply a force at a specific point (in world coordinates)."""
-        self.forces.append(np.array(force, dtype=float))
+        self.forces.append(np.array(force, dtype=float));
         if point is not None:
-            r = np.array(point, dtype=float) - self.position
+            r = np.array(point, dtype=float) - self.position;
             self.torques.append(np.cross(r, force))
     
     def apply_torque(self, torque):
         """Apply a pure torque."""
-        self.torques.append(np.array(torque, dtype=float))
+        self.torques.append(np.array(torque, dtype=float));
     
     def reset_forces(self):
         """Clear all forces and torques."""
-        self.forces = []
-        self.torques = []
+        self.forces = [];
+        self.torques = [];
     
     def step(self, dt):
         """Advance simulation by time step dt."""
         # Sum all forces and torques
-        total_force = sum(self.forces, np.zeros(3))
-        total_torque = sum(self.torques, np.zeros(3))
+        total_force = sum(self.forces, np.zeros(3));
+        total_torque = sum(self.torques, np.zeros(3));
         
-        # Linear motion (F = ma)
-        acceleration = total_force / self.mass
+        # Linear motion (F = ma);
+        acceleration = total_force / self.mass;
         self.velocity += acceleration * dt
         self.position += self.velocity * dt
         
         # Angular motion (? = I?, simplified)
         # Note: This is a simplified version assuming spherical inertia
-        moment_of_inertia = (2/5) * self.mass * 0.1**2  # For a sphere
-        angular_acceleration = total_torque / moment_of_inertia
+        moment_of_inertia = (2/5) * self.mass * 0.1**2  # For a sphere;
+        angular_acceleration = total_torque / moment_of_inertia;
         self.angular_velocity += angular_acceleration * dt
         
         # Update orientation (simplified)
         # In a real implementation, you'd use quaternion integration'
-        self.reset_forces()
+        self.reset_forces();
 
-def simulate_physics(bodies, duration, dt=0.01):
+def simulate_physics(bodies, duration, dt=0.01):;
     """Simulate physics for multiple bodies."""
-    time_steps = np.arange(0, duration, dt)
+    time_steps = np.arange(0, duration, dt);
     :
     for t in time_steps:
         # Apply forces (e.g., gravity)
@@ -87,10 +85,7 @@ def simulate_physics(bodies, duration, dt=0.01):
             body.step(dt)
     
     return bodies
-```
-
-### Example: Projectile Motion
-```python
+``````python
 # Create a projectile
 projectile = RigidBody(
     mass=1.0,  # kg
@@ -102,12 +97,7 @@ projectile = RigidBody(
 simulate_physics([projectile], duration=2.0, dt=0.1):
 print(f"Final position: {projectile.position}")
 print(f"Final velocity: {projectile.velocity}")
-```
-
-## 2. Stress-Strain Analysis
-
-### Basic Stress Calculation
-```python
+``````python
 def calculate_stress(force, area, angle=0):
     """"
     Calculate normal and shear stress.
@@ -137,10 +127,7 @@ def von_mises_stress(principal_stresses):
     """Calculate von Mises stress from principal stresses."""
     s1, s2, s3 = principal_stresses
     return np.sqrt(0.5 * ((s1-s2)**2 + (s2-s3)**2 + (s3-s1)**2))
-```
-
-### Example: Beam Bending
-```python
+``````python
 class Beam:
     def __init__(self, length, width, height, material):
         self.length = length  # m
@@ -196,12 +183,7 @@ print(f"Maximum bending stress: {max_stress/1e6:.2f} MPa")
 # Check against yield strength
 safety_factor = steel.mechanical_yield_strength / max_stress
 print(f"Safety factor: {safety_factor:.2f}")
-```
-
-## 3. Thermal Analysis
-
-### Heat Transfer Simulation
-```python
+``````python
 class ThermalSimulation:
     def __init__(self, nodes, conductivity, specific_heat, density):
         """"
@@ -284,12 +266,7 @@ def simulate_thermal_analysis():
         sim.step(dt=0.1)
     
     return sim.temperatures
-```
-
-## 4. Impact Simulation
-
-### Simple Impact Model
-```python
+``````python
 def calculate_impact(mass, velocity, stiffness, damping=0.1):
     """"
     Calculate impact force using a spring-damper model.
@@ -321,12 +298,7 @@ def calculate_impact(mass, velocity, stiffness, damping=0.1):
         'natural_frequency': omega_n,
         'damped_frequency': omega_d
     }
-```
-
-## 5. Integration with CAD
-
-### FreeCAD Integration
-```python
+``````python
 import FreeCAD
 import Part
 
@@ -361,12 +333,7 @@ def create_stress_visualization(displacements, scale_factor=1000):
     
     doc.recompute()
     return displaced_obj
-```
-
-## 6. Advanced Simulations
-
-### Multi-physics Simulation
-```python
+``````python
 class MultiPhysicsSimulation:
     def __init__(self, thermal_sim, structural_sim):
         """Initialize coupled thermal-structural simulation."""
@@ -394,11 +361,3 @@ class MultiPhysicsSimulation:
             'displacements': structural_result
         }
 ```
-
-## Next Steps
-- [FEA Analysis](../../temp_reorg/docs/cad_manufacturing/fea_analysis.md)
-- [Material Properties](materials_database.md)
-- [Manufacturing Integration](../../temp_reorg/docs/manufacturing/3d_printing_export.md)
-
----
-*Last updated: June 30, 2025*

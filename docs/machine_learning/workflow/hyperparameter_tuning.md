@@ -78,16 +78,13 @@ Hyperparameter tuning is the process of optimizing a model's hyperparameters to 
 ## Implementation Example
 ```python
 # Example: Various hyperparameter tuning approaches
-import numpy as np
+import numpy as as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, cross_val_score
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from scipy.stats import randint, uniform
+from sklearn.ensemble import RandomForestClassifier as from sklearn.svm import SVC as from scipy.stats import randint, uniform
 
-import optuna
-from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
-import tensorflow as tf
+import optuna as from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
+import tensorflow as as tf
 from tensorflow import keras
 
 # Assuming X_train, y_train, X_val, y_val are already defined from data splitting
@@ -284,12 +281,3 @@ plt.legend(['Train', 'Validation'], loc='upper left')
 plt.tight_layout()
 plt.show()
 ```
-
-## References
-- [Build + Train Model](build_train_model.md) - Related step in ML workflow
-- [Evaluate Performance](evaluate_performance.md) - Previous step before tuning
-- [Deployment](../../../temp_reorg/docs/machine_learning/workflow/deployment.md) - Next step after successful tuning
-- [Scikit-learn Hyperparameter Tuning](https://scikit-learn.org/stable/modules/grid_search.html) - External resource
-- [Optuna Documentation](https://optuna.readthedocs.io/) - External resource
-- [Ray Tune Documentation](https://docs.ray.io/en/latest/tune/index.html) - External resource
-- [Neural Network Architecture Search](https://en.wikipedia.org/wiki/Neural_architecture_search) - External resource

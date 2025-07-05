@@ -34,45 +34,24 @@ doc = FreeCAD.ActiveDocument
 
 # Save the document
 doc.saveAs("/path/to/design.FCStd")
-```
-
-### Coordinate System
-- FreeCAD uses a right-handed coordinate system
-- X: Right, Y: Back, Z: Up
-- Angles are in degrees by default
-
-## 2. Creating Primitives
-
-### Box
-```python
+``````python
 import Part
 
 # Create a box: makeBox(length, width, height, [base], [direction])
 box = Part.makeBox(10, 10, 10)  # 10x10x10mm cube
 box_object = doc.addObject("Part::Feature", "MyCube")
 box_object.Shape = box
-```
-
-### Cylinder
-```python
+``````python
 # Create a cylinder: makeCylinder(radius, height, [pnt], [dir], [angle])
 cylinder = Part.makeCylinder(5, 10)  # 5mm radius, 10mm height
 cyl_object = doc.addObject("Part::Feature", "MyCylinder")
 cyl_object.Shape = cylinder
-```
-
-### Sphere
-```python
+``````python
 # Create a sphere: makeSphere(radius, [angle1], [angle2], [angle3], [center])
 sphere = Part.makeSphere(5)  # 5mm radius
 sph_object = doc.addObject("Part::Feature", "MySphere")
 sph_object.Shape = sphere
-```
-
-## 3. Boolean Operations
-
-### Union
-```python
+``````python
 # Create two boxes
 box1 = Part.makeBox(10, 10, 10)
 box2 = Part.makeBox(10, 10, 10, FreeCAD.Vector(5, 0, 0))
@@ -81,28 +60,17 @@ box2 = Part.makeBox(10, 10, 10, FreeCAD.Vector(5, 0, 0))
 fused = box1.fuse(box2)
 fused_object = doc.addObject("Part::Feature", "FusedObject")
 fused_object.Shape = fused
-```
-
-### Difference
-```python
+``````python
 # Difference (cut)
 cut = box1.cut(box2)
 cut_object = doc.addObject("Part::Feature", "CutObject")
 cut_object.Shape = cut
-```
-
-### Intersection
-```python
+``````python
 # Intersection
 common = box1.common(box2)
 common_object = doc.addObject("Part::Feature", "CommonObject")
 common_object.Shape = common
-```
-
-## 4. Parametric Design
-
-### Creating Parameters
-```python
+``````python
 import FreeCAD
 import Part
 
@@ -119,10 +87,7 @@ position = FreeCAD.Vector(10, 10, 0)
 cylinder = create_parametric_cylinder(radius, height, position)
 cyl_object = doc.addObject("Part::Feature", "ParametricCylinder")
 cyl_object.Shape = cylinder
-```
-
-### Updating Parameters
-```python
+``````python
 def update_cylinder(obj, radius, height, position):
     """Update cylinder dimensions."""
     cylinder = Part.makeCylinder(radius, height, position)
@@ -130,25 +95,17 @@ def update_cylinder(obj, radius, height, position):
 
 # Update the cylinder
 update_cylinder(cyl_object, 8.0, 20.0, FreeCAD.Vector(0, 0, 0))
-```
-
-## 5. Exporting Models
-
-### Export to STL (3D Printing)
-```python
+``````python
 import Mesh
 
 # Export a single object
-Mesh.export([cyl_object], "/path/to/export.stl")
+Mesh.export([cyl_object], "/path / to / export.stl")
 
 # Export all objects in document
 objects = doc.Objects
 shapes = [obj.Shape for obj in objects]
-Mesh.export(shapes, "/path/to/all_objects.stl"):
-```
-
-### Export to STEP (CAD Exchange)
-```python
+Mesh.export(shapes, "/path / to / all_objects.stl"):
+``````python
 import Import
 
 # Export a single object
@@ -158,12 +115,7 @@ cyl_object.Shape.exportStep("/path/to/export.step")
 for obj in doc.Objects:
     if hasattr(obj, 'Shape') and obj.Visibility:
         obj.Shape.exportStep(f"/path/to/{obj.Name}.step")
-```
-
-## 6. Advanced Techniques
-
-### Creating Custom Tools
-```python
+``````python
 class ParametricGear:
     def __init__(self, module=1, teeth=20, width=5):
         self.module = module
@@ -181,10 +133,7 @@ gear_maker = ParametricGear(module=1, teeth=24, width=5)
 gear = gear_maker.create()
 gear_object = doc.addObject("Part::Feature", "MyGear")
 gear_object.Shape = gear
-```
-
-### Batch Processing
-```python
+``````python
 def batch_create_gears():
     """Create multiple gears with different parameters."""
     gears = []
@@ -196,12 +145,7 @@ def batch_create_gears():
         gear_doc.Placement.Base = FreeCAD.Vector(i*30, 0, 0)
         gears.append(gear_doc)
     return gears
-```
-
-## 7. Example Projects
-
-### Parametric Bracket
-```python
+``````python
 def create_bracket(length, width, height, thickness, hole_diameter):
     """Create a parametric L-bracket with mounting holes."""
     # Base plate
@@ -228,24 +172,3 @@ bracket = create_bracket(50, 30, 40, 5, 4)
 bracket_object = doc.addObject("Part::Feature", "LBracket")
 bracket_object.Shape = bracket
 ```
-
-### Tips & Best Practices
-1. **Use Variables**: Always use variables for dimensions that might change
-2. **Keep It Modular**: Create functions for reusable components
-3. **Document Parameters**: Add docstrings to explain parameter units (mm, degrees, etc.)
-4. **Error Handling**: Add checks for invalid inputs
-5. **Performance**: For complex models, consider using `Part.show()` only when needed
-6. **Version Control**: Save frequently and use meaningful document names
-
-### Troubleshooting
-- **Object Not Visible**: Check if `obj.ViewObject.Visibility` is `True`
-- **Boolean Operations Fail**: Check if objects actually intersect
-- **Export Issues**: Ensure the object has a valid `Shape` property
-
-## Next Steps
-- [Material Properties](materials_database.md)
-- [Physics Simulation](physics_simulation.md)
-- [FEA Analysis](../../temp_reorg/docs/cad_manufacturing/fea_analysis.md)
-
----
-*Last updated: June 30, 2025*

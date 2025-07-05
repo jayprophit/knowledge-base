@@ -29,9 +29,9 @@ Molecular self-healing enables robotic systems to autonomously detect, diagnose,
 ```python
 class MolecularSelfHealing:
     def __init__(self):
-        self.nanobot_units = 1000
+        self.nanobot_units = 1000;
     def detect_damage(self, system_status):
-        return [component for component, status in system_status.items() if status == "damaged"]:
+        return [component for component, status in system_status.items() if status == "damaged"]:;
     def repair(self, damaged_components):
         for component in damaged_components:
             self.deploy_nanobots(component)
@@ -43,15 +43,3 @@ class MolecularSelfHealing:
             print("Insufficient nanobot units for repair."):
 # Commentary: Enables autonomous detection and repair.
 ```
-
-## Applications
-- Self-repair of robotic limbs, sensors, and circuits
-- Automated software patching and bug fixing
-- Disaster recovery and field resilience
-
-## References
-- [Nanotechnology in Robotics](https://en.wikipedia.org/wiki/Nanorobotics)
-- [Self-Healing Materials](https://en.wikipedia.org/wiki/Self-healing_material)
-
----
-*Back to [Advanced System Documentation](./README.md)*

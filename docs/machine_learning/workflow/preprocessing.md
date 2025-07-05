@@ -56,12 +56,9 @@ Data preprocessing transforms raw data into a clean, structured format suitable 
 ## Implementation Example
 ```python
 # Example: Preprocessing pipeline with scikit-learn
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-import pandas as pd
-import numpy as np
+from sklearn.compose import ColumnTransformer as from sklearn.pipeline import Pipeline as from sklearn.impute import SimpleImputer as from sklearn.preprocessing import StandardScaler, OneHotEncoder
+import pandas as as pd
+import numpy as as np
 
 # Sample data
 data = pd.DataFrame({
@@ -100,10 +97,3 @@ processed_data = preprocessing_pipeline.fit_transform(data)
 print("Original data shape:", data.shape)
 print("Processed data shape:", processed_data.shape)
 ```
-
-## References
-- [Data Acquisition](data_acquisition.md) - Previous step in the ML workflow
-- [Splitting the Data](splitting_the_data.md) - Next step after preprocessing
-- [Feature Engineering](https://scikit-learn.org/stable/modules/feature_selection.html) - Related technique
-- [Scikit-learn Preprocessing Guide](https://scikit-learn.org/stable/modules/preprocessing.html) - External resource
-- [Missing Data Imputation Techniques](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779) - External resource

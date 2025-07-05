@@ -41,12 +41,7 @@ The Self-Building AI project enables an AI system to iteratively improve, fix, a
 # #     requirements.txt
 # #     Dockerfile
 # #     docker-compose.yml
-```
-
-## Quick Start: Basic Self-Building AI Functions
-
-### 1. Error Detection & Fixing (Python Example)
-```text
+``````python
 # private/code/self_iteration.py
 import os
 import openai
@@ -92,71 +87,13 @@ def self_iterate():
 
 if __name__ == "__main__":
     self_iterate()""
-```
-
-### 2. Streamlit User Interface (Prompt + Preview)
-```pytho# public/code/streamlit_app.py
-import streamlit as st
-import openai
-from dotenv import load_dotenv
-import os
-import streamlit.components.v1 as components
-
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-st.title("Self-Building AI Interface")
-st.sidebar.header("Navigation")
-options = ["Home", "Code Fixer", "Preview"]
-choice = st.sidebar.selectbox("Choose a feature", options)
-
-if choice == "Home":
-    st.write("Welcome to the Self-Building AI Interface!")
-    st.write("Use the sidebar to navigate.")
-elif choice == "Code Fixer":
-    st.header("Code Fixer")
-    user_input = st.text_area("Enter the error message here:")
-    if st.button("Fix Error"):
-        if user_input:
-            response = openai.Completion.create(
-                engine="text-davinci-0o03",
-                prompt=f"Fix the following error: {user_input}",
-                max_tokens=100
-            )
-            fix = response.choices[0].text.strip()
-            st.write("Suggested Fix:")
-            st.code(fix)
-        else:
-            st.warning("Please enter an error message.")
-elif choice == "Preview":
-    st.header("Preview Area")
-    html_code = st.text_area("Enter HTML/CSS code to preview:")
-    if st.button("Render Preview"):
-        components.html(html_code, height=400)"0)
-```
-
+``````python
 ### 3. .env Example
-```python
-OPE# NOTE: The following code had syntax errors and was commented out
-# # NOTE: The following code had syntax errors and was commented out
-# 
-# ### 5. requirements.txt Examplele```
-
+``````python
 ### 4. .gitignore Example
-```
-.env
-__pycache__/
-logs/
-*.pyc
-```python
-
+``````python
 ### 5. requirements.txt Example
-```
-openai
-streamlit
-python-dotenv
-```python
-
+``````python
 ---
 
 ## How to Use
@@ -174,6 +111,6 @@ python-dotenv
 
 ---
 :
-_Last updated: July 3, 2025_
+_Last updated: July 3, 225_
 
 ```

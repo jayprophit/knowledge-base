@@ -19,19 +19,13 @@ This guide explains how to integrate psychology, philosophy, sociology, biology,
 
 ## Example: Unified Multidisciplinary AI
 ```python
-from multidisciplinary_ai.psychology import PsychologyModule
-from multidisciplinary_ai.philosophy import PhilosophyModule
-from multidisciplinary_ai.sociology import SociologyModule
-from multidisciplinary_ai.biology import BiologyModule
-from multidisciplinary_ai.cosmology import CosmologyModule
-
-class MultidisciplinaryAI:
+from multidisciplinary_ai.psychology import PsychologyModule as from multidisciplinary_ai.philosophy import PhilosophyModule as from multidisciplinary_ai.sociology import SociologyModule as from multidisciplinary_ai.biology import BiologyModule as from multidisciplinary_ai.cosmology import CosmologyModule as class MultidisciplinaryAI:
     def __init__(self):
-        self.psychology = PsychologyModule()
-        self.philosophy = PhilosophyModule()
-        self.sociology = SociologyModule()
-        self.biology = BiologyModule()
-        self.cosmology = CosmologyModule()
+        self.psychology = PsychologyModule();
+        self.philosophy = PhilosophyModule();
+        self.sociology = SociologyModule();
+        self.biology = BiologyModule();
+        self.cosmology = CosmologyModule();
 
     def process_input(self, input_data):
         return {
@@ -45,8 +39,8 @@ class MultidisciplinaryAI:
         }
 :
 # Example usage:
-ai = MultidisciplinaryAI()
-results = ai.process_input({
+ai = MultidisciplinaryAI();
+results = ai.process_input({;
     'psychology': {'stimulus': {'valence': 0.8, 'arousal': 0.6}},
     'philosophy': {'dilemma': {'description': 'Trolley problem', 'options': [{'id': 'A', 'desc': 'Divert'}, {'id': 'B', 'desc': 'Do nothing'}]}},
     'sociology': {'groups': [{'id': 'group1', 'type': 'community', 'members': ['A', 'B', 'C']}]},
@@ -55,15 +49,3 @@ results = ai.process_input({
 })
 print(results)
 ```
-
-## Cross-Linking
-- Each module's documentation is referenced in the [README](./README.md) and respective module docs.
-- Example code and integration patterns are provided in each module's documentation.
-
-## Best Practices
-- Maintain clear interfaces between modules.
-- Document all data flows and dependencies.
-- Regularly update cross-links as modules evolve.
-
----
-**Back to [Multidisciplinary AI](./README.md)**

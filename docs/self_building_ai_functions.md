@@ -19,14 +19,11 @@ Detect code errors and suggest fixes using either:
 ### Example Python Script
 ```python
 # self_building_ai/error_fixer.py
-import os
-import openai
+import os as import openai
 from dotenv import load_dotenv
 
 # Optional: Import internal AI model (pseudo-code)
-# from internal_ai import suggest_fix_internal
-
-load_dotenv()
+# from internal_ai import suggest_fix_internal as load_dotenv()
 
 USE_OPENAI = os.getenv("USE_OPENAI", "true").lower() == "true"
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -75,21 +72,7 @@ def self_iterate():
 
 if __name__ == "__main__":
     self_iterate()
-```
-- Set `USE_OPENAI=false` in your `.env` to use internal AI (add your model integration in `suggest_fix_internal`).
-
----
-
-## 2. Web-Based Interface (Streamlit)
-
-### Features
-- Prompt input for errors, ideas, and feature requests
-- Error fixing using selected AI backend
-- Live code/design preview area
-- Simple, user-friendly sidebar navigation
-
-### Example Streamlit App
-```python
+``````python
 # self_building_ai/streamlit_app.py
 import streamlit as st
 import openai
@@ -135,43 +118,10 @@ elif choice == "Preview":
     html_code = st.text_area("Enter HTML/CSS code to preview:")
     if st.button("Render Preview"):
         components.html(html_code, height=400)
-```
-
----
-
-## 3. Beginner Guide: Setup & Deployment (iPad Pro/Online Tools)
-
-### 1. GitHub & Codespaces
-- Create a GitHub repo, add `.gitignore`, `LICENSE`, `.env`, `requirements.txt`.
-- Open Codespaces for browser-based development.
-
-### 2. Install Dependencies
-- In terminal:
-  ```bash
+``````python
 # NOTE: The following code had issues and was commented out
 #   pip install openai streamlit python-dotenv
-#   ```
-# 
-# ### 3. Configure `.env`
-```python
+#   ``````python
 OPENAI_API_KEY=your_openai_api_key
 USE_OPENAI=true  # or false for internal AI:
 ```
-
-### 4. Run the App
-- For error fixing: `python self_building_ai/error_fixer.py`
-- For web UI: `streamlit run self_building_ai/streamlit_app.py`
-
-### 5. Deploy (Free Hosting)
-- Use Render or Replit for free hosting.
-- For Docker: add `Dockerfile` and `docker-compose.yml` (see main docs).
-
----
-
-## 4. Ready for Extension
-- Add public/private build logic, subscription features, and integration with more platforms (IoT, 3D printing, etc.).
-- Expand AI backend options and UI/UX for advanced workflows.
-
----
-
-_Last updated: July 3, 2025_

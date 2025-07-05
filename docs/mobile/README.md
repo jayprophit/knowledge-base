@@ -46,24 +46,16 @@ To begin developing mobile applications that integrate with the knowledge base:
 ## Directory Structure
 
 ```text
-# /src/mobile/
-#   ├── App.js                  # Main application component
-#   ├── MultimodalCapture.js    # Component for capturing multimodal data
-#   ├── components/             # Reusable UI components
-#   ├── api/                    # API client for knowledge base
-#   ├── screens/                # Screen components
-#   ├── navigation/             # Navigation configuration
-#   ├── utils/                  # Utility functions
-#   └── assets/                 # Images, fonts, and other assets
-```
-
-## Installation
-
-### Dependencies
-
-For React Native projects:
-
-```text
+# /src / mobile/
+#   ├─ App.js                  # Main application component
+#   ├─ MultimodalCapture.js    # Component for capturing multimodal data
+#   ├─ components/             # Reusable UI components
+#   ├─ api/                    # API client for knowledge base
+#   ├─ screens/                # Screen components
+#   ├─ navigation/             # Navigation configuration
+#   ├─ utils/                  # Utility functions
+#   └─ assets/                 # Images, fonts, and other assets
+``````text
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # npm install# NOTE: The following code had syntax errors and was commented out
@@ -74,9 +66,7 @@ For React Native projects:
 
 For iOS (CocoaPods):
 
-```text
-pod 'KnowledgeBaseMobileClient', '~> 1.0.0'
-```python
+``````text
 ## Core Components
 
 ### App.js
@@ -126,9 +116,7 @@ const client = new KnowledgeBaseClient({
   apiUrl: 'https://api.knowledge-base.example',
   apiKey: 'YOUR_API_KEY'
 });
-```text
-
-```javascript
+``````text
 // Fetch latest content
 const articles = await client.getArticles({ category: 'robotics' });
 
@@ -137,9 +125,7 @@ await client.saveOffline(articles);
 
 // Access offline content
 const offlineArticles = await client.getOfflineArticles('robotics');
-```text
-
-```javascript
+``````text
 import { captureImage, captureAudio } from '@knowledge-base/mobile-client';
 
 // Capture image
@@ -154,46 +140,3 @@ const audioResult = await captureAudio({ maxDuration: 60 });
 // Transcribe and analyze
 const audioAnalysis = await client.analyzeAudio(audioResult.uri);
 ```
-
-## Best Practices
-
-1. **Performance**: Optimize UI rendering and minimize network requests
-2. **Offline Support**: Design for offline-first experience
-3. **Authentication**: Use secure authentication methods
-4. **Error Handling**: Implement graceful error handling and recovery
-5. **Testing**: Test on multiple devices and network conditions
-6. **Accessibility**: Ensure app is accessible to all users
-7. **Battery Efficiency**: Minimize battery usage
-
-## Troubleshooting
-
-Common issues and their solutions:
-
-- [Connectivity Issues](../../temp_reorg/docs/robotics/troubleshooting.md)
-- [Performance Problems](../../temp_reorg/docs/robotics/troubleshooting.md)
-- [Authentication Errors](../../temp_reorg/docs/robotics/troubleshooting.md)
-- [API Integration Issues](../../temp_reorg/docs/robotics/troubleshooting.md)
-
-## Examples
-
-Example projects demonstrating integration with the knowledge base:
-
-- [Simple Knowledge Browser](examples/knowledge-browser.md)
-- [Multimodal Capture App](examples/multimodal-capture.md)
-- [Offline Documentation Viewer](examples/offline-viewer.md)
-
-## References
-
-- [Mobile Development Standards](references/standards.md)
-- [API Documentation](references/api-docs.md)
-- [Component Library](references/component-library.md)
-- [Integration with Backend Systems](references/backend-integration.md)
-
-## Contributing
-
-Guidelines for contributing to the mobile module:
-
-- [Development Setup](contributing/development-setup.md)
-- [Coding Standards](contributing/coding-standards.md)
-- [Testing Guidelines](contributing/testing.md)
-- [Documentation Guidelines](contributing/documentation.md)

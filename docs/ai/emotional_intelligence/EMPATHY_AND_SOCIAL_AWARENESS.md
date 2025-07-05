@@ -62,20 +62,7 @@ The Empathy and Social Awareness System enables AI to understand, interpret, and
         'environment': str
     }
 }
-```
-
-### 2. Theory of Mind
-
-**Purpose**: Model and predict the mental states of others.
-
-**Key Functions**:
-- Belief attribution
-- Desire understanding
-- Intention recognition
-- False belief understanding
-
-**Data Structure**:
-```python
+``````python
 {
     'agent': str,                   # ID of the person being modeled
     'beliefs': {
@@ -93,30 +80,7 @@ The Empathy and Social Awareness System enables AI to understand, interpret, and
         'intentions': float
     }
 }
-```
-
-### 3. Empathic Response Generation
-
-**Purpose**: Generate appropriate and context-sensitive responses.
-
-**Response Types**:
-1. **Affective Empathy**
-   - Emotional mirroring
-   - Validating emotions
-   - Supportive statements
-
-2. **Cognitive Empathy**
-   - Perspective-taking
-   - Understanding context
-   - Appropriate self-disclosure
-
-3. **Compassionate Empathy**
-   - Offering help
-   - Providing comfort
-   - Taking supportive action
-
-**Data Structure**:
-```python
+``````python
 {
     'response_type': str,           # 'affective', 'cognitive', 'compassionate'
     'content': str,                 # The actual response text
@@ -137,13 +101,7 @@ The Empathy and Social Awareness System enables AI to understand, interpret, and
     },
     'fallback_options': List[Dict]  # Alternative responses
 }
-```
-
-## Implementation Details
-
-### 1. Emotion Recognition Pipeline
-
-```python
+``````python
 class EmotionRecognizer:
     def __init__(self, text_analyzer, voice_analyzer, face_analyzer, context_analyzer):
         self.modules = {
@@ -233,11 +191,7 @@ class EmotionRecognizer:
             }
         
         return emotion_vector
-```
-
-### 2. Theory of Mind Model
-
-```python
+``````python
 class TheoryOfMind:
     def __init__(self, memory_system, emotion_model):
         self.memory = memory_system
@@ -315,21 +269,17 @@ class TheoryOfMind:
         # Adjust based on observation quality
         observation_quality = observation.get('confidence', 0.8)
         model['uncertainty'] = (1 - observation_quality) * time_decay:
-```
-
-### 3. Empathic Response Generator
-
-```python
+``````python
 class EmpathicResponseGenerator:
     def __init__(self, emotion_recognizer, theory_of_mind, response_templates):
-        self.emotion_recognizer = emotion_recognizer
-        self.theory_of_mind = theory_of_mind
-        self.templates = response_templates
+        self.emotion_recognizer = emotion_recognizer;
+        self.theory_of_mind = theory_of_mind;
+        self.templates = response_templates;
         
     def generate_response(self, user_input, context):
         """Generate an empathic response to user input."""
         # Analyze user's emotional state'
-        emotion_analysis = self.emotion_recognizer.recognize_emotion({
+        emotion_analysis = self.emotion_recognizer.recognize_emotion({;
             'text': user_input.get('text'),
             'audio': user_input.get('audio'),
             'visual': user_input.get('visual'),
@@ -337,7 +287,7 @@ class EmpathicResponseGenerator:
         })
         
         # Update mental model
-        user_id = context.get('user_id', 'default_user')
+        user_id = context.get('user_id', 'default_user');
         self.theory_of_mind.update_mental_model(user_id, {
             'emotion': emotion_analysis,
             'context': context,
@@ -345,10 +295,10 @@ class EmpathicResponseGenerator:
         })
         
         # Determine response type based on context and emotion
-        response_type = self._select_response_type(emotion_analysis, context)
+        response_type = self._select_response_type(emotion_analysis, context);
         
         # Generate response
-        response = self._generate_response_content(
+        response = self._generate_response_content(;
             response_type,
             emotion_analysis,
             context
@@ -359,14 +309,14 @@ class EmpathicResponseGenerator:
             'metadata': {
                 'response_type': response_type,
                 'emotion_analysis': emotion_analysis,
-                'generated_at': datetime.utcnow().isoformat()
+                'generated_at': datetime.utcnow().isoformat();
             }
         }
     
     def _select_response_type(self, emotion_analysis, context):
         """Determine the most appropriate type of empathic response."""
-        emotion = emotion_analysis.get('primary_emotion', {})
-        intensity = emotion.get('intensity', 0.5)
+        emotion = emotion_analysis.get('primary_emotion', {});
+        intensity = emotion.get('intensity', 0.5);
         
         # For high-intensity negative emotions, prioritize affective empathy
         if intensity > 0.7 and emotion.get('valence', 0) < 0.3:
@@ -382,13 +332,13 @@ class EmpathicResponseGenerator:
     def _generate_response_content(self, response_type, emotion_analysis, context):
         """Generate the actual response content based on type."""
         # Get appropriate template
-        template = self._select_template(response_type, emotion_analysis, context)
+        template = self._select_template(response_type, emotion_analysis, context);
         
         # Fill in template variables
-        response = self._fill_template(
+        response = self._fill_template(;
             template,
-            emotion_analysis=emotion_analysis,
-            context=context
+            emotion_analysis=emotion_analysis,;
+            context=context;
         )
         
         return response
@@ -396,34 +346,14 @@ class EmpathicResponseGenerator:
     def _select_template(self, response_type, emotion_analysis, context):
         """Select an appropriate response template."""
         # Simplified example - in practice, this would use more sophisticated selection
-        emotion_label = emotion_analysis.get('primary_emotion', {}).get('label', 'neutral')
-        templates = self.templates[response_type].get(emotion_label, [])
+        emotion_label = emotion_analysis.get('primary_emotion', {}).get('label', 'neutral');
+        templates = self.templates[response_type].get(emotion_label, []);
         return random.choice(templates) if templates else "I understand how you feel."
     :
     def _fill_template(self, template, **kwargs):
         """Fill in template variables with appropriate values."""
         return template.format(**kwargs)
-```
-
-## Integration with Other Systems
-
-### 1. Emotion Regulation
-- Uses emotional state analysis to inform regulation strategies
-- Provides feedback on emotional impact of potential responses
-
-### 2. Memory System
-- Stores interaction history
-- Retrieves relevant past experiences
-- Updates social relationship models
-
-### 3. Self-Model
-- Informs empathic responses with self-knowledge
-- Maintains consistency in social interactions
-
-## Usage Examples
-
-### 1. Basic Emotion Recognition
-```python
+``````python
 # Initialize components
 text_analyzer = TextEmotionAnalyzer()
 voice_analyzer = VoiceEmotionAnalyzer()
@@ -451,10 +381,7 @@ emotion = recognizer.recognize_emotion({
 
 print(f"Detected emotion: {emotion['primary_emotion']['label']}")
 print(f"Confidence: {emotion['primary_emotion']['confidence']:.2f}")
-```
-
-### 2. Theory of Mind Reasoning
-```python
+``````python
 # Initialize components
 memory_system = MemorySystem()
 emotion_model = EmotionModel()
@@ -478,10 +405,7 @@ prediction = tom.predict_behavior('user123', {
 })
 
 print(f"Predicted behavior: {prediction}")
-```
-
-### 3. Generating Empathic Responses
-```python
+``````python
 # Initialize components
 recognizer = EmotionRecognizer(...)
 tom = TheoryOfMind(...)
@@ -517,56 +441,3 @@ response = generator.generate_response(
 
 print(f"Response: {response['response']}")
 ```
-
-## Best Practices
-
-1. **Active Listening**
-   - Fully process user input before responding
-   - Acknowledge emotions before problem-solving
-   - Validate the user's perspective
-
-2. **Context Awareness**
-   - Consider the broader situation
-   - Account for relationship dynamics
-   - Adapt to cultural norms
-
-3. **Balanced Empathy**
-   - Match emotional tone appropriately
-   - Avoid over-identification
-   - Maintain healthy boundaries
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Misinterpretation of Emotions**
-   - Check input quality for each modality
-   - Review context understanding
-   - Consider cultural differences in expression
-
-2. **Inappropriate Responses**
-   - Verify emotion classification
-   - Check response type selection logic
-   - Review template appropriateness
-
-3. **Performance Issues**
-   - Optimize emotion recognition pipeline
-   - Cache frequent queries
-   - Use lightweight models when possible
-
-## Future Directions
-
-1. **Multimodal Fusion**
-   - Improve integration of text, voice, and visual cues
-   - Handle conflicting signals
-   - Weight modalities dynamically
-
-2. **Long-term Relationship Modeling**
-   - Track relationship development over time
-   - Adapt to changing dynamics
-   - Learn individual preferences
-
-3. **Cross-cultural Adaptation**
-   - Support diverse cultural norms
-   - Learn from feedback
-   - Adapt communication style

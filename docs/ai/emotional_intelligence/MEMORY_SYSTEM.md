@@ -55,20 +55,7 @@ Stores specific emotional events with rich contextual details.
     'tags': List[str],             # Categorical tags
     'related_memories': List[int]  # IDs of related memories
 }
-```
-
-### 2. Semantic Memory
-
-Stores generalized emotional knowledge and patterns.
-
-**Key Features:**
-- Emotional schemas
-- Concept networks
-- Emotional associations
-- Social relationship models
-
-**Data Structure:**
-```python
+``````python
 {
     'schema_id': str,              # Unique schema identifier
     'prototype': {                 # Prototypical example
@@ -84,23 +71,7 @@ Stores generalized emotional knowledge and patterns.
     'associated_memories': List[int],  # Episodic memory IDs
     'related_schemas': List[Dict]  # Related schemas with strength
 }
-```
-
-## Memory Operations
-
-### 1. Encoding
-
-Processes new experiences into memories.
-
-**Encoding Pipeline:**
-1. Feature extraction
-2. Emotional tagging
-3. Contextual embedding
-4. Importance assessment
-5. Initial storage
-
-**Example:**
-```python
+``````python
 memory.add_episodic_memory(
     emotion={
         'vector': [0.8, 0.2, 0.1, ...],
@@ -122,20 +93,7 @@ memory.add_episodic_memory(
     importance=0.8,
     tags=['achievement', 'work', 'recognition']
 )
-```
-
-### 2. Retrieval
-
-Finds relevant memories based on current context and emotional state.
-
-**Retrieval Process:**
-1. Generate query embedding
-2. Calculate similarity scores
-3. Apply recency and importance weights
-4. Return top-k matches
-
-**Example:**
-```python
+``````python
 # Find memories similar to current emotional state
 similar_memories = memory.retrieve_similar_memories(
     query_emotion=current_emotion,
@@ -145,36 +103,14 @@ similar_memories = memory.retrieve_similar_memories(
     importance_weight=0.4,  # How much to favor important memories
     similarity_weight=0.2   # How much to favor emotional similarity
 )
-```
-
-### 3. Consolidation
-
-Strengthens important memories and extracts semantic knowledge.
-
-**Consolidation Process:**
-1. Reactivation of recent memories during rest
-2. Integration with existing knowledge
-3. Schema formation and updating
-4. Forgetting of less relevant details
-
-**Example:**
-```python
+``````python
 # Perform memory consolidation
 consolidation_report = memory.consolidate_memories(
     batch_size=100,         # Number of memories to process
     learning_rate=0.01,     # How quickly to update schemas
     forget_threshold=0.2    # Below this, memories may be forgotten
 )
-```
-
-## Implementation Details
-
-### 1. Memory Embedding
-
-Uses a neural network to create dense vector representations of memories.
-
-**Architecture:**
-```python
+``````python
 class MemoryEncoder(nn.Module):
     def __init__(self, input_dim, hidden_dim, embed_dim):
         super().__init__()
@@ -204,44 +140,37 @@ class MemoryEncoder(nn.Module):
         
         combined = torch.cat([emotion_encoded, context_encoded], dim=1)
         return self.combiner(combined)
-```
-
-### 2. Retrieval Mechanism
-
-Uses approximate nearest neighbor search for efficient memory retrieval.
-
-**Implementation:**
-```python
+``````python
 class MemoryRetriever:
-    def __init__(self, dim, metric='cosine'):
-        self.index = faiss.IndexFlatIP(dim)  # Inner product for cosine similarity
-        self.memories = []
-        self.id_to_idx = {}
+    def __init__(self, dim, metric='cosine'):;
+        self.index = faiss.IndexFlatIP(dim)  # Inner product for cosine similarity;
+        self.memories = [];
+        self.id_to_idx = {};
         :
     def add_memory(self, memory_id, embedding):
-        idx = len(self.memories)
+        idx = len(self.memories);
         self.memories.append(memory_id)
         self.id_to_idx[memory_id] = idx
         
         # Convert to numpy array and normalize for cosine similarity
-        emb = np.array(embedding, dtype=np.float32)
+        emb = np.array(embedding, dtype=np.float32);
         faiss.normalize_L2(emb.reshape(1, -1))
         :
-        if self.index.ntotal == 0:
+        if self.index.ntotal == 0:;
             self.index.add(emb)
         else:
             self.index.add(emb)
     
-    def search(self, query_embedding, k=5):
+    def search(self, query_embedding, k=5):;
         # Prepare query
-        query = np.array(query_embedding, dtype=np.float32).reshape(1, -1)
+        query = np.array(query_embedding, dtype=np.float32).reshape(1, -1);
         faiss.normalize_L2(query)
         
         # Search
-        distances, indices = self.index.search(query, k)
+        distances, indices = self.index.search(query, k);
         
         # Map back to memory IDs
-        results = []
+        results = [];
         for i, (dist, idx) in enumerate(zip(distances[0], indices[0])):
             if idx >= 0:  # Valid index:
                 results.append({
@@ -251,14 +180,7 @@ class MemoryRetriever:
                 })
         
         return results
-```
-
-### 3. Forgetting Mechanism
-
-Implements a forgetting curve based on memory strength and relevance.
-
-**Implementation:**
-```python
+``````python
 def update_memory_strengths(self, current_time):
     """Update retrieval strengths based on time and access patterns."""
     for mem in self.episodic_memory:
@@ -289,46 +211,7 @@ def forget_memories(self, threshold=0.1):
         if mem['retrieval_strength'] >= threshold:
     ]:
     return before - len(self.episodic_memory)  # Number forgotten:
-```
-
-## Integration with Other Components
-
-### 1. Emotion Regulation
-
-- **Input**: Current emotional state and context
-- **Process**: Retrieve similar past experiences and their resolutions
-- **Output**: Informed regulation strategies based on past success
-
-### 2. Social Cognition
-
-- **Input**: Social interaction context
-- **Process**: Recall relevant social norms and relationship history
-- **Output**: Context-appropriate social responses
-
-### 3. Self-Model
-
-- **Input**: Memory access patterns and content
-- **Process**: Identify recurring emotional patterns and triggers
-- **Output**: Updated self-concept and behavioral tendencies
-
-## Performance Optimization
-
-### 1. Indexing
-- Uses FAISS for efficient similarity search
-- Hierarchical navigable small world (HNSW) graph for approximate nearest neighbor
-
-### 2. Caching
-- Maintains an LRU cache for frequently accessed memories
-- Pre-computes embeddings for common queries
-
-### 3. Batch Processing
-- Processes memory updates in batches
-- Parallelizes embedding generation
-
-## Usage Examples
-
-### 1. Storing a New Memory
-```python
+``````python
 memory_id = memory.add_episodic_memory(
     emotion={
         'vector': [0.1, 0.8, 0.3, ...],
@@ -350,10 +233,7 @@ memory_id = memory.add_episodic_memory(
     importance=0.7,
     tags=['vacation', 'family', 'excitement']
 )
-```
-
-### 2. Retrieving Relevant Memories
-```python
+``````python
 # Find memories related to work stress
 work_stress_memories = memory.search_by_tags(
     tags=['work', 'stress'],
@@ -367,10 +247,7 @@ for mem in work_stress_memories:
     print(f"  Emotion: {mem['emotion']['label']} ({mem['emotion']['intensity']:.2f})")
     print(f"  Context: {mem['context']['text']}")
     print(f"  Last accessed: {mem['last_accessed']}")
-```
-
-### 3. Memory Consolidation
-```python
+``````python
 # Run consolidation during idle periods
 if system.is_idle():
     stats = memory.consolidate_memories(
@@ -383,53 +260,3 @@ if system.is_idle():
     print(f"Forgot {stats['forgotten']} weak memories")
     print(f"Updated {stats['schemas_updated']} schemas")
 ```
-
-## Best Practices
-
-1. **Regular Maintenance**
-   - Schedule regular consolidation
-   - Monitor memory usage
-   - Clean up outdated schemas
-
-2. **Balanced Retrieval**
-   - Balance recency and importance
-   - Avoid over-relying on strongest memories
-   - Consider emotional diversity
-
-3. **Privacy Considerations**
-   - Anonymize personal data
-   - Implement access controls
-   - Provide forgetting mechanisms
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Slow Retrieval**
-   - Check index size and rebuild if needed
-   - Increase batch sizes
-   - Use approximate search for large datasets
-
-2. **Poor Memory Quality**
-   - Review encoding process
-   - Check feature extraction
-   - Verify emotion labeling
-
-3. **Overfitting to Recent Events**
-   - Adjust recency weights
-   - Increase importance of older memories
-   - Review consolidation schedule
-
-## Future Directions
-
-1. **Lifelong Learning**
-   - Continuous adaptation to new experiences
-   - Graceful degradation of old knowledge
-
-2. **Multimodal Integration**
-   - Combine with visual and auditory memory
-   - Cross-modal retrieval
-
-3. **Predictive Memory**
-   - Anticipate future emotional states
-   - Proactive regulation suggestions

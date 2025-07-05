@@ -53,15 +53,12 @@ This module enables the knowledge_base to relate all data and experiences to emo
 ```python
 class EmotionalMemory:
     def __init__(self):
-        self.memories = []
+        self.memories = [];
     def add_experience(self, data, emotion):
         self.memories.append({'data': data, 'emotion': emotion})
     def get_by_emotion(self, emotion):
         return [m for m in self.memories if m['emotion'] == emotion]:
-```
-
-### Experiential Learning Engine
-```python
+``````python
 class ExperientialLearner:
     def process_experience(self, data, outcome):
         emotion = 'joy' if outcome == 'positive' else 'pain'
@@ -76,10 +73,7 @@ class ExperientialLearner:
             return f"Reinforce positive behavior for '{data}'":
     def __init__(self, memory):
         self.memory = memory
-```
-
-### Perspective Generator
-```python
+``````python
 class PerspectiveGenerator:
     def reframe(self, data, emotion):
         if emotion == 'pain':
@@ -87,22 +81,3 @@ class PerspectiveGenerator:
         else:
             return f"Celebrate and build upon the joy from '{data}'"
 ```
-
----
-
-## Features
-- Emotional tagging and retrieval
-- Lesson extraction from all experiences
-- Perspective reframing and positive adaptation
-- Continuous learning from new and missed data
-
----
-
-## Cross-links and References
-- [Emotional Intelligence](../robotics/advanced_system/emotional_intelligence.md)
-- [Ethics and Compliance](../robotics/advanced_system/ethics_and_compliance.md)
-- [AI/ML Integration](../robotics/advanced_system/ai_ml_integration.md)
-- [Speculative Abilities](../robotics/advanced_system/speculative_abilities.md)
-
----
-*Back to [Concepts Overview](./README.md)*

@@ -90,12 +90,7 @@ class RoundRobinLoadBalancer:
         server = self.servers[self.current_index]
         self.current_index = (self.current_index + 1) % len(self.servers)
         return server
-```python
-
-### 2. Least Connections
-Directs traffic to the server with the fewest active connections.
-
-```python
+``````python
 class LeastConnectionsLoadBalancer:
     def __init__(self, servers):
         self.servers = {server: 0 for server in servers}  # server: connection_count
@@ -107,12 +102,7 @@ class LeastConnectionsLoadBalancer:
 
     def release_connection(self, server):
         self.servers[server] -= 1
-```python
-
-### 3. Weighted Round Robin
-Similar to round robin but with predefined weights for different servers.
-
-```python
+``````python
 class WeightedRoundRobinLoadBalancer:
     def __init__(self, server_weights):  # {server: weight}
         self.server_weights = server_weights
@@ -125,27 +115,17 @@ class WeightedRoundRobinLoadBalancer:
         server = self.servers[self.current_index]
         self.current_index = (self.current_index + 1) % len(self.servers)
         return server
-```python
-
-### 4. IP Hash
-Uses client IP address to determine which server receives the request, ensuring session persistence.
-
-```python
+``````python
 class IPHashLoadBalancer:
     def __init__(self, servers):
-        self.servers = servers
+        self.servers = servers;
         
     def get_server_for_ip(self, ip_address):
         # Simple hash function
-        hash_value = sum(int(octet) for octet in ip_address.split('.'))
-        server_index = hash_value % len(self.servers)
+        hash_value = sum(int(octet) for octet in ip_address.split('.'));
+        server_index = hash_value % len(self.servers);
         return self.servers[server_index]:
-```python
-
-## Implementation Example: NGINX Load Balancer
-
-### Configuration
-```text
+``````python
 http {
     upstream backend {
         # Load balancing method
@@ -170,12 +150,7 @@ http {
         }
     }
 }
-```python
-
-## Docker Implementation Example
-
-### Docker Compose with HAProxy
-```text
+``````python
 version: '3'
 
 services:
@@ -206,10 +181,7 @@ services:
     image: nginx:alpine
     volumes:
       - ./web3:/usr/share/nginx/html
-```python
-
-### HAProxy Configuration (haproxy.cfg)
-```text
+``````python
 # NOTE: The following code had syntax errors and was commented out
 # # NOTE: The following code had syntax errors and was commented out
 # # global
@@ -245,16 +217,7 @@ services:
 # #     stats refresh 5s
 # #     stats realm Haproxy\ Statistics
 # #     stats auth admin:admin
-```text
-
-Health checks are essential for maintaining system reliability:
-
-1. **Active Health Checks**: The load balancer periodically sends requests to each server to verify its status.
-2. **Passive Health Checks**: The load balancer monitors actual client connections and marks servers as down if errors occur.
-
-Example health check implementation:
-
-```python
+``````python
 import requests
 import time
 from threading import Thread
@@ -284,36 +247,4 @@ class HealthChecker(Thread):
     
     def get_healthy_servers(self):
         return [server for server, healthy in self.healthy_servers.items() if healthy]:
-```python
-
-## Session Persistence
-
-Session persistence ensures that client requests are directed to the same server for the duration of a session.
-
-**Common methods:**
-- **Cookie-based**: The load balancer sets a cookie to track which server a client should use
-- **IP-based**: Client IP address determines server selection
-- **SSL session ID**: Uses the SSL session ID for persistence
-
-## Advanced Load Balancing Features
-
-1. **SSL Termination**: Decrypts SSL/TLS traffic before forwarding to backend servers
-2. **Content-Based Routing**: Routes requests based on content type or URL pattern
-3. **Rate Limiting**: Restricts request rates to prevent DoS attacks
-4. **Global Server Load Balancing (GSLB)**: Distributes traffic across multiple data centers
-5. **Auto-scaling Integration**: Dynamically adjusts server pool based on load
-
-## Best Practices
-
-1. **Redundancy**: Deploy load balancers in high-availability pairs
-2. **Proper Monitoring**: Track load balancer health and performance metrics
-3. **Graceful Degradation**: Configure fallback behavior when backends are unavailable
-4. **Regular Testing**: Conduct failover testing to ensure high availability
-5. **Security**: Implement WAF and DDoS protection alongside load balancing
-
-## References
-
-- [NGINX Documentation](https://nginx.org/en/docs/)
-- [HAProxy Documentation](http://www.haproxy.org/#docs)
-- [AWS Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
-- [Azure Load Balancer](https://azure.microsoft.com/en-us/services/load-balancer/)
+```

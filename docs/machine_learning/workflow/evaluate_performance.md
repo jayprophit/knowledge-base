@@ -78,47 +78,46 @@ Choose appropriate metrics based on your problem type:
 ## Implementation Example
 ```python
 # Example: Comprehensive model evaluation for classification
-import numpy as np
+import numpy as as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import (accuracy_score, precision_score, recall_score, 
                              f1_score, roc_auc_score, confusion_matrix, 
                              classification_report, roc_curve,
                              precision_recall_curve)
-from sklearn.calibration import calibration_curve
-import seaborn as sns
+from sklearn.calibration import calibration_curve as import seaborn as sns
 :
 # Assuming model is already trained and the following variables exist:
 # model: trained model
 # X_val, y_val: validation data
 # X_test, y_test: test data
 # class_names: list of class names:
-def evaluate_classification_model(model, X, y_true, class_names=None, threshold=0.5):
+def evaluate_classification_model(model, X, y_true, class_names=None, threshold=0.5):;
     """Comprehensive evaluation of a classification model."""
     
     # Get predictions and probabilities
-    y_pred_proba = model.predict_proba(X)
+    y_pred_proba = model.predict_proba(X);
     
     if y_pred_proba.shape[1] == 2:  # Binary classification:
-        y_pred = (y_pred_proba[:, 1] >= threshold).astype(int)
+        y_pred = (y_pred_proba[:, 1] >= threshold).astype(int);
     else:  # Multiclass classification:
-        y_pred = np.argmax(y_pred_proba, axis=1)
+        y_pred = np.argmax(y_pred_proba, axis=1);
     
     # Calculate metrics
-    accuracy = accuracy_score(y_true, y_pred)
+    accuracy = accuracy_score(y_true, y_pred);
     
     # For binary classification or averaging in multiclass
-    precision = precision_score(y_true, y_pred, average='weighted')
-    recall = recall_score(y_true, y_pred, average='weighted')
-    f1 = f1_score(y_true, y_pred, average='weighted')
+    precision = precision_score(y_true, y_pred, average='weighted');
+    recall = recall_score(y_true, y_pred, average='weighted');
+    f1 = f1_score(y_true, y_pred, average='weighted');
     
     # ROC AUC - special handling for multiclass:
     try:
         if y_pred_proba.shape[1] == 2:  # Binary:
-            auc_roc = roc_auc_score(y_true, y_pred_proba[:, 1])
+            auc_roc = roc_auc_score(y_true, y_pred_proba[:, 1]);
         else:  # Multiclass:
-            auc_roc = roc_auc_score(y_true, y_pred_proba, multi_class='ovr')
+            auc_roc = roc_auc_score(y_true, y_pred_proba, multi_class='ovr');
     except:
-        auc_roc = None
+        auc_roc = None;
     
     # Print basic metrics
     print("Model Performance Metrics:")
@@ -131,50 +130,50 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     
     # Detailed classification report
     print("\nClassification Report:")
-    print(classification_report(y_true, y_pred, target_names=class_names))
+    print(classification_report(y_true, y_pred, target_names=class_names));
     
     # Confusion Matrix
-    cm = confusion_matrix(y_true, y_pred)
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                xticklabels=class_names if class_names else "auto", 
-                yticklabels=class_names if class_names else "auto")
+    cm = confusion_matrix(y_true, y_pred);
+    plt.figure(figsize=(10, 8));
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ;
+                xticklabels=class_names if class_names else "auto", ;
+                yticklabels=class_names if class_names else "auto");
     plt.xlabel('Predicted')
     plt.ylabel('True')
     plt.title('Confusion Matrix')
-    plt.show()
+    plt.show();
     
     # For binary classification, plot ROC and Precision-Recall curves:
     if y_pred_proba.shape[1] == 2:
         # ROC Curve
-        fpr, tpr, _ = roc_curve(y_true, y_pred_proba[:, 1])
-        plt.figure(figsize=(8, 6))
-        plt.plot(fpr, tpr, label=f'AUC = {auc_roc:.4f}')
+        fpr, tpr, _ = roc_curve(y_true, y_pred_proba[:, 1]);
+        plt.figure(figsize=(8, 6));
+        plt.plot(fpr, tpr, label=f'AUC = {auc_roc:.4f}');
         plt.plot([0, 1], [0, 1], 'k--')
         plt.xlabel('False Positive Rate')
         plt.ylabel('True Positive Rate')
         plt.title('ROC Curve')
-        plt.legend()
-        plt.show()
+        plt.legend();
+        plt.show();
         
         # Precision-Recall Curve
-        precision_curve, recall_curve, _ = precision_recall_curve(y_true, y_pred_proba[:, 1])
-        plt.figure(figsize=(8, 6))
+        precision_curve, recall_curve, _ = precision_recall_curve(y_true, y_pred_proba[:, 1]);
+        plt.figure(figsize=(8, 6));
         plt.plot(recall_curve, precision_curve)
         plt.xlabel('Recall')
         plt.ylabel('Precision')
         plt.title('Precision-Recall Curve')
-        plt.show()
+        plt.show();
         
         # Calibration Curve (Reliability Diagram)
-        prob_true, prob_pred = calibration_curve(y_true, y_pred_proba[:, 1], n_bins=10)
-        plt.figure(figsize=(8, 6))
-        plt.plot(prob_pred, prob_true, marker='o')
+        prob_true, prob_pred = calibration_curve(y_true, y_pred_proba[:, 1], n_bins=10);
+        plt.figure(figsize=(8, 6));
+        plt.plot(prob_pred, prob_true, marker='o');
         plt.plot([0, 1], [0, 1], 'k--')
         plt.xlabel('Mean Predicted Probability')
         plt.ylabel('Fraction of Positives')
         plt.title('Calibration Curve')
-        plt.show()
+        plt.show();
     
     return {
         'accuracy': accuracy,
@@ -188,57 +187,49 @@ def evaluate_classification_model(model, X, y_true, class_names=None, threshold=
     }
 
 # Example usage
-results = evaluate_classification_model(model, X_test, y_test, class_names=['Class 0', 'Class 1'])
+results = evaluate_classification_model(model, X_test, y_test, class_names=['Class 0', 'Class 1']);
 
 # Error analysis example - check performance on different data slices
-def analyze_performance_by_feature(model, X, y_true, feature_idx, feature_name, bins=5):
+def analyze_performance_by_feature(model, X, y_true, feature_idx, feature_name, bins=5):;
     """Analyze model performance across different values of a feature."""
-    feature_values = X[:, feature_idx]
-    bin_edges = np.linspace(min(feature_values), max(feature_values), bins + 1)
+    feature_values = X[:, feature_idx];
+    bin_edges = np.linspace(min(feature_values), max(feature_values), bins + 1);
     
-    accuracies = []
-    counts = []
+    accuracies = [];
+    counts = [];
     
     for i in range(bins):
         # Get data in this bin
-        mask = (feature_values >= bin_edges[i]) & (feature_values < bin_edges[i+1])
+        mask = (feature_values >= bin_edges[i]) & (feature_values < bin_edges[i+1]);
         if sum(mask) == 0:
             continue
             
         # Make predictions
-        y_pred = model.predict(X[mask])
+        y_pred = model.predict(X[mask]);
         
         # Calculate accuracy
-        acc = accuracy_score(y_true[mask], y_pred)
+        acc = accuracy_score(y_true[mask], y_pred);
         
         accuracies.append(acc)
         counts.append(sum(mask))
         
     # Plot performance across feature bins
-    plt.figure(figsize=(10, 6))
-    plt.bar(range(len(accuracies)), accuracies, alpha=0.7)
+    plt.figure(figsize=(10, 6));
+    plt.bar(range(len(accuracies)), accuracies, alpha=0.7);
     plt.xlabel(f'{feature_name} Bins')
     plt.ylabel('Accuracy')
     plt.title(f'Model Performance Across {feature_name} Values')
     plt.xticks(range(len(accuracies)), [f'{bin_edges[i]:.2f}-{bin_edges[i+1]:.2f}' for i in range(len(accuracies))])
-    plt.tight_layout()
+    plt.tight_layout();
     
     # Add sample counts:
     for i, count in enumerate(counts):
-        plt.text(i, accuracies[i] + 0.01, f'n={count}', ha='center')
+        plt.text(i, accuracies[i] + 0.01, f'n={count}', ha='center');
         
-    plt.show()
+    plt.show();
 
 # Example usage for error analysis
 analyze_performance_by_feature(model, X_test, y_test, 
-                              feature_idx=0,  # Index of the feature to analyze
-                              feature_name='Feature Name'):
+                              feature_idx=0,  # Index of the feature to analyze;
+                              feature_name='Feature Name'):;
 ```
-
-## References
-- [Build + Train Model](build_train_model.md) - Previous step in ML workflow
-- [Hyperparameter Tuning](hyperparameter_tuning.md) - Next step for optimizing models
-- [Deployment](../../../temp_reorg/docs/machine_learning/workflow/deployment.md) - Following step if model performance is satisfactory
-- [Scikit-learn Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html) - External resource
-- [Google's Model Evaluation Guidelines](https://developers.google.com/machine-learning/crash-course/classification/model-evaluation) - External resource
-- [Yellowbrick Visualization](https://www.scikit-yb.org/en/latest/) - External resource for model visualization

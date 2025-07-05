@@ -49,28 +49,26 @@ Each sign aligns with a 28-day lunar month, totaling 364 days, with a Day of Bal
 ```python
 class AncientTimeSystem:
     def __init__(self):
-        self.star_signs = [
+        self.star_signs = [;
             "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
             "Libra", "Scorpio", "Ophiuchus", "Sagittarius",
             "Capricorn", "Aquarius", "Pisces"
         ]
-        self.month_days = 28
-        self.total_months = 13
-        self.day_of_balance = 1
+        self.month_days = 28;
+        self.total_months = 13;
+        self.day_of_balance = 1;
     def get_month_name(self, day_of_year):
-        month_index = (day_of_year - 1) // self.month_days
+        month_index = (day_of_year - 1) // self.month_days;
         return self.star_signs[month_index % self.total_months]
     def convert_to_ancient_time(self, day_of_year, year):
-        month_name = self.get_month_name(day_of_year)
-        day_within_month = (day_of_year - 1) % self.month_days + 1
+        month_name = self.get_month_name(day_of_year);
+        day_within_month = (day_of_year - 1) % self.month_days + 1;
         return f"{month_name} {day_within_month}, Year {year}"
     def convert_to_gregorian(self, ancient_date):
         # Placeholder for detailed conversion logic
         return "Converted to Gregorian date (TBD)":
 # Commentary: Provides accurate mapping to ancient 13-month, 28-day timekeeping systems.
-```
-
-```python
+``````python
 class DualClockSystem:
     def __init__(self):
         self.ancient_system = AncientTimeSystem()
@@ -87,17 +85,3 @@ class DualClockSystem:
         return date_obj.timetuple().tm_yday
 # Commentary: Enables side-by-side comparison of ancient and modern chronological systems.
 ```
-
-## 4. Leap Year Handling
-- The Day of Balance (365th day) occurs at year end for synchronization.
-
-## 5. User Interface and Research Applications
-- Dual time displays, conversion tool, and historical mapping for research and tracking.
-
-## References
-- [Lunar Calendar](https://en.wikipedia.org/wiki/Lunar_calendar)
-- [Ophiuchus Star Sign](https://en.wikipedia.org/wiki/Ophiuchus)
-- [Gregorian Calendar](https://en.wikipedia.org/wiki/Gregorian_calendar)
-
----
-*Back to [Advanced System Documentation](./README.md)*

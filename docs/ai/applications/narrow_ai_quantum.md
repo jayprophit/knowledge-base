@@ -40,63 +40,52 @@ Optimize quantum circuits by adjusting gate sequences and parameters using AI-dr
 #### Reinforcement Learning for Circuit Optimization
 
 ```python
-import numpy as np
-import tensorflow as tf
+import numpy as as np
+import tensorflow as as tf
 from qiskit import QuantumCircuit, Aer, execute
 
 class QuantumCircuitAgent:
-    def __init__(self, learning_rate=0.01):
-        self.model = tf.keras.Sequential([
-            tf.keras.layers.Dense(16, input_shape=(1,), activation='relu'),
-            tf.keras.layers.Dense(32, activation='relu'),
-            tf.keras.layers.Dense(1, activation='linear')
+    def __init__(self, learning_rate=0.01):;
+        self.model = tf.keras.Sequential([;
+            tf.keras.layers.Dense(16, input_shape=(1,), activation='relu'),;
+            tf.keras.layers.Dense(32, activation='relu'),;
+            tf.keras.layers.Dense(1, activation='linear');
         ])
-        self.model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate), 
-                         loss='mse')
+        self.model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate), ;
+                         loss='mse');
 
     def train(self, param, reward):
-        self.model.fit(np.array([param]), np.array([reward]), verbose=0)
+        self.model.fit(np.array([param]), np.array([reward]), verbose=0);
 
     def predict(self, param):
         return self.model.predict(np.array([param]))[0][0]
 
 def create_circuit(param):
-    circuit = QuantumCircuit(2)
+    circuit = QuantumCircuit(2);
     circuit.ry(param, 0)
     circuit.cx(0, 1)
-    circuit.measure_all()
+    circuit.measure_all();
     return circuit
 
 def objective_function(param):
-    circuit = create_circuit(param)
-    simulator = Aer.get_backend('aer_simulator')
-    result = execute(circuit, simulator).result()
-    counts = result.get_counts()
+    circuit = create_circuit(param);
+    simulator = Aer.get_backend('aer_simulator');
+    result = execute(circuit, simulator).result();
+    counts = result.get_counts();
     return counts.get('00', 0)  # Reward for '00' state
 
 # Training the agent
-agent = QuantumCircuitAgent():
+agent = QuantumCircuitAgent():;
 for _ in range(100):
-    param = np.random.uniform(0, 2 * np.pi)
-    reward = objective_function(param)
+    param = np.random.uniform(0, 2 * np.pi);
+    reward = objective_function(param);
     agent.train(param, reward)
 
 # Test the trained agent
-test_param = np.random.uniform(0, 2 * np.pi)
-predicted_reward = agent.predict(test_param)
+test_param = np.random.uniform(0, 2 * np.pi);
+predicted_reward = agent.predict(test_param);
 print(f"Predicted reward for parameter {test_param:.4f}: {predicted_reward:.4f}")
-```
-
-## 2. Device Control AI
-
-### Objective
-Intelligently manage and control IoT devices connected to the quantum computing system.
-
-### Implementation
-
-#### MQTT-based Device Control
-
-```python
+``````python
 import paho.mqtt.client as mqtt
 import json
 
@@ -138,18 +127,7 @@ class DeviceController:
 # Start the device controller
 controller = DeviceController()
 controller.start()
-```
-
-## 3. Error Correction AI
-
-### Objective
-Detect and correct errors in quantum computations using machine learning techniques.
-
-### Implementation
-
-#### Supervised Learning for Error Correction
-
-```python
+``````python
 import tensorflow as tf
 import numpy as np
 
@@ -219,13 +197,7 @@ if __name__ == "__main__":
     print(f"MSE before correction: {mse_before:.6f}")
     print(f"MSE after correction:  {mse_after:.6f}")
     print(f"Improvement: {100 * (mse_before - mse_after) / mse_before:.2f}%")
-```
-
-## Integration with Quantum Computing System
-
-### System Architecture
-
-```mermaid
+``````python
 flowchart TB
     subgraph Quantum_System[Quantum Computing System]
         QC[Quantum Computer]
@@ -246,34 +218,3 @@ flowchart TB
     
     DC <-->|MQTT| IoT_Devices
 ```
-
-## Performance Metrics
-
-| Component | Metric | Target |
-|-----------|--------|--------|
-| Circuit Optimization | Gate Count Reduction | >20% |
-| Error Correction | Error Rate Reduction | >50% |
-| Device Control | Response Time | <100ms |
-| Training | Convergence Epochs | <100 |
-
-## Future Enhancements
-
-1. **Hybrid Quantum-Classical Models**
-   - Implement quantum neural networks for enhanced learning capabilities
-   - Explore quantum-enhanced optimization techniques
-
-2. **Advanced Error Mitigation**
-   - Implement topological error correction codes
-   - Develop noise-adaptive correction strategies
-
-3. **Distributed AI**
-   - Federated learning across multiple quantum devices
-   - Edge AI for real-time device control
-
-4. **Explainable AI**
-   - Implement interpretability techniques for AI decisions
-   - Visualize quantum circuit optimizations
-
-## Conclusion
-
-This implementation of Narrow AI for quantum computing provides a robust framework for optimizing quantum circuits, controlling devices, and correcting errors. The modular design allows for easy integration with existing quantum computing systems and can be extended with more advanced AI techniques as needed.

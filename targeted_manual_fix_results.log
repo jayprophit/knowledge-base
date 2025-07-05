@@ -1,0 +1,47 @@
+=== Targeted Manual Fix Results ===
+
+Processing: C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\emotional_intelligence\SELF_AWARENESS.md
+  - Block: 2, Error: unterminated string literal
+  ✓ Fixed
+  - Block: 4, Error: unterminated string literal
+  ✗ Block 4 not found
+  - Block: 5, Error: invalid syntax
+  ✗ Block 5 not found
+  ✓ File updated with 1 fixes
+Processing: C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multilingual_understanding.md
+  - Block: 6, Error: unterminated string literal
+  ✓ Fixed
+  ✓ File updated with 1 fixes
+Processing: C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\guides\multimodal_integration.md
+  - Block: 2, Error: invalid syntax
+  ✗ No changes needed
+  - Block: 5, Error: invalid syntax
+  ✗ Block 5 not found
+  ✗ No blocks fixed in this file
+Processing: C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\multidisciplinary\integration.md
+  - Block: 1, Error: invalid syntax
+  ✗ No changes needed
+  ✗ No blocks fixed in this file
+Processing: C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\02_cognitive_functions.md
+  - Block: 1, Error: invalid syntax
+  ✗ No changes needed
+  - Block: 2, Error: invalid syntax
+  ✗ No changes needed
+  - Block: 3, Error: invalid syntax
+  ✗ No changes needed
+  - Block: 4, Error: invalid syntax
+  ✗ Block 4 not found
+  - Block: 5, Error: invalid syntax
+  ✗ Block 5 not found
+  ✗ No blocks fixed in this file
+Processing: C:\Users\jpowe\CascadeProjects\github\knowledge-base\docs\ai\virtual_brain\03_python_implementation.md
+  - Block: 1, Error: invalid syntax
+  ✗ No changes needed
+  ✗ No blocks fixed in this file
+
+=== Summary ===
+Files with known issues: 6
+Files fixed: 2
+Files with errors: 0
+Files skipped: 15
+Total code blocks fixed: 2

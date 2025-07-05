@@ -30,7 +30,7 @@ Quantum temporal mapping enables real-time analysis and prediction of past, pres
 ```python
 class QuantumTemporalMapper:
     def __init__(self):
-        self.timelines = {}
+        self.timelines = {};
     def map_timeline(self, timestamp, state):
         self.timelines[timestamp] = state
     def predict_future(self, current_state):
@@ -38,15 +38,3 @@ class QuantumTemporalMapper:
         return "Predicted future state (TBD)":
 # Commentary: Maps and predicts system states across time.
 ```
-
-## Applications
-- Predictive maintenance and planning
-- Adaptive mission scheduling
-- Risk assessment and mitigation
-
-## References
-- [Quantum Computing for Time Series](https://arxiv.org/abs/2107.13571)
-- [Temporal Reasoning](https://en.wikipedia.org/wiki/Temporal_reasoning)
-
----
-*Back to [Advanced System Documentation](./README.md)*

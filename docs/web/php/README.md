@@ -42,47 +42,12 @@ The `KnowledgeBaseAPI` class is a PHP client for accessing the Knowledge Base AP
 # # 
 # # // Get a specific article
 # # $article = $api->getArticle('article-123');
-```text
-
-The `KnowledgeBaseInterface` class provides a web interface for displaying and interacting with knowledge content. It includes templates for co# NOTE: The following code had syntax errors and was commented out
-# // Initialize the interface
-# $interface = new KnowledgeBaseInterface($api, 'templates', [
-#     'title' => 'Company Knowledge Base',
-#     'theme' => 'corporate'
-# ]);
-# 
-# // Display the home page
-# echo $interface->renderHome();
-# 
-# // Display search results
-# echo $interface->renderSearchResults('robotics', 1);();
-
-// Display search results
-echo $interface->renderSearchResults('robotics'# NOTE: The following code had syntax errors and was commented out
-# composer require knowledge-base/php-clientts
-
-- PHP 7.4 or higher
-- cURL extension
-- JS# NOTE: The following code had syntax errors and was commented out
-# composer require knowledge-base/php-clientdis for caching
-
-### Via Composer
-
-```text
-composer require knowledge-base/php-client
-```text
-# require_once 'path/to/KnowledgeBaseAPI.php';
-# require_once 'path/to/KnowledgeBaseInterface.php';
-3. Use autoloading or require the necessary files
-
-```php
+``````text
+composer require knowledge - base / php - client
+``````text
 require_once 'path/to/KnowledgeBaseAPI.php';
 require_once 'path/to/KnowledgeBaseInterface.php';
-```text
-
-### API Client Configuration
-
-```php
+``````text
 $api = new KnowledgeBaseAPI(
     'https://api.knowledge-base.example',  // API URL
     'YOUR_API_KEY',                        // API key
@@ -90,9 +55,7 @@ $api = new KnowledgeBaseAPI(
 
 // Set request timeout (seconds)
 $api->setTimeout(30);
-```text
-
-```php
+``````text
 $interface = new KnowledgeBaseInterface(
     $api,                 // API client instance
     'templates',          // Template directory
@@ -104,11 +67,7 @@ $interface = new KnowledgeBaseInterface(
         'theme' => 'default'
     ]
 );
-```text
-
-### Basic Search Interface
-
-```php
+``````text
 <?php
 require_once 'vendor/autoload.php';
 
@@ -127,9 +86,7 @@ if (!empty($query)) {
     echo $interface->renderHome();
 }
 ?>
-```text
-
-```text
+``````text
 <?php
 require_once 'vendor/autoload.php';
 
@@ -174,14 +131,7 @@ $interface = new KnowledgeBaseInterface($api);
 # NOTE: The following code had syntax errors and was commented out
 # <link rel="stylesheet" href="path/to/custom/style.css">erface uses PHP templates for rendering. You can create custom templates by copying the default templates and modifying them according to your needs.
 
-```text
-$interface = new KnowledgeBaseInterface(
-    $api,
-    'path/to/custom/templates',
-    ['theme' => 'custom']
-);
-```text
-
+``````text
 ### Custom Styling
 
 Add custom CSS to style th# NOTE: The following code had syntax errors and was commented out
@@ -259,144 +209,16 @@ Add custom CSS to style th# NOTE: The following code had syntax errors and was c
     echo json_encode(['status' => 'success']);
     exit;
 }
-```text
-
-### Request Optimization
-
-```php
+``````text
 // Reduce API calls by combining requests
 $categories = $api->getCategories();
 $featured = $api->search('', ['featured' => true, 'limit' => 5]);
 
 // Use these results in multiple sections of your page
-```text
-
-- **Page caching**: Cache entire rendered pages
-- **Fragment caching**: Cache specific parts of pages
-- **API response caching**: C# NOTE: The following code had syntax errors and was commented out
-# // Enable debugging
-# error_reporting(E_ALL);
-# ini_set('display_errors', 1);
-# 
-# // Get last API error
-# if (!$results) {
-#     echo "API Error: " . $api->getL# NOTE: The following code had syntax errors and was commented out
-# // ServiceProvider
-# namespace App\Providers;
-# 
-# use Illuminate\Support\ServiceProvider;
-# use KnowledgeBaseAPI;
-# 
-# class KnowledgeBaseServiceProvider extends ServiceProvider
-# {
-#     public function register()
-#     {
-#         $this->app->singleton(KnowledgeBaseAPI::class, function ($app) {
-#             return new KnowledgeBaseAPI(
-#                 config('services.knowledge_base.url'),
-#                 config('services.knowledge_base.key')
-#             );
-#         });
-#     }
-# }
-# 
-# // Controller
-# namespace App\Http\Controllers;
-# 
-# use KnowledgeBaseAPI;
-# 
-# class KnowledgeBaseController extends Controller
-# {
-#     protected $api;
-#     
-#     public function __construct(KnowledgeBaseAPI $api)
-#     {
-#         $this->api = $api;
-#     }
-#     
-#     public function search(Request $request)
-#     {
-#         $query = $request->input('q');
-#         $results = $this->api->search($query);
-#         
-#         return view('knowledge.search', [
-#             'query' => $query,
-#             'results' => $results
-#         ]);
-#     }
-# }          config('services.knowledge_base.key')
-            );
-        });
-    }
-}
-
-// Controller
-namespace App\Http\Controllers;
-
-use KnowledgeBaseAPI;
-
-class KnowledgeBaseController extends Controller
-{
-    protected $api;
-    
-    public function __construct(KnowledgeBaseAPI $api)
-    {
-        $this->api = $api;
-    }
-    
-    public function search(Request $request)
-    {
-        $query = $request->input('q');
-        $results = $this->api->search($query);
-        
-        return view('knowledge.search', [
-            'query' => $query,
-            'results' => $results
-        ]);
-    }
-}
-```python
-
+``````text
 ### Integration with WordPress
 
-```text
-function register_knowledge_base_api() {
-    require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
-    
-    global $kb_api;
-    $kb_api = new KnowledgeBaseAPI(
-        get_option('kb_api_url'),
-        get_option('kb_api_key')
-    );
-}
-add_action('init', 'register_knowledge_base_api');
-
-// Shortcode for displaying search results
-function kb_search_shortcode($atts) {
-    global $kb_api;
-    
-    $query = isset($_GET['kb_q']) ? $_GET['kb_q'] : '';
-    $page = isset($_GET['kb_page']) ? (int)$_GET['kb_page'] : 1;
-    
-    $interface = new KnowledgeBaseInterface($kb_api);
-    
-    ob_start();
-    echo '<div class="kb-search-form">';
-    echo '<form method="get">';
-    echo '<input type="text" name="kb_q" value="' . esc_attr($query) . '" placeholder="Search knowledge base...">';
-    echo '<button type="submit">Search</button>';
-    echo '</form>';
-    echo '</div>';
-    
-    if (!empty($query)) {
-        echo $interface->renderSearchResults($query, $page);
-    }
-    
-    return ob_get_clean();
-}
-add_shortcode('kb_search', 'kb_search_shortcode');
-```python
-
+``````text
 ## References
 
 - [PHP Documentation Standards](references/php_standards.md)

@@ -84,12 +84,7 @@ blockchain.add_transaction("Alice", "Bob", 50)
 blockchain.add_transaction("Bob", "Charlie", 30)
 new_block = blockchain.create_block(previous_hash=blockchain.last_block.hash, nonce=100)
 print(f"New Block Created: {new_block.__dict__}")
-```
-
-## 3. Consensus Mechanisms
-
-### Proof of Work Example
-```python
+``````python
 class BlockchainWithPoW(Blockchain):
     def proof_of_work(self, previous_hash, nonce):
         while self.valid_proof(previous_hash, nonce) is False:
@@ -107,12 +102,7 @@ nonce = 0
 pow_nonce = pow_blockchain.proof_of_work(previous_hash=pow_blockchain.last_block.hash, nonce=nonce)
 new_pow_block = pow_blockchain.create_block(previous_hash=pow_blockchain.last_block.hash, nonce=pow_nonce)
 print(f"New Block with PoW Created: {new_pow_block.__dict__}")
-```
-
-## 4. Smart Contracts
-
-### Simple Smart Contract Example (Pseudo-code)
-```python
+``````python
 class SmartContract:
     def __init__(self):
         self.state = {}
@@ -124,11 +114,7 @@ class SmartContract:
 # Usage
 contract = SmartContract()
 contract.execute(condition=True)
-```
-
-## 5. Integration with Knowledge_base
-
-```python
+``````python
 class KnowledgeBase:
     def __init__(self):
         self.blockchain = BlockchainWithPoW()
@@ -143,16 +129,11 @@ nexus = KnowledgeBase()
 nexus.add_transaction("Alice", "Bob", 50)
 new_block = nexus.create_new_block()
 print(f"New Block in Knowledge_base Created: {new_block.__dict__}")
-```
-
-## 6. Advanced Improvements
-
-### A. Delegated Proof of Stake (DPoS)
-```python
+``````python
 class DPoSBlockchain(BlockchainWithPoW):
     def __init__(self):
-        super().__init__()
-        self.delegates = {}
+        super().__init__();
+        self.delegates = {};
     def register_delegate(self, delegate_name):
         if delegate_name not in self.delegates:
             self.delegates[delegate_name] = []
@@ -166,10 +147,7 @@ class DPoSBlockchain(BlockchainWithPoW):
             print(f"Transaction validated by {delegate_name}.")
         else:
             print("Delegate not found.")
-```
-
-### B. Sharding
-```python
+``````python
 class ShardedBlockchain:
     def __init__(self):
         self.shards = {}
@@ -182,10 +160,7 @@ class ShardedBlockchain:
             print(f"Transaction added to shard {shard_id}.")
         else:
             print("Shard not found.")
-```
-
-### C. Upgradable Smart Contracts
-```python
+``````python
 class UpgradableSmartContract:
     def __init__(self, version):
         self.version = version
@@ -198,10 +173,7 @@ class UpgradableSmartContract:
             print(f"Contract executed at version {self.version}.")
         else:
             print("Contract conditions not met.")
-```
-
-### D. Cross-Chain Communication
-```python
+``````python
 class CrossChainProtocol:
     def __init__(self):
         self.connections = {}
@@ -213,10 +185,7 @@ class CrossChainProtocol:
             print(f"Transferring {transaction} from {from_chain} to {to_chain}.")
         else:
             print("No connection found between chains.")
-```
-
-### E. Multi-Signature Transactions
-```python
+``````python
 class MultiSignatureTransaction:
     def __init__(self, required_signatures):
         self.required_signatures = required_signatures
@@ -229,10 +198,7 @@ class MultiSignatureTransaction:
             print("Maximum signatures reached.")
     def is_valid(self):
         return len(self.signatures) >= self.required_signatures
-```
-
-### F. Blockchain Dashboard
-```python
+``````python
 class BlockchainDashboard:
     def __init__(self, blockchain):
         self.blockchain = blockchain
@@ -242,10 +208,7 @@ class BlockchainDashboard:
     def display_transactions(self):
         for transaction in self.blockchain.current_transactions:
             print(transaction)
-```
-
-### G. Decentralized Storage (IPFS)
-```python
+``````python
 class DecentralizedStorage:
     def __init__(self):
         self.files = {}
@@ -254,10 +217,7 @@ class DecentralizedStorage:
         print(f"File {file_name} uploaded to IPFS.")
     def retrieve_file(self, file_name):
         return self.files.get(file_name, "File not found.")
-```
-
-### H. Quantum Encryption
-```python
+``````python
 class QuantumEncryption:
     def __init__(self):
         self.keys = {}
@@ -270,10 +230,7 @@ class QuantumEncryption:
             print(encrypted_data)
             return encrypted_data
         return "Key not found."
-```
-
-### I. Blockchain Analytics
-```python
+``````python
 class BlockchainAnalytics:
     def __init__(self, blockchain):
         self.blockchain = blockchain
@@ -284,23 +241,3 @@ class BlockchainAnalytics:
 analytics = BlockchainAnalytics(blockchain)
 analytics.analyze_transactions()
 ```
-
-## 7. Practical Applications
-- **Supply Chain Management**
-- **Identity Management**
-- **Finance and Payments**
-- **Data Integrity**
-- **Voting Systems**
-- **Healthcare**
-
-## 8. Future Considerations
-- Interoperability, scalability, security, and quantum integration
-- Compliance with patents, governance, laws, and regulations
-- Ongoing research and upgrades
-
-## References
-- [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
-- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
-- [Hyperledger](https://www.hyperledger.org/)
-- [IPFS](https://ipfs.tech/)
-- [Blockchain Patents](https://www.wipo.int/wipo_magazine/en/2019/01/article_0007.html)

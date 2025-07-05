@@ -43,9 +43,7 @@ Quantum computers pose a significant threat to current cryptographic systems. Th
 
 #### Key Encapsulation Mechanism (KEM)
 ```python
-from cryptography.hazmat.primitives.asymmetric import kyber
-
-def generate_kyber_keypair():
+from cryptography.hazmat.primitives.asymmetric import kyber as def generate_kyber_keypair():
     """Generate Kyber key pair for post-quantum secure key exchange."""
     private_key = kyber.generate_private_key()
     public_key = private_key.public_key()
@@ -59,12 +57,7 @@ def encrypt_message(public_key, message):
 def decrypt_message(private_key, ciphertext):
     """Decrypt a message using Kyber KEM."""
     return private_key.decrypt(ciphertext)
-```
-
-### 2. Hash-Based Signatures
-
-#### SPHINCS+
-```python
+``````python
 import hashlib
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import sphincs
@@ -93,12 +86,7 @@ def verify_signature(public_key, signature, message):
         return True
     except Exception:
         return False
-```
-
-### 3. Code-Based Cryptography
-
-#### Classic McEliece
-```python
+``````python
 # Note: This is a conceptual example. Actual implementation would use a library like PQClean
 import numpy as np
 
@@ -156,13 +144,7 @@ class McEliece:
         message = np.mod(np.dot(m_hat, S_inv), 2)
         
         return message
-```
-
-## Implementation Guide
-
-### 1. Hybrid Cryptography
-
-```python
+``````python
 from cryptography.hazmat.primitives.asymmetric import ec, rsa, padding
 from cryptography.hazmat.primitives import hashes, hmac
 from cryptography.hazmat.primitives.kdf.hkdf import HKDF
@@ -255,13 +237,7 @@ class HybridEncryption:
         cipher = Cipher(algorithms.AES(enc_key), modes.GCM(iv, tag))
         decryptor = cipher.decryptor()
         return decryptor.update(ciphertext) + decryptor.finalize()
-```
-
-## Performance Considerations
-
-### 1. Benchmarking Post-Quantum Algorithms
-
-```python
+``````python
 import time
 import statistics
 from tabulate import tabulate
@@ -301,13 +277,7 @@ def benchmark_operations():
 :
 if __name__ == "__main__":
     benchmark_operations()
-```
-
-## Migration Strategy
-
-### 1. Cryptographic Agility Framework
-
-```python
+``````python
 from enum import Enum
 from typing import Dict, Type, Any
 import json
@@ -399,37 +369,3 @@ if __name__ == "__main__":
     # Load configuration from file
     crypto_manager.load_config("crypto_config.json")
 ```
-
-## Best Practices
-
-1. **Hybrid Cryptography**
-   - Combine classical and post-quantum algorithms
-   - Use both ECDH and Kyber for key exchange
-   - Use both ECDSA and SPHINCS+ for signatures
-
-2. **Key Management**
-   - Store keys securely using HSMs or TPMs
-   - Implement key rotation policies
-   - Use proper key derivation functions
-
-3. **Performance Optimization**
-   - Cache cryptographic operations when possible
-   - Use hardware acceleration (AES-NI, SHA extensions)
-   - Consider using pre-computed values for frequently used parameters
-
-4. **Security Considerations**
-   - Use constant-time implementations
-   - Protect against side-channel attacks
-   - Implement proper error handling
-   - Use secure random number generation
-
-## References
-
-1. [NIST Post-Quantum Cryptography Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)
-2. [PQClean: Post-quantum cryptography software](https://github.com/PQClean/PQClean)
-3. [Open Quantum Safe](https://openquantumsafe.org/)
-4. [RFC 8551: Leighton-Micali Hash-Based Signatures](https://tools.ietf.org/html/rfc8551)
-5. [CRYSTALS-Kyber Algorithm Specifications](https://pq-crystals.org/kyber/)
-6. [Classic McEliece: NIST Round 3 Submission](https://classic.mceliece.org/)
-7. [SPHINCS+ Submission to the NIST Post-Quantum Project](https://sphincs.org/)
-8. [NIST Special Publication 800-208: Stateful Hash-Based Signatures](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-208.pdf)

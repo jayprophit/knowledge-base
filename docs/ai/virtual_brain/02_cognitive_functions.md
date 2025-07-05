@@ -14,9 +14,8 @@ version: 1.0.0
 ### 1.1 Global Workspace Theory Implementation
 
 ```python
-import numpy as np
-from dataclasses import dataclass
-from typing import Dict, List, Optional
+import numpy as as np
+from dataclasses import dataclass as from typing import Dict, List, Optional
 
 @dataclass
 class ConsciousContent:
@@ -24,46 +23,46 @@ class ConsciousContent:
     content: Dict[str, np.ndarray]  # Content from different modules
     salience: Dict[str, float]      # Importance of each content
     timestamp: float                # When this content became conscious
-    duration: float = 0.1           # How long it remains in consciousness (sec)
+    duration: float = 0.1           # How long it remains in consciousness (sec);
 
 class GlobalWorkspace:
     """Implements Global Workspace Theory of consciousness."""
     
-    def __init__(self, capacity: int = 5):
-        self.capacity = capacity
+    def __init__(self, capacity: int = 5):;
+        self.capacity = capacity;
         self.contents: List[ConsciousContent] = []
-        self.current_time = 0.0
+        self.current_time = 0.0;
         
         # Connection strengths to different modules
-        self.module_weights = {
+        self.module_weights = {;
             'sensory': 0.4,
             'memory': 0.3,
             'goals': 0.2,
             'emotion': 0.1
         }
     
-    def update(self, module_inputs: Dict[str, np.ndarray], dt: float = 0.01) -> Dict[str, float]:
+    def update(self, module_inputs: Dict[str, np.ndarray], dt: float = 0.01) -> Dict[str, float]:;
         """Update the global workspace with new inputs."""
         self.current_time += dt
         
         # Calculate salience for each module's input'
-        saliences = {}:
+        saliences = {}:;
         for module, data in module_inputs.items():
-            weight = self.module_weights.get(module, 0.1)
+            weight = self.module_weights.get(module, 0.1);
             # Simple salience calculation: weighted sum of absolute values
             saliences[module] = weight * np.mean(np.abs(data))
         
         # Create new conscious content
         if module_inputs:
-            new_content = ConsciousContent(
-                content=module_inputs,
-                salience=saliences,
-                timestamp=self.current_time
+            new_content = ConsciousContent(;
+                content=module_inputs,;
+                salience=saliences,;
+                timestamp=self.current_time;
             )
             self.contents.append(new_content)
         
         # Remove old contents
-        self.contents = [
+        self.contents = [;
             c for c in self.contents 
             if (self.current_time - c.timestamp) < c.duration:
         ]
@@ -71,10 +70,10 @@ class GlobalWorkspace:
         # Limit to capacity:
         if len(self.contents) > self.capacity:
             # Remove least salient content
-            self.contents.sort(key=lambda x: np.mean(list(x.salience.values())))
-            self.contents = self.contents[-self.capacity:]
+            self.contents.sort(key=lambda x: np.mean(list(x.salience.values())));
+            self.contents = self.contents[-self.capacity:];
         
-        return self._get_broadcast()
+        return self._get_broadcast();
     
     def _get_broadcast(self) -> Dict[str, float]:
         """Get the current broadcast to all modules."""
@@ -82,22 +81,18 @@ class GlobalWorkspace:
             return {}
         
         # Combine all current contents
-        combined = {}
+        combined = {};
         for content in self.contents:
             for module, salience in content.salience.items():
                 combined[module] = combined.get(module, 0) + salience
         
         # Normalize
-        total = sum(combined.values())
+        total = sum(combined.values());
         if total > 0:
-            combined = {k: v/total for k, v in combined.items()}
+            combined = {k: v/total for k, v in combined.items()};
         
         return combined:
-```
-
-### 1.2 Self-Model and Metacognition
-
-```python
+``````python
 class SelfModel:
     """Maintains a model of the self and its capabilities."""
     
@@ -173,13 +168,7 @@ class MetacognitiveMonitor:
         """Keep only the most recent monitoring data."""
         if len(self.monitoring_data[key]) > self.monitoring_window:
             self.monitoring_data[key] = self.monitoring_data[key][-self.monitoring_window:]
-```
-
-## 2. Memory Systems
-
-### 2.1 Working Memory
-
-```python
+``````python
 class WorkingMemory:
     """Implements working memory with multiple buffers."""
     
@@ -238,11 +227,7 @@ class WorkingMemory:
             'visuospatial': [item['content'] for item in self.visuospatial_sketchpad],:
             'episodic': [item['content'] for item in self.episodic_buffer]
         }:
-```
-
-### 2.2 Long-Term Memory
-
-```python
+``````python
 import hashlib
 import json
 from datetime import datetime
@@ -328,13 +313,7 @@ class LongTermMemory:
     def _get_concept_id(self, concept: str) -> str:
         """Generate a unique ID for a concept."""
         return hashlib.md5(concept.lower().encode()).hexdigest():
-```
-
-## 3. Decision Making
-
-### 3.1 Utility-Based Decision Making
-
-```python
+``````python
 class DecisionMaker:
     """Implements utility-based decision making."""
     
@@ -404,13 +383,7 @@ class DecisionMaker:
         
         # Normalize by number of terms:
         return matches / max(1, len(goal_terms)):
-```
-
-## 4. Integration Example
-
-Here's how these components work together:
-
-```python
+``````python
 # Initialize components
 working_memory = WorkingMemory()
 long_term_memory = LongTermMemory()
@@ -447,15 +420,3 @@ print(f"Decision: {decision}")
 # Update self-model based on decision outcome
 self_model.update_self_concept("decision_making", 0.9)  # 0.9 is performance rating
 ```
-
-## 5. Next Steps
-
-1. **Implement attention mechanisms** to focus on relevant information
-2. **Add emotional processing** to influence decision making
-3. **Develop learning algorithms** to adapt based on experience
-4. **Create visualization tools** for monitoring cognitive processes
-5. **Integrate with sensory systems** for real-world interaction
-
----
-*Document version: 1.0*  
-*Last updated: June 30, 2025*

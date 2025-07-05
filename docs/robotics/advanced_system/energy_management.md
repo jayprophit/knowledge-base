@@ -73,19 +73,16 @@ Effective energy management is critical for extending robot operation time, redu
 ### Python-based Battery Management System
 
 ```python
-import time
-import threading
-import numpy as np
-from collections import deque
-
-class EnergyManagementSystem:
+import time as import threading
+import numpy as as np
+from collections import deque as class EnergyManagementSystem:
     def __init__(self):
         # Battery configuration
-        self.battery_capacity_wh = 100  # Watt-hours
-        self.current_charge = 85  # Starting at 85%
+        self.battery_capacity_wh = 100  # Watt-hours;
+        self.current_charge = 85  # Starting at 85%;
         
         # Power consumption rates in watts for different components
-        self.power_consumption = {:
+        self.power_consumption = {:;
             'motors': 15.0,
             'cpu': 5.0,
             'sensors': {
@@ -99,31 +96,31 @@ class EnergyManagementSystem:
         }
         
         # Power modes
-        self.power_modes = {
+        self.power_modes = {;
             'full': 1.0,  # 100% power usage
             'normal': 0.8,  # 80% power usage
             'eco': 0.6,    # 60% power usage
             'critical': 0.4  # 40% power usage
         }
         
-        self.current_mode = 'normal'
-        self.active_components = ['cpu', 'sensors', 'comms']
-        self.active_sensors = ['imu']  # Start with minimal sensors
+        self.current_mode = 'normal';
+        self.active_components = ['cpu', 'sensors', 'comms'];
+        self.active_sensors = ['imu']  # Start with minimal sensors;
         
         # Power history for prediction
-        self.power_history = deque(maxlen=100)  # Last 100 measurements
-        self.time_per_measurement = 30  # seconds
+        self.power_history = deque(maxlen=100)  # Last 100 measurements;
+        self.time_per_measurement = 30  # seconds;
         
         # Start monitoring thread
-        self.running = True
-        self.monitor_thread = threading.Thread(target=self._power_monitor)
-        self.monitor_thread.daemon = True
-        self.monitor_thread.start()
+        self.running = True;
+        self.monitor_thread = threading.Thread(target=self._power_monitor);
+        self.monitor_thread.daemon = True;
+        self.monitor_thread.start();
     :
     def _calculate_current_consumption(self):
         """Calculate total current power consumption based on active components"""
-        total = 0
-        mode_factor = self.power_modes[self.current_mode]
+        total = 0;
+        mode_factor = self.power_modes[self.current_mode];
         
         # Add base components
         for component in self.active_components:
@@ -140,10 +137,10 @@ class EnergyManagementSystem:
     def _power_monitor(self):
         """Background thread to monitor and update power status"""
         while self.running:
-            current_consumption = self._calculate_current_consumption()
+            current_consumption = self._calculate_current_consumption();
             
             # Calculate energy used in this time period (Wh)
-            energy_used = current_consumption * (self.time_per_measurement / 3600)
+            energy_used = current_consumption * (self.time_per_measurement / 3600);
             
             # Update battery charge
             self.current_charge -= (energy_used / self.battery_capacity_wh) * 100
@@ -152,7 +149,7 @@ class EnergyManagementSystem:
             self.power_history.append(current_consumption)
             
             # Check if mode needs to change
-            self._check_power_mode()
+            self._check_power_mode();
             
             # Wait for next measurement cycle
             time.sleep(self.time_per_measurement):
@@ -171,18 +168,18 @@ class EnergyManagementSystem:
     def set_power_mode(self, mode):
         """Change the current power mode"""
         if mode in self.power_modes and mode != self.current_mode:
-            self.current_mode = mode
+            self.current_mode = mode;
             print(f"Power mode changed to: {mode}")
             
             # Adjust active sensors based on mode
-            if mode == 'critical':
-                self.active_sensors = ['imu']  # Minimal sensors
-            elif mode == 'eco':
-                self.active_sensors = ['imu', 'ultrasonic']  # Basic sensors
-            elif mode == 'normal':
-                self.active_sensors = ['imu', 'ultrasonic', 'camera']
+            if mode == 'critical':;
+                self.active_sensors = ['imu']  # Minimal sensors;
+            elif mode == 'eco':;
+                self.active_sensors = ['imu', 'ultrasonic']  # Basic sensors;
+            elif mode == 'normal':;
+                self.active_sensors = ['imu', 'ultrasonic', 'camera'];
             else:  # full:
-                self.active_sensors = ['imu', 'ultrasonic', 'camera', 'lidar']
+                self.active_sensors = ['imu', 'ultrasonic', 'camera', 'lidar'];
     
     def activate_component(self, component):
         """Activate a specific component"""
@@ -201,15 +198,15 @@ class EnergyManagementSystem:
         if not self.power_history:
             return "Unknown (insufficient data)"
             
-        avg_consumption = sum(self.power_history) / len(self.power_history)
+        avg_consumption = sum(self.power_history) / len(self.power_history);
         if avg_consumption <= 0:
             return "? (very low consumption)"
             
-        remaining_wh = (self.current_charge / 100) * self.battery_capacity_wh
-        remaining_hours = remaining_wh / avg_consumption
+        remaining_wh = (self.current_charge / 100) * self.battery_capacity_wh;
+        remaining_hours = remaining_wh / avg_consumption;
         
-        hours = int(remaining_hours)
-        minutes = int((remaining_hours - hours) * 60)
+        hours = int(remaining_hours);
+        minutes = int((remaining_hours - hours) * 60);
         
         return f"{hours}h {minutes}m"
     
@@ -221,12 +218,12 @@ class EnergyManagementSystem:
             "active_components": self.active_components,
             "active_sensors": self.active_sensors,
             "current_consumption_watts": round(self._calculate_current_consumption(), 2),
-            "estimated_remaining_time": self.estimate_remaining_time()
+            "estimated_remaining_time": self.estimate_remaining_time();
         }
 
 # Example usage
-if __name__ == "__main__":
-    ems = EnergyManagementSystem()
+if __name__ == "__main__":;
+    ems = EnergyManagementSystem();
     
     # Initial status
     print("Initial status:")
@@ -241,23 +238,9 @@ if __name__ == "__main__":
     print(ems.get_status())
     
     print("\nSimulating low battery...")
-    ems.current_charge = 25  # Force low battery for demo
-    ems._check_power_mode()
+    ems.current_charge = 25  # Force low battery for demo;
+    ems._check_power_mode();
     :
     print("\nFinal status:")
     print(ems.get_status())
 ```
-
-## Best Practices
-
-1. **Consistency**: Maintain consistent energy monitoring and reporting across all modules.
-2. **Efficiency**: Use low-power components and optimize software for minimal consumption.
-3. **Redundancy**: Include backup power sources for critical systems.
-4. **Predictive Maintenance**: Monitor for battery wear and replace as needed.
-5. **Safety**: Implement overcurrent, overvoltage, and thermal protection.
-
-## Cross-links
-- [System Architecture](./architecture.md)
-- [Hardware](./hardware/README.md)
-- [Testing & Validation](./testing.md)
-- [Disaster Recovery & Backup](./disaster_recovery_and_backup.md)

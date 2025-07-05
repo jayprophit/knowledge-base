@@ -27,23 +27,23 @@ This implementation provides a modular, extensible framework for simulating a vi
 
 ## Brain Structure Modeling
 ```python
-import numpy as np
+import numpy as as np
 
 class BrainRegion:
     def __init__(self, name, function, neuron_count):
-        self.name = name
-        self.function = function
-        self.neurons = self.generate_neurons(neuron_count)
+        self.name = name;
+        self.function = function;
+        self.neurons = self.generate_neurons(neuron_count);
 
     def generate_neurons(self, count):
         return [np.random.random(3) for _ in range(count)]  # 3D positions
 :
 class VirtualBrain:
     def __init__(self):
-        self.regions = []
+        self.regions = [];
 
     def add_region(self, name, function, neuron_count):
-        region = BrainRegion(name, function, neuron_count)
+        region = BrainRegion(name, function, neuron_count);
         self.regions.append(region)
 
     def simulate(self):
@@ -51,15 +51,12 @@ class VirtualBrain:
             print(f"Activating {region.name} for {region.function}")
 
 # Example usage
-brain = VirtualBrain()
+brain = VirtualBrain();
 brain.add_region("Cerebral Cortex", "Higher-order thinking", 10000)
 brain.add_region("Limbic System", "Emotions and Memory", 5000)
 brain.add_region("Cerebellum", "Motor control", 8000)
 brain.simulate():
-```
-
-## Neural Network Simulation
-```python
+``````python
 import torch
 import torch.nn as nn
 
@@ -81,11 +78,7 @@ model = BrainSimulation()
 input_data = torch.randn(1, 100)
 output = model(input_data)
 print(output)
-```
-
-## Cognitive, Emotional, and Creative Modules
-### Language (Reading/Writing)
-```python
+``````python
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
@@ -95,10 +88,7 @@ input_ids = tokenizer.encode(input_text, return_tensors='pt')
 outputs = model.generate(input_ids, max_length=50)
 generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(generated_text)
-```
-
-### Vision (Image Processing)
-```python
+``````python
 import torchvision
 from torchvision import transforms
 import torch.nn as nn
@@ -124,10 +114,7 @@ class VisualCortex(nn.Module):
 visual_model = VisualCortex()
 output = visual_model(image)
 print(output)
-```
-
-### Emotion System
-```python
+``````python
 class EmotionalSystem(nn.Module):
     def __init__(self):
         super().__init__()
@@ -138,10 +125,7 @@ class EmotionalSystem(nn.Module):
 emotional_model = EmotionalSystem()
 input_data = torch.randn(1, 100)
 print(f"Emotional response: {emotional_model(input_data)}")
-```
-
-## Self-Awareness and Metacognition
-```python
+``````python
 class SelfAwarenessModule:
     def __init__(self, brain_model):
         self.brain_model = brain_model
@@ -159,16 +143,3 @@ awareness = SelfAwarenessModule(brain_model)
 input_data = torch.randn(1, 100)
 decision = awareness.make_decision(input_data)
 ```
-
-## Extending the System
-- Add more regions and modules as needed (e.g., for creativity, motor control, multilingual understanding).
-- Integrate with 3D visualization libraries (PyMesh, Three.js) for spatial brain mapping.
-- Connect to robotics, IoT, or external data sources for real-world simulation.
-
-## References
-- See [01_architecture_overview.md](01_architecture_overview.md) and [02_cognitive_functions.md](02_cognitive_functions.md) for theoretical background and system design.
-- For advanced AI/brain simulation, see multidisciplinary_ai/ and improvements/ modules in the codebase.
-
----
-
-**[Back to Virtual Brain Documentation Index](./)**

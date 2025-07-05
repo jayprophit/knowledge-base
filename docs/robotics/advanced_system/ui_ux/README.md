@@ -25,40 +25,25 @@ This document outlines the design principles, components, and implementation gui
 #### 2.1 Color Palette
 ```text
 # NOTE: The following code had syntax errors and was commented out
-# # NOTE: The following code had syntax errors and was commented out
-# # // Primary Colors
-# # $primary: #2563eb;      // Main brand color
-# # $primary-dark: #1d4ed8; // Darker shade
-# # $primary-light: #3b82f6; // Lighter shade
-# # 
-# # // Status Colors
-# # $success: #10b981;     // Green
-# # $warning: #f59e0b;     // Yellow
-# # $error: #ef4444;       // Red
-# # $info: #3b82f6;        // Blue
-# # 
-# # // Grayscale
-# # $gray-900: #111827;    // Almost black
-# # $gray-700: #374151;    // Dark gray
-# # $gray-500: #6b7280;    // Medium gray
-# # $gray-300: #d1d5db;    // Light gray
-# # $gray-100: #f3f4f6;    // Off-white
-```text
-- **Primary Font**: Inter (Sans-serif)
-- **Monospace**: JetBrains Mono
-- **Base Size**: 16px (1rem)
-- **Scale**: 1.25 (Major Third)
-
-#### 2.3 Spacing System
-- **Base Unit**: 4px
-- **Scale**: 0.25rem, 0.5rem, 1rem, 1.5rem, 2rem, 3rem, 4rem, 6rem, 8rem
-
-## Interface Components
-
-### 1. Dashboard
-
-#### 1.1 Main Navigation
-```jsx
+# NOTE: The following code had syntax errors and was commented out
+# / Primary Colors
+# $primary: #2563eb; / Main brand color
+# $primary - dark: #1d4ed8; / Darker shade
+# $primary - light: #3b82f6; / Lighter shade
+# 
+# / Status Colors
+# $success: #10b981; / Green
+# $warning: #f59e0b; / Yellow
+# $error: #ef4444; / Red
+# $info: #3b82f6; / Blue
+# 
+# / Grayscale
+# $gray - 900: #111827; / Almost black
+# $gray - 700: #374151; / Dark gray
+# $gray - 500: #6b7280; / Medium gray
+# $gray - 300: #d1d5db; / Light gray
+# $gray - 100: #f3f4f6; / Off - white
+``````text
 function Navigation() {
   return (
     <nav className="bg-gray-900 text-white p-4">
@@ -76,8 +61,7 @@ function Navigation() {
     </nav>
   );
 }
-```text
-```jsx
+``````text
 function StatusOverview() {
   const [status, setStatus] = useState({
     battery: 87,
@@ -114,10 +98,7 @@ function StatusOverview() {
     </div>
   );
 }
-```text
-
-#### 2.1 Joystick Control
-```jsx
+``````text
 function JoystickControl() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [active, setActive] = useState(false);
@@ -152,10 +133,7 @@ function JoystickControl() {
     </div>
   );
 }
-```text
-
-#### 3.1 3D Point Cloud
-```jsx
+``````text
 function PointCloudViewer() {
   const [points, setPoints] = useState([]);
   const canvasRef = useRef(null);
@@ -196,10 +174,7 @@ function PointCloudViewer() {
   
   return <canvas ref={canvasRef} className="w-full h-96" />;
 }
-```text
-
-### 1. Navigation Structure
-```mermaid
+``````text
 graph TD
     A[Splash Screen] --> B[Login]
     B --> C[Main Dashboard]
@@ -213,10 +188,7 @@ graph TD
     E --> K[Task Creation]
     F --> L[Camera Feed]
     F --> M[Sensor Readings]
-```text
-
-#### 2.1 Login Screen
-```text
+``````text
 function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -325,61 +297,7 @@ function LoginScreen() {
         emergency_stop()"ef handle_emergency_stop(self, _):
         print("EMERGENCY STOP ACTIVATED")
         emergency_stop()
-```text
-
-### 1. Screen Reader Support
-- All interactive elements have proper ARIA labels
-- Semantic # NOTE: The following code had syntax errors and was commented out
-# // en.json
-# {
-#   "dashboard": {
-#     "title": "Dashboard",
-#     "battery": "Battery",
-#     "connection": "Connection",
-#     "system": "System",
-#     "tasks": "Active Tasks"
-#   },
-#   "navigation": {
-#     "manual": "Manual Control",
-#     "waypoints": "Waypoints",
-#     "autonomous": "Autonomous"
-#   }
-# }
-# 
-# // es.json
-# {
-#   "dashboard": {
-#     "title": "Panel de Control",
-#     "battery": "Bater?a",
-#     "connection": "Conexi?n",
-#     "system": "Sistema",
-#     "tasks": "Tareas Activas"
-#   },
-#   "navigation": {
-#     "manual": "Control Manual",
-#     "waypoints": "Puntos de Rut# NOTE: The following code had syntax errors and was commented out
-# # // Lazy load heavy components
-# # const HeavyComponent = React.lazy(() => import('./HeavyComponent'));
-# # 
-# # function App() {
-# #   return (
-# #     <Suspense fallback={<div>Loading...</div>}>
-# #       <HeavyComponent />
-# #     </Suspense>
-# #   );
-# # }turn (
-#     <Suspense fallback={<div>Loading...</div>}>
-#       <HeavyComponent />
-#     </Suspense>
-#   );
-# }}turn (
-    <Suspense fallback={<div>Loading...</div>}>
-      <HeavyComponent />
-    </Suspense>
-  );
-}
-```python
-
+``````text
 ### 2. Image Optimization
 - Use WebP format with fallbacks
 - Implement lazy loading
@@ -388,68 +306,13 @@ function LoginScreen() {
 ## Testing
 
 ### 1. Unit Tests
-```javascript
-describe('Navigation', () => {
-  it('should navigate to waypoint', () => # NOTE: The following code had syntax errors and was commented out
-# describe('Mobile App', () => {
-#   it('should allow teleoperation', async () => {
-#     await device.launchApp();
-#     await element(by.id('login-button')).tap();
-#     await element(by.id('teleop-tab')).tap();
-#     
-#     const joystick = element(by.id('joystick'));
-#     await joystick.swipe('right', 'fast', 0.5);
-#     
-#     await expect(element(by.text('Moving right'))).toBeVisible();
-#   });
-# });.id('login-button')).tap();
-    await element(by.id('teleop-tab')).tap();
-    
-    const joystick = element(by.id('joystick'));
-    await joystick.swipe('right', 'fast', 0.5);
-    
-    await expect(element(by.text('Moving right'))).toBeVisible();
-  });
-});
-```python
-
+``````text
 ## Deployment
 
 ### 1. Web Application
-```text
-# docker-compose.yml
-version: '3.8'
-services:
-  web:
-    build: ./web
-    ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV=production
-      - API_URL=/api
-    restart: unless-stopped
-```python
-
+``````text
 ### 2. Mobile Application
-```text
-# fastlane/Fastfile
-lane :beta do
-  increment_build_number
-  build_app(
-    workspace: "RobotApp.xcworkspace",
-    scheme: "RobotApp",
-    export_method: "ad-hoc",
-    export_options: {
-      method: "ad-hoc",
-      provisioningProfiles: {
-        "com.yourcompany.robotapp" => "match AdHoc com.yourcompany.robotapp"
-      }
-    }
-  )
-  upload_to_testflight
-end
-```python
-
+``````text
 ## Troubleshooting
 
 ### Common Issues
