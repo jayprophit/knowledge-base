@@ -13,6 +13,51 @@ version: 2.0.0
 
 This guide provides complete instructions for deploying the Advanced AI & Technology Knowledge Base to various hosting platforms. The knowledge base is production-ready and can be deployed as a static website.
 
+## 🖥️ Local Development
+
+You can run the knowledge base locally for development or testing purposes. Here's how:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or later recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+
+### Setup Instructions
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/knowledge-base.git
+   cd knowledge-base
+   ```
+
+2. **Install dependencies** (if any)
+
+   ```bash
+   npm install  # or yarn install
+   ```
+
+3. **Start the local development server**
+
+   ```bash
+   # Using Python's built-in server (if no build step is required)
+   python -m http.server 8000
+   
+   # Or if using a static site generator like VuePress:
+   # npm run dev
+   ```
+
+4. **Access the local site**
+
+   Open your browser and navigate to: <http://localhost:8000>
+
+5. **Making changes**
+
+   - Edit files in the repository
+   - The site will automatically reload if you're using a development server
+   - For static sites, rebuild after making changes if needed
+
 ## 📋 Pre-Deployment Checklist
 
 ✅ **System Status**: Production-ready  
